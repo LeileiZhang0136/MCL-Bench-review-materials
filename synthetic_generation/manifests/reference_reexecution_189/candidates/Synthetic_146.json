@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_146",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/colawarscontinue-final-140515114621-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/colawarscontinue-final-140515114621-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-1-1024.jpg",
+        "sha256": "34d331efead3a7e1a6da4e9c0649095d409ab5ec781d13163b4485764568b5cb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-3-1024.jpg",
+        "sha256": "c148dd62f8f803655d93dc9dfc88dd3ed0a184eea59bc094a7617f7ae771cf1c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-4-1024.jpg",
+        "sha256": "e92461d638c910b5914bad6bd955e31ab6d7163e50df0f18c98318bcc3cafac5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-6-1024.jpg",
+        "sha256": "559d27316ed0f378545d33bda835f31b0855fd5669a21c66b336e49263d27a52",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-8-1024.jpg",
+        "sha256": "06c4b0550e33b9d5ff91e99b4b91dca7ac9f11533f6ef35d6355046a04fd2a00",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-10-1024.jpg",
+        "sha256": "aee81dd45b3df332236969f103a77e8c566afc6ef59278f0a5e24f6265e93344",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-11-1024.jpg",
+        "sha256": "272d9ad7b312c8332382b4cc9275875c1d4d5d45dfd4e751a58dd8f32a374925",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-13-1024.jpg",
+        "sha256": "ad34ed5e141223b49d97aa9cd4b0e30dd51be289a75ddaeb8d729c8f0f1d3cbf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-15-1024.jpg",
+        "sha256": "870e134f035c1e1fe3e7232609f803a3aa2ef8d32a77ecef5b378e2836d7119f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-17-1024.jpg",
+        "sha256": "e7d0ee909210806d436b1a45fa50273e368297e6b956f634aec8794fe8dff110",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-18-1024.jpg",
+        "sha256": "d76254eb7c5d591a142772efe62d59d8ebd8b044a4130378a481dcacef149b15",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/colawarscontinue-final-140515114621-phpapp02_95/cola-wars-continue-coke-and-pepsi-2010-20-1024.jpg",
+        "sha256": "3b5275736398847b9aa95631d642f31ff59dbe3d8660a2d8f50aedf0a1931747",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_157",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/flippingout-150321205905-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/flippingout-150321205905-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-1-1024.jpg",
+        "sha256": "b3e013c44eca41b5a35cd0bb97895987332981acad1fb6e85001596d6cd25006",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-3-1024.jpg",
+        "sha256": "d382dfb2fbf09ee082a343af37a96531d63b53890f6928fd3b14953eea25a3b0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-4-1024.jpg",
+        "sha256": "454441dca14aed7b661666ba9010ccc3cfb87b5e8377c537d3065414923a8acc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-6-1024.jpg",
+        "sha256": "5853a2c3efb333fee72cc0ae359b50b866311fff2bcdb91cd80d79b4643fc5a2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-8-1024.jpg",
+        "sha256": "d275a776538cb56a1c39345007f683ecf5e1af18e6dea02fc3c94fb67023af35",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-10-1024.jpg",
+        "sha256": "c28e6049374ddb22d190bd57886ba27224e346afda388b77c5e18ccb68b896dc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-11-1024.jpg",
+        "sha256": "7a6029974dc4f999ca3b3924abbbb577ca0192f46249ec72282f19ad55b24fa9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-13-1024.jpg",
+        "sha256": "abfababc01f1268e1905e0db85b6ad3b3e7506de29d7139b7bcbbad62dd8b144",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-15-1024.jpg",
+        "sha256": "7a7429199a4e890b375c078a26d4591d543583d0d830062af021612b4a839688",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-17-1024.jpg",
+        "sha256": "ea457ce8c4d3b462a86f33d5384923510fd2a9b0c65d85164d470bf1c898c450",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-18-1024.jpg",
+        "sha256": "f1049517da9592395ea746a8e626c4594891c57c092ee62f4475e8d5d9a63155",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/flippingout-150321205905-conversion-gate01_95/flipping-out-concepts-of-inverted-classrooms-for-teaching-and-training-20-1024.jpg",
+        "sha256": "edd04f74b0d90282f562391df8f7bf89300192da989d1c45fa68ccd7e3136e9c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

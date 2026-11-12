@@ -1,0 +1,2350 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a professional manual analysis assistant specialized in understanding procedural documents such as assembly instructions. Your task is to analyze document structure, step sequences, and relationships between sections, and answer questions strictly based on what is stated in the manual.\n\nYour primary goal is to produce accurate, grounded, and constraint-compliant responses.\n\n[Core Rules]\n1. All answers must be strictly grounded in the content or structure of the manual.\n2. Do not introduce any steps, pages, sections, or details that are not present in the manual.\n3. Do not rely on external knowledge or assumptions unless they are directly supported by the manual.\n4. If a detail cannot be determined from the manual, explicitly state: \"Not observable from the manual\".\n\n[Reasoning Requirements]\nWhen answering, you should:\n- Identify key steps or sections (e.g., Step numbers, preparation stages, Helpful Hints)\n- Track structural relationships (e.g., section hierarchy, page organization)\n- Use temporal or logical reasoning (e.g., before, after, preparation vs assembly stages)\n- Distinguish between different content types (e.g., product images, flat sections, 3D assembly steps)\n- Explain relationships between steps or sections when applicable (e.g., how preparation affects later assembly)\n\n[Answer Style]\n- Be clear, concise, and structured\n- Prefer specific, document-based descriptions (e.g., \"pages 8–9\" or \"Step 3\" instead of vague references)\n- Answer only what the question asks; avoid unnecessary expansion\n- Avoid vague or generic statements (e.g., \"typically\", \"usually\")\n\n[Strict Constraints]\n- Do not hallucinate any details not present in the manual\n- Do not infer hidden steps or unstated processes\n- Do not assume standard procedures unless explicitly described\n- Do not confuse different sections of the manual (e.g., product images vs flat section images)\n\n[If Information Is Insufficient]\nIf the question cannot be answered based on the manual, respond with:\n\"Not observable from the manual\""
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# 1\n\n## Page 1\n\n60491\n1"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_4281c6c86d1f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_2fc3acb33d2b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_0a538be07c18.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_46ebdffd7449.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_93e2231acedf.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_a95a05804de3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_f1e33f9c843e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_a7cc86121233.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_60b3aadb49de.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\nLEGO.com/sustainable-packaging"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_06e8c9f799a8.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\nLEGO® Builder"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_60aca9677bfd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_012_e493135fe64f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_013_e023bcf8c398.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_014_c6fabcddfd1b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_015_038ea3d53fb1.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_016_fa2a45280ce3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_017_46863e159d7c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_018_45704c016353.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_019_e1aa8450bad7.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_020_a8b4c6bb6028.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_021_025728906123.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_022_9640cfb0b682.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_023_d647a11a4fe7.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_024_f66b95ba7fce.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_025_2e597df8563f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_026_261580013606.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_027_4788e71cd2ea.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_028_002e509095ee.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\n4\n\n## Page 5\n\n1\n5"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_029_d9af82bae367.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_030_f419df9e6fa8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_031_d76d4cfdcfdc.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_032_b42c62e4a086.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_033_898dc1b469b1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_034_6544ac254797.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_035_5563b9eacc0a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_036_5eb60654de17.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_037_b1970fa36a0a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_038_da4ceaad9785.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_039_8e18739bfa4d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_040_615869a11d54.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_041_3d412a4d0137.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_042_c7a83ca80358.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_043_de23c8fc2836.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_044_8cd2d328273b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_045_b367f487b7b6.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_046_55ca64123dd2.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_047_1ea6544434d8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_048_34297f44ce34.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_049_ae69ab033f7d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_050_2b52a14da7ba.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_051_4199321e5fa9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_052_5f03eff15caa.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_053_15a97d85891c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_054_57d7b7471002.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_055_9fd8e6083d9b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_056_408e230913ab.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_057_9f09104b63cf.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_058_645943b05a90.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_059_a93394af9375.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_060_f999c77ddca4.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 6\n\n6"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_061_37a828cb20e1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_062_7e166c0d1c35.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_063_7501a3f9cc5f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_064_cff9339d1b07.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_065_ffcc2ac77bde.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_066_171d13ad5245.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_067_d8f17c2142b0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_068_a10178d34e29.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_069_d86cf0194502.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_070_af5def1cd32b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_071_09ec1626fc88.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_072_b118f24e15e8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_073_840b40964899.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_074_e4f6c1b09129.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\n7"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_075_a6bc1556d351.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 8\n\n8"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_076_966adb745191.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_077_a7f7d885aedf.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_078_a0623d93123d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_079_b2e7ec40e677.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_080_555b0b4b80ab.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_081_1bb8fa7e356e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_082_d44a42aaaa45.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_083_43cdf71ecaba.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_084_ca049c59413d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_085_ae3d787f8af5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_086_6e22aa0f0926.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_087_f489fd70decc.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_088_0bc599b52236.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_089_20b7aa2724fa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_090_730476a0be87.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 9\n\n9"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_091_09ad1072d3d8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_092_6678d606c0ac.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_093_aac403286425.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_094_0ed8e961beb3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_095_b208725cf834.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_096_ae22b0005e2c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_097_92bee5d4e8a2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_098_d07daf3fb416.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_099_9afe01595e0c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_100_60bead650715.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_101_0d0d998628e1.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_102_3f33d282815d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_103_9ab60777da3b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_104_ad73e69ded62.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_105_422ae55ca61e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_106_58785d7827fa.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_107_276af5eab25e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_108_a3348bcaa2d6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_109_79f1a833e70f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_110_80ea570bed24.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_111_9071cec206ea.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_112_0dd81154d5af.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_113_3472d178fc57.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_114_0d65a7e93e4f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_115_a487af006183.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_116_b8b57be82482.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_117_1b4c72b4fce8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_118_38a2d2ad2b2f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_119_ba8f6acb2b2d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_120_4b1ace7e507d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_121_6c8f26bbfb1f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_122_101583b2a6ef.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_123_321221d6976d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_124_2c49544b568f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_125_7311971527b1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_126_abc77ced662f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_127_57fcf9183f3c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_128_20da2931e2a7.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_129_bbac3f5e5174.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_130_9cf2b56fd1bf.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_131_8b4a6ae4709e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_132_e54fbd605c90.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_133_489bc294d719.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_134_ad4a409980b9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_135_86ade6a36be0.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_136_f1d44f111e1a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_137_5453c60e2d0e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_138_c8069d50fff0.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_139_83edbd2e195d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_140_b7053e31530d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_141_89256b066866.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_142_4b1ca3dbd17e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_143_3502d881c335.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_144_f30b48285f0a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_145_a7b617a2111b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_146_64ec557f4e46.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_147_6385284ea742.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_148_0a899c1d9bb9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_149_d752a7cad455.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_150_dd77a0771308.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_151_12bf422807e7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_152_965db7b2a907.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_153_c6b4864bfd1b.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 10\n\n10"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_154_40349dd64056.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_155_f8b1a89c04a4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_156_f9738e73863f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_157_f1979ce1e026.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_158_72e63b66d4ec.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_159_2523cb8009ea.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_160_c0d6409d41b6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_161_a2b9908a458a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_162_fd1d717aaef0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_163_3df0bede8b8f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_164_9c025eefaccc.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_165_76b6cdcdd1e8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_160_c0d6409d41b6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_166_82ed9b210a99.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_167_6f401eed4da3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 11\n\n11"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_168_01345482b410.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_169_c75ebeba7d25.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 12\n\n12"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_170_bad6d64790c6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_171_c943e6465ede.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_172_ca364a3f3bbc.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_173_f2caeafb89ed.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_174_d17f605360ab.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_175_13ec361a3bee.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_176_2e552b2f64d5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_177_662ff1f70fde.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 13\n\n13"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_178_82285db75b2b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_179_dddc741214ae.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 14\n\n14"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_180_b58932fb827b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_181_5c4273c43de7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_182_e35e9968b4d1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_183_1007dea0afb1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_184_4f4a5959c970.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_185_b1bf1db41142.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_186_3fc1e4a7a09d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_187_a3cbb92cab19.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_188_ea27c3b1141b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_189_ab54a86afb6d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_190_bec83270813a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_191_245d1c17e12a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_192_a5598067b0d3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_193_617ef491aec8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_194_98f2cc694607.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_195_ccfe88017f2d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_196_f892b97c1c2b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_197_c470b3716726.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 15\n\n15"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_198_8d1c5154a2a6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_199_9fa140ab715b.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 16\n\n16"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_200_9eb2f82fbd23.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_201_e68c84251c46.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_202_7b2113aa6030.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_203_aca64dbf4d9a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_204_ee857d24d313.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_205_12f3a1895993.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_206_05484af23e28.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_207_2d49209ee55e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_208_3e54178f7ff6.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 17\n\n17"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_209_475847248ef6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_210_e14dd5cf7cd7.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 18\n\n18"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_211_d2e27c95563f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_212_0cc9f44f94e6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_213_fb6483a968c9.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 19\n\n19"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_214_c9aa9dc9e394.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_215_d14438d5f881.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 20\n\n20"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_216_563c6c98a0ec.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_217_ee928e17964a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_218_acb0c07610f1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_219_49c4110ce780.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_220_a426bdc4c017.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_221_d5c40a6dee07.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_222_957980e670d5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_223_0d3d073507a2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_224_4c5c3485636c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 21\n\n21"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_225_43158d5b72b8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_226_cd011a658a35.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_227_eaf3d7dc4bea.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_228_df5730851f49.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_229_e046e451cfc3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_230_bb9a16a302f4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_231_9a817b147159.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_232_5813de5c6f3e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_233_6ebf23c48f65.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_234_2201b18cda8b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_235_8e9c1d33d893.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_236_c66e4ee92bb6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_237_c9a5aa8d5b62.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_238_8f9886b0b4f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_239_4fa822245a80.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_240_71ba133cf1f2.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_241_4fc1b501b857.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_242_29e6c503bef4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_243_d58d4fd4555d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_244_d67f78432b8f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_245_33feaf3417b2.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_246_3a102bfd9af9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_247_aa8353581006.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_248_d7942959fca5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_249_4d4bc8648070.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_250_b8d04ba11039.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_251_009928fce4a5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_252_fefa6d04b593.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_253_b7f511e81e85.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_254_abf9bbe5ae74.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_255_9ee4687aa41e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_256_180eb7c03386.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_257_7e8552fb3d4b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_258_0764284a4d9c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_259_6c44087a18d6.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_260_0ee59380f26a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_261_1556f0611ea9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_262_f241ec9c3d58.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_263_dae9710a9e24.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 22\n\n22"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_264_75d381ea05c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_265_e260c91a63d7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_266_ee067e178575.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_267_e2b1b5da53d8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_268_f22de3cb894e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_269_5f68ef9a71c3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_270_1bf51b4d9a80.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_271_80c3fa6e5120.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_272_c068c6655e53.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_273_50e300a81012.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_274_8b7ebceb0717.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_275_9f7d9c6e8441.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_276_726ac2793044.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_277_04a84cf1fe79.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_278_d4f11ece0991.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_279_4977e0d2457d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_280_d56ccc0e49eb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_281_2dba92fc0be9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_282_7620f833978c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_283_1c5a62e1613a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_284_69101e06abed.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_285_4abf17b06fb5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_286_f765dff8084a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_287_8a746f2d0f80.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_288_ab6b74ab417c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 25\n\n1x\n301001\n1x\n4298609\n2x\n6047220\n2x\n6249091\n4x\n6260609\n1x\n6347287\n1x\n4298619\n4x\n4619323\n4x\n6064174\n2x\n6298539\n1x\n6409770\n2x\n4118782\n2x\n6390385\n1x\n6509833\n2x\n6514220\n3x\n6514223\n1x\n6580413\n1x\n9341\n2x\n4114319\n1x\n6153335\n1x\n6270320\n1x\n6329698\n2x\n6591507\n25"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_289_4d6c7b442f7f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_290_537dd7f8e884.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_291_0b5c6633cde3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_292_e26a4b29e12d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_293_31bfa30a943a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_294_6c7079d9bf26.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_295_5dce07fa2867.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_296_336ce3068fd0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_297_4d5016dfe886.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_298_1951213080bf.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_299_7fd33f8c6855.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_300_3a6349b31ff4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_301_6d45df4ca1f1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_302_676b87a7d4bb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_303_1e02ad58dbf2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_304_03e48b93d880.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_305_798ffd76ba25.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_306_3062afad41c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_307_079a683198cb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_308_a5b726d74ad8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_309_006a9b3c465f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_310_28ae61f62467.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_311_75a115aeba80.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 26\n\n1x\n6579952\n2x\n6493285\n1x\n4173332\n2x\n6591495\n4x\n6586073\n2x\n6536141\n2x\n6572735\n2x\n4528488\n1x\n4162916\n2x\n6233955\n2x\n6142695\n5x\n6103985\n1x\n6590507\n2x\n6251378\n1x\n6510187\n1x\n6196221\n26"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_312_86e2961de2f6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_313_cbe8b4dc477a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_314_21959bb62261.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_315_042071f8a312.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_316_6d6f8094dace.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_317_75b50817ba0e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_318_fcf55d96d22b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_319_09d681e3163d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_320_e5eb00cd9dea.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_321_33713f1dde75.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_322_6bfe5c9e27e0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_323_9bf1a112919b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_324_1a52d3316c12.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_325_98d83da374b9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_326_542572259fb2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_327_1be6ec317fc3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 27\n\n1x\n6524435\n1x\n4226995\n1x\n4211395\n1x\n6146299\n2x\n6261355\n2x\n4261908\n1x\n6420630\n4x\n6413492\n1x\n6167576\n1x\n6236213\nLEGO.com/service"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_328_01588402a370.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_329_74952c244f64.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_330_ac00de1f7c23.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_331_d829a3a5738f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_332_c8695ad162a4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_333_c7a9f72f597d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_334_a8f9edc65981.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_335_49f0063877aa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_336_4a834f2fa978.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_337_c9b41b78bbaa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_338_d76c9570ed7b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_339_39831b3d04f8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_340_b0bfa26e5bcb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_341_4f40e2847ff7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_342_891a3724afd2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_343_ce62462bd74e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_344_efceb61ebcc5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_345_a55d48ae62e8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_346_6d3719f29582.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_347_617f99087457.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 28\n\nLEGO and the LEGO logo are trademarks of the LEGO Group. \n©2026 The LEGO Group.\n6617232\n6617232"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_348_d3a218da438d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_349_612e9cda1be7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_350_7e660fe93c66.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_351_61e83b711a43.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_352_9c72c6df5f43.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_353_6068dbc3c082.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_354_77ce827be13b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_355_3fb834de5fbd.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_356_2dc62de3edb0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_357_ca7d2b343bb3.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_358_ce6ea75a2040.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_359_bd34c7ee82f2.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_360_0c6d843a368c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_361_66e95de7185e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_362_57e8144aecaa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_363_a12b0818bba4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_364_1cdf3faae3ec.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_365_39647a25f39c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_366_3fa6f192f345.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_367_e0ebd4ced5cd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_368_44e1984b9684.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "According to the instruction manual, after assembling the wheels shown in the earlier steps, what component is added next to the model, and how does this change the overall structure of the build?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should identify that after the wheel assembly, additional body components are added to the model (e.g., the main frame or upper body of the motorcycle).",
+      "2.The response should describe how the structure changes, such as the model transitioning from separate wheel components to a more complete motorcycle form.",
+      "3.The response should reflect the correct sequence in the instruction manual, where wheel assembly is followed by integration into the main structure.",
+      "4.The response should be grounded in the visual progression of the manual (e.g., from isolated parts to a partially assembled model).",
+      "5.The response should not introduce components or steps that are not shown in the instruction manual."
+    ],
+    "metadata": {
+      "task_id": "MCL-0317_T1",
+      "context_id": "MCL-0317",
+      "turn_index": 1
+    }
+  }
+]

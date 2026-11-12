@@ -1,0 +1,20 @@
+{
+  "thresholds": {
+    "min_dimension": 640,
+    "formal_min_images": 4,
+    "blueprint_min_images": 3,
+    "min_readable_ratio": 0.9
+  },
+  "counts": {
+    "slideVQA": {
+      "formal": 542,
+      "blueprint": 136,
+      "rejected": 0
+    },
+    "mmlongbench-doc": {
+      "formal": 135,
+      "blueprint": 0,
+      "rejected": 0
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source_track": "synthetic",
+  "category": "Rule Learning & Complex Reasoning",
+  "subcategory": "Math & Code",
+  "count": 1,
+  "cases": [
+    {
+      "case_id": "MCL-0029",
+      "directory": "MCL-0029_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

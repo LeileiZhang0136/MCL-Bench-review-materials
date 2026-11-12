@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_154",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/biomedicalwaste-140703133253-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/biomedicalwaste-140703133253-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-1-1024.jpg",
+        "sha256": "e4898b48e5d8445593b615a3256d5f50480ffd4a8b4f3946b350bc9875268f8f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-3-1024.jpg",
+        "sha256": "1dffad3ace0fdb8005d5075ad9097f64355882f99f9eb4780a37019eb018f3dd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-4-1024.jpg",
+        "sha256": "b738545cfca2e42dac3d47490c4d37a9aa046cdf770cc6e7e674bc1deb2eba97",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-6-1024.jpg",
+        "sha256": "327d7a109a294f608442b5ce875379e0abc95e6742f28e8186edab7d52d3b3b4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-8-1024.jpg",
+        "sha256": "f09d64ac6a5b89ce86484da67e8566ba8ce3fb06a909776ad62beebb754892a0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-10-1024.jpg",
+        "sha256": "0684a3cd85299245eeef760f5b5950f6b120173733422027d5dc241e2c87c299",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-11-1024.jpg",
+        "sha256": "cdbd8a7c37ca2c3b6b487df3971fb96df05b0824f95b8124c6e352eaab19c785",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-13-1024.jpg",
+        "sha256": "e28f5fd9c662a888d0cb5848c93e93e44292d27958294d1a6ab4f2f590669de2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-15-1024.jpg",
+        "sha256": "e9edd43c9f7581c823a100b9401a2e6d6c6f5c868041f72b7c840b596bac2664",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-17-1024.jpg",
+        "sha256": "c1a17a70e5623eb5d7ebacacd43f094313d1f74a319efe43fe0144bdd5d48eeb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-18-1024.jpg",
+        "sha256": "3a2004dd5bf7f56bb5d872069f7045811dbe886428bb3fa9669c20d4d1d3bc95",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/biomedicalwaste-140703133253-phpapp02_95/biomedical-waste-and-its-management-20-1024.jpg",
+        "sha256": "f968e59b537cabe16efeb7fb532b813475d1cf9bb597c0ded82845828aa1551a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

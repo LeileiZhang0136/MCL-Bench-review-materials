@@ -1,0 +1,61 @@
+{
+  "evaluation_type": "supplementary_open_weight_models",
+  "submitted_leaderboard_modified": false,
+  "models": [
+    {
+      "public_name": "Kimi K2.6",
+      "checkpoint_revision": "not_recorded_in_local_summary"
+    },
+    {
+      "public_name": "Kimi K3",
+      "checkpoint_revision": "not_recorded_in_local_summary"
+    }
+  ],
+  "benchmark": {
+    "cases": 344,
+    "tasks": 1080,
+    "source_tracks": {
+      "synthetic_cases": 189,
+      "expert_collected_cases": 155
+    }
+  },
+  "sequential_history": {
+    "enabled": true,
+    "same_model_outputs_only": true,
+    "history_media_policy": "full"
+  },
+  "primary_judge": {
+    "public_name": "GPT-5.2",
+    "input": [
+      "enumerated task-level rubrics",
+      "evaluated model response"
+    ],
+    "excluded_input": [
+      "inference-model identity",
+      "original multimodal conversation",
+      "original images",
+      "original videos"
+    ],
+    "score_rule": "one if and only if every explicit rubric requirement is satisfied"
+  },
+  "supplementary_media_adapter": {
+    "default_image_max_side_pixels": 2000,
+    "image_reencode_threshold_mib": 4.5,
+    "initial_jpeg_quality": 90,
+    "nominal_video_sampling_fps": 2,
+    "maximum_frames_per_video": 256,
+    "video_frame_max_pixels": 262144,
+    "multi_image_max_pixels_per_image": 2560000,
+    "fallbacks": [
+      "lower image resolution",
+      "lower JPEG quality",
+      "lower video sampling rate",
+      "bounded text compression for provider context limits"
+    ],
+    "interpretation": "Provider-limit fallbacks are recorded adaptations, not additional benchmark tasks or scoring rules."
+  },
+  "generation_configuration": {
+    "shared_claim": "same benchmark tasks, same-model sequential-history rule, and same GPT-5.2 judge contract",
+    "not_claimed": "identical provider generation configuration across the two model deployments"
+  }
+}

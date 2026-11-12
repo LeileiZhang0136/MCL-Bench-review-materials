@@ -1,0 +1,1226 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a carpenter who hangs screens in movie theaters. You want to turn the pages of the \"4K UHD Monitor User Manual\" into a set of luggage checklists that \"turn the monitor manual into a theater construction kit: mounting nails, signal ropes, power supply, picture panel and troubleshooting ladder.\" Each subsequent round must follow the box locations, packing order and no-mixing rules of the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_47447a3d08c4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_e4579f02d2ad.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_b99363b71772.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_87f40d99dd09.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_2267755f7f9f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_8990c2ab7c26.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_6761e57e7157.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ae0a210ecde0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_65558896220a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_5f1d30a697e5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_71fa8ef184c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_f112d2bdb00e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_d1c8c0975907.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e6f15cb3ba8f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_bc112867397f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_0b01676997cb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_e7f7dac61b69.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_5d845f02aaee.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_8879dc4d2c56.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_c143b18378d4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_962ea4a89225.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_b5192088dc79.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_fbaff5ed3b7e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_024_4167f22d0ee6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_025_48d854e3720b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_026_83aebe2e50d2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_027_ddd2567c9795.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_028_47c91180b563.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_029_69923f8dcc49.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_030_1ee1a2302d60.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_031_4751a36287f1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_032_3ca7cec35b97.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_033_b401a9763fc2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_034_a2e953152c49.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_035_000f222a54d1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_036_6886c0440073.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_037_44e48b01d3b8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_038_641b1dd026b7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_039_7ad28c3e256f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_040_d4e4c4d2c3c8.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to create a box location first, and the fields are fixed as: hanger nails, signal ropes, power fires, screen panels, and troubleshooting ladders. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each entry should at least include: which box position this page belongs to, whether it is more suitable for \"packing\" or \"unpacking\" or \"no mixing\", what should be established before it at least, where can it be followed at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or completion status. You also need to assign at least one \"gatekeeper page\" to each slot: without it, the column can easily be said to be wider or narrower.There are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"4K UHD Monitor User Manual\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should cover all pages or page segments, and pack each page into one of the `rack nails`, `signal rope`, `power fire`, `screen tray`, and `troubleshooting ladder`; the reason for packing must be \"Which step of the hands-on problem does this page solve, what kind of pre-state does it rely on, and what will go wrong if it is advanced.\" You cannot just look at the appearance or title of the device.",
+      "2. The response should also separate the responsibilities of the `rack nail`, `signal rope`, `power fire`, `screen panel` and `troubleshooting ladder`: the physical/opening page that can be directly used, the page that will change the connection or power supply status, the page that describes the output and setting results, and the page that is only safely activated in case of exception or after-sales service, cannot steal each other's positions.",
+      "3. The response should the main line must reflect the dependence of \"first create the object - then change the state - then confirm the result - and finally handle the exception/after-sales service\"; if the `screen disk' is used as the unboxing entrance, or the `troubleshooting ladder' is used as daily steps instead of exception review, remediation or closure, this must not be done.",
+      "4. The response should the gatekeeping page must be able to explain which two box positions it will confuse if missing, such as confusing `signal rope` and `power supply fire` as the same type of connection, or mistaking `hanger nail` and `inspection ladder` as entrance instructions; it cannot just say \"it is the most critical\".",
+      "5. The response should also explain: If the page segment boundaries are used in different ways, the packing order, status changes, and exception pages must not be preceded must still be maintained; if it is just to pack adjacent pages more tightly, as long as the dependencies are not changed.",
+      "6. The response should not directly mention the catalog, overview, warranty, version differences, troubleshooting or after-sales information as the first hands-on step, or combine the `signal rope`, `power supply` and `screen panel` into one box just because the same equipment diagram appears."
+    ],
+    "metadata": {
+      "task_id": "MCL-0188_T1",
+      "context_id": "MCL-0188",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a carpenter who hangs screens in movie theaters. You want to turn the pages of the \"4K UHD Monitor User Manual\" into a set of luggage checklists that \"turn the monitor manual into a theater construction kit: mounting nails, signal ropes, power supply, picture panel and troubleshooting ladder.\" Each subsequent round must follow the box locations, packing order and no-mixing rules of the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_47447a3d08c4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_e4579f02d2ad.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_b99363b71772.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_87f40d99dd09.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_2267755f7f9f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_8990c2ab7c26.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_6761e57e7157.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ae0a210ecde0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_65558896220a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_5f1d30a697e5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_71fa8ef184c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_f112d2bdb00e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_d1c8c0975907.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e6f15cb3ba8f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_bc112867397f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_0b01676997cb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_e7f7dac61b69.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_5d845f02aaee.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_8879dc4d2c56.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_c143b18378d4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_962ea4a89225.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_b5192088dc79.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_fbaff5ed3b7e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_024_4167f22d0ee6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_025_48d854e3720b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_026_83aebe2e50d2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_027_ddd2567c9795.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_028_47c91180b563.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_029_69923f8dcc49.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_030_1ee1a2302d60.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_031_4751a36287f1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_032_3ca7cec35b97.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_033_b401a9763fc2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_034_a2e953152c49.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_035_000f222a54d1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_036_6886c0440073.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_037_44e48b01d3b8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_038_641b1dd026b7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_039_7ad28c3e256f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_040_d4e4c4d2c3c8.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to create a box location first, and the fields are fixed as: hanger nails, signal ropes, power fires, screen panels, and troubleshooting ladders. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each entry should at least include: which box position this page belongs to, whether it is more suitable for \"packing\" or \"unpacking\" or \"no mixing\", what should be established before it at least, where can it be followed at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or completion status. You also need to assign at least one \"gatekeeper page\" to each slot: without it, the column can easily be said to be wider or narrower.There are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"4K UHD Monitor User Manual\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the bin slots you have created and do not change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in \"Pack Nails\" and directly use it as the general representative of the entire set of materials without looking back at the other columns.\nB: Some people want to merge \"signal rope\" and \"power fire\", saying that they are talking about the same general direction, but from different angles.\nC: Some people want to use the \"screen disk\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem.\n\nDuring the review, I got another dictation that linked each other: it would describe at least two of the steps in \"can/can't\" that are most easily rewritten, the step in \"hanging nails\" that are most easily rewritten, and the step in \"signal rope\" that are most easily rewritten as consecutive, in the same place, in the same role, or in the same stage of completion. Please don't just check which sentence is valid, but also make a separate reconciliation table: the original statement, the new statement, the maximum number of screens or pages that can be supported, where it can only be temporarily suspended, and which two steps will continue to be contaminated if it is received by mistake. In addition, let’s pick a false positive and a false negative each: the former should not have been followed but could easily be written as established, and the latter could actually be retained as a more reliable judgment, but may be mistakenly deleted due to over-conservatism. Both examples illustrate the minimum corrective approach.\n\nThere is another dictation in the duty record, which directly writes the materials related to \"can/can't\", the materials related to \"hanging nails\", and the materials related to \"signal rope\" into the same continuous chain. You can't just judge which sentence is true and which is false, but also break it down into a checklist: how to write the original record, how to write the subsequent dictation, how far the screen or page can support, what level it can only be retained at present, and which two steps will continue to be taken if it is mistakenly recorded. Add another paragraph to remind the reviewer: Which part is most likely to appear \"looks like a wrong merge, but may actually be mistakenly deleted\"? Why, if you can only save one side first, should you prevent accidental merges or deletions first?The late page shows that the materials corresponding to \"can/can't\", the materials corresponding to \"hanging nails\", and the materials corresponding to \"signal rope\" look like they are being pushed forward along the same line. In addition to the original verification, please add an explanation of \"If this card is written incorrectly, who will be misled first?\": Write down the risk of misidentifying the person first, writing the time and place in order, and raising the risk of materials that could only be placed aside as the main certificate. At the same time, add an operational reminder to the reviewer, explaining which step is least suitable to be directly rewritten into the final draft, but should be left in the checklist first.\n\nThere is a short note written later on the side of the table of contents, repeatedly circling `troubleshooting ladder`, `power supply fire`, and `screen disk`. Please write this part as a \"miswriting consequence table\": write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to excessive conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning.\n\nThere is a short note written later on the side of the table of contents, repeatedly circling `picture plate`, `hanging nail` and `signal rope`. Please write this part as a \"miswriting consequence table\": write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to excessive conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should a-E must be judged one by one, and for each case, the motivation, conditions for establishment, the bad box relationship, and the minimum revised version must be written at the same time; the conclusion cannot be given without any amendments.",
+      "2. The response should point out a node, such as `troubleshooting ladder' and `power fire', which is most easily written as a continuous event, but may actually be interrupted by objects, locations, tools, responsibilities or time sequences, and explain the review sequence and minimum corrective measures.",
+      "3. The response should write down the upper limits of the relationships involved in the `troubleshooting ladder`, `power supply fire`, and `picture disk', and make it clear which ones are just visual facts, which ones are just circumstantial evidence of the same kind, and which ones need to wait for supplementary evidence before they can enter the advancing relationship. The results cannot be used to infer the premise.",
+      "4. The response should at least provide a safe short chain or local advancement relationship, and a position that must be returned to side-by-side observation; both must explain the upper limit and breakpoint of support.",
+      "5. The response should diaries, oral narratives, or parallel materials cannot be written directly as continuous events. All promotion relationships must clearly indicate the upper limit and breakpoint of support.",
+      "6. The response should the order of review needs to explain what to check first and what to check later, and why you cannot write the conclusion first and find the basis later."
+    ],
+    "metadata": {
+      "task_id": "MCL-0188_T2",
+      "context_id": "MCL-0188",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a carpenter who hangs screens in movie theaters. You want to turn the pages of the \"4K UHD Monitor User Manual\" into a set of luggage checklists that \"turn the monitor manual into a theater construction kit: mounting nails, signal ropes, power supply, picture panel and troubleshooting ladder.\" Each subsequent round must follow the box locations, packing order and no-mixing rules of the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_47447a3d08c4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_e4579f02d2ad.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_b99363b71772.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_87f40d99dd09.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_2267755f7f9f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_8990c2ab7c26.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_6761e57e7157.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ae0a210ecde0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_65558896220a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_5f1d30a697e5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_71fa8ef184c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_f112d2bdb00e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_d1c8c0975907.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e6f15cb3ba8f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_bc112867397f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_0b01676997cb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_e7f7dac61b69.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_5d845f02aaee.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_8879dc4d2c56.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_c143b18378d4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_962ea4a89225.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_b5192088dc79.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_fbaff5ed3b7e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_024_4167f22d0ee6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_025_48d854e3720b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_026_83aebe2e50d2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_027_ddd2567c9795.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_028_47c91180b563.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_029_69923f8dcc49.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_030_1ee1a2302d60.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_031_4751a36287f1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_032_3ca7cec35b97.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_033_b401a9763fc2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_034_a2e953152c49.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_035_000f222a54d1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_036_6886c0440073.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_037_44e48b01d3b8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_038_641b1dd026b7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_039_7ad28c3e256f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_040_d4e4c4d2c3c8.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to create a box location first, and the fields are fixed as: hanger nails, signal ropes, power fires, screen panels, and troubleshooting ladders. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each entry should at least include: which box position this page belongs to, whether it is more suitable for \"packing\" or \"unpacking\" or \"no mixing\", what should be established before it at least, where can it be followed at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or completion status. You also need to assign at least one \"gatekeeper page\" to each slot: without it, the column can easily be said to be wider or narrower.There are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"4K UHD Monitor User Manual\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the bin slots you have created and do not change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in \"Pack Nails\" and directly use it as the general representative of the entire set of materials without looking back at the other columns.\nB: Some people want to merge \"signal rope\" and \"power fire\", saying that they are talking about the same general direction, but from different angles.\nC: Some people want to use the \"screen disk\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem.\n\nDuring the review, I got another dictation that linked each other: it would describe at least two of the steps in \"can/can't\" that are most easily rewritten, the step in \"hanging nails\" that are most easily rewritten, and the step in \"signal rope\" that are most easily rewritten as consecutive, in the same place, in the same role, or in the same stage of completion. Please don't just check which sentence is valid, but also make a separate reconciliation table: the original statement, the new statement, the maximum number of screens or pages that can be supported, where it can only be temporarily suspended, and which two steps will continue to be contaminated if it is received by mistake. In addition, let’s pick a false positive and a false negative each: the former should not have been followed but could easily be written as established, and the latter could actually be retained as a more reliable judgment, but may be mistakenly deleted due to over-conservatism. Both examples illustrate the minimum corrective approach.\n\nThere is another dictation in the duty record, which directly writes the materials related to \"can/can't\", the materials related to \"hanging nails\", and the materials related to \"signal rope\" into the same continuous chain. You can't just judge which sentence is true and which is false, but also break it down into a checklist: how to write the original record, how to write the subsequent dictation, how far the screen or page can support, what level it can only be retained at present, and which two steps will continue to be taken if it is mistakenly recorded. Add another paragraph to remind the reviewer: Which part is most likely to appear \"looks like a wrong merge, but may actually be mistakenly deleted\"? Why, if you can only save one side first, should you prevent accidental merges or deletions first?The late page shows that the materials corresponding to \"can/can't\", the materials corresponding to \"hanging nails\", and the materials corresponding to \"signal rope\" look like they are being pushed forward along the same line. In addition to the original verification, please add an explanation of \"If this card is written incorrectly, who will be misled first?\": Write down the risk of misidentifying the person first, writing the time and place in order, and raising the risk of materials that could only be placed aside as the main certificate. At the same time, add an operational reminder to the reviewer, explaining which step is least suitable to be directly rewritten into the final draft, but should be left in the checklist first.\n\nThere is a short note written later on the side of the table of contents, repeatedly circling `troubleshooting ladder`, `power supply fire`, and `screen disk`. Please write this part as a \"miswriting consequence table\": write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to excessive conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning.\n\nThere is a short note written later on the side of the table of contents, repeatedly circling `picture plate`, `hanging nail` and `signal rope`. Please write this part as a \"miswriting consequence table\": write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to excessive conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to use the original box location. This round does not allow re-dividing into columns, but instead deals with the issue of \"can the materials be stable when they are incomplete?\" Now assume that three things happen at the same time: first, the number of pages that can really be taken away is compressed, allowing you to select only a few core pages; second, the oral explanation time is shortened, and many explanations must be spoken from page to page; third, part of the final conclusion page, condition page or closing page cannot be confirmed until later, and cannot be regarded as completed in advance.\n\nPlease re-mark the whole case into four categories: one is the anchor page that \"read first to avoid going astray\"; one is the reinforcement page that \"if it is missing, it will become thinner, but the main line is still alive for the time being\"; one is the late page that \"can only be taken out in the second half\"; and the other is the pairing page that \"looks like the key alone, but in fact it must be paired with other pages to be safe.\" Give at least two pages or two page paragraphs for each category and explain why they go into this category and not into another category.\n\nThen you do three specific things. First, arrange a minimum reading package for people who are exposed to this set of materials for the first time. The number should not be too large, but it must be able to clearly explain the main lines of the \"4K UHD Monitor User Manual\". Second, arrange a reinforcement package for those who have entered the middle stage and are only short of the last few requirements. It is required that the pages in it cannot completely overlap with the minimum reading package. Third, arrange a closing package for the last person to check, which must contain at least one page that is not suitable for early appearance. All three packages must indicate: if a page is missing, which statement will begin to loosen; if a page is placed early, which boundary will disappear first. Finally, give a group of pages or page segments that \"must appear in pairs\" and explain why their order cannot be interchanged."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the four types of anchor pages, reinforcement pages, late pages, and pairing pages must be judged in conjunction with the boxing logic of the 4K UHD Monitor User Manual: the anchor page must be able to lock the box boundary independently, and the late page must clearly explain why it must wait until the later status is established before taking it out.",
+      "2. The response should the minimum reading package must preserve the basic state changes from `rack nail` to `power fire`; the reinforcement package should complete the result pages or expansion pages such as the `screen disk`; the closing package should absorb the `troubleshooting ladder` or other content that can only be safely activated in exceptions, verification, and after-sales.",
+      "3. The response should each set of packages must write \"Page Missing Consequences + Advance Consequences\"; for example, missing a certain page will make the connection relationship unclear, or mistaking an abnormal path for a daily path, and advancing a certain page will cause people to reverse the steps from the results.",
+      "4. The response should the core key point of the pairing page is this: it seems important on its own, but it is dangerous without a partner. The answer should also write down at least one pair of combinations of \"the `screen panel`/`troubleshooting ladder` cannot be safely interpreted without the `hanging nail`/`signal rope` in front\".",
+      "5. The response should the three sets of packages cannot be almost on the same page and only change the names; the three sets of packages must respectively serve three different scenarios: first start, mid-stage reinforcement, and final review.",
+      "6. The response should also explain: The selection of pages is different but the box boundaries and order are preserved; the answer should not select the late page as the minimum package core, or treat the paired page as a single page that can be issued independently."
+    ],
+    "metadata": {
+      "task_id": "MCL-0188_T3",
+      "context_id": "MCL-0188",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a carpenter who hangs screens in movie theaters. You want to turn the pages of the \"4K UHD Monitor User Manual\" into a set of luggage checklists that \"turn the monitor manual into a theater construction kit: mounting nails, signal ropes, power supply, picture panel and troubleshooting ladder.\" Each subsequent round must follow the box locations, packing order and no-mixing rules of the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_47447a3d08c4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_e4579f02d2ad.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_b99363b71772.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_87f40d99dd09.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_2267755f7f9f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_8990c2ab7c26.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_6761e57e7157.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ae0a210ecde0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_65558896220a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_5f1d30a697e5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_71fa8ef184c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_f112d2bdb00e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_d1c8c0975907.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e6f15cb3ba8f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_bc112867397f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_0b01676997cb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_e7f7dac61b69.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_5d845f02aaee.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_8879dc4d2c56.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_c143b18378d4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_962ea4a89225.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_b5192088dc79.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_fbaff5ed3b7e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_024_4167f22d0ee6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_025_48d854e3720b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_026_83aebe2e50d2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_027_ddd2567c9795.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_028_47c91180b563.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_029_69923f8dcc49.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_030_1ee1a2302d60.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_031_4751a36287f1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_032_3ca7cec35b97.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_033_b401a9763fc2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_034_a2e953152c49.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_035_000f222a54d1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_036_6886c0440073.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_037_44e48b01d3b8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_038_641b1dd026b7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_039_7ad28c3e256f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_040_d4e4c4d2c3c8.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to create a box location first, and the fields are fixed as: hanger nails, signal ropes, power fires, screen panels, and troubleshooting ladders. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each entry should at least include: which box position this page belongs to, whether it is more suitable for \"packing\" or \"unpacking\" or \"no mixing\", what should be established before it at least, where can it be followed at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or completion status. You also need to assign at least one \"gatekeeper page\" to each slot: without it, the column can easily be said to be wider or narrower.There are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"4K UHD Monitor User Manual\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the bin slots you have created and do not change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in \"Pack Nails\" and directly use it as the general representative of the entire set of materials without looking back at the other columns.\nB: Some people want to merge \"signal rope\" and \"power fire\", saying that they are talking about the same general direction, but from different angles.\nC: Some people want to use the \"screen disk\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem.\n\nDuring the review, I got another dictation that linked each other: it would describe at least two of the steps in \"can/can't\" that are most easily rewritten, the step in \"hanging nails\" that are most easily rewritten, and the step in \"signal rope\" that are most easily rewritten as consecutive, in the same place, in the same role, or in the same stage of completion. Please don't just check which sentence is valid, but also make a separate reconciliation table: the original statement, the new statement, the maximum number of screens or pages that can be supported, where it can only be temporarily suspended, and which two steps will continue to be contaminated if it is received by mistake. In addition, let’s pick a false positive and a false negative each: the former should not have been followed but could easily be written as established, and the latter could actually be retained as a more reliable judgment, but may be mistakenly deleted due to over-conservatism. Both examples illustrate the minimum corrective approach.\n\nThere is another dictation in the duty record, which directly writes the materials related to \"can/can't\", the materials related to \"hanging nails\", and the materials related to \"signal rope\" into the same continuous chain. You can't just judge which sentence is true and which is false, but also break it down into a checklist: how to write the original record, how to write the subsequent dictation, how far the screen or page can support, what level it can only be retained at present, and which two steps will continue to be taken if it is mistakenly recorded. Add another paragraph to remind the reviewer: Which part is most likely to appear \"looks like a wrong merge, but may actually be mistakenly deleted\"? Why, if you can only save one side first, should you prevent accidental merges or deletions first?The late page shows that the materials corresponding to \"can/can't\", the materials corresponding to \"hanging nails\", and the materials corresponding to \"signal rope\" look like they are being pushed forward along the same line. In addition to the original verification, please add an explanation of \"If this card is written incorrectly, who will be misled first?\": Write down the risk of misidentifying the person first, writing the time and place in order, and raising the risk of materials that could only be placed aside as the main certificate. At the same time, add an operational reminder to the reviewer, explaining which step is least suitable to be directly rewritten into the final draft, but should be left in the checklist first.\n\nThere is a short note written later on the side of the table of contents, repeatedly circling `troubleshooting ladder`, `power supply fire`, and `screen disk`. Please write this part as a \"miswriting consequence table\": write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to excessive conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning.\n\nThere is a short note written later on the side of the table of contents, repeatedly circling `picture plate`, `hanging nail` and `signal rope`. Please write this part as a \"miswriting consequence table\": write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to excessive conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to use the original box location. This round does not allow re-dividing into columns, but instead deals with the issue of \"can the materials be stable when they are incomplete?\" Now assume that three things happen at the same time: first, the number of pages that can really be taken away is compressed, allowing you to select only a few core pages; second, the oral explanation time is shortened, and many explanations must be spoken from page to page; third, part of the final conclusion page, condition page or closing page cannot be confirmed until later, and cannot be regarded as completed in advance.\n\nPlease re-mark the whole case into four categories: one is the anchor page that \"read first to avoid going astray\"; one is the reinforcement page that \"if it is missing, it will become thinner, but the main line is still alive for the time being\"; one is the late page that \"can only be taken out in the second half\"; and the other is the pairing page that \"looks like the key alone, but in fact it must be paired with other pages to be safe.\" Give at least two pages or two page paragraphs for each category and explain why they go into this category and not into another category.\n\nThen you do three specific things. First, arrange a minimum reading package for people who are exposed to this set of materials for the first time. The number should not be too large, but it must be able to clearly explain the main lines of the \"4K UHD Monitor User Manual\". Second, arrange a reinforcement package for those who have entered the middle stage and are only short of the last few requirements. It is required that the pages in it cannot completely overlap with the minimum reading package. Third, arrange a closing package for the last person to check, which must contain at least one page that is not suitable for early appearance. All three packages must indicate: if a page is missing, which statement will begin to loosen; if a page is placed early, which boundary will disappear first. Finally, give a group of pages or page segments that \"must appear in pairs\" and explain why their order cannot be interchanged."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally output the final table. The column names must strictly follow the box positions you determined in the first round: hanger nails, signal ropes, power fires, screen panels, and troubleshooting ladders. The final form is not a summary, but a handover order that can be handed over to others for continued execution, so six things must be written in each column: which pages or page segments are collected; what problem they mainly solve; which page or column they must stand behind; which conditions they cannot be used in advance; where they are most likely to be mis-merged; and the final status - can it enter the main line immediately, can only be used as a reinforcement, can only be left to the second half, or can only be used when a certain condition is met.\n\nAfter the final table, add three more paragraphs. The first paragraph is called \"Non-exchangeable order\". List at least three sets of relationships in which A must precede B, and write clearly whether the object, time point, condition, role or completion status will be changed once exchanged. The second paragraph is called \"Close names but different responsibilities\". It lists at least two sets of pages or page sections, indicating that although they appear in the \"4K UHD Monitor User Manual\", they cannot be placed in the same column. The third paragraph is called \"Can be displayed side by side, but footnotes cannot be lost.\" List at least two sets of pages or page segments, explaining why they can appear together, but still retain restrictions, applicable boundaries, or subsequent explanations.\n\nFinally give a formal sequence of 8 steps. This sequence must cite the results of the second round and the selection results of the third round once to explain why the final version did not adopt those seemingly more trouble-free changes. Only one general rule is allowed at the end, but this general rule must be able to be used to check any two pages: if the two pages share the same object, the same action target, the same applicable conditions and the same point in time, they can be merged into the same main line; if there is any missing item, the difference must be explained, and they cannot be merged directly."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the final form must include all the pages of `rack nails`, `signal rope`, `power supply', `screen panel` and `troubleshooting ladder`, what problems are solved, which steps are relied upon, what conditions cannot be exceeded, where the most mistakes are made and what is the final state; this is a handover sheet, not a summary of the topic.",
+      "2. The response should \"Non-exchangeable order\" must write down at least the order of three sets of chains that can change the state; the answer should also clearly state the relationship between `rack nail` → `signal rope`, `signal rope` → `power fire`, and the turn of `screen panel`/`troubleshooting ladder` after the main line is completed.",
+      "3. The response should \"The names are similar but the responsibilities are different\" must really point out the different tasks under the same device, the same interface, and the same picture style; \"They can be displayed side by side, but the footnotes cannot be lost\" must explain why they can appear in the same place but cannot be replaced by each other.",
+      "4. The response should the 8-step formal sequence must cite a change ruling from the second round and a trade-off from the third round, explaining why the results page, troubleshooting page, or after-sales page was not used earlier in the final version.",
+      "5. The response should also explain: If the formal sequence is different, the dependency of first creating the object, then changing the state, then confirming the result, and finally checking for exceptions must still be maintained; the answer must not write the warranty, version, fault or exception page as a regular starting step.",
+      "6. The response should the general plan must be executable: if any two pages share only device names or illustrations, they are not in the same box; they must at least meet the same action goal, the same applicable conditions and the same time point before they can be merged into the main line."
+    ],
+    "metadata": {
+      "task_id": "MCL-0188_T4",
+      "context_id": "MCL-0188",
+      "turn_index": 4
+    }
+  }
+]

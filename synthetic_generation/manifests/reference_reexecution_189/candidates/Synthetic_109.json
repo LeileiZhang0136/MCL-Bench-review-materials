@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_109",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:tacl_a_00660",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "tacl_a_00660",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page0.jpg",
+        "sha256": "cb7a360baf13f04e3ccbf6a0299809cd848c65c944043718f5f9abf5413a4670",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page2.jpg",
+        "sha256": "7f2235cec69db1ca4ba9e97f321197c0af320e297b5cc6f7237877de9b6fcdb8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page4.jpg",
+        "sha256": "d257836ce6c7e5dd679524d446e1fbbfe99da6de515350e6a3563bf6660b3931",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page6.jpg",
+        "sha256": "908002b25a4493c15806814225ef5066052c635dd78ad5cf4f862c28d7b1d36b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page8.jpg",
+        "sha256": "b4fb2cf9cb9d225b36d2a05f7ea626dc22f94c9a96ae87e6215d4324e7d21428",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page10.jpg",
+        "sha256": "4367eb73d89bd1dade29ffcea7e84ad9a9fd2f8a98fa89819d1a31e3eefe14d3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page12.jpg",
+        "sha256": "b45647c7715bbf6d05732640d199107fd94b674e4279a507de3a9b0b447f5895",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page14.jpg",
+        "sha256": "ba5ad4bde4312e38d9b32fb25dfd6889f866bbdeb13068473a59d25d162a1fa7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page16.jpg",
+        "sha256": "740ab8a290a2c862bc7f3d60f18058bbeece8c219ec5f7d45a0b897a59888069",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page18.jpg",
+        "sha256": "ed3c011e60bce022bbc354e831034265acb05d20d923d22077b17d617513db01",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page20.jpg",
+        "sha256": "a66b70a389a6c49cc817661e4cf48b2854d4e6a68b108de82a033e4af1d06ec5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/tacl_a_00660/tacl_a_00660_page22.jpg",
+        "sha256": "dcf779094fb6a4c2b642caa3ca814ad5786406c69d13673bcafd3101a78f0efb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

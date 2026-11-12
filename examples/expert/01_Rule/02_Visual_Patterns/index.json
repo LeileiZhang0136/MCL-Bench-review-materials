@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Rule Learning & Complex Reasoning",
+  "subcategory": "Visual Patterns",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0204",
+      "directory": "MCL-0204_expert_E04",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0205",
+      "directory": "MCL-0205_expert_E04",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0207",
+      "directory": "MCL-0207_expert_E08",
+      "task_count": "5",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

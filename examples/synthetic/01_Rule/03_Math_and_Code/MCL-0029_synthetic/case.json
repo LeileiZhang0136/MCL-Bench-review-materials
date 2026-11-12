@@ -1,0 +1,506 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the Tiny Circuit City Pavement. Turn PCB design pages into schematic paths, routing lanes, manufacturing rules, test wells and rework cards. Each page must be treated as a lab procedure, measure, sample, or banned label; each subsequent round uses the lab bench and contamination rules from the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_2badc0e5e30d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_9a1ace71b00b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_17c0c956cf6c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_cc5a9e8c574c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_ad676768853d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_0407f569122c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_a9a592a132bd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_d2bf547b4eda.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_d6264de2188b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_87f8f2aeda15.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to build a test bench first, and the fields are fixed as: principle road, wiring lane, manufacturing regulations, test well, and rework board. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each registration must write at least: which experimental platform this page belongs to, whether it is more suitable for \"loading\", \"conclusion\" or \"redoing\", what should be established at least before it, where can it be followed at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or the completion status. You also need to assign at least one \"gatekeeper page\" to each experimental station: without it, this column can easily be said to be wider or narrower.\n\nThere are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"Material\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should cover all pages or page sections, and put each page into one of `Principle Road`, `Wiring Alley`, `Manufacturing Regulations`, `Test Well`, and `Rework Card`; the reason for classification must explain whether it is defining variables, describing measuring tools/methods, displaying samples/data, giving value judgments, or marking assumptions/rework cards/pollution sources.",
+      "2. The response should also separate \"how to measure\" from \"what was measured\", and separate \"conclusion value\" from \"hypothesis/warning/rework conditions\"; if `test well` or `rework card` are written as pre-steps, or if `principle path`, `wiring lane`, `manufacturing regulations` are substituted for each other, this should not be done.",
+      "3. The response should the main line must reflect the reliance of \"first defining the object - then explaining the measurement method - then displaying samples or results - and finally dealing with value judgments and uncertainties\"; the first breakpoint of the secondary line and the false main line must also clearly fall on method misalignment, sample misalignment or conclusion overreaching.",
+      "4. The response should the judgment point of the gatekeeping page is to be able to explain which two test bench contamination boundaries will be erased without it, such as the established conclusion that the 'wiring lane' is regarded as the 'manufacturing regulation', or the 'rework card' is regarded as the 'test well'.",
+      "5. The response should also explain: The page sections are divided differently, but the four layers of methods, samples, conclusions and uncertainties are not mixed, and the first point of contamination can be pointed out.",
+      "6. The response should not write the hypothesis page as the established results, the sample page as the gauge definition, or merge different experimental benches just because they are talking about the same indicator."
+    ],
+    "metadata": {
+      "task_id": "MCL-0029_T1",
+      "context_id": "MCL-0029",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the Tiny Circuit City Pavement. Turn PCB design pages into schematic paths, routing lanes, manufacturing rules, test wells and rework cards. Each page must be treated as a lab procedure, measure, sample, or banned label; each subsequent round uses the lab bench and contamination rules from the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_2badc0e5e30d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_9a1ace71b00b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_17c0c956cf6c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_cc5a9e8c574c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_ad676768853d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_0407f569122c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_a9a592a132bd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_d2bf547b4eda.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_d6264de2188b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_87f8f2aeda15.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to build a test bench first, and the fields are fixed as: principle road, wiring lane, manufacturing regulations, test well, and rework board. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each registration must write at least: which experimental platform this page belongs to, whether it is more suitable for \"loading\", \"conclusion\" or \"redoing\", what should be established at least before it, where can it be followed at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or the completion status. You also need to assign at least one \"gatekeeper page\" to each experimental station: without it, this column can easily be said to be wider or narrower.\n\nThere are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"Material\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the lab bench you created in the first round and don't change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in \"Principle Road\" and directly use it as the general representative of the entire set of materials, without looking back at the other columns.\nB: Some people want to merge \"wiring lane\" and \"manufacturing regulations\", saying that they are talking about the same general direction, but from different angles.\nC: Some people want to use the \"test well\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should a-E must be judged one by one, and each item must clearly state the incentives, extremely narrow conditions, the relationship between the contaminated experimental platform and the minimum revised version; only the conclusion is given and the contamination path is not given, otherwise the answer will be incomplete.",
+      "2. The response should the risk point of A and D is to directly elevate the definition page or summary page of the 'Principle Road' to the entire case; if this will flatten the hierarchy of 'Wiring Alley', 'Manufacturing Regulations', 'Test Wells', and 'Rework Cards', it should be clear that it will lead to high-risk diversion.",
+      "3. The response should item B must specify whether `wiring lanes' and `manufacturing regulations' or `manufacturing regulations' and `test wells' share measurement methods, samples or conclusions; if they are just the same indicator name, the same graphic appearance or the same case object, they cannot be combined.",
+      "4. The response should if item C puts the hypothesis fog, rework card, and warning page at the beginning, it will reverse the direction of \"test first and then warn/correct\". Usually, it can only be partially retained or even have to be returned.",
+      "5. The response should danger ranking must compare who will collapse the variable definition, measurement method, sample boundary or conclusion time point first; ranking based only on personal intuition will not be complete.",
+      "6. The response should also explain: the ranking is different from other reasonable answers but the contamination points are clearly stated; the answer should not mix experimental steps, measuring tools, samples, conclusions and hypotheses into the same layer."
+    ],
+    "metadata": {
+      "task_id": "MCL-0029_T2",
+      "context_id": "MCL-0029",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the Tiny Circuit City Pavement. Turn PCB design pages into schematic paths, routing lanes, manufacturing rules, test wells and rework cards. Each page must be treated as a lab procedure, measure, sample, or banned label; each subsequent round uses the lab bench and contamination rules from the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_2badc0e5e30d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_9a1ace71b00b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_17c0c956cf6c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_cc5a9e8c574c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_ad676768853d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_0407f569122c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_a9a592a132bd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_d2bf547b4eda.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_d6264de2188b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_87f8f2aeda15.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to build a test bench first, and the fields are fixed as: principle road, wiring lane, manufacturing regulations, test well, and rework board. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each registration must write at least: which experimental platform this page belongs to, whether it is more suitable for \"loading\", \"conclusion\" or \"redoing\", what should be established at least before it, where can it be followed at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or the completion status. You also need to assign at least one \"gatekeeper page\" to each experimental station: without it, this column can easily be said to be wider or narrower.\n\nThere are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"Material\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the lab bench you created in the first round and don't change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in \"Principle Road\" and directly use it as the general representative of the entire set of materials, without looking back at the other columns.\nB: Some people want to merge \"wiring lane\" and \"manufacturing regulations\", saying that they are talking about the same general direction, but from different angles.\nC: Some people want to use the \"test well\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to use the original experimental bench. This round does not allow re-dividing into columns, but instead deals with the issue of \"can the materials be stable when they are incomplete?\" Now assume that three things happen at the same time: first, the number of pages that can really be taken away is compressed, allowing you to select only a few core pages; second, the oral explanation time is shortened, and many explanations must be spoken from page to page; third, part of the final conclusion page, condition page or closing page cannot be confirmed until later, and cannot be regarded as completed in advance.\n\nPlease re-mark the whole case into four categories: one is the anchor page that \"read first to avoid going astray\"; one is the reinforcement page that \"if it is missing, it will become thinner, but the main line is still alive for the time being\"; one is the late page that \"can only be taken out in the second half\"; and the other is the pairing page that \"looks like the key alone, but in fact it must be paired with other pages to be safe.\" Give at least two pages or two page paragraphs for each category and explain why they go into this category and not into another category.\n\nThen you do three specific things. First, arrange a minimum reading package for people who are exposed to this set of materials for the first time. The number should not be too large, but it must be able to clearly explain the main line of the \"material\". Second, arrange a reinforcement package for those who have entered the middle stage and are only short of the last few requirements. It is required that the pages in it cannot completely overlap with the minimum reading package. Third, arrange a closing package for the last person to check, which must contain at least one page that is not suitable for early appearance. All three packages must indicate: if a page is missing, which statement will begin to loosen; if a page is placed early, which boundary will disappear first. Finally, give a group of pages or page segments that \"must appear in pairs\" and explain why their order cannot be interchanged."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the anchor page should be able to stabilize the boundary of an experimental bench alone; the reinforcement page should add thick methods or samples; the late page should explain why it can only be taken out in the second half; the matching page should point out how method-result mismatch will occur after leaving the partner. All judgments must come back to experimental reliance on `the material`.",
+      "2. The response should the minimum reading package must keep the definitions of `Principle Road`, `Wiring Alley` and `Manufacturing Regulations` - Measurement Method - Sample Chain; the reinforcement package must supplement the value judgment of `Test Well`; the closing package must contain the assumptions, rework or restriction pages in the `Rework Card`.",
+      "3. The response should each package must write down the consequences of missing pages and the consequences in advance: which measurement interpretation will be loosened by missing pages, and which assumptions will be mistaken for conclusions in advance.",
+      "4. The response should a set of pages or page segments must be given that must appear in pairs and explain why the conclusions and limitations of a `test well` or `rework card` cannot be safely interpreted without a `routing lane` or `manufacturing specification` combination.",
+      "5. The response should also explain: the selection of pages is different but the contamination control is correct; the answer should not stuff the late page into the core of the smallest package, or let the three sets of packages revolve around the same batch of beautiful result pages.",
+      "6. The response should also avoid: treating pairing as \"adjacent is good\" rather than \"measurement method and sample, sample and conclusion are indispensable\"."
+    ],
+    "metadata": {
+      "task_id": "MCL-0029_T3",
+      "context_id": "MCL-0029",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the Tiny Circuit City Pavement. Turn PCB design pages into schematic paths, routing lanes, manufacturing rules, test wells and rework cards. Each page must be treated as a lab procedure, measure, sample, or banned label; each subsequent round uses the lab bench and contamination rules from the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_2badc0e5e30d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_9a1ace71b00b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_17c0c956cf6c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_cc5a9e8c574c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_ad676768853d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_0407f569122c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_a9a592a132bd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_d2bf547b4eda.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_d6264de2188b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_87f8f2aeda15.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to build a test bench first, and the fields are fixed as: principle road, wiring lane, manufacturing regulations, test well, and rework board. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each registration must write at least: which experimental platform this page belongs to, whether it is more suitable for \"loading\", \"conclusion\" or \"redoing\", what should be established at least before it, where can it be followed at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or the completion status. You also need to assign at least one \"gatekeeper page\" to each experimental station: without it, this column can easily be said to be wider or narrower.\n\nThere are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"Material\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the lab bench you created in the first round and don't change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in \"Principle Road\" and directly use it as the general representative of the entire set of materials, without looking back at the other columns.\nB: Some people want to merge \"wiring lane\" and \"manufacturing regulations\", saying that they are talking about the same general direction, but from different angles.\nC: Some people want to use the \"test well\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to use the original experimental bench. This round does not allow re-dividing into columns, but instead deals with the issue of \"can the materials be stable when they are incomplete?\" Now assume that three things happen at the same time: first, the number of pages that can really be taken away is compressed, allowing you to select only a few core pages; second, the oral explanation time is shortened, and many explanations must be spoken from page to page; third, part of the final conclusion page, condition page or closing page cannot be confirmed until later, and cannot be regarded as completed in advance.\n\nPlease re-mark the whole case into four categories: one is the anchor page that \"read first to avoid going astray\"; one is the reinforcement page that \"if it is missing, it will become thinner, but the main line is still alive for the time being\"; one is the late page that \"can only be taken out in the second half\"; and the other is the pairing page that \"looks like the key alone, but in fact it must be paired with other pages to be safe.\" Give at least two pages or two page paragraphs for each category and explain why they go into this category and not into another category.\n\nThen you do three specific things. First, arrange a minimum reading package for people who are exposed to this set of materials for the first time. The number should not be too large, but it must be able to clearly explain the main line of the \"material\". Second, arrange a reinforcement package for those who have entered the middle stage and are only short of the last few requirements. It is required that the pages in it cannot completely overlap with the minimum reading package. Third, arrange a closing package for the last person to check, which must contain at least one page that is not suitable for early appearance. All three packages must indicate: if a page is missing, which statement will begin to loosen; if a page is placed early, which boundary will disappear first. Finally, give a group of pages or page segments that \"must appear in pairs\" and explain why their order cannot be interchanged."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally output the final table. The column names must strictly follow the experimental bench you determined in the first round: principle road, wiring lane, manufacturing regulations, test well, and rework board. The final form is not a summary, but a handover order that can be handed over to others for continued execution, so six things must be written in each column: which pages or page segments are collected; what problem they mainly solve; which page or column they must stand behind; which conditions they cannot be used in advance; where they are most likely to be mis-merged; and the final status - can it enter the main line immediately, can only be used as a reinforcement, can only be left to the second half, or can only be used when a certain condition is met.\n\nAfter the final table, add three more paragraphs. The first paragraph is called \"Non-exchangeable order\". List at least three sets of relationships in which A must precede B, and write clearly whether the object, time point, condition, role or completion status will be changed once exchanged. The second paragraph is called \"The names are similar but the responsibilities are different.\" List at least two sets of pages or page sections, indicating that although they appear in \"This Material\", they cannot be placed in the same column. The third paragraph is called \"Can be displayed side by side, but footnotes cannot be lost.\" List at least two sets of pages or page segments, explaining why they can appear together, but still retain restrictions, applicable boundaries, or subsequent explanations.\n\nFinally give a formal sequence of 8 steps. This sequence must cite the results of the second round and the selection results of the third round once to explain why the final version did not adopt those seemingly more trouble-free changes. Only one general rule is allowed at the end, but this general rule must be able to be used to check any two pages: if the two pages share the same object, the same action target, the same applicable conditions and the same point in time, they can be merged into the same main line; if there is any missing item, the difference must be explained, and they cannot be merged directly."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the final form must completely include the closing pages, problems, precursors, insurmountable conditions, error-prone objects, and final status of `Principle Road`, `Wiring Alley`, `Manufacturing Regulations`, `Test Well`, and `Rework Card`; otherwise it cannot be used as an experiment handover order.",
+      "2. The response should the \"non-interchangeable order\" should fall into at least three sets of real definitions - measuring method - sample - conclusion in sequence; \"the names are similar but the responsibilities are different\" should point out why the measuring page and the result page, the hypothesis page and the conclusion page cannot be mixed; \"can be displayed side by side, but the footnotes cannot be lost\" should explain when it is just mutual confirmation and when it cannot replace each other.",
+      "3. The response should the 8-step formal sequence must reference the second and third rounds once, explaining why the final version did not allow the conclusion page, hypothesis page, or rework page to advance.",
+      "4. The response should the general plan must be able to test whether any two pages can be on the same stage: at least meet the same variable object, the same method goal, the same applicable conditions and the same point in time; any missing item cannot be merged.",
+      "5. The response should also explain: the sequence is different from other reasonable answers but the experimental level is clear; the answer should not write the hypothesis or rework page as the established results, or treat the results page as a method page.",
+      "6. The response should also clearly state how the pollution is blocked; if there is no pollution perspective at all, it does not meet the requirements."
+    ],
+    "metadata": {
+      "task_id": "MCL-0029_T4",
+      "context_id": "MCL-0029",
+      "turn_index": 4
+    }
+  }
+]

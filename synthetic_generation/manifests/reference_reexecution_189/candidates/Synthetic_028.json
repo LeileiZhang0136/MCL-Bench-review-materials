@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_028",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:st85video-110721095642-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "st85video-110721095642-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-1-1024.jpg",
+        "sha256": "562ded0e233b17dbac3b2b20cf52262873d7713a375734609d0c417e664091dd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-3-1024.jpg",
+        "sha256": "82a9419abc71d2eaa22e85e09bb3ec9a0aa394d505ffa03509b873be2c81634a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-4-1024.jpg",
+        "sha256": "54dac16f2f7149eb9fb58c7bfc88d27afc7c51e035072f92635e8919ca0b7a03",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-6-1024.jpg",
+        "sha256": "4df8a1057153336acc351c3b1bb65cb2b466adeb6e5355444e76038cd8c42b71",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-8-1024.jpg",
+        "sha256": "75e4e0c824371d7e671b6cac693a9c431dc4696b6e4c4c6efdbdade33b1a99a1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-10-1024.jpg",
+        "sha256": "f5a43f28c16ac1a857d23116811b319e8695cfab52de22a6d575dfbd665843c7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-11-1024.jpg",
+        "sha256": "e86edf768b0949052d519e01ec3f7d8d8449fe81664aada5df4b118252937e0c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-13-1024.jpg",
+        "sha256": "fba15cbb1a8a0499c91690edd1d407a951b0205d37dca49aa1de6696af7438f9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-15-1024.jpg",
+        "sha256": "c1836b5d758328fe6057f99688d80936e5c6bcb4bf2d17b8ff90a194ca2bb34f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-17-1024.jpg",
+        "sha256": "df29192d391f72c5c0cd73a6216e296d959c48a4112e93598794fbf1030576cf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-18-1024.jpg",
+        "sha256": "92d412bada35657849e7529c5ca8d05468db437192148cceee23c5f2c65d485a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/st85video-110721095642-phpapp02_95/sametime-85-audio-video-20-1024.jpg",
+        "sha256": "52b3a50a20b63b2e3832e8da6edceef10feffcbc090c19ea620dae7097303349",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_183",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:camry_ebrochure",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "camry_ebrochure",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page0.jpg",
+        "sha256": "8031e0e5d443cfc1959d9abf4ceb18dde04acd5939aabdb13848ed132ea905f7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page2.jpg",
+        "sha256": "79a4d7cc239d2c4cdf28eb872f507501000951f9922c14d3423646b40badd4ba",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page5.jpg",
+        "sha256": "639d414d204e8c42d28e647d23320527581cf31048f62ca2a50160ddedb3cb48",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page7.jpg",
+        "sha256": "7d8b1df024b5d47ee22703a0564ac6385ae2fb258c830bdd9520313ddb479ad3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page9.jpg",
+        "sha256": "530386db7c2cc07efed3ec72312f7beabcc0bc1e92a893ccd80a92195d45ed34",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page11.jpg",
+        "sha256": "0bb8d231e1aa91d76481a211ac19d09cf1733ac74d1641b234ac04228e8fafcb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page14.jpg",
+        "sha256": "5d985a53e71a50e8ddbc05e435fbbfd93cce7569e814dffb44b391d5e0910ff6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page16.jpg",
+        "sha256": "9b907175cd7f2979ea9d5e15d3bedee24f035d91b92d6417b16bc26997eea918",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page18.jpg",
+        "sha256": "ba66ae726b8179acd9bd0baeaa8411ca97bb8192ee94cfff9cf3e29644eca61c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page20.jpg",
+        "sha256": "3d2365f772a12b4160f9b1d1283655d22bb3902a880672fc0f6e680e33275b81",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page23.jpg",
+        "sha256": "cbd25641cc913799ca17630dbf3e5eaac5615df94cc1b66721ce10ae198d089d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/camry_ebrochure/camry_ebrochure_page25.jpg",
+        "sha256": "94d07d241c724bf7b28692e6530c06aecf80d1129022618826bb963f0d6fd19e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

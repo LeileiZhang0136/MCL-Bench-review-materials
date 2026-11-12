@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_158",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/cobaltpresentation-110513172526-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/cobaltpresentation-110513172526-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-1-1024.jpg",
+        "sha256": "76ef2d92f378c68344e66334a96e743966486de98ca90d6a933868d9876c6516",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-3-1024.jpg",
+        "sha256": "8b90faecaddf43f66adea91eee5cb6a5f047d5cbc70823275acd66ab7c9c13d6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-4-1024.jpg",
+        "sha256": "190c9bb4f32d54eabfc0846d8959fb639166980f24e824a81b63f3b41deac2bf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-6-1024.jpg",
+        "sha256": "a8af478982501c37e3927460201b88bfde8cb1546a31850b86dc78b14620dce4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-8-1024.jpg",
+        "sha256": "16cec1c2f0851c326e888bde11b0da4d5e2b24e557c75afbc9174d2a2b45456b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-10-1024.jpg",
+        "sha256": "8fd756ddb3000953c07e6fd1b6ea77ad404b3052f0e273ca409721cfb5f00d3d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-11-1024.jpg",
+        "sha256": "98e0be6c7a1d188a2c3a8b19da8314b3b6a216dbef21d96fb4ebf86aea2a2521",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-13-1024.jpg",
+        "sha256": "64d4ff9e93f5673a23fd09f6728b1be006f78f85f40aaf384f1f1cd98007d405",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-15-1024.jpg",
+        "sha256": "5c1e963745213bf6cf8c2500e295ccddebf87c8a85543f645e8219d9692a209f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-17-1024.jpg",
+        "sha256": "afef7cdb10234977d2fbd66dc5345de90722247e34e7687e724566896fca3bee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-18-1024.jpg",
+        "sha256": "a81e33e6dc8035ccc11acef56953e4870039cec1dbb1a887e3423d10eb10c905",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/cobaltpresentation-110513172526-phpapp02_95/supply-demand-of-the-strategic-metal-cobalt-20-1024.jpg",
+        "sha256": "3a8b291d221f2555acea414aabcacfacc6f63571006ea5c06f324eed018d21c1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

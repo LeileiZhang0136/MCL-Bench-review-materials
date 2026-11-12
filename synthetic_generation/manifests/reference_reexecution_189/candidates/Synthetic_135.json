@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_135",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:ISEP_student_handbook_2020",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "ISEP_student_handbook_2020",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page0.jpg",
+        "sha256": "7c9784139ff75dfe08f89c8eee8e0756b2c87766a74de0f4b17c39c304a1e7e9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page2.jpg",
+        "sha256": "5e1579eabdc47859421f19eac593ea4b5b75ae2ae311fba12aa209564f18d709",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page4.jpg",
+        "sha256": "87256e6920f73c94cc4a1ff64face9ed1f785d770fa09802bdcf9cbd905ce8f8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page6.jpg",
+        "sha256": "6791f919b92309d1a7b5d5c2acdc2975103a14df8074fab2be2a1da7988fc927",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page8.jpg",
+        "sha256": "dd799bd13e1b6942e89209716ac3d65f3241807878559104c0863dd32d4a71bf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page10.jpg",
+        "sha256": "7dd3cf2b6ebbc3ce22d2452cc5438c9973a47b7f210e4a34a2a08a5aa73964a5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page13.jpg",
+        "sha256": "1529ac8b822423ce437f05ee14858c6cc3c02de34622d6571115e4c8da6aff0c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page15.jpg",
+        "sha256": "e636ed4051ca5271e7c230116e9e2e781fd2dabf66e31dc28efa15c8c17f3e26",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page17.jpg",
+        "sha256": "ba5127711f953176a6966983f66867cbaf68362127e853c2a5d1babb0ea2fdcb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page19.jpg",
+        "sha256": "a00470b5299ab2b46d9c0fcca2b480280d9d270324c43830ee0b088805998b73",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page21.jpg",
+        "sha256": "b7d858cb6fa7dd90de9eb87a8b6b22ee8cc202ab2e1f8b2c837be99717adb1d9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/ISEP_student_handbook_2020/ISEP_student_handbook_2020_page23.jpg",
+        "sha256": "fe0fda4efdbd830842a75f227272143fa74a543c712a5fb8b299d4c303d95772",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

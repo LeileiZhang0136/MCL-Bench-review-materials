@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_018",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/donorretentionisntspeeddating-150827141331-lva1-app6891_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/donorretentionisntspeeddating-150827141331-lva1-app6891_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-1-1024.jpg",
+        "sha256": "ec2160502299f7ef3dd91014144dc215b4a8e1bc52bf503796926219fd178b88",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-3-1024.jpg",
+        "sha256": "ae767cb7cb0e799ade9a6a38f54a02f92860c6aeaa3307f1664afe86282a3957",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-4-1024.jpg",
+        "sha256": "f8cbcac9405a59956e0bfddd83b38cc94a557653bec6b9cc5631bd4f0111054d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-6-1024.jpg",
+        "sha256": "09c1ecbf0533aadea73afee147a6381435d49b382a90c914c479891da0ba3a2a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-8-1024.jpg",
+        "sha256": "e8c3ab3fa619793892363408ab9b414157941f7db4c7d199dd15b0394ced672b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-10-1024.jpg",
+        "sha256": "ee872fbd42cf0f3e28933a3489cb1768b9287f5d103154ddce76d9aefba740fe",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-11-1024.jpg",
+        "sha256": "ec5dc0e9f456470193b5cf3bba5963d8990e0dfcb12a8a7265894bebdb674186",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-13-1024.jpg",
+        "sha256": "21f1a52697d9dbb3081123b1628054a261c46f8df6ab07b94cc78a73c38dc85b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-15-1024.jpg",
+        "sha256": "33dabb2288cae3c20a6f2a991465d7e262022c48fd0d07782f6729ef56bb83f1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-17-1024.jpg",
+        "sha256": "2fa6a265cf0d4a87feba2194a23e09390c44c90a69a2f5b4852f6ad144923305",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-18-1024.jpg",
+        "sha256": "4e0fe06a42c250100e1e0468e1a337fcb83f85602e727049a8472a531bf17cdb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/donorretentionisntspeeddating-150827141331-lva1-app6891_95/donor-retention-isnt-speed-dating-20-1024.jpg",
+        "sha256": "a45bbdd6d667b82f7f4f7463ff79072e3b7e7112cefb392ef66029fe6d0ab56a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

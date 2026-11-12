@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_074",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:2023.findings-emnlp.248",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "2023.findings-emnlp.248",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page0.jpg",
+        "sha256": "ac35eafd2c785a5b47b667a8ea40aaf3838d221107ccb077f97888e5a7d9bb67",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page2.jpg",
+        "sha256": "e026894d93b2c8386866ab19871db091a75c208b5b553533bfb18f9f3ed3b574",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page3.jpg",
+        "sha256": "663fa1337a22fb2eac04950db47ab2c7f2e84a74ceec5c68d53fca221ec48449",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page5.jpg",
+        "sha256": "8f91b62c6dc9f133aed7a53d272f28fe2d2dc26e1e3abe6076e7f1094b5c11be",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page7.jpg",
+        "sha256": "d7d7ab4c700f226d3317782af7b24a49b33d8e0dbf1bfb57b0a82e055649e30f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page8.jpg",
+        "sha256": "03f28123d64b6e888112a70623c89fd501586cc2d4e039b567ea389d3f0613c2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page10.jpg",
+        "sha256": "656609008ba7ed1d50a3a3d7d049ec5ccb60357bd8edbceca54be1ed4e97a247",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page11.jpg",
+        "sha256": "041e43e5a5427373a143152226a151ba11e38abceb476b22ffc3b88abead6d33",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page13.jpg",
+        "sha256": "a9615c8d35630dee993c54c7f4d0f278a5f95797ecda1f547811f4ea5422bf2e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page15.jpg",
+        "sha256": "3773c964808e9f02738298682527cd53204e7d541a157121d7c167ddaf27d131",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page16.jpg",
+        "sha256": "5a33d86109b251048511cba302fede6ad4b2ea6f3cdb90c7fe37d591c433998c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/2023.findings-emnlp.248/2023.findings-emnlp.248_page18.jpg",
+        "sha256": "89adef7c1f20c269ae957fdac3399e9b3dd2338a17f6e1c383e004f6b67a7809",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

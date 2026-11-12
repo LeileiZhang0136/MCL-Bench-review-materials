@@ -1,0 +1,402 @@
+{
+  "scope": "Existing stored scores; missing scores are end-to-end failures. No model or human regrading.",
+  "models": [
+    {
+      "model": "Claude-Opus-4.6 Thinking",
+      "cases": 344,
+      "tasks": 1080,
+      "passed": 135,
+      "task_micro_percent": 12.5,
+      "wilson_95_percent": [
+        10.659527577683614,
+        14.606294890360328
+      ],
+      "first_turn_passed": 40,
+      "first_turn_tasks": 344,
+      "first_turn_percent": 11.627906976744185,
+      "context_macro_percent": 12.989341085271317,
+      "score_missing_tasks": 5,
+      "count_aligned_tasks": 855,
+      "count_unaligned_or_empty_tasks": 225,
+      "aligned_rubrics_yes": 3611,
+      "aligned_rubrics_total": 5487,
+      "aligned_rubric_satisfaction_percent": 65.8100965919446,
+      "aligned_single_failure_tasks": 206,
+      "status_normalized_passed": 135,
+      "rubric_count_buckets": {
+        "1-4": {
+          "tasks": 121,
+          "passed": 14
+        },
+        "5-8": {
+          "tasks": 668,
+          "passed": 99
+        },
+        "9-12": {
+          "tasks": 273,
+          "passed": 19
+        },
+        "13+": {
+          "tasks": 18,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "model": "Claude-Opus-4.6",
+      "cases": 344,
+      "tasks": 1080,
+      "passed": 114,
+      "task_micro_percent": 10.555555555555555,
+      "wilson_95_percent": [
+        8.860734548707358,
+        12.5299824176796
+      ],
+      "first_turn_passed": 38,
+      "first_turn_tasks": 344,
+      "first_turn_percent": 11.046511627906977,
+      "context_macro_percent": 11.371124031007751,
+      "score_missing_tasks": 0,
+      "count_aligned_tasks": 865,
+      "count_unaligned_or_empty_tasks": 215,
+      "aligned_rubrics_yes": 3219,
+      "aligned_rubrics_total": 5547,
+      "aligned_rubric_satisfaction_percent": 58.03136830719308,
+      "aligned_single_failure_tasks": 151,
+      "status_normalized_passed": 114,
+      "rubric_count_buckets": {
+        "1-4": {
+          "tasks": 121,
+          "passed": 18
+        },
+        "5-8": {
+          "tasks": 668,
+          "passed": 80
+        },
+        "9-12": {
+          "tasks": 273,
+          "passed": 14
+        },
+        "13+": {
+          "tasks": 18,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "model": "Claude-Sonnet-4.6 Thinking",
+      "cases": 344,
+      "tasks": 1080,
+      "passed": 141,
+      "task_micro_percent": 13.055555555555555,
+      "wilson_95_percent": [
+        11.17644580895194,
+        15.196549659565422
+      ],
+      "first_turn_passed": 41,
+      "first_turn_tasks": 344,
+      "first_turn_percent": 11.918604651162791,
+      "context_macro_percent": 12.999031007751936,
+      "score_missing_tasks": 1,
+      "count_aligned_tasks": 867,
+      "count_unaligned_or_empty_tasks": 213,
+      "aligned_rubrics_yes": 3646,
+      "aligned_rubrics_total": 5553,
+      "aligned_rubric_satisfaction_percent": 65.6582027732757,
+      "aligned_single_failure_tasks": 214,
+      "status_normalized_passed": 141,
+      "rubric_count_buckets": {
+        "1-4": {
+          "tasks": 121,
+          "passed": 21
+        },
+        "5-8": {
+          "tasks": 668,
+          "passed": 100
+        },
+        "9-12": {
+          "tasks": 273,
+          "passed": 19
+        },
+        "13+": {
+          "tasks": 18,
+          "passed": 1
+        }
+      }
+    },
+    {
+      "model": "Claude-Sonnet-4.6",
+      "cases": 344,
+      "tasks": 1080,
+      "passed": 140,
+      "task_micro_percent": 12.962962962962964,
+      "wilson_95_percent": [
+        11.090208403537755,
+        15.09825823156737
+      ],
+      "first_turn_passed": 43,
+      "first_turn_tasks": 344,
+      "first_turn_percent": 12.5,
+      "context_macro_percent": 13.246124031007751,
+      "score_missing_tasks": 0,
+      "count_aligned_tasks": 865,
+      "count_unaligned_or_empty_tasks": 215,
+      "aligned_rubrics_yes": 3347,
+      "aligned_rubrics_total": 5533,
+      "aligned_rubric_satisfaction_percent": 60.49159587926984,
+      "aligned_single_failure_tasks": 164,
+      "status_normalized_passed": 140,
+      "rubric_count_buckets": {
+        "1-4": {
+          "tasks": 121,
+          "passed": 18
+        },
+        "5-8": {
+          "tasks": 668,
+          "passed": 87
+        },
+        "9-12": {
+          "tasks": 273,
+          "passed": 33
+        },
+        "13+": {
+          "tasks": 18,
+          "passed": 2
+        }
+      }
+    },
+    {
+      "model": "Gemini-3.1-Pro-Preview (High)",
+      "cases": 344,
+      "tasks": 1080,
+      "passed": 104,
+      "task_micro_percent": 9.62962962962963,
+      "wilson_95_percent": [
+        8.010658592306095,
+        11.53477003995849
+      ],
+      "first_turn_passed": 42,
+      "first_turn_tasks": 344,
+      "first_turn_percent": 12.209302325581396,
+      "context_macro_percent": 11.33720930232558,
+      "score_missing_tasks": 2,
+      "count_aligned_tasks": 869,
+      "count_unaligned_or_empty_tasks": 211,
+      "aligned_rubrics_yes": 2973,
+      "aligned_rubrics_total": 5578,
+      "aligned_rubric_satisfaction_percent": 53.29867335962711,
+      "aligned_single_failure_tasks": 93,
+      "status_normalized_passed": 104,
+      "rubric_count_buckets": {
+        "1-4": {
+          "tasks": 121,
+          "passed": 17
+        },
+        "5-8": {
+          "tasks": 668,
+          "passed": 83
+        },
+        "9-12": {
+          "tasks": 273,
+          "passed": 4
+        },
+        "13+": {
+          "tasks": 18,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "model": "GPT-5.2",
+      "cases": 344,
+      "tasks": 1080,
+      "passed": 116,
+      "task_micro_percent": 10.74074074074074,
+      "wilson_95_percent": [
+        9.031288061101256,
+        12.728486572110176
+      ],
+      "first_turn_passed": 44,
+      "first_turn_tasks": 344,
+      "first_turn_percent": 12.790697674418604,
+      "context_macro_percent": 12.209302325581397,
+      "score_missing_tasks": 1,
+      "count_aligned_tasks": 869,
+      "count_unaligned_or_empty_tasks": 211,
+      "aligned_rubrics_yes": 3346,
+      "aligned_rubrics_total": 5572,
+      "aligned_rubric_satisfaction_percent": 60.050251256281406,
+      "aligned_single_failure_tasks": 158,
+      "status_normalized_passed": 116,
+      "rubric_count_buckets": {
+        "1-4": {
+          "tasks": 121,
+          "passed": 16
+        },
+        "5-8": {
+          "tasks": 668,
+          "passed": 84
+        },
+        "9-12": {
+          "tasks": 273,
+          "passed": 13
+        },
+        "13+": {
+          "tasks": 18,
+          "passed": 3
+        }
+      }
+    },
+    {
+      "model": "Doubao-Seed-2.0-pro",
+      "cases": 344,
+      "tasks": 1080,
+      "passed": 82,
+      "task_micro_percent": 7.592592592592593,
+      "wilson_95_percent": [
+        6.158815757804758,
+        9.326978539390609
+      ],
+      "first_turn_passed": 29,
+      "first_turn_tasks": 344,
+      "first_turn_percent": 8.430232558139535,
+      "context_macro_percent": 8.420542635658917,
+      "score_missing_tasks": 0,
+      "count_aligned_tasks": 869,
+      "count_unaligned_or_empty_tasks": 211,
+      "aligned_rubrics_yes": 2812,
+      "aligned_rubrics_total": 5559,
+      "aligned_rubric_satisfaction_percent": 50.58463752473467,
+      "aligned_single_failure_tasks": 99,
+      "status_normalized_passed": 82,
+      "rubric_count_buckets": {
+        "1-4": {
+          "tasks": 121,
+          "passed": 13
+        },
+        "5-8": {
+          "tasks": 668,
+          "passed": 65
+        },
+        "9-12": {
+          "tasks": 273,
+          "passed": 4
+        },
+        "13+": {
+          "tasks": 18,
+          "passed": 0
+        }
+      }
+    },
+    {
+      "model": "Gemini-2.5-pro",
+      "cases": 344,
+      "tasks": 1080,
+      "passed": 79,
+      "task_micro_percent": 7.314814814814815,
+      "wilson_95_percent": [
+        5.908594743155585,
+        9.02361305380307
+      ],
+      "first_turn_passed": 37,
+      "first_turn_tasks": 344,
+      "first_turn_percent": 10.755813953488373,
+      "context_macro_percent": 8.63856589147287,
+      "score_missing_tasks": 1,
+      "count_aligned_tasks": 867,
+      "count_unaligned_or_empty_tasks": 213,
+      "aligned_rubrics_yes": 2841,
+      "aligned_rubrics_total": 5542,
+      "aligned_rubric_satisfaction_percent": 51.26308191988452,
+      "aligned_single_failure_tasks": 99,
+      "status_normalized_passed": 78,
+      "rubric_count_buckets": {
+        "1-4": {
+          "tasks": 121,
+          "passed": 15
+        },
+        "5-8": {
+          "tasks": 668,
+          "passed": 60
+        },
+        "9-12": {
+          "tasks": 273,
+          "passed": 4
+        },
+        "13+": {
+          "tasks": 18,
+          "passed": 0
+        }
+      }
+    }
+  ],
+  "thinking_pairs": [
+    {
+      "base": "Claude-Opus-4.6",
+      "thinking": "Claude-Opus-4.6 Thinking",
+      "base_thinking_pair_counts": {
+        "00": 905,
+        "01": 61,
+        "10": 40,
+        "11": 74
+      },
+      "difference_percentage_points": 1.9444444444444444,
+      "case_cluster_bootstrap_95_percentage_points": [
+        0.273972602739726,
+        3.740875912408759
+      ],
+      "resamples": 10000,
+      "seed": 23049
+    },
+    {
+      "base": "Claude-Sonnet-4.6",
+      "thinking": "Claude-Sonnet-4.6 Thinking",
+      "base_thinking_pair_counts": {
+        "00": 879,
+        "01": 61,
+        "10": 60,
+        "11": 80
+      },
+      "difference_percentage_points": 0.09259259259259259,
+      "case_cluster_bootstrap_95_percentage_points": [
+        -2.0036429872495445,
+        2.0664869721473496
+      ],
+      "resamples": 10000,
+      "seed": 23049
+    }
+  ],
+  "score_status_conflicts": [
+    {
+      "model": "Gemini-2.5-pro",
+      "task_id": "MCL-0067/T3",
+      "stored_score": 1,
+      "statuses": [
+        "yes",
+        "yes",
+        "yes",
+        "no",
+        "yes"
+      ]
+    }
+  ],
+  "observed_pass_coverage": {
+    "all": {
+      "tasks": 1080,
+      "at_least_one_of_eight_pass": 304,
+      "at_least_one_of_ten_pass": 381
+    },
+    "synthetic": {
+      "tasks": 755,
+      "at_least_one_of_eight_pass": 163,
+      "at_least_one_of_ten_pass": 225
+    },
+    "expert": {
+      "tasks": 325,
+      "at_least_one_of_eight_pass": 141,
+      "at_least_one_of_ten_pass": 156
+    }
+  },
+  "coverage_interpretation": "Automated-score coverage, not independently verified answerability.",
+  "rubric_interpretation": "Model-specific count-aligned records only; equal counts do not validate semantic alignment."
+}

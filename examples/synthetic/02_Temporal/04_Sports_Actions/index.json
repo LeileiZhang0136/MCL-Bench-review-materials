@@ -1,0 +1,29 @@
+{
+  "source_track": "synthetic",
+  "category": "Temporal Dynamics & Environmental Interaction",
+  "subcategory": "Sports Actions",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0087",
+      "directory": "MCL-0087_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0088",
+      "directory": "MCL-0088_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0089",
+      "directory": "MCL-0089_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

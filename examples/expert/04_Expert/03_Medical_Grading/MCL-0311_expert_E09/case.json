@@ -1,0 +1,146 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-context classification assistant for a fictional multimodal benchmark. Use only the text and multimodal materials provided in the user messages for this case. Do not use outside knowledge, internet sources, pretrained recall, or labels and rules not defined inside the current case. If the local evidence is insufficient, say so under the case rules."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Role and task\n- You will receive a fictional visual bulletin describing three benchmark labels for a made-up rash-image dataset: Fire Toxin-alpha, Fire Toxin-beta, and Fire Toxin-gamma.\n- You will then receive three new test images that do not appear in the bulletin.\n- Your task is to assign the most likely label for each image and justify the decision with bulletin-grounded evidence only.\n- This is a closed-world labeling exercise for fictional categories, not a request for real-world medical judgment.\n\nRequired output format\nFor each image, write:\n**Image [Number]**\n- **Assigned label**: [Fire Toxin-alpha / Fire Toxin-beta / Fire Toxin-gamma / Cannot be determined]\n- **Rationale**: 1-2 sentences citing morphology, distribution, or associated symptoms from the bulletin.\n\nRules\n1. Use only the bulletin below; do not use outside knowledge or real-world medical advice.\n2. Prioritize lesion morphology and distribution. Mention uncertainty if features overlap.\n3. Treat the bulletin labels as fictional benchmark categories. Do not add treatment advice or unrelated background information.\n\nClinical bulletin\nThis fictional benchmark includes three confirmed rash-pattern categories.\n\n1. Fire Toxin-alpha\n- Rash morphology: erythematous macules that become clear vesicles within 24-36 hours; thin fragile walls; a distinct red halo.\n- Distribution: mainly trunk and neck; uncommon on limbs; almost never on the face.\n- Associated symptoms: mild fever (37.5-38.5 C), no lymphadenopathy, mild pruritus.\n- Course: vesicles crust within 3-4 days and heal without scarring.\n- Representative images:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_bfa909841768.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_b5191465720b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_093810478aaa.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "2. Fire Toxin-beta\n- Rash morphology: pustules appear directly, without a vesicular stage; each pustule has a firm indurated base and no surrounding halo.\n- Distribution: concentrated on the face, palms, and soles; usually symmetric; trunk involvement is rare.\n- Associated symptoms: sudden high fever (39-40 C), headache, malaise, and usually no pruritus.\n- Course: lesions dry over 7-10 days and may leave pitted scars.\n- Representative images:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_883a02e143f8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_05568e1697e8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_e9bfd16724bc.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_388d59d5ed00.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "3. Fire Toxin-gamma\n- Rash morphology: polymorphic eruption with macules, papules, vesicles, and crusts present at the same time; new and old lesions coexist in a \"starry sky\" pattern.\n- Distribution: mainly distal extremities, especially forearms, hands, lower legs, and feet; trunk involvement is limited.\n- Associated symptoms: moderate fever (38-39 C) and marked pruritus.\n- Course: lasts about 10-14 days with crops of new lesions.\n- Representative images:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ce97dc9e369f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_a47c0617ddfd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_cf06dca2bfad.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_aa99f5403378.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_07beaf77fa46.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "New test images"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_4a4444f55ecb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_3ed1cf028d8b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_3e7394974b0a.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Classify each new image as Fire Toxin-alpha, Fire Toxin-beta, Fire Toxin-gamma, or Cannot be determined. Cite the key bulletin features that support each answer."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should classify `mo3.jpg` as `Fire Toxin-alpha`.",
+      "2. The response should justify `mo3.jpg` with morphology such as clear vesicles or a red halo.",
+      "3. The response should justify `mo3.jpg` with distribution closer to trunk or neck than to a face-dominant pattern.",
+      "4. The response should classify `sm_0005.jpg` as `Fire Toxin-beta`.",
+      "5. The response should justify `sm_0005.jpg` with morphology such as pustules, a firm base, or absence of a halo.",
+      "6. The response should justify `sm_0005.jpg` with distribution favoring face, palms, or soles.",
+      "7. The response should classify `ch_0005.jpg` as `Fire Toxin-gamma`.",
+      "8. The response should justify `ch_0005.jpg` with polymorphic lesions, a starry-sky mix of lesion ages, or distal-extremity distribution.",
+      "9. The response should stay inside the fictional bulletin and should not add outside knowledge or treatment advice."
+    ],
+    "metadata": {
+      "task_id": "MCL-0311_T1",
+      "context_id": "MCL-0311",
+      "turn_index": 1
+    }
+  }
+]

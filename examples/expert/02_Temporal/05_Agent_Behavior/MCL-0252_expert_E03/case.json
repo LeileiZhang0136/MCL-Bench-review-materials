@@ -1,0 +1,270 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an elite expert in advanced robotic automated warehousing systems. Your core responsibility is to ingest and deeply analyze multimodal data from the warehousing system to efficiently execute a complex series of warehousing tasks. In your responses, maintain a professional, analytical, and highly structured tone. Always provide actionable operational guidance and data-driven insights."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_5343417bcfc3.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This video showcases a new automated robotic warehousing system. Please learn and understand the operational logic of the entire system through this video. Based on the structural design of the storage infrastructure shown in the visual materials, please analyze and explain why this specific warehousing system necessitates the use of the specialized robots shown in the video, rather than traditional flat AGVs. In your response, explicitly analyze the vertical characteristics of the racking and the corresponding physical limitations of flat AGVs."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should identify that the fixed high-bay racking shown in the video/image is multi-tiered (or emphasize its vertical height).",
+      "2.The response should explicitly explain that traditional flat AGVs are physically unable to reach, store, or retrieve goods on these higher shelves."
+    ],
+    "metadata": {
+      "task_id": "MCL-0252_T1",
+      "context_id": "MCL-0252",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an elite expert in advanced robotic automated warehousing systems. Your core responsibility is to ingest and deeply analyze multimodal data from the warehousing system to efficiently execute a complex series of warehousing tasks. In your responses, maintain a professional, analytical, and highly structured tone. Always provide actionable operational guidance and data-driven insights."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_5343417bcfc3.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This video showcases a new automated robotic warehousing system. Please learn and understand the operational logic of the entire system through this video. Based on the structural design of the storage infrastructure shown in the visual materials, please analyze and explain why this specific warehousing system necessitates the use of the specialized robots shown in the video, rather than traditional flat AGVs. In your response, explicitly analyze the vertical characteristics of the racking and the corresponding physical limitations of flat AGVs."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Due to market fluctuations, the company has experienced a surge in orders, and the current warehouse can no longer meet its storage capacity needs. Management has proposed two solutions to resolve this issue:\nOption 1: Double the overall height of the existing warehouse shelves while leaving the rest of the warehouse unchanged, at a cost of $10,000.\nOption 2: Horizontally expand the current warehouse shelves by doubling their footprint, at a cost of $50,000.\nBased on the specific structural design and the operational robots shown in the visual materials, please analyze which expansion plan the enterprise should adopt. In your response, you must explicitly evaluate the structural feasibility of both options regarding the physical limitations of the robots."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly identify that the vertical reach of the robots is strictly coupled with the height of the fixed high-bay racking shown in the materials.",
+      "2.The response should state that solely increasing the rack height (Option 1) cannot effectively expand storage capacity because the robots cannot reach the added tiers.",
+      "3.The response should explicitly select Option 2 (horizontal expansion) as the only viable plan.",
+      "4.The response should point out the cost disparity between the two options. For example, it should explicitly mention that although Option 1 has a significantly lower cost ($10,000 vs $50,000), the current structural dependencies of this specific automated system render Option 1 unfeasible."
+    ],
+    "metadata": {
+      "task_id": "MCL-0252_T2",
+      "context_id": "MCL-0252",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an elite expert in advanced robotic automated warehousing systems. Your core responsibility is to ingest and deeply analyze multimodal data from the warehousing system to efficiently execute a complex series of warehousing tasks. In your responses, maintain a professional, analytical, and highly structured tone. Always provide actionable operational guidance and data-driven insights."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_5343417bcfc3.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This video showcases a new automated robotic warehousing system. Please learn and understand the operational logic of the entire system through this video. Based on the structural design of the storage infrastructure shown in the visual materials, please analyze and explain why this specific warehousing system necessitates the use of the specialized robots shown in the video, rather than traditional flat AGVs. In your response, explicitly analyze the vertical characteristics of the racking and the corresponding physical limitations of flat AGVs."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Due to market fluctuations, the company has experienced a surge in orders, and the current warehouse can no longer meet its storage capacity needs. Management has proposed two solutions to resolve this issue:\nOption 1: Double the overall height of the existing warehouse shelves while leaving the rest of the warehouse unchanged, at a cost of $10,000.\nOption 2: Horizontally expand the current warehouse shelves by doubling their footprint, at a cost of $50,000.\nBased on the specific structural design and the operational robots shown in the visual materials, please analyze which expansion plan the enterprise should adopt. In your response, you must explicitly evaluate the structural feasibility of both options regarding the physical limitations of the robots."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assume that there is currently only one robot in the operating system, and it is initially unloaded and stationed at the workstation. There are currently 3 items pending inbound storage (transporting goods from the workstation to the fixed high-bay racking) and 7 items pending outbound retrieval (transporting goods from the fixed high-bay racking to the workstation). Based on the visual materials, please determine the minimum number of times the robot must enter the warehouse to complete all these tasks. In your response, you must explicitly state the maximum carrying capacity (number of storage slots) of the robot observed from the materials, and provide a step-by-step breakdown of your trip calculation."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly identify from the visual materials that the robot has a maximum carrying capacity of exactly 6 storage slots.",
+      "2.The response should explain the optimal logistical sequence combining inbound and outbound tasks. For example, it should detail that during its first entry, the robot can store the 3 inbound items and subsequently use its 6 freed slots to retrieve 6 outbound items before exiting.",
+      "3. The response should conclude that the minimum number of entries is 2, correctly identifying that only the 7th outbound item necessitates an additional (second) entry."
+    ],
+    "metadata": {
+      "task_id": "MCL-0252_T3",
+      "context_id": "MCL-0252",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an elite expert in advanced robotic automated warehousing systems. Your core responsibility is to ingest and deeply analyze multimodal data from the warehousing system to efficiently execute a complex series of warehousing tasks. In your responses, maintain a professional, analytical, and highly structured tone. Always provide actionable operational guidance and data-driven insights."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_5343417bcfc3.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This video showcases a new automated robotic warehousing system. Please learn and understand the operational logic of the entire system through this video. Based on the structural design of the storage infrastructure shown in the visual materials, please analyze and explain why this specific warehousing system necessitates the use of the specialized robots shown in the video, rather than traditional flat AGVs. In your response, explicitly analyze the vertical characteristics of the racking and the corresponding physical limitations of flat AGVs."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Due to market fluctuations, the company has experienced a surge in orders, and the current warehouse can no longer meet its storage capacity needs. Management has proposed two solutions to resolve this issue:\nOption 1: Double the overall height of the existing warehouse shelves while leaving the rest of the warehouse unchanged, at a cost of $10,000.\nOption 2: Horizontally expand the current warehouse shelves by doubling their footprint, at a cost of $50,000.\nBased on the specific structural design and the operational robots shown in the visual materials, please analyze which expansion plan the enterprise should adopt. In your response, you must explicitly evaluate the structural feasibility of both options regarding the physical limitations of the robots."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assume that there is currently only one robot in the operating system, and it is initially unloaded and stationed at the workstation. There are currently 3 items pending inbound storage (transporting goods from the workstation to the fixed high-bay racking) and 7 items pending outbound retrieval (transporting goods from the fixed high-bay racking to the workstation). Based on the visual materials, please determine the minimum number of times the robot must enter the warehouse to complete all these tasks. In your response, you must explicitly state the maximum carrying capacity (number of storage slots) of the robot observed from the materials, and provide a step-by-step breakdown of your trip calculation."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_4510da632502.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This image provides a top-down view of the automated warehousing system as it is actually deployed in a manufacturing company.\nAssume this top-down view represents the current state of the warehouse, and all robots are currently unloaded. There are currently 13 items pending inbound storage and 23 items pending outbound retrieval. Based on the visual materials, please determine whether all tasks can be completed under the strict condition that every robot is limited to arriving at the workstation exactly once (for the robots currently stationed at the workstation, their present state does not count towards this limit)."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly identify from the visual materials that there is a total of 5 robots in the system.",
+      "2.The response should correctly identify the initial distribution of the robots: 2 robots are located at the workstation, and 3 robots are in the warehouse.",
+      "3.The response should calculate the physical limitation for inbound capacity. For example, it must explicitly state that the 2 robots currently at the workstation can only carry a maximum of 12 inbound items, meaning the 13 pending inbound tasks cannot be completed at once.",
+      "4.The response should calculate and state that all 5 robots combined can handle a total of 30 outbound tasks, which is sufficient to complete the 23 pending outbound tasks.",
+      "5.The response must base its final conclusion on the calculated inbound bottleneck, correctly determining that because the 13 inbound tasks cannot be cleared initially, it is impossible to complete all tasks under the constraint of only one workstation visit per robot."
+    ],
+    "metadata": {
+      "task_id": "MCL-0252_T4",
+      "context_id": "MCL-0252",
+      "turn_index": 4
+    }
+  }
+]

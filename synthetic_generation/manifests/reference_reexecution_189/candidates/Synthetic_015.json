@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_015",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/compostingfinal-150126084912-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/compostingfinal-150126084912-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-1-1024.jpg",
+        "sha256": "47d17774966678fff68139615defe838ee96c7137ddcf8e3d4e92369fac336ee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-3-1024.jpg",
+        "sha256": "1ff943177e8c24ecc1dff36ebd89fd2c2516024d96ed049a5db12de603ed9975",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-4-1024.jpg",
+        "sha256": "456f938f0242e446e398b15e2a731220957c85a568801746b918733868f0738e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-6-1024.jpg",
+        "sha256": "b588cf431edddfe69c4c40e4abf20363abe27059744935c64b6cc619792bce90",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-8-1024.jpg",
+        "sha256": "80c97d35700643e17b7746e328eb76d96e9690d40a268deca21799a7aa180aae",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-10-1024.jpg",
+        "sha256": "50bd92e60fded69b42162b3fadde208f0e70e0fad9b31a5d78a6ffab77e1b641",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-11-1024.jpg",
+        "sha256": "41b949fee27d4a7ca2336807f0f2f6bd8ceaf79bf881c8594999a97f14124d72",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-13-1024.jpg",
+        "sha256": "6a1f99e5b3d57be998c0ed06f55251053062ba357c261c73b16dc2807d58ed81",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-15-1024.jpg",
+        "sha256": "525c75c627e1ba13dfa332bc9931e931cbc077eb7c8505c64e2eb8c4b9ac6d3d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-17-1024.jpg",
+        "sha256": "b97e8b99e923fe436951d82aefed6ccf65b68e9a36184f14b2f20b950e90963e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-18-1024.jpg",
+        "sha256": "02bfd95202c28bd89acf15febf14e78f874dae4cd000665c9b3311459ff96aa5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/compostingfinal-150126084912-conversion-gate01_95/composting-20-1024.jpg",
+        "sha256": "0151f7af1c98acc69115764f7e2551df00fe44178fc4b9e5ccaf6661fdc695b1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

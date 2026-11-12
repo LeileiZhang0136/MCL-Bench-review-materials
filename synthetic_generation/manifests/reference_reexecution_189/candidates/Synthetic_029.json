@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_029",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-1-1024.jpg",
+        "sha256": "c01ee5089428916ef888eaae8b951b1b4798c99056f6cdd9d43d1299e84e9678",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-3-1024.jpg",
+        "sha256": "646fe37a08e26f7395f391de9dcbf0ba47904ec187f2aded7fe49d4afdf7eec6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-4-1024.jpg",
+        "sha256": "14a42093bddf79c883d73339de8942fcb2636a66970c13329561dde4228b40a3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-6-1024.jpg",
+        "sha256": "bcdba2b72a8091cb4be1d3d82d09cfca0d9365003541e967252ef6dc6bc65ae6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-8-1024.jpg",
+        "sha256": "2823ccb86dae00bf1430b88850180a7c2c4cc1a04ac6eca7a2b88dcb27af2392",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-10-1024.jpg",
+        "sha256": "186e9a2559deecf45b35729e1b5898779769d8c29fd72d48b7806e08a3859ce9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-11-1024.jpg",
+        "sha256": "976faa9cc1e9e74c0712759a863be20f87c5aef5adb1703847e2a5d2e6008bfa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-13-1024.jpg",
+        "sha256": "a1db787a6367e5ccc9e49b6a96a9b23b6bcd9d3f148df413eb08105f0c131a76",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-15-1024.jpg",
+        "sha256": "049aa4ba70ecf825a925585a6298827e7ddc2e2b9b47b535109d7cf6e33235c6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-17-1024.jpg",
+        "sha256": "ce6238ea561a66cce80bd46f8fca2371f64eb618c4cafd5d0ce365b2ec4967f9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-18-1024.jpg",
+        "sha256": "a80e1f956533edf674236d9ca2acf5f3492cc1d773586e3c5aa0ceddd2f4612b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/research2guidancemhealthappdevelopereconomicsslideshare-140522052520-phpapp01_95/research2guidance-mhealth-app-developer-economics-2014-study-20-1024.jpg",
+        "sha256": "af24bda5c5a9d7760ecc2c2f6c53fc375f083cdcee8d03ccb82b47fe2c9257b7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

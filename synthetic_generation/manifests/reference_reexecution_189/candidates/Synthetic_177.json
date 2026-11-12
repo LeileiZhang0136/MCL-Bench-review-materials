@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_177",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:stereo_headset",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "stereo_headset",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page0.jpg",
+        "sha256": "af3821b068855b4a8c6d342d1b48a1af43366b564cb3c57fe01a076660ab9c26",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page14.jpg",
+        "sha256": "d47c2ea0cb9631d360fc33fcbf19364e51e7fa7284a05a6b89ae3fb41e60b468",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page27.jpg",
+        "sha256": "19f41f2cdcdf72a86305024f24732adc00f4bdc1b165c0dc1efea2c8b4bb2e1e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page41.jpg",
+        "sha256": "507826b4f84c398ff38441da9734db0a3c23fc06141d840db69f21dc26556579",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page55.jpg",
+        "sha256": "86b66791f32951f6bd507833b979c32f1bfe2d513850d2facf003e4fcd8286e9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page68.jpg",
+        "sha256": "83c4baef7db781d37dce6a5ff7563bdd5aac61f66d3fe1f3d9117977186f6013",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page82.jpg",
+        "sha256": "f298d552b28d28cde0d70f397c73742b2254ca3fe8fdd2d29adc76cb860a552d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page95.jpg",
+        "sha256": "9c27035287dfd33437f7c2ccd1f1de0fa461ed82d90933304abc43117c50f804",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page109.jpg",
+        "sha256": "80250b8b26f40b88fa2ddb7e481a429495178089783c551d597b8d4c96628707",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page123.jpg",
+        "sha256": "f5c1a44d75eadd083418763e216b676ff102eb24e63bdef8966cfeef39641ffe",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page136.jpg",
+        "sha256": "8f6dc489897a58a4bd48b1dfc2ab2fc700d42a58a377d00edd2bc07934520027",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/stereo_headset/stereo_headset_page150.jpg",
+        "sha256": "8c0036e46b5f900d641d97a51326c0b01854128db3f5913fa8043758f7d4c44d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

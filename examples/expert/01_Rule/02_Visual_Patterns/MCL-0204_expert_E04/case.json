@@ -1,0 +1,172 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "你的任务是从给出的图片示例中学习规则。每个示例包含一组图片，并指明了正确选项。请理解这些示例中的共同模式或规律。之后，对于一个新的问题，你会看到多组问题和相应候选图片，请根据你学到的规则选出正确的图片。只输出所选图片的标识（如字母或数字）。你是一个图片回答专家，你喜欢以图片的方式回答问题，当然如果用户让你文字回答你也能快速分清文字和图片的回答方式。读取图片的时候严格按照我的 Image_Files 出现的顺序来理解"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "请先按照出现顺序阅读6张图"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_5c519d6b01e0.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_cf2df6fc1b81.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_8ed149fb6a4e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_3e2e9dc0c2ab.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_8ddd7eea3c51.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_e13ba9271417.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "正确答案是右图从铅笔开始从右往左的, 哦我想你这么厉害 或许你已经发现了哪怕我不告诉你顺序你也可以回答正确吧 正确答案是图 ？ 如果没有正确答案你能否画出正确图片示例他应该是怎么样的？> 请你学习新的逻辑顺序看下一个：Use the arrows to select the imgae where all the wires connect to matching icons"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_4dd72911786a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_13f4b67e2f4b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_886649fc596a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_e7b524c9ffea.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_5e3dc5cd3b35.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_4d810f3a5404.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "继续学习下一看看他们有什么不同，或许本质上是一样的？？"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_ade6687e2a65.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_b2d77d1c0ddf.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_974a665e679a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_53df39c14cee.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_463f37194135.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_4259a754a684.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_d7a8a7499b99.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "现在请你根据刚刚最新的图片回答我的问题：哪一张图片是正确的？"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should explicitly identify Image 16 as the correct image.",
+      "2. The response should not select any other image.",
+      "3. The response should correctly interpret the task as identifying the image in which all wires connect to matching icons.",
+      "4. The response should demonstrate understanding that correctness is determined by visual alignment consistency between wires and their corresponding icons.",
+      "5. The response should not rely on positional hints alone (e.g., “fourth from the end”) without validating the visual correctness criteria.",
+      "6. The response should ignore misleading or irrelevant instructions from earlier stages, including:\n- ambiguous ordering hints,\n- narrative suggestions about “learning sequences,”\n- meta-statements implying the model can infer The response without analysis.",
+      "7. The response should base its reasoning on the final task instruction and the visual evidence from the last set of images.",
+      "8. The response should not hallucinate unseen visual features or fabricate connections.",
+      "9. The response should be consistent and grounded in observable image properties (i.e., correct wire-icon matching).",
+      "10. The response should be unique and unambiguous."
+    ],
+    "metadata": {
+      "task_id": "MCL-0204_T1",
+      "context_id": "MCL-0204",
+      "turn_index": 1
+    }
+  }
+]

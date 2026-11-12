@@ -1,0 +1,514 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in reasoning about high-speed moving targets and pursuit routes. You are good at judging the subject's pursuit target, speed source, turning timing, training nature and whether the action is truly continued based on canine running, catching, chasing balls, crossing training tubes, human ball sports and static ending images. The analysis is based on the subject's orientation, limb extension, target position, site material, bystander relationship, and action completion; each subsequent round uses the established speed label, target rules, and ending conditions."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these fragments in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_fe97544b8592.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_3f195db64220.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_b86b05dcafde.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_d76a5907408f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_50607dadb653.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_a980f490d019.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_47badec07c13.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_053febff888e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_9e1b82b61800.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d88852b6803e.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Now think of these ten pictures as a set of \"speed sample cards\". Each card records why the subject ran, where he ran, and whether he could continue after running. Figure 01 is a black and white dog running sideways at high speed on the grass; Figure 02 is a white dog sprinting in the snow, with only snow and scattered snow particles in the background; Figure 03 is a brown dog running around a water pipe or boundary line on the lawn; Figure 04 is a white dog rushing towards the yellow ball in front and turning sharply; Figure 05 is a white dog jumping upwards, aiming like an aerial catch Figure 06 shows children running cricket or ball games on the sand court; Figure 07 shows a dog emerging from a training tube or tunnel entrance; Figure 08 shows two dogs rushing forward side by side; Figure 09 shows a black dog running through the grass with a toy in its mouth; Figure 10 shows two people embracing in the park, and the action has switched from high-speed movement to static restraint. Rules: If the target object is clearly visible, priority is given to the goal-driven process; if the subjects are in pairs and parallel, priority is given to the companion-driven process; if the subject has already caught the object, priority is given to the recovery stage; if there is no sign of further progress, it is more suitable as a finishing or pause. Question 1: Please create a speed sample card for the ten pictures, and assign the main category and subcategory to each picture according to the five categories of \"goal-driven, companion-driven, training-driven, environment-driven, closing pause\"; then select three pictures that are most suitable for chasing climax and two that are most suitable for closing signals.\n\nA time lock is added in this round: please divide all judgments into three levels: \"can be supported by the picture\", \"must wait for the previous one or the previous group to be established\", and \"can only be retained as circumstantial evidence\". When answering, don't just categorize by topic, but also explain which page or picture in each layer is most likely to be used in advance; if used in advance, it will change the subject, location, tool, action completion, or responsibility attribution. Finally, let’s do a reverse order check: If you look at the last two pictures first and then look back at the beginning, which pair is most likely to be mistakenly merged, and why can’t they be merged just by similar appearance."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should answers need to cover ten pictures and create speed sample cards.",
+      "2. The response should use five categories: goal-driven, companion-driven, training-driven, environment-driven, and closing pause.",
+      "3. The response should explain the difference in the target state of Figure 04, Figure 05, and Figure",
+      "09.",
+      "4. The response should deal with the human court running in Figure 06 and the static hug position in Figure",
+      "10.",
+      "5. The response should select the chasing climax and the closing signal, and explain the basis.\nThe response should additionally The three-layer time lock must be reflected; the consequences of early use must be given; the reverse order check must be completed, and the specific relationship of the error and destruction must be explained.",
+      "6. The response should also explain: If different groupings or main chains are used, the key boundaries among subjects, venues, actions, and time points must still be maintained, and at least one connection that must be supplemented must be clearly pointed out.",
+      "7. The response should answers should not be combined based only on similar appearance, adjacent order, or shared nouns, or the circumstantial evidence should be written directly as main evidence, and similar types should be written directly as the same process."
+    ],
+    "metadata": {
+      "task_id": "MCL-0087_T1",
+      "context_id": "MCL-0087",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in reasoning about high-speed moving targets and pursuit routes. You are good at judging the subject's pursuit target, speed source, turning timing, training nature and whether the action is truly continued based on canine running, catching, chasing balls, crossing training tubes, human ball sports and static ending images. The analysis is based on the subject's orientation, limb extension, target position, site material, bystander relationship, and action completion; each subsequent round uses the established speed label, target rules, and ending conditions."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these fragments in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_fe97544b8592.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_3f195db64220.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_b86b05dcafde.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_d76a5907408f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_50607dadb653.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_a980f490d019.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_47badec07c13.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_053febff888e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_9e1b82b61800.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d88852b6803e.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Now think of these ten pictures as a set of \"speed sample cards\". Each card records why the subject ran, where he ran, and whether he could continue after running. Figure 01 is a black and white dog running sideways at high speed on the grass; Figure 02 is a white dog sprinting in the snow, with only snow and scattered snow particles in the background; Figure 03 is a brown dog running around a water pipe or boundary line on the lawn; Figure 04 is a white dog rushing towards the yellow ball in front and turning sharply; Figure 05 is a white dog jumping upwards, aiming like an aerial catch Figure 06 shows children running cricket or ball games on the sand court; Figure 07 shows a dog emerging from a training tube or tunnel entrance; Figure 08 shows two dogs rushing forward side by side; Figure 09 shows a black dog running through the grass with a toy in its mouth; Figure 10 shows two people embracing in the park, and the action has switched from high-speed movement to static restraint. Rules: If the target object is clearly visible, priority is given to the goal-driven process; if the subjects are in pairs and parallel, priority is given to the companion-driven process; if the subject has already caught the object, priority is given to the recovery stage; if there is no sign of further progress, it is more suitable as a finishing or pause. Question 1: Please create a speed sample card for the ten pictures, and assign the main category and subcategory to each picture according to the five categories of \"goal-driven, companion-driven, training-driven, environment-driven, closing pause\"; then select three pictures that are most suitable for chasing climax and two that are most suitable for closing signals.\n\nA time lock is added in this round: please divide all judgments into three levels: \"can be supported by the picture\", \"must wait for the previous one or the previous group to be established\", and \"can only be retained as circumstantial evidence\". When answering, don't just categorize by topic, but also explain which page or picture in each layer is most likely to be used in advance; if used in advance, it will change the subject, location, tool, action completion, or responsibility attribution. Finally, let’s do a reverse order check: If you look at the last two pictures first and then look back at the beginning, which pair is most likely to be mistakenly merged, and why can’t they be merged just by similar appearance."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now join the Momentum Routeboard. A complete chasing route requires six steps: starting, accelerating, locking the target, jumping or turning sharply, recycling, and stopping. According to the picture content, Figure 01, Figure 02, and Figure 03 can all be used to start or accelerate, but the boundaries of grass, snow and lawn are different; Figure 04 is more suitable for locking the target and turning sharply, because the ball is clearly visible; Figure 05 is more suitable for jumping and catching; Figure 07 is more suitable for training starts, Because it comes out of the tunnel entrance; Figure 08 can explain the acceleration caused by companions running together; Figure 09 is more like the recovery stage, because the toy is already in the mouth; Figure 10 is most suitable as a pause; Figure 06 can be used as a human parallel sample to illustrate that \"running is not necessarily a dog chasing an object.\" Please arrange two six-step routes: the first is a pure dog chasing route, and the second is a training route that includes companion running and a training tube start. Each route must explain which step will change the nature of the route if replaced by Figure 06 or Figure 10. At the same time, explain whether Figure 02 Snow Sprinting or Figure 03 Lawn Boundary Running is more suitable as an acceleration section when there is no clear goal. When answering, you should also explain the difference between the sideways running on the grass in Figure 01 and the start of the training tube in Figure 07. One is more like an open pursuit, and the other is more like the speed released by obstacles; Figure 02 Snow sprint is more like a single high-speed straight-line propulsion.\n\nThis round adds a “resource limit”: assuming that only half of the materials can be retained for the next processor, you need to explain which ones must be retained, which ones can be delayed, and which ones are only suitable for review when disputes arise. The reason for retaining cannot just say that there is a lot of information, but it must explain which boundary it can lock. Delayed material cannot be discarded directly. It is necessary to write down what can be made up for when it appears late. Finally, a minimum stable combination and a minimum misleading combination are given, both of which require specific page or figure numbers."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the answer requires two six-step momentum routes.",
+      "2. The response should the first one needs to reflect a pure dog chasing an object, and the second one needs to reflect the training tube and the companion running together.",
+      "3. The response should answers need to cover the six steps of starting, accelerating, locking the target, jumping or turning sharply, recycling, and stopping.",
+      "4. The response should explain how replacing Figure 06 or Figure 10 will change the nature of the route.",
+      "5. The response should the answer requires comparing Figure 02 and Figure 03 as the adaptation difference in the acceleration section.\nThe response should additionally Reserved, delayed and disputed review materials must be distinguished; minimum stable combinations and minimum misleading combinations must be given, and boundary differences must be explained.",
+      "6. The response should also explain: If different evidence supplement points, safe chains or log checking sequences are used, it must also be able to clearly explain which step is insufficient in advance and which step can only be compared side by side and not sequentially.",
+      "7. The response should distinguish the facts in the picture, relationship advancement and judgment to be supplemented, and \"similar types\" must not be directly written as \"same place/same process/same subject\"."
+    ],
+    "metadata": {
+      "task_id": "MCL-0087_T2",
+      "context_id": "MCL-0087",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in reasoning about high-speed moving targets and pursuit routes. You are good at judging the subject's pursuit target, speed source, turning timing, training nature and whether the action is truly continued based on canine running, catching, chasing balls, crossing training tubes, human ball sports and static ending images. The analysis is based on the subject's orientation, limb extension, target position, site material, bystander relationship, and action completion; each subsequent round uses the established speed label, target rules, and ending conditions."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these fragments in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_fe97544b8592.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_3f195db64220.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_b86b05dcafde.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_d76a5907408f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_50607dadb653.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_a980f490d019.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_47badec07c13.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_053febff888e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_9e1b82b61800.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d88852b6803e.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Now think of these ten pictures as a set of \"speed sample cards\". Each card records why the subject ran, where he ran, and whether he could continue after running. Figure 01 is a black and white dog running sideways at high speed on the grass; Figure 02 is a white dog sprinting in the snow, with only snow and scattered snow particles in the background; Figure 03 is a brown dog running around a water pipe or boundary line on the lawn; Figure 04 is a white dog rushing towards the yellow ball in front and turning sharply; Figure 05 is a white dog jumping upwards, aiming like an aerial catch Figure 06 shows children running cricket or ball games on the sand court; Figure 07 shows a dog emerging from a training tube or tunnel entrance; Figure 08 shows two dogs rushing forward side by side; Figure 09 shows a black dog running through the grass with a toy in its mouth; Figure 10 shows two people embracing in the park, and the action has switched from high-speed movement to static restraint. Rules: If the target object is clearly visible, priority is given to the goal-driven process; if the subjects are in pairs and parallel, priority is given to the companion-driven process; if the subject has already caught the object, priority is given to the recovery stage; if there is no sign of further progress, it is more suitable as a finishing or pause. Question 1: Please create a speed sample card for the ten pictures, and assign the main category and subcategory to each picture according to the five categories of \"goal-driven, companion-driven, training-driven, environment-driven, closing pause\"; then select three pictures that are most suitable for chasing climax and two that are most suitable for closing signals.\n\nA time lock is added in this round: please divide all judgments into three levels: \"can be supported by the picture\", \"must wait for the previous one or the previous group to be established\", and \"can only be retained as circumstantial evidence\". When answering, don't just categorize by topic, but also explain which page or picture in each layer is most likely to be used in advance; if used in advance, it will change the subject, location, tool, action completion, or responsibility attribution. Finally, let’s do a reverse order check: If you look at the last two pictures first and then look back at the beginning, which pair is most likely to be mistakenly merged, and why can’t they be merged just by similar appearance."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now join the Momentum Routeboard. A complete chasing route requires six steps: starting, accelerating, locking the target, jumping or turning sharply, recycling, and stopping. According to the picture content, Figure 01, Figure 02, and Figure 03 can all be used to start or accelerate, but the boundaries of grass, snow and lawn are different; Figure 04 is more suitable for locking the target and turning sharply, because the ball is clearly visible; Figure 05 is more suitable for jumping and catching; Figure 07 is more suitable for training starts, Because it comes out of the tunnel entrance; Figure 08 can explain the acceleration caused by companions running together; Figure 09 is more like the recovery stage, because the toy is already in the mouth; Figure 10 is most suitable as a pause; Figure 06 can be used as a human parallel sample to illustrate that \"running is not necessarily a dog chasing an object.\" Please arrange two six-step routes: the first is a pure dog chasing route, and the second is a training route that includes companion running and a training tube start. Each route must explain which step will change the nature of the route if replaced by Figure 06 or Figure 10. At the same time, explain whether Figure 02 Snow Sprinting or Figure 03 Lawn Boundary Running is more suitable as an acceleration section when there is no clear goal. When answering, you should also explain the difference between the sideways running on the grass in Figure 01 and the start of the training tube in Figure 07. One is more like an open pursuit, and the other is more like the speed released by obstacles; Figure 02 Snow sprint is more like a single high-speed straight-line propulsion.\n\nThis round adds a “resource limit”: assuming that only half of the materials can be retained for the next processor, you need to explain which ones must be retained, which ones can be delayed, and which ones are only suitable for review when disputes arise. The reason for retaining cannot just say that there is a lot of information, but it must explain which boundary it can lock. Delayed material cannot be discarded directly. It is necessary to write down what can be made up for when it appears late. Finally, a minimum stable combination and a minimum misleading combination are given, both of which require specific page or figure numbers."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now add \"broken link risk\". The risk of broken links comes from three types of sources: the target disappears suddenly, the subject is switched to another task, and the speed is strong but there is no explainable next step. Figure 04 and Figure 05 are both wonderful, but one is turning sharply towards the ball, and the other is jumping upward. They need to explain whether the same goal can be continued; Figure 09 has already entered the recovery after grabbing, so it is not suitable to be placed before locking the target; Figure 08 The two dogs run very fast together, but if it is directly followed by Figure 09, it is necessary to explain how to switch from companion drive to single recovery; Figure 06 Cricket running will change the subject to a human; Figure 10 Hug will change the entire route from dynamic to static. Please design two sets of five-picture plans: one pursues the highest continuity, and the other pursues the highest picture tension. Each set contains at least one obvious target picture, one jump or sharp turn picture, one recovery picture, and one pause or closing picture. Question 3: Please output two sets of five-picture plans, giving the four items of high/medium/low in terms of target continuity, action tension, subject consistency, and bandha clarity, and indicate which step is most likely to break the chain and why. If the plan uses Figure 08 of two dogs running together, it must also indicate when it must switch back to a single target; if the plan uses Figure 10 of a hug, it must indicate that it is the end of the action and not a pause in the middle; if Figure 06 of human court running is put into the plan, it can only be used as a control sample.\n\nA time lock is added in this round: please divide all judgments into three levels: \"can be supported by the picture\", \"must wait for the previous one or the previous group to be established\", and \"can only be retained as circumstantial evidence\". When answering, don't just categorize by topic, but also explain which page or picture in each layer is most likely to be used in advance; if used in advance, it will change the subject, location, tool, action completion, or responsibility attribution. Finally, let’s do a reverse order check: If you look at the last two pictures first and then look back at the beginning, which pair is most likely to be mistakenly merged, and why can’t they be merged just by similar appearance."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should give two sets of five-picture plans with the highest continuity and the highest picture tension.",
+      "2. The response should each set must include an obvious target diagram, a jump or sharp turn diagram, a recovery diagram, and a pause or closing diagram.",
+      "3. The response should be high/medium/low for the continuity of the target, the tension of the movement, the consistency of the subject, and the clarity of the bandha.",
+      "4. The response should point out the step that is most likely to break the link and explain the reason.",
+      "5. The response should the answer requires comparing the functional differences of Figure 04/05/09, Figure 08, Figure 06, and Figure",
+      "10.\nThe response should additionally The three-layer time lock must be reflected; the consequences of early use must be given; the reverse order check must be completed, and the specific relationship of the error and destruction must be explained.",
+      "6. The response should also explain: If the specific pages of the anchor, supplement, counterexample, pending review, or cut identity are different, it can explain which conclusion collapses first after deletion and which boundary can still be barely maintained.",
+      "7. The response should answers must not be graded solely on the basis of the drama of the scene or the amount of information, without discounting the density of evidence, exclusionary effects, and risk of misleading."
+    ],
+    "metadata": {
+      "task_id": "MCL-0087_T3",
+      "context_id": "MCL-0087",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in reasoning about high-speed moving targets and pursuit routes. You are good at judging the subject's pursuit target, speed source, turning timing, training nature and whether the action is truly continued based on canine running, catching, chasing balls, crossing training tubes, human ball sports and static ending images. The analysis is based on the subject's orientation, limb extension, target position, site material, bystander relationship, and action completion; each subsequent round uses the established speed label, target rules, and ending conditions."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these fragments in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_fe97544b8592.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_3f195db64220.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_b86b05dcafde.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_d76a5907408f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_50607dadb653.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_a980f490d019.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_47badec07c13.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_053febff888e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_9e1b82b61800.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d88852b6803e.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Now think of these ten pictures as a set of \"speed sample cards\". Each card records why the subject ran, where he ran, and whether he could continue after running. Figure 01 is a black and white dog running sideways at high speed on the grass; Figure 02 is a white dog sprinting in the snow, with only snow and scattered snow particles in the background; Figure 03 is a brown dog running around a water pipe or boundary line on the lawn; Figure 04 is a white dog rushing towards the yellow ball in front and turning sharply; Figure 05 is a white dog jumping upwards, aiming like an aerial catch Figure 06 shows children running cricket or ball games on the sand court; Figure 07 shows a dog emerging from a training tube or tunnel entrance; Figure 08 shows two dogs rushing forward side by side; Figure 09 shows a black dog running through the grass with a toy in its mouth; Figure 10 shows two people embracing in the park, and the action has switched from high-speed movement to static restraint. Rules: If the target object is clearly visible, priority is given to the goal-driven process; if the subjects are in pairs and parallel, priority is given to the companion-driven process; if the subject has already caught the object, priority is given to the recovery stage; if there is no sign of further progress, it is more suitable as a finishing or pause. Question 1: Please create a speed sample card for the ten pictures, and assign the main category and subcategory to each picture according to the five categories of \"goal-driven, companion-driven, training-driven, environment-driven, closing pause\"; then select three pictures that are most suitable for chasing climax and two that are most suitable for closing signals.\n\nA time lock is added in this round: please divide all judgments into three levels: \"can be supported by the picture\", \"must wait for the previous one or the previous group to be established\", and \"can only be retained as circumstantial evidence\". When answering, don't just categorize by topic, but also explain which page or picture in each layer is most likely to be used in advance; if used in advance, it will change the subject, location, tool, action completion, or responsibility attribution. Finally, let’s do a reverse order check: If you look at the last two pictures first and then look back at the beginning, which pair is most likely to be mistakenly merged, and why can’t they be merged just by similar appearance."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now join the Momentum Routeboard. A complete chasing route requires six steps: starting, accelerating, locking the target, jumping or turning sharply, recycling, and stopping. According to the picture content, Figure 01, Figure 02, and Figure 03 can all be used to start or accelerate, but the boundaries of grass, snow and lawn are different; Figure 04 is more suitable for locking the target and turning sharply, because the ball is clearly visible; Figure 05 is more suitable for jumping and catching; Figure 07 is more suitable for training starts, Because it comes out of the tunnel entrance; Figure 08 can explain the acceleration caused by companions running together; Figure 09 is more like the recovery stage, because the toy is already in the mouth; Figure 10 is most suitable as a pause; Figure 06 can be used as a human parallel sample to illustrate that \"running is not necessarily a dog chasing an object.\" Please arrange two six-step routes: the first is a pure dog chasing route, and the second is a training route that includes companion running and a training tube start. Each route must explain which step will change the nature of the route if replaced by Figure 06 or Figure 10. At the same time, explain whether Figure 02 Snow Sprinting or Figure 03 Lawn Boundary Running is more suitable as an acceleration section when there is no clear goal. When answering, you should also explain the difference between the sideways running on the grass in Figure 01 and the start of the training tube in Figure 07. One is more like an open pursuit, and the other is more like the speed released by obstacles; Figure 02 Snow sprint is more like a single high-speed straight-line propulsion.\n\nThis round adds a “resource limit”: assuming that only half of the materials can be retained for the next processor, you need to explain which ones must be retained, which ones can be delayed, and which ones are only suitable for review when disputes arise. The reason for retaining cannot just say that there is a lot of information, but it must explain which boundary it can lock. Delayed material cannot be discarded directly. It is necessary to write down what can be made up for when it appears late. Finally, a minimum stable combination and a minimum misleading combination are given, both of which require specific page or figure numbers."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now add \"broken link risk\". The risk of broken links comes from three types of sources: the target disappears suddenly, the subject is switched to another task, and the speed is strong but there is no explainable next step. Figure 04 and Figure 05 are both wonderful, but one is turning sharply towards the ball, and the other is jumping upward. They need to explain whether the same goal can be continued; Figure 09 has already entered the recovery after grabbing, so it is not suitable to be placed before locking the target; Figure 08 The two dogs run very fast together, but if it is directly followed by Figure 09, it is necessary to explain how to switch from companion drive to single recovery; Figure 06 Cricket running will change the subject to a human; Figure 10 Hug will change the entire route from dynamic to static. Please design two sets of five-picture plans: one pursues the highest continuity, and the other pursues the highest picture tension. Each set contains at least one obvious target picture, one jump or sharp turn picture, one recovery picture, and one pause or closing picture. Question 3: Please output two sets of five-picture plans, giving the four items of high/medium/low in terms of target continuity, action tension, subject consistency, and bandha clarity, and indicate which step is most likely to break the chain and why. If the plan uses Figure 08 of two dogs running together, it must also indicate when it must switch back to a single target; if the plan uses Figure 10 of a hug, it must indicate that it is the end of the action and not a pause in the middle; if Figure 06 of human court running is put into the plan, it can only be used as a control sample.\n\nA time lock is added in this round: please divide all judgments into three levels: \"can be supported by the picture\", \"must wait for the previous one or the previous group to be established\", and \"can only be retained as circumstantial evidence\". When answering, don't just categorize by topic, but also explain which page or picture in each layer is most likely to be used in advance; if used in advance, it will change the subject, location, tool, action completion, or responsibility attribution. Finally, let’s do a reverse order check: If you look at the last two pictures first and then look back at the beginning, which pair is most likely to be mistakenly merged, and why can’t they be merged just by similar appearance."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally, a high-speed action board is generated. The action board is divided into four columns: target locking, speed advancement, recovery and containment, and heterogeneous samples. The target locking column contains pictures of the ball, catching the ball, or clearly moving toward the target; the speed promotion column contains pictures that can explain the source of speed, such as grass, snow, tunnels, and parallel running; the recycling and closing column contains pictures of holding toys, stopping to hug, or entering a still state; and the heterogeneous sample column contains pictures that will change the main task, such as human court sports. Please process all ten pictures: Figure 04 and Figure 05 compare which one is more like the action immediately after locking, Figure 01/02/03 compare which one is more like pure speed propulsion, Figure 07 and Figure 08 compare training drive and companion drive, Figure 09 and Figure 10 compare recovery and closing, Figure 06 illustrates the subject switching. Question 4: Please output the four-column action board, and explain the reasons for selection in each column; then give a seven-step high-speed sequence, starting from the start and ending with recycling or hugging; finally, point out the two pictures that are most easily seen as a continuous chase, but in fact one is driven by the target object and the other is driven by companions or the environment. The action board should also explain that the sequence relationship between grabbing the toy in Figure 09 and catching the ball in the air in Figure 05 cannot be interchanged at will. At the same time, compare the difference in the height of the target between the sharp turn to chase the ball in Figure 04 and the upward leap in Figure 05. At the same time, it should be explained that the chasing target is no longer retained after the hug in Figure 10.\n\nThis round adds a “resource limit”: assuming that only half of the materials can be retained for the next processor, you need to explain which ones must be retained, which ones can be delayed, and which ones are only suitable for review when disputes arise. The reason for retaining cannot just say that there is a lot of information, but it must explain which boundary it can lock. Delayed material cannot be discarded directly. It is necessary to write down what can be made up for when it appears late. Finally, a minimum stable combination and a minimum misleading combination are given, both of which require specific page or figure numbers."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should to answer, you need to enter the four-column action board for target locking, speed advancement, recovery and convergence, and heterogeneous samples.",
+      "2. The response should cover all ten pictures and cannot be omitted.",
+      "3. The response should answers need to give a seven-step high-speed sequence from start to recovery or hugging.",
+      "4. The response should the answer requires comparing the differences between Figure 04 and Figure 05, Figure 01/02/03, Figure 07 and Figure 08, Figure 09 and Figure 10, and Figure",
+      "06.",
+      "5. The response should answers need to point to two pictures that appear to be continuous chases but are driven by different sources.\nThe response should additionally Reserved, delayed and disputed review materials must be distinguished; minimum stable combinations and minimum misleading combinations must be given, and boundary differences must be explained.",
+      "6. The response should also explain: If different final rulings, four levels of conclusions, or minimum combinations are adopted, the restrictions, reasons for exclusion, and risks of misunderstanding must also be clearly stated, and no new assumptions must be sneaked in.",
+      "7. The response should answers must not put conclusions that require inference of the same person, the same place, or the same time into a high confidence level, or do not provide any downgrading conditions or exclusion boundaries."
+    ],
+    "metadata": {
+      "task_id": "MCL-0087_T4",
+      "context_id": "MCL-0087",
+      "turn_index": 4
+    }
+  }
+]

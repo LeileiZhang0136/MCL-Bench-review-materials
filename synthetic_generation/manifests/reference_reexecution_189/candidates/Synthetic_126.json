@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_126",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page0.jpg",
+        "sha256": "055a6bb586d5b2771196dcfa2bf976cc81815b4197c9e0cb5345b64c80cf71ef",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page18.jpg",
+        "sha256": "a68630cae22ee21040b0dc8f286e579f23f2d6dbe8a67947f9c6d84f6c8e6a58",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page35.jpg",
+        "sha256": "4fb9a30127aa88098662833ccd8f0a35ef665e422ea6a48cbd11c9b51a7303c8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page53.jpg",
+        "sha256": "f852cbbafe4cc1d6de77cc6302ff6596df9c9e60f9feddf6cd79bb021be96173",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page71.jpg",
+        "sha256": "4893b1c14e09305243f43c84c49037bbe82b2eac10e1f21b132001716773c84d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page89.jpg",
+        "sha256": "357ca3422ad39c09f307780c046def103c055465ee5f47383f7e3b6263ae11b4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page106.jpg",
+        "sha256": "e78377bc553e2ff67566db0d55d8759278e35bc82d2898e7f711507e289ee915",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page124.jpg",
+        "sha256": "a21eab7e73683fbec240158ba176cf61f487ca74a47060d5193c03f7c80eb776",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page142.jpg",
+        "sha256": "beb01a2c4327257ead7d68be5bea2615078b18a9facd7bbb8c44504930736bbb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page160.jpg",
+        "sha256": "9708d75ef289ac47b509cbb4e153e199231e666ebd7a6f174dda5f94c34c32d1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page177.jpg",
+        "sha256": "9c503b4faaa0ad3fb3806d3e6161db63eed9293a71461341fdd1528814ba27ab",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95/digitalmeasurementframework22feb2011v6novideo-110221233835-phpapp01_95_page195.jpg",
+        "sha256": "31c67868a3ecbd68c547e14aad1a19ec3a1aba289a5f85a355ab50e9bf44b852",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_051",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:introductiontopcbdesign-160112033606_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "introductiontopcbdesign-160112033606_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-1-1024.jpg",
+        "sha256": "2badc0e5e30df45499c463525174e2507fd44f678d986bd3126cdd13f39ea63a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-3-1024.jpg",
+        "sha256": "17c0c956cf6cfa08491e3f1057bed75ea10941fc8daf5cebdf93782f5f1a191c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-4-1024.jpg",
+        "sha256": "cc5a9e8c574c65780c849d7a7c7b97bc08975a4bb449b0961313af07825e85cd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-6-1024.jpg",
+        "sha256": "0407f569122c3395e69eaaed61140f0a7871bfbe78efc8b602b868b7fba22de2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-8-1024.jpg",
+        "sha256": "d2bf547b4eda04659f4f074eeac8e3d2445b3d00e269365968d26efdc6d1476a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-10-1024.jpg",
+        "sha256": "87f8f2aeda157c9a5cdcefe659fe59e555c717b3ffd4e48ca997791bc5dbaa2d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-11-1024.jpg",
+        "sha256": "bb92f74d717eb9c2f5451d766c5d75767c343add870a30dddde3d8ddd16eae2f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-13-1024.jpg",
+        "sha256": "58a269f5f75762534fe96ddd4014906fcaf1dad8e8ad54312f5296431e1604f5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-15-1024.jpg",
+        "sha256": "e73e8c6c2cde548f0f42bd9a971ad982026c417fd90c998c287feed58b5826f5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-17-1024.jpg",
+        "sha256": "c028871b0d39edcf2ffea22b7ecb4bdac8b71cae94055b3d43cf57154df302f8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-18-1024.jpg",
+        "sha256": "cb79cd5cdd9ac473159ef864e20de541ea25488a450393f51cc7967e0a6f3ec6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/introductiontopcbdesign-160112033606_95/introduction-to-pcb-design-eagle-20-1024.jpg",
+        "sha256": "8917272999a946217e7025457f75efb3415c59195e3baea87c9117a66231209d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

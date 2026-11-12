@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_069",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-1-1024.jpg",
+        "sha256": "364ef89bc04f20285529d0f333f04c409d2d34a0de480a8dc50e1b8d4bca86a7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-3-1024.jpg",
+        "sha256": "0a5ad405add182d046217832adff847858072d4561273aa8d50121c08947223f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-4-1024.jpg",
+        "sha256": "b2121ae6cd8518c0bec51e306bf80fc07d5b83fd210ff1f9ef0eac7459d5f8dc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-6-1024.jpg",
+        "sha256": "aa931263ef69a9f20ebb0fc273a33f061d5c049b05efee1f90582cff79108cb0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-8-1024.jpg",
+        "sha256": "d8ae631fb688bfdb565d5858b2734dfc217c3c8ed932603934cb70a2f80a9d68",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-10-1024.jpg",
+        "sha256": "187906bd00f769a6719d1966e9a6fd58811f22c4a7bf858697ee9ff02e9c013f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-11-1024.jpg",
+        "sha256": "260792ae015a882a92e1a8172757fb9643c74d9675f89a2e18fa7466512eeb2f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-13-1024.jpg",
+        "sha256": "90d44eeb6acb2a3cdd75640a2551e47e134f8457b55a3ca241bf3e458e1c5e71",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-15-1024.jpg",
+        "sha256": "b682fece9adb60f1bf8f795259a7a85506a3bdfd3c108024b4c71a3d71588e00",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-17-1024.jpg",
+        "sha256": "06fddf02d50c8997f3bd518be767fd96d6e0d469aee44dc7b8dc9e32e32ed139",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-18-1024.jpg",
+        "sha256": "50668f5d16a98149e4cbf4359e38e4cf00e4b7097551136ca5e72a5bad5446a5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/aquacultureproducerorganisationscairo25sept2012-121023231529-phpapp02_95/producer-organizations-some-worldfish-experiences-20-1024.jpg",
+        "sha256": "67123aaa696cd8460d84e04a1279002f3800f88870793ccc38efea2c807b092c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,412 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-context task assistant for a local multimodal benchmark. Use only the images, report excerpts, labels, and case-local rules provided inside the current case. Do not use outside knowledge, internet sources, pretrained recall, or undeclared labels. If the available evidence is insufficient under the local protocol, return the case-local fallback output instead of guessing. Do not invent findings, numbers, image details, or source facts that are not present in the case materials."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Archive-slot protocol\n- This case decides which sample can enter the routine archive slot and which sample still needs a dedicated follow-up note.\n- Allowed outputs: `Routine Archive Candidate`, `Needs Dedicated Follow-up Note`, `Need Separate Review`.\n- Any focal question with its own follow-up or escalation language blocks entry into the routine archive slot.\n- Shared reassuring cues such as a non-enlarged heart or no acute lung process do not erase a focal blocker.\n\nImage set"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_f304db62b283.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_0e1eb3afda3e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_f2f23687b87a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_50b640b4ba83.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Center crops:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_5ed5e933deed.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_ec6c79010e26.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_54ea65d65d9c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_eae30b769887.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Comparison panels:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_855f1efeed6e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_6d3ba073840d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_75b6158f4534.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Report excerpts\nSample A\n- findings: `The cardiac and mediastinal silhouettes are unremarkable. The lungs are well expanded and clear. There are no focal air space opacities. There is no pneumothorax or effusion. There are mild degenerative changes of the thoracic spine.`\n- impression: `No evidence of acute cardiopulmonary process. Stable appearance of the chest.`\n\nSample B\n- findings: `The XXXX examination consists of frontal and lateral radiographs of the chest. The cardiac silhouette is not enlarged. There has been apparent interval increase in low density convexity at the left cardiophrenic XXXX. Calcified granuloma is again seen in the right upper lobe. There is no consolidation, pleural effusion or pneumothorax.`\n- impression: `Increased size of density in the left cardiophrenic XXXX. Primary differential considerations include increased size of prominent epicardial fat, pericardial mass, pleural mass or cardiac aneurysm. CT chest with contrast is recommended.`\n\nRound 1 task\nFor each sample, provide exactly four fields:\n- `Bucket:` one allowed output\n- `Anchor text cue:`\n- `Anchor image cue:`\n- `Rejected shortcut:` one tempting but invalid reason to under-call the sample"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should assign Sample A to `Routine Archive Candidate`.",
+      "2. The response should assign Sample B to `Needs Dedicated Follow-up Note`.",
+      "3. The response should justify Sample A with stable near-routine text such as `No evidence of acute cardiopulmonary process` or `Stable appearance of the chest`.",
+      "4. The response should justify Sample B with focal-question text such as `interval increase`, `left cardiophrenic`, or `CT chest with contrast is recommended`.",
+      "5. The response should provide at least one image cue for both samples.",
+      "6. The response should reject a shortcut that would place Sample B into the routine archive slot because some background cues remain reassuring.",
+      "7. The response should stay inside the case-local archive protocol and should not use outside medical knowledge."
+    ],
+    "metadata": {
+      "task_id": "MCL-0259_T1",
+      "context_id": "MCL-0259",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-context task assistant for a local multimodal benchmark. Use only the images, report excerpts, labels, and case-local rules provided inside the current case. Do not use outside knowledge, internet sources, pretrained recall, or undeclared labels. If the available evidence is insufficient under the local protocol, return the case-local fallback output instead of guessing. Do not invent findings, numbers, image details, or source facts that are not present in the case materials."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Archive-slot protocol\n- This case decides which sample can enter the routine archive slot and which sample still needs a dedicated follow-up note.\n- Allowed outputs: `Routine Archive Candidate`, `Needs Dedicated Follow-up Note`, `Need Separate Review`.\n- Any focal question with its own follow-up or escalation language blocks entry into the routine archive slot.\n- Shared reassuring cues such as a non-enlarged heart or no acute lung process do not erase a focal blocker.\n\nImage set"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_f304db62b283.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_0e1eb3afda3e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_f2f23687b87a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_50b640b4ba83.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Center crops:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_5ed5e933deed.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_ec6c79010e26.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_54ea65d65d9c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_eae30b769887.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Comparison panels:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_855f1efeed6e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_6d3ba073840d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_75b6158f4534.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Report excerpts\nSample A\n- findings: `The cardiac and mediastinal silhouettes are unremarkable. The lungs are well expanded and clear. There are no focal air space opacities. There is no pneumothorax or effusion. There are mild degenerative changes of the thoracic spine.`\n- impression: `No evidence of acute cardiopulmonary process. Stable appearance of the chest.`\n\nSample B\n- findings: `The XXXX examination consists of frontal and lateral radiographs of the chest. The cardiac silhouette is not enlarged. There has been apparent interval increase in low density convexity at the left cardiophrenic XXXX. Calcified granuloma is again seen in the right upper lobe. There is no consolidation, pleural effusion or pneumothorax.`\n- impression: `Increased size of density in the left cardiophrenic XXXX. Primary differential considerations include increased size of prominent epicardial fat, pericardial mass, pleural mass or cardiac aneurysm. CT chest with contrast is recommended.`\n\nRound 1 task\nFor each sample, provide exactly four fields:\n- `Bucket:` one allowed output\n- `Anchor text cue:`\n- `Anchor image cue:`\n- `Rejected shortcut:` one tempting but invalid reason to under-call the sample"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 2 task\nMatch the anonymous report cards to Sample A or Sample B. For each card, provide:\n- `Final match:`\n- `Primary cue:`\n- `Image confirmation:`\n- `Why the other sample fails:`\n\nReport card 1\n`The cardiac and mediastinal silhouettes are unremarkable... no focal air space opacities... no pneumothorax or effusion... Stable appearance of the chest.`\n\nReport card 2\n`Apparent interval increase in low density convexity at the left cardiophrenic XXXX... CT chest with contrast is recommended.`"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_75b6158f4534.png"
+            }
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should match Report card 1 to Sample A.",
+      "2. The response should match Report card 2 to Sample B.",
+      "3. The response should use both report cues and image cues for each match.",
+      "4. The response should explain why the opposite sample fails for both cards.",
+      "5. The response should not rely on text-only matching or outside medical knowledge."
+    ],
+    "metadata": {
+      "task_id": "MCL-0259_T2",
+      "context_id": "MCL-0259",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-context task assistant for a local multimodal benchmark. Use only the images, report excerpts, labels, and case-local rules provided inside the current case. Do not use outside knowledge, internet sources, pretrained recall, or undeclared labels. If the available evidence is insufficient under the local protocol, return the case-local fallback output instead of guessing. Do not invent findings, numbers, image details, or source facts that are not present in the case materials."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Archive-slot protocol\n- This case decides which sample can enter the routine archive slot and which sample still needs a dedicated follow-up note.\n- Allowed outputs: `Routine Archive Candidate`, `Needs Dedicated Follow-up Note`, `Need Separate Review`.\n- Any focal question with its own follow-up or escalation language blocks entry into the routine archive slot.\n- Shared reassuring cues such as a non-enlarged heart or no acute lung process do not erase a focal blocker.\n\nImage set"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_f304db62b283.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_0e1eb3afda3e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_f2f23687b87a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_50b640b4ba83.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Center crops:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_5ed5e933deed.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_ec6c79010e26.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_54ea65d65d9c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_eae30b769887.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Comparison panels:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_855f1efeed6e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_6d3ba073840d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_75b6158f4534.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Report excerpts\nSample A\n- findings: `The cardiac and mediastinal silhouettes are unremarkable. The lungs are well expanded and clear. There are no focal air space opacities. There is no pneumothorax or effusion. There are mild degenerative changes of the thoracic spine.`\n- impression: `No evidence of acute cardiopulmonary process. Stable appearance of the chest.`\n\nSample B\n- findings: `The XXXX examination consists of frontal and lateral radiographs of the chest. The cardiac silhouette is not enlarged. There has been apparent interval increase in low density convexity at the left cardiophrenic XXXX. Calcified granuloma is again seen in the right upper lobe. There is no consolidation, pleural effusion or pneumothorax.`\n- impression: `Increased size of density in the left cardiophrenic XXXX. Primary differential considerations include increased size of prominent epicardial fat, pericardial mass, pleural mass or cardiac aneurysm. CT chest with contrast is recommended.`\n\nRound 1 task\nFor each sample, provide exactly four fields:\n- `Bucket:` one allowed output\n- `Anchor text cue:`\n- `Anchor image cue:`\n- `Rejected shortcut:` one tempting but invalid reason to under-call the sample"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 2 task\nMatch the anonymous report cards to Sample A or Sample B. For each card, provide:\n- `Final match:`\n- `Primary cue:`\n- `Image confirmation:`\n- `Why the other sample fails:`\n\nReport card 1\n`The cardiac and mediastinal silhouettes are unremarkable... no focal air space opacities... no pneumothorax or effusion... Stable appearance of the chest.`\n\nReport card 2\n`Apparent interval increase in low density convexity at the left cardiophrenic XXXX... CT chest with contrast is recommended.`"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_75b6158f4534.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 3 audit task\nOnly one default routine reference may be kept.\n\nChoose the single sample that should occupy that slot. Then provide exactly four fields:\n- `Chosen default reference:`\n- `Safe-default reason:`\n- `Blocker text cue for the rejected sample:`\n- `Why a shared reassuring cue does not rescue the rejected sample:`\n\nUse both text and image evidence in the explanation."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_75b6158f4534.png"
+            }
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should choose Sample A as the sole default routine reference.",
+      "2. The response should justify Sample A with stable near-routine text and a compatible image cue.",
+      "3. The response should identify Sample B's left-cardiophrenic density increase or CT-recommendation language as the blocker.",
+      "4. The response should explain why a shared reassuring cue such as a non-enlarged heart does not rescue Sample B.",
+      "5. The response should use both text and image evidence and should not collapse Sample B into the routine archive slot."
+    ],
+    "metadata": {
+      "task_id": "MCL-0259_T3",
+      "context_id": "MCL-0259",
+      "turn_index": 3
+    }
+  }
+]

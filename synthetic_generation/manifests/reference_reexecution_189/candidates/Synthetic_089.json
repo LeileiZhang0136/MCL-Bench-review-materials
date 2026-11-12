@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_089",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:obs-productdesc-en",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "obs-productdesc-en",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page0.jpg",
+        "sha256": "a019cde0b7e8e720803e4283113a49e6edbfe8c79bc2c539d1be793feebed76b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page6.jpg",
+        "sha256": "e9911f4d7e5236ce71e8a9dbf15dbc78fe87f1461c4bf70368bb0993252606bc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page12.jpg",
+        "sha256": "30cc19c6095a93ac9302adb38a9b4c692c7ada6b916787586851eef0892b828c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page17.jpg",
+        "sha256": "227e07a07a53b64cdf222d2307a3e96419c667057af1e80c4e59f6c375205b33",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page23.jpg",
+        "sha256": "8840df59e549abb7c53cfff894fa2ac1a749709cbc1820bf77409661d2618854",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page29.jpg",
+        "sha256": "61c21933ed38cb9c1ee305e065da38dfd54367ddf86936db6eda3b19c48bb940",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page35.jpg",
+        "sha256": "1984343c517fae38c7e9696aca195cab6bb2034b5a177433a48e3d0f21cc79b4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page41.jpg",
+        "sha256": "3552d7c1d9ee41f04c29743a6039f8aabdcb71d15fd9ed3d8d8c1ec44d27154f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page47.jpg",
+        "sha256": "5bf23a51692fb838dfb02170c22ecc86dd7341b6521056665b5a20eecc0bc613",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page52.jpg",
+        "sha256": "2be68ce9a105aa714434b28891c15491524a3b2985b0740963a3ccf00f231a48",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page58.jpg",
+        "sha256": "a4d7b0ff40b678535b2597470e04665c7928e61f8cb576ef0160c58d9de7643a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/obs-productdesc-en/obs-productdesc-en_page64.jpg",
+        "sha256": "f4147bc8b4e99f53814d94ed9eb443c2a6873ac46cbb8d68b6965abc1ff57318",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

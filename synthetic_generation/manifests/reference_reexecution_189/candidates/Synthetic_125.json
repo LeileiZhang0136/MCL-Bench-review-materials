@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_125",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page0.jpg",
+        "sha256": "304b801b6e2d540552c784b184268d6dd0c78cb17ea260348c64670b77e7ca9b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page3.jpg",
+        "sha256": "306d5a7eb62509cbcdd2b50fc61a17f0cfa6cfcdad97d5b56223204ed4d6a804",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page6.jpg",
+        "sha256": "c1ffc06bb196f40c63c43514e38aa76e3a18200da6fdd5e76f1f5a88d99a5aa9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page10.jpg",
+        "sha256": "61531a394df9e0e2196dc5cec34c0a656d358b8d179caaf8aa325951d68997ce",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page13.jpg",
+        "sha256": "3de55617ab3fcf9012e9e2ad184daacbb4036055597a9b68c953c40987704661",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page16.jpg",
+        "sha256": "cb75902574b1daa68d95fdd7f9511da3a6f8234042529fa40aa4705d37884f14",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page19.jpg",
+        "sha256": "6b3be16a164d8e76a8185066b7804a0f8fded8d2f34d6c623330c3553164c5a1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page22.jpg",
+        "sha256": "cad4a490443c048c2188777f8642ef2b2367f26ed34a01693b74ca8f30827c90",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page25.jpg",
+        "sha256": "7fe8990c485894f2c172b01dc6368b27cbad97d997fab93db1078d08cb5ee413",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page29.jpg",
+        "sha256": "89c0ab75c9975e8ab29714a969ed5e4347c0d3f29d9c83134900ad2dcae9ba19",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page32.jpg",
+        "sha256": "10bc32aa79b358c5734f7e098d58b2a928b801df2b3342a35f111c12c002761d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95/nielsen2015musicbizpresentation-final-150526143534-lva1-app6891_95_page35.jpg",
+        "sha256": "1f16ac950cda680f71a2ef4b0000b0b43629a7f9a24bc2736958857593990dd4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

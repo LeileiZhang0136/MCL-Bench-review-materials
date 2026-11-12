@@ -1,0 +1,7 @@
+{
+  "case_id": "MCL-0188",
+  "model": "GPT-5.2",
+  "analyzed_turn": 1,
+  "primary_label": "Procedural Constraint Decomposition",
+  "brief_rationale": "The response turns box labels, page-order rules, no-mixing constraints, and prerequisite conditions into checklist-style subconditions and verifies them one by one."
+}

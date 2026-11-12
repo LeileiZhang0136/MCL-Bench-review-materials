@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_113",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:PG_2020.05.21_International-Cooperation-COVID_FINAL",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "PG_2020.05.21_International-Cooperation-COVID_FINAL",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page0.jpg",
+        "sha256": "f1ae1535abda0ffef15b489d559262e7efda05ab6b6883f5488b51ce03b1d373",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page2.jpg",
+        "sha256": "e9c0fde0f0929957e124adb1c514965440f87ddfd2fd9b8ac756979c285313ef",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page5.jpg",
+        "sha256": "4cf0d13092d46335df645599bacdabd46a49ebef0d057b490fa3a4a343f3ba19",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page7.jpg",
+        "sha256": "4717f2805cc7c16b8bf2e0ff6335ad7065cba4f0137336302288a15b93535c9d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page9.jpg",
+        "sha256": "d72dfe935c073809e3265d68d7914ba81091e906c318b3aceb17ba58929f3828",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page11.jpg",
+        "sha256": "0de0bbcf7a9f42dafba74aaf3928fc1b4f6ec580049a96e8e296aa11434255b0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page14.jpg",
+        "sha256": "7fdb5b176b0eee6973c6bf01532e445ef2d8988247787cf6dabe7d3a96da4be4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page16.jpg",
+        "sha256": "b61b40b28ab6fc88f0d4c65a334cc32a61cefbe62e0a9e6a7f900552fe43e3c0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page18.jpg",
+        "sha256": "87ba72fd17dc432cbee2739e95d524f3ec6689b1fa706c7fd3d8a37b36c0d522",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page20.jpg",
+        "sha256": "808316809ffed07e876840eee48622eaee6c716146136d335b3d85b5fada0698",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page23.jpg",
+        "sha256": "14052c0be180bb361c6ef0a80d933dd0a7d06101a8e892bdbe29f48cd9d103a9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/PG_2020.05.21_International-Cooperation-COVID_FINAL/PG_2020.05.21_International-Cooperation-COVID_FINAL_page25.jpg",
+        "sha256": "71a2cbbfcee6722a824c40b923b735da0580f5870ca27c3746bac9f31102c77f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

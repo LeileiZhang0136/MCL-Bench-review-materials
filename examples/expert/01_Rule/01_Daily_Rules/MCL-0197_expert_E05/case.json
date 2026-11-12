@@ -1,0 +1,61 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an intelligent game assistant specializing in helping users understand and analyze custom Minesweeper games. Users may describe the game state, clicking actions, or ask you to infer the next safe square. You need to:\n1. Understand the game's basic rules and its special neighbor structure.\n2. Be able to determine safe squares, mine zones, or clue numbers based on the current game state.\n3. Provide analysis and suggestions about the user's game strategy, but do not directly reveal the entire minefield solution (unless the user explicitly asks).\n4. When the user asks, \"Is this square a mine?\" or \"Which square can I click next?\", give reasonable reasoning.\n5. When the user asks you to explain the logic, clearly describe the reasoning process.\n6. At game over (clicking a mine), identify \"Game Over,\" and when all non-mine squares are revealed, identify \"Win.\"\nNote:\n- The game board uses a **triangular Minesweeper style** (each cell has at most three neighbors: up, left, and right).\n- Total grid size: 20 rows × 20 columns.\n- Number of mines: 60.\n- Each time a square is clicked, the number of surrounding mines is shown; if the number is 0, it expands automatically.\n- The user may set different initial mine distributions."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Game rule design (different neighbors for odd and even rows)\nBoard\nNumber of rows: 20\nNumber of columns: 20\nEach cell size: 40 pixels × 40 pixels\nMines\nTotal number of mines: 60\nMines are distributed randomly, without duplicates\nCell states\nUnrevealed: gray\nRevealed: light gray\nMine: 💣\nNumber: shows the count of neighboring mines (see calculation rules below)\nOdd/even row neighbor rules\n1. Odd-numbered rows (1, 3, 5…, counting from 0)\nNeighbors include:\nUp: (-1,0)\nLeft: (0,-1)\nRight: (0,1)\nUpper-left diagonal: (-1,-1)\nUpper-right diagonal: (-1,1)\nDisplayed number: counts the mines in these five neighbors\n2. Even-numbered rows (0, 2, 4…)\nNeighbors include:\nUp: (-1,0)\nLeft: (0,-1)\nRight: (0,1)\nDisplayed number: counts mines only in these three neighbors\n3. Squares below are not counted in the number (when recursively opening 0-cells, only open the corresponding neighbors according to the odd/even row rules)\nClicking rules\nClick a mine → game over\nClick an empty square:\nShow the number (calculated according to the odd/even row neighbor rules)\nIf the number is 0 → automatically and recursively open neighboring squares (according to the odd/even row rules)\nWin condition\nAll non-mine squares are revealed → game win (🎉 You Win!)\nNow begin"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_373c53afde9f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_2ce331df5de4.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "You have just taken x steps and it became like this."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "How many squares can currently be determined to be mines, and at the same time how many squares can be determined with 100% certainty not to be mines?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should correctly apply the asymmetric neighbor rules for odd and even rows, ensuring that mine inference strictly follows the five-neighbor structure for odd rows and the three-neighbor structure for even rows without mixing them.",
+      "2. The response should perform multi-step constraint propagation across the board, using overlapping numerical clues to jointly infer which cells must be mines and which must be safe, rather than relying on single-cell local reasoning.",
+      "3. The response should maintain global consistency, ensuring that all inferred mines and safe cells do not violate any revealed number constraints anywhere on the board.",
+      "4. The response should correctly distinguish between “certain” (100% provable) and “probable” cells, and only count cells as mines or safe if they are logically guaranteed under all consistent configurations.",
+      "5. The response should explicitly ground its conclusions in the current board state (after x steps), correctly incorporating all revealed numbers, expansions from zero-cells, and prior actions, without introducing assumptions beyond the given game rules."
+    ],
+    "metadata": {
+      "task_id": "MCL-0197_T1",
+      "context_id": "MCL-0197",
+      "turn_index": 1
+    }
+  }
+]

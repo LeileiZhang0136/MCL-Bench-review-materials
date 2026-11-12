@@ -1,0 +1,503 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a certified NovaTech field service engineer. Your job is to help operators diagnose faults, execute maintenance procedures, and troubleshoot the QuantumBrew QX-9000 Precision Fluid Processor based strictly on the official service manual provided. You must follow all procedures exactly as described in the manual. When referencing components, use the official part designators such as PFM-7A and TRV-22. When describing LED indicator patterns, refer to the LED Status Reference Chart as Figure 3. Never invent procedures that are not documented in the manual. If the manual does not cover a scenario, state that the situation requires escalation to NovaTech Level-3 support at NT-SVC-0099. Always include safety warnings where the manual specifies them."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Section 3.1: The QX-9000 uses four LED arrays, LED-A through LED-D. Pattern meanings are defined in Figure 3.\n- Section 5.3, Emergency Procedure EP-7, is triggered when LED Pattern P-03 is confirmed.\n- Warning: The HP-30 heating element surface may exceed 140 C during this fault condition. Thermal gloves PPE-TG4 are mandatory before physical contact with Module A or Module B components.\n- Warning: Do not attempt to drain fluid from the RCA until the system has been in shutdown state for at least 4 minutes.\n- EP-7 Step 1: Press the emergency stop button on the DP-700 and confirm the display shows E-STOP ENGAGED.\n- EP-7 Step 2: Wait 30 seconds for ATA-220 discharge.\n- EP-7 Step 3: Verify the LEDs transition from P-03 to P-08. Figure 5 contains the contingency path if the LEDs do not transition correctly.\n- EP-7 Step 4: Wait for THERMAL SAFE on the DP-700. HP-30 must be below 45 C.\n- EP-7 Step 5: Inspect SG-15. If it is red and tripped, do not reset it yet.\n- EP-7 Step 6: Close the TRV-22 manual isolation valve clockwise until it stops.\n- EP-7 Step 7: Disconnect FluidBridge FB-4 at the Module C end and place a drip tray underneath.\n- EP-7 Step 8: Record the fault code sequence from Menu > Diagnostics > Fault Log.\n- EP-7 Step 9: Do not restart the system until Section 6.1 TRV-22 inspection is completed.\n\nQuestion: I'm the night-shift operator. I just walked up to the QX-9000 and I see the following LED states: LED-A is showing solid GREEN, LED-B is showing solid RED, LED-C is showing solid RED, and LED-D is showing solid GREEN. The pattern has been stable for about 10 seconds. What does this mean, and what should I do? Please give me the exact procedure steps I need to follow right now."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The answer should correctly identify the LED pattern as P-03 by using Figure 3 and should describe it as the critical TRU plus FPS fault condition.",
+      "2. The answer should prescribe Emergency Procedure EP-7 from Section",
+      "5.3 and include both mandatory safety warnings: PPE-TG4 thermal gloves are required and RCA fluid must not be drained for at least 4 minutes after shutdown.",
+      "3. The answer should correctly describe the early EP-7 steps: press E-STOP, confirm E-STOP ENGAGED, wait 30 seconds, verify transition to P-08, and wait for THERMAL SAFE with HP-30 below 45 C.",
+      "4. The answer should include the contingency from Figure 5 if the LEDs do not transition to P-08 within the required window, including escalation to NT-SVC-0099 and not opening panels.",
+      "5. The answer should correctly describe the later EP-7 steps: inspect SG-15 without resetting it if red, close the TRV-22 valve clockwise until stop, and disconnect FB-4 at Module C end with a drip tray.",
+      "6. The answer should include recording the fault code sequence from the DP-700 fault log and should state that the system must not be restarted until Section",
+      "6.1 TRV-22 inspection is completed."
+    ],
+    "metadata": {
+      "task_id": "MCL-0326_T1",
+      "context_id": "MCL-0326",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a certified NovaTech field service engineer. Your job is to help operators diagnose faults, execute maintenance procedures, and troubleshoot the QuantumBrew QX-9000 Precision Fluid Processor based strictly on the official service manual provided. You must follow all procedures exactly as described in the manual. When referencing components, use the official part designators such as PFM-7A and TRV-22. When describing LED indicator patterns, refer to the LED Status Reference Chart as Figure 3. Never invent procedures that are not documented in the manual. If the manual does not cover a scenario, state that the situation requires escalation to NovaTech Level-3 support at NT-SVC-0099. Always include safety warnings where the manual specifies them."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Section 3.1: The QX-9000 uses four LED arrays, LED-A through LED-D. Pattern meanings are defined in Figure 3.\n- Section 5.3, Emergency Procedure EP-7, is triggered when LED Pattern P-03 is confirmed.\n- Warning: The HP-30 heating element surface may exceed 140 C during this fault condition. Thermal gloves PPE-TG4 are mandatory before physical contact with Module A or Module B components.\n- Warning: Do not attempt to drain fluid from the RCA until the system has been in shutdown state for at least 4 minutes.\n- EP-7 Step 1: Press the emergency stop button on the DP-700 and confirm the display shows E-STOP ENGAGED.\n- EP-7 Step 2: Wait 30 seconds for ATA-220 discharge.\n- EP-7 Step 3: Verify the LEDs transition from P-03 to P-08. Figure 5 contains the contingency path if the LEDs do not transition correctly.\n- EP-7 Step 4: Wait for THERMAL SAFE on the DP-700. HP-30 must be below 45 C.\n- EP-7 Step 5: Inspect SG-15. If it is red and tripped, do not reset it yet.\n- EP-7 Step 6: Close the TRV-22 manual isolation valve clockwise until it stops.\n- EP-7 Step 7: Disconnect FluidBridge FB-4 at the Module C end and place a drip tray underneath.\n- EP-7 Step 8: Record the fault code sequence from Menu > Diagnostics > Fault Log.\n- EP-7 Step 9: Do not restart the system until Section 6.1 TRV-22 inspection is completed.\n\nQuestion: I'm the night-shift operator. I just walked up to the QX-9000 and I see the following LED states: LED-A is showing solid GREEN, LED-B is showing solid RED, LED-C is showing solid RED, and LED-D is showing solid GREEN. The pattern has been stable for about 10 seconds. What does this mean, and what should I do? Please give me the exact procedure steps I need to follow right now."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Combined Fault Matrix, Table 3A: P-03 plus P-05 means a TRU fault caused overcurrent on the HP-30 heater. Action: do not reset SG-15 until TRV-22 is inspected. Execute Section 5.3, then Section 6.1.\n- Section 6.1 prerequisites: system must be in E-STOP, HP-30 below 45 C, TRV-22 isolation valve closed, and PPE-TG4 worn.\n- Section 6.1 Step 2: Remove the TRV-22 bonnet using VK-22. Reinstallation torque is 9 Nm plus or minus 0.5 Nm.\n- Section 6.1 Step 4: Measure solenoid resistance across Pin 1 Brown and Pin 2 White. Pass range is 22.5 to 25.5 ohms. Fail means replace TRV-22-SOL.\n- Section 6.1 Step 5: Valve spring passes at 16.5 mm or greater. Fail means replace TRV-22-SP-R4.\n- Section 6.1 Step 6: Valve seat passes if there is no visible scoring or discoloration. Fail means replace TRV-22-VB.\n- Section 6.1 Step 7: Reassembly requires a new TRV-22-GK gasket, bonnet bolts at 9 Nm plus or minus 0.5 Nm in cross pattern, flange bolts at 12 Nm in cross pattern, Brown wire to T1, White wire to T2. Reversed polarity causes the valve to fail open and creates an unsafe thermal runaway condition.\n- Section 6.1 Step 8: Open the TRV-22 isolation valve counter-clockwise.\n- Section 6.1 Step 9: Clear E-STOP and run Diagnostic D-14.\n- Section 6.1 Step 10: If D-14 fails, contact NovaTech Level-3 support at NT-SVC-0099.\n\nQuestion: OK, I followed the EP-7 procedure you described. The LEDs transitioned to P-08 correctly, the DP-700 shows THERMAL SAFE with HP-30 at 38 C, and I've closed the TRV-22 valve and disconnected FB-4. I checked the SG-15 panel and the breaker indicator is showing RED, tripped. Now I need to inspect the TRV-22. Walk me through the full inspection procedure. During the inspection I measured the solenoid resistance at 27.3 ohms, the spring free length at 17.1 mm, and the valve seat looks clean with no scoring. What are my results and what actions are required?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The answer should evaluate the",
+      "27.3-ohm solenoid resistance as a fail by citing the Figure 6A specification of",
+      "24.0 plus or minus",
+      "1.5 ohms, or the equivalent pass range of",
+      "22.5 to",
+      "25.5 ohms, and should require replacement of TRV-22-SOL.",
+      "2. The answer should evaluate the",
+      "17.1 mm spring free length as a pass against the",
+      "16.5 mm minimum and should also evaluate the clean valve seat with no scoring as a pass.",
+      "3. The answer should include the critical polarity requirement from Figure 6A: Brown to T1 and White to T2, and should state that reversed polarity causes the valve to fail open and creates a thermal runaway hazard.",
+      "4. The answer should specify the reassembly requirements: new TRV-22-GK gasket, bonnet bolts at 9 Nm plus or minus",
+      "0.5 Nm in cross pattern, and flange bolts at 12 Nm in cross pattern.",
+      "5. The answer should correctly relate the red SG-15 state to the Combined Fault Matrix and should say that SG-15 must not be reset until the TRV-22 inspection is complete.",
+      "6. The answer should instruct the operator to reopen the TRV-22 valve, clear E-STOP, run Diagnostic D-14, and escalate to NT-SVC-0099 if D-14 fails."
+    ],
+    "metadata": {
+      "task_id": "MCL-0326_T2",
+      "context_id": "MCL-0326",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a certified NovaTech field service engineer. Your job is to help operators diagnose faults, execute maintenance procedures, and troubleshoot the QuantumBrew QX-9000 Precision Fluid Processor based strictly on the official service manual provided. You must follow all procedures exactly as described in the manual. When referencing components, use the official part designators such as PFM-7A and TRV-22. When describing LED indicator patterns, refer to the LED Status Reference Chart as Figure 3. Never invent procedures that are not documented in the manual. If the manual does not cover a scenario, state that the situation requires escalation to NovaTech Level-3 support at NT-SVC-0099. Always include safety warnings where the manual specifies them."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Section 3.1: The QX-9000 uses four LED arrays, LED-A through LED-D. Pattern meanings are defined in Figure 3.\n- Section 5.3, Emergency Procedure EP-7, is triggered when LED Pattern P-03 is confirmed.\n- Warning: The HP-30 heating element surface may exceed 140 C during this fault condition. Thermal gloves PPE-TG4 are mandatory before physical contact with Module A or Module B components.\n- Warning: Do not attempt to drain fluid from the RCA until the system has been in shutdown state for at least 4 minutes.\n- EP-7 Step 1: Press the emergency stop button on the DP-700 and confirm the display shows E-STOP ENGAGED.\n- EP-7 Step 2: Wait 30 seconds for ATA-220 discharge.\n- EP-7 Step 3: Verify the LEDs transition from P-03 to P-08. Figure 5 contains the contingency path if the LEDs do not transition correctly.\n- EP-7 Step 4: Wait for THERMAL SAFE on the DP-700. HP-30 must be below 45 C.\n- EP-7 Step 5: Inspect SG-15. If it is red and tripped, do not reset it yet.\n- EP-7 Step 6: Close the TRV-22 manual isolation valve clockwise until it stops.\n- EP-7 Step 7: Disconnect FluidBridge FB-4 at the Module C end and place a drip tray underneath.\n- EP-7 Step 8: Record the fault code sequence from Menu > Diagnostics > Fault Log.\n- EP-7 Step 9: Do not restart the system until Section 6.1 TRV-22 inspection is completed.\n\nQuestion: I'm the night-shift operator. I just walked up to the QX-9000 and I see the following LED states: LED-A is showing solid GREEN, LED-B is showing solid RED, LED-C is showing solid RED, and LED-D is showing solid GREEN. The pattern has been stable for about 10 seconds. What does this mean, and what should I do? Please give me the exact procedure steps I need to follow right now."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Combined Fault Matrix, Table 3A: P-03 plus P-05 means a TRU fault caused overcurrent on the HP-30 heater. Action: do not reset SG-15 until TRV-22 is inspected. Execute Section 5.3, then Section 6.1.\n- Section 6.1 prerequisites: system must be in E-STOP, HP-30 below 45 C, TRV-22 isolation valve closed, and PPE-TG4 worn.\n- Section 6.1 Step 2: Remove the TRV-22 bonnet using VK-22. Reinstallation torque is 9 Nm plus or minus 0.5 Nm.\n- Section 6.1 Step 4: Measure solenoid resistance across Pin 1 Brown and Pin 2 White. Pass range is 22.5 to 25.5 ohms. Fail means replace TRV-22-SOL.\n- Section 6.1 Step 5: Valve spring passes at 16.5 mm or greater. Fail means replace TRV-22-SP-R4.\n- Section 6.1 Step 6: Valve seat passes if there is no visible scoring or discoloration. Fail means replace TRV-22-VB.\n- Section 6.1 Step 7: Reassembly requires a new TRV-22-GK gasket, bonnet bolts at 9 Nm plus or minus 0.5 Nm in cross pattern, flange bolts at 12 Nm in cross pattern, Brown wire to T1, White wire to T2. Reversed polarity causes the valve to fail open and creates an unsafe thermal runaway condition.\n- Section 6.1 Step 8: Open the TRV-22 isolation valve counter-clockwise.\n- Section 6.1 Step 9: Clear E-STOP and run Diagnostic D-14.\n- Section 6.1 Step 10: If D-14 fails, contact NovaTech Level-3 support at NT-SVC-0099.\n\nQuestion: OK, I followed the EP-7 procedure you described. The LEDs transitioned to P-08 correctly, the DP-700 shows THERMAL SAFE with HP-30 at 38 C, and I've closed the TRV-22 valve and disconnected FB-4. I checked the SG-15 panel and the breaker indicator is showing RED, tripped. Now I need to inspect the TRV-22. Walk me through the full inspection procedure. During the inspection I measured the solenoid resistance at 27.3 ohms, the spring free length at 17.1 mm, and the valve seat looks clean with no scoring. What are my results and what actions are required?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Section 3.2: When multiple LED patterns overlap or cycle rapidly, record the first stable pattern held for at least 2 seconds, record the second stable pattern, and cross-reference both in Table 3A.\n- Table 3A: P-04 plus P-06 means acoustic transducer frequency drift due to DB-8 communication loss. Action: reseat DB-8 connector first, then run MC-12 recalibration.\n- Table 3A also emphasizes action order because the communication issue may be the source of the apparent transducer problem.\n\nQuestion: Different day, different issue. I'm seeing the LEDs cycle between two patterns: first I see LED-A blinking AMBER, LED-B solid GREEN, LED-C solid GREEN, LED-D blinking AMBER, this holds for about 3 seconds, then it switches to LED-A solid GREEN, LED-B blinking AMBER, LED-C solid GREEN, LED-D blinking AMBER, this holds about 3 seconds. Then it cycles back. What's going on and what should I do?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The answer should correctly identify the first stable pattern as P-04 by using Figure",
+      "3.",
+      "2. The answer should correctly identify the second stable pattern as P-06 by using Figure",
+      "3.",
+      "3. The answer should apply Section",
+      "3.2 and Table 3A for a multi-pattern diagnosis and should conclude that the combined issue is acoustic transducer frequency drift due to DB-8 communication loss.",
+      "4. The answer should prescribe the correct action order from Table 3A: reseat the DB-8 connector first, then run MC-12 recalibration, and should explain why the order matters.",
+      "5. The answer should correctly avoid recommending EP-7 emergency shutdown, because this is not the critical combined-fault case."
+    ],
+    "metadata": {
+      "task_id": "MCL-0326_T3",
+      "context_id": "MCL-0326",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a certified NovaTech field service engineer. Your job is to help operators diagnose faults, execute maintenance procedures, and troubleshoot the QuantumBrew QX-9000 Precision Fluid Processor based strictly on the official service manual provided. You must follow all procedures exactly as described in the manual. When referencing components, use the official part designators such as PFM-7A and TRV-22. When describing LED indicator patterns, refer to the LED Status Reference Chart as Figure 3. Never invent procedures that are not documented in the manual. If the manual does not cover a scenario, state that the situation requires escalation to NovaTech Level-3 support at NT-SVC-0099. Always include safety warnings where the manual specifies them."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Section 3.1: The QX-9000 uses four LED arrays, LED-A through LED-D. Pattern meanings are defined in Figure 3.\n- Section 5.3, Emergency Procedure EP-7, is triggered when LED Pattern P-03 is confirmed.\n- Warning: The HP-30 heating element surface may exceed 140 C during this fault condition. Thermal gloves PPE-TG4 are mandatory before physical contact with Module A or Module B components.\n- Warning: Do not attempt to drain fluid from the RCA until the system has been in shutdown state for at least 4 minutes.\n- EP-7 Step 1: Press the emergency stop button on the DP-700 and confirm the display shows E-STOP ENGAGED.\n- EP-7 Step 2: Wait 30 seconds for ATA-220 discharge.\n- EP-7 Step 3: Verify the LEDs transition from P-03 to P-08. Figure 5 contains the contingency path if the LEDs do not transition correctly.\n- EP-7 Step 4: Wait for THERMAL SAFE on the DP-700. HP-30 must be below 45 C.\n- EP-7 Step 5: Inspect SG-15. If it is red and tripped, do not reset it yet.\n- EP-7 Step 6: Close the TRV-22 manual isolation valve clockwise until it stops.\n- EP-7 Step 7: Disconnect FluidBridge FB-4 at the Module C end and place a drip tray underneath.\n- EP-7 Step 8: Record the fault code sequence from Menu > Diagnostics > Fault Log.\n- EP-7 Step 9: Do not restart the system until Section 6.1 TRV-22 inspection is completed.\n\nQuestion: I'm the night-shift operator. I just walked up to the QX-9000 and I see the following LED states: LED-A is showing solid GREEN, LED-B is showing solid RED, LED-C is showing solid RED, and LED-D is showing solid GREEN. The pattern has been stable for about 10 seconds. What does this mean, and what should I do? Please give me the exact procedure steps I need to follow right now."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Combined Fault Matrix, Table 3A: P-03 plus P-05 means a TRU fault caused overcurrent on the HP-30 heater. Action: do not reset SG-15 until TRV-22 is inspected. Execute Section 5.3, then Section 6.1.\n- Section 6.1 prerequisites: system must be in E-STOP, HP-30 below 45 C, TRV-22 isolation valve closed, and PPE-TG4 worn.\n- Section 6.1 Step 2: Remove the TRV-22 bonnet using VK-22. Reinstallation torque is 9 Nm plus or minus 0.5 Nm.\n- Section 6.1 Step 4: Measure solenoid resistance across Pin 1 Brown and Pin 2 White. Pass range is 22.5 to 25.5 ohms. Fail means replace TRV-22-SOL.\n- Section 6.1 Step 5: Valve spring passes at 16.5 mm or greater. Fail means replace TRV-22-SP-R4.\n- Section 6.1 Step 6: Valve seat passes if there is no visible scoring or discoloration. Fail means replace TRV-22-VB.\n- Section 6.1 Step 7: Reassembly requires a new TRV-22-GK gasket, bonnet bolts at 9 Nm plus or minus 0.5 Nm in cross pattern, flange bolts at 12 Nm in cross pattern, Brown wire to T1, White wire to T2. Reversed polarity causes the valve to fail open and creates an unsafe thermal runaway condition.\n- Section 6.1 Step 8: Open the TRV-22 isolation valve counter-clockwise.\n- Section 6.1 Step 9: Clear E-STOP and run Diagnostic D-14.\n- Section 6.1 Step 10: If D-14 fails, contact NovaTech Level-3 support at NT-SVC-0099.\n\nQuestion: OK, I followed the EP-7 procedure you described. The LEDs transitioned to P-08 correctly, the DP-700 shows THERMAL SAFE with HP-30 at 38 C, and I've closed the TRV-22 valve and disconnected FB-4. I checked the SG-15 panel and the breaker indicator is showing RED, tripped. Now I need to inspect the TRV-22. Walk me through the full inspection procedure. During the inspection I measured the solenoid resistance at 27.3 ohms, the spring free length at 17.1 mm, and the valve seat looks clean with no scoring. What are my results and what actions are required?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Section 3.2: When multiple LED patterns overlap or cycle rapidly, record the first stable pattern held for at least 2 seconds, record the second stable pattern, and cross-reference both in Table 3A.\n- Table 3A: P-04 plus P-06 means acoustic transducer frequency drift due to DB-8 communication loss. Action: reseat DB-8 connector first, then run MC-12 recalibration.\n- Table 3A also emphasizes action order because the communication issue may be the source of the apparent transducer problem.\n\nQuestion: Different day, different issue. I'm seeing the LEDs cycle between two patterns: first I see LED-A blinking AMBER, LED-B solid GREEN, LED-C solid GREEN, LED-D blinking AMBER, this holds for about 3 seconds, then it switches to LED-A solid GREEN, LED-B blinking AMBER, LED-C solid GREEN, LED-D blinking AMBER, this holds about 3 seconds. Then it cycles back. What's going on and what should I do?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_ca431742d8c4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_319915cd5285.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_9aed8c2b89f8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_ad37d9140692.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Manual images provided:\n- case3_figure1_system_layout.png: Figure 1, QX-9000 system layout and component locations.\n- case3_figure3_led_status.png: Figure 3, LED Status Reference Chart.\n- case3_figure5_ep7_flow.png: Figure 5, EP-7 emergency procedure flow diagram.\n- case3_figure6a_trv22_internal.png: Figure 6A, TRV-22 internal component diagram and specifications.\n\nRelevant manual excerpts:\n- Section 7.2: NF-120 is the Stage 2 filter in Module C FPS. Replacement requires the system to be in STANDBY P-08 or E-STOP, the process cycle completed or aborted, and a replacement NF-120-R4 cartridge with intact NovaTech holographic seal.\n- Step 1: Disconnect FB-4 at the top of Module C. Close PL-90 at the bottom of Module C clockwise and place drip trays under both disconnection points.\n- Step 2: Remove MF-400 by releasing the lower QR-lock and lifting straight up. Do not rotate MF-400 during removal.\n- Step 3: Remove old NF-120 and insert the new NF-120-R4 straight down until the QR-lock clicks.\n- Critical flow direction: the arrow on the NF-120 cartridge must point downward. Reversed installation causes an immediate P-03 fault and may damage the UPX-7 cartridge.\n- Step 4: Reinstall MF-400 straight down, reconnect FB-4, and reopen PL-90 counter-clockwise.\n- Step 5: Reset the Stage 2 filter counter from Menu > Maintenance > Filter Reset > Stage 2. If not reset, P-02 persists.\n- Step 6: Run FPS-only purge for 5 minutes and discard purge output.\n- Step 7: Verify LED-C returns to solid green. If not, re-check orientation and QR-lock seating.\n\nQuestion: I need to replace the NF-120 filter. The system is currently in standby, P-08 pattern. I have a replacement cartridge with part number NF-120-R4 and the holographic seal is intact. Walk me through the replacement step by step. Also, I'm new here. Which direction does the flow arrow on the new cartridge need to point, and what happens if I get it wrong?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The answer should confirm the prerequisites: STANDBY or P-08, NF-120-R4 part number verified, and holographic seal intact, and should correctly describe Step 1 with FB-4 disconnection, PL-90 closure, and drip trays.",
+      "2. The answer should correctly describe Step",
+      "2: remove MF-400 by releasing the lower QR-lock and lifting straight up, with an explicit warning not to rotate it.",
+      "3. The answer should clearly state that the NF-120 flow direction arrow must point downward and that reversed installation causes an immediate P-03 fault and may damage the UPX-7 cartridge.",
+      "4. The answer should correctly describe Step 4 reassembly: reinstall MF-400 straight down without rotation, reconnect FB-4, and open PL-90 counter-clockwise.",
+      "5. The answer should include the Stage 2 filter counter reset path and should note that P-02 remains if the counter is not reset.",
+      "6. The answer should include the 5-minute FPS-only purge, discarding purge output, and verifying that LED-C returns to solid green."
+    ],
+    "metadata": {
+      "task_id": "MCL-0326_T4",
+      "context_id": "MCL-0326",
+      "turn_index": 4
+    }
+  }
+]

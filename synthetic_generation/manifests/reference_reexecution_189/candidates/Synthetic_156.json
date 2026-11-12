@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_156",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-1-1024.jpg",
+        "sha256": "52b06d012bf0507dcda84cbf26ad252e395fc68861573329ac3bf232aee1ee42",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-3-1024.jpg",
+        "sha256": "dce5f8e545ecac41da96e4fe0729e890480aaa020c5d1ac20681d1554a46ff49",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-4-1024.jpg",
+        "sha256": "c3d1507cc0299170238e74e26eaf1730fca9c59bbf4f49229c69f15946e9dc33",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-6-1024.jpg",
+        "sha256": "1dbdbcff23a6207d2e2a6db361c90018dbbe08469a57d9c8fca4f5c48b0bb0cf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-8-1024.jpg",
+        "sha256": "216a11b51e481221fa2f602d6f0da802323461ca3565bb6d7f0385ff205b8e14",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-10-1024.jpg",
+        "sha256": "fad45cd2eac20ff46bb969612295cc207ca9d6f6c2172796862c5b8d7a8d9eed",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-11-1024.jpg",
+        "sha256": "62f30b19e49e244912a6c7fb7c997500ccd955db19ed08942499ba34bf77e983",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-13-1024.jpg",
+        "sha256": "a02c8f0806868572690376edbdefcc34b7aebdf9fa6c20bd01dae693028a141d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-15-1024.jpg",
+        "sha256": "d8e47fcc6df63efc2c82c5bd131dba81f8b74260764f13a83dd3d6f4f5761594",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-17-1024.jpg",
+        "sha256": "e24a159528dad7c44ac8fdee6384011df748506ce5206c8ef58672e86efe5078",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-18-1024.jpg",
+        "sha256": "1d8ab3449b5a140f6a2e198e395e140cd27f966a5f742c4aed8af1e318150c5e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/travelers-road-to-decision-affluent-insightsresearch-studies-140127110814-phpapp01_95/travelers-roadtodecisionaffluentinsights-researchstudies-20-1024.jpg",
+        "sha256": "7846daf2e949491291c0d2cd63f49502f905a8687207fa905f7f29fb6f292503",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

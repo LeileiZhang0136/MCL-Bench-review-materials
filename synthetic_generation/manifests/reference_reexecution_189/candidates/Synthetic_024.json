@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_024",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/antiviraldrugsfinal-150818153826-lva1-app6892_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/antiviraldrugsfinal-150818153826-lva1-app6892_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-1-1024.jpg",
+        "sha256": "eba0f62b3a96f26cee07bfc4c1d70ff1e74eefd0e2018b142954cbfc36014446",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-3-1024.jpg",
+        "sha256": "6146373bbb680aed18ee92294f871a612ce7841c766f258fd46508328f5f47b9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-4-1024.jpg",
+        "sha256": "b96dbb995773d0802ea2b11e228349a305a4b3aac7bc1c346046281fc7751294",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-6-1024.jpg",
+        "sha256": "5a0ab97022d667aa3b93bd4e317677f0e7e78646842a3215c6969e6e9f0f8cf9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-8-1024.jpg",
+        "sha256": "89fefb7a0bafdd729151a2b922f15d374f30dca726e574e81353da144a89e39f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-10-1024.jpg",
+        "sha256": "f3920ca06a5ec0e878a61aa783f1568f9dd60bf5ef4076147ee1b168d0b3bb6a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-11-1024.jpg",
+        "sha256": "afcf41809eba242afafbe35ad8d02acc9394f603fa712a99d1b0670e36f33bd1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-13-1024.jpg",
+        "sha256": "b3cabb8f4625c0b9fefbfe0b9a031c51f314d97f9da578c77f298a90e41fdc4c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-15-1024.jpg",
+        "sha256": "03413790d56dc6ef118fa68fcc66d32fd645b13a83ebe4e20a18aecdceebfd46",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-17-1024.jpg",
+        "sha256": "2b2b6f8b9e75770f8cde8d5d65e6eee0c2fa03e72d0575e93f1a349d66b633e9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-18-1024.jpg",
+        "sha256": "ebb127e179d01db421227b166d742d1de4fa3f86f2c9606f339b786ec4301053",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/antiviraldrugsfinal-150818153826-lva1-app6892_95/antiviral-drugs-final-20-1024.jpg",
+        "sha256": "2589dde0bb6305531838dfb0ce42a7d9a3d23ec8dc569c2ba124f6d848f085a3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

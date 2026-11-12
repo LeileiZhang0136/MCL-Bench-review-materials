@@ -1,0 +1,19 @@
+{
+  "slidevqa": {
+    "upstream_repository": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "upstream_revision": "0d4168a935d60b0b218097205a02fb1133c8bead",
+    "revision_observed_date": "2026-07-29",
+    "reference_snapshot_date": "2026-07-29",
+    "default_split": "unspecified_in_local_source_snapshot",
+    "local_asset_identity": "selected asset paths and SHA-256 hashes"
+  },
+  "mmlongbench-doc": {
+    "upstream_repository": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "upstream_revision": "d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384",
+    "revision_observed_date": "2026-07-29",
+    "reference_snapshot_date": "2026-07-29",
+    "default_split": "unspecified_in_local_source_snapshot",
+    "local_asset_identity": "selected asset paths and SHA-256 hashes"
+  },
+  "_scope_note": "These revisions pin source retrieval for the executable reference implementation. Selected assets are identified by relative paths and SHA-256 hashes."
+}

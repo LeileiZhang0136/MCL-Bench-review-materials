@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_038",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/chinatourismreport-100310054348-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/chinatourismreport-100310054348-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-1-1024.jpg",
+        "sha256": "47dee3b9c42fdb6f7cc03484b1a898697d840affc2978c19d4bd1eac80f68dda",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-3-1024.jpg",
+        "sha256": "8ece47d65cf932e360ba9db3cb9da41fc434291dde2306797b617578aa5edd3f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-4-1024.jpg",
+        "sha256": "45d4cde3b789c2be3ba7ec4936d7abe43a8c153fe68fa414ce11a0d0f27826df",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-6-1024.jpg",
+        "sha256": "7a65e9249388d1140181c7d4d2f517d83445d5f8306175077c592d8985f3ab5c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-8-1024.jpg",
+        "sha256": "0d1e8769bc5de47e3197e9f9effbe2e4a8f65f2bf40b85e48d8d403445aa1737",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-10-1024.jpg",
+        "sha256": "bbb42ffcd4fde989c7c74ff2c20d3e6a702cdb26d794b2db6e477a66d4e84dda",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-11-1024.jpg",
+        "sha256": "a7464e97a65c8ca59cbb72230b03b86d19aa8fe59f7c23b37a7f384711b79c48",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-13-1024.jpg",
+        "sha256": "781482887d61419984b66a1e6a1045ab63fffc0241cc312f7cf81b81d644a544",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-15-1024.jpg",
+        "sha256": "1515b24529c486fa551fac4bb23e893834c73d1ba6d840a6322c53ba2a2f9322",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-17-1024.jpg",
+        "sha256": "40b33e12ffc9de8d4e3127ef3dd5c4fb3fc8e07a603ad84d4c364052dd0fe09f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-18-1024.jpg",
+        "sha256": "d376a981ca159603b27977d7f3f338bfbf2e4e6a097a6320397beff6bae57024",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/chinatourismreport-100310054348-phpapp01_95/china-tourism-report-20-1024.jpg",
+        "sha256": "b270cb9f6ff75217454dab6e276a2efbc078859087a5f64f709cf7d552b5f052",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

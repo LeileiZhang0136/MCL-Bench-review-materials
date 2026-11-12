@@ -1,0 +1,215 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a keyboard analysis expert. Your keyboard has accidentally shorted out, causing the keys to output incorrect characters. You need to analyze the state of the keyboard after the short circuit to complete a series of judgment and printing tasks."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_8aa959b0d936.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "shows the layout of this keyboard."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_51264642a610.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "demonstrates the process of typing characters with this short-circuited keyboard.\nGiven that the resulting output from the typing process shown in the video is 'xqpzqvcjdnybbwcdgmydmkygznhcf', what is the character produced by the original 'w' key due to the short circuit?\nIn your response, you must explicitly provide a two-step analysis:\n1. First, explain the general relationship you observed between the physical keys pressed in the video and the actual characters output.\n2. Then, based on this mapping logic, state the exact character produced by the short-circuited 'w' key."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly state that the physical keys pressed do not match the characters actually output, indicating that a specific mapping or substitution rule exists due to the short circuit.",
+      "2.The response must explicitly identify that the character output by the short-circuited 'w' (or 'W') key is 'f' (or 'F', case-insensitive equivalence is acceptable)."
+    ],
+    "metadata": {
+      "task_id": "MCL-0192_T1",
+      "context_id": "MCL-0192",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a keyboard analysis expert. Your keyboard has accidentally shorted out, causing the keys to output incorrect characters. You need to analyze the state of the keyboard after the short circuit to complete a series of judgment and printing tasks."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_8aa959b0d936.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "shows the layout of this keyboard."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_51264642a610.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "demonstrates the process of typing characters with this short-circuited keyboard.\nGiven that the resulting output from the typing process shown in the video is 'xqpzqvcjdnybbwcdgmydmkygznhcf', what is the character produced by the original 'w' key due to the short circuit?\nIn your response, you must explicitly provide a two-step analysis:\n1. First, explain the general relationship you observed between the physical keys pressed in the video and the actual characters output.\n2. Then, based on this mapping logic, state the exact character produced by the short-circuited 'w' key."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_51264642a610.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "demonstrates the process of typing characters with this short-circuited keyboard. Given that the current output shown in the video is 'xqpzqvcjdnybbwcdgmydmkygznhcf', what characters will the keyboard output if you physically press the keys 'N' and 'R'?\nIn your response, you must explicitly provide a two-step analysis:\n1.First, explain the general relationship you observed between the physical keys pressed and the actual characters output.\n2.Then, based on this mapping logic, state the exact characters produced by pressing the physical 'N' and 'R' keys."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly state that the physical keys pressed do not match the characters actually output, indicating that a specific mapping or substitution rule exists.",
+      "2.The response must explicitly state that the characters output by the short-circuited 'N' and 'R' keys are 'DG' (or 'dg', case-insensitive equivalence is acceptable)."
+    ],
+    "metadata": {
+      "task_id": "MCL-0192_T2",
+      "context_id": "MCL-0192",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a keyboard analysis expert. Your keyboard has accidentally shorted out, causing the keys to output incorrect characters. You need to analyze the state of the keyboard after the short circuit to complete a series of judgment and printing tasks."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_8aa959b0d936.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "shows the layout of this keyboard."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_51264642a610.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "demonstrates the process of typing characters with this short-circuited keyboard.\nGiven that the resulting output from the typing process shown in the video is 'xqpzqvcjdnybbwcdgmydmkygznhcf', what is the character produced by the original 'w' key due to the short circuit?\nIn your response, you must explicitly provide a two-step analysis:\n1. First, explain the general relationship you observed between the physical keys pressed in the video and the actual characters output.\n2. Then, based on this mapping logic, state the exact character produced by the short-circuited 'w' key."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_51264642a610.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "demonstrates the process of typing characters with this short-circuited keyboard. Given that the current output shown in the video is 'xqpzqvcjdnybbwcdgmydmkygznhcf', what characters will the keyboard output if you physically press the keys 'N' and 'R'?\nIn your response, you must explicitly provide a two-step analysis:\n1.First, explain the general relationship you observed between the physical keys pressed and the actual characters output.\n2.Then, based on this mapping logic, state the exact characters produced by pressing the physical 'N' and 'R' keys."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_003_8fdaa6ae82b9.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "demonstrates the process of typing characters with this short-circuited keyboard. Given that the resulting output from the typing sequence in the video is 'xqpzqvcjdnybbwcdgmydmkygznhcf', please determine the mapping rule of this keyboard. Based on your analysis, what characters will the keyboard actually output if a user physically presses the 'N' and 'R' keys?\nIn your response, you must explicitly:\n1. State whether the physical keys match the output characters and identify the existence of a mapping rule.\n2. Provide the final resulting characters for pressing the 'N' and 'R' keys."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly identify that the physical keys pressed do not match the characters actually output, confirming a specific mapping relationship exists due to the short circuit.",
+      "2.The response must explicitly state that the characters produced (output) by pressing the physical 'N' and 'R' keys are 'DG' (or 'dg', case-insensitive equivalence is acceptable)."
+    ],
+    "metadata": {
+      "task_id": "MCL-0192_T3",
+      "context_id": "MCL-0192",
+      "turn_index": 3
+    }
+  }
+]

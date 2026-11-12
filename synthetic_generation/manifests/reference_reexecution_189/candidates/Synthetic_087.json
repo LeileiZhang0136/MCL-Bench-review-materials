@@ -1,0 +1,95 @@
+{
+  "case_id": "Synthetic_087",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:2303.05039v2",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "2303.05039v2",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page0.jpg",
+        "sha256": "94c64b1adc5eed60b42c6b8ebd21f15cf0a4997b7b58c3511774b7e4d5c235a4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page1.jpg",
+        "sha256": "e230073c3ae5de352b393d1ca609516aedb31127177438756320d7f71ece7957",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page2.jpg",
+        "sha256": "0e6a5bb5af26424f3ee5ebd40a8679c2cebb7ec81db3e99e1283b28e4cfbf224",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page3.jpg",
+        "sha256": "66a7bdb5406b0877a62bed4e8406b7224b7f9cd44822f2a4d34e4ccebbedafda",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page4.jpg",
+        "sha256": "e897efd6406e25c45c1a75924d913b697b22bc1da33fb73bd2cc446d21680e04",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page5.jpg",
+        "sha256": "7a18063905d8bb7d65c1289bfe7071dbc86d3f155c3067fb13b396d8c2b73e7f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page6.jpg",
+        "sha256": "95f3bf2cc887be0ea788049e891bcb3c1028cce9a04a76108eeddab0c07872cb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page7.jpg",
+        "sha256": "0a49632abe97260bedfae0d0521c351e14d2c1ce762b8ac8a1e503c7e5ffb120",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/2303.05039v2/2303.05039v2_page8.jpg",
+        "sha256": "ccf7f2e8e592c67bd5f8b82eb02fecc487c17430a9e746bb11b9edf3e4d6911c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

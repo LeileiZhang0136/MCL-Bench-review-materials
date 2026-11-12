@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Temporal Dynamics & Environmental Interaction",
+  "subcategory": "Agent Behavior",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0252",
+      "directory": "MCL-0252_expert_E03",
+      "task_count": "4",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0253",
+      "directory": "MCL-0253_expert_E04",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0254",
+      "directory": "MCL-0254_expert_E05",
+      "task_count": "6",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

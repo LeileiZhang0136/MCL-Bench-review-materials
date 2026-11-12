@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_010",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-1-1024.jpg",
+        "sha256": "9291775fc319c8e1f559f9c4749f24007ae18c64814eb8e00f6068aa6efd0d67",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-3-1024.jpg",
+        "sha256": "dd1b5715cd8877c6ffad73d28f0560c68adf30e6455b47ebd411f7d450026ca5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-4-1024.jpg",
+        "sha256": "0f61e7728b4699c3ca567c73825b2b234ad3b27425034f1ad3b7ffc111c4c9b0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-6-1024.jpg",
+        "sha256": "f48567e2e461f2711ce68beb1a1c593d99b5c47dc5f85ab2fd7d64ca87840ae7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-8-1024.jpg",
+        "sha256": "f466937ebb826a1f5681dbd36ff9ca3db175eb4ab3fe398f6a6afb9ae236d289",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-10-1024.jpg",
+        "sha256": "ecd01efe019a8ec2a251f48a152ee9791b8f1ebd68071daceb9b1701bccf428b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-11-1024.jpg",
+        "sha256": "89642e10449bb9a3d36af3fa8ab6cd1d1811d8c2238294b8314c42dc483fb293",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-13-1024.jpg",
+        "sha256": "2cde4c59cb4372541296f204776d513700c7ccd8d5966ef61468a564f6fa74c6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-15-1024.jpg",
+        "sha256": "69ba1abf326cd1d35b08cd676bd171d6c356d55843313e61b6e0f5765fc14c95",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-17-1024.jpg",
+        "sha256": "dcc91fa89292095d6b3469ac80bc296a9766ed74b7362e1d5ee9889e84355d9d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-18-1024.jpg",
+        "sha256": "065645c0b1874d4abfd785f90f8ec3476303a5852f64ba0d09c32fa82f6ec56e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/326edelmantrustcorefinancialserivcestrustdeckglobalversionfinal-130409081651-phpapp01_95/2013-edelman-trust-barometer-global-financial-services-industry-20-1024.jpg",
+        "sha256": "8b5f51ec065b210f4c84e43e6dbc056e5cd32eb278d6ab01d47f54a6e248ef81",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

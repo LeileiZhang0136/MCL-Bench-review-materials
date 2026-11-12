@@ -1,0 +1,511 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the task card administrator of the \"Red Rope Climbing Guild\". You need to register different climbing scenarios as commissions that vary in difficulty, belay method, and mission purpose: training walls, natural rock walls, ice walls, canyon crevices, roof repairs, and vista camps are not interchangeable. You can design the guild level, protection rope rules and forbidden tasks, but each subsequent round must use the task card name, level boundary and card replacement conditions established for the first time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_3fb1b522ac8b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_5e4b3d2de21a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_fbf26f751433.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_39d56a314fb8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_6985863f0605.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_a409807891f7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_e34f14dd641e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_b86207cfc5c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_4da7c4d61ef4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_bd51db3236a7.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nThe Red Rope Guild will compile a set of \"climbing mission cards\" from these records. Please create 4 types of mission cards first. Each mission card must have a name, suitable climbing site, required protection method, minimum entry requirements, and unacceptable external scenes. Task cards should not only be divided into \"roped/unroped\", but also consider the differences between artificial walls, natural rock walls, ice walls, group routes, industrial height operations and long-range observation.\n\nThen please register the 10 pictures one by one:\n- Which mission card it can receive;\n- Is it formal climbing, training, belaying/leading, engineering operations, distant views or high-risk close-ups;\n- What qualifications or equipment is required at least in front of it;\n- What type of tasks can it be upgraded to at most?\n- Which quest card should it least be swapped for.\n\nFinally, a 6-step upgrade chain of \"newbie to rock wall\" is given, as well as a high-risk chain of \"non-upgradeable but can be displayed side by side\". The upgrade chain should explain which steps are real upgrades and which can only be used as circumstantial evidence; the high-risk chain should explain why ice walls, canyon crevices, natural outer rocks and roof operations cannot be combined by \"height\" alone.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should all 10 pictures must be covered and answers organized according to Guild Task Card rules.",
+      "2. The response should four types of task cards must be established, and they must be distinguished between artificial walls, natural rock walls, ice walls/canyon crevices, engineering height operations, or distant views.",
+      "3. The response should it should be recognized that Figure 03 and Figure 08 are artificial/training walls; Figure 01 is a group artificial rock wall or teaching route; Figure 09 and Figure 10 are close-up natural outer rock climbing; Figure 06 is a cliff route with steel cables or fixed protection; Figure 05 is a gorge rappel/climbing scene; Figure 02 is an ice wall climbing; Figure 04 is a roof/scaffolding engineering operation; Figure 07 is evidence of distant rock wall activities.",
+      "4. The response should each picture must give task cards, roles, pre-qualifications, upgrade upper bounds and irreplaceable cards.",
+      "5. The response should a \"novice to crag\" upgrade chain must be given, and formal upgrades and circumstantial evidence must be distinguished.",
+      "6. The response should high-risk parallel chains must be given to explain that different high-risk scenarios cannot be combined based on height alone.",
+      "7. The response should if the answer is that Figure 04 is regarded as an ordinary rock climbing task, Figure 02 is unconditionally connected to artificial wall training, or Figure 07 is regarded as the main node that can directly evaluate personal movements, it should be judged as not meeting the requirements.\nThe response should additionally Mutual exclusion conditions must be set for the main groupings; footnotes must be written for side-by-side display; one conclusion must be downgraded and the upgrade conditions must be stated.",
+      "8. The response should also explain: If different groupings or main chains are used, the key boundaries among subjects, venues, actions, and time points must still be maintained, and at least one connection that must be supplemented must be clearly pointed out.",
+      "9. The response should answers should not be combined based only on similar appearance, adjacent order, or shared nouns, or the circumstantial evidence should be written directly as main evidence, and similar types should be written directly as the same process."
+    ],
+    "metadata": {
+      "task_id": "MCL-0089_T1",
+      "context_id": "MCL-0089",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the task card administrator of the \"Red Rope Climbing Guild\". You need to register different climbing scenarios as commissions that vary in difficulty, belay method, and mission purpose: training walls, natural rock walls, ice walls, canyon crevices, roof repairs, and vista camps are not interchangeable. You can design the guild level, protection rope rules and forbidden tasks, but each subsequent round must use the task card name, level boundary and card replacement conditions established for the first time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_3fb1b522ac8b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_5e4b3d2de21a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_fbf26f751433.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_39d56a314fb8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_6985863f0605.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_a409807891f7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_e34f14dd641e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_b86207cfc5c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_4da7c4d61ef4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_bd51db3236a7.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nThe Red Rope Guild will compile a set of \"climbing mission cards\" from these records. Please create 4 types of mission cards first. Each mission card must have a name, suitable climbing site, required protection method, minimum entry requirements, and unacceptable external scenes. Task cards should not only be divided into \"roped/unroped\", but also consider the differences between artificial walls, natural rock walls, ice walls, group routes, industrial height operations and long-range observation.\n\nThen please register the 10 pictures one by one:\n- Which mission card it can receive;\n- Is it formal climbing, training, belaying/leading, engineering operations, distant views or high-risk close-ups;\n- What qualifications or equipment is required at least in front of it;\n- What type of tasks can it be upgraded to at most?\n- Which quest card should it least be swapped for.\n\nFinally, a 6-step upgrade chain of \"newbie to rock wall\" is given, as well as a high-risk chain of \"non-upgradeable but can be displayed side by side\". The upgrade chain should explain which steps are real upgrades and which can only be used as circumstantial evidence; the high-risk chain should explain why ice walls, canyon crevices, natural outer rocks and roof operations cannot be combined by \"height\" alone.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The previous round of task cards and picture-by-picture registration will be used. Now the guild is going to draw a \"card replacement roadmap\". Please divide the relationship between the pictures into: cards can be upgraded and replaced, can only be displayed on the same shelf, and card replacement is prohibited. A specific graph pair or graph chain must be given for each category.\n\nAlso please indicate:\n- The most vulnerable qualification link when entering the natural rock wall from the training wall;\n- Which picture is most likely to be used to pretend to be a formal climb, but in fact it can only illustrate the site or project status;\n- Which two pictures are both at a high place, but cannot share the same mission card.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the mission cards and image characters from the first round must be used.",
+      "2. The response should relationships must be divided into those that can be upgraded and changed, those that can only be displayed on the same shelf, and those that are prohibited from changing cards.",
+      "3. The response should the vulnerability link from the training wall to the natural rock wall must involve belay method, rock face type, experience level or visual evidence of movement.",
+      "4. The response should it is necessary to explain the difference between Figure 04 and the rock climbing diagram, the limitations of Figure 07 as evidence of the distant view, and the difference in high-risk conditions between Figures 02/05/09/10.",
+      "5. The response should if the answer is that all high-altitude activities are arranged in an upgrade line, it should be judged as untenable.\nThe response should additionally The main role must be assigned to each piece of evidence; the alternate role needs switching conditions; a set of handover combinations that require a step must be specified.",
+      "6. The response should also explain: If different evidence supplement points, safe chains or log checking sequences are used, it must also be able to clearly explain which step is insufficient in advance and which step can only be compared side by side and not sequentially.",
+      "7. The response should distinguish the facts in the picture, relationship advancement and judgment to be supplemented, and \"similar types\" must not be directly written as \"same place/same process/same subject\"."
+    ],
+    "metadata": {
+      "task_id": "MCL-0089_T2",
+      "context_id": "MCL-0089",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the task card administrator of the \"Red Rope Climbing Guild\". You need to register different climbing scenarios as commissions that vary in difficulty, belay method, and mission purpose: training walls, natural rock walls, ice walls, canyon crevices, roof repairs, and vista camps are not interchangeable. You can design the guild level, protection rope rules and forbidden tasks, but each subsequent round must use the task card name, level boundary and card replacement conditions established for the first time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_3fb1b522ac8b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_5e4b3d2de21a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_fbf26f751433.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_39d56a314fb8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_6985863f0605.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_a409807891f7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_e34f14dd641e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_b86207cfc5c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_4da7c4d61ef4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_bd51db3236a7.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nThe Red Rope Guild will compile a set of \"climbing mission cards\" from these records. Please create 4 types of mission cards first. Each mission card must have a name, suitable climbing site, required protection method, minimum entry requirements, and unacceptable external scenes. Task cards should not only be divided into \"roped/unroped\", but also consider the differences between artificial walls, natural rock walls, ice walls, group routes, industrial height operations and long-range observation.\n\nThen please register the 10 pictures one by one:\n- Which mission card it can receive;\n- Is it formal climbing, training, belaying/leading, engineering operations, distant views or high-risk close-ups;\n- What qualifications or equipment is required at least in front of it;\n- What type of tasks can it be upgraded to at most?\n- Which quest card should it least be swapped for.\n\nFinally, a 6-step upgrade chain of \"newbie to rock wall\" is given, as well as a high-risk chain of \"non-upgradeable but can be displayed side by side\". The upgrade chain should explain which steps are real upgrades and which can only be used as circumstantial evidence; the high-risk chain should explain why ice walls, canyon crevices, natural outer rocks and roof operations cannot be combined by \"height\" alone.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The previous round of task cards and picture-by-picture registration will be used. Now the guild is going to draw a \"card replacement roadmap\". Please divide the relationship between the pictures into: cards can be upgraded and replaced, can only be displayed on the same shelf, and card replacement is prohibited. A specific graph pair or graph chain must be given for each category.\n\nAlso please indicate:\n- The most vulnerable qualification link when entering the natural rock wall from the training wall;\n- Which picture is most likely to be used to pretend to be a formal climb, but in fact it can only illustrate the site or project status;\n- Which two pictures are both at a high place, but cannot share the same mission card.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to do the \"Task Card Appeal\". There are currently 5 applications:\n\nA. Change Figure 04 to an exterior wall climbing task;\nB. Use Figure 07 as the action proof of Figure 09;\nC. Connect Figure 02 to Figure 03 and write it as if you pass the training wall and challenge the ice wall directly;\nD. Arrange Figure 01 after Figure 03, and write the same novice’s route from single-player training to multi-player teaching;\nE. Merge Figure 05 and Figure 10 into the same natural rock wall high-risk task.\n\nPlease rule \"Approval/Downgrade/Reject\" on a case-by-case basis. Each item must be explained based on the nature of the site, the method of protection, the recognizability of the characters, the technical threshold, or the purpose of the mission. If it can be saved by changing only one condition, please write the minimum revised version.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should a-E must be dealt with on a case-by-case basis and a clear ruling given.",
+      "2. The response should each item must refer back to the previous two rounds of task cards, card swap sides, or qualification weaknesses.",
+      "3. The response should item A should usually be rejected or changed to engineering height operations; item B can only be downgraded to distant view circumstantial evidence; item C must deal with the technical threshold of the ice wall; item D can be discussed but needs to be supplemented by the same person or the same level of evidence; if item E is merged, the technical differences between canyon rappelling and external rock climbing must be explained.",
+      "4. The response should the minimum revised version of each item must be given; if a single condition is insufficient, an explanation must be made.\nThe response should additionally Mutual exclusion conditions must be set for the main groupings; footnotes must be written for side-by-side display; one conclusion must be downgraded and the upgrade conditions must be stated.",
+      "5. The response should also explain: If the specific pages of the anchor, supplement, counterexample, pending review, or cut identity are different, it can explain which conclusion collapses first after deletion and which boundary can still be barely maintained.",
+      "6. The response should answers must not be graded solely on the basis of the drama of the scene or the amount of information, without discounting the density of evidence, exclusionary effects, and risk of misleading."
+    ],
+    "metadata": {
+      "task_id": "MCL-0089_T3",
+      "context_id": "MCL-0089",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the task card administrator of the \"Red Rope Climbing Guild\". You need to register different climbing scenarios as commissions that vary in difficulty, belay method, and mission purpose: training walls, natural rock walls, ice walls, canyon crevices, roof repairs, and vista camps are not interchangeable. You can design the guild level, protection rope rules and forbidden tasks, but each subsequent round must use the task card name, level boundary and card replacement conditions established for the first time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_3fb1b522ac8b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_5e4b3d2de21a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_fbf26f751433.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_39d56a314fb8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_6985863f0605.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_a409807891f7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_e34f14dd641e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_b86207cfc5c7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_4da7c4d61ef4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_bd51db3236a7.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nThe Red Rope Guild will compile a set of \"climbing mission cards\" from these records. Please create 4 types of mission cards first. Each mission card must have a name, suitable climbing site, required protection method, minimum entry requirements, and unacceptable external scenes. Task cards should not only be divided into \"roped/unroped\", but also consider the differences between artificial walls, natural rock walls, ice walls, group routes, industrial height operations and long-range observation.\n\nThen please register the 10 pictures one by one:\n- Which mission card it can receive;\n- Is it formal climbing, training, belaying/leading, engineering operations, distant views or high-risk close-ups;\n- What qualifications or equipment is required at least in front of it;\n- What type of tasks can it be upgraded to at most?\n- Which quest card should it least be swapped for.\n\nFinally, a 6-step upgrade chain of \"newbie to rock wall\" is given, as well as a high-risk chain of \"non-upgradeable but can be displayed side by side\". The upgrade chain should explain which steps are real upgrades and which can only be used as circumstantial evidence; the high-risk chain should explain why ice walls, canyon crevices, natural outer rocks and roof operations cannot be combined by \"height\" alone.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The previous round of task cards and picture-by-picture registration will be used. Now the guild is going to draw a \"card replacement roadmap\". Please divide the relationship between the pictures into: cards can be upgraded and replaced, can only be displayed on the same shelf, and card replacement is prohibited. A specific graph pair or graph chain must be given for each category.\n\nAlso please indicate:\n- The most vulnerable qualification link when entering the natural rock wall from the training wall;\n- Which picture is most likely to be used to pretend to be a formal climb, but in fact it can only illustrate the site or project status;\n- Which two pictures are both at a high place, but cannot share the same mission card.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to do the \"Task Card Appeal\". There are currently 5 applications:\n\nA. Change Figure 04 to an exterior wall climbing task;\nB. Use Figure 07 as the action proof of Figure 09;\nC. Connect Figure 02 to Figure 03 and write it as if you pass the training wall and challenge the ice wall directly;\nD. Arrange Figure 01 after Figure 03, and write the same novice’s route from single-player training to multi-player teaching;\nE. Merge Figure 05 and Figure 10 into the same natural rock wall high-risk task.\n\nPlease rule \"Approval/Downgrade/Reject\" on a case-by-case basis. Each item must be explained based on the nature of the site, the method of protection, the recognizability of the characters, the technical threshold, or the purpose of the mission. If it can be saved by changing only one condition, please write the minimum revised version.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally, output \"Aka Rope Guild Mission Final Book\". Column names must continue to be from the first round of task cards; long-range circumstantial evidence, engineering operations, and high-risk close-ups must be retained.\n\nWrite clearly in each column: which pictures will be collected, what level can be awarded, what qualifications are still missing, what kind of tasks cannot be replaced, and whose pictures are most likely to be mistakenly collected. Then a 6-step browsing sequence is given, which must reference a card swap vulnerability and an appeal decision. Finally, let me write a general guild rule: when is the climbing screen enough to upgrade, and when is it just proof that they are all high up?\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the final mission book must be output, with column names using the first round mission cards and covering all 10 pictures.",
+      "2. The response should each column must indicate the level awarded, missing qualifications, irreplaceable assignments, and hazardous misreceipt.",
+      "3. The response should a 6-step browsing sequence must be given, citing a card swap vulnerability and an appeal decision.",
+      "4. The response should a general rule must be given, distinguishing between scalable evidence and ordinary high altitude similarities.",
+      "5. The response should in the end, Figure 04 cannot be transformed into ordinary rock climbing, Figure 07 cannot be transformed into action evidence, and ice walls, canyon crevices and outer rocks cannot be unconditionally merged.\nThe response should additionally The main role must be assigned to each piece of evidence; the alternate role needs switching conditions; a set of handover combinations that require a step must be specified.",
+      "6. The response should also explain: If different final rulings, four levels of conclusions, or minimum combinations are adopted, the restrictions, reasons for exclusion, and risks of misunderstanding must also be clearly stated, and no new assumptions must be sneaked in.",
+      "7. The response should answers must not put conclusions that require inference of the same person, the same place, or the same time into a high confidence level, or do not provide any downgrading conditions or exclusion boundaries."
+    ],
+    "metadata": {
+      "task_id": "MCL-0089_T4",
+      "context_id": "MCL-0089",
+      "turn_index": 4
+    }
+  }
+]

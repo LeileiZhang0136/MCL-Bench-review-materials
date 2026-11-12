@@ -1,0 +1,819 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-world survey-report multimodal evidence auditor. This case uses real local images from dataset=mmlongbench-doc, sample_id=Independents-Report, split=not provided in local metadata, source_url: not provided in local metadata, license: not provided in local metadata. The case contains 23 images, [IMG:1.jpg] through [IMG:23.jpg], in natural filename order from the source sample directory. Do not use internet access, outside domain knowledge, or facts not visible in these images.\nTask world: survey and public-report audit for Independents Report with subgroup charts, question wording, methodology notes, and cross-page consistency checks. The required visual anchor focus is survey percentages, subgroup labels, question text, chart axes, tables, legends, methodology notes, source notes, and page numbers. For every image, build a Visual Anchor Ledger with these fields: Image_ID, visible title/header, evidence family, key visible numbers or labels, table/chart/axis/legend evidence, arrow/process/page-order evidence, source/note/unit evidence, uncertainty flag, and local audit score.\nCase-local scoring rules: Numeric Evidence = 2 points when a visible number, percentage, count, time, threshold, or ratio is present. Structured Evidence = 2 points when a table, chart, axis, legend, grid, matrix, benchmark panel, or form-like block is present. Flow Evidence = 1 point when arrows, numbered steps, process nodes, page sequence, timeline, or cause-effect connectors are present. Trace Evidence = 1 point when a source note, unit, footnote, caption, title, page number, or section label is visible. Cross-Image Evidence = 1 point when the image clearly continues, contrasts with, or calibrates another image in this same case. Classify each image as AUTO101-Core when score >= 6, AUTO101-Support when score is 4 or 5, AUTO101-Review when score is 2 or 3, and Need Review when required anchors are unreadable. Final route codes must use the prefix `AUTO101`. Ties are resolved by higher Structured Evidence, then earlier Image_ID. All conclusions must cite image placeholders and the exact visible anchors used."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 1. Build the full Visual Anchor Ledger for all 23 images, [IMG:1.jpg] through [IMG:23.jpg]. For each image, extract the visible title/header, evidence family, at least one task-relevant visual anchor when present, uncertainty flag, score, and local class (AUTO101-Core, AUTO101-Support, AUTO101-Review, or Need Review). End with `Ledger_Status = complete/incomplete` and list any images that require review."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_e53f5a5323e2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_abcf430fbae9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_12eec5ca6392.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_8f3eca40dad6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_828f75c9b2a1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_854e6ab5aea0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_ae3a2343bf56.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ce711f464e99.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_388fb7b98d2c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_99eae20945ef.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_974d84ea6eb4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_2e707b43ddd9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_54b02620b896.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e3286d65ef96.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_dce6dd03426b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_60b1c976d01e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_ba8080497e9f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_498b13f17bbf.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_b787ab1d392b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_45040181284b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_288d7e81914f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_55eb0124717a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_9ef112cd84e5.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should include exactly 23 ledger rows, one for each image placeholder from [IMG:1.jpg] through [IMG:23.jpg].",
+      "2. The response should identify a visible title, header, section label, page number, or filename-derived placeholder for each image rather than leaving generic blanks.",
+      "3. The response should separate Numeric Evidence, Structured Evidence, Flow Evidence, Trace Evidence, and Cross-Image Evidence instead of merging them into one vague note.",
+      "4. The response should assign scores using only the point values defined in the system message.",
+      "5. The response should use only the allowed local classes AUTO101-Core, AUTO101-Support, AUTO101-Review, and Need Review.",
+      "6. The response should mark an image Need Review when the task-relevant visual anchors are unreadable or absent instead of inventing anchors.",
+      "7. The response should cite image placeholders in every ledger row.",
+      "8. The response should set `Ledger_Status = complete` only if every image has a row and a class.",
+      "9. The response should not use outside knowledge about the dataset topic, product, organization, technology, or public policy domain.",
+      "10. The response should preserve natural image order and not sort lexicographically by filenames such as placing 10 before",
+      "2."
+    ],
+    "metadata": {
+      "task_id": "MCL-0130_T1",
+      "context_id": "MCL-0130",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-world survey-report multimodal evidence auditor. This case uses real local images from dataset=mmlongbench-doc, sample_id=Independents-Report, split=not provided in local metadata, source_url: not provided in local metadata, license: not provided in local metadata. The case contains 23 images, [IMG:1.jpg] through [IMG:23.jpg], in natural filename order from the source sample directory. Do not use internet access, outside domain knowledge, or facts not visible in these images.\nTask world: survey and public-report audit for Independents Report with subgroup charts, question wording, methodology notes, and cross-page consistency checks. The required visual anchor focus is survey percentages, subgroup labels, question text, chart axes, tables, legends, methodology notes, source notes, and page numbers. For every image, build a Visual Anchor Ledger with these fields: Image_ID, visible title/header, evidence family, key visible numbers or labels, table/chart/axis/legend evidence, arrow/process/page-order evidence, source/note/unit evidence, uncertainty flag, and local audit score.\nCase-local scoring rules: Numeric Evidence = 2 points when a visible number, percentage, count, time, threshold, or ratio is present. Structured Evidence = 2 points when a table, chart, axis, legend, grid, matrix, benchmark panel, or form-like block is present. Flow Evidence = 1 point when arrows, numbered steps, process nodes, page sequence, timeline, or cause-effect connectors are present. Trace Evidence = 1 point when a source note, unit, footnote, caption, title, page number, or section label is visible. Cross-Image Evidence = 1 point when the image clearly continues, contrasts with, or calibrates another image in this same case. Classify each image as AUTO101-Core when score >= 6, AUTO101-Support when score is 4 or 5, AUTO101-Review when score is 2 or 3, and Need Review when required anchors are unreadable. Final route codes must use the prefix `AUTO101`. Ties are resolved by higher Structured Evidence, then earlier Image_ID. All conclusions must cite image placeholders and the exact visible anchors used."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 1. Build the full Visual Anchor Ledger for all 23 images, [IMG:1.jpg] through [IMG:23.jpg]. For each image, extract the visible title/header, evidence family, at least one task-relevant visual anchor when present, uncertainty flag, score, and local class (AUTO101-Core, AUTO101-Support, AUTO101-Review, or Need Review). End with `Ledger_Status = complete/incomplete` and list any images that require review."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_e53f5a5323e2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_abcf430fbae9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_12eec5ca6392.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_8f3eca40dad6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_828f75c9b2a1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_854e6ab5aea0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_ae3a2343bf56.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ce711f464e99.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_388fb7b98d2c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_99eae20945ef.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_974d84ea6eb4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_2e707b43ddd9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_54b02620b896.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e3286d65ef96.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_dce6dd03426b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_60b1c976d01e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_ba8080497e9f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_498b13f17bbf.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_b787ab1d392b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_45040181284b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_288d7e81914f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_55eb0124717a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_9ef112cd84e5.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 2. Use the Round 1 ledger to select the strongest contiguous evidence window. A window must contain 4 consecutive images. Score each window by summing local audit scores, subtracting 2 for every Need Review image, and adding 1 if at least two images in the window are classified AUTO101-Core. Return the winning window, its total score, the route code `AUTO101-Window-Prime`, and the first runner-up."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should evaluate only contiguous 4-image windows.",
+      "2. The response should compute each considered window from Round 1 image scores and Need Review penalties.",
+      "3. The response should add the +1 bonus only when at least two images in that window are classified AUTO101-Core.",
+      "4. The response should apply the tie-breaker of higher Structured Evidence, then earlier Image_ID.",
+      "5. The response should return both the winning window and first runner-up.",
+      "6. The response should use the exact route code `AUTO101-Window-Prime` for the winning window.",
+      "7. The response should cite all four image placeholders in the winning window.",
+      "8. The response should not select a window solely because its topic sounds important without applying the score rules.",
+      "9. The response should explain any excluded high-looking image if it was outside the winning contiguous window.",
+      "10. The response should keep all calculations within the local scoring system."
+    ],
+    "metadata": {
+      "task_id": "MCL-0130_T2",
+      "context_id": "MCL-0130",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-world survey-report multimodal evidence auditor. This case uses real local images from dataset=mmlongbench-doc, sample_id=Independents-Report, split=not provided in local metadata, source_url: not provided in local metadata, license: not provided in local metadata. The case contains 23 images, [IMG:1.jpg] through [IMG:23.jpg], in natural filename order from the source sample directory. Do not use internet access, outside domain knowledge, or facts not visible in these images.\nTask world: survey and public-report audit for Independents Report with subgroup charts, question wording, methodology notes, and cross-page consistency checks. The required visual anchor focus is survey percentages, subgroup labels, question text, chart axes, tables, legends, methodology notes, source notes, and page numbers. For every image, build a Visual Anchor Ledger with these fields: Image_ID, visible title/header, evidence family, key visible numbers or labels, table/chart/axis/legend evidence, arrow/process/page-order evidence, source/note/unit evidence, uncertainty flag, and local audit score.\nCase-local scoring rules: Numeric Evidence = 2 points when a visible number, percentage, count, time, threshold, or ratio is present. Structured Evidence = 2 points when a table, chart, axis, legend, grid, matrix, benchmark panel, or form-like block is present. Flow Evidence = 1 point when arrows, numbered steps, process nodes, page sequence, timeline, or cause-effect connectors are present. Trace Evidence = 1 point when a source note, unit, footnote, caption, title, page number, or section label is visible. Cross-Image Evidence = 1 point when the image clearly continues, contrasts with, or calibrates another image in this same case. Classify each image as AUTO101-Core when score >= 6, AUTO101-Support when score is 4 or 5, AUTO101-Review when score is 2 or 3, and Need Review when required anchors are unreadable. Final route codes must use the prefix `AUTO101`. Ties are resolved by higher Structured Evidence, then earlier Image_ID. All conclusions must cite image placeholders and the exact visible anchors used."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 1. Build the full Visual Anchor Ledger for all 23 images, [IMG:1.jpg] through [IMG:23.jpg]. For each image, extract the visible title/header, evidence family, at least one task-relevant visual anchor when present, uncertainty flag, score, and local class (AUTO101-Core, AUTO101-Support, AUTO101-Review, or Need Review). End with `Ledger_Status = complete/incomplete` and list any images that require review."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_e53f5a5323e2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_abcf430fbae9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_12eec5ca6392.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_8f3eca40dad6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_828f75c9b2a1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_854e6ab5aea0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_ae3a2343bf56.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ce711f464e99.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_388fb7b98d2c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_99eae20945ef.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_974d84ea6eb4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_2e707b43ddd9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_54b02620b896.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e3286d65ef96.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_dce6dd03426b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_60b1c976d01e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_ba8080497e9f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_498b13f17bbf.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_b787ab1d392b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_45040181284b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_288d7e81914f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_55eb0124717a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_9ef112cd84e5.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 2. Use the Round 1 ledger to select the strongest contiguous evidence window. A window must contain 4 consecutive images. Score each window by summing local audit scores, subtracting 2 for every Need Review image, and adding 1 if at least two images in the window are classified AUTO101-Core. Return the winning window, its total score, the route code `AUTO101-Window-Prime`, and the first runner-up."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 3. Audit this handoff comment: `A page naming the report topic is enough to determine the route even when it has no readable percentage, chart, table, or methodology note.`. Decide whether the comment is Valid or Invalid. If invalid, identify every unsupported shortcut, name the corrected route or class using the Round 1 and Round 2 evidence, and state which local rule prevents accepting the handoff."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should state Valid or Invalid explicitly.",
+      "2. The response should reject any clause that relies on topic familiarity, filename wording, slide title impression, or external domain knowledge without visible anchors.",
+      "3. The response should check the handoff against the Round 1 ledger classes and Round 2 contiguous-window rule.",
+      "4. The response should identify at least one concrete image placeholder whose evidence supports the correction.",
+      "5. The response should identify at least one concrete image placeholder whose evidence disproves or weakens the handoff.",
+      "6. The response should use one of the local labels AUTO101-Core, AUTO101-Support, AUTO101-Review, Need Review, or `AUTO101-Window-Prime` in the corrected answer.",
+      "7. The response should quote or paraphrase the controlling local rule rather than giving a generic disagreement.",
+      "8. The response should not introduce new scoring weights or route labels.",
+      "9. The response should separate visual evidence from case-local rule application.",
+      "10. The response should avoid treating unreadable images as confirmed evidence."
+    ],
+    "metadata": {
+      "task_id": "MCL-0130_T3",
+      "context_id": "MCL-0130",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-world survey-report multimodal evidence auditor. This case uses real local images from dataset=mmlongbench-doc, sample_id=Independents-Report, split=not provided in local metadata, source_url: not provided in local metadata, license: not provided in local metadata. The case contains 23 images, [IMG:1.jpg] through [IMG:23.jpg], in natural filename order from the source sample directory. Do not use internet access, outside domain knowledge, or facts not visible in these images.\nTask world: survey and public-report audit for Independents Report with subgroup charts, question wording, methodology notes, and cross-page consistency checks. The required visual anchor focus is survey percentages, subgroup labels, question text, chart axes, tables, legends, methodology notes, source notes, and page numbers. For every image, build a Visual Anchor Ledger with these fields: Image_ID, visible title/header, evidence family, key visible numbers or labels, table/chart/axis/legend evidence, arrow/process/page-order evidence, source/note/unit evidence, uncertainty flag, and local audit score.\nCase-local scoring rules: Numeric Evidence = 2 points when a visible number, percentage, count, time, threshold, or ratio is present. Structured Evidence = 2 points when a table, chart, axis, legend, grid, matrix, benchmark panel, or form-like block is present. Flow Evidence = 1 point when arrows, numbered steps, process nodes, page sequence, timeline, or cause-effect connectors are present. Trace Evidence = 1 point when a source note, unit, footnote, caption, title, page number, or section label is visible. Cross-Image Evidence = 1 point when the image clearly continues, contrasts with, or calibrates another image in this same case. Classify each image as AUTO101-Core when score >= 6, AUTO101-Support when score is 4 or 5, AUTO101-Review when score is 2 or 3, and Need Review when required anchors are unreadable. Final route codes must use the prefix `AUTO101`. Ties are resolved by higher Structured Evidence, then earlier Image_ID. All conclusions must cite image placeholders and the exact visible anchors used."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 1. Build the full Visual Anchor Ledger for all 23 images, [IMG:1.jpg] through [IMG:23.jpg]. For each image, extract the visible title/header, evidence family, at least one task-relevant visual anchor when present, uncertainty flag, score, and local class (AUTO101-Core, AUTO101-Support, AUTO101-Review, or Need Review). End with `Ledger_Status = complete/incomplete` and list any images that require review."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_e53f5a5323e2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_abcf430fbae9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_12eec5ca6392.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_8f3eca40dad6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_828f75c9b2a1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_854e6ab5aea0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_ae3a2343bf56.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_ce711f464e99.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_388fb7b98d2c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_99eae20945ef.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_974d84ea6eb4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_2e707b43ddd9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_54b02620b896.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e3286d65ef96.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_dce6dd03426b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_60b1c976d01e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_ba8080497e9f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_498b13f17bbf.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_b787ab1d392b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_45040181284b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_288d7e81914f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_55eb0124717a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_9ef112cd84e5.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 2. Use the Round 1 ledger to select the strongest contiguous evidence window. A window must contain 4 consecutive images. Score each window by summing local audit scores, subtracting 2 for every Need Review image, and adding 1 if at least two images in the window are classified AUTO101-Core. Return the winning window, its total score, the route code `AUTO101-Window-Prime`, and the first runner-up."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 3. Audit this handoff comment: `A page naming the report topic is enough to determine the route even when it has no readable percentage, chart, table, or methodology note.`. Decide whether the comment is Valid or Invalid. If invalid, identify every unsupported shortcut, name the corrected route or class using the Round 1 and Round 2 evidence, and state which local rule prevents accepting the handoff."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 4. Run this counterfactual: Structured Evidence becomes mandatory for the Core label, while the score threshold remains unchanged. Keep all visual anchors unchanged. Recompute affected image classes, the winning contiguous window, and any route code changes. Output exactly: `Changed_Images = ...; Stable_Images = ...; New_Window = ...; Reason = ...`."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should change only the local threshold or rule named in the counterfactual and keep visual anchors fixed.",
+      "2. The response should recompute the affected image classes before recomputing the winning window.",
+      "3. The response should identify Changed_Images separately from Stable_Images.",
+      "4. The response should state whether the winning contiguous window changes or remains the same.",
+      "5. The response should cite the image placeholders whose classification changes.",
+      "6. The response should cite the image placeholders in the final New_Window.",
+      "7. The response should explain the change using the local scoring thresholds rather than outside facts.",
+      "8. The response should use the exact output keys `Changed_Images`, `Stable_Images`, `New_Window`, and `Reason`.",
+      "9. The response should preserve Need Review handling for unreadable or missing anchors.",
+      "10. The response should not predict real-world operational, educational, technical, or policy outcomes."
+    ],
+    "metadata": {
+      "task_id": "MCL-0130_T4",
+      "context_id": "MCL-0130",
+      "turn_index": 4
+    }
+  }
+]

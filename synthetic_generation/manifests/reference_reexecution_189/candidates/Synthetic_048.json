@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_048",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:pdf2030seoulplan-140527082655-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "pdf2030seoulplan-140527082655-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-1-1024.jpg",
+        "sha256": "14273b19a90c403c1aaddf80d5948fd2b026899af81f80d69ba494541800abdc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-3-1024.jpg",
+        "sha256": "2eaafbf42df8dd2f1b5c9136532acbd67b9aaa00f15dbc20b0d5fb3835008fe8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-4-1024.jpg",
+        "sha256": "b188e2239394908d63a9fbc6d356c91303352418c5e2973823bb0a46da8df20f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-6-1024.jpg",
+        "sha256": "3ca72953c66e0812b75f9112234461671fcb2e4f798c4f8ba659fd91699d22eb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-8-1024.jpg",
+        "sha256": "6b821f2dd5542e09091cfc1193b17d79b461e7debf144def2f7c05b6164bdf74",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-10-1024.jpg",
+        "sha256": "7bff70324cfb69ea20207e2bb7818d7678b05b1aadf4626e7c192dc5a8916fb6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-11-1024.jpg",
+        "sha256": "d8be6d429e769881ef87db8ff138190312dc1e6b66f9aa46330e626ed3b7a4f1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-13-1024.jpg",
+        "sha256": "c3b7be14e6b135b8ed97620cc925c3087778d597f2b0d2a15b9846dec88eb712",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-15-1024.jpg",
+        "sha256": "f8fe2d39981240c424571a61965df7e324a0692cbbdca7bfeb80f60f0c8c9705",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-17-1024.jpg",
+        "sha256": "489d4740ee45f47413aa9287e6c44c1bb3fe339ecd153ba3daced8882fea7b5a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-18-1024.jpg",
+        "sha256": "a141b78ade2786d6093ffd06d4fcfc1184793d9ba92f3cdffbd20a3b61026f82",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/pdf2030seoulplan-140527082655-phpapp02_95/pdf2030-seoul-plan-20-1024.jpg",
+        "sha256": "8d6e7af6aa2cc91231b714cd05f267780ad7aa69ec74c3cdad85c99540365db6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

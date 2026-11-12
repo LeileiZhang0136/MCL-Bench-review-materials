@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_185",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:PP_2021.04.22_voting-access_REPORT",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "PP_2021.04.22_voting-access_REPORT",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page0.jpg",
+        "sha256": "bdd2a0b26e0e49b27cb787f4d65e5b90697f03a99b57ea8e6e8d2449afaeeaff",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page2.jpg",
+        "sha256": "080f4d84d22e749a4e85bd07917db4d95cbdeb8cb3c595d2edbd3ac4d057bc6b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page4.jpg",
+        "sha256": "42a13e318a9721da4ddb9747102215cf2e4405c2ccf61a0d3850c73f7f75a264",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page6.jpg",
+        "sha256": "122279ee167b3cc86729aa29c3c2ed164916b66e989b59230390162a25c66ce1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page8.jpg",
+        "sha256": "f2dd6fcde37a7035bbed59a2ff8e3fad2384a2bcddbd5906a71a30d17335caea",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page10.jpg",
+        "sha256": "fb068c42791bdffd83d3bb74e9158cdfdbc51d8c2ae8802b5ed69cfd1734116a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page13.jpg",
+        "sha256": "53102c564ebf4838ae1891e2d3925eea58b7647123bfcc53e93afb891899f425",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page15.jpg",
+        "sha256": "0f966bd0394d83dae2971326ce2db7551894529f9548bc74c9f3403a62974ae0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page17.jpg",
+        "sha256": "c403c63a677c6c803f6dd213b9725404b07b26f03e9ede41f4f3c4a90a0ac927",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page19.jpg",
+        "sha256": "ad08d9c33c9fd2c54989f1397bd9b816d60a373adfb77cb8241b69abdf49b606",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page21.jpg",
+        "sha256": "ab23b78d0a8b602ff000d3253e44cb75c11d9750f9ddfe4e690deae613a4bd97",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/PP_2021.04.22_voting-access_REPORT/PP_2021.04.22_voting-access_REPORT_page23.jpg",
+        "sha256": "94e62e0d86753e8776c29c74558936c68960c8ef6c5473846752d538b2efd809",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_065",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-1-1024.jpg",
+        "sha256": "13f8b6c72390d3530a6aa4b484e0859b375b25c0228d526fb4d2abb4548189f6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-3-1024.jpg",
+        "sha256": "aabeaad2ee2b433a7d49c267104a9ba71582c07e3f93351ffb294d658a878462",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-4-1024.jpg",
+        "sha256": "469f246953c6082a2191446d01fbc682caf8be742f096536730eb350798a6633",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-6-1024.jpg",
+        "sha256": "b32f4b9ba1a6bb7bf7be27080f0df357e8dbd812d8789a17540757215e0cbe91",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-8-1024.jpg",
+        "sha256": "c323a960e141b443e315656ad77dc589980eb773607e46dd295974cce4b21aa5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-10-1024.jpg",
+        "sha256": "30fdbfe4e68ae21c8a96f6553b6943478f8f9963c8bc6356c7eabab65d222051",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-11-1024.jpg",
+        "sha256": "1344348a9fb9a1116e16e3710513b6addaf81f54b53ff907117ad3b0435ab87d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-13-1024.jpg",
+        "sha256": "b54e68cf521d9692e40e52f310a602d72bdf98320873d18bb9b5c8cd93179bbe",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-15-1024.jpg",
+        "sha256": "b1e8da7344e363cf521891e52a5dee08c341840db9850d776cd95f3e0e090e56",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-17-1024.jpg",
+        "sha256": "29b315f3cd8cfa6d299a1ed57b2262b7635bab719757de9ec6191651f8298daa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-18-1024.jpg",
+        "sha256": "3caab89a0b4f525781c93aa47e9b04f73af4118d645ccb85bfc2b2a764894382",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/seowebinar-5-steps-to-demystifying-seo-120611060225-phpapp02_95/5-steps-to-demystifying-seo-and-inbound-marketing-for-real-estate-agent-reboot-20-1024.jpg",
+        "sha256": "10745644fff125be18518c47ea76de1ffee4a30e521c27b542ba74be7dcbf353",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

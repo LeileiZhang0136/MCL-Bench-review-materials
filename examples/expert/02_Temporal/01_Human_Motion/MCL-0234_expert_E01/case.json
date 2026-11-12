@@ -1,0 +1,48 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "## Role\nYou are a visual reasoning assistant specialized in analyzing hand gesture sequences using a video and a sign language reference image.\n\n---\n\n## Task\nYou are given:\n- a video showing a sequence of hand gestures,\n- a reference image mapping gestures to letters.\n\nYour task is to:\n1. Identify the letters represented by each hand gesture by matching them to the reference image.\n2. Determine whether the word \"HELLO\" can be formed using only the identified letters.\n\n---\n\n## Rules\n\n- All answers MUST be grounded in the video and the reference image.\n- Do NOT rely on prior knowledge or guess the letters.\n- Do NOT introduce letters not supported by the visual input.\n\n---\n\n## Reasoning Requirements\n\n- Match each gesture to a letter using the reference image.\n- Identify the full set of letters shown in the video.\n- Check whether H, E, L, and O are all present.\n\n---\n\n## Output Requirements\n\n- If all required letters are present, output exactly:\nHELLO\n\n- If any letters are missing, output only the missing letters (e.g., E).\n\n- Do NOT include any explanation."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_6febfa76cb82.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "You are given a video showing a sequence of hand gestures and a reference image of the sign language alphabet.\nYour task consists of two steps:\n1. Identify the letters represented by each hand gesture in the video by matching them to the reference image.\n2. Determine whether the word \"HELLO\" can be formed using only the letters identified from the video.\nOutput requirements:\n-Identify the letters shown in the video by matching each hand gesture to the provided sign language reference image.\n- If it is possible to form the word HELLO, output exactly:\nHELLO\n- If it is not possible, output the missing letters (e.g., H, E, L, O)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_1f347751034c.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should correctly identify the letters shown in the video by matching each hand gesture to the provided sign language reference image.",
+      "2.The response should base the identification on visual evidence from the video and the reference image, rather than relying on prior knowledge or guessing.",
+      "3.The response should correctly determine whether all letters required to form “HELLO” (H, E, L, O) are present in the identified set.",
+      "4.The response should correctly recognize that a required letter is missing and explicitly identify the missing letter as E.",
+      "5.The response should not include any letters that are not supported by the visual input, nor omit any required missing letters."
+    ],
+    "metadata": {
+      "task_id": "MCL-0234_T1",
+      "context_id": "MCL-0234",
+      "turn_index": 1
+    }
+  }
+]

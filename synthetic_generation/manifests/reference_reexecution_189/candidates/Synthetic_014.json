@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_014",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/aqueoushumordynamics-140623224217-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/aqueoushumordynamics-140623224217-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-1-1024.jpg",
+        "sha256": "d1be9227fb587401945c21a46c9ad9392c7733cd50e503de77a0d6ce9402f108",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-3-1024.jpg",
+        "sha256": "b805dbdcf00a9b0b1c0c6120307ee0c27795da1daeb49791a1cf89b9bf22ee15",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-4-1024.jpg",
+        "sha256": "13527d4802ffd45a80ed940a0ab4dc9a9d0d52a225eb0d37a7257d6b9abddf60",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-6-1024.jpg",
+        "sha256": "e67ea24b6c394b7bdba13664b39458759453acbbbc9f8bb7eda05674908c3497",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-8-1024.jpg",
+        "sha256": "66d37aa750578e1122994e25f32d16af9cf9aa12b9a693c0cd5df3eeea466b3a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-10-1024.jpg",
+        "sha256": "6c15567c316910fb6d3d0c3f556676716cdbd395f41a7d719403516272280cf8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-11-1024.jpg",
+        "sha256": "2eb86c911c510d70eeacf9189eb30486848b03dcf1417320adf900d3a52018e9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-13-1024.jpg",
+        "sha256": "3e788a783e03c71eab203c18634bf4bfb73fa6b1af0076c75c507fc6d5535403",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-15-1024.jpg",
+        "sha256": "3d32e7d0d73a8ef86feb7101ef21bfe384ba7b4d8628b015079350e86e22370a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-17-1024.jpg",
+        "sha256": "dbc29a865abe01dd15d088fab4edd58e9536c4a16d3a355c34ab9d641eaf4cdc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-18-1024.jpg",
+        "sha256": "bcc2901a80aff9b0de55e2f662a75e4258167d2a78342f8ee5a0b14d46bb3e1c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/aqueoushumordynamics-140623224217-phpapp02_95/aqueous-humor-dynamics-20-1024.jpg",
+        "sha256": "46d9fc62c7d93d517b3151258bf7308b8880023bffb7a237e6f34a4f6376a9bc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

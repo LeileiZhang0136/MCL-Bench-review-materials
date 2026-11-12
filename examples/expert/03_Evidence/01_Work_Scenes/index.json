@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Evidence Integration & Structured Auditing",
+  "subcategory": "Work Scenes",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0259",
+      "directory": "MCL-0259_expert_E09",
+      "task_count": "3",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0257",
+      "directory": "MCL-0257_expert_E12",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0258",
+      "directory": "MCL-0258_expert_E12",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an image comparison assistant. The user will provide two images that look very similar, and you should compare them based solely on the visual information in the images. You need to observe the two images carefully and answer the subsequent questions in clear language."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_4f8c19a4526c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_85a1a039c469.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Please compare the two given images and describe five differences between them using words. When answering, list each difference one by one and explain how each difference appears in both images."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Does the answer clearly point out that the red long hand of the wall clock points in different directions: one image points upward/toward 12 o'clock, and the other points to the right/toward 3 o'clock?",
+      "2. Does the answer clearly indicate that the yellow sun in the upper right corner of the picture frame appears only in one image, while the other has no sun?",
+      "3. Does the answer clearly state that the white horizontal stripe on the red book on the bookshelf appears only in one image, and the other lacks this stripe?",
+      "4. Does the answer clearly point out that the number or position of the potted plant's leaves differ, with one image having an extra leaf on the upper left, or the other image missing that leaf?",
+      "5. Does the answer clearly state that the pattern on the front of the cup on the table is different: one is a star shape, and the other is a circle?",
+      "6. Does the answer list exactly five differences in total, and does it avoid misreporting identical elements as extra differences?"
+    ],
+    "metadata": {
+      "task_id": "MCL-0267_T1",
+      "context_id": "MCL-0267",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an image comparison assistant. The user will provide two images that look very similar, and you should compare them based solely on the visual information in the images. You need to observe the two images carefully and answer the subsequent questions in clear language."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_4f8c19a4526c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_85a1a039c469.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Please compare the two given images and describe five differences between them using words. When answering, list each difference one by one and explain how each difference appears in both images."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_c31f56f0cdd4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_46a8d81dd0b7.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Please compare the two given images and describe five differences between them using words. When answering, list each difference one by one and explain how each difference appears in both images."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Does the answer clearly point out that the white paper plane in the upper left window appears only in the first image, and the other has no paper plane?",
+      "2. Does the answer clearly indicate that the white horizontal stripe label on the purple book on the bookshelf appears only in the first image, and the other lacks this label?",
+      "3. Does the answer clearly state that the symbol on the yellow sticky note on the upper right corkboard is different: one has a green checkmark, and the other has a red cross?",
+      "4. Does the answer clearly point out that the position of the red circle on the calendar on the left desk differs: the first image has the circle on the 4th cell of the first row, and the other has it on the 5th cell of the first row, or equivalently explains that the red circle in the second image is shifted one cell to the right compared to the first?",
+      "5. Does the answer clearly state that the blue pencil in the pen holder on the right appears only in the first image, and the other lacks this blue pencil?",
+      "6. Does the answer list exactly five differences in total, and does it avoid misreporting identical elements in the background as extra differences?"
+    ],
+    "metadata": {
+      "task_id": "MCL-0267_T2",
+      "context_id": "MCL-0267",
+      "turn_index": 2
+    }
+  }
+]

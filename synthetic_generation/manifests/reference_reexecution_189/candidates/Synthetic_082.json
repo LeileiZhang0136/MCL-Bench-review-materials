@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_082",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:Pew-Research-Center_Hispanic-Identity-Report_12.20.2017",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "Pew-Research-Center_Hispanic-Identity-Report_12.20.2017",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page0.jpg",
+        "sha256": "995dd1182bcfb0c77ff59fad2f28fb117d8950aa539caf410c2919394afa9e82",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page3.jpg",
+        "sha256": "996dd3b33498c01b542071be967c878850893b3f321815b83ddb278f4b7304ee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page6.jpg",
+        "sha256": "26d83f7b330856ff6421b97f151ed9f24325f4e3d2f758c5c5232b139407f052",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page8.jpg",
+        "sha256": "477edbf3e988f6a7faefc75f2be59ebb7be328ae26c36fda0a6596608d4bee6f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page11.jpg",
+        "sha256": "6997a0c77785c929a2dc71487adedfdf6d6c991533b005864a5ccbecdb599adc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page14.jpg",
+        "sha256": "fc80fd9eef84c1e8274f4e0e7fa3033474329360494a7892c9cb49dcafef26f5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page17.jpg",
+        "sha256": "c30c9c1f20e2fe85868aade7db012faa55f8d263b1b84881ff38eddb5af80318",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page20.jpg",
+        "sha256": "f79a0f43e7691c4a27e63a977c6f6d5ba6370fddc2e07d6a41a922f523fc0eb6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page23.jpg",
+        "sha256": "7bff0927ddec8df6d7779056a17314759aaf0eaacba231298c10aced77425a20",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page25.jpg",
+        "sha256": "4e463348e97d0717621653bfc4d9e609bf878e72fecb8e99cc0b3f808d5e4a58",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page28.jpg",
+        "sha256": "51ef441d79291eafa9ca12fd6a2858f20fa74c23335b19ea3c81df17b9b76403",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017/Pew-Research-Center_Hispanic-Identity-Report_12.20.2017_page31.jpg",
+        "sha256": "1f5b7008d0785358165e05a63cd3aeb546189e8248da60cf680ea02530bc108f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

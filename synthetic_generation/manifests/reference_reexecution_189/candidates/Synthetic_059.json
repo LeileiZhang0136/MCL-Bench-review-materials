@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_059",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:test/rrresultsq22015enfinal-150806063426-lva1-app6891_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/rrresultsq22015enfinal-150806063426-lva1-app6891_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-1-1024.jpg",
+        "sha256": "8f2dc92487696ed85219f0bf7eea74b3f1e8a17168ca6082525de05f1c9c81ec",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-3-1024.jpg",
+        "sha256": "9a982379be3ad00ba682dba94f43bb4d60da74ef4be1121cd10df6a98dc3533c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-4-1024.jpg",
+        "sha256": "681f65e381c44011d60af27557866f7345d09b1ead92b7294e5dba3f50e442c9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-6-1024.jpg",
+        "sha256": "b64ed14b9d6d7a44d4bb76ef6e2b078749f142ebe696f19253d00267325e2fba",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-8-1024.jpg",
+        "sha256": "2a3fb8d8928321f1be679dc6bbbc926ac4a2c87535a881c1afe79172ba7371f9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-10-1024.jpg",
+        "sha256": "6e969455f03bb94025d3e907879bf5471372fdd5c2fdd3fc7d982b7fb8c32dc1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-11-1024.jpg",
+        "sha256": "6e6ee65d08981b4b3e3d565ec02398283ccb9943ca23a8e089ac165209cfaf29",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-13-1024.jpg",
+        "sha256": "ce75e7ef38a25a4187b2f4b2ede85fe3580210ad93a0d9aac743a83b7ad65790",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-15-1024.jpg",
+        "sha256": "2c03aa6b06326d44557ef715ff9b05ec8fef80bd4d6c04ffb5dbace38600f29d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-17-1024.jpg",
+        "sha256": "0bc28ee11bf8356ee39eecac96212f36eddc7c7f170a2c57a068ca95a2dccb3d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-18-1024.jpg",
+        "sha256": "d1297d4b7dedf866af74851defa1df8f54a205f934777acfc22374868ac5826f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/rrresultsq22015enfinal-150806063426-lva1-app6891_95/rr-results-q22015enfinal-20-1024.jpg",
+        "sha256": "43a6a5508c37d90f2afe6407d6dcd4410576f44bb9fcc2f8a2cb395b53dc9a8b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

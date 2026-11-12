@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Expert Standards & Scenario Decision-Making",
+  "subcategory": "Device Manuals",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0269",
+      "directory": "MCL-0269_expert_E02",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0270",
+      "directory": "MCL-0270_expert_E02",
+      "task_count": "4",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0273",
+      "directory": "MCL-0273_expert_E03",
+      "task_count": "3",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

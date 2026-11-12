@@ -1,0 +1,278 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in washing machines. You excel at understanding the operational logic of washing machines based on provided multimodal data to execute a series of laundry tasks. There is currently a foreign washing machine that needs to be used to wash clothes. This washing machine uses a rotary dial to control the washing modes, with each mode corresponding to a different washing duration. The washing modes on the left side of the dial, from top to bottom, are: mixed wash（混合洗）, cold wash（冷水洗）, new clothes wash（新衣洗）, anti-mite wash（除螨洗）, soak wash（浸泡洗）, spin only（单脱水）, and drum clean（筒自洁）. The washing modes on the right side of the dial, from top to bottom, are: quick wash 15min（快洗15分钟）, quick wash 30min（速洗30分钟）, cotton & linen（棉麻）, wool（羊毛）, down jacket（羽绒服）, dry only（单烘干）, and air wash（空气洗）."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_877b947e4411.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This video demonstrates the operation of the washing machine."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_b02e1e58b25f.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the operating instructions."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_753021ed9515.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This is a real-life photo of the machine's control panel.\nBased on the provided multimodal materials and the dial layout defined in your system, please determine the exact duration of one cycle in the 'anti-mite wash' (除螨洗) mode. In your response, you must explicitly state the exact duration you observed, formatted clearly in minutes and seconds."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly attempt to extract and state the duration of the 'anti-mite wash' mode based on the visual evidence.",
+      "2.The response must meet the accuracy standard by stating a duration of exactly 2 minutes and 44 seconds (or 164 seconds). A margin of error of exactly ±2 seconds is allowed, meaning the explicitly stated time must fall between 2 minutes 42 seconds and 2 minutes 46 seconds to be considered a pass.."
+    ],
+    "metadata": {
+      "task_id": "MCL-0273_T1",
+      "context_id": "MCL-0273",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in washing machines. You excel at understanding the operational logic of washing machines based on provided multimodal data to execute a series of laundry tasks. There is currently a foreign washing machine that needs to be used to wash clothes. This washing machine uses a rotary dial to control the washing modes, with each mode corresponding to a different washing duration. The washing modes on the left side of the dial, from top to bottom, are: mixed wash（混合洗）, cold wash（冷水洗）, new clothes wash（新衣洗）, anti-mite wash（除螨洗）, soak wash（浸泡洗）, spin only（单脱水）, and drum clean（筒自洁）. The washing modes on the right side of the dial, from top to bottom, are: quick wash 15min（快洗15分钟）, quick wash 30min（速洗30分钟）, cotton & linen（棉麻）, wool（羊毛）, down jacket（羽绒服）, dry only（单烘干）, and air wash（空气洗）."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_877b947e4411.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This video demonstrates the operation of the washing machine."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_b02e1e58b25f.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the operating instructions."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_753021ed9515.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This is a real-life photo of the machine's control panel.\nBased on the provided multimodal materials and the dial layout defined in your system, please determine the exact duration of one cycle in the 'anti-mite wash' (除螨洗) mode. In your response, you must explicitly state the exact duration you observed, formatted clearly in minutes and seconds."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_8183905c6e6f.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This is the item of clothing that needs to be washed. Based on the provided multimodal materials, please determine how long it will take to wash this specific item of clothing. In your response, you must first explicitly identify the type of garment shown in"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_8183905c6e6f.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ", map it to the most appropriate washing mode on the machine's dial, and then state the exact washing duration you observed for that specific mode (formatted in hours and minutes)."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly identify the clothing item in\nas a down jacket (羽绒服) and correctly map it to the corresponding \"down jacket\" washing mode.",
+      "2.The response must state that the duration for this mode is 1 hour and 27 minutes (or explicitly output the format as",
+      "01:27). A margin of error of exactly ±2 minutes is allowed, meaning any duration explicitly stated between 1 hour 25 minutes (01:25) and 1 hour 29 minutes (01:29) is considered a pass."
+    ],
+    "metadata": {
+      "task_id": "MCL-0273_T2",
+      "context_id": "MCL-0273",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in washing machines. You excel at understanding the operational logic of washing machines based on provided multimodal data to execute a series of laundry tasks. There is currently a foreign washing machine that needs to be used to wash clothes. This washing machine uses a rotary dial to control the washing modes, with each mode corresponding to a different washing duration. The washing modes on the left side of the dial, from top to bottom, are: mixed wash（混合洗）, cold wash（冷水洗）, new clothes wash（新衣洗）, anti-mite wash（除螨洗）, soak wash（浸泡洗）, spin only（单脱水）, and drum clean（筒自洁）. The washing modes on the right side of the dial, from top to bottom, are: quick wash 15min（快洗15分钟）, quick wash 30min（速洗30分钟）, cotton & linen（棉麻）, wool（羊毛）, down jacket（羽绒服）, dry only（单烘干）, and air wash（空气洗）."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_877b947e4411.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This video demonstrates the operation of the washing machine."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_b02e1e58b25f.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the operating instructions."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_753021ed9515.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This is a real-life photo of the machine's control panel.\nBased on the provided multimodal materials and the dial layout defined in your system, please determine the exact duration of one cycle in the 'anti-mite wash' (除螨洗) mode. In your response, you must explicitly state the exact duration you observed, formatted clearly in minutes and seconds."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_8183905c6e6f.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This is the item of clothing that needs to be washed. Based on the provided multimodal materials, please determine how long it will take to wash this specific item of clothing. In your response, you must first explicitly identify the type of garment shown in"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_8183905c6e6f.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ", map it to the most appropriate washing mode on the machine's dial, and then state the exact washing duration you observed for that specific mode (formatted in hours and minutes)."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_b6cb0c212873.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This image shows the clothes that need washing. You need to understand the washing machine's operating system based on the provided materials. Follow these laundry rules strictly: use the 'Mixed Wash' (混合洗) mode for pants and the 'Cold Wash' (冷水洗) mode for tops. Black items must be washed separately, while other items using the same mode can be washed together in a single load.\nBased on the visual materials and these rules, please calculate the total minimum washing time required to wash all the clothes. In your response, you must explicitly provide a step-by-step breakdown: 1) identify the specific types and colors of the clothes shown in"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_b6cb0c212873.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ", 2) state the exact duration for the 'Mixed Wash' and 'Cold Wash' modes observed from the materials, 3) determine the number of separate washing loads needed, and 4) calculate the final total time (in minutes)."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explicitly identify the clothes in\nas two pairs of pants (one black, one white) and two tops (one yellow, one green).",
+      "2.The response should explicitly state that the 'Mixed Wash' mode takes 50 minutes (a margin of ±2 minutes is acceptable) and the 'Cold Wash' mode takes 58 minutes (a margin of ±2 minutes is acceptable).",
+      "3.The response must explain the correct load logic adhering strictly to the rules: the black and white pants must be washed in two separate 'Mixed Wash' loads (requiring 100 minutes total, a margin of ±4 minutes is acceptable). The yellow and green tops can be washed together in one 'Cold Wash' load (requiring 58 minutes, a margin of ±2 minutes is acceptable).",
+      "4.The response must conclude that the final total washing time is 158 minutes (a margin of ±6 minutes is acceptable, meaning any explicitly stated total between 152 and 164 minutes is considered a pass)."
+    ],
+    "metadata": {
+      "task_id": "MCL-0273_T3",
+      "context_id": "MCL-0273",
+      "turn_index": 3
+    }
+  }
+]

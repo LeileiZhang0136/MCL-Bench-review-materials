@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_040",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-1-1024.jpg",
+        "sha256": "255467780c27b4ccb32d388d0a53e9833fa70eea2fe45892d1af307535162d5f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-3-1024.jpg",
+        "sha256": "3e526572de3b757fbd7df6419c36ee59b5ddc1c9db57bc09f1368f280ee916a0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-4-1024.jpg",
+        "sha256": "e50da995ebe8a7ca9fbb342982727fbf9b85ed3132e000d84033491857ee968f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-6-1024.jpg",
+        "sha256": "5bd971039d75080685c677f1008fe6df70150c58541bb2d6afa27aac26246ce3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-8-1024.jpg",
+        "sha256": "e707d361198876553adefc4ee51d432d45599ab20d494f261d2b5f2aafcb8f21",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-10-1024.jpg",
+        "sha256": "d71b97de2d9131948e7bb4f31e197dcac05db27205ba34cfbba0a371c23b0f4a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-11-1024.jpg",
+        "sha256": "52749e4af9e89946203c1b0ecf1c7c4654bd4a2bec635e4a2f5dcc43667ea7cd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-13-1024.jpg",
+        "sha256": "b5cdab43d0b840727557712b42b16c62cab9f40a217127ddc2a649719e4707b2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-15-1024.jpg",
+        "sha256": "4df236cd63649f129f21c0edcfc09479e13eeabeb994e410864789a166679515",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-17-1024.jpg",
+        "sha256": "99dd1bac37bd087dab238899cccb72c31aa0b8ef31502d6f6c179716f231a2e3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-18-1024.jpg",
+        "sha256": "6f050ee20fcbb79a350ef4100546b3c933830028e6ee8518164854938c678f1e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/managingsalesproductivity-mikekunkle-slideshare-141023211810-conversion-gate01_95/managing-sales-productivity-20-1024.jpg",
+        "sha256": "e719cd2c136329cec56bab9bf8170bcc860bf7e70280c2b495894b27d3b546f7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

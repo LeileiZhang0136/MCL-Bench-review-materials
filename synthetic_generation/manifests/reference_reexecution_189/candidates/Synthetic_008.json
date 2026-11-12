@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_008",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:july16webinarv4-090717092455-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "july16webinarv4-090717092455-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-1-1024.jpg",
+        "sha256": "955fe36c76d0f97616e4b937afc068e2c9acf721c2735fe53ba33ef7637c3899",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-3-1024.jpg",
+        "sha256": "277f63fe1ef948a585328877b25dbd286e61469332a7f4846449571704d4f651",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-4-1024.jpg",
+        "sha256": "6594847c04215ecac1be554e1df8fa653b0bf06c520f6a7e00bf7df756b82dfa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-6-1024.jpg",
+        "sha256": "514db0682dd756c0aaca9bb87bb8873df7d1aecbdf6c53fbba6f0c72e02f5ed5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-8-1024.jpg",
+        "sha256": "4b85b0d25d860e240f5000f2c9aca9c8a6888185a67fb284b9c9e175d5f0f06a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-10-1024.jpg",
+        "sha256": "541c0c2994d01ff89b5a2c63202554ec0bdbdae6b92473593057295c4db03442",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-11-1024.jpg",
+        "sha256": "9ef256dd1898c9f96123f93e5830e0476d5065dc4a576b36f499e293ba919478",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-13-1024.jpg",
+        "sha256": "237f8e9c27eabf8243a5a4455a1a549ca810198951c22aa69a92ff2651b59bf1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-15-1024.jpg",
+        "sha256": "36a5d4b53daee4e2fe4106943150c22f1b58e82118e30d5534a6456c1cc103ec",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-17-1024.jpg",
+        "sha256": "3fb66fd660100921013e955970482568fb27496740bbe9a10f040d0ed16582cf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-18-1024.jpg",
+        "sha256": "6557354adb045995d6ebc0118aa95c7281cb7bd1b295724d10825deb521a9493",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/july16webinarv4-090717092455-phpapp02_95/social-media-investor-relations-trends-best-practices-recommendations-july-16-2009-20-1024.jpg",
+        "sha256": "f309c128a2b2983c1907eb0c308d68956f8493f81924bb7f243b7321b5670b1a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

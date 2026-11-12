@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_060",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-1-1024.jpg",
+        "sha256": "bced56040cdadcada7debb45bcbd1549d72c61505ba28e7d2eb6f0982a9bced8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-3-1024.jpg",
+        "sha256": "74a3c63dcb9351228bb1efa83f908b5f81caef7096c358d27e130031642116e6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-4-1024.jpg",
+        "sha256": "31d14fdda732790d184e03a5cedeab8d6c41a5e6f0410d195ba2f40a0b83b927",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-6-1024.jpg",
+        "sha256": "badfd8f14e5d327ee2b9c8f5d5f3d6521a1d879b2b36b553ec8298badda82083",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-8-1024.jpg",
+        "sha256": "ca6794222339efb85b3d237ad8aeb69024ee55cfbf3b51d61b80261a9dd34b6a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-10-1024.jpg",
+        "sha256": "568a97024888184ce32ebb4bdc37db3bf73e6681acfa46e53a9452b66e1cb543",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-11-1024.jpg",
+        "sha256": "5a252f1d69438df4294b3aedea9f6f31b50037b96816aa835c5ab54da4468e5b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-13-1024.jpg",
+        "sha256": "a8a12c98a721173bdf208e66b35f9bd8d12c5ca91b34e862d29b7eec3681292c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-15-1024.jpg",
+        "sha256": "e50f7271562a2825dc658cff6a727b81cc60074f5e5ec99ab5e15602d5afb419",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-17-1024.jpg",
+        "sha256": "1c6d4ff0ff834547b92c239ec505e3eef75f395f98ecf7f6b92ac517670512c8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-18-1024.jpg",
+        "sha256": "30906d0569d1f84526212fc048ab1557f79f5b26c0f35b37ac7f4623b2cd95af",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/asdaaburson-marstellerarabyouthsurvey2014-140407100615-phpapp01_95/asdaa-bursonmarsteller-arab-youth-survey-2014-20-1024.jpg",
+        "sha256": "8c03dbb27d770e8402f4db1251e7f02e04eea046862b0c18cc79e775a77b0b5f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

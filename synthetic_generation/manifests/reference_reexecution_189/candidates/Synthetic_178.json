@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_178",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:NUS-FASS-Graduate-Guidebook-2021-small",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "NUS-FASS-Graduate-Guidebook-2021-small",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page0.jpg",
+        "sha256": "c19b923cd04fd3e2db203dbdad12355ea4aac62073083fbcccac20ff1b9c61da",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page3.jpg",
+        "sha256": "a6e552f88188416e68383a4dd75b86af4f2384a5663649010df86b07b5bcc587",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page5.jpg",
+        "sha256": "775a33a97d9234e8435986e91f9231474254ff181bccd002ea93d22eb09a259b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page8.jpg",
+        "sha256": "717f0f03b4806d77af8418809701a36d06cebda802cec294c09a3036c1d0a53c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page11.jpg",
+        "sha256": "c217fa3b030aff98e0c9942466d5948f504898fd5e3ee9f938dc39b3d9b2f7e2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page14.jpg",
+        "sha256": "97c20d19f579b57dfcb28143f802c7784a37a708c5f666abf8eef55ea56d8d50",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page16.jpg",
+        "sha256": "cfe8fb62e3c55abf1c8238f4d29a9e35f363d7915c3b03e5224b30ef43bf6301",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page19.jpg",
+        "sha256": "21f12b9588c4b850aa443fc6b4611baf11bc6528d99e7de385872066c70a06fe",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page22.jpg",
+        "sha256": "266dc0dbb3dc5d8d7cdc09cd1f7953f133cbdaea89e11633860a5749204bf55d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page25.jpg",
+        "sha256": "a165b9ddf50cc99a1085abd6c4b70eb117ac7395716a330c9d9b372427e64bc5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page27.jpg",
+        "sha256": "a77683a53355d71beef1024888bdcd37ecdc35c4b1d36e787c6f6da9b0fe1de8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/NUS-FASS-Graduate-Guidebook-2021-small/NUS-FASS-Graduate-Guidebook-2021-small_page30.jpg",
+        "sha256": "becdb3f313648706e1e37e0898fde25e4ae79cb1ab4eee1760dd91d291825069",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,204 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a professional game-mechanics analysis expert with long-term research on the rule systems, control patterns, action sequences, and hidden strategies of various new games. You are especially skilled at rapidly learning the core gameplay, movement rules, turning logic, skill trigger conditions, and hidden rules of a completely unfamiliar game by watching video.\nNow you will watch a video context showing actual gameplay footage of a brand-new game. You must completely forget all pretraining knowledge and rely only on the game-rule text I provide next and the actual behavior shown in the video for learning and reasoning. Do not try to identify the specific game title, character model, or familiar elements in the video. You only need to focus on extracting the action sequence, timing, path, and result in the video, and make judgments strictly according to the rules I provide.\nAfter the video ends, please accurately analyze and answer the relevant questions according to the rule system I provide. All of your reasoning and conclusions must come from the combination of the rule text + the video behavior, and you must not introduce any external game common sense."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the video first. I will ask you questions later."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_8933b2752d29.mp4"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "In the first flashlight level, what do you think the rule of this level is?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The answer must identify that the core mechanic of the level is based on a “freeze-under-observation” rule, similar to a stop-and-go constraint.",
+      "2.The answer must explicitly state that enemies cannot move when illuminated by the flashlight.",
+      "3.The answer must correctly describe that enemies are only able to move when they are not being exposed to light.",
+      "4.The answer must infer that the flashlight acts as a control mechanism that directly affects enemy behavior.",
+      "5.The answer must base its reasoning on observed video behavior rather than referencing external game knowledge or naming known games.",
+      "6.The final interpretation of the rule must be coherent, consistent, and aligned with the interaction between light and enemy movement shown in the video."
+    ],
+    "metadata": {
+      "task_id": "MCL-0240_T1",
+      "context_id": "MCL-0240",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a professional game-mechanics analysis expert with long-term research on the rule systems, control patterns, action sequences, and hidden strategies of various new games. You are especially skilled at rapidly learning the core gameplay, movement rules, turning logic, skill trigger conditions, and hidden rules of a completely unfamiliar game by watching video.\nNow you will watch a video context showing actual gameplay footage of a brand-new game. You must completely forget all pretraining knowledge and rely only on the game-rule text I provide next and the actual behavior shown in the video for learning and reasoning. Do not try to identify the specific game title, character model, or familiar elements in the video. You only need to focus on extracting the action sequence, timing, path, and result in the video, and make judgments strictly according to the rules I provide.\nAfter the video ends, please accurately analyze and answer the relevant questions according to the rule system I provide. All of your reasoning and conclusions must come from the combination of the rule text + the video behavior, and you must not introduce any external game common sense."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the video first. I will ask you questions later."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_8933b2752d29.mp4"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "In the first flashlight level, what do you think the rule of this level is?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "If I want to hold the flashlight and rotate 360 degrees, is that possible? If your answer is yes, please state the interval in the video, from which second to which second, where this action occurs. If this action occurs multiple times, please answer with all intervals, using seconds as the unit; for example, 1 minute 12 seconds is 72 seconds. If it is not possible, simply say no."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The answer must explicitly determine that a full 360-degree rotation with the flashlight is possible.",
+      "2.The answer must correctly identify the time intervals as 44–50 seconds and 58–66 seconds.",
+      "3.The answer must not include any incorrect or unrelated time intervals outside the valid ranges.",
+      "4.The answer must justify the intervals based on observable motion in the video, demonstrating clear temporal grounding.",
+      "5.The answer must ignore misleading context and must not hallucinate unsupported actions or time segments."
+    ],
+    "metadata": {
+      "task_id": "MCL-0240_T2",
+      "context_id": "MCL-0240",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a professional game-mechanics analysis expert with long-term research on the rule systems, control patterns, action sequences, and hidden strategies of various new games. You are especially skilled at rapidly learning the core gameplay, movement rules, turning logic, skill trigger conditions, and hidden rules of a completely unfamiliar game by watching video.\nNow you will watch a video context showing actual gameplay footage of a brand-new game. You must completely forget all pretraining knowledge and rely only on the game-rule text I provide next and the actual behavior shown in the video for learning and reasoning. Do not try to identify the specific game title, character model, or familiar elements in the video. You only need to focus on extracting the action sequence, timing, path, and result in the video, and make judgments strictly according to the rules I provide.\nAfter the video ends, please accurately analyze and answer the relevant questions according to the rule system I provide. All of your reasoning and conclusions must come from the combination of the rule text + the video behavior, and you must not introduce any external game common sense."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the video first. I will ask you questions later."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_8933b2752d29.mp4"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "In the first flashlight level, what do you think the rule of this level is?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "If I want to hold the flashlight and rotate 360 degrees, is that possible? If your answer is yes, please state the interval in the video, from which second to which second, where this action occurs. If this action occurs multiple times, please answer with all intervals, using seconds as the unit; for example, 1 minute 12 seconds is 72 seconds. If it is not possible, simply say no."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "How was the second level cleared? What actions did I perform in this process? Please answer with the main actions."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The answer must correctly identify the key actions involved in completing the level, including interacting with the power switch and using a vase as part of the solution.",
+      "2.A fully correct answer must include all three core actions: pulling the lever, picking up the vase, and throwing the vase.",
+      "3.A partially correct answer may omit one minor action but must still include the critical actions of pulling the lever and throwing the vase.",
+      "4.The answer may include additional valid actions such as jumping or interacting with environmental objects, as long as the core actions are present.",
+      "5.The answer must not include incorrect or unrelated actions (e.g., “shooting a basketball” or any unrelated object interaction)."
+    ],
+    "metadata": {
+      "task_id": "MCL-0240_T3",
+      "context_id": "MCL-0240",
+      "turn_index": 3
+    }
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_034",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/colors-141027065047-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/colors-141027065047-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-1-1024.jpg",
+        "sha256": "999b7a1f870100acf07c063458b6870d9d9d995e2d82f86fe3acdc220ad3637a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-3-1024.jpg",
+        "sha256": "5e698a2488136e1a1ab1847eddf02ad75752c05a2ea5376237bfcde8dbe75b34",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-4-1024.jpg",
+        "sha256": "9392fe89418b17f6a7234f9eceb979ee489d8ef72c73ccc0db58e5688519dc8f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-6-1024.jpg",
+        "sha256": "70af494befa1e63f4ee1611e4ec8e71b4923a8baf1951df775c9582a9161090f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-8-1024.jpg",
+        "sha256": "93a1da46133290af02082deccf8e0d65f9e248e77824edf1473ec7369ecb4f29",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-10-1024.jpg",
+        "sha256": "f1894fecd205b030536041149ec869ff21465ee3098271a1180f2ea59e95bcc4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-11-1024.jpg",
+        "sha256": "ebaf4dbc884907b4fb21f558749b37d70b6fdff716b1af09e6c8ff2787f40646",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-13-1024.jpg",
+        "sha256": "b7a6695c42faac019c9b9afdd5bc9bb3f9684ef99f3476e43c57d2c9de9f6206",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-15-1024.jpg",
+        "sha256": "566ce5460064816633dd7e2981c7931c218f816ac42329e3ed3cce956a7cd94e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-17-1024.jpg",
+        "sha256": "ba177b2f3dcc57660d45ad82cc656680a934d5751eac80ff79a45d06a8279e45",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-18-1024.jpg",
+        "sha256": "799e4a9d4606e2c4b8654314d818a8e6634d37aaaeaf6c7a4a81835ecf8e8b7b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/colors-141027065047-conversion-gate01_95/the-big-bang-theory-of-colors-20-1024.jpg",
+        "sha256": "c253afc92aa13ca1ed09de30ace5b5cc8aa23161bb042325016e9fbacd696f42",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

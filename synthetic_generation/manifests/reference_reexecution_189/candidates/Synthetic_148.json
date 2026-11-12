@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_148",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:presentation-development-skills-100307-slideshare1740_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "presentation-development-skills-100307-slideshare1740_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-1-1024.jpg",
+        "sha256": "6d303734a53cd0349d76bea87f3f12aedc29f8c892d271d5399fd4876aa126ac",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-3-1024.jpg",
+        "sha256": "4195b117cc79b2de97f46681e9f41737e2dfb8e4489380de5efb5963f536282a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-4-1024.jpg",
+        "sha256": "e2a37b91c70b97b15ba4ab585146fffd0e604a0c9b0b53f2a1f979c467addc5e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-6-1024.jpg",
+        "sha256": "857ff7ff12c124a82d5c28b33f467b247e6c3af93f337f785592b190c6bd074b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-8-1024.jpg",
+        "sha256": "1e8a97a1f72d26803ee786f54b56370142fa09dc2d30d756b9b8feb8c00d40ee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-10-1024.jpg",
+        "sha256": "3c35621cd7016b674d35b41c7a6ae628720d8f9fc428e381f6552a71b8343ece",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-11-1024.jpg",
+        "sha256": "07db0fdeb88021554e3c0e4196ac666ad720d7af4112814cd4d04662178828e4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-13-1024.jpg",
+        "sha256": "8e469e0b4806791777a178dc0b3135cb674fe0c614c80390539fded4a02111e9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-15-1024.jpg",
+        "sha256": "787eb23c8d28fb985f59cb6ff5ccb15b7e735686f4326c19cb36bc93a849850a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-17-1024.jpg",
+        "sha256": "1773df43b0311019d7fa4f563e5026f0529c8a47d42bd6fb38e8b0c8f74988b8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-18-1024.jpg",
+        "sha256": "38ddb62adfe33f2f3a9c69c3a98a7b3258c09517068acf0a5f31ec04bc231b7c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/presentation-development-skills-100307-slideshare1740_95/powerpoint-presentation-development-20-1024.jpg",
+        "sha256": "b686aa6c586ad24a658e904ccb45040efb36cbf6114f58a7a762a9996de903db",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

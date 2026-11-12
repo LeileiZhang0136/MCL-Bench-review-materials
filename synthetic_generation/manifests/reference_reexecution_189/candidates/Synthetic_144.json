@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_144",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:smm-2015-presentation-final-160212121837_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "smm-2015-presentation-final-160212121837_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-1-1024.jpg",
+        "sha256": "052e9357fec25254f2012b928c415bf3d889278c8eec7af485d01e0c88c14848",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-3-1024.jpg",
+        "sha256": "6a7437da15ed94cfb2701265fd05d46c76edf72b471e23f530e394255b1f7046",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-4-1024.jpg",
+        "sha256": "61d17c495c0fb55cc9a5ce2c3105b4ea86776623af54c3fb2708619dfc6ae091",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-6-1024.jpg",
+        "sha256": "79e9ab5702667c6d8f0ee1304b573b40fc5528f00e28f44782fb4a1fefe33c27",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-8-1024.jpg",
+        "sha256": "bbcf9881a840c0f609e8c3f69edaf8c699e6cf566c34b1eb1bc3d283227c4173",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-10-1024.jpg",
+        "sha256": "e8f3cc147d2246d2637785d07e3fa1daa3ac6ce51a5963a629396c4e70e36fc1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-11-1024.jpg",
+        "sha256": "63ad5ce096ee2d284a0c0207ae40d28914b17b2d636613020d9b3f655faa80a9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-13-1024.jpg",
+        "sha256": "824c10ff0191f1a3dc9cf84c71c77f86c2404698991df08951794122b4e28fa1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-15-1024.jpg",
+        "sha256": "38d9d790de807a8f56ce855b1c937b27c8c366353b019a17fb8373169bb93105",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-17-1024.jpg",
+        "sha256": "1724e721f142da325041e5ce8a14b0d9a2845fdb4642961e7ed658ac05efbb64",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-18-1024.jpg",
+        "sha256": "939b7f4514b13601dceae11211d67c60e8b4dd6ca1930a53182aa34847a953ef",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/smm-2015-presentation-final-160212121837_95/social-media-monitoring-tools-and-services-report-2015-presentation-20-1024.jpg",
+        "sha256": "8ef865dc7ce70960ca7ddf022d7e34f82a603689c9265f5501d09e5b98e3f7d8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

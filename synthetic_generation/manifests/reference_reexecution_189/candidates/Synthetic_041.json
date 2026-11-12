@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_041",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:parisisbackindextf-141208141707-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "parisisbackindextf-141208141707-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-1-1024.jpg",
+        "sha256": "57828489f65ffe8d5e3ebf017ef0074f941d35842b1cb96e1bf838fb0134e047",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-3-1024.jpg",
+        "sha256": "6e74cf7cba1675120f74a4bef0a766e394cfd55a6f22b75d92119fd5a85b9ae3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-4-1024.jpg",
+        "sha256": "f812036bef5181c28f874e377e129877b99b44db0672cfda2ead58c08b198944",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-6-1024.jpg",
+        "sha256": "b884db6dc8d1ec04e4d993e8e36ba2ac7f10fefc6d10b6c68cf5d75ce0fbd612",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-8-1024.jpg",
+        "sha256": "39b8be704672f53625b8dedc7709a242ee27f563fe8d4f413b20140eaa19423f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-10-1024.jpg",
+        "sha256": "c4d16ea254e4f3bb4e288b0460794ac3ae1d5ce591dffa34e3b7fe05193be240",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-11-1024.jpg",
+        "sha256": "c4abaf11ea2ef6a650dd71fdecf76deef9fc4e0cdadbf7672de846cc41a1e28f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-13-1024.jpg",
+        "sha256": "32969a5b4c1820e02232c7078747060374b4b36dd0804f6beb845f20025b5b16",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-15-1024.jpg",
+        "sha256": "5dadca660b763e119970ca7443e698ac1aa974c97fd51e8bb576bd66ae6da3f5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-17-1024.jpg",
+        "sha256": "94e16300607d50fdb8804fef985cdee280cb9f6b49ec652f42ab281119e21dea",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-18-1024.jpg",
+        "sha256": "433604900b9b9d774f4dde6a0d1c92ccdfc53692808382c9780511de95eeeb4b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/parisisbackindextf-141208141707-conversion-gate01_95/parisisback-the-paris-tech-guide-20-1024.jpg",
+        "sha256": "9a7fc6b7150abe859d820892e37aafbf6ba4f8775056ccd1e60fbc96ad2b7faf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

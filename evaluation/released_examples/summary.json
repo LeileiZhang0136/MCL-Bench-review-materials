@@ -1,0 +1,85 @@
+{
+  "scope": {
+    "case_count": 60,
+    "task_count": 174,
+    "model_count": 8,
+    "prediction_count": 1392,
+    "judgment_count": 1392,
+    "judge_model": "GPT-5.2",
+    "full_344_case_leaderboard_reproduced": false
+  },
+  "score_rule": "A task receives one only when every logical rubric decision is yes; inference or judge API errors are counted as end-to-end task failures.",
+  "rubric_serialization_note": "The released case JSON contains 1,163 serialized rubric entries. Some multiline logical rubrics occupy more than one serialized entry; requirement_status follows the logical rubric units used by the judge.",
+  "record_status_counts": {
+    "corrected": 2,
+    "inference_error": 5,
+    "judge_error": 14,
+    "ok": 1371
+  },
+  "models": [
+    {
+      "model": "Claude-Opus-4.6 Thinking",
+      "cases": 60,
+      "tasks": 174,
+      "successes": 37,
+      "failures": 137,
+      "success_rate_percent": 21.264367816091955
+    },
+    {
+      "model": "Claude-Opus-4.6",
+      "cases": 60,
+      "tasks": 174,
+      "successes": 33,
+      "failures": 141,
+      "success_rate_percent": 18.96551724137931
+    },
+    {
+      "model": "Claude-Sonnet-4.6 Thinking",
+      "cases": 60,
+      "tasks": 174,
+      "successes": 34,
+      "failures": 140,
+      "success_rate_percent": 19.54022988505747
+    },
+    {
+      "model": "Claude-Sonnet-4.6",
+      "cases": 60,
+      "tasks": 174,
+      "successes": 36,
+      "failures": 138,
+      "success_rate_percent": 20.689655172413794
+    },
+    {
+      "model": "Gemini-3.1-Pro-Preview (High)",
+      "cases": 60,
+      "tasks": 174,
+      "successes": 32,
+      "failures": 142,
+      "success_rate_percent": 18.39080459770115
+    },
+    {
+      "model": "GPT-5.2",
+      "cases": 60,
+      "tasks": 174,
+      "successes": 28,
+      "failures": 146,
+      "success_rate_percent": 16.091954022988507
+    },
+    {
+      "model": "Doubao-Seed-2.0-pro",
+      "cases": 60,
+      "tasks": 174,
+      "successes": 25,
+      "failures": 149,
+      "success_rate_percent": 14.367816091954023
+    },
+    {
+      "model": "Gemini-2.5-pro",
+      "cases": 60,
+      "tasks": 174,
+      "successes": 22,
+      "failures": 152,
+      "success_rate_percent": 12.64367816091954
+    }
+  ]
+}

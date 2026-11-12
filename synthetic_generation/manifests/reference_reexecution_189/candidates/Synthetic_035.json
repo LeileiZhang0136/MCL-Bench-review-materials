@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_035",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-1-1024.jpg",
+        "sha256": "a11b7327f17ecde0f720dbd4007b46dc55877d6841b56982ad78ddd3fa8a4d3c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-3-1024.jpg",
+        "sha256": "7f1f0c53d9641ee50341cacc35f9d54ac2ab3593b41e21e0333d0f4a6096fa36",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-4-1024.jpg",
+        "sha256": "7843e1553eff3e144a05d8039dbd3885c34d03a3228fd45009261d5edc90b4e0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-6-1024.jpg",
+        "sha256": "e0dc32c962b6ee589a45e621ce9b67d99eb719a90b703efbd3a1fc2b7b37652d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-8-1024.jpg",
+        "sha256": "d26eb7d873d54794edcdf1947f8efead852e9bd3504d7f9d77f1044bd7f59e72",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-10-1024.jpg",
+        "sha256": "ce2ce5120fe86b6bc02bd99b62ea61af4fe6f00d2a674c4dbaff44b80adb9e5e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-11-1024.jpg",
+        "sha256": "8d8549b66f950e3da6dd66c3c1d18e9cfee400268fabef34ca0069f9722bc230",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-13-1024.jpg",
+        "sha256": "e550636b63349248e975c8691369333a6a80c752fea19fdb2b4efdaa4b4269c8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-15-1024.jpg",
+        "sha256": "b3ac722e8435b825ff4a78d27965e77302c5dc23d8a5f7b4dc241bda0b6a0947",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-17-1024.jpg",
+        "sha256": "9db9806e5a9b5bd4697fad0bd11062a7f3ee22b669e39a2cfb16ad4b95f089d8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-18-1024.jpg",
+        "sha256": "6517699a6892f986d6f8e2ae99d8722f22edf078e775edeabbaab69bc39abfc7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/ardentcapitalandthailandinvestments2014-01-15v3-140120212530-phpapp02_95/investment-perspectives-in-thailand-by-dr-adrian-vanzyl-ardent-capital-20-1024.jpg",
+        "sha256": "7ea05fcc2fa018ad596cc28f6760f22eb23097fb5135507eb3f05c93cc7d497a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

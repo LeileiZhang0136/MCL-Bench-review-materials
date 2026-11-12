@@ -1,0 +1,9 @@
+model,count_aligned_tasks,excluded_tasks,satisfied_entries,eligible_entries,satisfaction_percent,failed_tasks_with_one_unsatisfied_entry
+Claude-Opus-4.6 Thinking,855,225,3611,5487,65.8100965919446,206
+Claude-Opus-4.6,865,215,3219,5547,58.03136830719308,151
+Claude-Sonnet-4.6 Thinking,867,213,3646,5553,65.6582027732757,214
+Claude-Sonnet-4.6,865,215,3347,5533,60.49159587926984,164
+Gemini-3.1-Pro-Preview (High),869,211,2973,5578,53.29867335962711,93
+GPT-5.2,869,211,3346,5572,60.050251256281406,158
+Doubao-Seed-2.0-pro,869,211,2812,5559,50.58463752473467,99
+Gemini-2.5-pro,867,213,2841,5542,51.26308191988452,99

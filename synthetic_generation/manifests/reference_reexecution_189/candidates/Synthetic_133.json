@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_133",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:san-francisco-11-contents",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "san-francisco-11-contents",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page0.jpg",
+        "sha256": "e8807834553dedd1b3c7a4d6af8858bcbe8b8aef3a09252022ad4f027a583310",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page4.jpg",
+        "sha256": "f1102899ea555353bff6285a11f9c4b78b099a7ec6fa2e540bdd3bd334d0fbd8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page7.jpg",
+        "sha256": "2ef2559a5f32e4700b2d30b7d7d572df2ad7d0da4e506e3bf85d4f2881c1ea3a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page11.jpg",
+        "sha256": "f4f40873b6dc77154713071b21be19b8ec2e68388710c0296cb9aba61e5eb5eb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page14.jpg",
+        "sha256": "fac314d22089fd615f7dc5ba943d4b691e10fde6c7897445a362216d7543ff24",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page18.jpg",
+        "sha256": "8b6ecb1eb84fde989b5c04fdc2fdc4d4fdeaad7e433b931a4837d640ae0d5f62",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page21.jpg",
+        "sha256": "1aba7506ea26a8ad5ab20fa2369e83c4042d8b6d2c551a97f3af52ecac2542f8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page25.jpg",
+        "sha256": "44f3457146345b1f0ad3115a6cc0d8f33f3aaac16cffea9046b0909b72bc3af6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page28.jpg",
+        "sha256": "88d06d9589bb96c12263b9cf6295ab9d6b6163444dbd84d534cafaa01455e605",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page32.jpg",
+        "sha256": "0fb5f7c8bba116ec2827a6aae4117550a74a57500c834c1c67ccb6d859c67e68",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page35.jpg",
+        "sha256": "16c81439018745eb71c3f70ba3223c136da0f5b5439521eec1d44848a02a02d5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/san-francisco-11-contents/san-francisco-11-contents_page39.jpg",
+        "sha256": "830b8f3f57379459da9490c45b31994866de57f1827e5f312911dd6235edbb68",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

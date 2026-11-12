@@ -1,0 +1,12 @@
+{
+  "case_id": "Synthetic_001",
+  "adjudicator_id": "anonymized-adjudicator",
+  "reviewed_reviewer_ids": [
+    "anonymized-reviewer-1",
+    "anonymized-reviewer-2"
+  ],
+  "resolved_items": [],
+  "decision": "pass",
+  "notes": ""
+}
+

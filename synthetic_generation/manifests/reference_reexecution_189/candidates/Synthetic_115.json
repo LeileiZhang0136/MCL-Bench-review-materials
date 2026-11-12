@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_115",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:PS_2018.01.09_STEM_FINAL",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "PS_2018.01.09_STEM_FINAL",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page0.jpg",
+        "sha256": "4c2b26147de1da3ec4fae400146361425cd3ad39cbfa4e32d8e9d11aca002cbc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page9.jpg",
+        "sha256": "f2206aab3e0ddf69dc899c583d6b1667793b873dcf8638473cb69769a40b5d5c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page19.jpg",
+        "sha256": "9483e1be1677d85aed360abfcdf03f59e3887f3fb24492aeaaa092c5cb4a6640",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page28.jpg",
+        "sha256": "9c36d89d6fcd63749c9029e2ce3f45f071c07409ef64ed2ef92bd6ec42ab6f5b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page38.jpg",
+        "sha256": "e3076f20f44868dda9235a1c58196c2e64f5291240e5deba5e7dd7e4db4d4592",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page47.jpg",
+        "sha256": "345c94d3533c120d4d56d7dd134826b7a29bbd7fcf8b8d1e6a7d2b88f7e24e8d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page57.jpg",
+        "sha256": "961de08546718e98539dcbf0ab5f27f847ec9469108dafca21afbe50e586e330",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page66.jpg",
+        "sha256": "850bd997fe82308a23baab7c991bf250ebb8ef7cb361ab72110c411516c80490",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page76.jpg",
+        "sha256": "1f4e6823ca77dedc95e558e275bf877a6ec22fb80d7ac2d5990ba5daec47bd75",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page85.jpg",
+        "sha256": "347320be255ede9d96e509033633e1afa790f2c0c23c020e9f38c0b4158ccfee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page95.jpg",
+        "sha256": "885b45279168d31832cc4bc2dfeee283b243fb3a379a69afec3f7f9f5845dbc2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/PS_2018.01.09_STEM_FINAL/PS_2018.01.09_STEM_FINAL_page104.jpg",
+        "sha256": "fa078f1dbf2dd3f675eaaf121330a9e325ff5be762ce0c79658c98ed84a9285f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

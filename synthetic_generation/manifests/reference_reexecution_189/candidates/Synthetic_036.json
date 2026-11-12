@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_036",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:presentation1-140817101128-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "presentation1-140817101128-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-1-1024.jpg",
+        "sha256": "27f2b86938642951e8ec2f2fe4a4e11af43494c10e8ddfa0e739ec89b8e63bbb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-3-1024.jpg",
+        "sha256": "07a3c712cfdfed241699eb3dd4c660dc55485439eee28e7bdc4858fcfb690553",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-4-1024.jpg",
+        "sha256": "b8fb758cc273e9a61fb984cb847e817b1a91c6de76daad867f47e89c66ed5b62",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-6-1024.jpg",
+        "sha256": "a67ffd5338ead241a5dd330e6d45b76b61ecd78968a5521719e6f6c5e0b94d24",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-8-1024.jpg",
+        "sha256": "830300501ee9343b15a3082d456edf28f2badc5e359c2fa5cad646e79f79f3fb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-10-1024.jpg",
+        "sha256": "8af31997b46fc99135ead59c698ada465204d6a08fc766e246ebcfdcc2a4921b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-11-1024.jpg",
+        "sha256": "5af53ba114c9c50512c2ed06d6e0e8f293e1c1d87d374c2e918022a2efc9373c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-13-1024.jpg",
+        "sha256": "4716c780979b119dd33f347e22d3ec72e5f9d9cb848637ac8f7925c088752203",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-15-1024.jpg",
+        "sha256": "9689357fb8b1e935566526d6e808ec58e35f1f03593260383a13f9fea2f84892",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-17-1024.jpg",
+        "sha256": "e3f49382cfb2d00fcf86267c0913a5f6a4dcd26edcabe502248cc929d5c3b165",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-18-1024.jpg",
+        "sha256": "80eaeced5b1eab158f4c130b3d8e9619cd3d7b3c95a1c386e44a02deedf630e5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/presentation1-140817101128-phpapp02_95/paging-and-segmentation-in-operating-system-20-1024.jpg",
+        "sha256": "d9b8dd13660c115675d9fdd07fb3e7159daba75130621a3974f12b6dabe29355",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

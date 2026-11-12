@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_017",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/awayforwardfortheuniversityweb-140315180736-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/awayforwardfortheuniversityweb-140315180736-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-1-1024.jpg",
+        "sha256": "7ab5d09db36a1203c547d02057a369aa9dfec495d272b0d3fb41371d77aebd4a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-3-1024.jpg",
+        "sha256": "5d271f5dad258a317e95ef2880860e9bce2670f258d36254f9ddd5899c35c80d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-4-1024.jpg",
+        "sha256": "3e7dfa555a0a25162769e864e8bba4368c8bb35fb73c0a33fe0b34b9f47b0138",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-6-1024.jpg",
+        "sha256": "2b30b9dc8b2f4edec90e3574f25c457ee3a9a71cbab0c2dbc62edf9f32f6ee79",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-8-1024.jpg",
+        "sha256": "4433bbfd684832ec729a70825c3b9fb59228e34f9be04f5c38ece5980715e18b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-10-1024.jpg",
+        "sha256": "0ba180defe77117552ed35ca98c22bee4dd665162a7f4667a93b214f4521b715",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-11-1024.jpg",
+        "sha256": "e026032641876dae878f15ec0417dc26e162071f782c31cbc1adaf73ee2520bc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-13-1024.jpg",
+        "sha256": "c231e2ac0473a157cb3986ad583292b6c1b463f379d40b3682abf35994aaf4c8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-15-1024.jpg",
+        "sha256": "1896a3bd788df4fcf7b93a4b2a0fa882d5e7cbdac04a31a9508e212d5869b7f1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-17-1024.jpg",
+        "sha256": "254c667dca11d1a258c37c36dab87f81964c52436e7172d2c35e4c8e7df5512e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-18-1024.jpg",
+        "sha256": "778d922e1a5b7c8ef997cd8813f87c2bd69308a16df08e536cd7900e8a16eefb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/awayforwardfortheuniversityweb-140315180736-phpapp02_95/a-way-forward-for-the-university-in-a-digital-age-20-1024.jpg",
+        "sha256": "8b2d701675c428e2066df4049111bd5ccb9218cdf0d8278b6f77adf4939f93ee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

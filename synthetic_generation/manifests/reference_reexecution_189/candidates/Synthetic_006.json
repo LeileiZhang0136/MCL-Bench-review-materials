@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_006",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:contrastsensitivity-140606220247-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "contrastsensitivity-140606220247-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-1-1024.jpg",
+        "sha256": "d5dc34fdaed600052bb20f15e10182ecc70b5f2f29d90f91d46db64f210d57d4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-3-1024.jpg",
+        "sha256": "7508267cec79d295016290490e50822ef31d5ec39ea63c770f065c4aadf07152",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-4-1024.jpg",
+        "sha256": "7d6a06956ebba7e018c42ce187969256de1f4c524326bcac1b86853334bba19a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-6-1024.jpg",
+        "sha256": "90b78eae6ae1328877ecca57a6d1ebe17debfbf9d3b91bd66679a071060d61a5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-8-1024.jpg",
+        "sha256": "b7bd44ce8f46e2b58991e74bdfa885d5b7620a6d88f5bf97d8d2eea9b2d2b178",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-10-1024.jpg",
+        "sha256": "14a7dfb64698828538323f50e516e8251e64ef5868daea5236898d225ee7bfd4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-11-1024.jpg",
+        "sha256": "11a3df517652307dd41947cd189f680e9ea569c1146667d8b4f164aff3e59c36",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-13-1024.jpg",
+        "sha256": "baeddebfa62ba5444c5b4683b9bfafdcaecb92de427e83523d5403a4e32e85e6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-15-1024.jpg",
+        "sha256": "556b66892d10d5aa1946b9ffdadbff2ce1ea58e74312e26fa32d59af93840a14",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-17-1024.jpg",
+        "sha256": "684c8a0e76b65517b5953478254f160fc91edd2c29847c54d78c7e024e0ae2d2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-18-1024.jpg",
+        "sha256": "2c233645d8390ec77ff1df0c7e2f2824337343e552a3e39e21152ffee697d22d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/contrastsensitivity-140606220247-phpapp01_95/contrast-sensitivity-20-1024.jpg",
+        "sha256": "e7c0c42d2541db001ce74c8fb0125d38be63466b996dab1d13b88d478f2b5d2f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "sample_type": "New deterministic reanalysis of existing judgments; not the historical targeted author-review sample and not new human annotation.",
+  "seed": "20261111-three-judge",
+  "selection": "Three eligible responses in each of 8 inference-model x 4 category cells, plus one additional response for each of the first four listed models; SHA-256 key ordering before examining outcomes.",
+  "model_order": [
+    "Claude-Opus-4.6 Thinking",
+    "Claude-Opus-4.6",
+    "Claude-Sonnet-4.6 Thinking",
+    "Claude-Sonnet-4.6",
+    "Gemini-3.1-Pro-Preview (High)",
+    "GPT-5.2",
+    "Doubao-Seed-2.0-pro",
+    "Gemini-2.5-pro"
+  ],
+  "eligibility": "All three files present; identical model-output text and identical rubrics; valid binary stored score; nonempty binary status list consistent with score. Status/rubric count equality is not required; this compares task scores, not item-aligned judgments.",
+  "sampling_frame_task_model_rows": 7584,
+  "attempted_candidates": 101,
+  "exclusion_counts_for_attempted_candidates": {
+    "nonbinary_or_conflicting_status": 1
+  },
+  "observed_file_coverage": {
+    "gpt52": {
+      "case_model_files": 2752,
+      "by_model": {
+        "Claude-Opus-4.6 Thinking": 344,
+        "Claude-Opus-4.6": 344,
+        "Claude-Sonnet-4.6 Thinking": 344,
+        "Claude-Sonnet-4.6": 344,
+        "Gemini-3.1-Pro-Preview (High)": 344,
+        "GPT-5.2": 344,
+        "Doubao-Seed-2.0-pro": 344,
+        "Gemini-2.5-pro": 344
+      },
+      "unit": "file presence, not valid task-score coverage"
+    },
+    "claude": {
+      "case_model_files": 2623,
+      "by_model": {
+        "Claude-Opus-4.6 Thinking": 327,
+        "Claude-Opus-4.6": 328,
+        "Claude-Sonnet-4.6 Thinking": 328,
+        "Claude-Sonnet-4.6": 328,
+        "Gemini-3.1-Pro-Preview (High)": 328,
+        "GPT-5.2": 328,
+        "Doubao-Seed-2.0-pro": 328,
+        "Gemini-2.5-pro": 328
+      },
+      "unit": "file presence, not valid task-score coverage"
+    },
+    "gemini": {
+      "case_model_files": 2488,
+      "by_model": {
+        "Claude-Opus-4.6 Thinking": 309,
+        "Claude-Opus-4.6": 308,
+        "Claude-Sonnet-4.6 Thinking": 305,
+        "Claude-Sonnet-4.6": 306,
+        "Gemini-3.1-Pro-Preview (High)": 317,
+        "GPT-5.2": 314,
+        "Doubao-Seed-2.0-pro": 313,
+        "Gemini-2.5-pro": 316
+      },
+      "unit": "file presence, not valid task-score coverage"
+    }
+  },
+  "human_labels_available": false
+}

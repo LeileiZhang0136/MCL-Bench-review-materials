@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_044",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:socialnetworkanalysis-100225055227-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "socialnetworkanalysis-100225055227-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-1-1024.jpg",
+        "sha256": "bd1c095bf5b5a8eb90526486cf9ac4bd425f8d1198136ba8a3d8766169afa2b0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-3-1024.jpg",
+        "sha256": "a082c63e4c6578460b909d8fcaca2c9a00abd286d201bd5879518c343670e80c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-4-1024.jpg",
+        "sha256": "352bc59c21e0bab5f34f835673bc8049730812fff639bbf127986ee7286fb59a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-6-1024.jpg",
+        "sha256": "1c07ffe3d91c1f0f4f256356a0e864a77256fd62de7db49e8ebda269085890cd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-8-1024.jpg",
+        "sha256": "01356e76e73e767b42e3fdfb36c2a80e0d83856cb4d752b8cfade0bb9b489e09",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-10-1024.jpg",
+        "sha256": "ca6ef25a9893e07216b7f07d2886cb2be72ddb81fe3272e7b7f370de448c0f38",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-11-1024.jpg",
+        "sha256": "f2d4137ef5625c20362e99fdd49fdcaa120eb06666d50c6084d17079167e1b35",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-13-1024.jpg",
+        "sha256": "801a8087ce7324c87816f7656c36b6c15ac6ed937e3271aadb052a4f118db325",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-15-1024.jpg",
+        "sha256": "659f5c977945babe4d72e461235a441886b983d1dae18dfe09f14dd9f898e412",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-17-1024.jpg",
+        "sha256": "269d340fc252f9ad434d73db95d20c164e3f2ba52fe7feda305b58552a45d997",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-18-1024.jpg",
+        "sha256": "b7d4f323b8084f800eb05cdbb18c8c9f49f1428b229a066d8f013f721a14d1f7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/socialnetworkanalysis-100225055227-phpapp02_95/social-network-analysis-20-1024.jpg",
+        "sha256": "5d243154a4e7cec3a7e3f1ba64abbe6a8b9ee49ea63a98a7cbe6f529fa07762b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

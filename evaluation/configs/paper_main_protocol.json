@@ -1,0 +1,31 @@
+{
+  "benchmark": "MCL-Bench",
+  "evaluated_models": [
+    "Gemini-2.5-pro",
+    "Gemini-3.1-Pro-Preview (High)",
+    "GPT 5.2",
+    "Doubao-Seed-2.0-pro",
+    "Claude-Sonnet-4.6",
+    "Claude-Sonnet-4.6 Thinking",
+    "Claude-Opus-4.6",
+    "Claude-Opus-4.6 Thinking"
+  ],
+  "primary_judge": "GPT 5.2",
+  "score_unit": "task",
+  "score_rule": "one if and only if every explicit rubric requirement is satisfied",
+  "sequential_history": {
+    "enabled": true,
+    "same_model_outputs_only": true,
+    "history_media_policy": "full"
+  },
+  "judge_input": [
+    "enumerated task-level rubrics",
+    "model output"
+  ],
+  "judge_excluded_input": [
+    "inference model identity",
+    "original task conversation",
+    "original images",
+    "original videos"
+  ]
+}

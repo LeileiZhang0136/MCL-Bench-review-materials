@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_112",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:2024.ug.eprospectus",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "2024.ug.eprospectus",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page0.jpg",
+        "sha256": "1d0007816202de1f3638c33e50e525bf1f351ede12e3423fcfe750fc55d1b6e7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page2.jpg",
+        "sha256": "32688cc64d7ff42927da5d42c8a9c78cc83077edc950c52ccb975ff033aeac20",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page5.jpg",
+        "sha256": "5df4bdda481c7adf805c57175a855f5ecc0ee55c1e2b9830bcb0e1f945d7a299",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page7.jpg",
+        "sha256": "a372cd7933bfe53e07e6009a2084562cd4f9214971d81255ecef5e4015b5ce5c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page9.jpg",
+        "sha256": "0bd78bf0fe7950ade74dd231de77c97abf07eca0f9c732ef097c251f98487198",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page12.jpg",
+        "sha256": "2de804127a71bd7f56cf733ef10363eb6139cf4825eaad2dc2c6c1f154f840d2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page14.jpg",
+        "sha256": "e33a5b4eb5946affbc67f82d7606c7ddf7b7e14e6da6b243961c4a177186ad72",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page17.jpg",
+        "sha256": "d0da75fd513b1de7bf77eac8ccd5f4da595d019316a6446159a99a837cf7d01f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page19.jpg",
+        "sha256": "c6acb2596cca97ea4b3cfd941abc73ee820a58f943cdfeb2f629ba9ef2efabed",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page21.jpg",
+        "sha256": "1d58504fa6546ef461b3a7a9b0da459769e44118173b16a9ac4f3325f57ce58d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page24.jpg",
+        "sha256": "ed4d8fe714ce267ac0d685aa3358e74b9bd844341d2ee70fec07dd21efea693d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/2024.ug.eprospectus/2024.ug.eprospectus_page26.jpg",
+        "sha256": "407eaec9d5563071e7eb48ea280b633ef8e51675c26a14e1e6e79896093849ef",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "source_id": "slidevqa:train:example-001",
+  "dataset": "slidevqa",
+  "dataset_version": "REPLACE_WITH_COMMIT_OR_RELEASE",
+  "split": "train",
+  "sample_id": "example-001",
+  "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+  "license_or_access": "RECORD_UPSTREAM_STATUS",
+  "redistribution_status": "review_required",
+  "source_snapshot_date": "YYYY-MM-DD",
+  "selected_assets": [
+    {
+      "asset_id": "asset-01",
+      "path": "slidevqa/train/example-001/image.png",
+      "sha256": "COMPUTED_BY_SCRIPT",
+      "media_type": "image/png",
+      "page_or_image_index": "1"
+    }
+  ],
+  "source_text_fields": {
+    "question": "Optional source field used only as evidence metadata",
+    "context": "Optional paired source text"
+  },
+  "traceability_notes": ""
+}

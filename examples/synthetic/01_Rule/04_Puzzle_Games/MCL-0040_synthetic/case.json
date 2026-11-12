@@ -1,0 +1,286 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a file reviewer. Please only answer based on the information visible in the materials; follow-up questions follow the caliber confirmed previously and do not write temporary assumptions into original materials."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch this matrix interface video: video_1.mp4"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_594739cadbb2.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". The test record wanted to store it as a static chessboard screenshot, but some of the information in the video never moved, while other parts changed between frames.\n\nPlease write an interface review opinion: Do not copy the complete matrix cell by cell, but determine which content can be used as stable anchor points and which can only be used as dynamic evidence.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response must include the stable title CURRENT_MATRIX_STATE.",
+      "2. The response must include the bottom stabilization buttons FIRE, WATER, LEAF.",
+      "3. The response must include that the matrix is ​​4×4 and that the position or combination of elements within the matrix changes from frame to frame.",
+      "4. The response must include matrix elements covering at least flames, water droplets, leaves, lightning, mountain shapes, question marks/gray-white grids.",
+      "5. The response must provide the initial archive matrix-ui::stable-frame+dynamic-cells; if the bottom button is treated as a dynamic change, or the entire video is treated as a single-frame screenshot, this round will not be qualified."
+    ],
+    "metadata": {
+      "task_id": "MCL-0040_T1",
+      "context_id": "MCL-0040",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a file reviewer. Please only answer based on the information visible in the materials; follow-up questions follow the caliber confirmed previously and do not write temporary assumptions into original materials."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch this matrix interface video: video_1.mp4"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_594739cadbb2.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". The test record wanted to store it as a static chessboard screenshot, but some of the information in the video never moved, while other parts changed between frames.\n\nPlease write an interface review opinion: Do not copy the complete matrix cell by cell, but determine which content can be used as stable anchor points and which can only be used as dynamic evidence.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The reviewer proposed a more detailed rule: only interface text whose name remains unchanged across frames can enter the \"control layer\", and icons and colors can only enter the \"status layer\". Please rewrite the stratified results accordingly.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response must include the control layer Control_Layer={CURRENT_MATRIX_STATE,FIRE,WATER,LEAF}.",
+      "2. The response must include the state layer State_Layer=4×4 matrix cells.",
+      "3. The response must include flames, water droplets, leaves, lightning, mountain shapes, question marks/gray-white grids, which belong to the status layer and not the control layer.",
+      "4. The response must include color changes and symbol position changes but not button names.",
+      "5. The response must give the layering label matrix-layer::controls-fixed+state-variable."
+    ],
+    "metadata": {
+      "task_id": "MCL-0040_T2",
+      "context_id": "MCL-0040",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a file reviewer. Please only answer based on the information visible in the materials; follow-up questions follow the caliber confirmed previously and do not write temporary assumptions into original materials."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch this matrix interface video: video_1.mp4"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_594739cadbb2.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". The test record wanted to store it as a static chessboard screenshot, but some of the information in the video never moved, while other parts changed between frames.\n\nPlease write an interface review opinion: Do not copy the complete matrix cell by cell, but determine which content can be used as stable anchor points and which can only be used as dynamic evidence.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The reviewer proposed a more detailed rule: only interface text whose name remains unchanged across frames can enter the \"control layer\", and icons and colors can only enter the \"status layer\". Please rewrite the stratified results accordingly.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now do a test: If the frame extraction tool only retains the last frame and automatically cuts off the three bottom buttons, which layer of the archive will be lost first? Please explain how this test does not cover real footage.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response must include the counterfactual to keep only the last frame and cut off the FIRE, WATER, LEAF bottom buttons.",
+      "2. The response must include that the beta first loses stable_controls in Control_Layer.",
+      "3. The response must include CURRENT_MATRIX_STATE which can be retained as stable_label if still in the picture.",
+      "4. The response must include the last frame matrix. Changing_matrix cannot be proved, only static_last-frame can be proved.",
+      "5. The response should explain that static_last-frame cannot write back real videos, and real archives are still controls-fixed+state-variable."
+    ],
+    "metadata": {
+      "task_id": "MCL-0040_T3",
+      "context_id": "MCL-0040",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a file reviewer. Please only answer based on the information visible in the materials; follow-up questions follow the caliber confirmed previously and do not write temporary assumptions into original materials."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch this matrix interface video: video_1.mp4"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_594739cadbb2.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". The test record wanted to store it as a static chessboard screenshot, but some of the information in the video never moved, while other parts changed between frames.\n\nPlease write an interface review opinion: Do not copy the complete matrix cell by cell, but determine which content can be used as stable anchor points and which can only be used as dynamic evidence.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The reviewer proposed a more detailed rule: only interface text whose name remains unchanged across frames can enter the \"control layer\", and icons and colors can only enter the \"status layer\". Please rewrite the stratified results accordingly.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now do a test: If the frame extraction tool only retains the last frame and automatically cuts off the three bottom buttons, which layer of the archive will be lost first? Please explain how this test does not cover real footage.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally, the interface level, status changes and last frame cropping test of the real video are combined into an archive summary.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response must include CURRENT_MATRIX_STATE, FIRE, WATER, LEAF.",
+      "2. The response must include 4×4 matrix cells with flames, water droplets, leaves, lightning, mountain shapes, question marks/gray-white grids.",
+      "3. The response must include matrix-layer::controls-fixed+state-variable.",
+      "4. The response must include static_last-frame. It only cuts the test state and cannot write back the real video.",
+      "5. The response must give the final archive tag matrix-video::fixed-controls+variable-symbol-grid."
+    ],
+    "metadata": {
+      "task_id": "MCL-0040_T4",
+      "context_id": "MCL-0040",
+      "turn_index": 4
+    }
+  }
+]

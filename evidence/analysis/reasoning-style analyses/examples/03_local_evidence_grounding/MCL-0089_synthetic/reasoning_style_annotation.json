@@ -1,0 +1,7 @@
+{
+  "case_id": "MCL-0089",
+  "model": "GPT-5.2",
+  "analyzed_turn": 1,
+  "primary_label": "Local Evidence Grounding",
+  "brief_rationale": "The response is organized around image-by-image visual grounding and local actor-object relations. Although it creates mission cards, the classifications and decisions are driven mainly by local visual evidence rather than an abstract cross-turn schema."
+}

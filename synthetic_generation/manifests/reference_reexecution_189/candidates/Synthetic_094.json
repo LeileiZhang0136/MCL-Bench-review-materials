@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_094",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:disciplined-agile-business-analysis-160218012713_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "disciplined-agile-business-analysis-160218012713_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page0.jpg",
+        "sha256": "b506a105ca7c4ca8ecb260dceaeeb4264978dc446b6124ff9237579bc32c9e5c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page4.jpg",
+        "sha256": "4281882be7d959c5c25636d60cfeee10ae555db708587670c127e503c2ad3bf5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page7.jpg",
+        "sha256": "917acaa760ded3d56dbab348439338e4422c1eb7613e403fc1394a72bb44113d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page11.jpg",
+        "sha256": "2dd94e3bc61c273e55bbe08f541b58fbdce006359e89a4d0e9177a3315f57035",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page15.jpg",
+        "sha256": "5b342ecf830cbad6ed582f7c0a61c34f7f101e64c845e763f1023957e61924fe",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page18.jpg",
+        "sha256": "b48775c2f5a16ffbd0737321b6d2422f738a3ee1296d4757f3cbd1b74e42b8f3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page22.jpg",
+        "sha256": "36490e41a42a30e67dde98dae3ce48f9d7318cd756658e260379486523adf88d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page25.jpg",
+        "sha256": "6623cbe46a884ff1a887812a4d9fa45314ecddca154827648d829e1788d70ef5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page29.jpg",
+        "sha256": "8fce6a44be85c7897a49d4c325be03a8800cafc86145748f3e8af39e6e96b927",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page33.jpg",
+        "sha256": "3d0dd23f5c9d4e15c567230fa6e044ec5d64aad602dc2115a82cf4f9a9a2970c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page36.jpg",
+        "sha256": "b2802373ee4bbd8f5bb51b1a94d32c735bc86f10c31849a39a52b8839d0d633c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/disciplined-agile-business-analysis-160218012713_95/disciplined-agile-business-analysis-160218012713_95_page40.jpg",
+        "sha256": "99c0f84be42c3926c0669290f31ac207f6363750fb5cea97c4de4ba895ae3daf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,4 @@
+﻿media_configuration,cases,tasks_per_model,models,successes,model_task_evaluations,reported_rate_percent,exact_rate_percent,wilson_95_ci_lower,wilson_95_ci_upper
+Single-video,17,38,8,46,304,15.1,15.131578947368421,11.539983581723224,19.593398902836178
+Multi-video,12,37,8,27,296,9.1,9.121621621621621,6.344645092020407,12.946035739172936
+Image+video,12,34,8,21,272,7.8,7.720588235294118,5.1049330931426775,11.51383734719659

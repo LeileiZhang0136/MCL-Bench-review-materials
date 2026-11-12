@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_063",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:virtual-assistant-slides-1233293401338113-2_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "virtual-assistant-slides-1233293401338113-2_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-1-1024.jpg",
+        "sha256": "ef25e8b178746aa0fb8bc2d9aec96d419359978077542d28d911bc6f4d8b71a5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-3-1024.jpg",
+        "sha256": "45c7ba0d8095814f172d8139106f63977f67c828c83ca1c8cbfb77377b6f9c78",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-4-1024.jpg",
+        "sha256": "3592f94ce4d357feacfc4ca68436afd6c436773dc0f5ac27e7a399b7ed95656d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-6-1024.jpg",
+        "sha256": "3338c1ad280b0bd0220846a8551301dab5c127d23382166c8fc894369b2a3e18",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-8-1024.jpg",
+        "sha256": "ee866700a2d370f6028312ef31fd9b0f1bb5a84b062681467ff5c83bc4a130ff",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-10-1024.jpg",
+        "sha256": "de72a7c219fde9439c7ed0d446929fa7d2d9faccd35c56abb699c9ab12a885ec",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-11-1024.jpg",
+        "sha256": "4ca13f556b80827ba0a7981173df52dff32cbfa97da2fb6232c1e2deecb43087",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-13-1024.jpg",
+        "sha256": "f328effe2a63a276af71b74bb393410762ba50db3af773934617666e407110c0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-15-1024.jpg",
+        "sha256": "a2552c163da8e778de9398294ed7bb7d8c1ffb0ab542e8447057e19072e0a579",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-17-1024.jpg",
+        "sha256": "a062de2bd200eddeed2ad00e60c12e9769fddf2e250f384f31adb229949fe065",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-18-1024.jpg",
+        "sha256": "44a26ba0062d65930802f46254c20ccc651deba4c005b7418f8797c870d1d50c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/virtual-assistant-slides-1233293401338113-2_95/julie-doke-virtual-assistant-20-1024.jpg",
+        "sha256": "a97220c36175f7bebba7165cd71c49f866dcc20f376467e7a9e9cfdd5ed8277f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

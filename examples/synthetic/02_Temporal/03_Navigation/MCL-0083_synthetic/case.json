@@ -1,0 +1,332 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a historical archival evidence reviewer. You are good at dividing a set of different historical charts into available evidence, circumstantial evidence, and materials that are prohibited from being mixed: a genealogy diagram can only support inheritance relationships and chronological order, and a trade flow diagram can only support flow direction, numerical value, and period comparison. The analysis can only be based on the names, dynasty labels, arrows, years, routes, nodes and values ​​visible in the picture; each subsequent round must follow the established evidence boundaries, and external historical knowledge or the conclusion of another picture cannot be written as evidence for the current picture."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these two pages of file images in order: image_1.png"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_7d05c80e9d98.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "image_2.png"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_42f6a4aa48d1.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". One exhibition draft conflated “the line of succession in 1603” and “changes in silver flows during the 17th and 18th centuries” into the same cause-and-effect narrative, while another draft only picked out a few of the largest figures without specifying which period they came from. Please start by writing an opinion on sorting the evidence: which conclusions can only be supported by a pedigree diagram, which conclusions can only be supported by a silver flow diagram, and which claims must be suspended because they require more than two pages of material to be established.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should explain image_1. It can only support the British throne succession genealogy, TUDORS/STUARTS branch, character kinship and the reign year marked in the picture, but cannot support the silver trade cause and effect.",
+      "2. The response should explain that image_2 can only support the silver flow direction, route, node, import/export/usage value and direction change in two periods, and cannot support the legitimacy of the throne.",
+      "3. The response must include at least four key nodes in the inheritance or branching relationship from Henry VII, Henry VIII, Edward VI, Mary I, Elizabeth I to James VI and I in image_1.",
+      "4. The response must include the clue in image_1 that James VI and I entered STUARTS through Margaret, James V, and Mary Queen of Scots. He cannot be directly written as a descendant of Tudor.",
+      "5. The response must include image_2 at least two periods: 1600-1650 C.E. and 1725-1750 C.E., missing either period will disqualify.",
+      "6. The response needs to point out that directly interpreting the 1603 inheritance line as the cause of the change in silver flow direction is a suspended conclusion; if the two pictures are hard-written as a causal chain, this round will not be qualified."
+    ],
+    "metadata": {
+      "task_id": "MCL-0083_T1",
+      "context_id": "MCL-0083",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a historical archival evidence reviewer. You are good at dividing a set of different historical charts into available evidence, circumstantial evidence, and materials that are prohibited from being mixed: a genealogy diagram can only support inheritance relationships and chronological order, and a trade flow diagram can only support flow direction, numerical value, and period comparison. The analysis can only be based on the names, dynasty labels, arrows, years, routes, nodes and values ​​visible in the picture; each subsequent round must follow the established evidence boundaries, and external historical knowledge or the conclusion of another picture cannot be written as evidence for the current picture."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these two pages of file images in order: image_1.png"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_7d05c80e9d98.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "image_2.png"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_42f6a4aa48d1.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". One exhibition draft conflated “the line of succession in 1603” and “changes in silver flows during the 17th and 18th centuries” into the same cause-and-effect narrative, while another draft only picked out a few of the largest figures without specifying which period they came from. Please start by writing an opinion on sorting the evidence: which conclusions can only be supported by a pedigree diagram, which conclusions can only be supported by a silver flow diagram, and which claims must be suspended because they require more than two pages of material to be established.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The last round of evidence boundaries still needs to be changed into an exhibition checklist. Please check \"whether the inheritance line is closed\" and \"whether the trade flows are comparable across time\" based on the pictures on the two pages: which nodes can be used as primary evidence, which arrows or values ​​can only be used as circumstantial evidence, and which type of material is most likely to be misplaced in the explanation on another page.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should explain that the inheritance line master certificate includes image_1's dynasty label, character connection line, marriage symbol, generation arrow and reign year.",
+      "2. The response should state that the line of succession should span from Elizabeth I (1558-1603) at the Tudor end to James VI and I (1603-1625) at the Stuart end, and explain that James VI and I is also marked by King of Scotland from",
+      "1567.",
+      "3. The response should explain that the trade flow master includes image_2's two period titles, node names, direction arrows, route names, and Tons values.",
+      "4. The response must include an inter-temporal comparison for Western Europe: Early Import 158 ​​Tons, Re-export 110 Tons; Late Import 230 Tons, Re-export 270 Tons, and indicate that late re-exports exceed imports.",
+      "5. The response must include an inter-temporal comparison of Americas: Export 302 Tons / Use 66 Tons to Export 533 Tons / Use 117 Tons, and explain that you cannot just look at a single largest arrow.",
+      "6. The response need to explain that names and dynasty labels cannot be used to calculate trade flow; Tons values ​​cannot be used to prove the legitimacy of inheritance. If there is a cross-page mistake, this round will be disqualified."
+    ],
+    "metadata": {
+      "task_id": "MCL-0083_T2",
+      "context_id": "MCL-0083",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a historical archival evidence reviewer. You are good at dividing a set of different historical charts into available evidence, circumstantial evidence, and materials that are prohibited from being mixed: a genealogy diagram can only support inheritance relationships and chronological order, and a trade flow diagram can only support flow direction, numerical value, and period comparison. The analysis can only be based on the names, dynasty labels, arrows, years, routes, nodes and values ​​visible in the picture; each subsequent round must follow the established evidence boundaries, and external historical knowledge or the conclusion of another picture cannot be written as evidence for the current picture."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these two pages of file images in order: image_1.png"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_7d05c80e9d98.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "image_2.png"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_42f6a4aa48d1.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". One exhibition draft conflated “the line of succession in 1603” and “changes in silver flows during the 17th and 18th centuries” into the same cause-and-effect narrative, while another draft only picked out a few of the largest figures without specifying which period they came from. Please start by writing an opinion on sorting the evidence: which conclusions can only be supported by a pedigree diagram, which conclusions can only be supported by a silver flow diagram, and which claims must be suspended because they require more than two pages of material to be established.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The last round of evidence boundaries still needs to be changed into an exhibition checklist. Please check \"whether the inheritance line is closed\" and \"whether the trade flows are comparable across time\" based on the pictures on the two pages: which nodes can be used as primary evidence, which arrows or values ​​can only be used as circumstantial evidence, and which type of material is most likely to be misplaced in the explanation on another page.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now do a missing page deduction: If the exhibition package temporarily lacks the pedigree diagram and only the silver flow diagram is left, which explanations must be removed or downgraded? What judgments about trade flows can still be retained? This deduction is only used to check the boundaries of evidence and cannot be written back as a missing page in the real file.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should be removed or downgraded 1603 Genealogical judgment on the succession to the throne of England, the TUDORS/STUARTS branch, the inheritance relationship from Elizabeth I to James VI and I, etc.",
+      "2. The response should retain the comparison of silver flows in the two periods 1600-1650 C.E. and 1725-1750 C.E. in image_2.",
+      "3. The response should retain at least three groups of nodes and their values ​​such as Western Europe, Americas, Rest of Europe and the Middle East, East and South Asia, and Japan.",
+      "4. The response should retain at least two of the route change judgments, such as Western Europe to Rest of Europe and the Middle East from 94 Tons to 110 Tons, Southern African Route from 16 Tons to 160 Tons, Pacific Route from 34 Tons to 33 Tons, Japan Export from 59 Tons to 0 Tons.",
+      "5. The response should explain that the absence of a genealogical diagram does not invalidate the silver flow diagram, but it does deprive the inheritance narrative of in-diagram evidence.",
+      "6. If The response continues to use pedigree diagram figures as visible evidence, or claims that trade flow diagrams cannot be used, this round will be disqualified."
+    ],
+    "metadata": {
+      "task_id": "MCL-0083_T3",
+      "context_id": "MCL-0083",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a historical archival evidence reviewer. You are good at dividing a set of different historical charts into available evidence, circumstantial evidence, and materials that are prohibited from being mixed: a genealogy diagram can only support inheritance relationships and chronological order, and a trade flow diagram can only support flow direction, numerical value, and period comparison. The analysis can only be based on the names, dynasty labels, arrows, years, routes, nodes and values ​​visible in the picture; each subsequent round must follow the established evidence boundaries, and external historical knowledge or the conclusion of another picture cannot be written as evidence for the current picture."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these two pages of file images in order: image_1.png"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_7d05c80e9d98.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "image_2.png"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_42f6a4aa48d1.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". One exhibition draft conflated “the line of succession in 1603” and “changes in silver flows during the 17th and 18th centuries” into the same cause-and-effect narrative, while another draft only picked out a few of the largest figures without specifying which period they came from. Please start by writing an opinion on sorting the evidence: which conclusions can only be supported by a pedigree diagram, which conclusions can only be supported by a silver flow diagram, and which claims must be suspended because they require more than two pages of material to be established.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The last round of evidence boundaries still needs to be changed into an exhibition checklist. Please check \"whether the inheritance line is closed\" and \"whether the trade flows are comparable across time\" based on the pictures on the two pages: which nodes can be used as primary evidence, which arrows or values ​​can only be used as circumstantial evidence, and which type of material is most likely to be misplaced in the explanation on another page.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now do a missing page deduction: If the exhibition package temporarily lacks the pedigree diagram and only the silver flow diagram is left, which explanations must be removed or downgraded? What judgments about trade flows can still be retained? This deduction is only used to check the boundaries of evidence and cannot be written back as a missing page in the real file.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally, the real two-page file, presentation checklist and missing page deduction boundary are combined into an audit summary that can be stored in the database. The abstract should allow the next curator to see which page The response the inheritance question, which page The response the trade flow question, and which cross-page causal claims do not hold up within the current evidence package.\n\nAnswer format requirements: When it comes to file names, labels, field names, proper nouns, units, numerical values, directions, periods or original phrases, they must be kept exactly as they are written in the title and materials, and do not rewrite them with synonyms."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should state that image_1 is genealogical evidence for The English Succession to 1603, covering the TUDORS and STUARTS clues.",
+      "2. The response should state that key archival conclusions for image_1 include that Elizabeth I (1558-1603) was followed by James VI and I (1603-1625), and that James VI and I are part of the Stuart clue.",
+      "3. The response should explain that image_2 is intertemporal trade evidence from World Silver Flows, covering the two periods of 1600-1650 C.E. and 1725-1750 C.E.",
+      "4. The response must include at least three trade flow filing values ​​or changes, such as Western Europe 158/110 to 230/270, Americas 302/66 to 533/117, Southern African Route 16 to 160, Japan Export 59 to 0, Pacific Route 34 to",
+      "33.",
+      "5. The response should explain that the lack of pedigree diagrams only belongs to the boundary of deduction and cannot be mixed into the real archive.",
+      "6. The response should make it clear that the current evidence package cannot prove cross-page causality such as \"1603 inheritance leads to changes in the flow of silver\"; if the final summary hard-links the two pictures into a causal chain, this round will be disqualified."
+    ],
+    "metadata": {
+      "task_id": "MCL-0083_T4",
+      "context_id": "MCL-0083",
+      "turn_index": 4
+    }
+  }
+]

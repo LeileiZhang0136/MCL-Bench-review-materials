@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_159",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-1-1024.jpg",
+        "sha256": "1bddcadb47e0433468be236bb4ee68a6b601ec2e5fc57a0d93dd3527edc7f8a3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-3-1024.jpg",
+        "sha256": "20cbd31d0f69361154dad2f8b14dad23cc43cb72f23b7ae081d063c4fec1ec14",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-4-1024.jpg",
+        "sha256": "6b45c5a509af6b8f9f1f5223327d212f688da77182914d016946ec055bd37a05",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-6-1024.jpg",
+        "sha256": "a10d2dd804a6bba76dfe96540d8926eeb89880be5c25da3e0c6186e7f47f67c0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-8-1024.jpg",
+        "sha256": "f3655cb3dd0b3e4382c8fa0e8f4e5466e59a00c8636d2a121451ae764542685d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-10-1024.jpg",
+        "sha256": "bafbbe7737ba82d599297158e2e0f49ee22bce92b2c3389cb8a33618d51a091b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-11-1024.jpg",
+        "sha256": "f9ce63be6159a11716fa63af5ceb75afe8d955984c3c03e1859a77ac583729e3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-13-1024.jpg",
+        "sha256": "6bbaa17ca4947fced3f0c9052db74f45c7598b88db7e9e55cdd9d28c0e3f1fa3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-15-1024.jpg",
+        "sha256": "d7c9bafc2ca0f8ce63ee277327c13c6c9d7790dba6e0cc69eef595c7c8f88a54",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-17-1024.jpg",
+        "sha256": "510d125da41ccd269f08e9989e0d3ce8b77070189c10c976f479b0c0a7d26f22",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-18-1024.jpg",
+        "sha256": "39c4b05e16456c07d48795a8d726e995bffe458f537efd63e7ed07e3aa16dbfb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/overviewofiotandsecuritythreatsbyaaeconomidesatcttc2015-150130144832-conversion-gate01_95/overview-of-iot-and-security-issues-20-1024.jpg",
+        "sha256": "54edd04ae5cc62f074298d63d01aa805460ec538f719fc399d5b826644eb6d8e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

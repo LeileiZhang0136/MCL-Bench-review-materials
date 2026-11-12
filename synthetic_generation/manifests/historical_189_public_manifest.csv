@@ -1,0 +1,190 @@
+﻿case_id,source_track,category,subcategory,task_count,serialized_rubric_entry_count,generation_model,construction_method
+MCL-0001,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0002,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0003,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0004,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0005,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0006,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0007,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0008,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0009,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,30,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0010,synthetic,Rule Learning & Complex Reasoning,Daily Rules,4,54,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0011,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0012,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0013,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0014,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,28,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0015,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,17,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0016,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0017,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,18,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0018,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,19,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0019,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,23,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0020,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,20,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0021,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,20,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0022,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,20,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0023,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,20,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0024,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,23,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0025,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,28,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0026,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,27,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0027,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,34,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0028,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0029,synthetic,Rule Learning & Complex Reasoning,Math & Code,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0030,synthetic,Rule Learning & Complex Reasoning,Math & Code,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0031,synthetic,Rule Learning & Complex Reasoning,Math & Code,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0032,synthetic,Rule Learning & Complex Reasoning,Math & Code,4,16,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0033,synthetic,Rule Learning & Complex Reasoning,Math & Code,3,28,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0034,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0035,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0036,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0037,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0038,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0039,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0040,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,4,20,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0041,synthetic,Rule Learning & Complex Reasoning,Text Logic,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0042,synthetic,Rule Learning & Complex Reasoning,Text Logic,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0043,synthetic,Rule Learning & Complex Reasoning,Text Logic,4,20,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0044,synthetic,Rule Learning & Complex Reasoning,Text Logic,4,19,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0045,synthetic,Rule Learning & Complex Reasoning,Text Logic,4,21,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0046,synthetic,Rule Learning & Complex Reasoning,Text Logic,4,22,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0047,synthetic,Rule Learning & Complex Reasoning,Text Logic,4,21,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0048,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,29,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0049,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,30,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0050,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0051,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0052,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0053,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0054,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0055,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0056,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0057,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0058,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0059,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,4,31,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0060,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,4,28,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0061,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,4,30,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0062,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,4,38,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0063,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0064,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,4,25,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0065,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0066,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0067,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0068,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0069,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0070,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0071,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0072,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0073,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0074,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0075,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0076,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0077,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0078,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0079,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0080,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0081,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0082,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,22,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0083,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,26,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0084,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,53,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0085,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,64,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0086,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,4,46,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0087,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,32,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0088,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,32,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0089,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,29,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0090,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,27,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0091,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0092,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0093,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0094,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0095,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0096,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,32,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0097,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,31,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0098,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,28,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0099,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,33,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0100,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,26,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0101,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0102,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,25,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0103,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,23,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0104,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0105,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,4,25,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0106,synthetic,Evidence Integration & Structured Auditing,Work Scenes,4,27,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0107,synthetic,Evidence Integration & Structured Auditing,Work Scenes,4,29,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0108,synthetic,Evidence Integration & Structured Auditing,Work Scenes,4,28,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0109,synthetic,Evidence Integration & Structured Auditing,Work Scenes,4,30,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0110,synthetic,Evidence Integration & Structured Auditing,Work Scenes,4,33,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0111,synthetic,Evidence Integration & Structured Auditing,Work Scenes,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0112,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0113,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0114,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0115,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0116,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0117,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0118,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0119,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0120,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0121,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0122,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0123,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0124,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0125,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0126,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0127,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,25,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0128,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,31,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0129,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,4,25,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0130,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0131,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,30,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0132,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,29,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0133,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,28,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0134,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,34,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0135,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,37,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0136,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,25,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0137,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,25,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0138,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0139,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,18,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0140,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,40,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0141,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,22,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0142,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,20,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0143,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0144,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,30,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0145,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,31,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0146,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,34,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0147,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,30,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0148,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,32,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0149,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,27,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0150,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0151,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,25,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0152,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0153,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,4,46,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0154,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0155,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0156,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0157,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0158,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0159,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0160,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0161,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0162,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0163,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0164,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0165,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0166,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0167,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0168,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0169,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0170,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0171,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0172,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0173,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0174,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0175,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0176,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0177,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0178,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0179,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0180,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0181,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0182,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0183,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0184,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0185,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0186,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0187,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,4,41,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0188,synthetic,Expert Standards & Scenario Decision-Making,Repair Help,4,24,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method
+MCL-0189,synthetic,Expert Standards & Scenario Decision-Making,Exam Scoring,4,19,GPT-5.5 API,common GPT-5.5 API synthetic-case construction method

@@ -1,0 +1,15 @@
+{
+  "source_track": "expert",
+  "category": "Evidence Integration & Structured Auditing",
+  "subcategory": "Forms & Receipts",
+  "count": 1,
+  "cases": [
+    {
+      "case_id": "MCL-0262",
+      "directory": "MCL-0262_expert_E02",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

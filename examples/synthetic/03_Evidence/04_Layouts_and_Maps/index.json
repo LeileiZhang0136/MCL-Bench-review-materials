@@ -1,0 +1,15 @@
+{
+  "source_track": "synthetic",
+  "category": "Evidence Integration & Structured Auditing",
+  "subcategory": "Layouts & Maps",
+  "count": 1,
+  "cases": [
+    {
+      "case_id": "MCL-0143",
+      "directory": "MCL-0143_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

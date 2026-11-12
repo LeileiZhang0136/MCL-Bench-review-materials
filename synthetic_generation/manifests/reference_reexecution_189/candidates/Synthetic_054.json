@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_054",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-1-1024.jpg",
+        "sha256": "235215046393bf7691fa31d680257f0bd018fd6b875e9c3824727fb25dfc2363",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-3-1024.jpg",
+        "sha256": "e0f79df7ed7f895b4ee2f789de30f57f50d8c7e6f5d45a4e7c3de91a3ce94805",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-4-1024.jpg",
+        "sha256": "a853b18089fb81bb5a46d6627bc58a4c1335445d32bbe4f648b4ef9479e0b23d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-6-1024.jpg",
+        "sha256": "46fd317207823fe138ebad42f9e888d45ebf50dd390500be577cad63f5ee8c03",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-8-1024.jpg",
+        "sha256": "d510746f83222e0fe20876a31b3d9e153f40e7965fbd89626c48c0547d7e00b5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-10-1024.jpg",
+        "sha256": "a77f120bfa9dc6322e4caffa69945e4bc3bb7ed71830f6e7857afdfa29693bfa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-11-1024.jpg",
+        "sha256": "e9448877f5cf48087dbe636bb21c151f06f05c4630db31b7769477b419b03708",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-13-1024.jpg",
+        "sha256": "564594bd70d1e381a695db4dc2a37091a371fa5ba8c820d8b472cb762c564ed1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-15-1024.jpg",
+        "sha256": "0e34c0684101c90215933b24ed267e66ef467493cc0918b886cdf0e49433ed20",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-17-1024.jpg",
+        "sha256": "f7e8bccc037a235fad04eb1a90dcf6c7b93d741fa5415a3614119e706778a0cc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-18-1024.jpg",
+        "sha256": "53bed6aa9f383fa16f114867fcbf0a6c3d8702334b2d689bb500dad9ae50edfc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/pappas-whitepaper-marketingmobileapps-final-140715171937-phpapp01_95/mobile-app-marketing-the-ultimate-guide-to-success-20-1024.jpg",
+        "sha256": "49d1aed59ee8791eb54b484c43b79b9a0eafb56568c49f662d6fb4837d41517d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

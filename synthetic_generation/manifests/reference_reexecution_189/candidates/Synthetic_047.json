@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_047",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:provisioningtheiot-150203140517-conversion-gate02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "provisioningtheiot-150203140517-conversion-gate02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-1-1024.jpg",
+        "sha256": "c4ceab43d3f9dec4b60ff5a055dd8ef404640a005b9269d0e5905252879e06fa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-3-1024.jpg",
+        "sha256": "800b5923c24412f7030b99a7dbcb5370848b27457158ba3f47517354eeec4bf4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-4-1024.jpg",
+        "sha256": "51818c56fca82241d19c5cc99055fbd6f75f410f895c1ddef28d2109565dacd3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-6-1024.jpg",
+        "sha256": "ae8f789a256def737ca726f97bedb4a6758769f94cb19e2a8979eb5e9b4c6bd3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-8-1024.jpg",
+        "sha256": "c193c5310a316a29aa4a61ffeabcdabe836927eaed2161cccbf7d8779c71ff54",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-10-1024.jpg",
+        "sha256": "79ec2c024985b119d65fe96542291feb0e09ccc01b36f6e8af53d1204b5f168f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-11-1024.jpg",
+        "sha256": "edc04414a0e49c36b9dcb1eb1ce9e41fac86d487eea70b13c6b6e41b6d7a566e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-13-1024.jpg",
+        "sha256": "bcd791c8b4f6b110b5046a0f46d4517552ecaab05b1f0a2fea383abc740410b4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-15-1024.jpg",
+        "sha256": "a4d4982b202dc7d11d9d7db9f499424e6ad0186dd6db94565b9b9b37d469fa0d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-17-1024.jpg",
+        "sha256": "548c0a473fa7549eec5152bb398e81024d04ac189cc96103fd94c34063ee0db2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-18-1024.jpg",
+        "sha256": "3063d1fe1ff73dfaced8b9ce6997bb3aa3a7b976bcc1fc9b847ea6ca26e6553c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/provisioningtheiot-150203140517-conversion-gate02_95/provisioning-the-iot-20-1024.jpg",
+        "sha256": "9d6e8b59b863fdd470362d6704d6ea4b2f495d31ab210f347329017f0a8e8e85",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

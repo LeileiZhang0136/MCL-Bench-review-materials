@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_174",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:bigdatatrends-120723191058-phpapp02_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "bigdatatrends-120723191058-phpapp02_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page0.jpg",
+        "sha256": "b1751d71c5694d9f6bd2974dc9aa4de0904eefaa939d5e2ba60ec04bf5c5cef5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page5.jpg",
+        "sha256": "743ae1abdb65f854ff09e8d8998f78e55683afbd6a80bf6d60301176f41dd9a3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page9.jpg",
+        "sha256": "4f688e74d31ac3a88cae5d731a92c025f555947bf55bf081d985bd67c254e163",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page14.jpg",
+        "sha256": "e470344079e2662bda909b5b015c173e21e76e7e4dd8381540c63f6b9720a065",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page19.jpg",
+        "sha256": "4b3793e4ff7513d0febce6212d2394c525b8166ae2932ad0e2d81b0acae85956",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page24.jpg",
+        "sha256": "8554d1a2286be18cbc85dbdfb14cd820cec4d9e8c3fe3fec34985910acc2c8a0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page28.jpg",
+        "sha256": "3cb61878c3dcfff86223123357d1d08068e1edf499aefa313cf72e4a98762f1e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page33.jpg",
+        "sha256": "90698d245f8712646fdcc6fe9af68ed85bcb2b7ef81e7676fcc52ce143235bcc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page38.jpg",
+        "sha256": "deba23e42b7a4aaa42fc04092a1f327043da2c8473e77d8a7041de0700dc3634",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page43.jpg",
+        "sha256": "d5ac91723ab43575c034ee906c690ce02a0dd6b6c815e574c6c507c4baf2077b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page47.jpg",
+        "sha256": "af7324901570a5836d6aadbc614eea66fdfadfd722f4c4b87a1796ca9feadbf1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/bigdatatrends-120723191058-phpapp02_95/bigdatatrends-120723191058-phpapp02_95_page52.jpg",
+        "sha256": "b4a2b6f090314b5d8b69fddd62fbb04e18ab3f5a8215862e9a941dcf536f3f01",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

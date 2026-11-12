@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Temporal Dynamics & Environmental Interaction",
+  "subcategory": "Game Play",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0240",
+      "directory": "MCL-0240_expert_E05",
+      "task_count": "3",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0241",
+      "directory": "MCL-0241_expert_E05",
+      "task_count": "4",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0239",
+      "directory": "MCL-0239_expert_E02",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

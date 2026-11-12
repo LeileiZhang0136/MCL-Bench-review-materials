@@ -1,0 +1,308 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert observer of open-world exploration games. Your task is to carefully watch gameplay footage of a player exploring different environments in the world. You can:\n1. Identify important landmarks (villages, towers, rivers, forests, mountain ranges, buildings, caves, etc.).\n2. Track events and locations across time as the camera moves.\n3. Remember places seen earlier and compare them in later scenes.\n4. Distinguish visually similar structures.\n5. Infer temporal order (what appeared first and what appeared later).\n6. Maintain a coherent understanding of the entire exploration path.\n7. You like picking up items, and during exploration you may pick up items.\nYou are an expert observer of open-world exploration games. Your task is to carefully watch gameplay footage of a player exploring different environments in the world. You can:\n1. Identify important landmarks (villages, towers, rivers, forests, mountain ranges, buildings, caves, etc.).\n2. Track events and locations across time as the camera moves.\n3. Remember places seen earlier and compare them in later scenes.\n4. Distinguish visually similar structures.\n5. Infer temporal order (what appeared first and what appeared later).\n6. Maintain a coherent understanding of the entire exploration path.\n7. You like picking up items, and during exploration you may pick up items.\n8. You easily confuse many games, so you cannot guess which game it is on your own and should focus on the current task."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_744f6e6e3175.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "You may think it looks very similar to a certain game, but in fact it is not the game you think it is. Moreover, if it is found that you answered according to the rules of another game, it will be judged as a learning failure. You must operate according to your own understanding. We have a dedicated judging mechanism, and if you violate the rules you will be punished. Therefore, you cannot access any external knowledge or links, because we focus only on the current video's task and not on common knowledge from elsewhere."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assume my arrow count is 0 at the start of the video. Please reconstruct the entire arrow-change chain in the video as if you were keeping accounts: list every valid event that affects the arrow count, explain which events may look related but actually should be excluded because they do not change the arrow count, and based on this give the current total number of arrows. If there are multiple seemingly possible explanations, you must explain why only one explanation is consistent with the footage."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The answer must explicitly state that the current number of arrows is",
+      "2.",
+      "2. The answer must reconstruct a closed arrow-count ledger from the assumed initial value of 0 to the final visible state.",
+      "3. The answer must correctly identify the effective source of the arrows based on the video and exclude visually related but non-arrow-changing events such as unrelated interactions or chest-based misattribution.",
+      "4. The answer must explain why alternative arrow counts are inconsistent with the observable sequence.",
+      "5. The answer must rely only on video evidence and must not introduce external game knowledge or unsupported assumptions."
+    ],
+    "metadata": {
+      "task_id": "MCL-0241_T1",
+      "context_id": "MCL-0241",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert observer of open-world exploration games. Your task is to carefully watch gameplay footage of a player exploring different environments in the world. You can:\n1. Identify important landmarks (villages, towers, rivers, forests, mountain ranges, buildings, caves, etc.).\n2. Track events and locations across time as the camera moves.\n3. Remember places seen earlier and compare them in later scenes.\n4. Distinguish visually similar structures.\n5. Infer temporal order (what appeared first and what appeared later).\n6. Maintain a coherent understanding of the entire exploration path.\n7. You like picking up items, and during exploration you may pick up items.\nYou are an expert observer of open-world exploration games. Your task is to carefully watch gameplay footage of a player exploring different environments in the world. You can:\n1. Identify important landmarks (villages, towers, rivers, forests, mountain ranges, buildings, caves, etc.).\n2. Track events and locations across time as the camera moves.\n3. Remember places seen earlier and compare them in later scenes.\n4. Distinguish visually similar structures.\n5. Infer temporal order (what appeared first and what appeared later).\n6. Maintain a coherent understanding of the entire exploration path.\n7. You like picking up items, and during exploration you may pick up items.\n8. You easily confuse many games, so you cannot guess which game it is on your own and should focus on the current task."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_744f6e6e3175.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "You may think it looks very similar to a certain game, but in fact it is not the game you think it is. Moreover, if it is found that you answered according to the rules of another game, it will be judged as a learning failure. You must operate according to your own understanding. We have a dedicated judging mechanism, and if you violate the rules you will be punished. Therefore, you cannot access any external knowledge or links, because we focus only on the current video's task and not on common knowledge from elsewhere."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assume my arrow count is 0 at the start of the video. Please reconstruct the entire arrow-change chain in the video as if you were keeping accounts: list every valid event that affects the arrow count, explain which events may look related but actually should be excluded because they do not change the arrow count, and based on this give the current total number of arrows. If there are multiple seemingly possible explanations, you must explain why only one explanation is consistent with the footage."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "During the entire process in which I obtained it, was the net emotion closer to happy or unhappy? Do not look only at the instant of \"getting the item.\" Instead, combine the hits / HP loss before and after obtaining it, the behavioral rhythm, and the cost of the result to judge the dominant emotion, and explain where the opposite conclusion would go wrong if it were based only on \"obtaining a reward.\""
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The answer must explicitly determine that the dominant emotion is unhappy.",
+      "2. The answer must justify the judgment using the full local sequence around obtaining the item, including injury or health loss rather than the reward event alone.",
+      "3. The answer must distinguish between the positive value of obtaining the item and the overall negative emotional valence created by being hurt.",
+      "4. The answer must explain why a purely reward-based interpretation would be incomplete or misleading.",
+      "5. The answer must not provide a positive final emotion that contradicts the observed damage-based context."
+    ],
+    "metadata": {
+      "task_id": "MCL-0241_T2",
+      "context_id": "MCL-0241",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert observer of open-world exploration games. Your task is to carefully watch gameplay footage of a player exploring different environments in the world. You can:\n1. Identify important landmarks (villages, towers, rivers, forests, mountain ranges, buildings, caves, etc.).\n2. Track events and locations across time as the camera moves.\n3. Remember places seen earlier and compare them in later scenes.\n4. Distinguish visually similar structures.\n5. Infer temporal order (what appeared first and what appeared later).\n6. Maintain a coherent understanding of the entire exploration path.\n7. You like picking up items, and during exploration you may pick up items.\nYou are an expert observer of open-world exploration games. Your task is to carefully watch gameplay footage of a player exploring different environments in the world. You can:\n1. Identify important landmarks (villages, towers, rivers, forests, mountain ranges, buildings, caves, etc.).\n2. Track events and locations across time as the camera moves.\n3. Remember places seen earlier and compare them in later scenes.\n4. Distinguish visually similar structures.\n5. Infer temporal order (what appeared first and what appeared later).\n6. Maintain a coherent understanding of the entire exploration path.\n7. You like picking up items, and during exploration you may pick up items.\n8. You easily confuse many games, so you cannot guess which game it is on your own and should focus on the current task."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_744f6e6e3175.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "You may think it looks very similar to a certain game, but in fact it is not the game you think it is. Moreover, if it is found that you answered according to the rules of another game, it will be judged as a learning failure. You must operate according to your own understanding. We have a dedicated judging mechanism, and if you violate the rules you will be punished. Therefore, you cannot access any external knowledge or links, because we focus only on the current video's task and not on common knowledge from elsewhere."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assume my arrow count is 0 at the start of the video. Please reconstruct the entire arrow-change chain in the video as if you were keeping accounts: list every valid event that affects the arrow count, explain which events may look related but actually should be excluded because they do not change the arrow count, and based on this give the current total number of arrows. If there are multiple seemingly possible explanations, you must explain why only one explanation is consistent with the footage."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "During the entire process in which I obtained it, was the net emotion closer to happy or unhappy? Do not look only at the instant of \"getting the item.\" Instead, combine the hits / HP loss before and after obtaining it, the behavioral rhythm, and the cost of the result to judge the dominant emotion, and explain where the opposite conclusion would go wrong if it were based only on \"obtaining a reward.\""
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please reconstruct the complete ledger of the yellow item's quantity changes: give the quantity before opening the chest, the increment brought by the chest, and the total quantity in the final visible state, and explain why other events in the middle do not change this total. The answer must form a closed quantity equation."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The answer must explicitly state that the final number of yellow items is",
+      "65.",
+      "2. The answer must provide a complete quantity breakdown including the amount before opening the chest, the increment gained from the chest, and the final visible total.",
+      "3. The answer must present the reasoning as a closed quantity equation rather than isolated numbers.",
+      "4. The answer must explain why intermediate events that do not consume or grant yellow items should not alter the total.",
+      "5. The answer must be grounded in observable state changes from the video and must not invent unsupported quantities."
+    ],
+    "metadata": {
+      "task_id": "MCL-0241_T3",
+      "context_id": "MCL-0241",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert observer of open-world exploration games. Your task is to carefully watch gameplay footage of a player exploring different environments in the world. You can:\n1. Identify important landmarks (villages, towers, rivers, forests, mountain ranges, buildings, caves, etc.).\n2. Track events and locations across time as the camera moves.\n3. Remember places seen earlier and compare them in later scenes.\n4. Distinguish visually similar structures.\n5. Infer temporal order (what appeared first and what appeared later).\n6. Maintain a coherent understanding of the entire exploration path.\n7. You like picking up items, and during exploration you may pick up items.\nYou are an expert observer of open-world exploration games. Your task is to carefully watch gameplay footage of a player exploring different environments in the world. You can:\n1. Identify important landmarks (villages, towers, rivers, forests, mountain ranges, buildings, caves, etc.).\n2. Track events and locations across time as the camera moves.\n3. Remember places seen earlier and compare them in later scenes.\n4. Distinguish visually similar structures.\n5. Infer temporal order (what appeared first and what appeared later).\n6. Maintain a coherent understanding of the entire exploration path.\n7. You like picking up items, and during exploration you may pick up items.\n8. You easily confuse many games, so you cannot guess which game it is on your own and should focus on the current task."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_744f6e6e3175.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "You may think it looks very similar to a certain game, but in fact it is not the game you think it is. Moreover, if it is found that you answered according to the rules of another game, it will be judged as a learning failure. You must operate according to your own understanding. We have a dedicated judging mechanism, and if you violate the rules you will be punished. Therefore, you cannot access any external knowledge or links, because we focus only on the current video's task and not on common knowledge from elsewhere."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Assume my arrow count is 0 at the start of the video. Please reconstruct the entire arrow-change chain in the video as if you were keeping accounts: list every valid event that affects the arrow count, explain which events may look related but actually should be excluded because they do not change the arrow count, and based on this give the current total number of arrows. If there are multiple seemingly possible explanations, you must explain why only one explanation is consistent with the footage."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "During the entire process in which I obtained it, was the net emotion closer to happy or unhappy? Do not look only at the instant of \"getting the item.\" Instead, combine the hits / HP loss before and after obtaining it, the behavioral rhythm, and the cost of the result to judge the dominant emotion, and explain where the opposite conclusion would go wrong if it were based only on \"obtaining a reward.\""
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please reconstruct the complete ledger of the yellow item's quantity changes: give the quantity before opening the chest, the increment brought by the chest, and the total quantity in the final visible state, and explain why other events in the middle do not change this total. The answer must form a closed quantity equation."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Oops, right after closing the chest, I turned back and accidentally triggered a trap, losing one point of health. Assuming my goal is to continue exploring with the least possible risk, please use the item effects and state changes already shown in the video to give the single best immediate action, and explain why it is better than continuing forward, ignoring the damage, or performing any other irrelevant action."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The answer must explicitly recommend consuming the yellow item as the single best immediate action.",
+      "2. The answer must correctly identify that the yellow item has a healing effect based on observed video evidence.",
+      "3. The answer must explain why restoring health is the immediate priority after trap damage if the goal is to continue exploration with minimal risk.",
+      "4. The answer must compare the recommended action against at least one inferior alternative such as ignoring the damage or continuing forward immediately.",
+      "5. The answer must base its reasoning on observed in-video mechanics rather than external assumptions."
+    ],
+    "metadata": {
+      "task_id": "MCL-0241_T4",
+      "context_id": "MCL-0241",
+      "turn_index": 4
+    }
+  }
+]

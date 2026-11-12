@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_001",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/brandmanagement-itchotels-150823162717-lva1-app6892_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/brandmanagement-itchotels-150823162717-lva1-app6892_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-1-1024.jpg",
+        "sha256": "3e7d50f248ec2c426d31bb6e36bc341d95f3f1ed21ea842e722f44accad221c6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-3-1024.jpg",
+        "sha256": "51153a33b993795ae484f7b49b6a9a490578cf33d389cdb6396bb1bb58632702",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-4-1024.jpg",
+        "sha256": "061c00a5dea056a39aeae699a9808fee9bc796e8958021831a29f125578be6d5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-6-1024.jpg",
+        "sha256": "4d3f1d8ee00472223a3e9ccfc670bb727be752e47c7e37b1780c6be21a4b3056",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-8-1024.jpg",
+        "sha256": "a38d7decf40730aed8ca612275c48e9b1ae4df66e30f7f13def9acdc387998f2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-10-1024.jpg",
+        "sha256": "9ddbacd9e8ca0b3f84b8b4eba8eb0bcec2aff90f9a25c52c3a668949d1972bf4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-11-1024.jpg",
+        "sha256": "561d542bf74c349c6d1ac07c46b1a5bf2b3f7e3bebd85c7b9addd30b4277491e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-13-1024.jpg",
+        "sha256": "82e7c7662e6a5656b1efb4f606555c768bbe70a074be0ad2ba066b4b98bc6ba6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-15-1024.jpg",
+        "sha256": "b28a3fa6aa300d04e7c7ff2bff8822160344526457635c61de0b6ba62b030aa7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-17-1024.jpg",
+        "sha256": "3ed24047b1891e89e206cca6161c602fd6fe497901429ddef4aa97a576be2cf9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-18-1024.jpg",
+        "sha256": "9367de0d117f62a2ce6bfd856aa2aaf79a8b90c6b0c02e880b864c97269ed86e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/brandmanagement-itchotels-150823162717-lva1-app6892_95/brand-management-itc-hotels-20-1024.jpg",
+        "sha256": "f1c428f2c2171be376fe84940e8a198637232e7d56045c232e46b343a0bab9f2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

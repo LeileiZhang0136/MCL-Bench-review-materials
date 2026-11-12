@@ -1,0 +1,39 @@
+{
+  "release_scope": "representative_examples",
+  "case_count": 60,
+  "task_count": 174,
+  "serialized_rubric_entry_count": 1163,
+  "source_track_counts": {
+    "expert": 43,
+    "synthetic": 17
+  },
+  "category_counts": {
+    "Rule Learning & Complex Reasoning": 15,
+    "Temporal Dynamics & Environmental Interaction": 15,
+    "Evidence Integration & Structured Auditing": 15,
+    "Expert Standards & Scenario Decision-Making": 15
+  },
+  "subcategory_count": 20,
+  "subcategory_counts": {
+    "Agent Behavior": 3,
+    "Assembly Steps": 3,
+    "Charts & Numbers": 3,
+    "Daily Rules": 3,
+    "Device Manuals": 3,
+    "Evidence Ledger": 3,
+    "Exam Scoring": 3,
+    "Forms & Receipts": 3,
+    "Game Play": 3,
+    "Human Motion": 3,
+    "Layouts & Maps": 3,
+    "Math & Code": 3,
+    "Medical Grading": 3,
+    "Navigation": 3,
+    "Puzzle Games": 3,
+    "Repair Help": 3,
+    "Sports Actions": 3,
+    "Text Logic": 3,
+    "Visual Patterns": 3,
+    "Work Scenes": 3
+  }
+}

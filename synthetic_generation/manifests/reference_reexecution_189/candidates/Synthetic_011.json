@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_011",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:futureofbangladeshcricket-150801155131-lva1-app6892_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "futureofbangladeshcricket-150801155131-lva1-app6892_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-1-1024.jpg",
+        "sha256": "3eaa9b90ddd40883a1d54123590df556ee54e11776903f4d8fa8dc76e825c904",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-3-1024.jpg",
+        "sha256": "f9101c84c4e88b2765f235592413825fe1ad23b4071c09b018ee359c2ae8418a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-4-1024.jpg",
+        "sha256": "5b385baa8cf35b62e7cd721f9b206a9898b24e811b9e5184c527f0b607306fe1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-6-1024.jpg",
+        "sha256": "992f6529660fc5a3df4aa10f95831591701073fcfeb5cf5d852b612cb2f7bd58",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-8-1024.jpg",
+        "sha256": "0092112945bd6619f57e06e0df351897eb1f3fdc30e886adef6ee794e079b62a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-10-1024.jpg",
+        "sha256": "7f3717fd645ada626300a881768dfb3ede267e1b4ec8afb339d91ba4a9357049",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-11-1024.jpg",
+        "sha256": "13a33c3e7e863c63638f758e3e4977985786d4e2ea9c107017b51c0ce230dc58",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-13-1024.jpg",
+        "sha256": "a67a00bee7826993f400f0fa4fe453b96f9d69b442d05a711cff66acf67d1c5c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-15-1024.jpg",
+        "sha256": "c2eee7763de1927ffe05c52639dadcc6ca52cf793a6b24e2884f51288e90ded5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-17-1024.jpg",
+        "sha256": "402613916e8696f084a00510e58fe8a4883d78eafe81878897093c622c717e4c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-18-1024.jpg",
+        "sha256": "c8cf86da11fcf923762c81d94888076f4785ddfb140016fdee9888375fc658d3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/futureofbangladeshcricket-150801155131-lva1-app6892_95/bangladesh-cricket-team-20-1024.jpg",
+        "sha256": "4f1e38338d588de114322c049beedd51f60fb5ca2aae654effc15c229acd6300",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

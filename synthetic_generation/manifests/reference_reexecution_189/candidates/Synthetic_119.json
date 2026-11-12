@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_119",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:caltraincapacitymountainview1-150701205750-lva1-app6891_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "caltraincapacitymountainview1-150701205750-lva1-app6891_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page0.jpg",
+        "sha256": "0a5dfe72df42634445a01b3e6cce9dac109455f6b1044b74720c38262f8a8956",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page3.jpg",
+        "sha256": "18b397f2a7695958c3a4000a67ffe7366fc6f0d2e100370f2a5dd5459682dc90",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page5.jpg",
+        "sha256": "c91d35c45e117b4d89c30c85a1a977aaace50a2626e18466f0bcea5c74cd592d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page8.jpg",
+        "sha256": "f5c93ffa137b4c1fe9667b89a0378358499df6890cc8880e93777a5e310d230a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page11.jpg",
+        "sha256": "6757e8c3d9c4d1e373710841e3e48193c714c076e2348221ffade43f44dbcf82",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page14.jpg",
+        "sha256": "fd026021a7c5f57d8c6dbc3206d2724d87382d0d0622550e46165408a06f832d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page16.jpg",
+        "sha256": "4eaa63763d27551c279ffa221aa82d66218f92a2f12ca53f249e5fa52e4c6a37",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page19.jpg",
+        "sha256": "e985943b931392a05c2446a8364f3b3852d762f48e32b4c3e7c5badca9d5bcdd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page22.jpg",
+        "sha256": "4b2956a262ece93e459c83eaaa9c155caf94d982520957d50b7b8505a13b2cbb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page25.jpg",
+        "sha256": "cc824a21628655722cd5d383e539e175cee8ecbaa21702cdc7026dedb34db7d7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page27.jpg",
+        "sha256": "67c2396693518fda052935b9d019e94fdd5d16168c48fa2a40e1c5eacb5a8206",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/caltraincapacitymountainview1-150701205750-lva1-app6891_95/caltraincapacitymountainview1-150701205750-lva1-app6891_95_page30.jpg",
+        "sha256": "97f7eecf356d7cf3f02c49eea3b2a52fc12c7e977988c842ce6434b40c098c15",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source_track": "synthetic",
+  "category": "Temporal Dynamics & Environmental Interaction",
+  "subcategory": "Navigation",
+  "count": 2,
+  "cases": [
+    {
+      "case_id": "MCL-0083",
+      "directory": "MCL-0083_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0067",
+      "directory": "MCL-0067_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

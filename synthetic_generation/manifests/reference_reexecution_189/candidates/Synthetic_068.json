@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_068",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-1-1024.jpg",
+        "sha256": "679c6642e90b05c9f53b5d57c4d7963fccbf62b8b40eec18d516272552d43cfe",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-3-1024.jpg",
+        "sha256": "0763faf9e74c7006f2b4ea6c8c9e44823a3ffe278298d9532a7037b64736b43f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-4-1024.jpg",
+        "sha256": "fb73d88d739d4d5d69f55f5e4ad5181ead3eb3d6b1f95c3ae7c16c97d774a56b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-6-1024.jpg",
+        "sha256": "e18c61d3759e7d76ec66693768f1b733db26a969553ba907d07701b6802fec10",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-8-1024.jpg",
+        "sha256": "af36ad4f064c058c113e45231451f40d486331483d5a37c1fb0361c609447d98",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-10-1024.jpg",
+        "sha256": "0c48c289a8344736aaf55a1b9142e4288797313acb3555348c928904130e9806",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-11-1024.jpg",
+        "sha256": "5a60d3dd0d2dbdfeb5a931b3a426f09414b7f335549760b4f55764c22f769380",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-13-1024.jpg",
+        "sha256": "097d354df785586186613379f40446d46d04bb2081f97fc226b32739ed650132",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-15-1024.jpg",
+        "sha256": "820c39d8f49b19452a3285506a7d4d042faca01e545bd129eb665758279e3033",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-17-1024.jpg",
+        "sha256": "e358eba623a2cea21b42776cb2da7e9e921657217e52e3256e1eef4ecdc24385",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-18-1024.jpg",
+        "sha256": "527fe7360f338563cb71ae224c7113bb86f2b29ab405a0382c4daffd54e786d4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/7tipstoleadthedigitalbankingrevolutionslideshare-140902162730-phpapp01_95/7-tips-to-lead-the-digital-banking-revolution-20-1024.jpg",
+        "sha256": "ac9dc5a31e4102c2450548ab026ac1228dc3499d8e93db9ffcd71c2677664552",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

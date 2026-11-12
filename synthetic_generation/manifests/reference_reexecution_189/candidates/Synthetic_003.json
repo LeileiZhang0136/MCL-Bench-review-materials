@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_003",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:skivedigitalbeauty-111216075620-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "skivedigitalbeauty-111216075620-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-1-1024.jpg",
+        "sha256": "aee2779018446f963c08c3def1fb2202fdc9cef8410775ab97a2b11ef5f7c666",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-3-1024.jpg",
+        "sha256": "f1a34ce807808d9c8f9ff768b78bfdae8b1a02be6059322d5dfa6d2166279a60",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-4-1024.jpg",
+        "sha256": "989b87da2313613fb7ee90c3466f964ded28833525151bfb14cdb3f2cc1132bf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-6-1024.jpg",
+        "sha256": "e56b47b14f1a84ddfb0f8974888ec0aaf908f92332a014c86d6a82b393d14e07",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-8-1024.jpg",
+        "sha256": "c948733d77d4d09ef93e65a41a787babd46e5c31345cc1ce5da6bba67458a364",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-10-1024.jpg",
+        "sha256": "ebd76b4d49a008a85609ec96770f72f2841c3d801c2e57c54a5971bf5b1f9754",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-11-1024.jpg",
+        "sha256": "a4ada6c14da977198c228e62e6a56a390688a86c71ecd6b2d322aa3e88b1430e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-13-1024.jpg",
+        "sha256": "4b45398ed5e460e7e918a812c652b91bebfac25c1e8574aa8f9220529b20c1ce",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-15-1024.jpg",
+        "sha256": "61ddfc3a2c635b1dcdd48786b7da324c1b0965c4f5aa334ce1135e345bb6e93a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-17-1024.jpg",
+        "sha256": "f1e1b4d01918e5a2f74c38cf070f0fa6217f82f7e66e842f58a362f952381738",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-18-1024.jpg",
+        "sha256": "567c4910cc57f117c107d02234d855ef4c1e03e73e27a634325015952ff6f3b4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/skivedigitalbeauty-111216075620-phpapp01_95/the-world-of-digital-beauty-20-1024.jpg",
+        "sha256": "2811de36b57f4cb65138e9807aed0fef6d3015ad5ded858abd22cc42e0f16cd6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

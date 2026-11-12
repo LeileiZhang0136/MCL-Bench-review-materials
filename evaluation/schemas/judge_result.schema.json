@@ -1,0 +1,86 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MCL-Bench judge result",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "task_id",
+    "inference_model",
+    "judge_model",
+    "grading_rationale",
+    "requirement_status",
+    "score",
+    "record_status",
+    "stored_requirement_status",
+    "stored_score",
+    "serialized_rubric_entry_count",
+    "logical_rubric_count_at_judging"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^MCL-[0-9]{4}$"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^MCL-[0-9]{4}_T[0-9]+$"
+    },
+    "inference_model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "judge_model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "grading_rationale": {
+      "type": "string"
+    },
+    "requirement_status": {
+      "type": "array",
+      "items": {
+        "enum": ["yes", "no"]
+      }
+    },
+    "score": {
+      "enum": [0, 1]
+    },
+    "record_status": {
+      "enum": [
+        "ok",
+        "corrected",
+        "inference_error",
+        "judge_error"
+      ]
+    },
+    "stored_requirement_status": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "stored_score": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "enum": [
+        0,
+        1,
+        null
+      ]
+    },
+    "serialized_rubric_entry_count": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "logical_rubric_count_at_judging": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    }
+  }
+}

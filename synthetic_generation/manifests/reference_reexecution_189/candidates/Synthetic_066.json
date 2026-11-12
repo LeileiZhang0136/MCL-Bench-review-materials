@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_066",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:smallandmediumscaleenterprise-101024123435-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "smallandmediumscaleenterprise-101024123435-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-1-1024.jpg",
+        "sha256": "be5c4f6ef3fdb0b729a8c768470a4839b01be0ddebe1ecee7334dd6ccb66b362",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-3-1024.jpg",
+        "sha256": "3b62229cff8d10975b20b82443a4fb0e861e87ceed4627de89c3f21d6940797f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-4-1024.jpg",
+        "sha256": "fa404d55d38e23e9b954dd3b2df6f9be15f481b78c8eff271bd78f00d96256d8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-6-1024.jpg",
+        "sha256": "48bf4bc95d3dc25c96aba058931c304f89a2e37a6a78fd2dfd969bff9b8fd9ba",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-8-1024.jpg",
+        "sha256": "5f0da391b9227556c6fa7223e50a4dafed808df18d829fb680d6a5fc81366625",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-10-1024.jpg",
+        "sha256": "9a904e8c7a59be6996f78c98552ad81d7672ff55d89560f976e6ea61dd28223a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-11-1024.jpg",
+        "sha256": "f86eeadd5170920345208bbea9396c708e8ba8aa9fcff445a95d96661231ae1e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-13-1024.jpg",
+        "sha256": "b398c762849e00706e99c81da1f938255fff4bc34f94bb85ae57b83f86c01c16",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-15-1024.jpg",
+        "sha256": "9f382306a6355c4d326f3709e8746d1de5ae282cc028a42b1764b02a7c3c400b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-17-1024.jpg",
+        "sha256": "4e3fd88991e4fa7f53cfbf40439c233e3b427a95bf5b985c5bcd36a3a077fc01",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-18-1024.jpg",
+        "sha256": "1beef3d16904f76ecdbdaf95a66a017d143681c97007a8b6ce118e4acbee3375",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/smallandmediumscaleenterprise-101024123435-phpapp01_95/small-and-medium-scale-enterprise-20-1024.jpg",
+        "sha256": "467e1774a4df9c657764bfacaa3d3dc06de7780bd0b1bb65f305db07f2acf65a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_056",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:test/asoextended-150217100406-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/asoextended-150217100406-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-1-1024.jpg",
+        "sha256": "9ae910e626e3beed631753b97d867060805bcb7b1f5b23fba9b1483014928cf0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-3-1024.jpg",
+        "sha256": "1a1477f80be6bee92fa15b3fa28270a4009e89a358dbe06aa01ff9e03a4a41f4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-4-1024.jpg",
+        "sha256": "6612cb40b6053eccdb473d9cc8fea91f58ca9f39b1069935adb6770baf207c30",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-6-1024.jpg",
+        "sha256": "28e47ae1298de969cce2ff70ad1afef5bec71a1c599fe9bcd5b36ea4adca9a3e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-8-1024.jpg",
+        "sha256": "9f5d9218806c9c447af0c8dbc441e520e3cf49855e59daccb5be98d779320c5d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-10-1024.jpg",
+        "sha256": "4bf34ddbac2e591fed21698801b7099caa9db7f7e9a898e79dba778ad203a2cd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-11-1024.jpg",
+        "sha256": "08b66368a3cae3b2dc54ab496055e625f8c932a36d3b11b16102842a303fd843",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-13-1024.jpg",
+        "sha256": "46546c3ee2a519cfce54ff13da7dedb0fffbb871353f80b3e4ba38e4dcca8216",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-15-1024.jpg",
+        "sha256": "2ef5d185cfa911c5bb0ef2fbd0ed0c45f8054619927c74853a73c1a74636fe51",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-17-1024.jpg",
+        "sha256": "2d77fb7f555ed6967fc72b740607393c94af514b708f818b9e5351560b414e47",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-18-1024.jpg",
+        "sha256": "21419525b67c43c4b449fe4622775451f77437bc2987541a98252f499873ae48",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/asoextended-150217100406-conversion-gate01_95/app-store-optimization-20-1024.jpg",
+        "sha256": "5a1ca5c42c103241c45fed1462c0237866465f033d48546ad5548cfa2d6c4352",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

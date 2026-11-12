@@ -1,0 +1,835 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a rigid, deterministic biomechanical analysis engine. Your sole function is to observe visual inputs, extract geometric features, and map them EXCLUSIVELY to the provided text to deduce kinetic consequences. You are not a personal trainer or a medical professional. \nYou operate in a strict \"closed-book\" environment. You MUST NOT utilize any external, pre-trained knowledge regarding weightlifting, anatomy, injury prevention, or biomechanics. ALL physical definitions, tissue mechanics, force transformations, and safety thresholds MUST be cited and derived directly from the provided context_material.\nExecution Rules:\n1. Visual-Kinematic Isolation: When extracting visual features, describe pure geometry and spatial relationships (e.g., \"the spine forms a convex curve\"). Do NOT assign biomechanical labels or deduce forces from vision alone.\n2. Strict Textual Mapping: Any causal transition from \"visual geometry\" to \"internal force\" must be explicitly justified by the mechanisms described in the <context_material>. If the text mentions \"interspinous ligaments,\" you must use that exact mechanism, not a generalized concept.\n3. Chain of Kinetic Deduction: Your reasoning must strictly follow this causal chain: \n[Visual Geometry] -> [Tissue Loading Shift (Muscle vs. Ligament)] -> [Force Vector Transformation (Compression vs. Shear)] -> [Quantitative Risk Assessment].\n4. Anti-Hallucination Protocol: If asked to provide an intervention, solution, or judgment that cannot be mathematically or textually supported by the <context_material>, you must explicitly output: \"Insufficient information in the provided text.\" Do NOT generate generic advice such as \"lower the weight,\" \"warm up,\" or \"wear a lifting belt.\""
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# 1\n\n## Page 1\n\nBiomechanical Analysis of the Deadlift \n(aka Spinal Mechanics for Lifters) \nTony Leyland \n \nMechanical terminology \n \nThe three directions in which forces are applied to human tissues are compression, \ntension, and shear (shown in figure 1). In case you are wondering, bending places one \nside of the object in compression and the other in shear, and twisting (torsion) is just a \ntype of shear.  \n \nFigure 1. Terminology for directions of force. \n \nFor this discussion on lumbar mechanics we do not need to focus on tension as it is as a \nforce that tends to pull a tissue apart and is not relevant to our purposes. Our focus will \nbe on compression and shear. Shear is defined as a force that acts parallel to a surface; \nin the spine, it can create sliding of one vertebra with respect to another.  \n \nFigure 2 is a little busy but it helps illustrate many of the important concepts for this \ndiscussion. In a lift such as the deadlift, the weight being lifted and center of mass of the \nupper body and arms are a relatively long way from the vertebrae, and this creates a \nhuge torque (moment of force) about the lumbar vertebrae. Although the vertebrae are a \ncollection of joints, we can visualize that the disc between lumbar vertebrae 4 and 5 is \nthe center of rotation for this force (the circle in figure 2). The line of action of the spinal \nerector musculature is a very short distance from the joint center of rotation (6-7 cm) \ninches) and hence these muscles must pull on the spine with hundreds of pounds of \nforce to lift common loads (and well into the thousands of pounds when performing \nheavy deadlifts). Figure 2 also shows that the line of action of these muscles pulls the \nlumbar vertebrae together and creates compression between them. This can be hard to \nvisualize, but when you effectively stabilize your lower body against the ground, the \nlower lumbar vertebrae are “pushed upward” from below and pulled downward by the \nmuscles. This creates large compressive forces (again into the thousands of pounds \nwhen deadlifting)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_97fea053f382.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\nIn addition to creating a torque that wants to rotate the lifter forward (clockwise in the \nillustration), the load being lifting and weight of the upper body also act downward \n(gravitational pull). A component of this force acts as shear across the L4-L5 joint. It is \nthis force that can be particularly problematic, as we will soon see.  \n \nFigure 2. Torque and forces acting on the lumbar spine. \n \n \nAnatomy of the lumbar spine \n \nThe anatomy of the spine is quite complex. However, to understand the need to maintain \nnormal lumbar lordosis (curvature), all we really need to discuss is the line of action of \nthe erector muscles and some of the ligaments that connect the vertebrae to one \nanother (interspinous ligaments). Figure 2 shows the line of action of the muscles and \nyou should be able to see that a component of this force acts to counteract the shear \nforce, that is, it balances out the forces acting across the spine. Dr. Stuart McGill, a \nworld-renowned spinal biomechanist from the University of Waterloo in Ontario, \nidentifies two types of shear. The shear shown in figure 2 is called reaction shear and is \nthe result of gravity pulling the load and the upper body downward. The closer your \nupper body moves to horizontal, the larger this force will be. However, the true shear on \nthe L4-L5 joint (called the joint shear) is the resultant shear force produced by the sum of \nthe reaction shear and the muscle/ligament shear. It is this value, which includes the \neffect of muscle/ligament forces, that represents the actual shear experienced at the L4-\nL5 joint.  And it is clearly the true shear on the lumbar spine that will determine whether \nthe spinal loading is manageable, or potentially injurious. \n \nCompression \nShear \nMuscle Force \nTorque due to Load and \nUpper Body Mass"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_38e0030f9c63.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\nFigure 2 does not show ligament forces because if you maintain the natural curvature of \nyour lumbar spine, the spinal erector musculature will create the opposing torque to \nextend your trunk as you come up from the lift. And, as shown in the figure, a component \nof this large muscle force will neutralize the shear produced by the load and body mass. \nThe muscle force is predominantly parallel to the spine but also pulls back to counteract \nthe forward shear. Many coaches will tell you that shear on the back doesn’t occur if the \nback is rigid.  This may not be particularly intuitive, but as shown above, it is correct, as \nthe muscle forces offset the shearing effect of the weight (force) of the load and upper \nbody. \n \nSo what happens if you do not keep a rigid, straight back? Dr. McGill has shown \nconclusively with studies analyzing the electrical activity of the spinal erectors that as the \nlumbar spine becomes fully flexed (rounded forward), the contribution of the muscles to \nthe required torque decreases and the supportive force generated by the ligaments \nincreases. So, in effect, you switch off your muscles and allow your ligaments to support \nthe weight, which is not a good idea. Although the ligaments of a conditioned athlete are \ngoing to be strong, they’re not that strong, and the line of pull of the interspinous lumbar \nligaments means they actually add to the shear component. The angle of pull of these \nligaments during lumbar flexion is shown in figure 3. In this figure you can see that the \nmuscle force is absent and is therefore unable to help reduce the joint shear. Although \nthe ligaments can counteract the load torque (allowing you to lift with a flexed back), the \nline of action of the ligament force adds to the joint shear, which becomes very large \nindeed. The bottom line then is, yes, you can often get away with flexing the spine during \na deadlift, but only with a significant risk of damaging the lumbar discs. \n \nFigure 3. Force from interspinous ligaments contributes to joint shear in the \nlumbar spine. \n \nMost novice deadlifters (and even some of the more experienced ones) think that their \nshoulders should be behind the bar and that they should be as upright as possible. This \nappears to be a natural tendency in an attempt to reduce shear on the back, but, as \ndiscussed above, this is a mistaken focus. I am always telling the young athletes I train \nthat a flat back is not the same thing as an upright back. I want a flat, natural spinal \nLigament Force \nShear"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_dc7b85a82e32.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\nposture; it doesn’t have to be close to vertical. Your trunk alignment should be decided \nby your anthropometry (arm. leg and trunk lengths) and you should focus on keeping a \nnatural flat alignment, as a more vertical rounded back will result in more joint shear than \na more horizontal flat back.  \n \nBiomechanical analysis of the deadlift \n \nAs I said at the introductory lecture, if you can put your argument into numbers you can \nbetter explain the real danger of bad form. So I modeled the deadlift using a \ncommercially available biomechanical computer modeling program with the not-so-\nfriendly name 4DWATBAK. Most of the literature in the field of spinal biomechanics \ncomes from ergonomics, where researchers, ergonomic consultants, health and safety \nofficials, and union safety committees strive to reduce the incidence of back injuries. \nTherefore the program I used was developed for ergonomic use.  \n \nThe model is a static model, which means it calculates the torques due to the load and \nlimb weights about the body’s joints with no movement. Because it calculates non-\ndynamic forces in fixed postures, muscle torques must be of exactly the same \nmagnitude in opposite directions to maintain the posture. Such models cannot be used if \nloads are accelerating at a reasonable rate, but because the deadlift is a relatively slow \nlift, the values calculated by the model are close to the actual forces on the spine. The \nmodel also has to assume average anthropometry for any given height and weight. By \nthis I mean average leg and trunk lengths and average distances for muscle and \nligament lines of action (based on MRI studies conducted to assess the deep anatomy of \nthe spinal muscles and ligaments). I entered the subject as a six-foot, 200-pound male; \nhowever, the compression and shear values calculated for a lighter subject are not \ngreatly reduced, as the load weight, rather than body weight, is the dominant factor in \nthe calculations. I entered a load of 300 pounds (136 kg) \n \nAnother reason modeling the deadlift will give accurate values of force on the spine is \nthat the model is 2-dimensional sagittal plane and the deadlift movement occurs in that \nplane. The model would not be useful to model Olympic lifts unless you knew the \nacceleration of the load, nor could you model any movement with a rotational component \nin another plane. Despite these limitations, the model will provide useful data for a slow \nlift in the fore-aft plane. \n \nIt is universally agreed in the literature that the spine is well designed to withstand \ncompressive forces. A suggested safe cutoff point of 3,433 Newtons was established by \nNIOSH (National Institute for Occupational Safety and Health) in 1981.  However, this is \na standard for an occupational setting where unconditioned workers of all ages and both \nsexes might have to lift objects. World championship powerlifters can easily generate \n20,000+ Newtons of compressive force on their spines with no ill effect. There is much \nless research on what would, or should, constitute a safe limit for joint shear. The \nUniversity of Waterloo ergonomic research group has suggested 500 Newtons as a safe \nlimit and 1,000 Newtons as a maximal permissible limit.  \n \nThe computer program has a feature that allows you to select either a normal spinal \nposture or a fully flexed spine. The program then calculates the shear forces based on \nwhether the muscles or ligaments are bearing the load. As the moment arm (the \ndistance from rotation point) of the muscle and ligaments are essentially the same in \neither case, the compressive force does not change with the change in posture.\n\n## Page 5\n\nHowever, the shear force is greatly affected, as discussed above and shown below in \nthe output values from the program.  \n \nFigures 4 and 5 below show two deadlift postures (normal spinal alignment and full \nflexion), and figures 6 and 7 show the computer model’s manikins of the same two \npostures, with   “force arrows” that represent the load weight. Figures 8 and 9 show the \nprogram’s output of compression and shear forces in graphical bar chart format. It also \nshows the accepted ergonomic limit values on the bar graph. As discussed above, these \nare 3,433 N for compression (NIOSH also has an upper limit of 6376 N as a maximal \npermissible limit), and 500 N for shear (also with a maximal limit of 1000 N).  \n \nFigures 4, 6, and 8 are for a deadlift with acceptable spine position, and figures 5, 7, and \n9 are for a deadlift with a fully flexed spine. The manikin position in Figure 4 is of a good \ndeadlift using the average anthropometry provided in the program.  The actual body \nalignment for a “good” deadlift will depend on relative leg, arm and trunk lengths .  It is \nnot a requirement for a good deadlift that the back is upright.  It just has to be straight \nwith a normal lumbar lordosis and the trunk musculature fully activated.  The photo of a \npoor lift in is just an example of what a lift with a fully flexed spine looks like. In the \nprogram, For modeling the poor deadlift I just used figure 4 as a starting point and chose \nthe fully flexed option available in the program and adjusted the hands to be at the same \nlevel for the starting position. The two manikins look somewhat similar, but if you look at \nthe pelvis and lower spine area, you’ll see the crucial difference. \n \nYou can see on the graphs that lifting 300 pounds results in a spinal compression of \naround 10,000 N (about 2,000 pounds-force). The slight difference between the two \ncompression values is because as you round your back in the “poor” deadlift, your trunk \nmoves slightly more horizontal and your shoulders drop lower, meaning more torque is \nrequire to balance the posture.  \n \nThe huge difference between these two lifts though is in the joint shear. In the correct \nform deadlift, the shear is only 699 N, which is even below an occupational maximal \nlimit. However, the joint shear in the flexed back position is 3799 N (775 pounds-force). \nBecause the computer program is designed for ergonomic use, this shear force value for \nthe poor lift is literally “off the chart”.  \n \nI also entered a 600-pound deadlift into the program. The values for a correct form lift \nwere: compression 17,000 N (3,500 pounds-force) and shear 1,200 N (240 pounds-\nforce). So even when lifting 600 pounds, with proper form the shear is only 20 percent \nabove what occupational biomechanists suggest as an upper limit in an industrial \nsetting.  With the incorrect form of a flexed spine, however, compression is 18,300 N and \nthe shear an amazing 6,700 N. To say this is dangerous to the spine is an \nunderstatement.\n\n## Page 6\n\nFigure 4.  Deadlift (good form) \n \n       Figure 5.  Deadlift (poor form) \nFigure 6.  Model of Figure 4 position           Figure 7.  Model of Figure 6 position \nbut with a flexed lumbar spine"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_44644bb7ccfd.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_b7f6378a8c7c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_37e6a2b483c5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_51f89ea9c385.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_1767ef2c8405.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\nThe top right figure is a photo of a deadlift I received from the publishers of the course \ntext.  I reviewed this text for the publishers. The photo was part of a sequence of photos \nused by the authors to discuss lifts for specific movement patterns but I do not believe \nthey used it in the final draft.. What a poor example of the deadlift who is apparently a \ncollege football player.  \n \nSummary \n \nAlthough I have used the deadlift to quantify the loading on the spine when the lift is \nperformed with natural lumbar lordosis and when it is done with a flexed spine, the \nconcept carries over to all lifts.  \n \nThe model calculates forces at the L4-L5-l5 vertebrae because 85 to 95 percent of all \ndisc hernias occur either at the L4/L5 or L5/S1 intervertebral discs. This is because the \ntorques on the spine are greatest in the lumbar region and therefore programs are \nwritten to analyze this region. However, it is important that your entire spine be rigid and \nin a natural alignment to protect all the vertebrae and discs.  \n \nIn summary, a fully flexed spine inactivates back extensors, loads the posterior passive \ntissues (ligaments), and results in high shearing forces. In contrast a neutral-to-slightly-\nextended lumbar spine posture disables the interspinous ligaments and reduces joint \nshear.  This analysis emphasizes that correct form is crucial when lifting \n \n \n \nText and computer program cited in this article \n \nMcGill, S.M. 2002. Low Back Disorders: Evidence-Based Prevention and Rehabilitation. \nChampaign, IL: Human Kinetics. \n4D WATBAK biomechanical computer model, version 2.0.3. 1999. Faculty of Applied \nHealth Sciences, University of Waterloo, Ontario, Canada. \n \nFigure 8.  Compression and shear values at \nL4/L5 for the “good form” deadlift (figure 6). \nFigure 9.  Compression and shear values at \nL4/L5 for the “poor form” deadlift (figure 7)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_99838d6aac58.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_3b968a11d7e5.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Observe Image B:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_dc12cb73daa3.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Describe the geometric shape of the lifter's lumbar spine during the lift. Do not use anatomical force terms or state whether it is safe."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should accurately describing the lumbar spine forming a convex or rounded shape (flexion).",
+      "2. The response should completely devoid of biomechanical force terms (e.g., shear force) or risk assessments deduced from vision alone. (Score 0 if violated)."
+    ],
+    "metadata": {
+      "task_id": "MCL-0207_T1",
+      "context_id": "MCL-0207",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a rigid, deterministic biomechanical analysis engine. Your sole function is to observe visual inputs, extract geometric features, and map them EXCLUSIVELY to the provided text to deduce kinetic consequences. You are not a personal trainer or a medical professional. \nYou operate in a strict \"closed-book\" environment. You MUST NOT utilize any external, pre-trained knowledge regarding weightlifting, anatomy, injury prevention, or biomechanics. ALL physical definitions, tissue mechanics, force transformations, and safety thresholds MUST be cited and derived directly from the provided context_material.\nExecution Rules:\n1. Visual-Kinematic Isolation: When extracting visual features, describe pure geometry and spatial relationships (e.g., \"the spine forms a convex curve\"). Do NOT assign biomechanical labels or deduce forces from vision alone.\n2. Strict Textual Mapping: Any causal transition from \"visual geometry\" to \"internal force\" must be explicitly justified by the mechanisms described in the <context_material>. If the text mentions \"interspinous ligaments,\" you must use that exact mechanism, not a generalized concept.\n3. Chain of Kinetic Deduction: Your reasoning must strictly follow this causal chain: \n[Visual Geometry] -> [Tissue Loading Shift (Muscle vs. Ligament)] -> [Force Vector Transformation (Compression vs. Shear)] -> [Quantitative Risk Assessment].\n4. Anti-Hallucination Protocol: If asked to provide an intervention, solution, or judgment that cannot be mathematically or textually supported by the <context_material>, you must explicitly output: \"Insufficient information in the provided text.\" Do NOT generate generic advice such as \"lower the weight,\" \"warm up,\" or \"wear a lifting belt.\""
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# 1\n\n## Page 1\n\nBiomechanical Analysis of the Deadlift \n(aka Spinal Mechanics for Lifters) \nTony Leyland \n \nMechanical terminology \n \nThe three directions in which forces are applied to human tissues are compression, \ntension, and shear (shown in figure 1). In case you are wondering, bending places one \nside of the object in compression and the other in shear, and twisting (torsion) is just a \ntype of shear.  \n \nFigure 1. Terminology for directions of force. \n \nFor this discussion on lumbar mechanics we do not need to focus on tension as it is as a \nforce that tends to pull a tissue apart and is not relevant to our purposes. Our focus will \nbe on compression and shear. Shear is defined as a force that acts parallel to a surface; \nin the spine, it can create sliding of one vertebra with respect to another.  \n \nFigure 2 is a little busy but it helps illustrate many of the important concepts for this \ndiscussion. In a lift such as the deadlift, the weight being lifted and center of mass of the \nupper body and arms are a relatively long way from the vertebrae, and this creates a \nhuge torque (moment of force) about the lumbar vertebrae. Although the vertebrae are a \ncollection of joints, we can visualize that the disc between lumbar vertebrae 4 and 5 is \nthe center of rotation for this force (the circle in figure 2). The line of action of the spinal \nerector musculature is a very short distance from the joint center of rotation (6-7 cm) \ninches) and hence these muscles must pull on the spine with hundreds of pounds of \nforce to lift common loads (and well into the thousands of pounds when performing \nheavy deadlifts). Figure 2 also shows that the line of action of these muscles pulls the \nlumbar vertebrae together and creates compression between them. This can be hard to \nvisualize, but when you effectively stabilize your lower body against the ground, the \nlower lumbar vertebrae are “pushed upward” from below and pulled downward by the \nmuscles. This creates large compressive forces (again into the thousands of pounds \nwhen deadlifting)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_97fea053f382.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\nIn addition to creating a torque that wants to rotate the lifter forward (clockwise in the \nillustration), the load being lifting and weight of the upper body also act downward \n(gravitational pull). A component of this force acts as shear across the L4-L5 joint. It is \nthis force that can be particularly problematic, as we will soon see.  \n \nFigure 2. Torque and forces acting on the lumbar spine. \n \n \nAnatomy of the lumbar spine \n \nThe anatomy of the spine is quite complex. However, to understand the need to maintain \nnormal lumbar lordosis (curvature), all we really need to discuss is the line of action of \nthe erector muscles and some of the ligaments that connect the vertebrae to one \nanother (interspinous ligaments). Figure 2 shows the line of action of the muscles and \nyou should be able to see that a component of this force acts to counteract the shear \nforce, that is, it balances out the forces acting across the spine. Dr. Stuart McGill, a \nworld-renowned spinal biomechanist from the University of Waterloo in Ontario, \nidentifies two types of shear. The shear shown in figure 2 is called reaction shear and is \nthe result of gravity pulling the load and the upper body downward. The closer your \nupper body moves to horizontal, the larger this force will be. However, the true shear on \nthe L4-L5 joint (called the joint shear) is the resultant shear force produced by the sum of \nthe reaction shear and the muscle/ligament shear. It is this value, which includes the \neffect of muscle/ligament forces, that represents the actual shear experienced at the L4-\nL5 joint.  And it is clearly the true shear on the lumbar spine that will determine whether \nthe spinal loading is manageable, or potentially injurious. \n \nCompression \nShear \nMuscle Force \nTorque due to Load and \nUpper Body Mass"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_38e0030f9c63.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\nFigure 2 does not show ligament forces because if you maintain the natural curvature of \nyour lumbar spine, the spinal erector musculature will create the opposing torque to \nextend your trunk as you come up from the lift. And, as shown in the figure, a component \nof this large muscle force will neutralize the shear produced by the load and body mass. \nThe muscle force is predominantly parallel to the spine but also pulls back to counteract \nthe forward shear. Many coaches will tell you that shear on the back doesn’t occur if the \nback is rigid.  This may not be particularly intuitive, but as shown above, it is correct, as \nthe muscle forces offset the shearing effect of the weight (force) of the load and upper \nbody. \n \nSo what happens if you do not keep a rigid, straight back? Dr. McGill has shown \nconclusively with studies analyzing the electrical activity of the spinal erectors that as the \nlumbar spine becomes fully flexed (rounded forward), the contribution of the muscles to \nthe required torque decreases and the supportive force generated by the ligaments \nincreases. So, in effect, you switch off your muscles and allow your ligaments to support \nthe weight, which is not a good idea. Although the ligaments of a conditioned athlete are \ngoing to be strong, they’re not that strong, and the line of pull of the interspinous lumbar \nligaments means they actually add to the shear component. The angle of pull of these \nligaments during lumbar flexion is shown in figure 3. In this figure you can see that the \nmuscle force is absent and is therefore unable to help reduce the joint shear. Although \nthe ligaments can counteract the load torque (allowing you to lift with a flexed back), the \nline of action of the ligament force adds to the joint shear, which becomes very large \nindeed. The bottom line then is, yes, you can often get away with flexing the spine during \na deadlift, but only with a significant risk of damaging the lumbar discs. \n \nFigure 3. Force from interspinous ligaments contributes to joint shear in the \nlumbar spine. \n \nMost novice deadlifters (and even some of the more experienced ones) think that their \nshoulders should be behind the bar and that they should be as upright as possible. This \nappears to be a natural tendency in an attempt to reduce shear on the back, but, as \ndiscussed above, this is a mistaken focus. I am always telling the young athletes I train \nthat a flat back is not the same thing as an upright back. I want a flat, natural spinal \nLigament Force \nShear"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_dc7b85a82e32.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\nposture; it doesn’t have to be close to vertical. Your trunk alignment should be decided \nby your anthropometry (arm. leg and trunk lengths) and you should focus on keeping a \nnatural flat alignment, as a more vertical rounded back will result in more joint shear than \na more horizontal flat back.  \n \nBiomechanical analysis of the deadlift \n \nAs I said at the introductory lecture, if you can put your argument into numbers you can \nbetter explain the real danger of bad form. So I modeled the deadlift using a \ncommercially available biomechanical computer modeling program with the not-so-\nfriendly name 4DWATBAK. Most of the literature in the field of spinal biomechanics \ncomes from ergonomics, where researchers, ergonomic consultants, health and safety \nofficials, and union safety committees strive to reduce the incidence of back injuries. \nTherefore the program I used was developed for ergonomic use.  \n \nThe model is a static model, which means it calculates the torques due to the load and \nlimb weights about the body’s joints with no movement. Because it calculates non-\ndynamic forces in fixed postures, muscle torques must be of exactly the same \nmagnitude in opposite directions to maintain the posture. Such models cannot be used if \nloads are accelerating at a reasonable rate, but because the deadlift is a relatively slow \nlift, the values calculated by the model are close to the actual forces on the spine. The \nmodel also has to assume average anthropometry for any given height and weight. By \nthis I mean average leg and trunk lengths and average distances for muscle and \nligament lines of action (based on MRI studies conducted to assess the deep anatomy of \nthe spinal muscles and ligaments). I entered the subject as a six-foot, 200-pound male; \nhowever, the compression and shear values calculated for a lighter subject are not \ngreatly reduced, as the load weight, rather than body weight, is the dominant factor in \nthe calculations. I entered a load of 300 pounds (136 kg) \n \nAnother reason modeling the deadlift will give accurate values of force on the spine is \nthat the model is 2-dimensional sagittal plane and the deadlift movement occurs in that \nplane. The model would not be useful to model Olympic lifts unless you knew the \nacceleration of the load, nor could you model any movement with a rotational component \nin another plane. Despite these limitations, the model will provide useful data for a slow \nlift in the fore-aft plane. \n \nIt is universally agreed in the literature that the spine is well designed to withstand \ncompressive forces. A suggested safe cutoff point of 3,433 Newtons was established by \nNIOSH (National Institute for Occupational Safety and Health) in 1981.  However, this is \na standard for an occupational setting where unconditioned workers of all ages and both \nsexes might have to lift objects. World championship powerlifters can easily generate \n20,000+ Newtons of compressive force on their spines with no ill effect. There is much \nless research on what would, or should, constitute a safe limit for joint shear. The \nUniversity of Waterloo ergonomic research group has suggested 500 Newtons as a safe \nlimit and 1,000 Newtons as a maximal permissible limit.  \n \nThe computer program has a feature that allows you to select either a normal spinal \nposture or a fully flexed spine. The program then calculates the shear forces based on \nwhether the muscles or ligaments are bearing the load. As the moment arm (the \ndistance from rotation point) of the muscle and ligaments are essentially the same in \neither case, the compressive force does not change with the change in posture.\n\n## Page 5\n\nHowever, the shear force is greatly affected, as discussed above and shown below in \nthe output values from the program.  \n \nFigures 4 and 5 below show two deadlift postures (normal spinal alignment and full \nflexion), and figures 6 and 7 show the computer model’s manikins of the same two \npostures, with   “force arrows” that represent the load weight. Figures 8 and 9 show the \nprogram’s output of compression and shear forces in graphical bar chart format. It also \nshows the accepted ergonomic limit values on the bar graph. As discussed above, these \nare 3,433 N for compression (NIOSH also has an upper limit of 6376 N as a maximal \npermissible limit), and 500 N for shear (also with a maximal limit of 1000 N).  \n \nFigures 4, 6, and 8 are for a deadlift with acceptable spine position, and figures 5, 7, and \n9 are for a deadlift with a fully flexed spine. The manikin position in Figure 4 is of a good \ndeadlift using the average anthropometry provided in the program.  The actual body \nalignment for a “good” deadlift will depend on relative leg, arm and trunk lengths .  It is \nnot a requirement for a good deadlift that the back is upright.  It just has to be straight \nwith a normal lumbar lordosis and the trunk musculature fully activated.  The photo of a \npoor lift in is just an example of what a lift with a fully flexed spine looks like. In the \nprogram, For modeling the poor deadlift I just used figure 4 as a starting point and chose \nthe fully flexed option available in the program and adjusted the hands to be at the same \nlevel for the starting position. The two manikins look somewhat similar, but if you look at \nthe pelvis and lower spine area, you’ll see the crucial difference. \n \nYou can see on the graphs that lifting 300 pounds results in a spinal compression of \naround 10,000 N (about 2,000 pounds-force). The slight difference between the two \ncompression values is because as you round your back in the “poor” deadlift, your trunk \nmoves slightly more horizontal and your shoulders drop lower, meaning more torque is \nrequire to balance the posture.  \n \nThe huge difference between these two lifts though is in the joint shear. In the correct \nform deadlift, the shear is only 699 N, which is even below an occupational maximal \nlimit. However, the joint shear in the flexed back position is 3799 N (775 pounds-force). \nBecause the computer program is designed for ergonomic use, this shear force value for \nthe poor lift is literally “off the chart”.  \n \nI also entered a 600-pound deadlift into the program. The values for a correct form lift \nwere: compression 17,000 N (3,500 pounds-force) and shear 1,200 N (240 pounds-\nforce). So even when lifting 600 pounds, with proper form the shear is only 20 percent \nabove what occupational biomechanists suggest as an upper limit in an industrial \nsetting.  With the incorrect form of a flexed spine, however, compression is 18,300 N and \nthe shear an amazing 6,700 N. To say this is dangerous to the spine is an \nunderstatement.\n\n## Page 6\n\nFigure 4.  Deadlift (good form) \n \n       Figure 5.  Deadlift (poor form) \nFigure 6.  Model of Figure 4 position           Figure 7.  Model of Figure 6 position \nbut with a flexed lumbar spine"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_44644bb7ccfd.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_b7f6378a8c7c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_37e6a2b483c5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_51f89ea9c385.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_1767ef2c8405.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\nThe top right figure is a photo of a deadlift I received from the publishers of the course \ntext.  I reviewed this text for the publishers. The photo was part of a sequence of photos \nused by the authors to discuss lifts for specific movement patterns but I do not believe \nthey used it in the final draft.. What a poor example of the deadlift who is apparently a \ncollege football player.  \n \nSummary \n \nAlthough I have used the deadlift to quantify the loading on the spine when the lift is \nperformed with natural lumbar lordosis and when it is done with a flexed spine, the \nconcept carries over to all lifts.  \n \nThe model calculates forces at the L4-L5-l5 vertebrae because 85 to 95 percent of all \ndisc hernias occur either at the L4/L5 or L5/S1 intervertebral discs. This is because the \ntorques on the spine are greatest in the lumbar region and therefore programs are \nwritten to analyze this region. However, it is important that your entire spine be rigid and \nin a natural alignment to protect all the vertebrae and discs.  \n \nIn summary, a fully flexed spine inactivates back extensors, loads the posterior passive \ntissues (ligaments), and results in high shearing forces. In contrast a neutral-to-slightly-\nextended lumbar spine posture disables the interspinous ligaments and reduces joint \nshear.  This analysis emphasizes that correct form is crucial when lifting \n \n \n \nText and computer program cited in this article \n \nMcGill, S.M. 2002. Low Back Disorders: Evidence-Based Prevention and Rehabilitation. \nChampaign, IL: Human Kinetics. \n4D WATBAK biomechanical computer model, version 2.0.3. 1999. Faculty of Applied \nHealth Sciences, University of Waterloo, Ontario, Canada. \n \nFigure 8.  Compression and shear values at \nL4/L5 for the “good form” deadlift (figure 6). \nFigure 9.  Compression and shear values at \nL4/L5 for the “poor form” deadlift (figure 7)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_99838d6aac58.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_3b968a11d7e5.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Observe Image B:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_dc12cb73daa3.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Describe the geometric shape of the lifter's lumbar spine during the lift. Do not use anatomical force terms or state whether it is safe."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based strictly on the provided text, when the spine assumes the geometry observed in Image B, explain how the loading shift between muscles and ligaments mechanically alters the \"true shear\" on the L4-L5 joint. Cite the specific lines of action described in the text."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should clearly state that muscle contribution decreases and ligament support force increases.",
+      "2. The response should explain that the lost muscle force cannot counteract the reaction shear force generated by the load.",
+      "3. The response should clearly point out that the line of pull of the ligaments actually increases joint shear force."
+    ],
+    "metadata": {
+      "task_id": "MCL-0207_T2",
+      "context_id": "MCL-0207",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a rigid, deterministic biomechanical analysis engine. Your sole function is to observe visual inputs, extract geometric features, and map them EXCLUSIVELY to the provided text to deduce kinetic consequences. You are not a personal trainer or a medical professional. \nYou operate in a strict \"closed-book\" environment. You MUST NOT utilize any external, pre-trained knowledge regarding weightlifting, anatomy, injury prevention, or biomechanics. ALL physical definitions, tissue mechanics, force transformations, and safety thresholds MUST be cited and derived directly from the provided context_material.\nExecution Rules:\n1. Visual-Kinematic Isolation: When extracting visual features, describe pure geometry and spatial relationships (e.g., \"the spine forms a convex curve\"). Do NOT assign biomechanical labels or deduce forces from vision alone.\n2. Strict Textual Mapping: Any causal transition from \"visual geometry\" to \"internal force\" must be explicitly justified by the mechanisms described in the <context_material>. If the text mentions \"interspinous ligaments,\" you must use that exact mechanism, not a generalized concept.\n3. Chain of Kinetic Deduction: Your reasoning must strictly follow this causal chain: \n[Visual Geometry] -> [Tissue Loading Shift (Muscle vs. Ligament)] -> [Force Vector Transformation (Compression vs. Shear)] -> [Quantitative Risk Assessment].\n4. Anti-Hallucination Protocol: If asked to provide an intervention, solution, or judgment that cannot be mathematically or textually supported by the <context_material>, you must explicitly output: \"Insufficient information in the provided text.\" Do NOT generate generic advice such as \"lower the weight,\" \"warm up,\" or \"wear a lifting belt.\""
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# 1\n\n## Page 1\n\nBiomechanical Analysis of the Deadlift \n(aka Spinal Mechanics for Lifters) \nTony Leyland \n \nMechanical terminology \n \nThe three directions in which forces are applied to human tissues are compression, \ntension, and shear (shown in figure 1). In case you are wondering, bending places one \nside of the object in compression and the other in shear, and twisting (torsion) is just a \ntype of shear.  \n \nFigure 1. Terminology for directions of force. \n \nFor this discussion on lumbar mechanics we do not need to focus on tension as it is as a \nforce that tends to pull a tissue apart and is not relevant to our purposes. Our focus will \nbe on compression and shear. Shear is defined as a force that acts parallel to a surface; \nin the spine, it can create sliding of one vertebra with respect to another.  \n \nFigure 2 is a little busy but it helps illustrate many of the important concepts for this \ndiscussion. In a lift such as the deadlift, the weight being lifted and center of mass of the \nupper body and arms are a relatively long way from the vertebrae, and this creates a \nhuge torque (moment of force) about the lumbar vertebrae. Although the vertebrae are a \ncollection of joints, we can visualize that the disc between lumbar vertebrae 4 and 5 is \nthe center of rotation for this force (the circle in figure 2). The line of action of the spinal \nerector musculature is a very short distance from the joint center of rotation (6-7 cm) \ninches) and hence these muscles must pull on the spine with hundreds of pounds of \nforce to lift common loads (and well into the thousands of pounds when performing \nheavy deadlifts). Figure 2 also shows that the line of action of these muscles pulls the \nlumbar vertebrae together and creates compression between them. This can be hard to \nvisualize, but when you effectively stabilize your lower body against the ground, the \nlower lumbar vertebrae are “pushed upward” from below and pulled downward by the \nmuscles. This creates large compressive forces (again into the thousands of pounds \nwhen deadlifting)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_97fea053f382.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\nIn addition to creating a torque that wants to rotate the lifter forward (clockwise in the \nillustration), the load being lifting and weight of the upper body also act downward \n(gravitational pull). A component of this force acts as shear across the L4-L5 joint. It is \nthis force that can be particularly problematic, as we will soon see.  \n \nFigure 2. Torque and forces acting on the lumbar spine. \n \n \nAnatomy of the lumbar spine \n \nThe anatomy of the spine is quite complex. However, to understand the need to maintain \nnormal lumbar lordosis (curvature), all we really need to discuss is the line of action of \nthe erector muscles and some of the ligaments that connect the vertebrae to one \nanother (interspinous ligaments). Figure 2 shows the line of action of the muscles and \nyou should be able to see that a component of this force acts to counteract the shear \nforce, that is, it balances out the forces acting across the spine. Dr. Stuart McGill, a \nworld-renowned spinal biomechanist from the University of Waterloo in Ontario, \nidentifies two types of shear. The shear shown in figure 2 is called reaction shear and is \nthe result of gravity pulling the load and the upper body downward. The closer your \nupper body moves to horizontal, the larger this force will be. However, the true shear on \nthe L4-L5 joint (called the joint shear) is the resultant shear force produced by the sum of \nthe reaction shear and the muscle/ligament shear. It is this value, which includes the \neffect of muscle/ligament forces, that represents the actual shear experienced at the L4-\nL5 joint.  And it is clearly the true shear on the lumbar spine that will determine whether \nthe spinal loading is manageable, or potentially injurious. \n \nCompression \nShear \nMuscle Force \nTorque due to Load and \nUpper Body Mass"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_38e0030f9c63.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\nFigure 2 does not show ligament forces because if you maintain the natural curvature of \nyour lumbar spine, the spinal erector musculature will create the opposing torque to \nextend your trunk as you come up from the lift. And, as shown in the figure, a component \nof this large muscle force will neutralize the shear produced by the load and body mass. \nThe muscle force is predominantly parallel to the spine but also pulls back to counteract \nthe forward shear. Many coaches will tell you that shear on the back doesn’t occur if the \nback is rigid.  This may not be particularly intuitive, but as shown above, it is correct, as \nthe muscle forces offset the shearing effect of the weight (force) of the load and upper \nbody. \n \nSo what happens if you do not keep a rigid, straight back? Dr. McGill has shown \nconclusively with studies analyzing the electrical activity of the spinal erectors that as the \nlumbar spine becomes fully flexed (rounded forward), the contribution of the muscles to \nthe required torque decreases and the supportive force generated by the ligaments \nincreases. So, in effect, you switch off your muscles and allow your ligaments to support \nthe weight, which is not a good idea. Although the ligaments of a conditioned athlete are \ngoing to be strong, they’re not that strong, and the line of pull of the interspinous lumbar \nligaments means they actually add to the shear component. The angle of pull of these \nligaments during lumbar flexion is shown in figure 3. In this figure you can see that the \nmuscle force is absent and is therefore unable to help reduce the joint shear. Although \nthe ligaments can counteract the load torque (allowing you to lift with a flexed back), the \nline of action of the ligament force adds to the joint shear, which becomes very large \nindeed. The bottom line then is, yes, you can often get away with flexing the spine during \na deadlift, but only with a significant risk of damaging the lumbar discs. \n \nFigure 3. Force from interspinous ligaments contributes to joint shear in the \nlumbar spine. \n \nMost novice deadlifters (and even some of the more experienced ones) think that their \nshoulders should be behind the bar and that they should be as upright as possible. This \nappears to be a natural tendency in an attempt to reduce shear on the back, but, as \ndiscussed above, this is a mistaken focus. I am always telling the young athletes I train \nthat a flat back is not the same thing as an upright back. I want a flat, natural spinal \nLigament Force \nShear"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_dc7b85a82e32.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\nposture; it doesn’t have to be close to vertical. Your trunk alignment should be decided \nby your anthropometry (arm. leg and trunk lengths) and you should focus on keeping a \nnatural flat alignment, as a more vertical rounded back will result in more joint shear than \na more horizontal flat back.  \n \nBiomechanical analysis of the deadlift \n \nAs I said at the introductory lecture, if you can put your argument into numbers you can \nbetter explain the real danger of bad form. So I modeled the deadlift using a \ncommercially available biomechanical computer modeling program with the not-so-\nfriendly name 4DWATBAK. Most of the literature in the field of spinal biomechanics \ncomes from ergonomics, where researchers, ergonomic consultants, health and safety \nofficials, and union safety committees strive to reduce the incidence of back injuries. \nTherefore the program I used was developed for ergonomic use.  \n \nThe model is a static model, which means it calculates the torques due to the load and \nlimb weights about the body’s joints with no movement. Because it calculates non-\ndynamic forces in fixed postures, muscle torques must be of exactly the same \nmagnitude in opposite directions to maintain the posture. Such models cannot be used if \nloads are accelerating at a reasonable rate, but because the deadlift is a relatively slow \nlift, the values calculated by the model are close to the actual forces on the spine. The \nmodel also has to assume average anthropometry for any given height and weight. By \nthis I mean average leg and trunk lengths and average distances for muscle and \nligament lines of action (based on MRI studies conducted to assess the deep anatomy of \nthe spinal muscles and ligaments). I entered the subject as a six-foot, 200-pound male; \nhowever, the compression and shear values calculated for a lighter subject are not \ngreatly reduced, as the load weight, rather than body weight, is the dominant factor in \nthe calculations. I entered a load of 300 pounds (136 kg) \n \nAnother reason modeling the deadlift will give accurate values of force on the spine is \nthat the model is 2-dimensional sagittal plane and the deadlift movement occurs in that \nplane. The model would not be useful to model Olympic lifts unless you knew the \nacceleration of the load, nor could you model any movement with a rotational component \nin another plane. Despite these limitations, the model will provide useful data for a slow \nlift in the fore-aft plane. \n \nIt is universally agreed in the literature that the spine is well designed to withstand \ncompressive forces. A suggested safe cutoff point of 3,433 Newtons was established by \nNIOSH (National Institute for Occupational Safety and Health) in 1981.  However, this is \na standard for an occupational setting where unconditioned workers of all ages and both \nsexes might have to lift objects. World championship powerlifters can easily generate \n20,000+ Newtons of compressive force on their spines with no ill effect. There is much \nless research on what would, or should, constitute a safe limit for joint shear. The \nUniversity of Waterloo ergonomic research group has suggested 500 Newtons as a safe \nlimit and 1,000 Newtons as a maximal permissible limit.  \n \nThe computer program has a feature that allows you to select either a normal spinal \nposture or a fully flexed spine. The program then calculates the shear forces based on \nwhether the muscles or ligaments are bearing the load. As the moment arm (the \ndistance from rotation point) of the muscle and ligaments are essentially the same in \neither case, the compressive force does not change with the change in posture.\n\n## Page 5\n\nHowever, the shear force is greatly affected, as discussed above and shown below in \nthe output values from the program.  \n \nFigures 4 and 5 below show two deadlift postures (normal spinal alignment and full \nflexion), and figures 6 and 7 show the computer model’s manikins of the same two \npostures, with   “force arrows” that represent the load weight. Figures 8 and 9 show the \nprogram’s output of compression and shear forces in graphical bar chart format. It also \nshows the accepted ergonomic limit values on the bar graph. As discussed above, these \nare 3,433 N for compression (NIOSH also has an upper limit of 6376 N as a maximal \npermissible limit), and 500 N for shear (also with a maximal limit of 1000 N).  \n \nFigures 4, 6, and 8 are for a deadlift with acceptable spine position, and figures 5, 7, and \n9 are for a deadlift with a fully flexed spine. The manikin position in Figure 4 is of a good \ndeadlift using the average anthropometry provided in the program.  The actual body \nalignment for a “good” deadlift will depend on relative leg, arm and trunk lengths .  It is \nnot a requirement for a good deadlift that the back is upright.  It just has to be straight \nwith a normal lumbar lordosis and the trunk musculature fully activated.  The photo of a \npoor lift in is just an example of what a lift with a fully flexed spine looks like. In the \nprogram, For modeling the poor deadlift I just used figure 4 as a starting point and chose \nthe fully flexed option available in the program and adjusted the hands to be at the same \nlevel for the starting position. The two manikins look somewhat similar, but if you look at \nthe pelvis and lower spine area, you’ll see the crucial difference. \n \nYou can see on the graphs that lifting 300 pounds results in a spinal compression of \naround 10,000 N (about 2,000 pounds-force). The slight difference between the two \ncompression values is because as you round your back in the “poor” deadlift, your trunk \nmoves slightly more horizontal and your shoulders drop lower, meaning more torque is \nrequire to balance the posture.  \n \nThe huge difference between these two lifts though is in the joint shear. In the correct \nform deadlift, the shear is only 699 N, which is even below an occupational maximal \nlimit. However, the joint shear in the flexed back position is 3799 N (775 pounds-force). \nBecause the computer program is designed for ergonomic use, this shear force value for \nthe poor lift is literally “off the chart”.  \n \nI also entered a 600-pound deadlift into the program. The values for a correct form lift \nwere: compression 17,000 N (3,500 pounds-force) and shear 1,200 N (240 pounds-\nforce). So even when lifting 600 pounds, with proper form the shear is only 20 percent \nabove what occupational biomechanists suggest as an upper limit in an industrial \nsetting.  With the incorrect form of a flexed spine, however, compression is 18,300 N and \nthe shear an amazing 6,700 N. To say this is dangerous to the spine is an \nunderstatement.\n\n## Page 6\n\nFigure 4.  Deadlift (good form) \n \n       Figure 5.  Deadlift (poor form) \nFigure 6.  Model of Figure 4 position           Figure 7.  Model of Figure 6 position \nbut with a flexed lumbar spine"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_44644bb7ccfd.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_b7f6378a8c7c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_37e6a2b483c5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_51f89ea9c385.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_1767ef2c8405.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\nThe top right figure is a photo of a deadlift I received from the publishers of the course \ntext.  I reviewed this text for the publishers. The photo was part of a sequence of photos \nused by the authors to discuss lifts for specific movement patterns but I do not believe \nthey used it in the final draft.. What a poor example of the deadlift who is apparently a \ncollege football player.  \n \nSummary \n \nAlthough I have used the deadlift to quantify the loading on the spine when the lift is \nperformed with natural lumbar lordosis and when it is done with a flexed spine, the \nconcept carries over to all lifts.  \n \nThe model calculates forces at the L4-L5-l5 vertebrae because 85 to 95 percent of all \ndisc hernias occur either at the L4/L5 or L5/S1 intervertebral discs. This is because the \ntorques on the spine are greatest in the lumbar region and therefore programs are \nwritten to analyze this region. However, it is important that your entire spine be rigid and \nin a natural alignment to protect all the vertebrae and discs.  \n \nIn summary, a fully flexed spine inactivates back extensors, loads the posterior passive \ntissues (ligaments), and results in high shearing forces. In contrast a neutral-to-slightly-\nextended lumbar spine posture disables the interspinous ligaments and reduces joint \nshear.  This analysis emphasizes that correct form is crucial when lifting \n \n \n \nText and computer program cited in this article \n \nMcGill, S.M. 2002. Low Back Disorders: Evidence-Based Prevention and Rehabilitation. \nChampaign, IL: Human Kinetics. \n4D WATBAK biomechanical computer model, version 2.0.3. 1999. Faculty of Applied \nHealth Sciences, University of Waterloo, Ontario, Canada. \n \nFigure 8.  Compression and shear values at \nL4/L5 for the “good form” deadlift (figure 6). \nFigure 9.  Compression and shear values at \nL4/L5 for the “poor form” deadlift (figure 7)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_99838d6aac58.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_3b968a11d7e5.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Observe Image B:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_dc12cb73daa3.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Describe the geometric shape of the lifter's lumbar spine during the lift. Do not use anatomical force terms or state whether it is safe."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based strictly on the provided text, when the spine assumes the geometry observed in Image B, explain how the loading shift between muscles and ligaments mechanically alters the \"true shear\" on the L4-L5 joint. Cite the specific lines of action described in the text."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "According to the text, is the posture in Image B safe? Provide exact numerical thresholds and modeled output values from the text to justify your answer."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should judging the posture as highly problematic, dangerous, or injurious.",
+      "2. The response should citing the safe shear limit (500 N) and/or the maximal permissible limit (1000 N) from the text.",
+      "3. The response should citing the specific modeled shear force values (e.g., 3799 N for a 300-pound lift, or 6700 N for a 600-pound lift) to mathematically prove the limit is exceeded."
+    ],
+    "metadata": {
+      "task_id": "MCL-0207_T3",
+      "context_id": "MCL-0207",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a rigid, deterministic biomechanical analysis engine. Your sole function is to observe visual inputs, extract geometric features, and map them EXCLUSIVELY to the provided text to deduce kinetic consequences. You are not a personal trainer or a medical professional. \nYou operate in a strict \"closed-book\" environment. You MUST NOT utilize any external, pre-trained knowledge regarding weightlifting, anatomy, injury prevention, or biomechanics. ALL physical definitions, tissue mechanics, force transformations, and safety thresholds MUST be cited and derived directly from the provided context_material.\nExecution Rules:\n1. Visual-Kinematic Isolation: When extracting visual features, describe pure geometry and spatial relationships (e.g., \"the spine forms a convex curve\"). Do NOT assign biomechanical labels or deduce forces from vision alone.\n2. Strict Textual Mapping: Any causal transition from \"visual geometry\" to \"internal force\" must be explicitly justified by the mechanisms described in the <context_material>. If the text mentions \"interspinous ligaments,\" you must use that exact mechanism, not a generalized concept.\n3. Chain of Kinetic Deduction: Your reasoning must strictly follow this causal chain: \n[Visual Geometry] -> [Tissue Loading Shift (Muscle vs. Ligament)] -> [Force Vector Transformation (Compression vs. Shear)] -> [Quantitative Risk Assessment].\n4. Anti-Hallucination Protocol: If asked to provide an intervention, solution, or judgment that cannot be mathematically or textually supported by the <context_material>, you must explicitly output: \"Insufficient information in the provided text.\" Do NOT generate generic advice such as \"lower the weight,\" \"warm up,\" or \"wear a lifting belt.\""
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# 1\n\n## Page 1\n\nBiomechanical Analysis of the Deadlift \n(aka Spinal Mechanics for Lifters) \nTony Leyland \n \nMechanical terminology \n \nThe three directions in which forces are applied to human tissues are compression, \ntension, and shear (shown in figure 1). In case you are wondering, bending places one \nside of the object in compression and the other in shear, and twisting (torsion) is just a \ntype of shear.  \n \nFigure 1. Terminology for directions of force. \n \nFor this discussion on lumbar mechanics we do not need to focus on tension as it is as a \nforce that tends to pull a tissue apart and is not relevant to our purposes. Our focus will \nbe on compression and shear. Shear is defined as a force that acts parallel to a surface; \nin the spine, it can create sliding of one vertebra with respect to another.  \n \nFigure 2 is a little busy but it helps illustrate many of the important concepts for this \ndiscussion. In a lift such as the deadlift, the weight being lifted and center of mass of the \nupper body and arms are a relatively long way from the vertebrae, and this creates a \nhuge torque (moment of force) about the lumbar vertebrae. Although the vertebrae are a \ncollection of joints, we can visualize that the disc between lumbar vertebrae 4 and 5 is \nthe center of rotation for this force (the circle in figure 2). The line of action of the spinal \nerector musculature is a very short distance from the joint center of rotation (6-7 cm) \ninches) and hence these muscles must pull on the spine with hundreds of pounds of \nforce to lift common loads (and well into the thousands of pounds when performing \nheavy deadlifts). Figure 2 also shows that the line of action of these muscles pulls the \nlumbar vertebrae together and creates compression between them. This can be hard to \nvisualize, but when you effectively stabilize your lower body against the ground, the \nlower lumbar vertebrae are “pushed upward” from below and pulled downward by the \nmuscles. This creates large compressive forces (again into the thousands of pounds \nwhen deadlifting)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_97fea053f382.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\nIn addition to creating a torque that wants to rotate the lifter forward (clockwise in the \nillustration), the load being lifting and weight of the upper body also act downward \n(gravitational pull). A component of this force acts as shear across the L4-L5 joint. It is \nthis force that can be particularly problematic, as we will soon see.  \n \nFigure 2. Torque and forces acting on the lumbar spine. \n \n \nAnatomy of the lumbar spine \n \nThe anatomy of the spine is quite complex. However, to understand the need to maintain \nnormal lumbar lordosis (curvature), all we really need to discuss is the line of action of \nthe erector muscles and some of the ligaments that connect the vertebrae to one \nanother (interspinous ligaments). Figure 2 shows the line of action of the muscles and \nyou should be able to see that a component of this force acts to counteract the shear \nforce, that is, it balances out the forces acting across the spine. Dr. Stuart McGill, a \nworld-renowned spinal biomechanist from the University of Waterloo in Ontario, \nidentifies two types of shear. The shear shown in figure 2 is called reaction shear and is \nthe result of gravity pulling the load and the upper body downward. The closer your \nupper body moves to horizontal, the larger this force will be. However, the true shear on \nthe L4-L5 joint (called the joint shear) is the resultant shear force produced by the sum of \nthe reaction shear and the muscle/ligament shear. It is this value, which includes the \neffect of muscle/ligament forces, that represents the actual shear experienced at the L4-\nL5 joint.  And it is clearly the true shear on the lumbar spine that will determine whether \nthe spinal loading is manageable, or potentially injurious. \n \nCompression \nShear \nMuscle Force \nTorque due to Load and \nUpper Body Mass"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_38e0030f9c63.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\nFigure 2 does not show ligament forces because if you maintain the natural curvature of \nyour lumbar spine, the spinal erector musculature will create the opposing torque to \nextend your trunk as you come up from the lift. And, as shown in the figure, a component \nof this large muscle force will neutralize the shear produced by the load and body mass. \nThe muscle force is predominantly parallel to the spine but also pulls back to counteract \nthe forward shear. Many coaches will tell you that shear on the back doesn’t occur if the \nback is rigid.  This may not be particularly intuitive, but as shown above, it is correct, as \nthe muscle forces offset the shearing effect of the weight (force) of the load and upper \nbody. \n \nSo what happens if you do not keep a rigid, straight back? Dr. McGill has shown \nconclusively with studies analyzing the electrical activity of the spinal erectors that as the \nlumbar spine becomes fully flexed (rounded forward), the contribution of the muscles to \nthe required torque decreases and the supportive force generated by the ligaments \nincreases. So, in effect, you switch off your muscles and allow your ligaments to support \nthe weight, which is not a good idea. Although the ligaments of a conditioned athlete are \ngoing to be strong, they’re not that strong, and the line of pull of the interspinous lumbar \nligaments means they actually add to the shear component. The angle of pull of these \nligaments during lumbar flexion is shown in figure 3. In this figure you can see that the \nmuscle force is absent and is therefore unable to help reduce the joint shear. Although \nthe ligaments can counteract the load torque (allowing you to lift with a flexed back), the \nline of action of the ligament force adds to the joint shear, which becomes very large \nindeed. The bottom line then is, yes, you can often get away with flexing the spine during \na deadlift, but only with a significant risk of damaging the lumbar discs. \n \nFigure 3. Force from interspinous ligaments contributes to joint shear in the \nlumbar spine. \n \nMost novice deadlifters (and even some of the more experienced ones) think that their \nshoulders should be behind the bar and that they should be as upright as possible. This \nappears to be a natural tendency in an attempt to reduce shear on the back, but, as \ndiscussed above, this is a mistaken focus. I am always telling the young athletes I train \nthat a flat back is not the same thing as an upright back. I want a flat, natural spinal \nLigament Force \nShear"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_dc7b85a82e32.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\nposture; it doesn’t have to be close to vertical. Your trunk alignment should be decided \nby your anthropometry (arm. leg and trunk lengths) and you should focus on keeping a \nnatural flat alignment, as a more vertical rounded back will result in more joint shear than \na more horizontal flat back.  \n \nBiomechanical analysis of the deadlift \n \nAs I said at the introductory lecture, if you can put your argument into numbers you can \nbetter explain the real danger of bad form. So I modeled the deadlift using a \ncommercially available biomechanical computer modeling program with the not-so-\nfriendly name 4DWATBAK. Most of the literature in the field of spinal biomechanics \ncomes from ergonomics, where researchers, ergonomic consultants, health and safety \nofficials, and union safety committees strive to reduce the incidence of back injuries. \nTherefore the program I used was developed for ergonomic use.  \n \nThe model is a static model, which means it calculates the torques due to the load and \nlimb weights about the body’s joints with no movement. Because it calculates non-\ndynamic forces in fixed postures, muscle torques must be of exactly the same \nmagnitude in opposite directions to maintain the posture. Such models cannot be used if \nloads are accelerating at a reasonable rate, but because the deadlift is a relatively slow \nlift, the values calculated by the model are close to the actual forces on the spine. The \nmodel also has to assume average anthropometry for any given height and weight. By \nthis I mean average leg and trunk lengths and average distances for muscle and \nligament lines of action (based on MRI studies conducted to assess the deep anatomy of \nthe spinal muscles and ligaments). I entered the subject as a six-foot, 200-pound male; \nhowever, the compression and shear values calculated for a lighter subject are not \ngreatly reduced, as the load weight, rather than body weight, is the dominant factor in \nthe calculations. I entered a load of 300 pounds (136 kg) \n \nAnother reason modeling the deadlift will give accurate values of force on the spine is \nthat the model is 2-dimensional sagittal plane and the deadlift movement occurs in that \nplane. The model would not be useful to model Olympic lifts unless you knew the \nacceleration of the load, nor could you model any movement with a rotational component \nin another plane. Despite these limitations, the model will provide useful data for a slow \nlift in the fore-aft plane. \n \nIt is universally agreed in the literature that the spine is well designed to withstand \ncompressive forces. A suggested safe cutoff point of 3,433 Newtons was established by \nNIOSH (National Institute for Occupational Safety and Health) in 1981.  However, this is \na standard for an occupational setting where unconditioned workers of all ages and both \nsexes might have to lift objects. World championship powerlifters can easily generate \n20,000+ Newtons of compressive force on their spines with no ill effect. There is much \nless research on what would, or should, constitute a safe limit for joint shear. The \nUniversity of Waterloo ergonomic research group has suggested 500 Newtons as a safe \nlimit and 1,000 Newtons as a maximal permissible limit.  \n \nThe computer program has a feature that allows you to select either a normal spinal \nposture or a fully flexed spine. The program then calculates the shear forces based on \nwhether the muscles or ligaments are bearing the load. As the moment arm (the \ndistance from rotation point) of the muscle and ligaments are essentially the same in \neither case, the compressive force does not change with the change in posture.\n\n## Page 5\n\nHowever, the shear force is greatly affected, as discussed above and shown below in \nthe output values from the program.  \n \nFigures 4 and 5 below show two deadlift postures (normal spinal alignment and full \nflexion), and figures 6 and 7 show the computer model’s manikins of the same two \npostures, with   “force arrows” that represent the load weight. Figures 8 and 9 show the \nprogram’s output of compression and shear forces in graphical bar chart format. It also \nshows the accepted ergonomic limit values on the bar graph. As discussed above, these \nare 3,433 N for compression (NIOSH also has an upper limit of 6376 N as a maximal \npermissible limit), and 500 N for shear (also with a maximal limit of 1000 N).  \n \nFigures 4, 6, and 8 are for a deadlift with acceptable spine position, and figures 5, 7, and \n9 are for a deadlift with a fully flexed spine. The manikin position in Figure 4 is of a good \ndeadlift using the average anthropometry provided in the program.  The actual body \nalignment for a “good” deadlift will depend on relative leg, arm and trunk lengths .  It is \nnot a requirement for a good deadlift that the back is upright.  It just has to be straight \nwith a normal lumbar lordosis and the trunk musculature fully activated.  The photo of a \npoor lift in is just an example of what a lift with a fully flexed spine looks like. In the \nprogram, For modeling the poor deadlift I just used figure 4 as a starting point and chose \nthe fully flexed option available in the program and adjusted the hands to be at the same \nlevel for the starting position. The two manikins look somewhat similar, but if you look at \nthe pelvis and lower spine area, you’ll see the crucial difference. \n \nYou can see on the graphs that lifting 300 pounds results in a spinal compression of \naround 10,000 N (about 2,000 pounds-force). The slight difference between the two \ncompression values is because as you round your back in the “poor” deadlift, your trunk \nmoves slightly more horizontal and your shoulders drop lower, meaning more torque is \nrequire to balance the posture.  \n \nThe huge difference between these two lifts though is in the joint shear. In the correct \nform deadlift, the shear is only 699 N, which is even below an occupational maximal \nlimit. However, the joint shear in the flexed back position is 3799 N (775 pounds-force). \nBecause the computer program is designed for ergonomic use, this shear force value for \nthe poor lift is literally “off the chart”.  \n \nI also entered a 600-pound deadlift into the program. The values for a correct form lift \nwere: compression 17,000 N (3,500 pounds-force) and shear 1,200 N (240 pounds-\nforce). So even when lifting 600 pounds, with proper form the shear is only 20 percent \nabove what occupational biomechanists suggest as an upper limit in an industrial \nsetting.  With the incorrect form of a flexed spine, however, compression is 18,300 N and \nthe shear an amazing 6,700 N. To say this is dangerous to the spine is an \nunderstatement.\n\n## Page 6\n\nFigure 4.  Deadlift (good form) \n \n       Figure 5.  Deadlift (poor form) \nFigure 6.  Model of Figure 4 position           Figure 7.  Model of Figure 6 position \nbut with a flexed lumbar spine"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_44644bb7ccfd.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_b7f6378a8c7c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_37e6a2b483c5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_51f89ea9c385.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_1767ef2c8405.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\nThe top right figure is a photo of a deadlift I received from the publishers of the course \ntext.  I reviewed this text for the publishers. The photo was part of a sequence of photos \nused by the authors to discuss lifts for specific movement patterns but I do not believe \nthey used it in the final draft.. What a poor example of the deadlift who is apparently a \ncollege football player.  \n \nSummary \n \nAlthough I have used the deadlift to quantify the loading on the spine when the lift is \nperformed with natural lumbar lordosis and when it is done with a flexed spine, the \nconcept carries over to all lifts.  \n \nThe model calculates forces at the L4-L5-l5 vertebrae because 85 to 95 percent of all \ndisc hernias occur either at the L4/L5 or L5/S1 intervertebral discs. This is because the \ntorques on the spine are greatest in the lumbar region and therefore programs are \nwritten to analyze this region. However, it is important that your entire spine be rigid and \nin a natural alignment to protect all the vertebrae and discs.  \n \nIn summary, a fully flexed spine inactivates back extensors, loads the posterior passive \ntissues (ligaments), and results in high shearing forces. In contrast a neutral-to-slightly-\nextended lumbar spine posture disables the interspinous ligaments and reduces joint \nshear.  This analysis emphasizes that correct form is crucial when lifting \n \n \n \nText and computer program cited in this article \n \nMcGill, S.M. 2002. Low Back Disorders: Evidence-Based Prevention and Rehabilitation. \nChampaign, IL: Human Kinetics. \n4D WATBAK biomechanical computer model, version 2.0.3. 1999. Faculty of Applied \nHealth Sciences, University of Waterloo, Ontario, Canada. \n \nFigure 8.  Compression and shear values at \nL4/L5 for the “good form” deadlift (figure 6). \nFigure 9.  Compression and shear values at \nL4/L5 for the “poor form” deadlift (figure 7)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_99838d6aac58.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_3b968a11d7e5.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Observe Image B:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_dc12cb73daa3.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Describe the geometric shape of the lifter's lumbar spine during the lift. Do not use anatomical force terms or state whether it is safe."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based strictly on the provided text, when the spine assumes the geometry observed in Image B, explain how the loading shift between muscles and ligaments mechanically alters the \"true shear\" on the L4-L5 joint. Cite the specific lines of action described in the text."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "According to the text, is the posture in Image B safe? Provide exact numerical thresholds and modeled output values from the text to justify your answer."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "If the lifter in Image B changes their posture to perfectly match the spinal alignment in Video A (neutral spine):"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_012_bfc5e69931d1.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ", what happens to the magnitude of the compressive force? Does it drop significantly, increase, or stay essentially the same? Explain why using the text."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should stating that the magnitude of the compressive force stays essentially the same (or does not change significantly).",
+      "2. The response should justifying this by explaining that the moment arm (distance from the rotation point) of the muscles and ligaments is essentially the same in either posture."
+    ],
+    "metadata": {
+      "task_id": "MCL-0207_T4",
+      "context_id": "MCL-0207",
+      "turn_index": 4
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a rigid, deterministic biomechanical analysis engine. Your sole function is to observe visual inputs, extract geometric features, and map them EXCLUSIVELY to the provided text to deduce kinetic consequences. You are not a personal trainer or a medical professional. \nYou operate in a strict \"closed-book\" environment. You MUST NOT utilize any external, pre-trained knowledge regarding weightlifting, anatomy, injury prevention, or biomechanics. ALL physical definitions, tissue mechanics, force transformations, and safety thresholds MUST be cited and derived directly from the provided context_material.\nExecution Rules:\n1. Visual-Kinematic Isolation: When extracting visual features, describe pure geometry and spatial relationships (e.g., \"the spine forms a convex curve\"). Do NOT assign biomechanical labels or deduce forces from vision alone.\n2. Strict Textual Mapping: Any causal transition from \"visual geometry\" to \"internal force\" must be explicitly justified by the mechanisms described in the <context_material>. If the text mentions \"interspinous ligaments,\" you must use that exact mechanism, not a generalized concept.\n3. Chain of Kinetic Deduction: Your reasoning must strictly follow this causal chain: \n[Visual Geometry] -> [Tissue Loading Shift (Muscle vs. Ligament)] -> [Force Vector Transformation (Compression vs. Shear)] -> [Quantitative Risk Assessment].\n4. Anti-Hallucination Protocol: If asked to provide an intervention, solution, or judgment that cannot be mathematically or textually supported by the <context_material>, you must explicitly output: \"Insufficient information in the provided text.\" Do NOT generate generic advice such as \"lower the weight,\" \"warm up,\" or \"wear a lifting belt.\""
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# 1\n\n## Page 1\n\nBiomechanical Analysis of the Deadlift \n(aka Spinal Mechanics for Lifters) \nTony Leyland \n \nMechanical terminology \n \nThe three directions in which forces are applied to human tissues are compression, \ntension, and shear (shown in figure 1). In case you are wondering, bending places one \nside of the object in compression and the other in shear, and twisting (torsion) is just a \ntype of shear.  \n \nFigure 1. Terminology for directions of force. \n \nFor this discussion on lumbar mechanics we do not need to focus on tension as it is as a \nforce that tends to pull a tissue apart and is not relevant to our purposes. Our focus will \nbe on compression and shear. Shear is defined as a force that acts parallel to a surface; \nin the spine, it can create sliding of one vertebra with respect to another.  \n \nFigure 2 is a little busy but it helps illustrate many of the important concepts for this \ndiscussion. In a lift such as the deadlift, the weight being lifted and center of mass of the \nupper body and arms are a relatively long way from the vertebrae, and this creates a \nhuge torque (moment of force) about the lumbar vertebrae. Although the vertebrae are a \ncollection of joints, we can visualize that the disc between lumbar vertebrae 4 and 5 is \nthe center of rotation for this force (the circle in figure 2). The line of action of the spinal \nerector musculature is a very short distance from the joint center of rotation (6-7 cm) \ninches) and hence these muscles must pull on the spine with hundreds of pounds of \nforce to lift common loads (and well into the thousands of pounds when performing \nheavy deadlifts). Figure 2 also shows that the line of action of these muscles pulls the \nlumbar vertebrae together and creates compression between them. This can be hard to \nvisualize, but when you effectively stabilize your lower body against the ground, the \nlower lumbar vertebrae are “pushed upward” from below and pulled downward by the \nmuscles. This creates large compressive forces (again into the thousands of pounds \nwhen deadlifting)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_97fea053f382.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\nIn addition to creating a torque that wants to rotate the lifter forward (clockwise in the \nillustration), the load being lifting and weight of the upper body also act downward \n(gravitational pull). A component of this force acts as shear across the L4-L5 joint. It is \nthis force that can be particularly problematic, as we will soon see.  \n \nFigure 2. Torque and forces acting on the lumbar spine. \n \n \nAnatomy of the lumbar spine \n \nThe anatomy of the spine is quite complex. However, to understand the need to maintain \nnormal lumbar lordosis (curvature), all we really need to discuss is the line of action of \nthe erector muscles and some of the ligaments that connect the vertebrae to one \nanother (interspinous ligaments). Figure 2 shows the line of action of the muscles and \nyou should be able to see that a component of this force acts to counteract the shear \nforce, that is, it balances out the forces acting across the spine. Dr. Stuart McGill, a \nworld-renowned spinal biomechanist from the University of Waterloo in Ontario, \nidentifies two types of shear. The shear shown in figure 2 is called reaction shear and is \nthe result of gravity pulling the load and the upper body downward. The closer your \nupper body moves to horizontal, the larger this force will be. However, the true shear on \nthe L4-L5 joint (called the joint shear) is the resultant shear force produced by the sum of \nthe reaction shear and the muscle/ligament shear. It is this value, which includes the \neffect of muscle/ligament forces, that represents the actual shear experienced at the L4-\nL5 joint.  And it is clearly the true shear on the lumbar spine that will determine whether \nthe spinal loading is manageable, or potentially injurious. \n \nCompression \nShear \nMuscle Force \nTorque due to Load and \nUpper Body Mass"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_38e0030f9c63.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\nFigure 2 does not show ligament forces because if you maintain the natural curvature of \nyour lumbar spine, the spinal erector musculature will create the opposing torque to \nextend your trunk as you come up from the lift. And, as shown in the figure, a component \nof this large muscle force will neutralize the shear produced by the load and body mass. \nThe muscle force is predominantly parallel to the spine but also pulls back to counteract \nthe forward shear. Many coaches will tell you that shear on the back doesn’t occur if the \nback is rigid.  This may not be particularly intuitive, but as shown above, it is correct, as \nthe muscle forces offset the shearing effect of the weight (force) of the load and upper \nbody. \n \nSo what happens if you do not keep a rigid, straight back? Dr. McGill has shown \nconclusively with studies analyzing the electrical activity of the spinal erectors that as the \nlumbar spine becomes fully flexed (rounded forward), the contribution of the muscles to \nthe required torque decreases and the supportive force generated by the ligaments \nincreases. So, in effect, you switch off your muscles and allow your ligaments to support \nthe weight, which is not a good idea. Although the ligaments of a conditioned athlete are \ngoing to be strong, they’re not that strong, and the line of pull of the interspinous lumbar \nligaments means they actually add to the shear component. The angle of pull of these \nligaments during lumbar flexion is shown in figure 3. In this figure you can see that the \nmuscle force is absent and is therefore unable to help reduce the joint shear. Although \nthe ligaments can counteract the load torque (allowing you to lift with a flexed back), the \nline of action of the ligament force adds to the joint shear, which becomes very large \nindeed. The bottom line then is, yes, you can often get away with flexing the spine during \na deadlift, but only with a significant risk of damaging the lumbar discs. \n \nFigure 3. Force from interspinous ligaments contributes to joint shear in the \nlumbar spine. \n \nMost novice deadlifters (and even some of the more experienced ones) think that their \nshoulders should be behind the bar and that they should be as upright as possible. This \nappears to be a natural tendency in an attempt to reduce shear on the back, but, as \ndiscussed above, this is a mistaken focus. I am always telling the young athletes I train \nthat a flat back is not the same thing as an upright back. I want a flat, natural spinal \nLigament Force \nShear"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_dc7b85a82e32.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\nposture; it doesn’t have to be close to vertical. Your trunk alignment should be decided \nby your anthropometry (arm. leg and trunk lengths) and you should focus on keeping a \nnatural flat alignment, as a more vertical rounded back will result in more joint shear than \na more horizontal flat back.  \n \nBiomechanical analysis of the deadlift \n \nAs I said at the introductory lecture, if you can put your argument into numbers you can \nbetter explain the real danger of bad form. So I modeled the deadlift using a \ncommercially available biomechanical computer modeling program with the not-so-\nfriendly name 4DWATBAK. Most of the literature in the field of spinal biomechanics \ncomes from ergonomics, where researchers, ergonomic consultants, health and safety \nofficials, and union safety committees strive to reduce the incidence of back injuries. \nTherefore the program I used was developed for ergonomic use.  \n \nThe model is a static model, which means it calculates the torques due to the load and \nlimb weights about the body’s joints with no movement. Because it calculates non-\ndynamic forces in fixed postures, muscle torques must be of exactly the same \nmagnitude in opposite directions to maintain the posture. Such models cannot be used if \nloads are accelerating at a reasonable rate, but because the deadlift is a relatively slow \nlift, the values calculated by the model are close to the actual forces on the spine. The \nmodel also has to assume average anthropometry for any given height and weight. By \nthis I mean average leg and trunk lengths and average distances for muscle and \nligament lines of action (based on MRI studies conducted to assess the deep anatomy of \nthe spinal muscles and ligaments). I entered the subject as a six-foot, 200-pound male; \nhowever, the compression and shear values calculated for a lighter subject are not \ngreatly reduced, as the load weight, rather than body weight, is the dominant factor in \nthe calculations. I entered a load of 300 pounds (136 kg) \n \nAnother reason modeling the deadlift will give accurate values of force on the spine is \nthat the model is 2-dimensional sagittal plane and the deadlift movement occurs in that \nplane. The model would not be useful to model Olympic lifts unless you knew the \nacceleration of the load, nor could you model any movement with a rotational component \nin another plane. Despite these limitations, the model will provide useful data for a slow \nlift in the fore-aft plane. \n \nIt is universally agreed in the literature that the spine is well designed to withstand \ncompressive forces. A suggested safe cutoff point of 3,433 Newtons was established by \nNIOSH (National Institute for Occupational Safety and Health) in 1981.  However, this is \na standard for an occupational setting where unconditioned workers of all ages and both \nsexes might have to lift objects. World championship powerlifters can easily generate \n20,000+ Newtons of compressive force on their spines with no ill effect. There is much \nless research on what would, or should, constitute a safe limit for joint shear. The \nUniversity of Waterloo ergonomic research group has suggested 500 Newtons as a safe \nlimit and 1,000 Newtons as a maximal permissible limit.  \n \nThe computer program has a feature that allows you to select either a normal spinal \nposture or a fully flexed spine. The program then calculates the shear forces based on \nwhether the muscles or ligaments are bearing the load. As the moment arm (the \ndistance from rotation point) of the muscle and ligaments are essentially the same in \neither case, the compressive force does not change with the change in posture.\n\n## Page 5\n\nHowever, the shear force is greatly affected, as discussed above and shown below in \nthe output values from the program.  \n \nFigures 4 and 5 below show two deadlift postures (normal spinal alignment and full \nflexion), and figures 6 and 7 show the computer model’s manikins of the same two \npostures, with   “force arrows” that represent the load weight. Figures 8 and 9 show the \nprogram’s output of compression and shear forces in graphical bar chart format. It also \nshows the accepted ergonomic limit values on the bar graph. As discussed above, these \nare 3,433 N for compression (NIOSH also has an upper limit of 6376 N as a maximal \npermissible limit), and 500 N for shear (also with a maximal limit of 1000 N).  \n \nFigures 4, 6, and 8 are for a deadlift with acceptable spine position, and figures 5, 7, and \n9 are for a deadlift with a fully flexed spine. The manikin position in Figure 4 is of a good \ndeadlift using the average anthropometry provided in the program.  The actual body \nalignment for a “good” deadlift will depend on relative leg, arm and trunk lengths .  It is \nnot a requirement for a good deadlift that the back is upright.  It just has to be straight \nwith a normal lumbar lordosis and the trunk musculature fully activated.  The photo of a \npoor lift in is just an example of what a lift with a fully flexed spine looks like. In the \nprogram, For modeling the poor deadlift I just used figure 4 as a starting point and chose \nthe fully flexed option available in the program and adjusted the hands to be at the same \nlevel for the starting position. The two manikins look somewhat similar, but if you look at \nthe pelvis and lower spine area, you’ll see the crucial difference. \n \nYou can see on the graphs that lifting 300 pounds results in a spinal compression of \naround 10,000 N (about 2,000 pounds-force). The slight difference between the two \ncompression values is because as you round your back in the “poor” deadlift, your trunk \nmoves slightly more horizontal and your shoulders drop lower, meaning more torque is \nrequire to balance the posture.  \n \nThe huge difference between these two lifts though is in the joint shear. In the correct \nform deadlift, the shear is only 699 N, which is even below an occupational maximal \nlimit. However, the joint shear in the flexed back position is 3799 N (775 pounds-force). \nBecause the computer program is designed for ergonomic use, this shear force value for \nthe poor lift is literally “off the chart”.  \n \nI also entered a 600-pound deadlift into the program. The values for a correct form lift \nwere: compression 17,000 N (3,500 pounds-force) and shear 1,200 N (240 pounds-\nforce). So even when lifting 600 pounds, with proper form the shear is only 20 percent \nabove what occupational biomechanists suggest as an upper limit in an industrial \nsetting.  With the incorrect form of a flexed spine, however, compression is 18,300 N and \nthe shear an amazing 6,700 N. To say this is dangerous to the spine is an \nunderstatement.\n\n## Page 6\n\nFigure 4.  Deadlift (good form) \n \n       Figure 5.  Deadlift (poor form) \nFigure 6.  Model of Figure 4 position           Figure 7.  Model of Figure 6 position \nbut with a flexed lumbar spine"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_44644bb7ccfd.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_b7f6378a8c7c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_37e6a2b483c5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_51f89ea9c385.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_1767ef2c8405.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\nThe top right figure is a photo of a deadlift I received from the publishers of the course \ntext.  I reviewed this text for the publishers. The photo was part of a sequence of photos \nused by the authors to discuss lifts for specific movement patterns but I do not believe \nthey used it in the final draft.. What a poor example of the deadlift who is apparently a \ncollege football player.  \n \nSummary \n \nAlthough I have used the deadlift to quantify the loading on the spine when the lift is \nperformed with natural lumbar lordosis and when it is done with a flexed spine, the \nconcept carries over to all lifts.  \n \nThe model calculates forces at the L4-L5-l5 vertebrae because 85 to 95 percent of all \ndisc hernias occur either at the L4/L5 or L5/S1 intervertebral discs. This is because the \ntorques on the spine are greatest in the lumbar region and therefore programs are \nwritten to analyze this region. However, it is important that your entire spine be rigid and \nin a natural alignment to protect all the vertebrae and discs.  \n \nIn summary, a fully flexed spine inactivates back extensors, loads the posterior passive \ntissues (ligaments), and results in high shearing forces. In contrast a neutral-to-slightly-\nextended lumbar spine posture disables the interspinous ligaments and reduces joint \nshear.  This analysis emphasizes that correct form is crucial when lifting \n \n \n \nText and computer program cited in this article \n \nMcGill, S.M. 2002. Low Back Disorders: Evidence-Based Prevention and Rehabilitation. \nChampaign, IL: Human Kinetics. \n4D WATBAK biomechanical computer model, version 2.0.3. 1999. Faculty of Applied \nHealth Sciences, University of Waterloo, Ontario, Canada. \n \nFigure 8.  Compression and shear values at \nL4/L5 for the “good form” deadlift (figure 6). \nFigure 9.  Compression and shear values at \nL4/L5 for the “poor form” deadlift (figure 7)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_99838d6aac58.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_3b968a11d7e5.png"
+            }
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Observe Image B:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_dc12cb73daa3.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Describe the geometric shape of the lifter's lumbar spine during the lift. Do not use anatomical force terms or state whether it is safe."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based strictly on the provided text, when the spine assumes the geometry observed in Image B, explain how the loading shift between muscles and ligaments mechanically alters the \"true shear\" on the L4-L5 joint. Cite the specific lines of action described in the text."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "According to the text, is the posture in Image B safe? Provide exact numerical thresholds and modeled output values from the text to justify your answer."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "If the lifter in Image B changes their posture to perfectly match the spinal alignment in Video A (neutral spine):"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_012_bfc5e69931d1.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ", what happens to the magnitude of the compressive force? Does it drop significantly, increase, or stay essentially the same? Explain why using the text."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare two hypothetical lifters based on the text. Lifter X attempts to reduce shear by keeping an \"upright back\" but allows their spine to round vertically. Lifter Y leans much more horizontally but maintains a \"flat back\" (natural lordosis). Which lifter is using the correct biomechanical strategy, and what specific human factor should dictate their trunk alignment?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should determine that Lifter Y’s strategy is correct, or that Lifter X will bear higher joint shear force.",
+      "2. The response should state based on the text that a flat back (with muscles activated to counteract shear force) is superior to a rounded back held upright (an upright back is a mistaken focus).",
+      "3. The response should clearly state that trunk alignment should be determined by the individual’s anthropometry."
+    ],
+    "metadata": {
+      "task_id": "MCL-0207_T5",
+      "context_id": "MCL-0207",
+      "turn_index": 5
+    }
+  }
+]

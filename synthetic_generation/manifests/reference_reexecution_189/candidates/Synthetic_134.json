@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_134",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:mmdetection-readthedocs-io-en-v2.18.0",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "mmdetection-readthedocs-io-en-v2.18.0",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page0.jpg",
+        "sha256": "920f75a697df404407f2063b3e2fcd8d13827da8d9c0421ad12118023b2347a1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page42.jpg",
+        "sha256": "31520218eb1fb45df820f9b828b84e565706273767654bcb4cc150c558a4935a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page85.jpg",
+        "sha256": "8eb4020506549a1b9e1c70bb26a054275f0cbf6566d48701e6bcda4e69fdb6df",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page127.jpg",
+        "sha256": "cbd9e014e34f2087d0549b2107e81c969b8e6036f178b81100866c78df9ae82b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page170.jpg",
+        "sha256": "1682e7608e9fdc92eb9a618ac8c2683ec567e54014de819bac0bac24e8c1de75",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page212.jpg",
+        "sha256": "a24fae0c08fd5b2b6b68f25ceb2d2423d42464ddc86020bce958d039b63c9ca6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page255.jpg",
+        "sha256": "7a92a67c52f53401db4af38138c999582d7add323c9d68c00c6911b047fe9148",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page297.jpg",
+        "sha256": "d5be0d2b167f434b81a6cf9bf3addfc32877e0e51de0cd1c02ea3a45770f1ed9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page340.jpg",
+        "sha256": "f62dcf76f63cc61669826612e0aa0d5aab02fd3af7b15103ba24763037c9c197",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page382.jpg",
+        "sha256": "b14d9c5ce2e9462029fb6fcecf64592a751e93c6a15462ee741a17515feab433",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page425.jpg",
+        "sha256": "a048be56d37934e01e69dcf332c885210a0c4615292dca2433f819f2705555e7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/mmdetection-readthedocs-io-en-v2.18.0/mmdetection-readthedocs-io-en-v2.18.0_page467.jpg",
+        "sha256": "9a714aefd6760e236c211594b5a49fdce11e3ada7b81df696141aabff5af988a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

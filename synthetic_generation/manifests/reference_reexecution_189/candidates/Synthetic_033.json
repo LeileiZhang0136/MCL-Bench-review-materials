@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_033",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/citrix2-091030171010-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/citrix2-091030171010-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-1-1024.jpg",
+        "sha256": "dbdfb4eb81d21ed59bf0445cab48664e0a3b105ee5d8d9f63bb84b54f1a6621e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-3-1024.jpg",
+        "sha256": "96bce38846334c26a74b6ebdbc9584247665e8d9cf3187c8bd48b3e6569932d1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-4-1024.jpg",
+        "sha256": "c56fd108c448c2a9210cc29146de8ea7c9444de5f3f54578b7ac4d984d1124fc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-6-1024.jpg",
+        "sha256": "2e663ad9729e6fbafc6546e3131da1e854fd19f144b2eb751fe62904dbe930aa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-8-1024.jpg",
+        "sha256": "2d34c99bc90326af53d1436c4d313ec1c9875979453c6bec6d9089f0a4ea52c6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-10-1024.jpg",
+        "sha256": "02611e5330d8b39384a0c9b9d9c7151991526e4129a19dfc511f48511f935d76",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-11-1024.jpg",
+        "sha256": "ec56bd6120e00804a1451e6768f309905ca7a966ef7a617870d5e4747b6cbe11",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-13-1024.jpg",
+        "sha256": "8ea3f168254bc8fc4156a7dbb2563b5374d41c41d6dfc0644d5f9282e726c076",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-15-1024.jpg",
+        "sha256": "b546012796f65d818e86695db359c1b2584773288ee2530cbea7291ab1417258",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-17-1024.jpg",
+        "sha256": "94cefc75afb7542b13d92e49f78f1f3f3dadb88c49e8fad593079bbf38ae3303",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-18-1024.jpg",
+        "sha256": "adf581c48bd9bf46573a8b3cfe3cb42dc1532547a80aa5eaf21ff6d7f891d12b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/citrix2-091030171010-phpapp02_95/5-ways-to-integrate-social-media-in-your-marketing-20-1024.jpg",
+        "sha256": "15d2986c9b3ab73927888d345cbfe081fb0aa7f8234e9199fae48c5502f0d93a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

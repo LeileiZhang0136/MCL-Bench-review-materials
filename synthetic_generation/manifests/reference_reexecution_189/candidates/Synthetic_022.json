@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_022",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:stemislideshare-130121145447-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "stemislideshare-130121145447-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-1-1024.jpg",
+        "sha256": "3a979fb71c1294aa56fd59b494b85c38c4a36f469d8ab837f0d079eb5d7db643",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-3-1024.jpg",
+        "sha256": "7450640ade07b5845edbe4b9f366972f7db6aa641df330f452f99506f11e413e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-4-1024.jpg",
+        "sha256": "e49bc9a9f7f2a06d6d2ad998a5678dad0346ee183aec2b68f5567c64f5451890",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-6-1024.jpg",
+        "sha256": "2893586864665d2a908301438767a8e32c82b23dac4c1430c55a810fc73afd6f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-8-1024.jpg",
+        "sha256": "f0d874c13b95a546d567c3dfd4d3bcfc92784d36037c95cf9a4347cdeb0133bb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-10-1024.jpg",
+        "sha256": "bd3291efd7c7eac091e9c2e11cfdcc1a25fdd80f419b0ff7ff22b5489b5864be",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-11-1024.jpg",
+        "sha256": "a6bc7038754a393cf25cd65c85d41c5e1fcc81376793c93a6948c9740233a4b1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-13-1024.jpg",
+        "sha256": "01aa566775149d60caa35b44d9d0542e1ae115da22267be1c33ee7db5a140194",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-15-1024.jpg",
+        "sha256": "0ae59f363ad8cda5aae16d73325062c6a8464537b10fb66656fa4a749a82496c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-17-1024.jpg",
+        "sha256": "c7f433398f27d89d82ba3f5e4315dfd0d1d64d3753480b28c03c44a2493d1a90",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-18-1024.jpg",
+        "sha256": "380e7a4c35e4e212045daaba81bd78233ee7aea586726841851cc8561234d835",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/stemislideshare-130121145447-phpapp02_95/stemi-and-acute-coronary-syndromes-20-1024.jpg",
+        "sha256": "22a8b782a56547c580c97d597a8668d723189f64521f24899b27312f453d2287",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

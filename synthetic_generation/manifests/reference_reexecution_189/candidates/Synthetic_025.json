@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_025",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-1-1024.jpg",
+        "sha256": "e8492e51b828fe88ba2a4c4f5f9a3243ca67af9af8716a74c37e65aa79255748",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-3-1024.jpg",
+        "sha256": "cf7fa9af00dddcac915f2217b20a29be55d67de5c903a69d1f1d59bba76a943d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-4-1024.jpg",
+        "sha256": "6a970dce1ddd142ce29717dd1e1fc43e04952fb879544d8d3925e2b46c21f2e1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-6-1024.jpg",
+        "sha256": "a95d017cf80d1de959cf441f36335d8653eec64366cd56d22d51180a4e6b9411",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-8-1024.jpg",
+        "sha256": "8a8d0be1e10df97ed95cd098633178d055e5ec98b7ab9000e333b258c2626b88",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-10-1024.jpg",
+        "sha256": "a4aa5fa98a8c536d4881f2073694099f63e38648769d1a183424e316198a1928",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-11-1024.jpg",
+        "sha256": "8b788500f6fb5b82fccf361ea04484f13c5dc362465099cec4a73b149c023be4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-13-1024.jpg",
+        "sha256": "c25af46c188734dd485dbe47b58bbeb3d5e37baf4d984761810990a2bfbaddbe",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-15-1024.jpg",
+        "sha256": "11a85a110ca9d3f179fffe077be6a6c90b46c4793303d10dc02ff5db9686d47d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-17-1024.jpg",
+        "sha256": "a48acee36667b621f08d92b566df2880aa801c92c5a36ee3f948ac93c404fd87",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-18-1024.jpg",
+        "sha256": "bc02506772938fc4dbd6e7ce88d90521c5874a67c64ae49af9c38bd2758f1d31",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/opportunitiesinindianfoodservicemarket-140725022108-phpapp02_95/opportunities-in-the-indian-food-service-market-20-1024.jpg",
+        "sha256": "52269199bfce8e58f8556ea7bf2c6c8711709f9a61adb70446271e6371820e9d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

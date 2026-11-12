@@ -1,0 +1,60 @@
+[
+  {
+    "correction_type": "case_text",
+    "case_id": "MCL-0087",
+    "task_id": "MCL-0087_T1",
+    "field": "rubrics[1]",
+    "stored_text": "The response should answers need to use five categories: goal-driven, peer-driven, training-driven, environment-driven, and ending pause.",
+    "corrected_text": "The response should use five categories: goal-driven, companion-driven, training-driven, environment-driven, and closing pause.",
+    "reason": "terminology and grammar were aligned with the category names stated in the task",
+    "score_impact": "none; peer-driven and companion-driven denoted the same paired-running category, so the released answers and binary judgments are retained"
+  },
+  {
+    "correction_type": "judgment_normalization",
+    "case_id": "MCL-0029",
+    "task_id": "MCL-0029_T2",
+    "inference_model": "Gemini-2.5-pro",
+    "stored_requirement_status": [
+      "partial-no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no"
+    ],
+    "normalized_requirement_status": [
+      "no",
+      "no",
+      "no",
+      "no",
+      "no",
+      "no"
+    ],
+    "stored_score": 0,
+    "normalized_score": 0,
+    "reason": "deterministic normalization to binary yes/no labels and the documented all-or-nothing score rule"
+  },
+  {
+    "correction_type": "judgment_normalization",
+    "case_id": "MCL-0067",
+    "task_id": "MCL-0067_T3",
+    "inference_model": "Gemini-2.5-pro",
+    "stored_requirement_status": [
+      "yes",
+      "yes",
+      "yes",
+      "no",
+      "yes"
+    ],
+    "normalized_requirement_status": [
+      "yes",
+      "yes",
+      "yes",
+      "no",
+      "yes"
+    ],
+    "stored_score": 1,
+    "normalized_score": 0,
+    "reason": "deterministic normalization to binary yes/no labels and the documented all-or-nothing score rule"
+  }
+]

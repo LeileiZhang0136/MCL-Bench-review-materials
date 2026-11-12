@@ -1,0 +1,1185 @@
+task_id,case_id,inference_model,source_track,category,subcategory,rubric_entry_count,failed_entry_index_1based,stored_failed_status,effective_score
+MCL-0002/T3,MCL-0002,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,3,no,0
+MCL-0003/T1,MCL-0003,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,4,no,0
+MCL-0003/T1,MCL-0003,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,4,no,0
+MCL-0003/T2,MCL-0003,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,2,no,0
+MCL-0003/T2,MCL-0003,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,1,no,0
+MCL-0003/T2,MCL-0003,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,2,no,0
+MCL-0003/T2,MCL-0003,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,1,no,0
+MCL-0003/T2,MCL-0003,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,4,no,0
+MCL-0003/T3,MCL-0003,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,1,no,0
+MCL-0003/T4,MCL-0003,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,3,no,0
+MCL-0004/T2,MCL-0004,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,3,no,0
+MCL-0006/T3,MCL-0006,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,2,no,0
+MCL-0007/T3,MCL-0007,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,2,no,0
+MCL-0007/T3,MCL-0007,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,4,no,0
+MCL-0007/T4,MCL-0007,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,1,no,0
+MCL-0007/T4,MCL-0007,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,1,no,0
+MCL-0008/T2,MCL-0008,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,5,no,0
+MCL-0008/T2,MCL-0008,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,3,no,0
+MCL-0008/T2,MCL-0008,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,3,no,0
+MCL-0008/T2,MCL-0008,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,3,no,0
+MCL-0008/T4,MCL-0008,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Daily Rules,6,2,no,0
+MCL-0011/T2,MCL-0011,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,3,no,0
+MCL-0013/T3,MCL-0013,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,2,no,0
+MCL-0015/T1,MCL-0015,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,2,no,0
+MCL-0015/T1,MCL-0015,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,3,no,0
+MCL-0015/T1,MCL-0015,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,3,no,0
+MCL-0015/T3,MCL-0015,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,3,no,0
+MCL-0017/T1,MCL-0017,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0017/T1,MCL-0017,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0017/T1,MCL-0017,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0017/T1,MCL-0017,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0017/T1,MCL-0017,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0017/T2,MCL-0017,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0017/T3,MCL-0017,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0017/T3,MCL-0017,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0017/T3,MCL-0017,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0017/T3,MCL-0017,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0017/T3,MCL-0017,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0017/T3,MCL-0017,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0017/T3,MCL-0017,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0018/T1,MCL-0018,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0021/T1,MCL-0021,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0021/T1,MCL-0021,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,1,no,0
+MCL-0021/T1,MCL-0021,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0021/T1,MCL-0021,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0021/T3,MCL-0021,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,4,no,0
+MCL-0021/T3,MCL-0021,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,4,no,0
+MCL-0022/T2,MCL-0022,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0022/T2,MCL-0022,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0023/T1,MCL-0023,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,1,no,0
+MCL-0023/T3,MCL-0023,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0026/T1,MCL-0026,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,7,2,no,0
+MCL-0027/T3,MCL-0027,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,2,no,0
+MCL-0027/T3,MCL-0027,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,2,no,0
+MCL-0027/T4,MCL-0027,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,3,no,0
+MCL-0027/T4,MCL-0027,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,3,no,0
+MCL-0027/T4,MCL-0027,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,3,no,0
+MCL-0028/T1,MCL-0028,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,4,no,0
+MCL-0028/T2,MCL-0028,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,5,no,0
+MCL-0028/T2,MCL-0028,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,4,no,0
+MCL-0028/T3,MCL-0028,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,2,no,0
+MCL-0028/T3,MCL-0028,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,1,no,0
+MCL-0028/T4,MCL-0028,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,3,no,0
+MCL-0028/T4,MCL-0028,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Visual Patterns,6,3,no,0
+MCL-0034/T3,MCL-0034,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,4,no,0
+MCL-0034/T3,MCL-0034,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,2,no,0
+MCL-0034/T4,MCL-0034,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,3,no,0
+MCL-0034/T4,MCL-0034,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,3,no,0
+MCL-0034/T4,MCL-0034,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,3,no,0
+MCL-0037/T2,MCL-0037,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,1,no,0
+MCL-0037/T2,MCL-0037,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,4,no,0
+MCL-0037/T2,MCL-0037,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,2,no,0
+MCL-0038/T2,MCL-0038,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,2,no,0
+MCL-0038/T2,MCL-0038,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,2,no,0
+MCL-0038/T2,MCL-0038,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,2,no,0
+MCL-0038/T3,MCL-0038,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,1,no,0
+MCL-0038/T3,MCL-0038,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,1,no,0
+MCL-0038/T4,MCL-0038,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,1,no,0
+MCL-0038/T4,MCL-0038,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,1,no,0
+MCL-0039/T2,MCL-0039,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,2,no,0
+MCL-0039/T2,MCL-0039,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,4,no,0
+MCL-0039/T2,MCL-0039,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,4,no,0
+MCL-0039/T2,MCL-0039,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,2,no,0
+MCL-0039/T2,MCL-0039,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,2,no,0
+MCL-0039/T3,MCL-0039,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,1,no,0
+MCL-0039/T4,MCL-0039,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,1,no,0
+MCL-0039/T4,MCL-0039,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,6,1,no,0
+MCL-0040/T1,MCL-0040,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Puzzle Games,5,5,no,0
+MCL-0041/T2,MCL-0041,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Text Logic,6,1,no,0
+MCL-0041/T2,MCL-0041,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,6,2,no,0
+MCL-0041/T2,MCL-0041,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Text Logic,6,4,no,0
+MCL-0042/T2,MCL-0042,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Text Logic,6,6,no,0
+MCL-0043/T1,MCL-0043,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,5,no,0
+MCL-0043/T1,MCL-0043,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,5,no,0
+MCL-0043/T1,MCL-0043,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,5,no,0
+MCL-0043/T1,MCL-0043,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,5,no,0
+MCL-0043/T2,MCL-0043,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T2,MCL-0043,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T2,MCL-0043,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T2,MCL-0043,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T2,MCL-0043,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T2,MCL-0043,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T3,MCL-0043,Claude-Opus-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T3,MCL-0043,Claude-Sonnet-4.6,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T3,MCL-0043,Claude-Sonnet-4.6 Thinking,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T3,MCL-0043,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T3,MCL-0043,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T3,MCL-0043,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0043/T4,MCL-0043,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0044/T1,MCL-0044,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,3,no,0
+MCL-0044/T4,MCL-0044,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,4,4,no,0
+MCL-0045/T3,MCL-0045,Claude-Opus-4.6,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,5,no,0
+MCL-0045/T3,MCL-0045,Doubao-Seed-2.0-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,2,no,0
+MCL-0045/T4,MCL-0045,GPT-5.2,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,3,no,0
+MCL-0045/T4,MCL-0045,Gemini-2.5-pro,synthetic,Rule Learning & Complex Reasoning,Text Logic,5,5,no,0
+MCL-0045/T4,MCL-0045,Gemini-3.1-Pro-Preview (High),synthetic,Rule Learning & Complex Reasoning,Text Logic,5,5,no,0
+MCL-0048/T2,MCL-0048,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,1,no,0
+MCL-0048/T2,MCL-0048,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,1,no,0
+MCL-0048/T2,MCL-0048,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,1,no,0
+MCL-0048/T3,MCL-0048,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,7,6,no,0
+MCL-0048/T4,MCL-0048,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,9,8,no,0
+MCL-0049/T2,MCL-0049,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,1,no,0
+MCL-0049/T2,MCL-0049,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,1,no,0
+MCL-0049/T2,MCL-0049,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,1,no,0
+MCL-0050/T2,MCL-0050,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,1,no,0
+MCL-0050/T2,MCL-0050,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,4,no,0
+MCL-0051/T2,MCL-0051,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,3,no,0
+MCL-0051/T3,MCL-0051,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,4,no,0
+MCL-0051/T4,MCL-0051,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,4,no,0
+MCL-0052/T4,MCL-0052,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0053/T3,MCL-0053,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0054/T3,MCL-0054,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,4,no,0
+MCL-0054/T3,MCL-0054,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,4,no,0
+MCL-0055/T1,MCL-0055,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,5,no,0
+MCL-0055/T2,MCL-0055,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,5,no,0
+MCL-0055/T2,MCL-0055,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,5,no,0
+MCL-0055/T3,MCL-0055,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0055/T3,MCL-0055,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0055/T4,MCL-0055,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,3,no,0
+MCL-0056/T2,MCL-0056,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,5,no,0
+MCL-0056/T3,MCL-0056,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0056/T3,MCL-0056,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0056/T3,MCL-0056,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0056/T4,MCL-0056,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0057/T2,MCL-0057,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,3,no,0
+MCL-0057/T3,MCL-0057,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,2,no,0
+MCL-0058/T2,MCL-0058,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Human Motion,6,6,no,0
+MCL-0059/T2,MCL-0059,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,7,6,no,0
+MCL-0059/T2,MCL-0059,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,7,6,no,0
+MCL-0059/T2,MCL-0059,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,7,6,no,0
+MCL-0059/T2,MCL-0059,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,7,6,no,0
+MCL-0059/T2,MCL-0059,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,7,6,no,0
+MCL-0059/T2,MCL-0059,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,7,6,no,0
+MCL-0060/T4,MCL-0060,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,5,no,0
+MCL-0061/T2,MCL-0061,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,5,no,0
+MCL-0061/T2,MCL-0061,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,3,no,0
+MCL-0061/T2,MCL-0061,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,3,no,0
+MCL-0061/T3,MCL-0061,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,5,4,no,0
+MCL-0061/T4,MCL-0061,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,5,no,0
+MCL-0061/T4,MCL-0061,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,5,no,0
+MCL-0061/T4,MCL-0061,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,5,no,0
+MCL-0061/T4,MCL-0061,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,5,no,0
+MCL-0062/T3,MCL-0062,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,10,9,no,0
+MCL-0063/T2,MCL-0063,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,3,no,0
+MCL-0063/T2,MCL-0063,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,1,no,0
+MCL-0063/T2,MCL-0063,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,1,no,0
+MCL-0063/T2,MCL-0063,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,3,no,0
+MCL-0063/T3,MCL-0063,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,5,2,no,0
+MCL-0063/T3,MCL-0063,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,5,4,no,0
+MCL-0063/T4,MCL-0063,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,1,no,0
+MCL-0063/T4,MCL-0063,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,4,no,0
+MCL-0063/T4,MCL-0063,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,1,no,0
+MCL-0064/T2,MCL-0064,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,5,no,0
+MCL-0064/T3,MCL-0064,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,5,4,no,0
+MCL-0064/T4,MCL-0064,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,2,no,0
+MCL-0065/T4,MCL-0065,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,4,no,0
+MCL-0066/T1,MCL-0066,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,1,no,0
+MCL-0066/T3,MCL-0066,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Game Play,6,5,no,0
+MCL-0067/T3,MCL-0067,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,5,4,no,0
+MCL-0067/T3,MCL-0067,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,5,4,no,0
+MCL-0067/T3,MCL-0067,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,5,4,no,0
+MCL-0067/T3,MCL-0067,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Navigation,5,4,no,0
+MCL-0067/T4,MCL-0067,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,5,1,no,0
+MCL-0067/T4,MCL-0067,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,5,4,no,0
+MCL-0068/T2,MCL-0068,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,4,no,0
+MCL-0068/T2,MCL-0068,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0068/T2,MCL-0068,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,4,no,0
+MCL-0068/T2,MCL-0068,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0068/T2,MCL-0068,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0068/T4,MCL-0068,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,1,no,0
+MCL-0068/T4,MCL-0068,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,1,no,0
+MCL-0069/T3,MCL-0069,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0069/T3,MCL-0069,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0071/T2,MCL-0071,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0071/T2,MCL-0071,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0071/T2,MCL-0071,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,1,no,0
+MCL-0071/T3,MCL-0071,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0071/T3,MCL-0071,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0071/T3,MCL-0071,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0071/T4,MCL-0071,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,1,no,0
+MCL-0072/T1,MCL-0072,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0072/T3,MCL-0072,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0072/T3,MCL-0072,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0072/T3,MCL-0072,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0072/T4,MCL-0072,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,1,no,0
+MCL-0072/T4,MCL-0072,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,1,no,0
+MCL-0073/T2,MCL-0073,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,5,no,0
+MCL-0073/T2,MCL-0073,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,3,no,0
+MCL-0073/T2,MCL-0073,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,3,no,0
+MCL-0073/T3,MCL-0073,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,4,no,0
+MCL-0075/T4,MCL-0075,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0077/T1,MCL-0077,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,4,no,0
+MCL-0077/T4,MCL-0077,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,1,no,0
+MCL-0079/T3,MCL-0079,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,1,no,0
+MCL-0080/T3,MCL-0080,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,2,no,0
+MCL-0082/T1,MCL-0082,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,7,6,no,0
+MCL-0082/T1,MCL-0082,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Navigation,7,6,no,0
+MCL-0083/T1,MCL-0083,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,4,no,0
+MCL-0083/T1,MCL-0083,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,4,no,0
+MCL-0083/T3,MCL-0083,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,5,no,0
+MCL-0083/T3,MCL-0083,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,5,no,0
+MCL-0083/T3,MCL-0083,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,5,no,0
+MCL-0083/T3,MCL-0083,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,5,no,0
+MCL-0083/T3,MCL-0083,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,5,no,0
+MCL-0083/T3,MCL-0083,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Navigation,6,5,no,0
+MCL-0087/T3,MCL-0087,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,8,7,no,0
+MCL-0087/T3,MCL-0087,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,8,7,no,0
+MCL-0087/T3,MCL-0087,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,8,7,no,0
+MCL-0088/T1,MCL-0088,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,9,3,no,0
+MCL-0088/T1,MCL-0088,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,9,3,no,0
+MCL-0088/T1,MCL-0088,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,9,3,no,0
+MCL-0088/T3,MCL-0088,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,8,7,no,0
+MCL-0088/T3,MCL-0088,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,8,7,no,0
+MCL-0088/T3,MCL-0088,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,8,7,no,0
+MCL-0088/T3,MCL-0088,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,8,7,no,0
+MCL-0089/T1,MCL-0089,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,9,3,no,0
+MCL-0089/T2,MCL-0089,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,7,4,no,0
+MCL-0089/T2,MCL-0089,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,7,4,no,0
+MCL-0089/T2,MCL-0089,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,7,4,no,0
+MCL-0089/T3,MCL-0089,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,5,no,0
+MCL-0089/T3,MCL-0089,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,5,no,0
+MCL-0089/T3,MCL-0089,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,5,no,0
+MCL-0089/T4,MCL-0089,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,7,6,no,0
+MCL-0089/T4,MCL-0089,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,7,6,no,0
+MCL-0090/T1,MCL-0090,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,1,no,0
+MCL-0090/T3,MCL-0090,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,7,6,no,0
+MCL-0090/T3,MCL-0090,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,7,6,no,0
+MCL-0090/T3,MCL-0090,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,7,6,no,0
+MCL-0091/T3,MCL-0091,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0091/T4,MCL-0091,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,1,no,0
+MCL-0092/T1,MCL-0092,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,4,no,0
+MCL-0092/T2,MCL-0092,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0092/T2,MCL-0092,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0092/T2,MCL-0092,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0092/T2,MCL-0092,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,1,no,0
+MCL-0092/T2,MCL-0092,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0092/T3,MCL-0092,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0092/T3,MCL-0092,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0092/T4,MCL-0092,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,1,no,0
+MCL-0093/T1,MCL-0093,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,4,no,0
+MCL-0093/T1,MCL-0093,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,4,no,0
+MCL-0093/T2,MCL-0093,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,5,no,0
+MCL-0093/T3,MCL-0093,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0093/T3,MCL-0093,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0093/T4,MCL-0093,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,3,no,0
+MCL-0093/T4,MCL-0093,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,3,no,0
+MCL-0095/T1,MCL-0095,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,4,no,0
+MCL-0095/T1,MCL-0095,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,1,no,0
+MCL-0095/T1,MCL-0095,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,4,no,0
+MCL-0095/T3,MCL-0095,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Sports Actions,6,2,no,0
+MCL-0096/T3,MCL-0096,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,8,7,no,0
+MCL-0096/T3,MCL-0096,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,8,7,no,0
+MCL-0096/T4,MCL-0096,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,6,no,0
+MCL-0096/T4,MCL-0096,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,6,no,0
+MCL-0097/T1,MCL-0097,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,5,no,0
+MCL-0097/T1,MCL-0097,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,5,no,0
+MCL-0098/T1,MCL-0098,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,5,no,0
+MCL-0098/T1,MCL-0098,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,5,no,0
+MCL-0098/T1,MCL-0098,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,5,no,0
+MCL-0098/T1,MCL-0098,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,5,no,0
+MCL-0098/T1,MCL-0098,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,5,no,0
+MCL-0098/T2,MCL-0098,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,6,no,0
+MCL-0098/T4,MCL-0098,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,6,no,0
+MCL-0098/T4,MCL-0098,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,6,no,0
+MCL-0098/T4,MCL-0098,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,7,6,no,0
+MCL-0099/T1,MCL-0099,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,9,3,no,0
+MCL-0099/T1,MCL-0099,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,9,3,no,0
+MCL-0099/T2,MCL-0099,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,8,3,no,0
+MCL-0099/T3,MCL-0099,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,9,8,no,0
+MCL-0099/T3,MCL-0099,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,9,8,no,0
+MCL-0100/T2,MCL-0100,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,5,no,0
+MCL-0100/T3,MCL-0100,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0100/T4,MCL-0100,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0100/T4,MCL-0100,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0101/T3,MCL-0101,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0101/T3,MCL-0101,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0101/T3,MCL-0101,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0101/T3,MCL-0101,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0101/T3,MCL-0101,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0101/T3,MCL-0101,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0101/T3,MCL-0101,Gemini-2.5-pro,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0101/T3,MCL-0101,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0101/T4,MCL-0101,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,5,no,0
+MCL-0101/T4,MCL-0101,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0101/T4,MCL-0101,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0102/T2,MCL-0102,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0102/T3,MCL-0102,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0103/T2,MCL-0103,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0103/T2,MCL-0103,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0103/T2,MCL-0103,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0103/T2,MCL-0103,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0103/T3,MCL-0103,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0103/T3,MCL-0103,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0103/T3,MCL-0103,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0103/T3,MCL-0103,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0103/T3,MCL-0103,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0103/T3,MCL-0103,Gemini-3.1-Pro-Preview (High),synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0103/T4,MCL-0103,Claude-Opus-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0104/T2,MCL-0104,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0104/T2,MCL-0104,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0104/T3,MCL-0104,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,3,no,0
+MCL-0104/T3,MCL-0104,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0104/T3,MCL-0104,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0105/T2,MCL-0105,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0105/T2,MCL-0105,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0105/T2,MCL-0105,Doubao-Seed-2.0-pro,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0105/T2,MCL-0105,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0105/T3,MCL-0105,Claude-Opus-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0105/T3,MCL-0105,Claude-Sonnet-4.6,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0105/T3,MCL-0105,GPT-5.2,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,4,no,0
+MCL-0105/T4,MCL-0105,Claude-Sonnet-4.6 Thinking,synthetic,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0106/T2,MCL-0106,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,3,no,0
+MCL-0106/T2,MCL-0106,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,3,no,0
+MCL-0106/T2,MCL-0106,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,3,no,0
+MCL-0106/T2,MCL-0106,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,3,no,0
+MCL-0106/T2,MCL-0106,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,3,no,0
+MCL-0106/T2,MCL-0106,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,3,no,0
+MCL-0106/T2,MCL-0106,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,3,no,0
+MCL-0106/T3,MCL-0106,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,2,no,0
+MCL-0106/T4,MCL-0106,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,1,no,0
+MCL-0108/T1,MCL-0108,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,6,no,0
+MCL-0108/T4,MCL-0108,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,2,no,0
+MCL-0109/T1,MCL-0109,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,5,no,0
+MCL-0109/T1,MCL-0109,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,5,no,0
+MCL-0109/T1,MCL-0109,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,5,no,0
+MCL-0109/T4,MCL-0109,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Work Scenes,7,6,no,0
+MCL-0111/T1,MCL-0111,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,1,no,0
+MCL-0111/T1,MCL-0111,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,5,no,0
+MCL-0111/T1,MCL-0111,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,5,no,0
+MCL-0111/T1,MCL-0111,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,5,no,0
+MCL-0111/T1,MCL-0111,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,5,no,0
+MCL-0111/T1,MCL-0111,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,5,no,0
+MCL-0111/T2,MCL-0111,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,5,no,0
+MCL-0111/T2,MCL-0111,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,5,no,0
+MCL-0111/T2,MCL-0111,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,5,no,0
+MCL-0111/T3,MCL-0111,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,3,no,0
+MCL-0111/T3,MCL-0111,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,3,no,0
+MCL-0111/T4,MCL-0111,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Work Scenes,6,3,no,0
+MCL-0112/T2,MCL-0112,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0112/T3,MCL-0112,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0112/T3,MCL-0112,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0112/T4,MCL-0112,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0112/T4,MCL-0112,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0113/T2,MCL-0113,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0113/T3,MCL-0113,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0113/T3,MCL-0113,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0113/T3,MCL-0113,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0113/T4,MCL-0113,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0113/T4,MCL-0113,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0114/T2,MCL-0114,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0114/T2,MCL-0114,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0114/T2,MCL-0114,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0114/T3,MCL-0114,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0114/T3,MCL-0114,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0114/T4,MCL-0114,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0114/T4,MCL-0114,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0115/T2,MCL-0115,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0115/T2,MCL-0115,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0115/T3,MCL-0115,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0115/T3,MCL-0115,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0115/T3,MCL-0115,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0115/T3,MCL-0115,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0115/T3,MCL-0115,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0115/T4,MCL-0115,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0115/T4,MCL-0115,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0116/T2,MCL-0116,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0116/T3,MCL-0116,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0116/T3,MCL-0116,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0116/T4,MCL-0116,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,5,no,0
+MCL-0116/T4,MCL-0116,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0117/T2,MCL-0117,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0117/T3,MCL-0117,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0117/T3,MCL-0117,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0117/T4,MCL-0117,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0118/T4,MCL-0118,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0118/T4,MCL-0118,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0118/T4,MCL-0118,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0118/T4,MCL-0118,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0119/T2,MCL-0119,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0119/T2,MCL-0119,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,4,no,0
+MCL-0119/T3,MCL-0119,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0119/T3,MCL-0119,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0119/T3,MCL-0119,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0119/T3,MCL-0119,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0119/T3,MCL-0119,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0119/T4,MCL-0119,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0119/T4,MCL-0119,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0120/T2,MCL-0120,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0120/T3,MCL-0120,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0120/T4,MCL-0120,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,5,no,0
+MCL-0120/T4,MCL-0120,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0120/T4,MCL-0120,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0120/T4,MCL-0120,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0121/T2,MCL-0121,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0121/T2,MCL-0121,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,4,no,0
+MCL-0121/T3,MCL-0121,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0121/T4,MCL-0121,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,7,no,0
+MCL-0121/T4,MCL-0121,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,7,no,0
+MCL-0122/T3,MCL-0122,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0122/T3,MCL-0122,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0122/T4,MCL-0122,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0122/T4,MCL-0122,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0122/T4,MCL-0122,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0123/T2,MCL-0123,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0123/T3,MCL-0123,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0123/T4,MCL-0123,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0123/T4,MCL-0123,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0123/T4,MCL-0123,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0123/T4,MCL-0123,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0124/T2,MCL-0124,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,4,no,0
+MCL-0124/T2,MCL-0124,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,4,no,0
+MCL-0124/T3,MCL-0124,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0124/T3,MCL-0124,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0124/T3,MCL-0124,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,2,no,0
+MCL-0124/T4,MCL-0124,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0124/T4,MCL-0124,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0125/T2,MCL-0125,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0125/T3,MCL-0125,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0125/T3,MCL-0125,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0125/T3,MCL-0125,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0126/T2,MCL-0126,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0126/T3,MCL-0126,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0126/T3,MCL-0126,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0126/T3,MCL-0126,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0126/T3,MCL-0126,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0126/T3,MCL-0126,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0126/T3,MCL-0126,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,3,no,0
+MCL-0126/T4,MCL-0126,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,8,no,0
+MCL-0127/T1,MCL-0127,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,8,3,no,0
+MCL-0127/T2,MCL-0127,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,5,no,0
+MCL-0127/T2,MCL-0127,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,5,no,0
+MCL-0127/T2,MCL-0127,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,5,no,0
+MCL-0127/T2,MCL-0127,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,6,no,0
+MCL-0127/T3,MCL-0127,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,5,4,no,0
+MCL-0127/T3,MCL-0127,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,5,4,no,0
+MCL-0127/T3,MCL-0127,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,5,4,no,0
+MCL-0127/T4,MCL-0127,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,5,no,0
+MCL-0127/T4,MCL-0127,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,5,no,0
+MCL-0128/T2,MCL-0128,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,3,no,0
+MCL-0128/T3,MCL-0128,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,10,9,no,0
+MCL-0128/T4,MCL-0128,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,8,7,no,0
+MCL-0128/T4,MCL-0128,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,8,7,no,0
+MCL-0128/T4,MCL-0128,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,8,7,no,0
+MCL-0128/T4,MCL-0128,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,8,7,no,0
+MCL-0129/T2,MCL-0129,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,5,5,no,0
+MCL-0129/T2,MCL-0129,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,5,5,no,0
+MCL-0129/T2,MCL-0129,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,5,5,no,0
+MCL-0129/T3,MCL-0129,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,5,no,0
+MCL-0129/T3,MCL-0129,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Charts & Numbers,6,5,no,0
+MCL-0130/T2,MCL-0130,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,10,4,no,0
+MCL-0130/T3,MCL-0130,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,10,3,no,0
+MCL-0130/T3,MCL-0130,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,10,3,no,0
+MCL-0130/T4,MCL-0130,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,10,9,no,0
+MCL-0130/T4,MCL-0130,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,10,9,no,0
+MCL-0130/T4,MCL-0130,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,10,5,no,0
+MCL-0131/T1,MCL-0131,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0131/T1,MCL-0131,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0131/T1,MCL-0131,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0131/T1,MCL-0131,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0131/T3,MCL-0131,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0131/T3,MCL-0131,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0131/T3,MCL-0131,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0131/T3,MCL-0131,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0131/T4,MCL-0131,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,8,6,no,0
+MCL-0133/T1,MCL-0133,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,2,no,0
+MCL-0133/T3,MCL-0133,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0133/T3,MCL-0133,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0133/T3,MCL-0133,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0133/T4,MCL-0133,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,6,2,no,0
+MCL-0134/T1,MCL-0134,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,2,no,0
+MCL-0134/T1,MCL-0134,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,2,no,0
+MCL-0134/T1,MCL-0134,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,2,no,0
+MCL-0134/T1,MCL-0134,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,2,no,0
+MCL-0134/T1,MCL-0134,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,2,no,0
+MCL-0134/T3,MCL-0134,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0134/T3,MCL-0134,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,7,6,no,0
+MCL-0134/T4,MCL-0134,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,8,3,no,0
+MCL-0135/T4,MCL-0135,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,8,7,no,0
+MCL-0136/T1,MCL-0136,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,8,4,no,0
+MCL-0136/T1,MCL-0136,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,8,4,no,0
+MCL-0136/T1,MCL-0136,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,8,4,no,0
+MCL-0136/T3,MCL-0136,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,6,2,no,0
+MCL-0136/T3,MCL-0136,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,6,2,no,0
+MCL-0136/T4,MCL-0136,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,6,6,no,0
+MCL-0137/T3,MCL-0137,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,4,no,0
+MCL-0137/T4,MCL-0137,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,6,1,no,0
+MCL-0138/T2,MCL-0138,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,4,no,0
+MCL-0138/T2,MCL-0138,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,4,no,0
+MCL-0138/T4,MCL-0138,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,6,6,no,0
+MCL-0141/T2,MCL-0141,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,5,no,0
+MCL-0141/T3,MCL-0141,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,4,2,no,0
+MCL-0142/T1,MCL-0142,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,2,no,0
+MCL-0142/T2,MCL-0142,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,5,no,0
+MCL-0142/T2,MCL-0142,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,5,no,0
+MCL-0142/T2,MCL-0142,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,5,no,0
+MCL-0142/T2,MCL-0142,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,5,no,0
+MCL-0142/T2,MCL-0142,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,5,no,0
+MCL-0142/T3,MCL-0142,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Forms & Receipts,5,5,no,0
+MCL-0143/T2,MCL-0143,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,9,no,0
+MCL-0143/T2,MCL-0143,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,2,no,0
+MCL-0143/T2,MCL-0143,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,9,no,0
+MCL-0143/T3,MCL-0143,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,8,no,0
+MCL-0143/T3,MCL-0143,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,2,no,0
+MCL-0143/T3,MCL-0143,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,8,no,0
+MCL-0143/T4,MCL-0143,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,8,no,0
+MCL-0144/T3,MCL-0144,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,6,no,0
+MCL-0144/T3,MCL-0144,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,4,no,0
+MCL-0144/T3,MCL-0144,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,6,no,0
+MCL-0145/T1,MCL-0145,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,8,7,no,0
+MCL-0145/T1,MCL-0145,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,8,7,no,0
+MCL-0145/T1,MCL-0145,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,8,7,no,0
+MCL-0146/T1,MCL-0146,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,9,3,no,0
+MCL-0146/T1,MCL-0146,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,9,5,no,0
+MCL-0146/T3,MCL-0146,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,9,8,no,0
+MCL-0146/T4,MCL-0146,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,6,no,0
+MCL-0147/T1,MCL-0147,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,2,no,0
+MCL-0147/T3,MCL-0147,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,9,no,0
+MCL-0148/T2,MCL-0148,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,8,7,no,0
+MCL-0148/T3,MCL-0148,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,10,9,no,0
+MCL-0148/T4,MCL-0148,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,6,no,0
+MCL-0149/T2,MCL-0149,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,5,no,0
+MCL-0149/T2,MCL-0149,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,1,no,0
+MCL-0149/T2,MCL-0149,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,3,no,0
+MCL-0149/T3,MCL-0149,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,5,no,0
+MCL-0149/T4,MCL-0149,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,7,1,no,0
+MCL-0150/T2,MCL-0150,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,4,no,0
+MCL-0150/T2,MCL-0150,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,4,no,0
+MCL-0150/T2,MCL-0150,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,5,no,0
+MCL-0150/T3,MCL-0150,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,4,no,0
+MCL-0150/T3,MCL-0150,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,4,no,0
+MCL-0150/T3,MCL-0150,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,4,no,0
+MCL-0150/T4,MCL-0150,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,5,no,0
+MCL-0151/T2,MCL-0151,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,1,no,0
+MCL-0151/T2,MCL-0151,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,1,no,0
+MCL-0151/T2,MCL-0151,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,1,no,0
+MCL-0151/T2,MCL-0151,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,1,no,0
+MCL-0151/T2,MCL-0151,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,1,no,0
+MCL-0151/T3,MCL-0151,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,4,no,0
+MCL-0151/T4,MCL-0151,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,1,no,0
+MCL-0151/T4,MCL-0151,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,1,no,0
+MCL-0151/T4,MCL-0151,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,1,no,0
+MCL-0151/T4,MCL-0151,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,6,5,no,0
+MCL-0152/T3,MCL-0152,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,4,no,0
+MCL-0152/T3,MCL-0152,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Layouts & Maps,5,4,no,0
+MCL-0154/T2,MCL-0154,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0154/T3,MCL-0154,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0154/T4,MCL-0154,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0154/T4,MCL-0154,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0155/T2,MCL-0155,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0155/T3,MCL-0155,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0155/T3,MCL-0155,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0155/T3,MCL-0155,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0155/T3,MCL-0155,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0155/T4,MCL-0155,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,7,no,0
+MCL-0156/T2,MCL-0156,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0156/T3,MCL-0156,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0156/T3,MCL-0156,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0156/T4,MCL-0156,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0156/T4,MCL-0156,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0156/T4,MCL-0156,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0157/T2,MCL-0157,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0157/T2,MCL-0157,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0157/T3,MCL-0157,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0157/T3,MCL-0157,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0157/T3,MCL-0157,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0157/T3,MCL-0157,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0157/T4,MCL-0157,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0158/T2,MCL-0158,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0158/T2,MCL-0158,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0158/T2,MCL-0158,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0158/T3,MCL-0158,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0158/T3,MCL-0158,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0158/T3,MCL-0158,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0158/T4,MCL-0158,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,7,no,0
+MCL-0158/T4,MCL-0158,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0158/T4,MCL-0158,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0159/T2,MCL-0159,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0159/T2,MCL-0159,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0159/T3,MCL-0159,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0159/T3,MCL-0159,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,5,no,0
+MCL-0159/T4,MCL-0159,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0159/T4,MCL-0159,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0160/T2,MCL-0160,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0160/T2,MCL-0160,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0160/T4,MCL-0160,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0160/T4,MCL-0160,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0161/T2,MCL-0161,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0161/T3,MCL-0161,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0161/T4,MCL-0161,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0161/T4,MCL-0161,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0161/T4,MCL-0161,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0161/T4,MCL-0161,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0162/T2,MCL-0162,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,4,no,0
+MCL-0162/T2,MCL-0162,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,4,no,0
+MCL-0162/T2,MCL-0162,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0162/T3,MCL-0162,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0162/T3,MCL-0162,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0162/T4,MCL-0162,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0162/T4,MCL-0162,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,5,no,0
+MCL-0163/T2,MCL-0163,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0163/T3,MCL-0163,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0163/T3,MCL-0163,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0163/T3,MCL-0163,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0163/T3,MCL-0163,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0163/T4,MCL-0163,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0164/T3,MCL-0164,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0164/T3,MCL-0164,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0164/T4,MCL-0164,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0164/T4,MCL-0164,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0164/T4,MCL-0164,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0165/T3,MCL-0165,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0165/T3,MCL-0165,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0165/T3,MCL-0165,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,5,no,0
+MCL-0165/T3,MCL-0165,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0165/T3,MCL-0165,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0165/T4,MCL-0165,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,7,no,0
+MCL-0165/T4,MCL-0165,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0165/T4,MCL-0165,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0166/T2,MCL-0166,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0166/T2,MCL-0166,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0166/T3,MCL-0166,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0166/T4,MCL-0166,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0167/T2,MCL-0167,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0167/T2,MCL-0167,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0167/T3,MCL-0167,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0167/T3,MCL-0167,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0167/T4,MCL-0167,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0168/T2,MCL-0168,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0168/T2,MCL-0168,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0168/T3,MCL-0168,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0168/T3,MCL-0168,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0168/T4,MCL-0168,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0168/T4,MCL-0168,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0169/T2,MCL-0169,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0169/T3,MCL-0169,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0169/T3,MCL-0169,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0169/T4,MCL-0169,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0170/T3,MCL-0170,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0170/T4,MCL-0170,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0170/T4,MCL-0170,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0170/T4,MCL-0170,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0171/T2,MCL-0171,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0171/T3,MCL-0171,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0171/T3,MCL-0171,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0171/T3,MCL-0171,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,5,no,0
+MCL-0171/T4,MCL-0171,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0172/T2,MCL-0172,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0172/T3,MCL-0172,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0172/T4,MCL-0172,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0172/T4,MCL-0172,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0173/T2,MCL-0173,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0173/T3,MCL-0173,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0173/T3,MCL-0173,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0173/T3,MCL-0173,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0173/T3,MCL-0173,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0173/T3,MCL-0173,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0173/T4,MCL-0173,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0173/T4,MCL-0173,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0174/T3,MCL-0174,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0174/T3,MCL-0174,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0174/T3,MCL-0174,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0174/T3,MCL-0174,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0174/T4,MCL-0174,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0175/T2,MCL-0175,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0175/T2,MCL-0175,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0175/T3,MCL-0175,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0175/T4,MCL-0175,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0176/T3,MCL-0176,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0176/T4,MCL-0176,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,6,no,0
+MCL-0176/T4,MCL-0176,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0176/T4,MCL-0176,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0176/T4,MCL-0176,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0177/T2,MCL-0177,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0177/T2,MCL-0177,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0177/T3,MCL-0177,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0177/T3,MCL-0177,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0177/T4,MCL-0177,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0177/T4,MCL-0177,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0177/T4,MCL-0177,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0178/T2,MCL-0178,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,4,no,0
+MCL-0178/T3,MCL-0178,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0178/T3,MCL-0178,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0178/T4,MCL-0178,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0178/T4,MCL-0178,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0178/T4,MCL-0178,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0178/T4,MCL-0178,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0179/T3,MCL-0179,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0179/T3,MCL-0179,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0179/T4,MCL-0179,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0179/T4,MCL-0179,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0179/T4,MCL-0179,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0180/T2,MCL-0180,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0180/T4,MCL-0180,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,5,no,0
+MCL-0180/T4,MCL-0180,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0180/T4,MCL-0180,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0180/T4,MCL-0180,Gemini-3.1-Pro-Preview (High),synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0181/T2,MCL-0181,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0181/T2,MCL-0181,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0181/T2,MCL-0181,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,4,no,0
+MCL-0181/T3,MCL-0181,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0181/T3,MCL-0181,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0181/T3,MCL-0181,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0181/T3,MCL-0181,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0181/T4,MCL-0181,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0181/T4,MCL-0181,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0181/T4,MCL-0181,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0181/T4,MCL-0181,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0181/T4,MCL-0181,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0182/T2,MCL-0182,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0182/T2,MCL-0182,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0182/T3,MCL-0182,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0182/T3,MCL-0182,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0182/T3,MCL-0182,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0182/T3,MCL-0182,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0182/T4,MCL-0182,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0183/T2,MCL-0183,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0183/T2,MCL-0183,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0183/T3,MCL-0183,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0183/T3,MCL-0183,Gemini-2.5-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0183/T4,MCL-0183,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0183/T4,MCL-0183,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0183/T4,MCL-0183,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0183/T4,MCL-0183,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0184/T3,MCL-0184,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0184/T4,MCL-0184,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0184/T4,MCL-0184,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0185/T2,MCL-0185,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0185/T3,MCL-0185,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0185/T3,MCL-0185,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0185/T3,MCL-0185,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0185/T4,MCL-0185,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0185/T4,MCL-0185,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0185/T4,MCL-0185,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0185/T4,MCL-0185,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0186/T3,MCL-0186,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0186/T3,MCL-0186,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,3,no,0
+MCL-0186/T3,MCL-0186,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0186/T4,MCL-0186,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0186/T4,MCL-0186,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0186/T4,MCL-0186,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0186/T4,MCL-0186,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0186/T4,MCL-0186,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0187/T2,MCL-0187,Claude-Opus-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0187/T3,MCL-0187,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,2,no,0
+MCL-0187/T3,MCL-0187,Claude-Sonnet-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0187/T3,MCL-0187,GPT-5.2,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,5,no,0
+MCL-0187/T4,MCL-0187,Claude-Opus-4.6,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0187/T4,MCL-0187,Claude-Sonnet-4.6 Thinking,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,8,no,0
+MCL-0187/T4,MCL-0187,Doubao-Seed-2.0-pro,synthetic,Evidence Integration & Structured Auditing,Evidence Ledger,10,9,no,0
+MCL-0188/T2,MCL-0188,Claude-Sonnet-4.6,synthetic,Expert Standards & Scenario Decision-Making,Repair Help,6,3,no,0
+MCL-0188/T2,MCL-0188,GPT-5.2,synthetic,Expert Standards & Scenario Decision-Making,Repair Help,6,3,no,0
+MCL-0188/T2,MCL-0188,Gemini-2.5-pro,synthetic,Expert Standards & Scenario Decision-Making,Repair Help,6,3,no,0
+MCL-0189/T1,MCL-0189,GPT-5.2,synthetic,Expert Standards & Scenario Decision-Making,Exam Scoring,5,5,no,0
+MCL-0191/T1,MCL-0191,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,6,2,no,0
+MCL-0192/T1,MCL-0192,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T1,MCL-0192,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T1,MCL-0192,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T1,MCL-0192,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T1,MCL-0192,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T1,MCL-0192,GPT-5.2,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T1,MCL-0192,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T2,MCL-0192,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T2,MCL-0192,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T2,MCL-0192,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T2,MCL-0192,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T2,MCL-0192,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T2,MCL-0192,GPT-5.2,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T2,MCL-0192,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T2,MCL-0192,Gemini-3.1-Pro-Preview (High),expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T3,MCL-0192,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T3,MCL-0192,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T3,MCL-0192,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T3,MCL-0192,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T3,MCL-0192,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0192/T3,MCL-0192,GPT-5.2,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0193/T1,MCL-0193,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,2,1,no,0
+MCL-0193/T1,MCL-0193,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,2,1,no,0
+MCL-0193/T1,MCL-0193,Gemini-3.1-Pro-Preview (High),expert,Rule Learning & Complex Reasoning,Daily Rules,2,1,no,0
+MCL-0193/T2,MCL-0193,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0193/T2,MCL-0193,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0193/T2,MCL-0193,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,2,2,no,0
+MCL-0193/T3,MCL-0193,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,3,3,no,0
+MCL-0195/T2,MCL-0195,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,5,4,no,0
+MCL-0195/T2,MCL-0195,Gemini-3.1-Pro-Preview (High),expert,Rule Learning & Complex Reasoning,Daily Rules,5,4,no,0
+MCL-0196/T1,MCL-0196,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,5,3,no,0
+MCL-0196/T1,MCL-0196,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,5,3,no,0
+MCL-0196/T1,MCL-0196,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,5,3,no,0
+MCL-0196/T1,MCL-0196,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,5,3,no,0
+MCL-0196/T1,MCL-0196,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,5,3,no,0
+MCL-0198/T1,MCL-0198,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,6,6,no,0
+MCL-0199/T1,MCL-0199,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,8,8,no,0
+MCL-0199/T1,MCL-0199,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Daily Rules,8,8,no,0
+MCL-0202/T3,MCL-0202,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Daily Rules,5,1,no,0
+MCL-0202/T3,MCL-0202,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,5,3,no,0
+MCL-0203/T1,MCL-0203,GPT-5.2,expert,Rule Learning & Complex Reasoning,Daily Rules,6,5,no,0
+MCL-0203/T2,MCL-0203,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Daily Rules,6,6,no,0
+MCL-0206/T2,MCL-0206,Gemini-3.1-Pro-Preview (High),expert,Rule Learning & Complex Reasoning,Visual Patterns,5,2,no,0
+MCL-0206/T3,MCL-0206,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0206/T4,MCL-0206,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0206/T4,MCL-0206,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0206/T4,MCL-0206,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0206/T4,MCL-0206,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0206/T4,MCL-0206,GPT-5.2,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,3,no,0
+MCL-0206/T5,MCL-0206,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0206/T5,MCL-0206,Gemini-3.1-Pro-Preview (High),expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0208/T1,MCL-0208,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Visual Patterns,6,6,no,0
+MCL-0208/T1,MCL-0208,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Visual Patterns,6,6,no,0
+MCL-0208/T1,MCL-0208,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Visual Patterns,6,6,no,0
+MCL-0208/T1,MCL-0208,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Visual Patterns,6,6,no,0
+MCL-0208/T1,MCL-0208,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Visual Patterns,6,6,no,0
+MCL-0208/T2,MCL-0208,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0208/T2,MCL-0208,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0208/T2,MCL-0208,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0208/T2,MCL-0208,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Visual Patterns,4,4,no,0
+MCL-0209/T1,MCL-0209,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Visual Patterns,6,6,no,0
+MCL-0209/T1,MCL-0209,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Visual Patterns,6,6,no,0
+MCL-0209/T2,MCL-0209,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,2,no,0
+MCL-0209/T2,MCL-0209,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0209/T2,MCL-0209,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,2,no,0
+MCL-0209/T2,MCL-0209,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Visual Patterns,5,5,no,0
+MCL-0209/T2,MCL-0209,Gemini-3.1-Pro-Preview (High),expert,Rule Learning & Complex Reasoning,Visual Patterns,5,2,no,0
+MCL-0210/T2,MCL-0210,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Math & Code,6,4,no,0
+MCL-0212/T1,MCL-0212,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Math & Code,5,4,no,0
+MCL-0215/T1,MCL-0215,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Math & Code,6,4,no,0
+MCL-0216/T1,MCL-0216,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Math & Code,6,6,no,0
+MCL-0216/T1,MCL-0216,GPT-5.2,expert,Rule Learning & Complex Reasoning,Math & Code,6,3,no,0
+MCL-0216/T1,MCL-0216,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Math & Code,6,6,no,0
+MCL-0216/T2,MCL-0216,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Math & Code,5,5,no,0
+MCL-0216/T2,MCL-0216,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Math & Code,5,5,no,0
+MCL-0216/T2,MCL-0216,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Math & Code,5,5,no,0
+MCL-0216/T2,MCL-0216,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Math & Code,5,5,no,0
+MCL-0216/T2,MCL-0216,GPT-5.2,expert,Rule Learning & Complex Reasoning,Math & Code,5,5,no,0
+MCL-0216/T2,MCL-0216,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Math & Code,5,5,no,0
+MCL-0217/T1,MCL-0217,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Math & Code,7,7,no,0
+MCL-0217/T1,MCL-0217,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Math & Code,7,7,no,0
+MCL-0217/T1,MCL-0217,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Math & Code,7,7,no,0
+MCL-0217/T1,MCL-0217,Claude-Sonnet-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Math & Code,7,7,no,0
+MCL-0217/T1,MCL-0217,Doubao-Seed-2.0-pro,expert,Rule Learning & Complex Reasoning,Math & Code,7,7,no,0
+MCL-0219/T2,MCL-0219,GPT-5.2,expert,Rule Learning & Complex Reasoning,Puzzle Games,3,2,no,0
+MCL-0220/T1,MCL-0220,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Puzzle Games,4,1,no,0
+MCL-0220/T1,MCL-0220,Claude-Opus-4.6 Thinking,expert,Rule Learning & Complex Reasoning,Puzzle Games,4,1,no,0
+MCL-0220/T2,MCL-0220,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Puzzle Games,4,3,no,0
+MCL-0220/T2,MCL-0220,Gemini-3.1-Pro-Preview (High),expert,Rule Learning & Complex Reasoning,Puzzle Games,4,3,no,0
+MCL-0227/T1,MCL-0227,Claude-Opus-4.6,expert,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0227/T1,MCL-0227,Claude-Sonnet-4.6,expert,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0227/T4,MCL-0227,Gemini-2.5-pro,expert,Rule Learning & Complex Reasoning,Text Logic,5,4,no,0
+MCL-0236/T1,MCL-0236,Claude-Opus-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Human Motion,6,5,no,0
+MCL-0236/T1,MCL-0236,GPT-5.2,expert,Temporal Dynamics & Environmental Interaction,Human Motion,6,5,no,0
+MCL-0236/T1,MCL-0236,Gemini-3.1-Pro-Preview (High),expert,Temporal Dynamics & Environmental Interaction,Human Motion,6,5,no,0
+MCL-0236/T2,MCL-0236,Claude-Opus-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Human Motion,7,1,no,0
+MCL-0236/T2,MCL-0236,Claude-Sonnet-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Human Motion,7,2,no,0
+MCL-0236/T2,MCL-0236,GPT-5.2,expert,Temporal Dynamics & Environmental Interaction,Human Motion,7,6,no,0
+MCL-0239/T1,MCL-0239,Claude-Sonnet-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Game Play,5,1,no,0
+MCL-0239/T1,MCL-0239,GPT-5.2,expert,Temporal Dynamics & Environmental Interaction,Game Play,5,4,no,0
+MCL-0239/T2,MCL-0239,Claude-Sonnet-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Game Play,5,4,no,0
+MCL-0239/T2,MCL-0239,Gemini-3.1-Pro-Preview (High),expert,Temporal Dynamics & Environmental Interaction,Game Play,5,4,no,0
+MCL-0241/T2,MCL-0241,Claude-Sonnet-4.6,expert,Temporal Dynamics & Environmental Interaction,Game Play,5,3,no,0
+MCL-0243/T1,MCL-0243,Claude-Sonnet-4.6,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,1,no,0
+MCL-0243/T1,MCL-0243,Doubao-Seed-2.0-pro,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,1,no,0
+MCL-0244/T2,MCL-0244,Claude-Opus-4.6,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,5,no,0
+MCL-0244/T2,MCL-0244,Claude-Opus-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,5,no,0
+MCL-0244/T2,MCL-0244,Claude-Sonnet-4.6,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,5,no,0
+MCL-0244/T2,MCL-0244,Claude-Sonnet-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,5,no,0
+MCL-0244/T2,MCL-0244,Doubao-Seed-2.0-pro,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,5,no,0
+MCL-0244/T2,MCL-0244,GPT-5.2,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,5,no,0
+MCL-0244/T2,MCL-0244,Gemini-3.1-Pro-Preview (High),expert,Temporal Dynamics & Environmental Interaction,Navigation,5,5,no,0
+MCL-0244/T3,MCL-0244,Claude-Opus-4.6,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,3,no,0
+MCL-0244/T3,MCL-0244,Doubao-Seed-2.0-pro,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,3,no,0
+MCL-0244/T3,MCL-0244,GPT-5.2,expert,Temporal Dynamics & Environmental Interaction,Navigation,5,3,no,0
+MCL-0244/T3,MCL-0244,Gemini-3.1-Pro-Preview (High),expert,Temporal Dynamics & Environmental Interaction,Navigation,5,3,no,0
+MCL-0253/T1,MCL-0253,Gemini-2.5-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,1,no,0
+MCL-0253/T2,MCL-0253,Claude-Sonnet-4.6,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,1,no,0
+MCL-0253/T2,MCL-0253,Doubao-Seed-2.0-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,1,no,0
+MCL-0254/T1,MCL-0254,Claude-Opus-4.6,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T1,MCL-0254,Claude-Opus-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T1,MCL-0254,Claude-Sonnet-4.6,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T1,MCL-0254,Claude-Sonnet-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T1,MCL-0254,Doubao-Seed-2.0-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T1,MCL-0254,GPT-5.2,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T1,MCL-0254,Gemini-2.5-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T1,MCL-0254,Gemini-3.1-Pro-Preview (High),expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T3,MCL-0254,Claude-Opus-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,4,no,0
+MCL-0254/T3,MCL-0254,Claude-Sonnet-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,2,no,0
+MCL-0254/T3,MCL-0254,Doubao-Seed-2.0-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,6,2,no,0
+MCL-0254/T4,MCL-0254,Claude-Opus-4.6,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T4,MCL-0254,Claude-Opus-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T4,MCL-0254,Claude-Sonnet-4.6,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T4,MCL-0254,Claude-Sonnet-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T4,MCL-0254,Doubao-Seed-2.0-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T4,MCL-0254,GPT-5.2,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T4,MCL-0254,Gemini-2.5-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T5,MCL-0254,Claude-Opus-4.6,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T5,MCL-0254,Claude-Opus-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T5,MCL-0254,Claude-Sonnet-4.6,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T5,MCL-0254,Claude-Sonnet-4.6 Thinking,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,5,no,0
+MCL-0254/T5,MCL-0254,Gemini-2.5-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,3,no,0
+MCL-0254/T6,MCL-0254,Claude-Opus-4.6,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,3,no,0
+MCL-0254/T6,MCL-0254,GPT-5.2,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,3,no,0
+MCL-0254/T6,MCL-0254,Gemini-2.5-pro,expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,3,no,0
+MCL-0254/T6,MCL-0254,Gemini-3.1-Pro-Preview (High),expert,Temporal Dynamics & Environmental Interaction,Agent Behavior,5,3,no,0
+MCL-0256/T1,MCL-0256,Claude-Opus-4.6,expert,Evidence Integration & Structured Auditing,Work Scenes,1,1,no,0
+MCL-0256/T1,MCL-0256,Claude-Opus-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Work Scenes,1,1,no,0
+MCL-0256/T1,MCL-0256,Claude-Sonnet-4.6,expert,Evidence Integration & Structured Auditing,Work Scenes,1,1,no,0
+MCL-0256/T1,MCL-0256,Claude-Sonnet-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Work Scenes,1,1,no,0
+MCL-0256/T1,MCL-0256,Doubao-Seed-2.0-pro,expert,Evidence Integration & Structured Auditing,Work Scenes,1,1,no,0
+MCL-0256/T1,MCL-0256,GPT-5.2,expert,Evidence Integration & Structured Auditing,Work Scenes,1,1,no,0
+MCL-0256/T1,MCL-0256,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Work Scenes,1,1,no,0
+MCL-0256/T1,MCL-0256,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Work Scenes,1,1,no,0
+MCL-0257/T1,MCL-0257,Claude-Opus-4.6,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0257/T1,MCL-0257,Claude-Opus-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0257/T1,MCL-0257,Claude-Sonnet-4.6,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0257/T1,MCL-0257,Claude-Sonnet-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0257/T1,MCL-0257,Doubao-Seed-2.0-pro,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0257/T1,MCL-0257,GPT-5.2,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0257/T1,MCL-0257,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0257/T1,MCL-0257,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0258/T1,MCL-0258,Claude-Opus-4.6,expert,Evidence Integration & Structured Auditing,Work Scenes,7,2,no,0
+MCL-0258/T1,MCL-0258,Claude-Sonnet-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Work Scenes,7,2,no,0
+MCL-0259/T1,MCL-0259,Claude-Opus-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Work Scenes,7,7,no,0
+MCL-0259/T1,MCL-0259,Doubao-Seed-2.0-pro,expert,Evidence Integration & Structured Auditing,Work Scenes,7,7,no,0
+MCL-0259/T2,MCL-0259,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0260/T1,MCL-0260,Claude-Opus-4.6,expert,Evidence Integration & Structured Auditing,Work Scenes,7,7,no,0
+MCL-0260/T1,MCL-0260,Claude-Opus-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Work Scenes,7,7,no,0
+MCL-0260/T1,MCL-0260,Doubao-Seed-2.0-pro,expert,Evidence Integration & Structured Auditing,Work Scenes,7,4,no,0
+MCL-0260/T1,MCL-0260,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Work Scenes,7,4,no,0
+MCL-0260/T1,MCL-0260,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Work Scenes,7,4,no,0
+MCL-0260/T2,MCL-0260,Claude-Opus-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Work Scenes,5,5,no,0
+MCL-0260/T2,MCL-0260,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Work Scenes,5,3,no,0
+MCL-0261/T1,MCL-0261,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Forms & Receipts,5,2,no,0
+MCL-0262/T1,MCL-0262,Claude-Opus-4.6,expert,Evidence Integration & Structured Auditing,Forms & Receipts,3,3,no,0
+MCL-0262/T1,MCL-0262,Claude-Opus-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Forms & Receipts,3,3,no,0
+MCL-0262/T1,MCL-0262,Claude-Sonnet-4.6,expert,Evidence Integration & Structured Auditing,Forms & Receipts,3,3,no,0
+MCL-0262/T1,MCL-0262,Claude-Sonnet-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Forms & Receipts,3,3,no,0
+MCL-0262/T1,MCL-0262,Doubao-Seed-2.0-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,3,3,no,0
+MCL-0262/T1,MCL-0262,GPT-5.2,expert,Evidence Integration & Structured Auditing,Forms & Receipts,3,3,no,0
+MCL-0262/T1,MCL-0262,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,3,3,no,0
+MCL-0262/T1,MCL-0262,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Forms & Receipts,3,3,no,0
+MCL-0262/T2,MCL-0262,Claude-Opus-4.6,expert,Evidence Integration & Structured Auditing,Forms & Receipts,4,4,no,0
+MCL-0262/T2,MCL-0262,Claude-Opus-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Forms & Receipts,4,4,no,0
+MCL-0262/T2,MCL-0262,Claude-Sonnet-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Forms & Receipts,4,4,no,0
+MCL-0262/T2,MCL-0262,GPT-5.2,expert,Evidence Integration & Structured Auditing,Forms & Receipts,4,4,no,0
+MCL-0262/T2,MCL-0262,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,4,4,no,0
+MCL-0262/T2,MCL-0262,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Forms & Receipts,4,4,no,0
+MCL-0263/T1,MCL-0263,Claude-Sonnet-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Forms & Receipts,1,1,no,0
+MCL-0263/T1,MCL-0263,Doubao-Seed-2.0-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,1,1,no,0
+MCL-0263/T1,MCL-0263,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,1,1,no,0
+MCL-0263/T1,MCL-0263,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Forms & Receipts,1,1,no,0
+MCL-0263/T3,MCL-0263,Claude-Sonnet-4.6,expert,Evidence Integration & Structured Auditing,Forms & Receipts,1,1,no,0
+MCL-0263/T3,MCL-0263,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,1,1,no,0
+MCL-0264/T1,MCL-0264,Claude-Opus-4.6,expert,Evidence Integration & Structured Auditing,Forms & Receipts,8,8,no,0
+MCL-0264/T1,MCL-0264,Claude-Sonnet-4.6,expert,Evidence Integration & Structured Auditing,Forms & Receipts,8,8,no,0
+MCL-0264/T1,MCL-0264,Doubao-Seed-2.0-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,8,3,no,0
+MCL-0264/T1,MCL-0264,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,8,5,no,0
+MCL-0265/T2,MCL-0265,Claude-Opus-4.6,expert,Evidence Integration & Structured Auditing,Forms & Receipts,5,4,no,0
+MCL-0265/T2,MCL-0265,GPT-5.2,expert,Evidence Integration & Structured Auditing,Forms & Receipts,5,4,no,0
+MCL-0265/T2,MCL-0265,Gemini-2.5-pro,expert,Evidence Integration & Structured Auditing,Forms & Receipts,5,4,no,0
+MCL-0265/T2,MCL-0265,Gemini-3.1-Pro-Preview (High),expert,Evidence Integration & Structured Auditing,Forms & Receipts,5,4,no,0
+MCL-0265/T3,MCL-0265,Claude-Opus-4.6 Thinking,expert,Evidence Integration & Structured Auditing,Forms & Receipts,6,6,no,0
+MCL-0269/T1,MCL-0269,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T1,MCL-0269,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T1,MCL-0269,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,4,no,0
+MCL-0269/T1,MCL-0269,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T1,MCL-0269,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,3,no,0
+MCL-0269/T1,MCL-0269,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,3,no,0
+MCL-0269/T2,MCL-0269,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T2,MCL-0269,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T2,MCL-0269,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T2,MCL-0269,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T2,MCL-0269,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T2,MCL-0269,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T2,MCL-0269,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0269/T2,MCL-0269,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0270/T1,MCL-0270,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,2,no,0
+MCL-0270/T1,MCL-0270,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,2,no,0
+MCL-0270/T2,MCL-0270,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,6,2,no,0
+MCL-0270/T2,MCL-0270,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,6,2,no,0
+MCL-0270/T2,MCL-0270,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,6,6,no,0
+MCL-0271/T2,MCL-0271,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,6,6,no,0
+MCL-0271/T2,MCL-0271,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,6,2,no,0
+MCL-0272/T3,MCL-0272,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,7,no,0
+MCL-0273/T1,MCL-0273,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,2,2,no,0
+MCL-0273/T1,MCL-0273,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,2,2,no,0
+MCL-0273/T1,MCL-0273,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,2,2,no,0
+MCL-0273/T1,MCL-0273,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,2,2,no,0
+MCL-0273/T1,MCL-0273,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,2,2,no,0
+MCL-0273/T1,MCL-0273,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,2,2,no,0
+MCL-0273/T1,MCL-0273,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,2,2,no,0
+MCL-0273/T1,MCL-0273,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,2,2,no,0
+MCL-0274/T1,MCL-0274,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,2,no,0
+MCL-0274/T1,MCL-0274,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,2,no,0
+MCL-0274/T1,MCL-0274,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,5,no,0
+MCL-0274/T2,MCL-0274,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,6,2,no,0
+MCL-0274/T2,MCL-0274,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,6,2,no,0
+MCL-0274/T3,MCL-0274,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,4,no,0
+MCL-0274/T3,MCL-0274,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,5,no,0
+MCL-0274/T3,MCL-0274,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,7,no,0
+MCL-0275/T1,MCL-0275,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,3,no,0
+MCL-0275/T1,MCL-0275,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,3,no,0
+MCL-0275/T1,MCL-0275,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,3,no,0
+MCL-0275/T1,MCL-0275,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,3,no,0
+MCL-0276/T2,MCL-0276,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,3,3,no,0
+MCL-0276/T3,MCL-0276,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,3,3,no,0
+MCL-0276/T3,MCL-0276,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,3,3,no,0
+MCL-0276/T4,MCL-0276,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,3,1,no,0
+MCL-0276/T4,MCL-0276,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,3,1,no,0
+MCL-0277/T2,MCL-0277,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,4,no,0
+MCL-0277/T2,MCL-0277,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,5,no,0
+MCL-0277/T2,MCL-0277,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,4,no,0
+MCL-0278/T2,MCL-0278,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,4,no,0
+MCL-0278/T2,MCL-0278,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,4,no,0
+MCL-0278/T2,MCL-0278,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,4,no,0
+MCL-0278/T4,MCL-0278,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,4,no,0
+MCL-0278/T4,MCL-0278,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,4,no,0
+MCL-0278/T4,MCL-0278,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,7,4,no,0
+MCL-0279/T1,MCL-0279,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,5,no,0
+MCL-0279/T1,MCL-0279,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,5,no,0
+MCL-0279/T1,MCL-0279,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,5,no,0
+MCL-0279/T1,MCL-0279,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,4,no,0
+MCL-0279/T2,MCL-0279,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,5,no,0
+MCL-0280/T1,MCL-0280,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,4,no,0
+MCL-0280/T2,MCL-0280,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,4,no,0
+MCL-0280/T2,MCL-0280,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,4,no,0
+MCL-0282/T1,MCL-0282,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,6,6,no,0
+MCL-0282/T3,MCL-0282,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,10,10,no,0
+MCL-0282/T3,MCL-0282,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,10,10,no,0
+MCL-0282/T3,MCL-0282,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,10,5,no,0
+MCL-0282/T3,MCL-0282,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,10,5,no,0
+MCL-0283/T1,MCL-0283,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T1,MCL-0283,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T1,MCL-0283,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T1,MCL-0283,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T1,MCL-0283,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T1,MCL-0283,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T1,MCL-0283,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T1,MCL-0283,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T2,MCL-0283,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T2,MCL-0283,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T2,MCL-0283,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T2,MCL-0283,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0283/T2,MCL-0283,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,4,1,no,0
+MCL-0284/T1,MCL-0284,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,4,no,0
+MCL-0284/T1,MCL-0284,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,5,4,no,0
+MCL-0286/T1,MCL-0286,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Device Manuals,9,9,no,0
+MCL-0286/T1,MCL-0286,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Device Manuals,9,4,no,0
+MCL-0286/T2,MCL-0286,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Device Manuals,8,1,no,0
+MCL-0287/T2,MCL-0287,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,3,no,0
+MCL-0287/T2,MCL-0287,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0287/T2,MCL-0287,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,3,no,0
+MCL-0287/T2,MCL-0287,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0288/T2,MCL-0288,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,4,no,0
+MCL-0288/T2,MCL-0288,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,2,no,0
+MCL-0288/T2,MCL-0288,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,2,no,0
+MCL-0288/T2,MCL-0288,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Repair Help,5,4,no,0
+MCL-0289/T1,MCL-0289,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,4,no,0
+MCL-0289/T1,MCL-0289,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0289/T1,MCL-0289,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0289/T2,MCL-0289,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0289/T2,MCL-0289,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,2,no,0
+MCL-0289/T2,MCL-0289,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Repair Help,5,2,no,0
+MCL-0290/T1,MCL-0290,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,1,no,0
+MCL-0291/T1,MCL-0291,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,4,no,0
+MCL-0292/T1,MCL-0292,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,1,no,0
+MCL-0292/T1,MCL-0292,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,1,no,0
+MCL-0292/T1,MCL-0292,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,1,no,0
+MCL-0292/T1,MCL-0292,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,1,no,0
+MCL-0292/T1,MCL-0292,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,1,no,0
+MCL-0292/T1,MCL-0292,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,1,no,0
+MCL-0292/T1,MCL-0292,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Repair Help,5,1,no,0
+MCL-0293/T1,MCL-0293,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0293/T1,MCL-0293,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0293/T1,MCL-0293,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0293/T1,MCL-0293,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0293/T1,MCL-0293,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0293/T1,MCL-0293,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0293/T1,MCL-0293,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0293/T1,MCL-0293,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0294/T1,MCL-0294,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Repair Help,6,1,no,0
+MCL-0294/T1,MCL-0294,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Repair Help,6,1,no,0
+MCL-0297/T1,MCL-0297,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,7,5,no,0
+MCL-0297/T1,MCL-0297,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,7,6,no,0
+MCL-0297/T1,MCL-0297,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Repair Help,7,6,no,0
+MCL-0297/T2,MCL-0297,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0299/T1,MCL-0299,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,7,7,no,0
+MCL-0299/T1,MCL-0299,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,7,7,no,0
+MCL-0299/T1,MCL-0299,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,7,7,no,0
+MCL-0299/T2,MCL-0299,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0299/T2,MCL-0299,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,5,5,no,0
+MCL-0299/T3,MCL-0299,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Repair Help,6,6,no,0
+MCL-0299/T3,MCL-0299,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Repair Help,6,6,no,0
+MCL-0299/T3,MCL-0299,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Repair Help,6,5,no,0
+MCL-0299/T3,MCL-0299,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Repair Help,6,4,no,0
+MCL-0307/T1,MCL-0307,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,1,no,0
+MCL-0311/T1,MCL-0311,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Medical Grading,9,3,no,0
+MCL-0311/T1,MCL-0311,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Medical Grading,9,3,no,0
+MCL-0312/T1,MCL-0312,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,8,8,no,0
+MCL-0312/T2,MCL-0312,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0313/T1,MCL-0313,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,8,8,no,0
+MCL-0313/T2,MCL-0313,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0313/T2,MCL-0313,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0313/T2,MCL-0313,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0313/T2,MCL-0313,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0313/T2,MCL-0313,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,2,no,0
+MCL-0313/T3,MCL-0313,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,3,no,0
+MCL-0314/T1,MCL-0314,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,7,7,no,0
+MCL-0314/T1,MCL-0314,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Medical Grading,7,7,no,0
+MCL-0314/T1,MCL-0314,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,7,7,no,0
+MCL-0314/T2,MCL-0314,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,6,6,no,0
+MCL-0314/T2,MCL-0314,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Medical Grading,6,6,no,0
+MCL-0314/T3,MCL-0314,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Medical Grading,6,4,no,0
+MCL-0315/T1,MCL-0315,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Medical Grading,8,8,no,0
+MCL-0315/T2,MCL-0315,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0315/T2,MCL-0315,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0315/T2,MCL-0315,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0315/T2,MCL-0315,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0315/T2,MCL-0315,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Medical Grading,5,5,no,0
+MCL-0320/T1,MCL-0320,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,5,no,0
+MCL-0320/T1,MCL-0320,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,5,no,0
+MCL-0320/T1,MCL-0320,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,5,no,0
+MCL-0323/T1,MCL-0323,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,3,3,no,0
+MCL-0323/T1,MCL-0323,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,3,3,no,0
+MCL-0323/T1,MCL-0323,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,3,3,no,0
+MCL-0323/T1,MCL-0323,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,3,3,no,0
+MCL-0323/T1,MCL-0323,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,3,3,no,0
+MCL-0323/T1,MCL-0323,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Assembly Steps,3,3,no,0
+MCL-0327/T1,MCL-0327,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,5,no,0
+MCL-0327/T1,MCL-0327,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,1,no,0
+MCL-0327/T1,MCL-0327,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,1,no,0
+MCL-0328/T1,MCL-0328,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,7,3,no,0
+MCL-0328/T1,MCL-0328,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,7,3,no,0
+MCL-0328/T1,MCL-0328,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Assembly Steps,7,3,no,0
+MCL-0328/T2,MCL-0328,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,7,5,no,0
+MCL-0328/T2,MCL-0328,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,7,5,no,0
+MCL-0328/T2,MCL-0328,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,7,5,no,0
+MCL-0329/T1,MCL-0329,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,2,no,0
+MCL-0329/T1,MCL-0329,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,2,no,0
+MCL-0329/T1,MCL-0329,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,2,no,0
+MCL-0329/T1,MCL-0329,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Assembly Steps,5,2,no,0
+MCL-0330/T1,MCL-0330,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,3,3,no,0
+MCL-0330/T1,MCL-0330,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,3,3,no,0
+MCL-0330/T1,MCL-0330,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,3,3,no,0
+MCL-0330/T2,MCL-0330,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,1,no,0
+MCL-0330/T3,MCL-0330,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,3,3,no,0
+MCL-0330/T4,MCL-0330,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,1,no,0
+MCL-0341/T1,MCL-0341,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,2,no,0
+MCL-0341/T1,MCL-0341,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,2,no,0
+MCL-0341/T1,MCL-0341,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,2,no,0
+MCL-0341/T1,MCL-0341,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,2,no,0
+MCL-0341/T1,MCL-0341,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,2,no,0
+MCL-0342/T1,MCL-0342,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,4,no,0
+MCL-0342/T1,MCL-0342,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,4,no,0
+MCL-0342/T1,MCL-0342,Claude-Sonnet-4.6,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,4,no,0
+MCL-0342/T1,MCL-0342,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,4,no,0
+MCL-0342/T1,MCL-0342,Doubao-Seed-2.0-pro,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,4,no,0
+MCL-0342/T1,MCL-0342,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,4,no,0
+MCL-0342/T1,MCL-0342,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,4,no,0
+MCL-0342/T1,MCL-0342,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,4,no,0
+MCL-0343/T1,MCL-0343,Claude-Sonnet-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,2,no,0
+MCL-0343/T1,MCL-0343,Gemini-3.1-Pro-Preview (High),expert,Expert Standards & Scenario Decision-Making,Exam Scoring,5,2,no,0
+MCL-0344/T1,MCL-0344,Claude-Opus-4.6,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,7,7,no,0
+MCL-0344/T1,MCL-0344,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,7,7,no,0
+MCL-0344/T1,MCL-0344,GPT-5.2,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,7,7,no,0
+MCL-0344/T1,MCL-0344,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,7,7,no,0
+MCL-0344/T2,MCL-0344,Claude-Opus-4.6 Thinking,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,4,4,no,0
+MCL-0344/T2,MCL-0344,Gemini-2.5-pro,expert,Expert Standards & Scenario Decision-Making,Exam Scoring,4,4,no,0

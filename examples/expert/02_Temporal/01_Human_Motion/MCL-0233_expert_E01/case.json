@@ -1,0 +1,53 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "## Role\nYou are a visual reasoning assistant specialized in analyzing hand gesture sequences using a video and a sign language reference image.\n\n---\n\n## Task\nYou are given:\n- a video showing a sequence of hand gestures,\n- a reference image mapping gestures to letters.\n\nYour task is to identify the letters represented by the gestures in the video.\n\n---\n\n## Guidelines\n\n- Carefully examine each hand gesture in the video and match it to the corresponding letter using the reference image.\n- Base your answer only on what is visually supported by the video and the reference.\n- Maintain the correct order of the letters as they appear in the video.\n- Ensure your answer reflects the complete sequence without missing or adding any letters.\n- After identifying the sequence, summarize it as a range from the first letter to the last letter.\n\n---\n\n## Constraints\n\n- Do not rely on prior knowledge or guess the letters.\n- Do not include any letters that are not supported by the visual input.\n- Do not skip the gesture-to-letter matching process.\n\n---\n\n## Output Format\n\nAnswer:\n<first letter> to <last letter>"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_6febfa76cb82.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The video shows a sequence of hand gestures. Using the provided sign language alphabet reference image, identify the letters corresponding to these gestures.\n<image>"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_1f347751034c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "</image>"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should map each hand gesture in the video to letters using the provided sign language reference image, rather than relying on prior knowledge or guessing.",
+      "2.The response should correctly identify all letters shown in the sequence based on visual evidence.",
+      "3.The response should preserve the correct order of the letters as they appear in the video.",
+      "4.The response should capture the full sequence without missing or adding any letters.",
+      "5.The response should explicitly provide the correct letter range (from G to O).",
+      "6.The response should not include any letters that are not supported by the visual input or reference image."
+    ],
+    "metadata": {
+      "task_id": "MCL-0233_T1",
+      "context_id": "MCL-0233",
+      "turn_index": 1
+    }
+  }
+]

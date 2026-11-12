@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Temporal Dynamics & Environmental Interaction",
+  "subcategory": "Human Motion",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0233",
+      "directory": "MCL-0233_expert_E01",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0236",
+      "directory": "MCL-0236_expert_E12",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0234",
+      "directory": "MCL-0234_expert_E01",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

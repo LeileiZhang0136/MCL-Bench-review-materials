@@ -1,0 +1,231 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an urban disaster evacuation advisor. Your task is to consult the given context and answer the user's question based on that context."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The earthquake has just stopped. There is no obvious collapse around the home for the moment, but fire has already spread near the nearby evacuation place that would normally be accessible, and family members cannot be reached by ordinary phone calls.\nBased on the document, what should be the top-priority destination and communication method respectively?\nPlease answer using the original names, labels, or wording shown in the document where applicable. When giving evidence, refer to the relevant page, figure, section, or position clue in the document. Do not merge different evacuation destinations or different communication services into one generic category.\n# context_id18\n\n## Page 1\n\nItems to Bring While Evacuating\n■Where to keep your emergency bag\n・Find a place where you can reach easily even when furniture is falling over or in \n    blackouts.\n・You may bring necessities with you in your bag in your daily life in case the disasters \n   happen while you are out.\nYou prepare the list of your family doctor, chronic disease and medication history in case of the situation that you cannot reach \nyour family member due to injury in disasters.\nDisaster Prevention Card\nFull name: \nBlood Type: \nAddress: \nDate of Birth:\nPhone:\nFamily doctor, chronic disease and \nmedication history \nInformation of your family doctor and \nmedication: \nEmergency contact:\nFull name: \nPhone:\nMeguro\nDisaster\nSurvival\nMap\nDisaster Prevention Section,\nMeguro City Office\nPublished March 2024\nHow to Evacuate\nHome / Office\nOccurrence of an earthquake\nWhen an earthquake occurs\n・At first, protect yourself from objects\nfalling and flying\n・Secondary, extinguish all sources of fire\n・Then, secure an exit\nStay\n(Sheltering\n at Home)\nEvacuate\nEnsure your own safety\nMajor quake has once subsided\nFire spreading near the initial evacuation site\n※For designated Remaining Area within the District, there is \n　no need for evacuation to a regional evacuation site.\nMake a judgment whether\nevacuation is required or not\n・When there is a possibility \nof fire spreading, \nexplosions and collapse \nof building or house\n・When there is no \npossibility of fire spread-\ning, explosions and \ncollapse of building or \nhouse\nThe quake stopped \nand assured the \nsafety of your house \nand neighbors.\nThe quake stopped \nand assured the \nsafety of your house \nand neighbors.\nIn case the number of \nrefugees is beyond the \ncapacity of Initial \nevacuation sites, or \naccepting refugees who \nmay have difficulties \nwith living at Initial \nevacuation sites.\nIn case accepting \npeople who have \ndifficulties with \nliving at Initial \nevacuation sites \nlike elderly persons \nwho need special \ncare and the \ndisabled. \nThe fire has been\nextinguished\nIf you cannot return\nhome due to collapse or\nother reasons\nPrepare necessities in advance just in case you need to evacuate. \nMake it a practice regularly to check that the food and batteries are not expired.\nInitial\nevacuation site\nOpen\nEvacuation\nAreas\nSupplementary\nevacuation site\nWelfare\nevacuation site\nOne or two 500ml bottled water\nDrinking water\nFood\nFlashlights\nInformation collection\ntools such as portable\nradio or TV  \nClothes\nMedicine\nSanitary goods\nOthers\nValuables\nNecessities\ndepending on\nfamily situation \nOne or two meals that are edible without being cooked\n (biscuits, dietary supplement, canned food, etc.)\nEmergency card (helping card), sanitary napkins, diapers,\nskim milk, nursing bottle, baby carrier, glasses, artificial teeth,\nnursing care goods, pet suppulies (pet  food, pet gauge, \ntoilet goods, regular medicines), etc.  \nLighter, multi-tool/army knife, cup, tissues, wet wipes, grooming kit, \nplastic wraps, oral care tools and antibacterial items (tooth brushes\nand antibacterial wet wipes/sanitizer), etc.  \nFirst Aid kit, daily medicines, Personal prescription record, etc. \nMasks, thermometers, disinfectants, disposable gloves, etc.\nCash, bank book, certificates of ownership, driver’s license, \nhealth insurance card, etc.\nGloves, winter clothes, raincoats, towels, underwear, \nhead-protecting hood, helmets, etc.\nFlashlights, Portable LED lights  (one for each person), etc.\nPortable radio, cell phone, charger, etc.\n■Regularly keep food and drinking water for at least three \ndays (ideally for seven days).\n・Rotate non-perishable food which can be eaten without using fire. Store drinking water for 3 liters per \nperson per day. \n・Offices are required to carry out a stock of food and drinking water for three days for employees with the \nTokyo victim-unable-to-return-home measure ordinance stated by Tokyo Metropolitan Government. \n・Pet owners regularly keep pet food and their toilet equipment for at least three days  (ideally for seven days).\n■Evacuation Tips / Rules when you evacuate\n・Switch off circuit breakers \n・Turn off the main gas tap\n・Take action based on accurate information\n・Evacuate in group, more than one, as much as possible \n・Do not use cars\n・Call out to neighbors and evacuate in groups.\n・Help your neighbors to evacuate the elderly or disabled persons.\n・Stay away from building collapse and concrete block walls, and be careful of falling overhead \nsignboards and glass.\n・Take a safe route even though it’s a detour. Do not return to dangerous place.\n・Keep your pet in a cage or take it with you on leash/harness wherever you go.\n➡Talk with your family or colleagues in advance about the private rules to get in touch each \nother (such as where to meet up and contact info) in case of disaster.  \n■During an earthquake\nIf you are in an underground area of \nthe building:\nWhen a fire breaks out and smoke hangs \nover, cover your mouth with a handker-\nchief and get away along a wall with a low \nposture.\nIf you are in a multi-level building:\nDo not use the elevator to evacuate. \nWhen in the elevator, get off at the nearest \nlevel and use the stairs.\nIf you are in the train/bus:\nFollow the instructions given by the crew \nand evacuate. Do not disembark until \nadvised. \n■Disaster Prevention App\n　(English version available)\nMeguro City’s free disaster prevention app for \nsmartphones and tablets provides information \nabout disaster prevention in the city.\nConfirm the closest evacuation site from your \ncurrent location in Meguro City or what evacuation \nsites have opened for a disaster. You can also view \ndisaster prevention maps and various hazard maps, \nas well as receive notifications from the city about \ndisaster prevention. \nEven when internet service is not available in a \ndisaster, you can use the app map and GPS \nfunction to confirm how to get to an evacuation site. \nSearch for “Meguroku Bosai Map” in App Store on \nyour smartphone to download it as part of your \ndisaster preparation.\nFor Android\nFor iPhone"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_bd33a9e7464b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_367324ab8d32.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_cc1f117707d0.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_4502200fad99.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_9b0b5455071a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_4da207391f03.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_19206640fe1a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\n⑥\n①\n②\n④\n⑤\n③\n⑦\n⑩\n⑬\n⑫\n⑯\n⑪\nガラス窓\n⑭\n⑮\n⑮\n⑧\n⑨\n⑰\nTo prevent injuries and damages\nWhen earthquake occurs, the most important thing is to ensure your own safety and survive.\nTo minimize damages and evacuate smoothly, check outside and inside of your house and make \na safe environment and ensure where to evacuate.\n①You do not place anything may drop off at \n porch. \n②Keep fixed vending machines for not to \n fall down.\n③Check the stability of concrete-block \n walls.\n　・Isn’t the fence too high?\n　・Does the fence have supports?\n　・Are there any inclination and/or\n    cracking?\n④Check the safety of cliffs and partitions.  \n⑤Keep fixed air conditionings for not to fall \n off. \n⑥Keep fixed roof tiles, TV antennas and \n signs for not to fall off. \n⑦TV antenna \n Whether or not there is any wobbling?\n⑧You need to fix heavy equipment which \nhas wheels underneath on the floor/ground, \nusing appropriate stoppers to prevent them \nfrom slipping.  Ask the store staffs how to fix \nit when you buy the heavy equipment.\n⑨Fix picture frames firmly against the wall\n⑩Use shatterproof film over the window\n⑪Use rubber bands for keeping books in \n bookshelf \n⑫Keep flammable materials away from\n frames \n⑬Do not leave flammable objects on the\n heating tools\n⑭Use bolts or locks for wide open shelf \n⑮Fix cupboards against the wall with \n brackets. Use brackets to fix boards in \n shelves.\n⑯Hold hanging lights against the ceiling \n with metals \n⑰Television sets are easy to fall down, so \n fix it against the wall  \nPrepare in advance for flood or storm disasters and pay attention to weather forecasts.\nHow to get disaster information\nOn the way home from work places and sites \nPreparing for Wind & \nWater Disasters\nUnder the Difficulties in Returning Home Regulations, it is office’ s responsibility to prevent \npeople from having difficulties in returning home due to letting go home all at once, so that as \nlong as the workplaces are in safe status, all have to stay at their own workplaces for three \ndays after the large-scale earthquake occurs.\nIn addition, on your way home, pay attention to traffic information, and try not to use vehicles \nwhich will be obstacles to ambulances or fire engines in traffic jams. Furthermore, when you \nneed to go home by walk, it is better for you to go together with several people who are also \ngoing home toward the same direction.\nWays to check safety of your family members \nand friends\n■Message dial\nNTT Group will set up a voice\nmessage board service: NTT \nEmergency Message Dial, when \ncommunication traffic to the disas-\nter-stricken area increases and it is\ndifficult to get through.  They also \nprovide the Disaster Message Board \nservice which is available by \ncell-phone and PC.\n*Each message can be recorded for 30 \n seconds, and 1 to 20 messages can be \n stored for each phone number. \n (A notification will be sent when \n the service is provided.)\n The recorded content will be stored \n until the Disaster Emergency \n Message Dial (171) ends its operation.\n*You can make a trial for the service on \n 1st and 15th of every month , the first three days of the New Year, during the Disaster Preparedness \n Week (from on August 30th to September 5th), and during the Disaster Preparedness and Volunteers' \n Week (from January 15th to 21st) \n■Disaster Message Board Service for cellular phone users\nFor docomo users, access to “i-mode”.  For au users, access to “ezWeb”.  \nFor Softbank users, access to “Yahoo! Keitai”.  \nYou will follow the instructions from main page on each mobile device. \nFor smartphone users\nFor docomo smartphone users, start “d-menu” or download/open “docomo \nDisaster Kit” app.  \nFor au smartphone users, start “Disaster Message Board” from main page\n (au portal) or download/open “Disaster Countermeasure” app.  \nFor Softbank smartphone users, download/open “Disaster Message Board” \napp.  You will follow the instructions on each screen. \n■Disaster Message Board Service (web171)\nNTT Group provides Disaster Message service for internet user.  \nGo to: https://www.web171.jp   and you can set up your contact info to \nregister, update and delete on the web171. You can post 100 letters per message. \nThe service starts as the same way as NTT Disaster Emergency Message Dial does. \n* The registered messages will be automatically deleted after 6 months has passed or when the term of \n  service expires.  \n*You can make a trial for the service on 1st and 15th of every month , the first three days of the New Year, \n during the Disaster Preparedness Week (from on August 30th to September 5th), and during the Disaster \n Preparedness and Volunteers' Week (from January 15th to 21st)    \nYou either record your voice message or \nplay someone’s message. \nEnter your home phone number\n (or other numbers you wish to call). \nPress 1 for recording.  Press 2 for play. \nHow to access\n（You will hear guidance after dialing.）\n■\n▼\n▼\n▼\n（The phone service is operated in Japanese.）\n■Return-home Aid Stations\nCheck points\nChecking safety outside of your house\nChecking safety inside of your house\nAll facilities registered as Return-home Aid Stations (All Tokyo \nMetropolitan High Schools, Tokyo Budo-kan, and some post \noffices, convenience stores, fast food chains, family restau-\nrants, Izakaya restaurants, Karaoke places and gas stations \nwith the sign shown right) will supply survivors with: 1. \nDrinking water, 2. Using bathroom, 3. Map information, 4. \nTraffic information and of the availability of streets via radio \nnews. They will cooperate with survivors as much as possible.\nDial 171\n*You can check the locations of the facilities on the Tokyo Metropolitan Disaster Prevention Map. \n  http://map.bousai.metro.tokyo.jp\nSign of  Return-home Aid Stations\n15sec\n(when water of Meguro river reaches the level of 2.5 meter)\nWarning alarm\n5sec\n(when water of Meguro river reaches the level of 1 meter)\n3min\nWarning alarm\n1min\nSiren will sound 2 times\nSiren\nSiren\nPause\nPause\nSiren will sound 9 times\n■Warning sirens at Meguro river\nWater level is monitored with water level indicator and alarm which are equipped in the Meguro \nriver.\nIn case water reaches a warning level there will be a siren and an announcement to inform.\nannouncement「(chime) This is Meguro city office. \nMeguro river exceeded the warning water level and the \nalarm functioned. Please be cautious. I repeat. (repeat) \n(chime)」\nannouncement「(chime) This is Meguro city office. \nMeguro river exceeded the warning water level and the \nalarm functioned. Please be cautious. I repeat. (repeat) \n(chime)」\n◆To prevent water from coming into the semi-basement parking lot or \nlower level, use sandbags or wooden boards for stopping water.\n➜There are 66 locations where residents can be provided with sand-\nbags in case of emergency. A map of the sandbag placement \nlocations can be viewed using the QR code on the right. If many \nsandbags are needed, contact Roads & Parks Service Office \nMeguro Area Service Subsection (Tel. : 3711-6825) Himonya  Area \nService Subsection (Tel. : 5721-7287). \n◆Remove dirt and fallen leaves clogged in gutters.\n◆If you keep objects that are easy to be blown away outside of your \nhouse, it is recommended to replace it into the house. If not, fix it in the \nplace.\n◆Check the weather forecasts sometimes for sudden strong wind or \nsudden increase of the water level.\n➜E-mail service for weather forecasts and flood information about Meguro \nriver is available at Meguro city (See ‘How to get disaster information’)\n1\n2\nDisaster information from Meguro City\n1 Disaster Prevention Wireless Broadcasts\nAutomatic voice answering service of municipal disaster preven-\ntion radio communication system\nIf you did not hear the disaster information on the radio broadcast, \nyou can call the dedicated phone number to receive disaster informa-\ntion. (within 24 hours after the radio broadcast) \nDedicated phone number : 050-1807-3377\n2 Homepage\n3 X (formerly Twitter), LINE, Yahoo\n4 Meguro City Disaster Prevention Map App\n5 Disaster Prevention Weather Information Email\nUrgent notices will be sent to those who have subscribed before the fact.\n6 Urgent Regional Information Email Delivery\n(Docomo→Area Mail, au/Softbank/Rakuten Mobile →Urgent Bulletin Email)\nUrgent notices can be delivered throughout Meguro City to residents who possess \nsupported cell phones.\n7 Disaster emergency information distribution service via telephone and fax\nDisaster information will be distributed by phone (fixed line) or fax to those who do not own \na mobile phone such as a smartphone. Advance registration is required to use this service.\n8 Information Board for City Facilities\nIn the event of large-scale earthquake, communications from disaster response headquar-\nters will be posted on a board in the entryway of city facilities.\nNatural disaster \ninformation e-mail \nregistration page\nSandbag Installation \nLocations"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_f3ffdfc8aee2.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_8782c6df4439.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_186b596d9b88.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_3844f6fd43ab.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response must identify the destination as \"Open Evacuation Areas\" using the original label from the document, not merely a generic phrase such as \"evacuation place\" or \"shelter.\"",
+      "2. The response must explain, based on the page 1 \"How to Evacuate\" flowchart, that the situation is not simply \"Stay (Sheltering at Home)\" because fire has spread near the initial evacuation site, and the flowchart routes from the initial evacuation site toward \"Open Evacuation Areas\" when \"Fire spreading near the initial evacuation site\" is present.",
+      "3. The response must distinguish \"Initial evacuation site\" from \"Open Evacuation Areas\" and must not treat all evacuation destinations as interchangeable.",
+      "4. The response must identify the communication method as a disaster message service rather than ordinary phone calls. A correct answer must name at least one original service label from page 2, such as \"Message dial\" / \"Dial 171,\" \"Disaster Message Board Service for cellular phone users,\" or \"Disaster Message Board Service (web171).\"",
+      "5. The response must explain that ordinary phone calls are not the intended fallback when family members cannot be reached, because the page 2 figure under \"Ways to check safety of your family members and friends\" presents disaster message / message-board services for checking or leaving safety information during disaster communication congestion.",
+      "6. The response must provide two separate conclusions: one for destination and one for communication method. Answers that provide only the evacuation destination or only the communication method are incomplete.",
+      "7. The response must include evidence using document location clues, such as page 1 \"How to Evacuate\" flowchart and page 2 \"Ways to check safety of your family members and friends.\""
+    ],
+    "metadata": {
+      "task_id": "MCL-0258_T1",
+      "context_id": "MCL-0258",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an urban disaster evacuation advisor. Your task is to consult the given context and answer the user's question based on that context."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The earthquake has just stopped. There is no obvious collapse around the home for the moment, but fire has already spread near the nearby evacuation place that would normally be accessible, and family members cannot be reached by ordinary phone calls.\nBased on the document, what should be the top-priority destination and communication method respectively?\nPlease answer using the original names, labels, or wording shown in the document where applicable. When giving evidence, refer to the relevant page, figure, section, or position clue in the document. Do not merge different evacuation destinations or different communication services into one generic category.\n# context_id18\n\n## Page 1\n\nItems to Bring While Evacuating\n■Where to keep your emergency bag\n・Find a place where you can reach easily even when furniture is falling over or in \n    blackouts.\n・You may bring necessities with you in your bag in your daily life in case the disasters \n   happen while you are out.\nYou prepare the list of your family doctor, chronic disease and medication history in case of the situation that you cannot reach \nyour family member due to injury in disasters.\nDisaster Prevention Card\nFull name: \nBlood Type: \nAddress: \nDate of Birth:\nPhone:\nFamily doctor, chronic disease and \nmedication history \nInformation of your family doctor and \nmedication: \nEmergency contact:\nFull name: \nPhone:\nMeguro\nDisaster\nSurvival\nMap\nDisaster Prevention Section,\nMeguro City Office\nPublished March 2024\nHow to Evacuate\nHome / Office\nOccurrence of an earthquake\nWhen an earthquake occurs\n・At first, protect yourself from objects\nfalling and flying\n・Secondary, extinguish all sources of fire\n・Then, secure an exit\nStay\n(Sheltering\n at Home)\nEvacuate\nEnsure your own safety\nMajor quake has once subsided\nFire spreading near the initial evacuation site\n※For designated Remaining Area within the District, there is \n　no need for evacuation to a regional evacuation site.\nMake a judgment whether\nevacuation is required or not\n・When there is a possibility \nof fire spreading, \nexplosions and collapse \nof building or house\n・When there is no \npossibility of fire spread-\ning, explosions and \ncollapse of building or \nhouse\nThe quake stopped \nand assured the \nsafety of your house \nand neighbors.\nThe quake stopped \nand assured the \nsafety of your house \nand neighbors.\nIn case the number of \nrefugees is beyond the \ncapacity of Initial \nevacuation sites, or \naccepting refugees who \nmay have difficulties \nwith living at Initial \nevacuation sites.\nIn case accepting \npeople who have \ndifficulties with \nliving at Initial \nevacuation sites \nlike elderly persons \nwho need special \ncare and the \ndisabled. \nThe fire has been\nextinguished\nIf you cannot return\nhome due to collapse or\nother reasons\nPrepare necessities in advance just in case you need to evacuate. \nMake it a practice regularly to check that the food and batteries are not expired.\nInitial\nevacuation site\nOpen\nEvacuation\nAreas\nSupplementary\nevacuation site\nWelfare\nevacuation site\nOne or two 500ml bottled water\nDrinking water\nFood\nFlashlights\nInformation collection\ntools such as portable\nradio or TV  \nClothes\nMedicine\nSanitary goods\nOthers\nValuables\nNecessities\ndepending on\nfamily situation \nOne or two meals that are edible without being cooked\n (biscuits, dietary supplement, canned food, etc.)\nEmergency card (helping card), sanitary napkins, diapers,\nskim milk, nursing bottle, baby carrier, glasses, artificial teeth,\nnursing care goods, pet suppulies (pet  food, pet gauge, \ntoilet goods, regular medicines), etc.  \nLighter, multi-tool/army knife, cup, tissues, wet wipes, grooming kit, \nplastic wraps, oral care tools and antibacterial items (tooth brushes\nand antibacterial wet wipes/sanitizer), etc.  \nFirst Aid kit, daily medicines, Personal prescription record, etc. \nMasks, thermometers, disinfectants, disposable gloves, etc.\nCash, bank book, certificates of ownership, driver’s license, \nhealth insurance card, etc.\nGloves, winter clothes, raincoats, towels, underwear, \nhead-protecting hood, helmets, etc.\nFlashlights, Portable LED lights  (one for each person), etc.\nPortable radio, cell phone, charger, etc.\n■Regularly keep food and drinking water for at least three \ndays (ideally for seven days).\n・Rotate non-perishable food which can be eaten without using fire. Store drinking water for 3 liters per \nperson per day. \n・Offices are required to carry out a stock of food and drinking water for three days for employees with the \nTokyo victim-unable-to-return-home measure ordinance stated by Tokyo Metropolitan Government. \n・Pet owners regularly keep pet food and their toilet equipment for at least three days  (ideally for seven days).\n■Evacuation Tips / Rules when you evacuate\n・Switch off circuit breakers \n・Turn off the main gas tap\n・Take action based on accurate information\n・Evacuate in group, more than one, as much as possible \n・Do not use cars\n・Call out to neighbors and evacuate in groups.\n・Help your neighbors to evacuate the elderly or disabled persons.\n・Stay away from building collapse and concrete block walls, and be careful of falling overhead \nsignboards and glass.\n・Take a safe route even though it’s a detour. Do not return to dangerous place.\n・Keep your pet in a cage or take it with you on leash/harness wherever you go.\n➡Talk with your family or colleagues in advance about the private rules to get in touch each \nother (such as where to meet up and contact info) in case of disaster.  \n■During an earthquake\nIf you are in an underground area of \nthe building:\nWhen a fire breaks out and smoke hangs \nover, cover your mouth with a handker-\nchief and get away along a wall with a low \nposture.\nIf you are in a multi-level building:\nDo not use the elevator to evacuate. \nWhen in the elevator, get off at the nearest \nlevel and use the stairs.\nIf you are in the train/bus:\nFollow the instructions given by the crew \nand evacuate. Do not disembark until \nadvised. \n■Disaster Prevention App\n　(English version available)\nMeguro City’s free disaster prevention app for \nsmartphones and tablets provides information \nabout disaster prevention in the city.\nConfirm the closest evacuation site from your \ncurrent location in Meguro City or what evacuation \nsites have opened for a disaster. You can also view \ndisaster prevention maps and various hazard maps, \nas well as receive notifications from the city about \ndisaster prevention. \nEven when internet service is not available in a \ndisaster, you can use the app map and GPS \nfunction to confirm how to get to an evacuation site. \nSearch for “Meguroku Bosai Map” in App Store on \nyour smartphone to download it as part of your \ndisaster preparation.\nFor Android\nFor iPhone"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_bd33a9e7464b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_367324ab8d32.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_cc1f117707d0.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_4502200fad99.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_9b0b5455071a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_4da207391f03.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_19206640fe1a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\n⑥\n①\n②\n④\n⑤\n③\n⑦\n⑩\n⑬\n⑫\n⑯\n⑪\nガラス窓\n⑭\n⑮\n⑮\n⑧\n⑨\n⑰\nTo prevent injuries and damages\nWhen earthquake occurs, the most important thing is to ensure your own safety and survive.\nTo minimize damages and evacuate smoothly, check outside and inside of your house and make \na safe environment and ensure where to evacuate.\n①You do not place anything may drop off at \n porch. \n②Keep fixed vending machines for not to \n fall down.\n③Check the stability of concrete-block \n walls.\n　・Isn’t the fence too high?\n　・Does the fence have supports?\n　・Are there any inclination and/or\n    cracking?\n④Check the safety of cliffs and partitions.  \n⑤Keep fixed air conditionings for not to fall \n off. \n⑥Keep fixed roof tiles, TV antennas and \n signs for not to fall off. \n⑦TV antenna \n Whether or not there is any wobbling?\n⑧You need to fix heavy equipment which \nhas wheels underneath on the floor/ground, \nusing appropriate stoppers to prevent them \nfrom slipping.  Ask the store staffs how to fix \nit when you buy the heavy equipment.\n⑨Fix picture frames firmly against the wall\n⑩Use shatterproof film over the window\n⑪Use rubber bands for keeping books in \n bookshelf \n⑫Keep flammable materials away from\n frames \n⑬Do not leave flammable objects on the\n heating tools\n⑭Use bolts or locks for wide open shelf \n⑮Fix cupboards against the wall with \n brackets. Use brackets to fix boards in \n shelves.\n⑯Hold hanging lights against the ceiling \n with metals \n⑰Television sets are easy to fall down, so \n fix it against the wall  \nPrepare in advance for flood or storm disasters and pay attention to weather forecasts.\nHow to get disaster information\nOn the way home from work places and sites \nPreparing for Wind & \nWater Disasters\nUnder the Difficulties in Returning Home Regulations, it is office’ s responsibility to prevent \npeople from having difficulties in returning home due to letting go home all at once, so that as \nlong as the workplaces are in safe status, all have to stay at their own workplaces for three \ndays after the large-scale earthquake occurs.\nIn addition, on your way home, pay attention to traffic information, and try not to use vehicles \nwhich will be obstacles to ambulances or fire engines in traffic jams. Furthermore, when you \nneed to go home by walk, it is better for you to go together with several people who are also \ngoing home toward the same direction.\nWays to check safety of your family members \nand friends\n■Message dial\nNTT Group will set up a voice\nmessage board service: NTT \nEmergency Message Dial, when \ncommunication traffic to the disas-\nter-stricken area increases and it is\ndifficult to get through.  They also \nprovide the Disaster Message Board \nservice which is available by \ncell-phone and PC.\n*Each message can be recorded for 30 \n seconds, and 1 to 20 messages can be \n stored for each phone number. \n (A notification will be sent when \n the service is provided.)\n The recorded content will be stored \n until the Disaster Emergency \n Message Dial (171) ends its operation.\n*You can make a trial for the service on \n 1st and 15th of every month , the first three days of the New Year, during the Disaster Preparedness \n Week (from on August 30th to September 5th), and during the Disaster Preparedness and Volunteers' \n Week (from January 15th to 21st) \n■Disaster Message Board Service for cellular phone users\nFor docomo users, access to “i-mode”.  For au users, access to “ezWeb”.  \nFor Softbank users, access to “Yahoo! Keitai”.  \nYou will follow the instructions from main page on each mobile device. \nFor smartphone users\nFor docomo smartphone users, start “d-menu” or download/open “docomo \nDisaster Kit” app.  \nFor au smartphone users, start “Disaster Message Board” from main page\n (au portal) or download/open “Disaster Countermeasure” app.  \nFor Softbank smartphone users, download/open “Disaster Message Board” \napp.  You will follow the instructions on each screen. \n■Disaster Message Board Service (web171)\nNTT Group provides Disaster Message service for internet user.  \nGo to: https://www.web171.jp   and you can set up your contact info to \nregister, update and delete on the web171. You can post 100 letters per message. \nThe service starts as the same way as NTT Disaster Emergency Message Dial does. \n* The registered messages will be automatically deleted after 6 months has passed or when the term of \n  service expires.  \n*You can make a trial for the service on 1st and 15th of every month , the first three days of the New Year, \n during the Disaster Preparedness Week (from on August 30th to September 5th), and during the Disaster \n Preparedness and Volunteers' Week (from January 15th to 21st)    \nYou either record your voice message or \nplay someone’s message. \nEnter your home phone number\n (or other numbers you wish to call). \nPress 1 for recording.  Press 2 for play. \nHow to access\n（You will hear guidance after dialing.）\n■\n▼\n▼\n▼\n（The phone service is operated in Japanese.）\n■Return-home Aid Stations\nCheck points\nChecking safety outside of your house\nChecking safety inside of your house\nAll facilities registered as Return-home Aid Stations (All Tokyo \nMetropolitan High Schools, Tokyo Budo-kan, and some post \noffices, convenience stores, fast food chains, family restau-\nrants, Izakaya restaurants, Karaoke places and gas stations \nwith the sign shown right) will supply survivors with: 1. \nDrinking water, 2. Using bathroom, 3. Map information, 4. \nTraffic information and of the availability of streets via radio \nnews. They will cooperate with survivors as much as possible.\nDial 171\n*You can check the locations of the facilities on the Tokyo Metropolitan Disaster Prevention Map. \n  http://map.bousai.metro.tokyo.jp\nSign of  Return-home Aid Stations\n15sec\n(when water of Meguro river reaches the level of 2.5 meter)\nWarning alarm\n5sec\n(when water of Meguro river reaches the level of 1 meter)\n3min\nWarning alarm\n1min\nSiren will sound 2 times\nSiren\nSiren\nPause\nPause\nSiren will sound 9 times\n■Warning sirens at Meguro river\nWater level is monitored with water level indicator and alarm which are equipped in the Meguro \nriver.\nIn case water reaches a warning level there will be a siren and an announcement to inform.\nannouncement「(chime) This is Meguro city office. \nMeguro river exceeded the warning water level and the \nalarm functioned. Please be cautious. I repeat. (repeat) \n(chime)」\nannouncement「(chime) This is Meguro city office. \nMeguro river exceeded the warning water level and the \nalarm functioned. Please be cautious. I repeat. (repeat) \n(chime)」\n◆To prevent water from coming into the semi-basement parking lot or \nlower level, use sandbags or wooden boards for stopping water.\n➜There are 66 locations where residents can be provided with sand-\nbags in case of emergency. A map of the sandbag placement \nlocations can be viewed using the QR code on the right. If many \nsandbags are needed, contact Roads & Parks Service Office \nMeguro Area Service Subsection (Tel. : 3711-6825) Himonya  Area \nService Subsection (Tel. : 5721-7287). \n◆Remove dirt and fallen leaves clogged in gutters.\n◆If you keep objects that are easy to be blown away outside of your \nhouse, it is recommended to replace it into the house. If not, fix it in the \nplace.\n◆Check the weather forecasts sometimes for sudden strong wind or \nsudden increase of the water level.\n➜E-mail service for weather forecasts and flood information about Meguro \nriver is available at Meguro city (See ‘How to get disaster information’)\n1\n2\nDisaster information from Meguro City\n1 Disaster Prevention Wireless Broadcasts\nAutomatic voice answering service of municipal disaster preven-\ntion radio communication system\nIf you did not hear the disaster information on the radio broadcast, \nyou can call the dedicated phone number to receive disaster informa-\ntion. (within 24 hours after the radio broadcast) \nDedicated phone number : 050-1807-3377\n2 Homepage\n3 X (formerly Twitter), LINE, Yahoo\n4 Meguro City Disaster Prevention Map App\n5 Disaster Prevention Weather Information Email\nUrgent notices will be sent to those who have subscribed before the fact.\n6 Urgent Regional Information Email Delivery\n(Docomo→Area Mail, au/Softbank/Rakuten Mobile →Urgent Bulletin Email)\nUrgent notices can be delivered throughout Meguro City to residents who possess \nsupported cell phones.\n7 Disaster emergency information distribution service via telephone and fax\nDisaster information will be distributed by phone (fixed line) or fax to those who do not own \na mobile phone such as a smartphone. Advance registration is required to use this service.\n8 Information Board for City Facilities\nIn the event of large-scale earthquake, communications from disaster response headquar-\nters will be posted on a board in the entryway of city facilities.\nNatural disaster \ninformation e-mail \nregistration page\nSandbag Installation \nLocations"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_f3ffdfc8aee2.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_8782c6df4439.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_186b596d9b88.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_3844f6fd43ab.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "After a major earthquake, the shaking has stopped. The resident has checked that their own safety, the house, and the neighbors are all safe. There is no sign of spreading fire, explosions, or collapse of the house or building.\nAccording to the document, should the resident go to an evacuation site, or choose the option named in the flowchart?\nPlease answer using the original label from the document, and briefly explain how the flowchart distinguishes this case from cases that require evacuation. Include the relevant page/figure location as evidence."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response must identify the correct action as \"Stay (Sheltering at Home)\" using the original label shown in the page 1 \"How to Evacuate\" flowchart.",
+      "2. The response must explain that this branch applies when there is no possibility of spreading fire, explosions, or collapse of the house or building, and when the quake has stopped and the safety of the house and neighbors has been assured.",
+      "3. The response must distinguish this case from the branch that goes to an \"Initial evacuation site,\" which applies when evacuation is required because there is a possibility of spreading fire, explosions, or collapse.",
+      "4. The response must not incorrectly recommend \"Open Evacuation Areas,\" because that destination is tied to conditions such as fire spreading near the initial evacuation site or later movement from the initial evacuation site.",
+      "5. The response must cite or refer to the page 1 \"How to Evacuate\" flowchart as the evidence source.",
+      "6. The response must use the document’s original destination label and avoid replacing it with a loose synonym such as \"stay somewhere safe\" without the exact label."
+    ],
+    "metadata": {
+      "task_id": "MCL-0258_T2",
+      "context_id": "MCL-0258",
+      "turn_index": 2
+    }
+  }
+]

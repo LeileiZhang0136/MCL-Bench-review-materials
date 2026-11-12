@@ -1,0 +1,22 @@
+{
+  "source_track": "synthetic",
+  "category": "Evidence Integration & Structured Auditing",
+  "subcategory": "Forms & Receipts",
+  "count": 2,
+  "cases": [
+    {
+      "case_id": "MCL-0130",
+      "directory": "MCL-0130_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0131",
+      "directory": "MCL-0131_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

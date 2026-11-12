@@ -1,0 +1,22 @@
+{
+  "source_track": "expert",
+  "category": "Rule Learning & Complex Reasoning",
+  "subcategory": "Math & Code",
+  "count": 2,
+  "cases": [
+    {
+      "case_id": "MCL-0213",
+      "directory": "MCL-0213_expert_E04",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0210",
+      "directory": "MCL-0210_expert_E02",
+      "task_count": "3",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

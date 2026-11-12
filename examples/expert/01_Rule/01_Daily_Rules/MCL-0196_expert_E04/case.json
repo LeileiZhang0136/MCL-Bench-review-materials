@@ -1,0 +1,137 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a professional expert in mathematical magic principle research, focusing on logical deduction, periodic rules, the Josephus problem model, sequence operation and underlying mathematical logic of classic magic performances. You can fully absorb the core mathematical models, fixed operation rules, position changing laws and closed-loop reasoning mechanisms based on the provided graphic explanation content. All analysis must be completely derived from the given materials without external knowledge, superficial generalization or subjective speculation. You are required to master hidden mathematical laws, variable correlation and closed-loop operating logic, and possess advanced capabilities including principle decomposition, error identification, conditional variation and reverse reasoning."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please fully study and analyze all reference images:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_51c25fd7caf5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_28646292e36a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_28646292e36a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[IMG.b4.png]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_128c7620b119.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_58a3f9b4bb58.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_b6456faf0535.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_fd218a758e60.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_d10185e2fe58.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These materials focus on Liu Qian’s classic Spring Festival Gala magic and systematically explain its core principle based on the Josephus problem, including elimination rules, fixed counting logic and closed-loop operation laws. Combined with the complete reasoning chain in all graphics, please complete advanced comprehensive analysis: Reverse decompose the underlying mathematical mechanism that enables the magic to predict the final result 100% based on the Josephus operation rules, round elimination logic and position periodic changes. Meanwhile, assume the core condition of fixed counting steps is modified, deduce the chain changes of elimination order, closed-loop rules and final outcome, and prove that the performance relies entirely on fixed mathematical models rather than random coincidence."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please learn and fully master the complete number magic rules from the given rule images"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_c889ff3fb425.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "and"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_ce799fc92b4a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Then watch and analyze the magic performance video"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_010_f7d05e4a2638.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". In this performance, different participants chose completely different individual numbers during the process, but their final total sum results are exactly the same. Please explain the core mathematical rule and internal reason why diverse selected numbers can still produce an identical final result."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_011_4c80b7eac0a6.mp4"
+            }
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should accurately summarize the unified underlying calculation rule of this number magic, and clarify the fixed operation framework and core constraints of the magic.",
+      "2.The response should reasonably explain why different personalized numbers chosen by participants will not change the final total sum under the established rules.",
+      "3.The response should connect the performance behaviors in the video with the learned magic rules, and verify that all operations in the video follow the magic logic.",
+      "4.The response should clearly distinguish between \"variable numbers\" (numbers chosen by participants) and \"fixed settings\" (unchanging conditions in the rules) in the magic, and explain the correlation and influence between the two.",
+      "5.The response should provide a complete logical deduction instead of superficial description, proving that the same final total sum is an inevitable result under the magic rules rather than a coincidence."
+    ],
+    "metadata": {
+      "task_id": "MCL-0196_T1",
+      "context_id": "MCL-0196",
+      "turn_index": 1
+    }
+  }
+]

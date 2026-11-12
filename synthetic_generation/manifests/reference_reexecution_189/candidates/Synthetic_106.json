@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_106",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:91521110100M_4K_UHD_Display_User_Manual_V1.1",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "91521110100M_4K_UHD_Display_User_Manual_V1.1",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page0.jpg",
+        "sha256": "17eda5e49e32f3a98f197db329e37e25e460c9e6081e339f8fb0b1a1476be9d0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page4.jpg",
+        "sha256": "077ccbbb6a1edb3ddd9c0e96d7b1cf725b662d332daecb22d90267835f9e0fce",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page7.jpg",
+        "sha256": "f39075ad3f7ff6071243d71edb23dcf4c38f96ca7ba427d2ac2b27b20d7cb4dd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page11.jpg",
+        "sha256": "dfe816f15bfe3cc0123a7e3543ae1e54659b1f70fa7dfabe604b0b8babcc3912",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page14.jpg",
+        "sha256": "472c654e567aae3410572376a045db9478a389dda5e74d4df6329efa83b9cef7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page18.jpg",
+        "sha256": "fca26bc87215ce1c2ba01aab92d847fd42e30c541f7f3a4bb359b0efc505c7d6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page21.jpg",
+        "sha256": "bb1c668c062486e0bba006dfc12e5c042d4689bba3d2417533a59aacbf1f5b46",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page25.jpg",
+        "sha256": "7858078f26ef50a6488e004404379b140fa12ce9fb0b649613c4ef201484282f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page28.jpg",
+        "sha256": "b984ae65e2edb2b54195c24649af555c5aaa941cccee6c6b457582819cf9fff5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page32.jpg",
+        "sha256": "28c259d98988223725154f933cc3afb2adef1dbc8a29c5b7a8cdfe16f2301a40",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page35.jpg",
+        "sha256": "2974bf3fa80913df13b13bd953495746cc5446d284456718d020754b1d3ffc40",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/91521110100M_4K_UHD_Display_User_Manual_V1.1/91521110100M_4K_UHD_Display_User_Manual_V1.1_page39.jpg",
+        "sha256": "13ce2646d7389df7ffd3869e4ec46ec199413c70e4898c12c280ffd1a896c635",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_139",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:PWC_opportunity_of_lifetime",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "PWC_opportunity_of_lifetime",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page0.jpg",
+        "sha256": "b2268bd526797fab16c6e4f7ee52c1d1cb7efb058c87680c2dc4809bfcb7280b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page2.jpg",
+        "sha256": "7cc3fbace9237be35674113d4663dc9d9d200a366ee9647edcbace127c9e5a99",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page3.jpg",
+        "sha256": "98623078ba5e8ffe323ad65c6229723c2e5fc992d7e876b21c099b8c77edf79d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page5.jpg",
+        "sha256": "f508fff563c44137475aeabfc780c68efef4d0eacd1cd5250d6b34f1e0d265d7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page6.jpg",
+        "sha256": "1f23d9a3cd6ac0991d222e75fc0df555218159faf21b706e431138763b4fc898",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page8.jpg",
+        "sha256": "866c26587072a848dbaa18499c8f0859c776cd3b52182499ba87f0f8fdd93d81",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page9.jpg",
+        "sha256": "158bdd701a59256e8249f6ab4e7c0f147e7148cbee702709fcd8b7211a67883a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page11.jpg",
+        "sha256": "218cf7a9ac761d95a2d1b819c02dd9a2d502e5b103fb83d26cea569d1deceb9b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page12.jpg",
+        "sha256": "2d4c57fdbce8022d6867abb15dd884dcff01506bd28781aeaf3fb6084218aab0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page14.jpg",
+        "sha256": "6673b79f20992b114cddc75f898babf9f86632b58f30a5dcb796f738dc20d913",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page15.jpg",
+        "sha256": "17d37000a7570b5207f35244c063d2ce7fbf6dba73c5603b14903151262070a9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/PWC_opportunity_of_lifetime/PWC_opportunity_of_lifetime_page17.jpg",
+        "sha256": "393d06958c11fc4fe35ed8b54c3b1942195a2bd2aa56476d9c3812d8f3d048e8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "source_track": "expert",
+  "category": "Rule Learning & Complex Reasoning",
+  "subcategory": "Text Logic",
+  "count": 2,
+  "cases": [
+    {
+      "case_id": "MCL-0227",
+      "directory": "MCL-0227_expert_E04",
+      "task_count": "4",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0228",
+      "directory": "MCL-0228_expert_E05",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

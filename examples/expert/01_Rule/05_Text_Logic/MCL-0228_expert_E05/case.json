@@ -1,0 +1,147 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a top expert in the field of classical puzzle games and spatial reasoning, proficient in mathematical modeling, state space search, heuristic planning, and human cognitive problem-solving strategies for Huarongdao (Klotski/Slide Puzzle). You also possess abilities in algorithm design, logical deduction, error diagnosis, and teaching analysis. This interaction aims to systematically test your understanding, analysis, and solving abilities for Huarongdao puzzles. Please strictly follow the following rules:\nAccurately analyze the inputted layout of Huarongdao and establish a standardized state representation\nConduct rigorous step-by-step deduction, output legal move sequences, and prohibit skipping steps, experiencing state illusions, or making moves that violate physical rules.\nDemonstrate clear problem-solving strategies: including the setting of key sub-goals, heuristic selection criteria, deadlock/loop avoidance mechanisms, and backtracking logic.\nIf it is determined that the current layout is unsolvable, the number of steps exceeds a reasonable range, or the information is incomplete, a clear statement must be made and a theoretical basis or alternative verification method provided. It is not allowed to forcefully construct an answer."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "In digital Huarong Dao, the numbers on each grid from left to right correspond to the order of the numbers"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_f8858155cf64.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "When we play the number puzzle game of Huarongdao, we often encounter this problem: after the positions of 1 and 2 are correctly matched, the 3 cannot be moved up because there is an obstacle in the middle. Here, we need to remember a trick called \"making a turn\". First, turn 1 and 2 over like this, and the useless number will also turn over with them. Then, move 3 up directly, and then move the useless number out. Turn 2 back, turn 1 back, and that's it, you have completed 123"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_f8858155cf64.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Now, please continue the unfinished part of the video and complete this digital Huarong puzzle. Tell me how you proceed with each step, including the state of each step"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should strictly follow only the “making a turn” trick provided in the context and must not use any external Huarong Dao knowledge, strategies, or common-sense moves not mentioned in the description.",
+      "2.The response should output every movement step in strict chronological order, explicitly state the grid state after each step, and maintain full memory of the immediately preceding state at every step without forgetting, skipping, or misordering any action.",
+      "3.The response should correctly handle the obstacle condition, the position of number 3, and the rotation logic of numbers 1 and 2 as defined in the context, and keep all actions consistent with the described rule changes at each stage.",
+      "4.The response should precisely recognize the role and position of the “useless number” and move it into and out of the key area at the exact timing required by the “making a turn” procedure.",
+      "5.The response should reach the final standard state with numbers arranged in exact order 1–2–3–4–5–6–7–8, and ensure every single action is logically derived only from the given context rather than external prior knowledge."
+    ],
+    "metadata": {
+      "task_id": "MCL-0228_T1",
+      "context_id": "MCL-0228",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a top expert in the field of classical puzzle games and spatial reasoning, proficient in mathematical modeling, state space search, heuristic planning, and human cognitive problem-solving strategies for Huarongdao (Klotski/Slide Puzzle). You also possess abilities in algorithm design, logical deduction, error diagnosis, and teaching analysis. This interaction aims to systematically test your understanding, analysis, and solving abilities for Huarongdao puzzles. Please strictly follow the following rules:\nAccurately analyze the inputted layout of Huarongdao and establish a standardized state representation\nConduct rigorous step-by-step deduction, output legal move sequences, and prohibit skipping steps, experiencing state illusions, or making moves that violate physical rules.\nDemonstrate clear problem-solving strategies: including the setting of key sub-goals, heuristic selection criteria, deadlock/loop avoidance mechanisms, and backtracking logic.\nIf it is determined that the current layout is unsolvable, the number of steps exceeds a reasonable range, or the information is incomplete, a clear statement must be made and a theoretical basis or alternative verification method provided. It is not allowed to forcefully construct an answer."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "In digital Huarong Dao, the numbers on each grid from left to right correspond to the order of the numbers"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_f8858155cf64.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "When we play the number puzzle game of Huarongdao, we often encounter this problem: after the positions of 1 and 2 are correctly matched, the 3 cannot be moved up because there is an obstacle in the middle. Here, we need to remember a trick called \"making a turn\". First, turn 1 and 2 over like this, and the useless number will also turn over with them. Then, move 3 up directly, and then move the useless number out. Turn 2 back, turn 1 back, and that's it, you have completed 123"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_f8858155cf64.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Now, please continue the unfinished part of the video and complete this digital Huarong puzzle. Tell me how you proceed with each step, including the state of each step"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Now I have a new digital Huarong puzzle for you."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_49d7e79c98fd.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Based on this, could you please answer what the rules of this Huarong Dao are and how they differ from the previous numbers? Can we use our previous turning rules"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should clearly and explicitly infer from the context that the goal of this new Huarong Dao puzzle is to complete the arrangement according to the pattern shown on the top-left display screen, and express this rule with clear, unambiguous textual evidence.",
+      "2.The response should accurately identify and summarize all core rules of the new digital Huarong Dao puzzle based only on the provided context, without adding external game knowledge or unstated assumptions.",
+      "3.The response should precisely compare and explain the differences between the new rules and the previous number-based Huarong Dao rules, covering goal, constraint, and operation logic in a structured way.",
+      "4.The response should correctly judge that the previous “making a turn” rule can be used, but only within a single independent small block, and logically justify this conclusion using only contextual information."
+    ],
+    "metadata": {
+      "task_id": "MCL-0228_T2",
+      "context_id": "MCL-0228",
+      "turn_index": 2
+    }
+  }
+]

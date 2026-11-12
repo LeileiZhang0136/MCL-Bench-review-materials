@@ -1,0 +1,163 @@
+{
+  "scope": "Descriptive comparison on an outcome-blind stratified sample of existing matched responses, not the historical author-review sample. No human accuracy is inferred.",
+  "responses": 100,
+  "judge_results": {
+    "GPT-5.2": {
+      "passes": 13,
+      "responses": 100,
+      "pass_percent": 13
+    },
+    "Claude-Opus-4.6 Thinking": {
+      "passes": 38,
+      "responses": 100,
+      "pass_percent": 38
+    },
+    "Gemini-3.1-Pro-Preview (High)": {
+      "passes": 28,
+      "responses": 100,
+      "pass_percent": 28
+    }
+  },
+  "three_way_patterns_gpt_claude_gemini": {
+    "000": 58,
+    "001": 4,
+    "010": 14,
+    "011": 11,
+    "111": 13
+  },
+  "three_way_agreement_percent": 71,
+  "pairwise": [
+    {
+      "judge_a": "GPT-5.2",
+      "judge_b": "Claude-Opus-4.6 Thinking",
+      "counts_a_b": {
+        "00": 62,
+        "01": 25,
+        "10": 0,
+        "11": 13
+      },
+      "agreement_percent": 75,
+      "cohens_kappa": 0.39202334630350194,
+      "positive_agreement": 0.5098039215686274,
+      "negative_agreement": 0.8322147651006712
+    },
+    {
+      "judge_a": "GPT-5.2",
+      "judge_b": "Gemini-3.1-Pro-Preview (High)",
+      "counts_a_b": {
+        "00": 72,
+        "01": 15,
+        "10": 0,
+        "11": 13
+      },
+      "agreement_percent": 85,
+      "cohens_kappa": 0.5551601423487544,
+      "positive_agreement": 0.6341463414634146,
+      "negative_agreement": 0.9056603773584906
+    },
+    {
+      "judge_a": "Claude-Opus-4.6 Thinking",
+      "judge_b": "Gemini-3.1-Pro-Preview (High)",
+      "counts_a_b": {
+        "00": 58,
+        "01": 4,
+        "10": 14,
+        "11": 24
+      },
+      "agreement_percent": 82,
+      "cohens_kappa": 0.5974955277280858,
+      "positive_agreement": 0.7272727272727273,
+      "negative_agreement": 0.8656716417910447
+    }
+  ],
+  "by_inference_model": {
+    "Claude-Opus-4.6": {
+      "responses": 13,
+      "judge_passes": {
+        "GPT-5.2": 2,
+        "Claude-Opus-4.6 Thinking": 6,
+        "Gemini-3.1-Pro-Preview (High)": 4
+      }
+    },
+    "Claude-Opus-4.6 Thinking": {
+      "responses": 13,
+      "judge_passes": {
+        "GPT-5.2": 4,
+        "Claude-Opus-4.6 Thinking": 10,
+        "Gemini-3.1-Pro-Preview (High)": 7
+      }
+    },
+    "Claude-Sonnet-4.6": {
+      "responses": 13,
+      "judge_passes": {
+        "GPT-5.2": 3,
+        "Claude-Opus-4.6 Thinking": 5,
+        "Gemini-3.1-Pro-Preview (High)": 3
+      }
+    },
+    "Claude-Sonnet-4.6 Thinking": {
+      "responses": 13,
+      "judge_passes": {
+        "GPT-5.2": 0,
+        "Claude-Opus-4.6 Thinking": 6,
+        "Gemini-3.1-Pro-Preview (High)": 5
+      }
+    },
+    "Doubao-Seed-2.0-pro": {
+      "responses": 12,
+      "judge_passes": {
+        "GPT-5.2": 1,
+        "Claude-Opus-4.6 Thinking": 4,
+        "Gemini-3.1-Pro-Preview (High)": 1
+      }
+    },
+    "GPT-5.2": {
+      "responses": 12,
+      "judge_passes": {
+        "GPT-5.2": 1,
+        "Claude-Opus-4.6 Thinking": 1,
+        "Gemini-3.1-Pro-Preview (High)": 1
+      }
+    },
+    "Gemini-2.5-pro": {
+      "responses": 12,
+      "judge_passes": {
+        "GPT-5.2": 1,
+        "Claude-Opus-4.6 Thinking": 3,
+        "Gemini-3.1-Pro-Preview (High)": 4
+      }
+    },
+    "Gemini-3.1-Pro-Preview (High)": {
+      "responses": 12,
+      "judge_passes": {
+        "GPT-5.2": 1,
+        "Claude-Opus-4.6 Thinking": 3,
+        "Gemini-3.1-Pro-Preview (High)": 3
+      }
+    }
+  },
+  "sample_composition": {
+    "models": {
+      "GPT-5.2": 12,
+      "Claude-Sonnet-4.6 Thinking": 13,
+      "Claude-Opus-4.6": 13,
+      "Gemini-2.5-pro": 12,
+      "Doubao-Seed-2.0-pro": 12,
+      "Claude-Sonnet-4.6": 13,
+      "Gemini-3.1-Pro-Preview (High)": 12,
+      "Claude-Opus-4.6 Thinking": 13
+    },
+    "categories": {
+      "Rule Learning & Complex Reasoning": 25,
+      "Temporal Dynamics & Environmental Interaction": 25,
+      "Evidence Integration & Structured Auditing": 24,
+      "Expert Standards & Scenario Decision-Making": 26
+    },
+    "source_tracks": {
+      "synthetic": 59,
+      "expert": 41
+    },
+    "unique_cases": 87,
+    "unique_tasks": 93
+  }
+}

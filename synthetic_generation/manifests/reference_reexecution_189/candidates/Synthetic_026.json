@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_026",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/designinginthewalkablecity-151107224043-lva1-app6891_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/designinginthewalkablecity-151107224043-lva1-app6891_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-1-1024.jpg",
+        "sha256": "0fae55363c77b700971aaa06712d0c7a2426d733be661f9bd7746220caa9a487",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-3-1024.jpg",
+        "sha256": "9877a65cf47444e95d071e2527d9e0936e6849fab79055874950b59992d6a4b1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-4-1024.jpg",
+        "sha256": "b791f88cde1eed43cfb43739c64561fdf907468104ac91c4ccd3b4c1f252162d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-6-1024.jpg",
+        "sha256": "75c29a61d9c40f9f67fd36489e1a0a16a9efa3d4ec96da3f9e1621f60636a0c2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-8-1024.jpg",
+        "sha256": "11d6a52b97d68cba94df7bec1badadd2b7e9c2e0e8d9601b30d9e626fd71d837",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-10-1024.jpg",
+        "sha256": "c3915e2fca23c7c6b27e1adf4e75160e14ddf36945bd78295c2724f00e7575ff",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-11-1024.jpg",
+        "sha256": "5746204560031341d8d2cdda8d8be54609fa2f4b2e41a96314603f6c54614de3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-13-1024.jpg",
+        "sha256": "0995c5b433fd30463fc58ccd9c5ffebcef595591c4cef7b6c06c61f79080b9ba",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-15-1024.jpg",
+        "sha256": "1bea2920be6d4eb833873c4dba3a000a025e14f9f8eb014f6e0feea2ed561d06",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-17-1024.jpg",
+        "sha256": "bc0384ac45f02fe7eba006db36bf788587cc909dad9c581b69ef2b9d3ba886db",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-18-1024.jpg",
+        "sha256": "8abc1e48e60a558d0e5216f40eaa40fd4c5dffb59abd36139dce8fe129af37e1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/designinginthewalkablecity-151107224043-lva1-app6891_95/designing-in-the-walkable-city-20-1024.jpg",
+        "sha256": "a61b9e7912fe69d55a7ebcf85e4c2b9abb78519b635a29cbd5ac65fcb43f5438",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

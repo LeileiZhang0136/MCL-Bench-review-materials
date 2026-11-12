@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_075",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:PRE_2022.09.29_NSL-politics_REPORT",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "PRE_2022.09.29_NSL-politics_REPORT",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page0.jpg",
+        "sha256": "a13c63e2c9a62a43ff347e18a7fd4357ecc105f439ec8812437a55b09320436f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page10.jpg",
+        "sha256": "d1b82e9159eb5fc7cdfe8fca9eca7757bc5848d5bd95b68d78e8072191d5dccf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page19.jpg",
+        "sha256": "775b1a2622b80221f948b242918d2363e06a780fa56b6ea07d92b055322b1882",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page29.jpg",
+        "sha256": "a0bfa5da824252236c2217adbd6d2e4c370faeb43794c2bf02dd93aabe8b6ef4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page39.jpg",
+        "sha256": "87da7e0e548c8c62e962d15ec4e4b8234424775d36bea71e17a8b25b66401b65",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page49.jpg",
+        "sha256": "5ec76d4956b387b6b8ff380ce116d45c2a2ea9368c4a32420136c21ec8ff6239",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page58.jpg",
+        "sha256": "d3dee644649100ba85cc71f9fa90f8341879d7f86bd99d8bb4449d743b085284",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page68.jpg",
+        "sha256": "d75457ed0651148b1815f9ba4a13b94da34a92d13aacbff6c7abc6afc581251e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page78.jpg",
+        "sha256": "ccda0da13d2577fd9efbd51f69a456e1a935b563a6c495f0da00d06e472eb562",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page88.jpg",
+        "sha256": "86b4ba5a19385447dba399a451132a3a616124df22db966df54c987f4fb26cce",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page97.jpg",
+        "sha256": "ee38d7ee32f925012b363e6e06bcb3b2a9e8c6a6ee0394249d0e661b524b987b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/PRE_2022.09.29_NSL-politics_REPORT/PRE_2022.09.29_NSL-politics_REPORT_page107.jpg",
+        "sha256": "5ecc111ff4d2bfabee4372dd4e7e0f5947dd0da62f75fb13e06156dbc3d56596",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

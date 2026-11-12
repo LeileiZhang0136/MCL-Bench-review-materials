@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Rule Learning & Complex Reasoning",
+  "subcategory": "Daily Rules",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0192",
+      "directory": "MCL-0192_expert_E03",
+      "task_count": "3",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0197",
+      "directory": "MCL-0197_expert_E05",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0196",
+      "directory": "MCL-0196_expert_E04",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

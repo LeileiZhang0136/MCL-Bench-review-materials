@@ -1,0 +1,7 @@
+{
+  "case_id": "MCL-0169",
+  "model": "GPT-5.2",
+  "analyzed_turn": 1,
+  "primary_label": "Hierarchical Audit Structuring",
+  "brief_rationale": "The response first establishes a ledger-style audit hierarchy, then separates global document evidence, local visual anchors, candidate evidence routes, uncertainty, and unsupported or non-mergeable evidence before reaching its final judgment."
+}

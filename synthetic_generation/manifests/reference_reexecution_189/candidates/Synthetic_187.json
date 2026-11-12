@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_187",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page0.jpg",
+        "sha256": "2aeb654c7e0be0b4ce5c3fd052b3f51f5baaeb75f153c4aab14084c9a3b6b241",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page3.jpg",
+        "sha256": "017d70d496ac0c2c568f1a512d25395e5613abb7e89309c1577c19cbc61139e3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page7.jpg",
+        "sha256": "a7eb790afb5be6fd3c7c2221f9be1f0846fcd65260dec5e60c83cc45b615bd34",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page10.jpg",
+        "sha256": "e9f8c818f07fdc08ec65634a2e5dad2859e4f27e84fc37b588bb9dc687dce319",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page13.jpg",
+        "sha256": "116fb4f3536e722b2dcbe5ddc48d53eb3f6e49430f02dfa83030af7b73a1dccb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page17.jpg",
+        "sha256": "b228b5126b5231262bab1dabad65fa5d6ae6580aa4632ed6aa6a9593c7403037",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page20.jpg",
+        "sha256": "87e2a185cbdc492ba035220378a431db84e98f095ac0bfb28ee5eb56bee611b6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page24.jpg",
+        "sha256": "7f82452b9f25840be0125108c06bdccbbf18f0d96b2025c3e3a2d3ac78ce1d3f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page27.jpg",
+        "sha256": "2278599016838380b85f4d5d30e80cfaa771a3055da4ec051454488c8cd2d98d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page30.jpg",
+        "sha256": "dbf4014ded7c09a12364aa4292a3b59014d85b6f3e60874171db55e95b18d1d5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page34.jpg",
+        "sha256": "e94bab6da1b9ed89a43a8b2d5fb1a0e69b2b8e6835bffe2c9123b613eba4c00a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95/indonesiamobilemarketresearch-ag-150106055934-conversion-gate02_95_page37.jpg",
+        "sha256": "d400ff70d816b2703f90799b1596242482a18a63aa8ff00878ef291804418def",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

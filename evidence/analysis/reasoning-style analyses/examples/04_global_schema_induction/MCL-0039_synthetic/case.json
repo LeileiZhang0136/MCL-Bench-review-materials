@@ -1,0 +1,506 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the carrier toy box divider. Turn the VAS roadmap into service grids, user stickers, charging beads, online rails and dependency locks. The page needs to be rewritten into chess grids, cards and pass conditions; each subsequent round must use the chess grid and winning and losing rules from the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_bc868ffbc746.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_56f176bc612f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_7bc12248d59b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_91c78f642e75.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_709eb53c4673.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_26648194c1ff.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_4b571bf13dd0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_55a33c85b8b9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_1ff406b21ec7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_e159635b8747.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to create a site first, and the fields are fixed as: service grid, user sticker, charging beads, online track, and dependency lock. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each registration must write at least: which site this page belongs to, whether it is more suitable to be used as \"arrival\", \"transition\" or \"ending\", what must be established before it at least, where it can continue to at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or the completion status. You also need to designate at least one \"gatekeeper page\" for each site: that is, without it, this column can easily be said to be wider or narrower.\n\nThere are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"Material\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should cover all pages or page segments, and when each page enters one of the `Service Grid`, `User Post`, `Charge Bead`, `Online Track`, and `Dependency Lock`, it must be clearly stated what type of on-site problem it solves, which time point it corresponds to, and what the missing prerequisites are; just writing \"all about this material\" is not considered complete.",
+      "2. The response should also clarify at least two sets of sequential relationships and two sets of non-interdependent relationships: for example, whether the `service grid` can lead people to `user posts` or `charge beads` depends on whether the object and time point are continuous; and `upper line track` and `dependency lock`, even if they can be displayed side by side, cannot in turn replace the entrance, diversion or conditional responsibilities of the previous layer.",
+      "3. The response should the main line, secondary line and buffer area must be based on site dependence, rather than layout adjacency; it must be pointed out whether the first breakpoint is caused by object switching, missing conditions, role changes, insufficient resources, or mistaking a normal page for a restricted page.",
+      "4. The response should every site must have a gatekeeping page; the key point of the gatekeeping page is not \"more information\", but to explain which two sites are most likely to be confused without it, or which route will be said to be too wide or too narrow.",
+      "5. The response should also explain: If you use different page segment cutting methods, you must still maintain the preconditions, role ownership, and first breakpoint, and explain why your cutting method will not change the main line direction.",
+      "6. The response should not directly shuffle the restrictions, conditions, deep end, ending or review content in the `upline track` or `dependency lock` into the opening site, or merge different sites just because of the same name, similar structure diagram, icon or layout."
+    ],
+    "metadata": {
+      "task_id": "MCL-0039_T1",
+      "context_id": "MCL-0039",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the carrier toy box divider. Turn the VAS roadmap into service grids, user stickers, charging beads, online rails and dependency locks. The page needs to be rewritten into chess grids, cards and pass conditions; each subsequent round must use the chess grid and winning and losing rules from the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_bc868ffbc746.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_56f176bc612f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_7bc12248d59b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_91c78f642e75.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_709eb53c4673.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_26648194c1ff.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_4b571bf13dd0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_55a33c85b8b9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_1ff406b21ec7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_e159635b8747.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to create a site first, and the fields are fixed as: service grid, user sticker, charging beads, online track, and dependency lock. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each registration must write at least: which site this page belongs to, whether it is more suitable to be used as \"arrival\", \"transition\" or \"ending\", what must be established before it at least, where it can continue to at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or the completion status. You also need to designate at least one \"gatekeeper page\" for each site: that is, without it, this column can easily be said to be wider or narrower.\n\nThere are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"Material\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the site you created in the first round and don't change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in the \"service grid\" and directly use it as the general representative of the entire set of materials, without looking back at the other columns.\nB: Some people want to merge \"user posts\" and \"charge beads\", saying that they are all talking about the same general direction, but from different angles.\nC: Some people want to use the \"upline track\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the five items A to E must be judged one by one, and each item must be written in four boxes in full: \"Why do you want to change it this way? What extremely narrow conditions will it hold? Which column will be ruined? The minimum revised version.\" If one box is missing, it will not meet the requirements.",
+      "2. The response should also be to judge A or D as high risk, because they are easy to use the \"service grid\" splash page, or directly replace the back-end arrangement page with the general representative of the whole case; if you change the judgment item to be more dangerous, you must explain clearly how it makes the responsibilities of \"user posting\", \"charge beads\", \"online rail\", and \"dependency lock\" collapse first.",
+      "3. The response should the key point of judgment between B and E is not \"whether they can be merged\", but whether they can distinguish between `user stickers`, `charge beads`, `upline rails` and `dependency locks` whether they share objects, applicable conditions, stage tasks or just the same noun shell; just saying \"all are similar\" should not be handled this way.",
+      "4. The response should item C can only be partially retained if it originally belongs to the same audience, at the same point in time, and does not exceed the preconditions; if restrictions, special cases, or deep water areas such as the upper rail are brought forward, resulting in the entrance and diversion being smoothed out, it should be clear that such changes need to be withdrawn.",
+      "5. The response should the ranking of the degree of danger must give comparable criteria, such as who will change the direction of the main line, who will only compress the expression, and who will only make a local misrepresentation; the ranking of the degree of danger cannot just report 1 to 5 without explanation.",
+      "6. The response should also explain: It does not matter if the ranking of the award is different from other reasonable answers, but the damaged relationship must be stated clearly; the answer must not mix the five items, or completely fail to distinguish between successive levels, role divisions, and condition boundaries."
+    ],
+    "metadata": {
+      "task_id": "MCL-0039_T2",
+      "context_id": "MCL-0039",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the carrier toy box divider. Turn the VAS roadmap into service grids, user stickers, charging beads, online rails and dependency locks. The page needs to be rewritten into chess grids, cards and pass conditions; each subsequent round must use the chess grid and winning and losing rules from the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_bc868ffbc746.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_56f176bc612f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_7bc12248d59b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_91c78f642e75.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_709eb53c4673.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_26648194c1ff.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_4b571bf13dd0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_55a33c85b8b9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_1ff406b21ec7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_e159635b8747.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to create a site first, and the fields are fixed as: service grid, user sticker, charging beads, online track, and dependency lock. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each registration must write at least: which site this page belongs to, whether it is more suitable to be used as \"arrival\", \"transition\" or \"ending\", what must be established before it at least, where it can continue to at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or the completion status. You also need to designate at least one \"gatekeeper page\" for each site: that is, without it, this column can easily be said to be wider or narrower.\n\nThere are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"Material\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the site you created in the first round and don't change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in the \"service grid\" and directly use it as the general representative of the entire set of materials, without looking back at the other columns.\nB: Some people want to merge \"user posts\" and \"charge beads\", saying that they are all talking about the same general direction, but from different angles.\nC: Some people want to use the \"upline track\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the original site. Re-dividing is not allowed here, but the problem of \"can the material be stable when it is incomplete\" must be dealt with. Now assume that three things happen at the same time: first, the number of pages that can really be taken away is compressed, allowing you to select only a few core pages; second, the oral explanation time is shortened, and many explanations must be spoken from page to page; third, part of the final conclusion page, condition page or closing page cannot be confirmed until later, and cannot be regarded as completed in advance.\n\nPlease re-mark the whole case into four categories: one is the anchor page that \"read it first to avoid going astray\"; one is the supplementary page that \"if it is missing, it will become thinner, but the main line is still alive for the time being\"; one is the late page that \"can only be taken out in the second half\"; and the other is the pairing page that \"looks like the key alone, but in fact it must be paired with other pages to be safe.\" Give at least two pages or two page paragraphs for each category and explain why they go into this category and not into another category.\n\nThen you do three specific things. First, arrange a minimum reading package for people who are exposed to this set of materials for the first time. The number should not be too large, but it must be able to clearly explain the main line of the \"material\". Second, arrange a supplementary package for those who have entered the middle stage and are only short of the last few requirements. It is required that the pages in it cannot completely overlap with the minimum reading package. Third, arrange a closing package for the last person to check, which must contain at least one page that is not suitable for early appearance. All three packages must indicate: if a page is missing, which statement will begin to loosen; if a page is placed early, which boundary will disappear first. Finally, give a group of pages or page segments that \"must appear in pairs\" and explain why their order cannot be interchanged.\n\nThe compression requirements before handover are pushed a step further: in addition to retaining the core materials, you must also deal with three types of materials with different destinies at the same time. The most entangled boundary is \"can the material be stable when it is incomplete?\" Please write down respectively: the border-locked items that must not be deleted by mistake, the supplementary items that can only appear late, and the decoy items that look like high-quality abstracts but are most biased. Each category should explain the different consequences of deleting errors, retaining errors, releasing them early or moving them later. One more paragraph to remind users of the compressed version: If he only reads the compressed version and does not look back at the raw materials, which summary sentence is most likely to be mistaken for a complete process, a complete chain of responsibility, or a complete time chain, and why. Finally, give a minimal revision that only allows one item to be replaced or downgraded to see if the most dangerous misleading combination can be restored to a state where it can be displayed side by side but cannot dominate.The first group to be co-written in the handover summary were the materials related to \"Can the material be stable when it is incomplete?\", the materials related to \"Look first to avoid going astray\", and the materials related to \"If it is missing, it will become thinner, but the main line is still alive for the time being.\" Please don’t just compare who should be retained and who should be deleted, but also write down three things at the same time: Which item will lose its boundaries first if deleted, which item will mislead others to view the material as a complete process if exposed in advance, and which item should be retained but can only appear later. In addition, assuming that the receiver only reads the compressed version of the abstract and does not look back at the raw material, you need to point out a sentence of the summary that is most likely to be misunderstood by him as \"already closed\", and rewrite this sentence into a more stable version; if you still want to keep the original sentence, you also need to clearly indicate which restrictions it must be attached to in order to be used safely.\n\nThe compressed version left for the next person only clicked on the material corresponding to \"Can it be stable when the material is incomplete?\", the material corresponding to \"Look at it first to avoid going astray\", and the material corresponding to \"If it is missing, it will become thinner, but the main line is still alive for the time being.\" This shows that when compressing, you don’t just delete the material, but someone actually takes the summary and makes a direct judgment. Therefore, please add two small pieces after the existing compression task: one piece says \"If there is only one summary sentence left, how should it be written so that the material does not become a closed chain\"; the other piece writes \"If there is one more restrictive sentence, which sentence is most worth adding?\" These two pieces must fall into the specific materials in the current case, and should not be written as a general reminder. Finally, identify one piece of material that is best left in the notes column rather than in the main summary column, and explain why it takes over the main page.\n\nThere is another unnumbered side note in the envelope, which specifically names `user stickers`, `charge beads`, and `online rails`. Please remove a piece of \"cutting instructions\" before the final version: divide the materials into three categories: those that can keep the conclusion skeleton alone, those that can only be accompanied, and those that must appear late, and give one item for each to explain why. Also write down a situation where \"leaving an error is more dangerous than deleting an error\" and a situation where \"deleting an error is more dangerous than leaving an error\", indicating which boundary they will flatten or which summary sentence will be mistakenly written as closed.\n\nThere is another unnumbered side note in the envelope, which specifically names the `upper line rail`, `the material`, and `service grid`. Please remove a piece of \"cutting instructions\" before the final version: divide the materials into three categories: those that can keep the conclusion skeleton alone, those that can only be accompanied, and those that must appear late, and give one item for each to explain why. Also write down a situation where \"leaving an error is more dangerous than deleting an error\" and a situation where \"deleting an error is more dangerous than leaving an error\", indicating which boundary they will flatten or which summary sentence will be mistakenly written as closed."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the four categories of anchor pages, supplementary pages, late pages, and matching pages must fall into specific pages or consecutive page segments, and an explanation must be given as to why it belongs to this category rather than another category; the answer must go back to the real route dependency of the material, rather than just picking pages that \"seem important\"; the key point of the anchor page is that it can independently lock the site boundary; the key point of the pairing page is that it will add `service grid`, `user post`, `charge beads`, `online track`, and `dependency lock` after it is separated from the partner Make sure that at least one column is wrong; you can’t just say “there is little information, so we need to pair it up”, but also explain which column it will be wrong after leaving its partner.",
+      "2. The response should clearly describe the functional changes of `user stickers`, `charge beads` and `upper line rails` after they are cut, removed or appear in advance. Explain which item is responsible for locking the boundary, which item is only responsible for thickening, and which item appearing too early will mislead the sequence.",
+      "3. The response should give a set of materials such as `User Posts` and `Charge Beads` that are most likely to change the overall direction due to deletion, retention or early posting, and explain which error is more dangerous and which boundary it destroys first.",
+      "4. The response should at least give a minimum stable retention package and a minimum misleading combination, and explain which step, sentence or column the conclusion collapses first.",
+      "5. The response should retention, postponement and removal after cropping all depend on which boundary collapses first, and deletion cannot be decided based solely on the amount of information.",
+      "6. The response should both reserved materials and postponed materials must explain the triggering conditions, and cannot just write down retention or deletion."
+    ],
+    "metadata": {
+      "task_id": "MCL-0039_T3",
+      "context_id": "MCL-0039",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the carrier toy box divider. Turn the VAS roadmap into service grids, user stickers, charging beads, online rails and dependency locks. The page needs to be rewritten into chess grids, cards and pass conditions; each subsequent round must use the chess grid and winning and losing rules from the first round."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these pages in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_bc868ffbc746.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_56f176bc612f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_7bc12248d59b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_91c78f642e75.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_709eb53c4673.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_26648194c1ff.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_4b571bf13dd0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_55a33c85b8b9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_1ff406b21ec7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_e159635b8747.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nNow don't think of them as a book of information that you can just flip through, but as a set of segmented scripts that must be implemented on the spot. You need to create a site first, and the fields are fixed as: service grid, user sticker, charging beads, online track, and dependency lock. All pages or consecutive page segments that enter the same column must meet three things at the same time: first, they answer the same type of on-site questions; second, they serve the same group of roles or at the same point in time; third, they lack roughly the same prerequisites. As long as one of them changes significantly, they cannot be merged into the same column for the sake of convenience.\n\nThe first round must be registered page by page or page by page. Each registration must write at least: which site this page belongs to, whether it is more suitable to be used as \"arrival\", \"transition\" or \"ending\", what must be established before it at least, where it can continue to at most, and if someone moves it forward or backward, what type of things will be changed first - objects, conditions, time points, roles, costs, permissions, resources, or the completion status. You also need to designate at least one \"gatekeeper page\" for each site: that is, without it, this column can easily be said to be wider or narrower.\n\nThere are four additional results to hand in this round. First, give the most stable main line, which requires that you can start from the overview or entrance page, actually go to a more specific landing point, and then return to the conditions, ending or supplementary page. Second, give a sub-line that seems reasonable but will cause misalignment once it is put into the scene, and clearly write down where the first misalignment occurs. Third, provide a \"suspension area\", including at least two pages or two page segments, explaining why they cannot enter the main line now, but they should not be deleted. Fourth, a set of \"adjacent pages that cannot be separated\" and a set of \"pages that cannot be combined because they are adjacent\" are given. These four items must be explained by referring to the information visible in the \"Material\" itself. You cannot rely on outside common sense to complete it for you."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the site you created in the first round and don't change the column names. Now add five on-site changes, please rule them out one by one, and don't just give the word \"can/can't\".\n\nA: Some people want to take out the most eye-catching page in the \"service grid\" and directly use it as the general representative of the entire set of materials, without looking back at the other columns.\nB: Some people want to merge \"user posts\" and \"charge beads\", saying that they are all talking about the same general direction, but from different angles.\nC: Some people want to use the \"upline track\" at the beginning. The reason is that by clarifying the limitations or exceptions first, intermediate steps can be omitted.\nD: Some people want to use the rear finishing page, numbering page, settlement page, summary page or summary page to determine the previous actions.\nE: Some people conclude that two pages are talking about the same object based on the same noun, similar structure diagram, the same equipment name or the same organization name.\n\nYou have to make a decision on A-E respectively as \"can be retained directly/can only be partially retained/must be returned\". Write at least four boxes for each item: the first box is about why it makes people want to change it like this; the second box is about the narrow conditions under which it can be established; the third box is about which pages or conditions are missing, which column it will damage; the fourth box is about the minimal revision, that is, the modification method that does not overturn the whole thing but can minimize the risk. When answering, be sure to clearly state: This step of change destroys the hierarchy, role division, conditional boundaries, resource allocation, or the relationship between \"normal pages and exception pages\". Finally, please rank the five items from 1 to 5 in order of danger, and explain why the first place is enough to divert the main line, and why the fifth place is just a local wording problem."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the original site. Re-dividing is not allowed here, but the problem of \"can the material be stable when it is incomplete\" must be dealt with. Now assume that three things happen at the same time: first, the number of pages that can really be taken away is compressed, allowing you to select only a few core pages; second, the oral explanation time is shortened, and many explanations must be spoken from page to page; third, part of the final conclusion page, condition page or closing page cannot be confirmed until later, and cannot be regarded as completed in advance.\n\nPlease re-mark the whole case into four categories: one is the anchor page that \"read it first to avoid going astray\"; one is the supplementary page that \"if it is missing, it will become thinner, but the main line is still alive for the time being\"; one is the late page that \"can only be taken out in the second half\"; and the other is the pairing page that \"looks like the key alone, but in fact it must be paired with other pages to be safe.\" Give at least two pages or two page paragraphs for each category and explain why they go into this category and not into another category.\n\nThen you do three specific things. First, arrange a minimum reading package for people who are exposed to this set of materials for the first time. The number should not be too large, but it must be able to clearly explain the main line of the \"material\". Second, arrange a supplementary package for those who have entered the middle stage and are only short of the last few requirements. It is required that the pages in it cannot completely overlap with the minimum reading package. Third, arrange a closing package for the last person to check, which must contain at least one page that is not suitable for early appearance. All three packages must indicate: if a page is missing, which statement will begin to loosen; if a page is placed early, which boundary will disappear first. Finally, give a group of pages or page segments that \"must appear in pairs\" and explain why their order cannot be interchanged.\n\nThe compression requirements before handover are pushed a step further: in addition to retaining the core materials, you must also deal with three types of materials with different destinies at the same time. The most entangled boundary is \"can the material be stable when it is incomplete?\" Please write down respectively: the border-locked items that must not be deleted by mistake, the supplementary items that can only appear late, and the decoy items that look like high-quality abstracts but are most biased. Each category should explain the different consequences of deleting errors, retaining errors, releasing them early or moving them later. One more paragraph to remind users of the compressed version: If he only reads the compressed version and does not look back at the raw materials, which summary sentence is most likely to be mistaken for a complete process, a complete chain of responsibility, or a complete time chain, and why. Finally, give a minimal revision that only allows one item to be replaced or downgraded to see if the most dangerous misleading combination can be restored to a state where it can be displayed side by side but cannot dominate.The first group to be co-written in the handover summary were the materials related to \"Can the material be stable when it is incomplete?\", the materials related to \"Look first to avoid going astray\", and the materials related to \"If it is missing, it will become thinner, but the main line is still alive for the time being.\" Please don’t just compare who should be retained and who should be deleted, but also write down three things at the same time: Which item will lose its boundaries first if deleted, which item will mislead others to view the material as a complete process if exposed in advance, and which item should be retained but can only appear later. In addition, assuming that the receiver only reads the compressed version of the abstract and does not look back at the raw material, you need to point out a sentence of the summary that is most likely to be misunderstood by him as \"already closed\", and rewrite this sentence into a more stable version; if you still want to keep the original sentence, you also need to clearly indicate which restrictions it must be attached to in order to be used safely.\n\nThe compressed version left for the next person only clicked on the material corresponding to \"Can it be stable when the material is incomplete?\", the material corresponding to \"Look at it first to avoid going astray\", and the material corresponding to \"If it is missing, it will become thinner, but the main line is still alive for the time being.\" This shows that when compressing, you don’t just delete the material, but someone actually takes the summary and makes a direct judgment. Therefore, please add two small pieces after the existing compression task: one piece says \"If there is only one summary sentence left, how should it be written so that the material does not become a closed chain\"; the other piece writes \"If there is one more restrictive sentence, which sentence is most worth adding?\" These two pieces must fall into the specific materials in the current case, and should not be written as a general reminder. Finally, identify one piece of material that is best left in the notes column rather than in the main summary column, and explain why it takes over the main page.\n\nThere is another unnumbered side note in the envelope, which specifically names `user stickers`, `charge beads`, and `online rails`. Please remove a piece of \"cutting instructions\" before the final version: divide the materials into three categories: those that can keep the conclusion skeleton alone, those that can only be accompanied, and those that must appear late, and give one item for each to explain why. Also write down a situation where \"leaving an error is more dangerous than deleting an error\" and a situation where \"deleting an error is more dangerous than leaving an error\", indicating which boundary they will flatten or which summary sentence will be mistakenly written as closed.\n\nThere is another unnumbered side note in the envelope, which specifically names the `upper line rail`, `the material`, and `service grid`. Please remove a piece of \"cutting instructions\" before the final version: divide the materials into three categories: those that can keep the conclusion skeleton alone, those that can only be accompanied, and those that must appear late, and give one item for each to explain why. Also write down a situation where \"leaving an error is more dangerous than deleting an error\" and a situation where \"deleting an error is more dangerous than leaving an error\", indicating which boundary they will flatten or which summary sentence will be mistakenly written as closed."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally output the final table. The column names must strictly follow the site you determined in the first round: service grid, user post, charging bead, online track, and dependency lock. The final form is not a summary, but a handover order that can be handed over to others for continued execution, so six things must be written in each column: which pages or page segments are collected; what problem they mainly solve; which page or column they must stand behind; which conditions they cannot be used in advance; where they are most likely to be mis-merged; and the final status - can it enter the main line immediately, can only be used as a reinforcement, can only be left to the second half, or can only be used when a certain condition is met.\n\nAfter the final table, add three more paragraphs. The first paragraph is called \"Non-exchangeable order\". List at least three sets of relationships in which A must precede B, and write clearly whether the object, time point, condition, role or completion status will be changed once exchanged. The second paragraph is called \"The names are similar but the responsibilities are different.\" List at least two sets of pages or page sections, indicating that although they appear in \"This Material\", they cannot be placed in the same column. The third paragraph is called \"Can be displayed side by side, but footnotes cannot be lost.\" List at least two sets of pages or page segments, explaining why they can appear together, but still retain restrictions, applicable boundaries, or subsequent explanations.\n\nFinally give a formal sequence of 8 steps. This sequence must cite the results of the second round and the selection results of the third round once to explain why the final version did not adopt those seemingly more trouble-free changes. Only one general rule is allowed at the end, but this general rule must be able to be used to check any two pages: if the two pages share the same object, the same action target, the same applicable conditions and the same point in time, they can be merged into the same main line; if there is any missing item, the difference must be explained, and they cannot be merged directly."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the final form must cover all pages, and classify each page or page into one of the `Service Grid`, `User Post`, `Charge Bead`, `Upline Track`, and `Dependency Lock`; each column must indicate the closing page, the problem to be solved, the predecessor, the conditions that cannot be exceeded, the most error-prone objects and the final status. Any field with less than one column does not meet the requirements.",
+      "2. The response should the three paragraphs of \"non-interchangeable order\", \"similar names but different responsibilities\" and \"can be displayed side by side, but the footnotes cannot be lost\" must really cite the page or page segment, and make it clear whether the object, time point, condition, role or completion status has been changed.",
+      "3. The response should the 8-step formal sequence must cite a decision from the second round and a trade-off from the third round; the answer should also explain why you did not use a more troublesome pre-positioning, merging, or compression solution rather than just copying the results again.",
+      "4. The response should the general plan must be used to check whether any two pages can be merged: at least the object, action target, applicable conditions and time point must be checked at the same time; if only two or three of them are met, they can be side by side at most, and must not be directly merged into the same main line from `service grid` to `dependency lock`.",
+      "5. The response should also explain that: the formal sequence is slightly different from other reasonable answers, but there are still executable precursor and boundary instructions for each step; the answer should not be final, with only a summary and no handover rules, or the condition page, exception page, and back page without explanation are still shuffled into an opening page.",
+      "6. The response should also be avoided: If \"the names are close but the responsibilities are different\" and \"can be displayed side by side\" are written the same thing, it means that there is no real understanding of dependencies that can be side by side but not intersubstitutable."
+    ],
+    "metadata": {
+      "task_id": "MCL-0039_T4",
+      "context_id": "MCL-0039",
+      "turn_index": 4
+    }
+  }
+]

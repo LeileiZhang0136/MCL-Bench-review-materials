@@ -1,0 +1,1438 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a screenshot workflow training expert. Your task is to consult the provided context and answer the user's question based on the context."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# context_id14\n\n## Page 1\n\nailImgurenregistrerolicif \n \nS c r e e n p r e s s o  i s  e d i t e d  b y  L E A R N P U L S E  S A S  \n2026 \nScreenpresso User \nManual \nScreenpresso captures your screen (screenshots and HD videos screencasts) for your \ntraining documents, collaborative design work, IT bug reports, and more... It is a light-\nweight Windows screen grab tool with built-in image editor and publishing options."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_e84f9bd2a527.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_3179d5a311df.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_899cd3046ac4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_6d349a092fad.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_6dcedf716734.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_c3b4b5c66dfb.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\nScreenpresso User Manual \n \n \nChapter: About this document \n1 \n \n1 About this document \n \nThe purpose of this document is to list and describe all the features available in the tool, Screenpresso. This is \nthe official user manual edited by LEARNPULSE. \n \nLatest version of this document is available at https://www.screenpresso.com/docs/ScreenpressoHelp.pdf \nThis document is also available directly in Screenpresso by pressing the \n key. By default, the online help is \nopened.  However, if the PDF file is present locally in the same folder as Screenpresso.exe, the local file is used. \n \nYou can also find additional information online: https://www.screenpresso.com/support/ \n \nYou may also find some video tutorials on YouTube: \nhttps://www.youtube.com/results?search_query=screenpresso \n \nIf you have any questions, remarks or if you need further information, feel free to contact the support team by \ne-mail: contact@screenpresso.com"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_05bcb59c36a2.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\nScreenpresso User Manual \n \n \nChapter: Table of content \n2 \n \n2 Table of content \n \n1 \nAbout this document ....................................................................................................................... 1 \n2 \nTable of content .............................................................................................................................. 2 \n3 \nMinimum system requirements ...................................................................................................... 6 \n4 \nInstallation and updates .................................................................................................................. 6 \n4.1 \nWhere to download the latest version.................................................................................... 6 \n4.2 \nInstallation modes ................................................................................................................... 6 \n4.3 \nDefault Installation .................................................................................................................. 7 \n4.4 \nInstallation in Program Files .................................................................................................... 8 \n4.5 \nInstallation using the command line (advanced user only) .................................................... 8 \n4.6 \nUninstall ................................................................................................................................... 9 \n4.7 \nPortable mode ....................................................................................................................... 10 \n4.8 \nUpdates / new releases ......................................................................................................... 10 \n4.8.1 \nOfficial versions ............................................................................................................. 10 \n4.8.2 \nIntermediate versions ................................................................................................... 11 \n4.8.3 \nCheck for update ........................................................................................................... 11 \n4.9 \nEnterprise deployment .......................................................................................................... 12 \n4.9.1 \nDeploy the activation key .............................................................................................. 12 \n4.9.2 \nDeploy the binaries (and all the files) ............................................................................ 12 \n4.9.3 \nPolicies and default settings (PRO) ................................................................................ 13 \n5 \nHow to activate PRO version ......................................................................................................... 14 \n5.1 \nActivation............................................................................................................................... 15 \n5.2 \nLicense retrieval .................................................................................................................... 16 \n6 \nMain concepts of Screenpresso .................................................................................................... 16 \n6.1 \nAlways available .................................................................................................................... 16 \n6.2 \nNo need to bother with file location ..................................................................................... 16 \n6.3 \nWorkspace for all your captures ........................................................................................... 17 \n6.4 \nDefault file format ................................................................................................................. 18 \n6.5 \nSimple shortcuts .................................................................................................................... 18 \n6.5.1 \nMain shortcuts to know: ............................................................................................... 18 \n6.5.2 \nOther shortcuts ............................................................................................................. 19 \n7 \nCapture an image .......................................................................................................................... 20\n\n## Page 4\n\nScreenpresso User Manual \n \n \nChapter: Table of content \n3 \n \n7.1 \nAll in one capture mode ........................................................................................................ 20 \n7.2 \nScreenshot full screen ........................................................................................................... 23 \n7.3 \nScreenshot previous region ................................................................................................... 24 \n7.4 \nScreenshot scrolling windows ............................................................................................... 25 \n7.4.1 \nCapture of a web page .................................................................................................. 26 \n7.4.2 \nAutomatic auto scroll capture ....................................................................................... 26 \n7.4.3 \nManual auto scroll capture ........................................................................................... 26 \n7.5 \nCapture workflow .................................................................................................................. 28 \n7.6 \nColor picker (PRO) ................................................................................................................. 30 \n7.7 \nScreenshot text (PRO) ........................................................................................................... 30 \n7.8 \nCapture a QR code (PRO) ...................................................................................................... 31 \n8 \nCapture a video ............................................................................................................................. 32 \n8.1 \nOverview ................................................................................................................................ 32 \n8.2 \nVideo Toolbar ........................................................................................................................ 34 \n8.3 \nSound recording .................................................................................................................... 35 \n8.4 \nWebcam................................................................................................................................. 35 \n8.5 \nVideo zoom ............................................................................................................................ 37 \n8.6 \nStart recording ....................................................................................................................... 37 \n8.7 \nVideo capture workflow ........................................................................................................ 39 \n8.8 \nScreenpresso media player ................................................................................................... 40 \n8.9 \nConvert video to another format .......................................................................................... 42 \n8.10 \nMerging videos (PRO) ............................................................................................................ 42 \n8.11 \nEdit video metadata (PRO) .................................................................................................... 43 \n8.12 \nSpeech to text (pro) ............................................................................................................... 43 \n9 \nAndroid center ............................................................................................................................... 44 \n9.1 \nInstall ADB ............................................................................................................................. 44 \n9.2 \nConfigure your device ........................................................................................................... 44 \n9.3 \nTake captures ........................................................................................................................ 45 \n10 \nWorkspace window ................................................................................................................... 45 \n10.1 \nOverview ................................................................................................................................ 45 \n10.2 \nFilter ....................................................................................................................................... 47 \n10.3 \nDrag & Drop ........................................................................................................................... 47 \n10.4 \nAuto clean-up of files ............................................................................................................ 48 \n10.5 \nWorkspaces management ..................................................................................................... 48\n\n## Page 5\n\nScreenpresso User Manual \n \n \nChapter: Table of content \n4 \n \n10.6 \nCollaborative work ................................................................................................................ 50 \n10.6.1 \nSynchronization with Dropbox, Google Drive or Microsoft OneDrive .......................... 50 \n11 \nManaging files ........................................................................................................................... 51 \n11.1 \nFile management ................................................................................................................... 51 \n11.1.1 \nDeleting a media ............................................................................................................ 53 \n11.1.2 \nRenaming a media ......................................................................................................... 53 \n11.1.3 \nMoving a media to another workspace......................................................................... 54 \n11.1.4 \nSorting ........................................................................................................................... 54 \n12 \nEditing an image ........................................................................................................................ 55 \n12.1 \nMain tab ................................................................................................................................ 55 \n12.2 \nUsing the drawing tools ......................................................................................................... 58 \n12.3 \nChange main image (PRO) ..................................................................................................... 69 \n12.4 \nAutomatically blur sensitive data .......................................................................................... 69 \n12.5 \nHidden features ..................................................................................................................... 70 \n12.6 \nThird party editors ................................................................................................................. 70 \n12.7 \nEdit other images .................................................................................................................. 70 \n13 \nEditing a video ........................................................................................................................... 70 \n13.1 \nBuilt-in editor......................................................................................................................... 70 \n13.2 \nThird party editors ................................................................................................................. 71 \n14 \nDocument generator ................................................................................................................. 71 \n14.1 \nGeneral use ............................................................................................................................ 71 \n14.2 \nGenerator settings ................................................................................................................. 75 \n15 \nPublishing files ........................................................................................................................... 76 \n15.1 \nLocal publishing ..................................................................................................................... 76 \n15.2 \nWeb and cloud sharing .......................................................................................................... 76 \n15.2.1 \nGet a public URL thanks to Screenpresso Cloud............................................................ 77 \n15.2.2 \nSharing history ............................................................................................................... 79 \n16 \nSettings ...................................................................................................................................... 80 \n16.1 \nGeneral .................................................................................................................................. 80 \n16.2 \nScreenshot ............................................................................................................................. 81 \n16.3 \nVideo capture ........................................................................................................................ 82 \n16.4 \nSharing ................................................................................................................................... 83 \n16.5 \nAdvanced configuration ........................................................................................................ 83\n\n## Page 6\n\nScreenpresso User Manual \n \n \nChapter: Table of content \n5\n\n## Page 7\n\nScreenpresso User Manual \n \n \nChapter: Minimum system requirements \n6 \n \n3 Minimum system requirements \n \nThe minimum system requirements are: \n• \nMicrosoft Windows 11 64-bit or above \n• \n2.0 GHz processor \n• \n4 GB of RAM \n• \n1 GB of free hard disk space \n \nScreenpresso.exe requires Microsoft .NET Framework 4.8 installed on your computer. You may find links on \nour web site: https://www.screenpresso.com/download. \n \n4 Installation and updates \n4.1 Where to download the latest version \nThe latest official version of Screenpresso can be downloaded from our website at this address: \nhttps://www.screenpresso.com/download \n \nThe FREE version and the PRO version are using the same binary (Screenpresso.exe). A license key is required \nto switch FREE to PRO version. \n \nImportant note \nSome intermediate releases (beta versions) are also available with some new features and fixes. You can get \nthem once you have installed Screenpresso by using the Check for update button in the tool itself. \nRelease notes are available only for official releases. \n4.2 Installation modes \nScreenpresso can be used in 4 modes: \n- \nInstalled mode: Screenpresso is installed on your computer. It doesn’t require administrator privileges \nso it can be installed even if you are not the administrator of the computer. This is the recommended \nmode since Screenpresso consumes less memory. \n- \nInstalled in program files mode: Screenpresso is installed on your computer. It requires administrator \nprivileges. \n- \nDirect mode: you don’t need to install anything. Run Screenpresso.exe and it will just work. \n- \nPortable mode: you don’t need to install anything. This mode is automatic when Screenpresso.exe is \nrun from a USB key or with “--portablemode” command line argument. In this mode all files are saved \nnext to the exe. \n \nAll modes are available via the same binary: Screenpresso.exe  \n \nDouble-click on Screenpresso.exe to run Screenpresso.  \nThe very first screen allows you to install Screenpresso or run it has it. You can also change the default \nlanguage if necessary. This window is not displayed anymore when Screenpresso is installed on the computer \nand you run Screenpresso.exe again.\n\n## Page 8\n\nScreenpresso User Manual \n \n \nChapter: Installation and updates \n7 \n \n \nFigure 1 : Startup screen \n \n1) This is the version of the running Screenpresso \n2) Tick the checkbox if you accept the license \n3) Run the installation mode \n4) Run the portable mode \n5) Change display language \n4.3 Default Installation \nWhen you click on the button “INSTALL on this computer”, the install setup is run in silent mode (no manual \ninput is required). Screenpresso: \n- \nInstalls the program in the user profile folder. Basically, it is: \nC:\\Users\\<your login>\\AppData\\Local\\LearnPulse\\Screenpresso; \n- \nCreate a shortcut in the Windows’ start programs; \n- \nSetup Screenpresso to run on Windows startup (you can change this option later in the Screenpresso \nsettings window); \n- \nRun Screenpresso at the end of the setup. \n \nImportant notes \n- \nScreenpresso does not require administrator privileges \n- \nAs Screenpresso.exe is both an executable program and a setup program (it copies itself in a new \nfolder), some antivirus software might display some warning messages and prevent Screenpresso   \nfrom installing properly. If an alert occurs, please temporarily shut down your antivirus software \nduring the installation process \n- \nUsing this installation procedure, Screenpresso is only available for the current Windows user"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_ea8849f33e45.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 9\n\nScreenpresso User Manual \n \n \nChapter: Installation and updates \n8 \n \n4.4 Installation in Program Files \nIf you want to install Screenpresso in the Windows’ Program Files folder, you need administrator privileges.  \nIf you have these privileges, run Screenpresso.exe then click on the « INSTALL on this computer » button while \nholding the Control key. \n \nImportant notes \n- \nAdministrator privileges will also be required later for automatic updates and uninstall \n- \nWhen Screenpresso is installed in Program Files, it is then available to all users of the computer \n- \nIT team can find some additional information about deployment online: \nhttps://www.screenpresso.com/support/ \n \n4.5 Installation using the command line (advanced user only) \nAdvanced installation options are available by using the command line. Type « Screenpresso.exe --help » in a \nWindows command prompt to get all information. \n \nThose options can be used to deploy Screenpresso in silent mode or using Microsoft SMS (Systems \nManagement Server). \nCommand line arguments \nDescription \ndeploy --install \nInstall Screenpresso in user's profile folder \n(C:\\Users\\<login>\\AppData\\Local\\LearnPulse\\Screenpresso). \ndeploy --install --programfiles \nInstall Screenpresso in Program Files folder \n(C:\\Program Files\\Learnpulse\\Screenpresso) \n(Administrator privileges are required). \ndeploy --uninstall \nUninstall Screenpresso from user's profile folder. \ndeploy --uninstall --programfiles \nUninstall Screenpresso from Program Files folder  \n(Administrator privileges are required). \n--quiet \nKeyword used to install or uninstall silently without any \nwindows. A log file is generated to %Temp%\\Screenpresso.log. \n--nofirsttimemessages \nIndicates whether all tips and tricks messages must not be \ndisplayed. This is useful for users having their settings.xml file \ndeleted at every reboot. \nlicense --reset \nRemove current license key (Screenpresso PRO). \n--portablemode \nForce Screenpresso to be executed in Portable mode (it will \nstore all data next to the executable). \ndeploy --policies \nDump “ScreenpressoPolicies.admx”, \n“ScreenpressoPolicies.aml” and “ScreenpressoPolicies.reg” files \non desktop to be used by administrators. \nDetails are given in 4.9.3. \nlicense –activate […] \nImmediately activate Screenpresso PRO for one user. Activation \nkey must be given via next command line parameter. \ncapture --ScreenshotRegion –filepath \nc:\\output.png –rect 0;0;800;600 \n \nBranding is added when used in the \nFREE version. \nCapture a screenshot at the specific coordinates (optional) and \nsave it to the given file path (optional). \nRect (optional):  Coordinates of the rectangular region of the \nscreen to capture: X;Y;Width;Height, for instance: 0;0;640;480 \nUse -1 for full screen:  -1;-1;-1;-1  \nWhen the coordinates are not present, the user will be \nprompted to select the region to capture using the mouse.\n## Page 10\n\nScreenpresso User Manual \n \n \nChapter: Installation and updates \n9 \n \nFilepath: the absolute filepath of the image. \nExamples: \nScreenpresso.exe capture –screenshotregion –rect 0;0;640;480  \nScreenpresso.exe capture --screenshotregion \nscreenpresso.exe capture --screenshotregion –filepath \n\"C:\\Users\\ME\\Desktop\\test2.png\" \n \ncapture --videoregion –filepath \nc:\\output.mp4 –rect 0;0;800;600 --\ndelay 60 \n \nBranding is added when used in the \nFREE version. \nCapture a video at the specific coordinates (optional) and save \nit using the given filepath (optional). \nRect (optional): Coordinates of the rectangular region of the \nscreen to capture (X;Y;Width;Height), for instance: 0;0;640;480 \nUse -1 for full screen:  -1;-1;-1;-1  \nWhen the coordinates are not present, the user will be \nprompted to select the region to capture using the mouse. \nFilepath: the absolute file path of the image. \nDelay: defines a maximum duration in minutes for the video \nrecording. Auto stop recording after a period of time. \nExample: \nScreenpresso.exe capture --videoregion 0;0;640;480  --\ncapturedelay 15 \nExamples: \nScreenpresso.exe capture --video 0;0;640;480  \nscreenpresso.exe capture --videoregion \n\"C:\\Users\\ME\\Desktop\\test2.png\" 0;0;640;480  \nscreenpresso.exe -capturevideoregion 0;0;640;480 \n\"C:\\Users\\ME\\Desktop\\test3.png\" \nvideos --merge \n \nOnly available in PRO version \nMerge multiple video file having the same format to one video \nfile. \nExample: \nScreenpresso.exe videos --merge c:\\temp\\video1.mp4 \nc:\\temp\\video2.mp4 \n--newinstance \nStart a new instance of Screenpresso and kill the previous one. \n--multiinstances \nStart a new instance of Screenpresso without checking if \nanother instance is already running. To be used with care.  \n--help \nDisplay the help popup about the command line arguments. \n \nExamples: \nScreenpresso.exe deploy --install –programfiles --quiet \nScreenpresso.exe license --activate [3]-[screenpressopro]-[1]-[…]-[…]-[…==] \n4.6 Uninstall \nScreenpresso can be uninstalled like any other software using Windows’ control panel.\n\n## Page 11\n\nScreenpresso User Manual \n \n \nChapter: Installation and updates \n10 \n \n \nFigure 2 : Windows 11 Control Panel \n \nIt is also possible to uninstall Screenpresso by using the command line: “Screenpresso.exe deploy --uninstall”. \nRefer to section 4.5. \n \nImportant note \n- \nAdministrator privileges are required to uninstall Screenpresso from Program files folder. \n4.7 Portable mode \nScreenpresso can also work without being installed. This is a great feature for people that only want to use it a \nfew times, try it, or run it from a USB key on several computers.  \n \nTo start Screenpresso using the portable mode, run Screenpresso.exe and click on the “Run” button on the \nstartup screen. \n \nScreenpresso detects if it is started from a USB flash drive. In this case, it runs as portable mode and no file is \ngenerated on the computer. All files and screen captures will be stored in a folder next to the executable file. \n \nBasically, this option allows you to go on some computers, take screen captures using Screenpresso from your \nUSB flash drive, then go back to your computers and find the captures on the USB flash drive. \n4.8 Updates / new releases \nScreenpresso is a tool that is continuously improved, so a lot of new versions are available throughout the year. \nThere are 2 kinds of new versions:  \n1) Official versions \n2) Intermediate versions (beta) \n4.8.1 \nOfficial versions"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_9c46bf392d89.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 12\n\nScreenpresso User Manual \n \n \nChapter: Installation and updates \n11 \n \nWhen a new official version is available and is ready for deployment, a popup is displayed at Screenpresso \nstartup in the next three weeks to ask you to update your current version of Screenpresso. \n \nImportant notes \n- \nThe latest official version is always available on our website at \nhttps://www.screenpresso.com/download/ \n- \nThe release note is available here: https://www.screenpresso.com/releases/ \n- \nAll users are not updated at the same time, so a new version can be available on our website before \nyou receive the update prompt. Refer to section 4.8.3 to update manually \n- \nOfficial updates are mandatory for the FREE version of Screenpresso; this is to avoid support of an old \nversion \n4.8.2 \nIntermediate versions \nBeta versions have intermediate releases between 2 official releases. Most of the time beta versions contain \nfixes and new features. Refer to section 4.8.3 to update manually to a beta version. \n4.8.3 \nCheck for update \nYou can click on the “Check for update” button in the ‘About Box’ to verify if a new version is available if you \nwant to get it more rapidly. \n \nFigure 3 : Systray context menu \n \nFigure 4 : About Box"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_cf91194e608b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_b8ab6cf5b015.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 13\n\nScreenpresso User Manual \n \n \nChapter: Installation and updates \n12 \n \n \nIf there is a new version (official or beta), a prompt will be displayed: \n \nFigure 5 : Automatic update \n \nDownload and installation are completely automatic. \n4.9 Enterprise deployment \nScreenpresso can be deployed using a batch file, for instance using Microsoft System Management Server \n(SMS). \n4.9.1 \nDeploy the activation key \nWhen Screenpresso PRO is bought for several users, a single activation key (containing several licenses) is \nprovided by email. Unlike using a site license, using a per user license it is still possible to deploy the key but \neach user will have to confirm activation.  \n \nTo deploy the activation key, simply add a text file named \"activation.lic\" containing the activation key and \nstore it next to Screenpresso.exe on the target machine (where Screenpresso.exe is installed). \n4.9.2 \nDeploy the binaries (and all the files) \nThe following files need to be deployed: \n- \nScreenpresso.exe \n- \nactivation.lic (optional) \n- \nsettings.xml (optional) \n- \nffmpeg.exe and libvlc folder (optional) \n- \nScreenpressoHelp.pdf (optional) \n \nUsing “ScreenpressoSetup.msi” instead is recommended because it contains all files built-in (except the \n“activation.lic” file). \n \nHere is a step-by-step procedure to achieve this: \n \n1) On the target machine, deploy the following files in a temporary folder, for instance in c:\\temp\\: \n• \nc:\\temp\\Screenpresso.exe \n• \nc:\\temp\\activation.lic (optional) \n• \nc:\\temp\\settings.xml (optional) \n• \nc:\\temp\\ScreenpressoHelp.pdf (optional) \n• \nc:\\temp\\FFmpeg\\ (optional)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_012_90278f5761f4.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 14\n\nScreenpresso User Manual \n \n \nChapter: Installation and updates \n13 \n \n2) Then run the command with administrator privileges to install Screenpresso into the program files \nfolder. \nC:\\temp\\screenpresso.exe deploy --install –programfiles --quiet \n \nThis command will install Screenpresso and all the files defined in 1) in the folder \nC:\\Program Files\\Learnpulse\\Screenpresso \nRefer to section 4.5 for command line details. \n \n3) If not provided in step 1), you can deploy the license key manually (optional), refer to 4.9.1 for details: \n- \nC:\\Program Files\\Learnpulse\\Screenpresso\\activation.lic  \nor C:\\Program Files\\Learnpulse\\Screenpresso\\settings.xml \n4) If not provided in step 1) you can deploy default settings manually (optional): \nC:\\Program Files\\Learnpulse\\Screenpresso\\settings.xml  \n5) If not provided in step 1) you can deploy user manual manually (optional): \nC:\\Program Files\\Learnpulse\\Screenpresso\\ScreenpressoHelp.pdf  \n \nImportant notes \n- \nDuring testing, make sure you don’t already have a settings.xml file in \n%AppData%\\Learnpulse\\Screenpresso or %LocalAppData%\\Learnpulse\\Screenpresso folders since it \nwill override the settings.xml file stored next to Screenpresso.exe. \n \n- \nTo define the Screenpresso directory where the screenshots and videos will be stored, you can modify \nthe key TempFolderScreenShots in “settings.xml” file and use environment variables such as: \no \n%Personal% \no \n%MyDocuments% \no \n%MyPictures% \no \n%Desktop% \no \n%DesktopDirectory% \no \n%ApplicationData% \no \n%CommonApplicationData% \no \n%LocalApplicationData% \no \n%ComputerName% \no \n%UserName% \no \n%UserDomain% \n \n- \nScreenpresso’s “autostart with user login” is not controlled via settings.xml file but via Windows \nregistry instead. If you manually install Screenpresso and want it to autostart at user logon, add \nScreenpresso to the registry with command line argument “-startup”. Do not add a shortcut to startup \nmenu’s startup folder. \n \n- \nIf you don’t want Screenpresso to auto-update itself (for instance because users don’t have admin \nprivileges), it is recommended to apply “NoUpdate’ policy (refer to next chapter). \n \n- \nAt runtime, if video is used, Screenpresso automatically downloads a video pack based on third party \nsoftware (FFmpeg and LibVLC). If not provided in step 1), you can download the Video Pack from our \nWeb site (https://www.screenpresso.com/binaries/ffmpeg64_20260112.zip) and store it next to \nScreenpresso.exe; the path should be:  \nC:\\Program Files\\Learnpulse\\Screenpresso\\FFmpeg\\ \n \n4.9.3 \nPolicies and default settings (PRO)\n\n## Page 15\n\nScreenpresso User Manual \n \n \nChapter: How to activate PRO version \n14 \n \nPRO administrators can override some settings and disable some features using the Windows Registry. Refer to \nsection 4.5 for generating a sample registry file. \nThe values must be stored in HKEY_LOCAL_MACHINE\\SOFTWARE\\LearnPulse\\Screenpresso\\Policies \n \n[HKEY_LOCAL_MACHINE\\SOFTWARE\\LearnPulse\\Screenpresso\\Policies] \n\"NoRoaming\"=dword:00000001 \n\"NoUpdate\"=dword:00000001 \n\"NoUpdateBeta\"=dword:00000001 \n\"NoSharing\"=dword:00000001 \n“Sharings”=”Gmail;EMail;Ftp;YouTube;Script;Dropbox;Imgur;ScreenpressoCloud;Drive;S3;FileCopy;OneNote;On\neDrive;Linear” \n\"NoGoogleTranslate\"=dword:00000001 \n\"NoVideo\"=dword:00000001 \n\"NoDevice\"=dword:00000001 \n\"NoOcr\"=dword:00000001 \n\"NoInstall\"=dword:00000001 \n\"NoBrowserExtension\"=dword:00000001 \n\"NoErrorReportingEmail \"= dword:00000001 \n\"NoLicenseManagement\"= dword:00000001 \n\"NoFirstTimeMessages\"=dword:00000001 \n\"NoSettings\"=dword:00000001 \n\"NoImagePack\"=dword:00000001 \n\"NoAI\"=dword:00000001 \n\"SupportEmail\"=\"contact@screenpresso.com\" \n \nNoRoaming: set it to 1 for all files to be saved in local AppData folder instead of roaming AppData. \nNoUpdate: set it to 1 to disable the automatic update of Screenpresso. \nNoUpdateBeta: set it to 1 to disallow the user to get beta releases of Screenpresso. \nNoSharing: set it to 1 to disable the sharing capabilities. \nSharings: [optional] list of sharing features available to the user. Entries are separated by a semicolon. \nNoGoogleTranslate: set it to 1 to disable the use of Google Translate for the user. \nNoVideo: set it to 1 to disable the video capture feature. In this case, you don’t need to provide ffmpeg.exe. \nNoDevice: set it to 1 to disable the mobile device capture capabilities (e.g., Android center). \nNoOcr: set it to 1 to disable the OCR feature for the user. \nNoInstall: set it to 1 to disallow the user to install the software himself. \nNoBrowserExtension: set it to 1 to disable the integration with the Screenpresso Google Chrome extension. \nNoErrorReportingEmail: when a crash occurs, hide the “Send email” button. \nNoLicenseManagement: set it to 1 to disable the display of the ‘License management’ menu item to the users. \nNoFirstTimeSettings: set it to 1 to disable all tips and tricks. This is useful for users having their settings.xml file \ndeleted at every reboot. \nNoSettings: settings cannot be changed by the user. Useful if the company want to force settings and make \nthem immutable. \nNoImagePack: indicates that the user is not authorized to use the extended image format (WebP and JPEG XL). \nThis reduces the attack scope by preventing Screenpresso from downloading additional native binaries. \nNoAI: disable all Cloud based artificial intelligence. \nSupportEmail: replace Screenpresso team email to set company’s IT email. \n5 How to activate PRO version\n\n## Page 16\n\nScreenpresso User Manual \n \n \nChapter: How to activate PRO version \n15 \n \n5.1 Activation \nWhen you bought a license for Screenpresso PRO on our website https://www.screenpresso.com/store, you \nreceived an activation key by email. \nTo switch Screenpresso FREE into Screenpresso PRO, enter your activation key using the following procedure \non the FREE version of Screenpresso. \n \nImportant note: \n- \nInternet connection may be required for the activation process; \n- \nIt is recommended that you update to the latest available version, refer to 4.8.3. \n \nRight click on the Screenpresso icon (1) and click on « Upgrade to PRO! » (2). \n \nFigure 6 : Systray context menu \n \nIn the following window, click on the button, « Enter activation key » (1) and enter your activation key in (2): \nuse a copy-paste action to avoid errors. Your key should look like: \n[0]-[screenpressopro]-[1]-[1234455]-[12/18/2011]-[zienqsdovsodpdovpsodvjspovjspodvjspodjvspovjspdojg==] \n \nThen click on the activate button (3)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_013_687c326049b8.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 17\n\nScreenpresso User Manual \n \n \nChapter: Main concepts of Screenpresso \n16 \n \n \nFigure 7 : Activation window \n \nIf your activation key is valid, the FREE version is switched to the PRO version and the limitations of the FREE \nversion are removed. \n5.2 License retrieval \nWhen changing computer, it is possible to re-use the same activation key. One user can use this activation key \non up to 5 computers before having to purchase a new license. It is not possible to unregister a previous \ncomputer. \nIf lost, it is possible to retrieve an activation key using an e-mail address via this Web page: \nhttps://www.screenpresso.com/lost-key/  \n6 Main concepts of Screenpresso \n6.1 Always available \nWhen Screenpresso is running, it is visible in the Windows system tray at the bottom right of the screen: \n \nYou can: \n- \nLeft click (simple click) to open the workspace window, which is the main window of Screenpresso; \n- \nRight click to display the context menu with all the actions and the shortcuts; \n- \nUse the shortcuts to start a capture (or the context menu or workspace button). Refer to section 6.5 \nto find the list of all shortcuts. \n \nScreenpresso starts with Windows by default if you have installed it. \nRefer to section 4.3 to install Screenpresso and refer to section 16 if you do not want Screenpresso to start with \nWindows. \n6.2 No need to bother with file location"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_014_66af04095d88.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_015_730f90fa072f.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 18\n\nScreenpresso User Manual \n \n \nChapter: Main concepts of Screenpresso \n17 \n \nScreenpresso handles all the file locations for you, thanks to the use of a temporary folder as well as the \nconcept of workspaces. \nBy default, the following folders are used: \nFolder \nDescription \nMy Pictures\\Screenpresso \n(C:\\Users\\<your login>\\Pictures\\Screenpresso) \nThis folder is the working folder and contains all the \nimages and videos created by Screenpresso.  \nMy Pictures\\Screenpresso\\Originals \nThis is a technical folder for Screenpresso. It is \nmanaged by Screenpresso and we advise against \nmodifying its content. It is hidden by default. \nMy Pictures\\Screenpresso\\Thumbnails \n \nThis is a technical folder for Screenpresso. It is \nmanaged by Screenpresso and we advise against \nmodifying its content. It is hidden by default. \n \nImportant notes \n- \nScreenpresso can automatically delete old files; refer to section 10.4 for details \n- \nRefer to section 16 to change the default working folder \n- \nRefer to section 10 to learn how to use the workspaces \n6.3 Workspace for all your captures \nScreenpresso handles the files for you and displays the capture in its main window, the Screenpresso \nworkspace. \n \n \nFigure 8 : Screenpresso workspace handles the capture history \n \nIn this window, you can easily  \n- \nCreate new captures \n- \nEdit existing captures \n- \nCopy an image or a video into the clipboard \n- \nGenerate a document (a user guide for instance) \n- \nDrag & drop a file from or to the workspace \n- \nPublish and share a selection of files to built-in sharing services (Dropbox, Google Drive, Evernote, \nEmail, etc)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_016_8119f6ddd742.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 19\n\nScreenpresso User Manual \n \n \nChapter: Main concepts of Screenpresso \n18 \n \n6.4 Default file format \nThe default image format is PNG. \nThe default video format is MP4. \nThe default document format is PDF. \n6.5 Simple shortcuts \nThe following shortcuts are always available as long as Screenpresso is running.  \n6.5.1 \nMain shortcuts to know: \nCapture an image (all in one mode: full screen, region, windows, scrolling windows): [Print screen]  \n \n \nCapture a video (screencast, the previous region or a default region is used): [Ctrl] + [Print screen]  \n \n \nOpen the workspace: [Win] + [Print screen]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_017_54b1ce1a6218.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_018_7fbc9b5003fe.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_019_16199c6354bc.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 20\n\nScreenpresso User Manual \n \n \nChapter: Main concepts of Screenpresso \n19 \n \n6.5.2 \nOther shortcuts \nScreenshot the same region of the previous one: [Shift] + [Print screen]  \n \n \nScreenshot the full screen: [Ctrl] + [Alt] + [Shift] + [Print screen]  \n \n \nScreenshot a scrolling windows manually: [Win] + [Shift] + [Print screen]  \n \n \nCapture a video (screencast, a new region is defined): [Ctrl] + [Shift] + [Print screen]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_020_a096353fd7f3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_021_f5f4fd2db953.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_022_f298d0a5e6db.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 21\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n20 \n \n \n \nRefer to section 16 to change shortcuts. \n7 Capture an image \n7.1 All in one capture mode \nTo create a new screenshot, press the [Print screen] key: \n \nFigure 9 : Shortcut to create a new screenshot \n \nOr use the System tray context menu: “Screenshot region” or use the main button of the Workspace window. \nYou can also use the command line: refer to section 4.5 for details. \n \nThis is an “all in one” capture mode: full screen, region, windows, scrolling windows. When you start a capture, \nthe screen becomes frozen and a mouse cursor becomes a crosshair. Screenpresso is now in capture mode. \nYou can press: \n- \n‘Escape’ key to quit this mode \n- \n‘m’ key to toggle the display of the mouse cursor \n- \n ‘h’ key to show or hide the help panel \n- \nYou can use the mouse wheel to zoom or unzoom \n \nMove the mouse cursor and you will see: \n- \nPart of the screen highlighted in red; \n- \nA red arrow pointing down if the highlighted part of the screen is a scrollable window; \n- \nA magnifier is displayed when the mouse is moved slowly to indicate the capture dimensions and \nmake a selection of the pixel resolution."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_023_b7b2184c34c1.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 22\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n21 \n \n \nFigure 10 : The Chrome browser is highlighted and a red arrow indicates that it is a scrolling window \n \n \nFigure 11 : Magnifier glass with current capture dimensions"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_024_290bd41e01d8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_025_6dcc32b64ddc.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 23\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n22 \n \n \n- \nYou can use the arrows keys to adjust your capture: \n \n- \nA simple click (left button of the mouse) on a red highlighted area will capture this area \no \nBasically, you can use this way to capture a window or a predefined part of a window \n➔\n \no \nYou can also capture the full screen: move the mouse to the top of your screen and you will \nsee the red box covering the screen. \n- \nOr select the area to capture by defining a window box:  \no \nMove the mouse to the upper left or the area to capture; \no \nPress left mouse button and hold it; \no \nMove the mouse to the bottom-right of the area to capture (keep the left mouse button \ndown); \no \nRelease mouse button. \n \n➔\n \n \n- \nOr click on the animated red downward arrow to capture a scrolling window."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_026_2f259ab10dc7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_027_b94edd358eee.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_028_4b0c23258651.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_029_959a184ec6a6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_030_0ba1be496949.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 24\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n23 \n \n➔\n \nImportant notes \n- \nMouse cursor can always be used to capture: refer to settings section 16. \n- \nShortcut keys (e.g., print screen key) won’t work if a window having elevated privileges has the focus \nunless you have installed Screenpresso in Program Files folder. \n7.2 Screenshot full screen \nThere are many ways to perform a screenshot of the whole screen: \n1. Using the all-in-one capture mode, refer to 7.1; \n2. Press « Ctrl + Alt + Shift + Print screen » key; \n \n \n \n3. Open Screenpresso workspace; then click the small arrow of the « Screenshot region » button; then \nchoose the « Screenshot full screen » from the menu:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_031_be36e2870cd9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_032_fba53b4b225a.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 25\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n24 \n \n \n4. Right-click the Screenpresso icon in system tray (usually at the bottom right of your screen) then select \nthe « Screenshot full screen » from the menu: \n \nYou capture is immediately completed. \n7.3 Screenshot previous region \nThere are many ways to perform a screenshot of the last screen area: \n1. Press « Shift + Print screen » key;"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_033_cfcca8bf4ab4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_034_6ed28ae2d543.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 26\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n25 \n \n \n2. Open the Screenpresso workspace; then click the « Capture » button; then click the small arrow of the \n« Screenshot region » button; then choose the « Screenshot previous region » from the menu. \n3. Right-click the Screenpresso icon in system tray (usually at the bottom right of your screen) then select \n« Screenshot previous region » from the menu. \n \nYou capture is immediately completed. \n \nThis command is very useful for people who always want to capture the same area of the screen and also have \nall screenshots using the same boundaries. \n7.4 Screenshot scrolling windows \nThe area to capture may not be fully displayed on screen, for instance a long webpage is not completely visible \nand scrollbars are present to scroll the visible part."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_035_0fc72a6407d2.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 27\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n26 \n \n \nScreenpresso can capture the complete window:  \n \n \n7.4.1 \nCapture of a web page \nThe best way to capture a whole web page, including scrolling area, is to install the specific’s Screenpresso Web \nbrowser extension when available. The extension can work standalone. If you don’t have Screenpresso running \non your computer then the Web page is captured, and an image file is generated. Via settings you can setup \nthe generated file to be a PNG, a JPG or even a PDF file. You can also choose the capture to be simply stored in \nthe clipboard. If Screenpresso is running, the extension sends the capture to it automatically, so it behaves like \nif you performed the capture using Screenpresso itself. \nTo be able to install the extension for Google Chrome, open this URL: \nhttps://chrome.google.com/webstore/detail/screenpresso/agffhkejbocomabiogfdjnbfcnpdljie \n7.4.2 \nAutomatic auto scroll capture \nRefer to the “All in one” capture mode in section 7.1 \n \nImportant notes \n- \nBefore starting the capture, you should put the scrollbar cursor at the top position. \n- \nThis mode captures only a vertically scrolling window. If you need horizontal scrolling captured, refer \nto 7.4.3. \n7.4.3 \nManual auto scroll capture"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_036_6d0e125aeeee.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 28\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n27 \n \nWhen the automatic mode does not work, for instance if you try to capture a horizontal scrolling window, use \nthis manual mode that captures several images and merge them using a stitching algorithm. \n \nThere are many ways to perform a manual auto scroll screenshot: \n1. Press « Win + Shift + Print screen » key \n \n2. Open Screenpresso workspace; then click the small arrow of the « Screenshot region » button; then \nchoose the « Screenshot using auto scroll » from the menu. \n3. Right-click the Screenpresso icon in system tray (usually at the bottom right of your screen) then select \n« Screenshot using auto scroll » from the menu. \n \nA window will explain how to use the feature: \n1. Select the scrolling part of the screen to capture, without the scrollbar \n2. Scroll down and release the left mouse button several times during scrolling to take successive \nscreenshots which each overlap their predecessor. A screenshot is stored each time the left mouse \nbutton is released: \n \n \n \n3. Click the right mouse button to finish the capture operation and start the processing to merge the \nscreenshots and generate the result \n \nImportant notes \n- \n you can find video tutorials on the Internet: https://www.youtube.com/watch?v=pssN7gWXfVs \nScreenshot 1 \nScreenshot 2 \nScreenshot 3 \nOverlaps \nbetween the 2 \nscreenshot \nOverlaps \nbetween the 2 \nscreenshot \nScreenshot 1 \nScreenshot 2 \nScreenshot 3 \nFigure 12 : Capture process for manual stitching"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_037_257076262f88.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_037_257076262f88.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 29\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n28 \n \n- \nHolding the Control key during the last right-click performs an horizontal stitching instead of a vertical \none \n7.5 Capture workflow \nThe following workflow applies when you want to capture a new image, the optional part within the dotted \nline.\n\n## Page 30\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n29 \n \n \nPress the [Printscreen] key or \nWorkspace > Capture > Screenshot region or \nSystem tray context menu > Screenshot region   \nSelect the part of your screen to capture \nThe image is saved in the current \nworkspace and on the clipboard \nPaste, Publish or drag&drop \nyour image in your application \n(e-mail, document, etc…) \nThe Workspace window is displayed \nClick on the Edit button to open \nthe built-in editor \n \nEdit your image: add rectangles, arrows, \nannotations, highlights … \nClick on the “Copy & Exit” button \nto close the editor, save the file and \nput the file in the clipboard \nThe Workspace window is \ndisplayed \nPaste, Publish or drag&drop your \nimage in your application (e-mail, \ndocument, etc…) \nThe Workspace \nwindow is \nautomatically closed \nAutomatic resize (optional) \nAutomatic effects (optional) \nWatermark applies (optional) \nAn image is created \nThe context is \nstored"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_038_47820b1e09c9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_039_3a94c03019a1.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_040_0df565c614fd.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_041_f8ba9a63c33a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_042_3742f3453a56.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_043_d6039a8e0817.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_044_2823fb04679d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_045_8ea88c2b25fc.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_046_50e43c944b91.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_047_f925467d46cb.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_048_d1385bd32368.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_048_d1385bd32368.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_049_9ac9e1a8394d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_050_c83df573503b.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 31\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n30 \n \n \n \nImportant notes: \n- \nThe watermark can be used to add your signature or the name of your company in each Screenshot: \nrefer to section 16 \n- \nThe filename of the image can be configured through the settings: refer to section 16. \n- \nThe image is saved to the disk. By default, “PNG” file format is used. This can be configured to JPG, \nGIF, BMP or TIF via settings: refer to section 16 \n- \nThe clipboard content can be also configured: refer to section 12 \n- \nAll optional actions can be configured through the settings: refer to section 16 \n- \nThe context of the capture can be captured if enabled. For instance, the URL of the captured Web \npage can be captured so it could be used later. This option is disabled by default \n- \nThe resolution of your image depends on your screen resolution. By default, it is 96DPI \n7.6 Color picker (PRO) \nThe magnifier will display the RGB values of the pixel under the mouse. Press ‘H’ to switch display between \nhexadecimal and decimal. When you click, the value is sent to the clipboard. \n7.7 Screenshot text (PRO) \nScreenpresso can quickly capture an image then perform Optical Character Recognition (OCR). \n \n \nClick “Copy text” from systray menu or workspace then select an area of text. Please notice there is no shortcut \nconfigured by default, but you can add one via Screenpresso settings. \n \n \nFigure 13 : Screenshot default workflow"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_051_f2792a0c32aa.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 32\n\nScreenpresso User Manual \n \n \nChapter: Capture an image \n31 \n \nThis sample image, captured from Screenpresso Web site \n \nis recognized and a window opens to display the result: \n \n \n1. You may configure the language of the input text to improve OCR result \n2. You may translate the result to your language. \nThis feature uses Google Translate service. Please make sure your text is not confidential and that you \nhave a working Internet connection. \n3. You may change part of the displayed text then press this button to copy selected text to the clipboard \nthen close the window \n4. You may change part of the displayed text then press this button to copy the whole text to the \nclipboard then close the window \nIf you want to close the window without copying any text to the clipboard, simply use the cross at the \nupper right of the window. \nPlease notice this window is sizable if you need to display more text to the screen. \n7.8 Capture a QR code (PRO) \nScreenpresso can quickly capture an image then perform QR code or Bar code decoding."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_052_67c69754e6bc.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_053_4021ddd8c964.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_054_1b8b1493660b.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 33\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n32 \n \n \nClick “Decode a QR code” from systray menu or workspace then select an area of text. Please notice there is no \nshortcut configured by default but you can add one via Screenpresso settings. \nHere’s a sample QR code: \n \n \nIt is analyzed then: \n• \neither it is an URL, then your default browser is opened \n• \neither it is text, then it is copied to the clipboard \n8 Capture a video \n8.1 Overview \nScreenpresso allows you to record a movie of your screen activity, including sound using the microphone. \nThis is useful for creating tutorials, software demos or for reporting software issues. \n \nThere are many ways to start a video session: \n1. Press « Ctrl + Print screen » key"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_055_556f8cbac2ec.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_056_9dc8df356c95.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 34\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n33 \n \n \n \n2. Open Screenpresso’s workspace; then click the « Record video ». \n \n \n3. Right-click the Screenpresso’s icon in the system tray (usually at the bottom right of your screen), then \nselect « Record video » from the menu. \n \n \n4. Use the command line: refer to section 4.5 for details. \nThe area outside of the selection becomes grey and the video toolbar appears. The area is fully resizable if \nnecessary. The toolbar displays some options for recording."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_057_cb4845f1f7a5.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 35\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n34 \n \n \n \n1) The record area: this part of the screen will be recorded in the video: \n2) Use the handles to resize the record area; \n3) Use the handle to move the area to be recorded; \n4) Video toolbar \n5) This part of the screen is not recorded in the video. See below for details. \n \nImportant notes \n- \nIf “Direct MP4 recording” option is not checked, Screenpresso uses its own codec which is optimized \nfor screen capture. It records as AVI files and then converts the files into standard formats such as \nMP4. \n- \nIt is not recommended that you change the codec as some codecs may not support the dimensions of \nsome recorded areas. \n8.2 Video Toolbar \n \n \n \n1) Start recording button \n2) Enable sound recording of the microphone (to record what you say)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_058_753a0127761d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_059_8e6cbede0fb3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 36\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n35 \n \n3) Enable the system sound recording (to record what you hear) \n4) Show or hide the Webcam \n5) Zoom the recorded area around the cursor \n6) Video area dimensions: width x height in pixels and list of predefined video area dimensions  \n(it is recommended that you use standard video size as post resizing may blur the video) \n \nDuring recording, mouse clicks effect can be enabled via settings. \n \nImportant note \n- \nRefer to the settings section 16 for advanced configuration. \n8.3 Sound recording \nYou can enable or disable sound recording. \nScreenpresso fully supports recording sound from the microphone and is based on the Microsoft Window’s \nengine. You should first configure your recording input and levels using the Windows sound mixer. You may \nalso record sound from system (what you hear). \nDuring recording, a green light blinks over the microphone and loopback buttons to indicates sounds is \nreceived and recorded. \n \nImportant notes \n- \nBefore recording a long video, make a short video trial to ensure the microphone sound level is \nacceptable. \n- \nMake sure you have activated the sound recording via the configuration button.  \n- \nIf sound is garbled, try this: in Windows’ control panel, open microphone properties, go to ‘Advanced’ \ntab, and then uncheck ‘Enable audio enhancement’. \n8.4 Webcam \nWebcam recording is supported by Screenpresso:\n\n## Page 37\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n36 \n \n \n \nTo turn on the webcam, press “Win + F7” shortcut. You can hide the webcam using the same shortcut.  \nThis shortcut is available during recording so you can easily toggle the display of the webcam. \n \nIf you right-click on the Web cam window, you can change some parameters"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_060_41f2dbab44b5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_061_4914ff81e806.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 38\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n37 \n \nImportant notes \n- \nSettings of the Webcam are persistent, you can show the Webcam window before starting video \nrecording, setup the size, and then hide it. During recording, when you will show the Webcam \nwindow, it will appear with the correct position and size \n- \nIt is also recommended that you show the Webcam window once before recording to avoid the \nwebcam appearing slowly (due to initialization) in your record \n- \nThe shortcuts work only when the Webcam window has the focus \n8.5 Video zoom \nDuring recording, you can also zoom (x2) and focus the recording around the mouse cursor using the shortcut: \n[Win] + [F8]. \n[Win] + [F8] will toggle the zoom (on/off). \nScreenpresso will ensure that the mouse is always visible, even if the zoom is activated. A green rectangle (1) is \ndisplayed to show you the zoomed recording area: \n \nFigure 14: Video zoom box \n8.6 Start recording \nTo start recording: \n• \nClick the big red button  \n• \nOr press the [Print Screen] key \n• \nOr right-click on Screenpresso’s icon in the system tray (next to the system clock), then choose “Start \nrecording” menu item \n \n \nTo pause or resume recording: \n• \nClick the big red button while holding the [Alt] key \n• \nOr press [Ctrl] + [Print Screen] shortcut \n• \nOr right-click on Screenpresso’s icon in the system tray (next to the system clock), then choose on \n“Pause” menu item"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_062_a7b221f4a0b1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_063_f932d87bf34a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_064_f6eecf62ac1c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 39\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n38 \n \n \nTo stop recording: \n• \nClick the big red button \n• \nOr press [Print Screen] key \n• \nOr right-click on Screenpresso’s icon in the system tray, then choose “Stop” menu item. \nNotice: if you click the “Exit video mode” instead, the recording stops and the video is lost. \n \nWhen the recording ends, the Screenpresso’s built-in media player plays the video: refer to chapter below.\n\n## Page 40\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n39 \n \n8.7 Video capture workflow \n \n \n \nPress the [Ctrl] + [Printscreen] key or \nWorkspace > Capture > record video \nSystem tray context menu > Record video   \nSelect the part of your screen to record \nStop recording: Press the [Printscreen] \nkey or \nWorkspace > Capture > record video \nSystem tray context menu > Stop \nThe preview of the video is displayed in \nthe Screenpresso media player. \n \nThe Workspace window is displayed \n \nPaste, Publish or drag&drop your video \ninto your application (e-mail, document, \netc…) \nThe Workspace \nwindow is \nautomatically closed \nShow/hide the webcam (Win + F7) \nZoom on a part of the screen (Win + F8) \nClick on the record button \nClick on the save button \nThe video is converted to MP4"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_065_acb3eb4315e6.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_066_2adce18b612e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_067_b653324fea66.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_068_0d5d39827f5a.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_047_f925467d46cb.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_069_be64976d0545.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_070_f432c6271632.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 41\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n40 \n \n8.8 Screenpresso media player \n \n1) The video preview. \n2) Change the preview mode: checked, the video is not resized, unchecked the video is resized to fit the \nsize of the preview window. \n3) Export the current frame as an image. The extracted image is saved in the current workspace. \n4) Current position in the video and total video length/duration. \n5) The cursor of the timeline: define the current frame position in the video. \n6) Resize grip. Allows clipping start and end of the video. \n7) Play/Pause the preview. \n8) Save recording as an animated GIF. Very useful to publish result on a Web site (notice that framerate \nis reduced to avoid the output file to be too big) \n9) Save recording as a standard video format. MP4 is the default but it can be changed via clicking the \nsmall arrow to the right of the button.  \n10) Close window, discard recording. \n \nPress the “Save” button to save the recorded video. The compression immediately starts according to your \nsettings. Default file format is MP4 (H264 video + AAC audio), which is the best format: highest compression \nratio for best quality video. \n \nThe Format menu item available to the right of the green button allows changing of the video format: MP4, \nMKV (AV1), Animated GIF, Animated PNG, Animated WebP, WMV, OGV or WEBM as well as the dimension of \nthe output video:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_071_12ba02026a48.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 42\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n41 \n \n \nMP4 provides a very good compression ratio and is the standard that most devices can read. \nAnimated GIF is a great option for sending the video via e-mail for instance or putting it on a Web site. It is \nimportant to notice that framework is reduced to 5 images per seconds instead of 15. \nAnimated PNG is better quality than animated gif. It is new technology. \nWmv is the Microsoft video codec that has been supported for a long time under Windows. Use this codec if \nyour viewers are using Microsoft Windows and you want to make sure they will be able to read the file. \nWeb-M is a great codec supported by Google. \nOgv is an open-source codec. \n \n1) Define the video format: MP4, MKV (AV1), GIF, WMV, OGV or WEBM or WEBP. MP4 is the \nrecommended format. \n2) The size of the output video among predefined sizes: \n \n3) Define the video resize mode (ratio is always preserved)  \na. Fit Max: the video is scaled to fit the target size. No padding is used so one dimension can be \nsmaller than the target size."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_072_8c0e6b436530.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_073_59669e081f84.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 43\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n42 \n \nb. Max: the video is not resized if the video is smaller than the target size; otherwise, the video \nis scaled to fit the target size without padding. \nc. \nExact: the video is scaled to fit exactly the target size. Some black area is added to keep the \naspect ratio. \nFor instance, our original video is 622 x 512px, if we resize to 960 x 640px \n- \nMax: the output will be 622 x 512px \n- \nFit Max: the output will be 960 x 640px \n4) Define the compression quality. \n5) Check this option to persist the current settings as default. \n \nImportant notes \n- \nScreenpresso requires third-party tools: FFmpeg and LibVLC. Screenpresso will download them once \nbefore the first conversion. An Internet connection is required for this. You can download it manually \nif necessary. More information is on our online FAQ: https://www.screenpresso.com/support/ \n- \nScreenpresso captures in AVI format with its own lossless and CPU optimized codec and will then \nconvert the video to MP4 after the capture. The video codec used for recording is fully configurable via \nsettings \n8.9 Convert video to another format \nThe original video capture is always kept by Screenpresso. This allows you to convert as many times as required \nwithout decreasing the quality. \nMany video formats are supported but it is also possible to generate a HTML Web page. To do so, select a video \nin the Screenpresso workspace, right-click on it, then choose “Save as”. \n \n \nIt will generate a HTML 5 file, a folder containing all images and a flash player to be used if necessary and video \nfile. The generated Web page automatically detects supported Web browser’s features to correctly display the \nvideo. \n8.10 Merging videos (PRO)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_074_d82e8fd4a0be.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 44\n\nScreenpresso User Manual \n \n \nChapter: Capture a video \n43 \n \nScreenpresso provides a merging utility for being able to publish one video file instead of multiple files. In \nScreenpresso workspace, select your videos, right-click on one then choose “Merge videos” menu item. \n \nImportant note \n• \nAll files must have same resolution and must be compressed using the same codec. \n8.11 Edit video metadata (PRO) \n \n \n8.12 Speech to text (pro) \nVia setting you can enable voice recognition. You must first authorize it in the Microsoft Windows’ settings. \nThen, during a video recording, your default microphone’s sound is analyzed by Windows to generate text. At \nthe end of the recording, a “.srt” text file is generated next to the “.mp4” video file. All media player should \ndetect it automatically to display the text as video subtitles. Now you can open the Screenpresso built-in media \nplayer and click the “Subtitles” button to merge the srt file into the mp4 file. Once the file is merged, you \ncannot modify the subtitles anymore."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_075_dd4aa635689a.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 45\n\nScreenpresso User Manual \n \n \nChapter: Android center \n44 \n \n9 Android center \nThanks to Android Debug Bridge (ADB), software officially published by Google, Screenpresso can take captures \non your android device running Android 4.4 or above. To open “Android Center” window, use system tray \nmenu: \n \n9.1 Install ADB \nScreenpresso needs ADB software. It will search it: \n• \nNext to the exe \n• \nNext to the exe, in a sub-folder named “Android” \n• \nIn %LocalAppData%\\Learnpulse\\Screenpresso\\Android \n• \nIn %ANDROID_SDK_HOME%\\platform-tools \nIf not found a Window will popup allowing you to download and install it in \n%LocalAppData%\\Learnpulse\\Screenpresso\\Android \n9.2 Configure your device"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_076_284fd3bd9d6d.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 46\n\nScreenpresso User Manual \n \n \nChapter: Workspace window \n45 \n \n \nYour device (mobile phone or tablet) needs to be configured to allow captures. Press the help button at the \nbottom left of the window read the tutorial. If you need some more information, search over the Web how to \nenable debug mode for your device. \nWhen in debug mode and linked to your computer using an USB cable, your device should appear in Android \nCenter window. \n9.3 Take captures \n \nScreenpresso can recognize more than one device connected at once. Select the correct device in the tabs at th \ntop of the Window. If your device is disconnected, the buttons are disabled until reconnected. \nPress “Screenshot full screen” to take a screen capture (make sure your device’s screen displays what you want \nto capture). \nPress “Record video” to make a screen recording. Recording’s max duration is 3 minutes and will generate a \nMP4 file. Issues might sometime occur if your recording is less than 10 seconds. Press “Stop” to stop video \nrecording. \n10 Workspace window \n10.1 Overview \nThis is the main Screenpresso window and it is displayed: \n• \nWhen Screenpresso starts; \n• \nusing [Win] + [Print Screen] shortcut; \n• \nusing a single click on Screenpresso icon in the system tray (usually at the bottom right of the screen); \n• \nafter a capture is performed (can be disabled via settings); \n• \nwhen you start Screenpresso when another instance is already running."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_077_9cedeb814fdd.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_078_bff3b73ecf63.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 47\n\nScreenpresso User Manual \n \n \nChapter: Workspace window \n46 \n \n \nThe workspace window displays all captures stored in the Screenpresso working folder (refer to section 6.2) \nand provides some direct-action buttons. \n \nMain features: \n \nFigure 15 : Workspace window \n \n1) Perform a new capture (image or video) \n2) Edit the selected capture using the built-in editor or third party editors, \nor generate a new document (available when multiple images are selected) \n3) Publish the selected captures: refer to dedicated section \n4) The captures (images and videos), support the drag & drop as well as the copy/paste. Right click on a \nfile selection to obtain all the context actions \n5) Open Screenpresso settings \n6) Show or hide the other workspaces \n \nImportant note \n- \nThe window is optimized to handle thousands of images but opening the window will be slower when \nusing more than 5000 images."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_079_5c8429404d59.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 48\n\nScreenpresso User Manual \n \n \nChapter: Workspace window \n47 \n \n10.2 Filter \n \n \nThe workspace features a filter to find some media and hide the other ones. First click on a file in the \nworkspace to give it the focus, then start typing your search criteria (pressing Ctrl+F is optional). The \ncorresponding files are displayed, and the other ones are hidden. Press Escape key to close the feature. \n10.3 Drag & Drop \nThis window fully supports drag and drop and can be used to copy a capture to your desktop, to one of your \nexisting folders or to attach it to an e-mail.  \n \n \nFigure 16 : Example of drag & drop in Gmail \n \nImportant note \nWhen you start editing a screenshot using Screenpresso’s internal editor, a `.presso` file with the same name is \ncreated in a sub-folder named `Originals`. This `.presso` file is the vectorized image and contains the original \nscreenshot and all graphical changes (callouts, ...). If you want to share the vectorized version, you should share \nthe `.presso` file: \n1. In the editor, **Save as** using `.presso` file extension \n2. Send the `.presso` file to your colleague. \n3. Your colleague should drag & drop the file into the Screenpresso workspace."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_080_950659a1df30.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_081_c7f7c48fb77f.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 49\n\nScreenpresso User Manual \n \n \nChapter: Workspace window \n48 \n \nIf you hold shift key before starting dragging the media from the workspace, the corresponding “.presso” \nfile is dragged instead of the image itself. \n10.4 Auto clean-up of files \nBy default, the workspace keeps only the 30 newest captures and deletes the old ones (they are moved to the \nrecycle bin). \nA popup will warn you after several captures to allow you to select the file management behavior: \n- \nAuto clean-up and setup the number of files to keep (oldest files are deleted); \n- \nKeep all files (never delete files) but the workspace will only display a subset (the new file) for \nperformance reasons. \n \n \n \nPlease notice this occurs only on the “Default” workspace and not on the other ones (refer to chapter about \nworkspaces management). \n10.5 Workspaces management \nA workspace is a folder where your media (images, videos or documents) are stored. You can create multiple \nworkspaces in addition to the default one to classify your media, for instance one for personal screenshots and \none for professional screenshots."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_082_ea7ec1da6d78.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 50\n\nScreenpresso User Manual \n \n \nChapter: Workspace window \n49 \n \n \nFigure 17 : Several workspaces \n \n1) Click once on the arrow at the top-left of the workspace window to toggle the display in the \nworkspaces list (or press F10) \n2) The currently selected workspace is highlighted \n3) Click to create a new workspace (a new folder on your disk), a prompt will ask for a name. A sub-folder \nis then created in the Screenpresso working folder. \n \nYou can also drag & drop an existing folder from your hard drive disk: \n \nFigure 18 : Drag & drop to create a new workspace \n \nIn this case no sub-folder named “Screenpresso” is created. \n \nYou can right-click on a workspace button to display its context menu: \n• \n“Open folder”: browse corresponding folder in Windows’ file explorer."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_083_6ce7baf43bfb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_084_e893ba758487.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 51\n\nScreenpresso User Manual \n \n \nChapter: Workspace window \n50 \n \n• \n“Delete”: removes workspace from workspaces list. If you also want to delete the folder from your \ndisk, check the “Delete all files from disk” checkbox. \n• \n“Properties…”: open a window to rename the workspace, change its icon or change synchronization \nsetting (see 10.5). \n \nTo change the order of the displayed workspaces, select one workspace to move then press Control+Up or \nControl+Down keys. \n \nImportant notes \n- \nThe “Default” workspace always exists, refer to section 6.2 \n- \nWhen a new capture is created, the new file is moved to selected workspace \n- \nUnlike the “Default” workspace, the other workspaces have no automatic cleanup of files (number of \nfiles is unlimited) and do not create a subfolder named “Screenpresso” \n10.6 Collaborative work \nA workspace can be linked with an online Cloud service to synchronize local files with remote files. \n10.6.1 Synchronization with Dropbox, Google Drive or Microsoft OneDrive \n \nThis feature allows synchronization between Dropbox, Google Drive or Microsoft OneDrive and the workspace. \nThat’s great for collaborative work if you have shared your remote folder with other people. \n1- Select a remote folder to synchronize with \n2- Click the small Dropbox, Drive or OneDrive logo (at the left-hand side of the workspace window) to \nperform a synchronization"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_085_56ea48f07302.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 52\n\nScreenpresso User Manual \n \n \nChapter: Managing files \n51 \n \n \n3- Medias are synchronized. \n \nImportant note \n- \nRemote files always have priority over local files. If you have made local modifications and remote file \nhas also been modified (by someone else for instance), synchronization with discard your local \nchanges. \n11 Managing files \n \nThe Screenpresso workspace window provides a lot of options to easily manage your media (we term the \nindividual images or videos as “media”). \n11.1 File management \nAt any times you can right-click a media to display a context menu. The menu displays the files’ information \n(format and size) followed by actions:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_086_d563158c3c62.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 53\n\nScreenpresso User Manual \n \n \nChapter: Managing files \n52 \n \n \nFigure 19 : Video context menu \n \n \n \n \nFigure 20 : Image context menu \n- \nSave As… allows you to save your image in a lot of different formats: PNG, JPEG, GIF, TIFF, BMP, \nWebP, JPEG XL, PDF, DOCX. \n- \nOpen with… allows you to open the file with an external software. You can also use Ctrl+Alt+<num \nkey> shortcut."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_087_cf403ca01c50.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_088_401b9d6d4679.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 54\n\nScreenpresso User Manual \n \n \nChapter: Managing files \n53 \n \n \nFigure 21 : Multiple files context menu \n- \nOpen in quick view displays currently selected image in a border less top most window. Press space or \nright-click on the quick view window to close it. \n- \nMerge (image stitching): stitch several images that have the same dimensions into 1 big image. \nHolding Control key may stich them horizontally instead of vertically. \n- \nRecompress: use a specialized algorithm to increase the compression ratio of selected images. \n- \nAuto-rename (re-numbering) is a quick function that renames your selected images “screenshot_1”, \n“screenshot_2”, etc.…Export and Resize: this is a batch resize and effect: \n \nFigure 22: Batch resizing and effects \nImportant note: \n- \nPaste is available in all context menus: you can paste images from the clipboard into the workspace. \n- \nThe workspace window is built to support thousands of media without affecting speed and memory. \n11.1.1 Deleting a media \nTo delete a media, select it then press the “Del” key or right-click on it, then choose “Delete” from the menu. \nYou can select multiple files by clicking on the files while holding the control key. \nBy default, a deleted file is moved to the recycle bin. The file itself is deleted but also its corresponding files \nthat are stored in “Thumbnails” and “Originals” folders. \nIf you delete the file using Windows’ file explorer, close and reopen the workspace window so that it is \nrefreshed.  \n11.1.2 Renaming a media \nYou can rename a media by: \n• \nclicking twice slowly on the file name; \n• \npressing F2 shortcut; \n• \nright-click and choose “Rename” from the menu."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_089_45e5337b3eae.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_090_f25458cf3667.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 55\n\nScreenpresso User Manual \n \n \nChapter: Managing files \n54 \n \nRenaming an image with its file extension can be used to change the image format \nWhen you rename a media item, the corresponding filename is changed on the disk. If you don’t specify the file \nextension (.png for instance) then the current file format is kept. If you specify a file extension, the media is \nconverted. For instance, if you rename “screenshot.png” to “screenshot.jpg”, Screenpresso does not only \nmodify the file name, but also converts the file to a real jpg file. To copy your media and convert it, you can also \nright-click on the file then choose “Save as…” from the menu. \n11.1.3 Moving a media to another workspace \nAt any time, you can click on the workspaces list then drag and drop your media from one workspace to \nanother. \nTo retrieve the media in Windows’ file explorer, you can right-click on it, then choose “Open containing folder” \nfrom the menu. \n \n \nFigure 23 : Drag & Drop of a set of images into another workspace \n11.1.4 Sorting \nBy default, files are displayed from oldest to newest.  \nYou can reverse this order using advanced settings. Refer to section 16.5."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_091_51a61a5f21bc.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 56\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n55 \n \n12 Editing an image \nScreenpresso provides a built-in vector image editor to add annotations, effects, resize and more. \nDouble-click on an image in the Screenpresso’s workspace to open the editor or click on the Edit button. \n \n12.1 Main tab \n \n1) The name of the current image \n2) The dimension of the current image (width x height in pixels) \n3) The zoom factor \n4) Opens the previous or next image from the current workspace. \nShortcuts are PageUp and PageDown keys. \nIf you hold Alt and Shift key while clicking one of these two buttons, the current image will be deleted \nbefore moving to the new one. \n5) Main menu button. Contains some rarely used feature \n6) The drawing tools \n7) This button is very helpful as it: \na. Saves the modifications to the current image; \nb. Closes the editor; \nc. \nPlaces the image on the clipboard. \n8) Opens the Save as... dialog \n9) Prints the current image \n10) Opens the image’s metadata editor \n11) Copies the current image to the clipboard  \n12) Undo and redo the last modifications \n13) Crop tool to redefine the image. Also allows to rotate the image"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_092_e6b037a75e20.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 57\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n56 \n \n14) Cut out: this tool is used to remove part of the screenshot. For instance, you have a very long image \nlike this and you would like to remove the middle part: \n \nThere are several options, depending on the type of line between (1) and (2): \n  \n \n15) Resize: this dialog provides many ways to resize your image: \n \n \n16) Canvas size: Define the working area: \n \nYou can define a fixed or an automatic canvas size (recommended) as well as the background color. \nIf you choose automatic canvas size, when you move a drawing item or an image outside the canvas, it will \nautomatically be resized: \n \n1 \n2 \n1 \n2"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_093_a79c6104fe53.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_094_ef00cfba5e99.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_095_c52a8501eb96.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_096_c0ca5d36657b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_097_c13ced7fb61a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 58\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n57 \n \n ➔ \n \n17) Border: tool to add image border and effects to your screenshot: \n \n \nBasically, you can add: \n- \nRegular Border (square) \n- \nRound border \n- \nTorn edge, for instance: \n \n \n- \nRefection:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_098_65eeb23a7c95.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_099_5ada694e4051.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_100_0d45bf0baa62.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_101_4d1235a501e4.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 59\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n58 \n \n \n- \nDrop shadow \n- \nSwitch your color image to greyscale \n- \nRotation, for instance: \n \n18) Image generator based on the AI. \nPlease notice than if you use it, your image will be sent to the Cloud. \n \nImportant note \n- \nTo turn off an effect, set the corresponding parameter to its minimum value \n12.2 Using the drawing tools \na. To draw a new item: select the drawing tool, for instance “Rectangle”; \nb. Use the mouse to position and size the drawing item (like drawing using a selection box) \ni. To draw using the same color than the background, hold Alt key \nii. To hide part of the background, choose a rectangle tool then hold both Alt and \nControl keys \niii. To adjust the drawing options, right click > Drawing options or put your mouse \ncursor on the orange handle or double-click it"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_102_aef038db3569.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_103_39d0d9259e90.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 60\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n59 \n \n \nDrawing \ntool \nDescription \n \nThis tool is used to draw different types of arrows. For instance: \n \nThe drawing options: \n \n1) The type of the arrow \n2) The color of the arrow \n3) The transparency: 100% is opaque, 0% is transparent \n4) The pen width \n5) The drop shadows \n \n \nThis tool is used to draw rectangles with round or squared borders.  \nMost of the time this tool is used to highlight a part of a screenshot. For instance, you can draw a \nred rectangle around a part of a screenshot to indicate where it has been clicked. \n \nThe drawing options:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_104_75a4975b569c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_105_38c010748c27.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_106_2ef801f76a3e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_107_5d7c71e695ac.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_108_0bc700039729.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 61\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n60 \n \n \n \n1) The color of the rectangle \n2) The opacity of the rectangle \n3) The filling: changing the value to have either: \n \n \n \nor: \n \n4) The pen width \n5) The border curvature, 0px for a rectangle and positive value for round rectangle. \n \n \nThis tool is used to add a text area in the image. FYI : We can set a white border around the text to \ndistinguish the text over the screenshot: \n \nDrawing options:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_109_80a0b8783cdb.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_110_2380c829c48d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_111_3826a69bed67.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_112_113e3dc1ba3e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_113_9faa43d29a3d.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 62\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n61 \n \n \n1) The text decoration: Bold, Italic, Underline \n2) The text alignment: Left, Center, Right \n3) The font name \n4) The font color (1) \n5) The font size in pixels \n6) The opacity of the text \n7) Define the glow attributes (2) \n \n \n8) The drop shadow level \nYou can press Ctrl+Plus or Ctrl+Minus shortcut to quickly increase or decrease the font size. \n \nThis tool is used to add a text bubble in the image. \n \n or  \n \nThere is an additional handle to move the image of the text bubble. \n \nImportant note: \nIf you want to move only the text and not the image, hold the ALT key when moving the text. \n \nDrawing options:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_114_11516c5e55b6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_115_15251ddb7968.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_116_86c062645fc8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_117_94b7db0e3a7d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_118_c576986885de.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_119_d2ada270fcd8.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 63\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n62 \n \n \nSame as text options with: \n1) The type of text box: normal or speech bubble \n2) Define the filling color \n3) Define the filling opacity \nYou can press Ctrl+Plus or Ctrl+Minus shortcut to quickly increase or decrease the font size. \n \nThis tool is used to add numbering within the image which can be used to indicate steps or identify  \npart of the screen, for instance \n \n \nThe drawing options: \n \n1) Define the number displayed in the circle \n2) Use this button to start numbering from the current value \n3) Define the connector type: \nIf you drag the yellow handle, a connector is displayed:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_120_38ac7a47b15d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_121_d35cde5a8c7f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_122_30168e10fac5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_123_b4bc4d7a013a.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 64\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n63 \n \n ➔ \n \n \nThis is useful for explaining some screenshots: \n \n  \n4) The filling color \n5) The text color \n6) The size of the circle and text \n \nImportant note: \n- \nIf you want to move only the circle and not the connector, hold the ALT key when moving \nthe circle \n- \nYou can press Ctrl+Plus or Ctrl+Minus shortcut to quickly increase or decrease the size \n \nThis tool is used to highlight part of the screenshot. \n \n \n \nThe drawing options: \n \n \nThis tool is like the rectangle and is used to draw an ellipse or circle. Most of the time this tool is \nused to highlight a part of a screenshot. \n \n \n \nDrawing options:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_124_0a003b8447a4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_125_15a1e6f3e31d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_126_69c2d8946718.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_127_062ed193bea6.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_128_0fc73aa13e0d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_129_a047840f8a82.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_130_7c9bb10badde.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_131_96ab971c7f0f.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 65\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n64 \n \n \nRefer to rectangle for details. \n \n \nThis tool is used to create a polygon. Refer to rectangle for details. \nPerform many clicks to add polygon’s points then double-click or right-click to finish drawing. \nIf you hold ‘Alt’ key when finishing drawing, the figure is closed by Screenpresso. \nSample use: \n \n \n \nThis tool is used to draw hand free. \n \n \n \n \n \nThis tool is used to blur a part of the image (to hide confidential data, for instance)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_132_7e139998323c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_133_801150ed6a25.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_134_35786862c28a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_135_3accf1ec58b3.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_136_f1c62f4e7728.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_137_7808ea5ad321.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_138_5b465a1d7332.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 66\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n65 \n \n \nThe drawing options: \n \n \n \n \n1) The blur level. For instance: \nBlur level 1:  \n \nBlur level 8:  \n \nBlur level 20:  \n \n \nThis tool is used to add stamps or insert an image: \n \nThere are some mouse cursors ready to use: \n \n \nImportant notes \n- \nYou can browse your own stamps/images"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_139_b5a959f5a132.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_140_0d508fc2e806.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_141_bf3030193caa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_142_e826208435ce.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_143_4b6fe3b96d8a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_144_33a669677610.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_145_b18155b0766f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_146_b56a9191401c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 67\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n66 \n \n- \nYou can drag & drop external images to the editor canvas to  quickly insert images into the \nScreenpresso workspace windows to combine images:\n \n- \nAspect ratio of the image is always kept. \n- \nYou can change the default size of the stamps with the zoom: \n \nThe drawing options: \n \n1) Opacity of the image \n2) Drop shadow level \n3) Restore the original size \n \n \nThis tool is used to draw a magnifier:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_147_6e8d176e2a8c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_148_176540873cc1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_149_01550362ed55.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_150_1d3ff4a2cd23.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 68\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n67 \n \n \n \nThe drawing options: \n \n \n1) Lock the source image \n2) Define the zoom factor \n3) Define the color when the zoom is on the border of the image, for instance with red: \n \n4) Define the pen color \n5) Define the pen width \nImportant note: \n- \nIf you want to move only the magnifier glass and not the image, hold the ALT key when \nmoving it. \n- \nLock the source image before resizing the whole image for better results. For instance, to \ncreate a magnifier with zoom x1, lock the source image and resize the image to 25%:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_151_cd6fda46488c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_152_76c3e877a81d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_153_0942597a62c9.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 69\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n68 \n \n \nImportant notes \n- \nTo unselect the tool:  \no \nPress the Escape key \no \nOr right click \n- \nTo draw new item using the color under the mouse, hold Alt key \n- \nTo copy/paste a drawing item: \no \nRight click on the item, choose copy then paste \no \nHold the CTRL key while drag and dropping the item \n- \nTo create a square drawing item (width = height), hold the CTRL key while resizing the drawing item. \n- \nYou can define your own item drawing presets: \n \n \nIn the drawing options, when you have set all the properties, click on the “Set default” button (1). \nYou can assign the current properties to an existing preset, for instance (2) or create a new preset with the \n“new” button (3). \n \nFor instance, if we create a new preset for a green number, then, when you want to create a new green \n \n \nThis tool is used to draw brackets:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_154_90a18fc5c935.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_155_941871902b00.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_156_05362cfcee34.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_157_6e0f027bf3dc.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 70\n\nScreenpresso User Manual \n \n \nChapter: Editing an image \n69 \n \nnumber, you can select the preset directly before creating it: \n \nTo delete a preset, click on the top right cross: \n \n12.3 Change main image (PRO) \nOnce you added some items on your captured image, you may want to change it and keep the items. For \ninstance, this occurs if you want to set a new image captured in another language. To change the background \nimage, right-click anywhere on it (not on a drawed item), click “Change main image…” context menu item, then \nchoose the image you want. \n12.4 Automatically blur sensitive data \nThe menu item with run an OCR to detect areas containing e-mails, then automatically add a blur drawable \nitem on it. You can move, resize or delete the blur afterward if necessary. \n \nSample result:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_158_9a013f033465.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_159_6d8d7227318e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_160_1a22c3a778be.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_161_5571c63153cf.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 71\n\nScreenpresso User Manual \n \n \nChapter: Editing a video \n70 \n \n12.5 Hidden features \nWhen you click the green Copy and exit button, holding both the Alt key and the Ctrl key performs the \noperation on all currently opened image editors. \nWhen you click the Copy button while holding both the Alt key and the Ctrl key, the image is flattened. \nWhen you click the close button (at the upper-right of the window) and the confirmation dialog opens, holding \nbot the Alt key and the Shift key closes all currently opened image editors without saving. \nWhen you click the Next or Previous button (at the upper-right of the window), holding both the Alt key and \nthe Ctrl key deletes current image then opens the previous image or the next image. \nIf you click the Screenpresso logo at the upper left of the window, a menu appears. \nCtrl+Del shortcut deletes the current image. \nCtrl+O opens another image. \nF11 to display the image full screen. \n12.6 Third party editors \nYou can open the image in third party applications using the “Open with” option: \n \n \n12.7 Edit other images \nIt is possible to use built-in image editor with images that I have not been captured with Screenpresso (files in \nMy Pictures folder, screen captures made outside of Screenpresso, etc.): \n• \nOpen the editor and click the Screenpresso logo at the top-left corner of the window then choose \n\"Open...\" \n• \nor install Screenpresso then right-click an image in Windows File Explorer then choose \"Open with...\" \nthen choose \"Screenpresso\" \n• \nor drag and drop the image to Screenpresso workspace window then double-click on it. \n13 Editing a video \n13.1 Built-in editor \nThe current version of the built-in editor of Screenpresso provides limited editing functions:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_162_a4051bda253e.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 72\n\nScreenpresso User Manual \n \n \nChapter: Document generator \n71 \n \n- \nResizing \n- \nExport frames \n- \nChanging format (mp4, wmv, …) \nIn the workspace window, click on the button Edit on a video or double click on a video. \n \n1) Export the current frame \n2) Change the format of the video \n13.2 Third party editors \nYou can open the video in third party applications using the “Open with” option. \n \n14 Document generator \nIt is possible to generate a PDF, DOCX, HTML or animated GIF document based on selected images. This is great \nfor quickly generating a user or training manual. \n14.1 General use \n1. Select multiple images in the workspace, then click the “New doc…” button."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_163_32bfc049a7b2.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 73\n\nScreenpresso User Manual \n \n \nChapter: Document generator \n72 \n \n \n \n2. Screenpresso’s built-in document editor appears. \n \n \n3. Double-click an image to edit it \na. Click on “Give a title to the image” text area and write your own title \nb. Click on “Write a description for the image” text area and write a description \nHTML tags are supported. You may, for instance, write ‘This is an <b>important</b> feature”"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_164_ab66aa6ee421.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_165_a5395cca692d.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 74\n\nScreenpresso User Manual \n \n \nChapter: Document generator \n73 \n \nc. \nIf a number item is selected, you can write a description for it at the bottom of the editor"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_166_5ec070bfe066.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 75\n\nScreenpresso User Manual \n \n \nChapter: Document generator \n74 \n \n \n4. Click the “Copy & Exit” button. \n5. The document editor comes back. \n \n6. Use the arrows to modify the images’ order; \n7. Press the “Del” key to remove an image from the document to be generated (does not delete it from \ndisk); \n8. Press the “Add images” button to display Screenpresso’s workspace. You can then drag and drop \nimages to add to the document; \n9. Choose the document type to be generated (Adobe PDF, Microsoft Word 2007, HTML or GIF); \n10. Press the OK button."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_167_28f6b0850da3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_168_12a4309c39a9.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 76\n\nScreenpresso User Manual \n \n \nChapter: Document generator \n75 \n \n11. The newly generated document is automatically opened using a default application (Acrobat reader \nfor instance) for review and the file is available in workspace. \n \n \nDouble-click a document file in workspace to re-edit it and generate another file. \n \nImportant note: \nA generated document is based on a Microsoft Word 2007 template file. If a file name “Template.docx” is \nfound next to Screenpresso.exe, it is used for document generation. If you have a Microsoft Word file editor \ninstalled on your computer, you can open this template using the button provided in the generator settings. \n14.2 Generator settings \nYou may change the default settings of the generator. \n \n1. For large images, the orientation of the document can be changed to landscape. \n2. Set image filename’s as default title’s value when unspecified. \n3. Forces images to always appear before their corresponding text description. \n4. Forces a page break between each image and its corresponding text description. \n5. Opens the file used for generating the document default headers and footers and heading styles. A \nMicrosoft Word file editor must be installed on your computer. \n6. Changes delay between images for animated GIF output."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_169_feb9e7952845.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_170_209124b24c1e.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 77\n\nScreenpresso User Manual \n \n \nChapter: Publishing files \n76 \n \n15 Publishing files \n15.1 Local publishing \nIn the workspace window, on each file, you can export the file using: \n- \nRight-click, then choose “Save as” from the menu (or CTRL+S) and then choose the file format; \n- \nDrag & drop to the destination folder. \n15.2 Web and cloud sharing \nScreenpresso features the most popular cloud services. \nTo configure them, open the Sharing tab in the Settings of Screenpresso: \n \n- \nClick on the account to setup and add a new account; \n- \nClick on the recycle bin to remove one. \n \nOnce the accounts are configured, they will be available in the publish button in the workspace window:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_171_dc0f095a951b.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 78\n\nScreenpresso User Manual \n \n \nChapter: Publishing files \n77 \n \n \n \nWhen you click the sharing to execute, a new window appears, and you must click the “Send” button to upload \nthe selected files. Once the upload is finished, the URL of the file(s) is displayed and copied to the clipboard. \nYou must then click the “Close” button to close the windows. If you checked the “Close sharing window \nautomatically on sharing computer” setting the buttons “Send” and “Close” will be automatically clicked. In this \ncase you can only retrieve the generate URL via the clipboard or via the history window. \n \nImportant note: \n- \nFREE version adds branding to the published captures \n- \nSome sharing services can be disabled if they don’t support the file type you have selected. \nFor instance, some sharing services don’t support multiple files upload, or don’t support video files. \n- \nYou can use Ctrl+<num key> shortcut to execute a sharing. <num key> is the index of the sharing \naccount as displayed in the list \n15.2.1 Get a public URL thanks to Screenpresso Cloud \nScreenpresso features a built-in sharing system called Screenpresso Cloud. On’ file selection’, click on the \n“Publish” button and choose the first button."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_172_d83239113ebb.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 79\n\nScreenpresso User Manual \n \n \nChapter: Publishing files \n78 \n \n \n \nScreenpresso will upload your images and videos and then give you a public URL to share: \n \n \nIf you open the “Delete URL” link in a Web browser, it immediately deletes uploaded files without \nconfirmation. This URL works only when called using the same IP address than during upload."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_173_bf1b83479b31.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_174_7b01d3f5a916.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 80\n\nScreenpresso User Manual \n \n \nChapter: Publishing files \n79 \n \nExample of a generated Web page: \n \n \nUploaded files remain available for 60 days. \n \n15.2.2 Sharing history \nEach time a media is shared through a cloud service, an entry is added to the sharing history which can be \nopened using the following links:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_175_df6240719023.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_176_7de3689f5694.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 81\n\nScreenpresso User Manual \n \n \nChapter: Settings \n80 \n \n \nYou can then retrieve previously uploaded images or videos and the corresponding URL. \n16 Settings \n16.1 General \n \n1) Define if Screenpresso should start when Windows starts \n2) Automatically update Screenpresso when new releases are available. \n3) Show the very small bars at the top of the screen to quickly perform a new capture \n4) The language of the tool. \n5) Provides tool to export and import the current Screenpresso settings for backup and deployment. \n6) Opens the ’About’ box"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_177_f4467626e037.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 82\n\nScreenpresso User Manual \n \n \nChapter: Settings \n81 \n \n16.2 Screenshot \n \n1) Defines the default image format for the screenshot: \na. JPG (the quality is configurable); \nb. GIF; \nc. \nPNG; \nd. TIF (the quality is configurable); \ne. BMP, \nf. \nWebP, \ng. \nJPEG XL. \n2) Defines the behavior of the workspace windows: the number of files to keep. The configure button \nallows you to turn off the auto clean-up of the workspace. \n3) Define the filename: \na. Date: current date and time; \nb. Numbering: incremental numbering; \nc. \nUser defined: you can enter your file pattern using the configure button. \n4) Defines the action taken after the capture: \na. Open the workspace window; \nb. Open the internal editor; \nc. \nShow balloon tip from the system tray; \nd. Do nothing; \ne. Print immediately. \n5) Define the clipboard content once the capture is taken or you close the editor: \na. Image; \nb. Image + Filepath; \nc. \nFilepath; \nd. Do nothing. \n6)  \n7) Check this box to capture the mouse on each capture (otherwise you need to press M during capture \nto add the mouse cursor). \n8) Default resizing that is applied on each capture. \n9) Default image effect that is applied on each capture. \n10) Define the watermark settings that will apply on each capture (you can still turn ON or OFF using W \nkey during capture)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_178_202d08ede1a7.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 83\n\nScreenpresso User Manual \n \n \nChapter: Settings \n82 \n \n \n16.3 Video capture \nThis tab contains the settings for the video capture: \n \n1) Defines the filename of the video \n2) Record to MP4 instead to AVI, and so, avoid conversion to be done after recording. This is the default \nand should always be checked \n3) Opens the preview window (Screenpresso media player) after the capture \n4) Record sound from the microphone (to be configured via 11 & 13) \n5) Record sound from the sound card (record what you hear) \n6)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_179_5e8f3e1339a4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_180_b3c2017ad035.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 84\n\nScreenpresso User Manual \n \n \nChapter: Settings \n83 \n \n7)   \n8) Allow to record the video toolbar. If checked, it will be part of the final video \n9) Add watermark in the video during recording \n10) Display a countdown before starting the video capture \n11) Specify the input sound to record (usually the microphone) \n12) Defines the Webcam to use if there are more than one \n13) Opens the Windows sound mixer settings \n14) Defines a maximum video recording time \n16.4 Sharing \nThis tab allows you to configure the sharing services described in section 15.2 \n \n16.5 Advanced configuration \nThe advanced tab settings should be used only by advanced users:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_181_8f98be12e8c7.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 85\n\nScreenpresso User Manual \n \n \nChapter: Settings \n84 \n \n \n \nDisabling recycle bin may improve performances. \nThe “Restore default settings” button resets all settings without confirmation. If you clicked on it by error, click \nthe “Cancel” button to close the settings window without saving changes."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_182_6ad1489a8053.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 86\n\nScreenpresso User Manual \n \n \nChapter: Settings \n85 \n \nAndroidBitRate \nWhen recording an Android screen, the default bit rate is \n20Mbpps. You can set your own value here (e.g. 80 for \n80Mbpps). You will get a nicer video, but the file size will be \nmuch larger, and all devices do not support it. \nAndroidKillAdbOnExit \nAndroid Debug Kit executable is used but Screenpresso to \ncommunicate with an Android mobile phone. When \nScreenpresso exists, it does doe exit this process in case you \nare using it with another application. Setting it to True free \nthe resource when Screenpresso exits. \nAnimatedGifFramerate \nNumber of images per second for an animated gif or an \nanimated png. You can set your own value here (e.g., 10 for \n10fps). You’ll get a nicer animation, but the file size will be \nmuch larger. \nAnimatedGifLoopCount \nIf you generate an animated gif or an animated png that \nloops, you can set the number of loops here. 0 means an \ninfinite number of loops. \nAudioRecordStereo \nRecord system sound in stereo. False records in mono. \nAutomaticRestart \nWe have optimized the memory that uses Screenpresso, \nbut it is impossible to say that if you never reboot your \ncomputer, Screenpresso will not use more and more \nmemory day after day. To avoid this issue, Screenpresso is \nautomatically restarted from after a period of time. The \ntimer starts and is reset after each use of Screenpresso \n(e.g., when you take a screenshot). The timer is configured \nto restart Screenpresso once, after 1 hour of inactivity. \nAutoscrollDelay \nFor a capture auto scroll, Screenpresso simulates a click on \nthe vertical scrollbar then take a capture. This is the time in \nmilliseconds to wait after the click and before taking the \ncapture. \nAutoscrollDelayForIE \nInternet Explorer is much slower to refresh after the click \nthen the other Web browser. According to this a higher \nvalue must be uses for it. The default value is 200ms. \nAutoscrollScrollBarWidth \nScreenpresso must detect the scrollbar to simulate a click \non it. 20 pixels is the default value but, if you use an \nadvanced custom Windows’ theme, you may change this \nvalue.  \nBitmapRotate \nIndicates whether an image must be rotated according to \nits EXIF metadata. Useful for instance when you import a \nlandscape mode image to Screenpresso via a drag and drop \nfrom the Windows’ file explorer to the Screenpresso \nworkspace’s. \nCaptureAutoPrint \nAfter each capture, request Screenpresso to automatically \nprint it. Use with care! \nCaptureContext \nWhen you take a screenshot via a single click on a window, \nrequest Screenpresso to retrieve some metadata. For \ninstance, if you perform a single click on Google Chrome to \ncapture the window, the URL of the displayed Web page is \nstore in the metadata of the capture image. These meta \ndata can be used for a custom filename, by the document\n\n## Page 87\n\nScreenpresso User Manual \n \n \nChapter: Settings \n86 \n \ngenerator, and are saved in the EXIF data if the generated \nfile is a jpg. \nCaptureMouseCursor \nIndicates if the mouse cursor must be visible in the capture \nby default. You can still remove it later via the Screenpresso \nbuilt-in image editor. \nCaptureNoFile \nRequest all captures to be stored in the clipboard but never \nsaved to a file. \nCaptureOneScreenOnly \nIf True, taking a screenshot will be limited to the screen \nunder the mouse when starting the capture. Disabling \ncross-screens captures improves performances and reduce \nmemory usage. It is recommended to set it to true if you \ndon’t need to perform cross-screens captures an have \nmultiple high-resolution screens. \nCleanAeroBorder \nOn Windows Vista, all windows displayed with a translucid \ntitle bar. If this setting is set to True (this is the default value \nonly on Windows Vista), Screenpresso will automatically \nadd a lovely blank background behind the window. \nColorPickerShowInHexa \nWhen you use the color picker capture tool of \nScreenpresso, the color under the mouse is displayed in \ndecimal in the hourglass. If this setting is set to true, the \nvalue is displayed in hexadecimal. \nConfirmDelete \nSet it to False to stop Screenpresso to ask you for \nconfirmation every time you delete a file. For your \ninformation, all deletes move the file(s) to the Windows’ \nrecycle bin, so you can still retrieve your deleted file later. \nConvertVideoQuality \nVideo quality. A higher value takes more time to compress. \nDefaultRecompressEnable \nIndicates whether quantization is applied on every save of \nimages. It takes longer to save but the final file size is much \nsmaller, without the loose of quality. To manually apply \nquantization, right-click an image then choose \n“Recompress”. \nDocumentMaximumImageSize \nIndicates whether, when generating a document, image \nuses the full document width. When false, a margin is \nadded, and the image is centered. \nDisableGrayedForm \nWhen a popup window is displayed on top of another \nparent window, the parent window is grayed. Setting this \nvalue to False improves display performance but make the \nuser interface less lovely and less fun. \nDisplayPreview \nIndicates whether the video player must be displayed after \nrecording the screen. \nDocumentDefaultFileType \nThe default file format when you generate a document. \nDocumentMaximumImageSize \nWhen generating a document, indicates whether the image \nuses the full document width. When false, a margin is \nadded, and the image is centered. \nDocumentOpenAfterGeneration \nIf True, the newly generated document is opened after \ngeneration using the Windows’ default viewer. \nEditorAlwaysMaximize \nForce the built-in image editor window to be maximized by \ndefault. In the case it uses the full screen. \nEditorAutoAlignItems \nIf you add a drawing item using the image editor, when you\n\n## Page 88\n\nScreenpresso User Manual \n \n \nChapter: Settings \n87 \n \nmove it, a magnet applies. It tries to align the new item \nwhen the other already existing ones. \nEditorAutoSave \nIf True, the edited image is always saved in real time when \nyou modify it. \nEditorDisableAutoCloseSettings \nIndicating whether the drawable settings form can auto \nclose itself. \nEditorSavePosition \nIf True, the image editor will remember its position and \nrestore it when re-opened. \nEditorShowProperties \nIf True, the properties will always be visible when opening \nthe editor. \nEditorSingleInstance \nIf True, only one editor can be opened at once. Opening a \nnew image will replace the currently opened edited image. \nExportPath \nThe latested folder where files have been exported. \nFilePath \nThe full path of the settings.xml containing all settings used \nby Screenpresso. \nHideAndroid \nIf True, the Android Center is hidden. Use it if you plan to \nnever capture screenshots or video on an Android device \nusing Screenpresso and a USB cable. \nKeyInterceptorRpcServer \nYou may try setting this setting  to False if you are \nexperimenting issues with the ‘Print Screen’ key shortcut. \nPasteSupportsDib \nSets a value indicating whether Screenpresso supports DIB \nin clipboard. Under Windows 10, disabling DIB allows to \npaste image without transparency. Maybe because of a \nbug, Windows 10 always copy windows transparent. \nPreviewDrawableDefaultItems \nIn the built-in image editor, clicking a drawable item (e.g., \nthe rectangle tool) displaies a preview of the available \ntemplates. If False, the templates are shown without a \npreview of what they look like. \nPrintMargins \nThe print margins. \nMediaPlayerAutoPlay \nIf False, the built-in media player will not automatically play \nthe file when it is opened. \n \n \nUseRecycleBin \nIf False, Screenpresso won’t moves a delete file to the \nrecycle bin anymore. \nScreenshotNewEngine \nScreenpresso is made for Windows 11 and uses the latest \ntechnology provided by Microsoft to perform screen \ncapture via the GPU. If it fails because either you have \nWindows 10 or corporate’s restrictions, it fallbacks to a \nlegacy capture engine CPU based. If you have fixed you \nWindows’ setting you can try to restore this value to True \nthen perform a new capture. The legacy capture engine is \ngood but will be removed in a few years in respect to the \nnew privacy settings of Windows. \nWorkspaceCloseOnCapture \nWhen True, the window automatically closes when the user \nwants to take a new screenshot. Set it to False if you want \nto capture Screenpresso itself (note: to capture one \nwindow of Screenpresso, you may select the window, press \nALT+PrintScreen shortcut to copy it, then press CTRL+V in \nScreenpresso workspace to paste the copied image.\n\n## Page 89\n\nScreenpresso User Manual \n \n \nChapter: Settings \n88 \n \nWorkspaceAutoCloseDelay \nNumber of seconds before the workspace automatically \ncloses itself. Set it to 9999 to avoid it to close automatically. \nWorkspaceLocation \nX and Y screen coordinates of the window. \nWorkSpaceNewDragAndDrop \nWhen you drag a file from the workspace, the standard \nmouse is displayed. If you enabled this feature, then a \nthumbnail of the dragged image is displayed. It is set by \ndefault to false because actually it causes an issue when \ndragging over Google Chrome. \nWorkspaceReverseDisplayOrder \nDisplay screenshots from newest to oldest order instead of \noldest to newest. \nWorkspaceSaveLocation \nBy default, the workspace always opens at the same \nlocation on screen. If this setting is set to True and you \nmove workspace window’s position, the position is restored \nwhen you re-open it. \nWorkspaceSize \nWidth and height of the window. \nWorkspaceThumbnailDrawReflection \nFalse to remove the reflection effect of all thumbnails \ndisplayed in the workspace. \nWorkspaceThumbnailSize \nWidth and height of the thumbnails displayed in the \nworkspace. \nWorkspaceWorkspacesDistance \nWidth of the panel displaying the workspaces in \nScreenpresso’s workspace window. \nWorkspaceWorkspacesHorizontal \nWorkspaces are displayed to the left of the workspace \nwindow by default. When this setting it true, they are \ndisplayed on top of the window.\nA user first follows the normal screenshot workflow on one target and notices a specific on-screen cue. Later, they try to capture a second target that behaves differently. According to the document, which capture path should be used for the first target? What does the cue mean? What should be done differently for the second target?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should explain what the on-screen cue in the PDF means.",
+      "2.The response should identify the correct capture path for the first target.",
+      "3.The response should explain why the same path may not apply to the second target.",
+      "4.The response should distinguish automatic vertical scrolling capture from the alternative workflow.",
+      "5.The response should combine PDF screenshots with the written instructions."
+    ],
+    "metadata": {
+      "task_id": "MCL-0257_T1",
+      "context_id": "MCL-0257",
+      "turn_index": 1
+    }
+  }
+]

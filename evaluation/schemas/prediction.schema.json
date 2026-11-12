@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MCL-Bench prediction record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "case_id",
+    "task_id",
+    "turn_index",
+    "inference_model",
+    "model_output",
+    "record_status"
+  ],
+  "properties": {
+    "case_id": {
+      "type": "string",
+      "pattern": "^MCL-[0-9]{4}$"
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^MCL-[0-9]{4}_T[0-9]+$"
+    },
+    "turn_index": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "inference_model": {
+      "type": "string",
+      "minLength": 1
+    },
+    "model_output": {
+      "type": "string"
+    },
+    "record_status": {
+      "enum": [
+        "ok",
+        "inference_error"
+      ]
+    }
+  }
+}

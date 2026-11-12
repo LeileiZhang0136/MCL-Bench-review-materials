@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_170",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page0.jpg",
+        "sha256": "64904308226673fffdfe20685f87d81ffb1965df5050d52b172e79523b8324c2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page1.jpg",
+        "sha256": "4ba15cb7b6610b37746795a26aa1ff1f21dc59aa7e95004f781100c086cfb89d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page3.jpg",
+        "sha256": "e4f23ac7082ac4491a63d478f2081c855e4b86727b8c122b637df9153368db0f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page4.jpg",
+        "sha256": "00e3c19c082e54afa8a1690afa8bb869527a37819cbecafa0c4cc95c03bac133",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page6.jpg",
+        "sha256": "caaa83eb00db7d0d87bdba6c915eca00a7c5a6f21506ae55cdc97ddddd35bc8c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page7.jpg",
+        "sha256": "90326170cc2b76903bd7d2ddabe0f5c8ae2e25be629069a3fd656b3d58eb9866",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page9.jpg",
+        "sha256": "60dce03f3ec77c3565be4024ce7fd0b0343dc96a1a0cbf4287b674e577ca9fd3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page10.jpg",
+        "sha256": "b2cfb062e8ce1932a996ece8070278a61f1784b0a25256b4a5a7d7cb423405b2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page12.jpg",
+        "sha256": "22a3623daf7971349699c0ee8642d35671a4e4c46cff207625083fcb35e24ee9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page13.jpg",
+        "sha256": "8d0805be1179695a3617796dd085dbfd840429da335582356cd40abca4ad0a5b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page15.jpg",
+        "sha256": "3caa9d0c7a1ff6cae8a909a0861e5a2f77bb9276c9fca01c56b73738f437f336",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021/GPL-Graduate-Studies-Professional-Learning-Brochure-Jul-2021_page16.jpg",
+        "sha256": "7aa060220c89877bc1df9e8a59bd06cd39358822d98b02f093064c02e5ddb876",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

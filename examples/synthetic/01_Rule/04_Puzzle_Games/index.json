@@ -1,0 +1,15 @@
+{
+  "source_track": "synthetic",
+  "category": "Rule Learning & Complex Reasoning",
+  "subcategory": "Puzzle Games",
+  "count": 1,
+  "cases": [
+    {
+      "case_id": "MCL-0040",
+      "directory": "MCL-0040_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

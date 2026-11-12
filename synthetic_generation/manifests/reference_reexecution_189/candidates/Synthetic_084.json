@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_084",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:2305.13186v3",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "2305.13186v3",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page0.jpg",
+        "sha256": "914b98cea6d2d02f7c9f42d3106417b47fb3eb0f4f0402da599cf22d5b0301b3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page2.jpg",
+        "sha256": "95160b79208faa8cc1fe4d12d46d19eb162524688015b51f535717db0da05b6b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page5.jpg",
+        "sha256": "479326ed7592aa4a80ea36f046f0f1303e03797c152cf82a1c74910ce6032e26",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page7.jpg",
+        "sha256": "0fa1aef5f107de0142161d69d90ae3781b06e1828abe01c1a88382774248ad95",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page9.jpg",
+        "sha256": "5b9a8266013dd1d1be383157a939531134e5ffb9af5e5b8a7b1617af23406ae6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page12.jpg",
+        "sha256": "0921bd6b60dbf1c28da326085b8c1da5ef77a003ef2132f4c15a72b7363e153c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page14.jpg",
+        "sha256": "fbe80546c99d5975e643acae747bf3c35e23e880119ec4a8eae1a4b5740f78e6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page17.jpg",
+        "sha256": "618f3dbfbded54d1399ba64163fed80518fbbd3e9c008459e687b1432ea1b6ec",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page19.jpg",
+        "sha256": "d86c3fbe7665285529d2a13ccc532b087d9c76ac7713744fcf3fe24bb21c12bb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page21.jpg",
+        "sha256": "c50d2ec9a9ecafb3bd5a153f74e7780587a7ebc12e5a7d7bbe89dc7d8852b83a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page24.jpg",
+        "sha256": "c386a10ef5057503806dee9c2d754d2611303705e9cfb9178e193d646dfc300f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/2305.13186v3/2305.13186v3_page26.jpg",
+        "sha256": "936f91623168b87b4aa426302267ef954f7b275af42efdaef374fe659a182be1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

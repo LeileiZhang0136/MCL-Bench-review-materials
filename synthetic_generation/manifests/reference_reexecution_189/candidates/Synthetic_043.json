@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_043",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:projectlifecyclemanagementfinal-140811104231-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "projectlifecyclemanagementfinal-140811104231-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-1-1024.jpg",
+        "sha256": "889b9aab468b0395769039a52aaa672d5a34f718ae27d511d5bd65cbf47f9196",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-3-1024.jpg",
+        "sha256": "364883130c62bfd60ede4a18bf7b18bbc4569d8e09015ff2e4f13752896c1fdb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-4-1024.jpg",
+        "sha256": "99d8f5cc4aa5ec51902657abc95a6e2c131219963393e1d2974a7dbb2b376b39",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-6-1024.jpg",
+        "sha256": "cd129f382a77106cbb24276f97b09f9eb97080cd7d1d6a61d869bc2d55b9385c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-8-1024.jpg",
+        "sha256": "898a674f046a43bba9fd347054f9193d53dddfd54adfbba5185d4ab1c800ab63",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-10-1024.jpg",
+        "sha256": "03d1db4a4c213bacc2bddaf3dba1c109e8f7b39de68e5b83c46dbbaf89a82db9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-11-1024.jpg",
+        "sha256": "e9a29de92e29a18c6fb4ec1a88670a25d8117f8bfb3163cc9194d69cb1072794",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-13-1024.jpg",
+        "sha256": "1e03179f69f392462a5b3b8d92840e89c7a622ace7990bd913909cb3eda76d8f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-15-1024.jpg",
+        "sha256": "b48eebeb66fa7b7eb1efa504ac240d6e73242609b26759629796847a6dd169fb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-17-1024.jpg",
+        "sha256": "ed2a0994cf360704f96da9cee5c2cd65167b8be42ca5e31cfaf8816034c12253",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-18-1024.jpg",
+        "sha256": "d294e6c2950485d9a7035d8f4a7d38106f643c7cfd2cd272f1b3ee8fa9264613",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/projectlifecyclemanagementfinal-140811104231-phpapp01_95/project-lifecycle-management-pharma-project-management-conference-2014-mumbai-20-1024.jpg",
+        "sha256": "3a9ea6faba06a5b867e9f49eed9cef04a2759d45c878914c88892965775acb6e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "case_count": 344,
+  "task_count": 1080,
+  "source_case_counts": {
+    "synthetic": 189,
+    "expert": 155
+  },
+  "subcategory_count": 20,
+  "category_case_counts": {
+    "Evidence Integration & Structured Auditing": 96,
+    "Expert Standards & Scenario Decision-Making": 78,
+    "Rule Learning & Complex Reasoning": 90,
+    "Temporal Dynamics & Environmental Interaction": 80
+  },
+  "continuous_case_id_range": "MCL-0001..MCL-0344",
+  "per_case_task_counts_match_manifest": true,
+  "model_result_files": {
+    "Kimi K2.6": 344,
+    "Kimi K3": 344
+  },
+  "model_task_rows": {
+    "Kimi K2.6": 1080,
+    "Kimi K3": 1080
+  },
+  "non_binary_score_count": 0,
+  "rubric_mismatch_count": 0,
+  "canonical_message_mismatch_count": 0,
+  "metadata_mismatch_count": 0,
+  "note": "Assistant-history content is intentionally model-specific in later turns. Canonical comparison replaces prior assistant outputs with a neutral marker."
+}

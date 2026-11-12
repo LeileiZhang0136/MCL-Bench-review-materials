@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_162",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/companyintroductionb2ceurope-140925083552-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/companyintroductionb2ceurope-140925083552-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-1-1024.jpg",
+        "sha256": "5ea84274631f7abb8f063b066a8a018b506f66ee1bf9048f3a6d1632833ffcf1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-3-1024.jpg",
+        "sha256": "5cacf36351ad94578959435afd6cf5a5087b2e324fe357c69ecc81e8afc8e112",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-4-1024.jpg",
+        "sha256": "fb06488400046ca0fef03780e5e86b0ccc29de1e46b83c45043dccb5032b2b7a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-6-1024.jpg",
+        "sha256": "86cac57d5f94bafd5b32b3468b49153cbcc4db330a5c0b701245614023a2f96b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-8-1024.jpg",
+        "sha256": "f5cde648abd4e792ae5db34bb97a2cdc8963d653c3837b7ef6a293870909d4e5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-10-1024.jpg",
+        "sha256": "525e0612c8605e768eb5e12b64e2a80879d546658d43c85fc6d02cb84a5c7e87",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-11-1024.jpg",
+        "sha256": "f50d10cafc7cfc486533bd94d75b4cd7202f9a11e79658b4c912d9961498d719",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-13-1024.jpg",
+        "sha256": "363e9f58213de715d2ff0ff5ab9ce81104caffc838e1e2ffcc4b67d722f798d6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-15-1024.jpg",
+        "sha256": "ed509b26acbe3a612bf33f5427746c24790b2d245b740b67a6a1dee110b8bcb6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-17-1024.jpg",
+        "sha256": "7a3dac3e2fdb56c80e87467a1656f8a35e34d08eda8026e78b0224b2aa5c0bb5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-18-1024.jpg",
+        "sha256": "529853bf2123cf4df4c8645c29be5549535c8093337588de1c4b11d14672c7f3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/companyintroductionb2ceurope-140925083552-phpapp01_95/b2c-europe-company-introduction-20-1024.jpg",
+        "sha256": "e2c766f04825463f318cceb3933d0ac5be209eae941920d2c31a4f179db8dd53",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

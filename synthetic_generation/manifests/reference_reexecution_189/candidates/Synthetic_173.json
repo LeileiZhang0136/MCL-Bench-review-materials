@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_173",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:2312.04350v3",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "2312.04350v3",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page0.jpg",
+        "sha256": "d71a0fab132244bd38567847b3548abebb84eeb54f9ca5ac1c3cd2db58fa64a5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page2.jpg",
+        "sha256": "192312eb80b4f228a9a1011549b809ceac70b1f885c280cda9fe4a0c6434569b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page5.jpg",
+        "sha256": "5c84a9a0b1530533511187e2d372908d7d3de10da33ec06e7565418f527dcc56",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page7.jpg",
+        "sha256": "5a3deb19552a85719610161ca151bb68f5bbe627c152195f6e4b02c57e3e6fee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page10.jpg",
+        "sha256": "a84efce52b31016878f7ddd83b0c59e29e9fd68a207a7cb14ae6696b6d93f13f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page12.jpg",
+        "sha256": "e8ccb00a4616eddd139093723f24f7ea21fd64f3a1959f5b462bc5978b9b0f4b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page15.jpg",
+        "sha256": "46f859f525cafcbcaf43d786f22c4ad07c439fb6efeab72938dbee324c15f595",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page17.jpg",
+        "sha256": "6d83aa114e6e2ab43f1b249aab39ba51d0b64921388ed30092c81c38036c95f3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page20.jpg",
+        "sha256": "d69957c7cb61ec0e9c4fe118da4b4abf9d0c7efbe58db3e54ea942907d0a2cab",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page22.jpg",
+        "sha256": "96f8a512a89b0c1040c91a16fdd1c69a60678c1bfa4247b8897ea5dd736ee6af",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page25.jpg",
+        "sha256": "37fdf634f95d157c242a94d5e214abff5dbe9825a6c2ea28ed2f8eb3df6720c7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/2312.04350v3/2312.04350v3_page27.jpg",
+        "sha256": "74d57b5fa9ed7a97c182dd337fab9b212bbe7219466391895bc07192a0218aee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_152",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/erpmodule-120905074920-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/erpmodule-120905074920-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-1-1024.jpg",
+        "sha256": "218624e5ffbd4c33afa326251234ef946e64eec4c216adba9d9a072ff7a2b80a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-3-1024.jpg",
+        "sha256": "d8da2fc9b532e099f5796e54925bbac096096489266cf6c23f28adc33ea814b5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-4-1024.jpg",
+        "sha256": "83d1dcb6045e4dbd3a797886c2e535c40b1793435b7e701ae918e38e43fdee45",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-6-1024.jpg",
+        "sha256": "3c5eef3714781e1da3c2943f77ad601f6adb013c539bcb40951b61ce5980ba5c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-8-1024.jpg",
+        "sha256": "0929c75c71a825453b19d2f0df07c0bd2198176056c09e6719160a8a27e76f27",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-10-1024.jpg",
+        "sha256": "a872afa266218bae822d4cf3e471dda6bcec5124b04152301e890c3b2205f9a1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-11-1024.jpg",
+        "sha256": "ab222a4c0fcf811dc3dbbe6baa830433719196113735190e61475da5734542d3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-13-1024.jpg",
+        "sha256": "1dd12f2c68139315e7833a9d9f2755de9fbfa40e5c0af1f5d53e0e47f4405f5f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-15-1024.jpg",
+        "sha256": "8c1f010b5e9285d72f3fa0ebaef17f0f1457046751232bcf9ed42957528fd0d1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-17-1024.jpg",
+        "sha256": "12d4d3cd1635e283ddfd3a795db5a7a509bae97de13edb98f2be0a3da8ed15db",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-18-1024.jpg",
+        "sha256": "68bbbe58aaf6498090a655946b4c84b8b313ecea8edd0727d915342959f19838",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/erpmodule-120905074920-phpapp02_95/erp-module-finance-20-1024.jpg",
+        "sha256": "607c0113c21c9d37a719a510cf732b6f3f281730760a7aeccddd61afcd933790",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

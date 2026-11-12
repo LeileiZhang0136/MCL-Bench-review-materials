@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_129",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:transform-software-delivery-with-valueedge-brochure",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "transform-software-delivery-with-valueedge-brochure",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page0.jpg",
+        "sha256": "7f1c9387c512d33a53b6af5c1beb97c3cf9b6bbd1d6a8ce0a7f08f2a5b8fb576",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page2.jpg",
+        "sha256": "67853adde1af71639729eca825c80c6bbf23be604e7c74ba179732929f9bcace",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page3.jpg",
+        "sha256": "13b674c3dbd2ac2ca4b1f867f71cc9809b2ba596198f7eb16b47b998596e79dd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page5.jpg",
+        "sha256": "7acfb43229100c937ac3dd201ea72e2db5a96223b4197d65b4604aa6bbda523d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page7.jpg",
+        "sha256": "bc8ae17173b3f8b65244128de95be5ab05f0edfd903b7b49237d417490ffed36",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page9.jpg",
+        "sha256": "4a2e095e016e5c0e04b3dc4f29dfd6d2c6c73422bad6a9c2c5d640058e6385a3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page10.jpg",
+        "sha256": "e6bbde3cd3529bb4b653055fc8e350ef592ca7a6a64ff6b0fffbbe2678f3cc60",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page12.jpg",
+        "sha256": "74669958993219036908189edba3fbdc06013d27fd0e77584d59f9db3c64cf19",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page14.jpg",
+        "sha256": "ad5fc602c1ac6de133cbe7b102cc7fb0fe5545373a2324511234a58c06bdfd8a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page16.jpg",
+        "sha256": "27d1b1e19f2954aae256445eaa108dd925533669d7bf7571441c0f436d6c0164",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page17.jpg",
+        "sha256": "a97d5207c9f4a72d3baf947ef75e83be8a3e462391afa1a3f3ee7266a6e8986c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/transform-software-delivery-with-valueedge-brochure/transform-software-delivery-with-valueedge-brochure_page19.jpg",
+        "sha256": "ec40d4337a7308810d85b725ac8173aa58923c1dd853d1807d57410a0aa0a6c2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

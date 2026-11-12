@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_057",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:2015q4-webrtc-standards-update-151203010936-lva1-app6892_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "2015q4-webrtc-standards-update-151203010936-lva1-app6892_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-1-1024.jpg",
+        "sha256": "45e1fd69d2116156545368e2aedb11d5d95fbb5a7e6716047b8910466bd1b92b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-3-1024.jpg",
+        "sha256": "2c9a62859e4c0af9c97b4fe3ea45b37a82182c3ad77140bcd43d50fc0e3b316e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-4-1024.jpg",
+        "sha256": "0bc19f914d81ebe66cc3d0ab122e39567af4b4ddfaaf1659694ca0836a207a1f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-6-1024.jpg",
+        "sha256": "eba15bd0b7341feadf99aee3b12f28d1fd5a3fe57cef8ed08f189304219f8300",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-8-1024.jpg",
+        "sha256": "3c04d2e5d92d613ca4daad3336365cb5ba819017d0f67c38a475112d63fbe78b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-10-1024.jpg",
+        "sha256": "24078b35f55b309839818fa14c5a85f3f21da6cb9de101741eaed8969e340096",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-11-1024.jpg",
+        "sha256": "16f55ef9d9ee81582d18285a58dd1b4c86ed33be11c0bdd859b80b3a5aae8658",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-13-1024.jpg",
+        "sha256": "6616549707152edfc1ee88df29a1eb6733d4959b73c35e7e43314786124768e9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-15-1024.jpg",
+        "sha256": "fb8f59c7e7588e8f585317b5a6becccf543be0e6668a982acf5b57a60c8927cc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-17-1024.jpg",
+        "sha256": "f15f44379531a105b5c7fda5c795943fcda2221ae5534439b5ae3c43c8a43d2e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-18-1024.jpg",
+        "sha256": "b409802c71dba902706963638dc442d1e6dbbd5ce4842719253d6700e9d1c302",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/2015q4-webrtc-standards-update-151203010936-lva1-app6892_95/2015-q4-webrtc-standards-update-20-1024.jpg",
+        "sha256": "51a86ad5966b74ddbb289a2cf716f5cedb0d939e9192ddfe78b6a9d8d23992c7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

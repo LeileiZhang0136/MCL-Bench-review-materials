@@ -1,0 +1,607 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a diving communication training expert. Your task is to consult the given context and answer the user's question based on that context."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# context_id20\n\n## Page 1\n\nMINIMUM COURSE CONTENT\nFOR\nCommon Hand Signals for Scuba Diving\nAs Approved By\nEFFECTIVE\n1 December 2005"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_60cc5c225f07.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_457a501e8d54.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_9648ccce64a0.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_0c33f8396fb0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\n©2004, Recreational Scuba Training Council, Inc. (RSTC) \nRecreational Scuba Training Council, Inc. \nRSTC Coordinator \nP.O. Box 11083 \nJacksonville, FL 32239 USA\n\n## Page 3\n\n2 \nEFFECTIVE 1 DECEMBER 2005 \n \nRecreational Scuba Training Council  \n(RSTC) \n \n \nCommon Hand Signals \nfor \nRecreational Scuba Diving \n \n \n \nScope and Purpose \n \nTo formally standardize the most common hand signals used during recreational scuba diving.    \n \nEffective underwater communication is necessary for the safe and efficient conduct of any \nrecreational or training-related scuba dive.  The most convenient and reliable method of \ncommunication between divers is through the use of simple hand signals.  \nWhere possible, hand signals should be derived from those with similar meanings on land, to \nreduce learning effort and time.  This also makes these signals easier to understand by divers \nwho have been trained by different organizations, speak different languages, or come from \ndifferent countries. \n \n \nEffective underwater communication is necessary for the safe and efficient conduct of any \nrecreational or training-related scuba dive. While many mechanical or electronic underwater \ncommunications devices are available, in the majority of situations, the most reliable method of \ncommunication between divers is through the use of simple hand signals.  \n \nDivers exchange hand signals to give each other instructions, provide information on the dive, \nand indicate their condition.  The signals employed by divers to increase the efficiency of their \ndives are natural signals, local signals and those created for special circumstances.  \n \nNatural signals are those whose meaning is obvious in any language, such as shrugging the \nshoulders for “I don’t know,” nodding the head for “Yes,” shaking the head for “no”  or pointing \nto a gauge to mean “What does it read?”  \n \nLocal signals are those applicable to a specific area, such as a cupped hand for “abalone” and \nthumb and first two fingers opening and closing for “moray eel.”   \n \nSpecial signals are those created for circumstances such as instruction, for example, two index \nfingers alongside each other for “get with your buddy,” or hand flat with palm down for “level \noff .” The signals found in this document fall under this category.\n\n## Page 4\n\n3 \nThe signals are hand motions instead of finger motions, making them easy to perform by divers \nboth wearing and not wearing mittens.  Where possible, the signals were derived from those with \nsimilar meanings on land, to reduce learning effort and time.  Signal systems using methods \nother than hand signals, were not included in this standard because of their limited use by sport \ndivers.  \n \nRegardless of the experience and knowledge of the divers involved, it is always prudent to \nreview hand signals and their meanings prior to each dive so that no confusion occurs during the \ndive.  \n \nMany commonly used signals pose a question such as “Are you OK?” and these require the other \ndiver to return the same signal to indicate an affirmative response or an alternate signal if a \nproblem exists.  When using hand signals, divers should employ deliberate, clear movements, \npausing if necessary between signals to ensure comprehension by their dive buddy.\n\n## Page 5\n\n4 \nCommon Diving Hand Signals \n \nStop \nRaise hand vertically, fingers together, \npalm facing the receiver.  \n \nMay be followed by another signal \nindicating reason for stopping. \n \nGo down or I’m going down. \nMake a fist with one hand, thumb \nextended downward.  \n \nDownward movement of the hand \nindicates direction of travel. \n \nGo up or I’m going up. \nMake a fist with one hand, thumb \nextended upward.  \n \nUpward movement of the hand indicates \ndirection of travel."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_d9da3b7508e9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_f2682ba3ccc5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_55b08961a55c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 6\n\n5 \nCommon Diving Hand Signals  \n \nAre you OK? or OK!  \nWith thumb and forefinger make a circle, \nextending three remaining fingers if \npossible. \n \n \nAre you OK? or OK! (wearing gloves or mittens). \nWith thumb and forefinger make a circle, \nextending the three remaining fingers if \npossible.  \n \nDivers wearing mittens or thick gloves may \nnot be able to extend the three remaining \nfingers. In these circumstances use \nmethod shown here. \n \n \nAre you OK? or OK! (on the surface at a distance) \nExtend both arms overhead with fingertips \ntouching above head to make a large “O” \nshape."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_f05b29eac520.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_b1f766edc8f9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_fbe941e645b3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\n6 \nCommon Diving Hand Signals  \n \nAre you OK? or OK! (on the surface, one hand occupied) \nExtend one arm overhead with fingertips \ntouching top of  head to make a large “O” \nshape.   \n \nThis method may be used if of one of the \ndiver’s hands is occupied. \n \nSomething is wrong. \nWith hand flat, palm down, fingers apart, \nthumb sticking out, rock hand back and \nforth on the axis of the forearm. \n \nMay be followed by another signal \nindicating source of problem. \n \nDistress or help me \nWave hand quickly from a horizontal \nposition to a position overhead.   \n \nWhen in the horizontal position, hand may \nstrike the water’s surface."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_1c7f6f7da162.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_012_7fdca8f98be0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_013_7b90307b5056.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 8\n\n7 \nCommon Diving Hand Signals  \n \nI’m low on air. \nMake a clenched fist with one hand and \nmove hand inward toward the chest. \n \nMotion may be repeated several times to \nindicate urgency. \n \nI’m out of air. \nWith hand flat, fingers together, palm \ndown, draw hand across the throat in a \ncutting motion. \n \nMotion may be repeated several times to \nindicate urgency. \n \nLet’s share air. \nUsing the fingers of the left hand, point \ntowards the regulator or remove the \nregulator and point to the mouth. \n \nMotion may be repeated several times to \nindicate urgency."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_014_a023c55cfdb3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_015_560720376afa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_016_3e8780504422.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 9\n\n8 \nCommon Diving Hand Signals \n \nDanger \nMake a clenched fist with one hand and \nextend arm in the direction of danger. \n \n \nDanger \nClench both fists and cross arms in front of \nthe body.  \n \nMay be followed by pointing at the source \nof danger.  \n \nCome here. \nSweep hand toward the body in a \nbeckoning motion."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_017_441bad479c19.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_018_8e30b42691fc.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_019_4a40895f7086.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 10\n\n9 \nCommon Diving Hand Signals \n \nWatch or look \nPlace the tips of the forefinger and middle \nfinger against the mask lens.  \n \nMay be followed by another signal \nindicating direction in which to look or the \nperson to watch.  \n \n \nMe or I \nPoint to yourself at chest height.  \n \nUnder, over or around \nWith palm down, use hand motion to \nindicate intended route to go under, over \nor around an underwater formation."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_020_cc301f99725b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_021_ffd80852f3d1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_022_b23de089a001.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 11\n\n10\nCommon Diving Hand Signals \n \nLevel off at this depth. \nWith hand flat, palm down, fingers apart \nand thumb sticking out, move hand slowly \nback and forth horizontally.  \n \nGo that way. \nMake a fist with one hand, thumb \nextended and pointing in the direction that \nyou wish to swim. \n \nTurn around. \nExtend the forefinger of one hand vertically \nand rotate the hand in a circular \nmovement."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_023_9b8b42f36df3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_024_39116df8e2d4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_025_4c78ad4d36ab.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 12\n\n11\nCommon Diving Hand Signals \n \nWhich direction? \nMake a fist with one hand, thumb \nextended, and rotate the hand through 180 \ndegrees several times to indicate \nconfusion regarding the intended direction \nof travel.  \n \n \n \nEar(s) not clearing \nPoint to one ear with forefinger.  \n \nI am cold. \nCross arms in front of chest, grab upper \narms with opposite hands to indicate \nchilling."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_026_402033832d09.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_027_5cdf6a5f5d07.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_028_31489ccff75e.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 13\n\n12\nCommon Diving Hand Signals  \n \nTake it easy or slow down. \nWith hand flat, palm down, slowly flex \nhand up and down repeatedly.  \n \nHold hands. \nClasp both hands together. \n \nGet with your buddy. \nMake fists with both hands, forefingers \nextended, and bring hands together."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_029_1281bb33dcd3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_030_45df74ab24d3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_031_71d20f24ee64.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 14\n\n13\nCommon Diving Hand Signals  \n \nWho will lead, who will follow. \nPoint at the diver who will lead and \nposition that hand in front of the body. \nPoint to the diver who will follow and then \nposition that hand behind the other, \nindicating direction with both forefingers. \n \nThink or remember \nTouch forehead with forefinger.  \n \nI don’t know. \nPosition hands out to each side of the \nbody with palms facing up and shrug \nshoulders to indicate confusion."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_032_0981657fa88f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_033_bd6f9437795c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_034_f300ae6daf27.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 15\n\n14\nCommon Diving Hand Signals \n \nBoat \nCup hands together.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFor more information, contact: \n \nRecreational Scuba Training Council, Inc  \nP.O. Box 11083 \nJacksonville, FL 32239 USA"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_035_8bd6b4898a8c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 16\n\nAppendix A\nRSTC Members\nIDEA\nInternational Diving Educators Association\nP.O. Box 8427\nJacksonville, FL 32239 USA\n1-904-744-5554 Fax: 1-904-743-5425\nEmail: info@ideascuba.com\nPADI\nProfessional Association of Diving Instructors\n30151 Tomas Street\nRancho Santa Margarita, CA 92688-2125 USA\n1-949-858-7234 Fax: 1-949-267-1266\nEmail: Julie.taylor.sanders@padi.com or jeff.nadler@padi.com\nPDIC\nProfessional Diving Instructors Corporation\n1015 River Street\nScranton, PA 18505 USA\n1-570-342-9434 Fax: 1-570-342-6030\nEmail: info@pdic-intl.com\nSDI\nScuba Diving International\n18 Elm Street\nTopsham, ME 04086 USA\n1-207-729-4201 Fax: 1-207- 729-4453\nEmail: worldhq@tdisdi.com\nSSI\nScuba Schools International\n2619 Canton Court\nFt. Collins, CO 80525 USA\n1-970-482-0883 Fax: 1-970-482-6157\nEmail: wdevore@divessi.com\nFor more information, contact:\nRecreational Scuba Training Council, Inc.\nP.O. Box 11083\nJacksonville, FL 32239 USA\nEmail: info@wrstc.com\nIf someone only remembers that “waving a hand near the chest or throat means danger,” which two high-priority signals in the document are most likely to be confused into one meaning, even though they require very different responses? Please answer based on the document and ground your answer in the figures themselves. When evidence is needed, use the document’s original signal names and concrete visual/location cues, such as the movement direction and the body contact area shown in the figure, rather than giving only a general paraphrase."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response must identify the two target signals exactly as named in the document: “I’m low on air.” and “I’m out of air.” Synonyms such as “low air” or “no air” alone are not sufficient unless the exact document labels are also included.",
+      "2. The response must distinguish their visual execution based on the figures: “I’m low on air.” uses a clenched fist moved inward toward the chest, while “I’m out of air.” uses a flat hand drawn across the throat in a cutting motion.",
+      "3. The response must explain the consequence difference: “I’m low on air.” indicates reduced remaining air and may call for controlled ascent/monitoring, while “I’m out of air.” indicates an immediate air emergency requiring urgent air sharing or emergency response.",
+      "4. The response must explain why collapsing both into a vague “danger” meaning would be unsafe or incorrect: it would erase the difference between a warning state and an immediate out-of-air emergency.",
+      "5. The response must use at least one distractor reference from page 8 or page 12 to show why the answer is not simply “Danger” or another hand motion. Acceptable distractors include the page 8 “Danger” signals or the page 12 “Take it easy or slow down.” signal.",
+      "6. The response must be grounded in the figures’ movement/contact details, not merely in the signal titles."
+    ],
+    "metadata": {
+      "task_id": "MCL-0236_T1",
+      "context_id": "MCL-0236",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a diving communication training expert. Your task is to consult the given context and answer the user's question based on that context."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# context_id20\n\n## Page 1\n\nMINIMUM COURSE CONTENT\nFOR\nCommon Hand Signals for Scuba Diving\nAs Approved By\nEFFECTIVE\n1 December 2005"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_60cc5c225f07.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_457a501e8d54.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_9648ccce64a0.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_0c33f8396fb0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\n©2004, Recreational Scuba Training Council, Inc. (RSTC) \nRecreational Scuba Training Council, Inc. \nRSTC Coordinator \nP.O. Box 11083 \nJacksonville, FL 32239 USA\n\n## Page 3\n\n2 \nEFFECTIVE 1 DECEMBER 2005 \n \nRecreational Scuba Training Council  \n(RSTC) \n \n \nCommon Hand Signals \nfor \nRecreational Scuba Diving \n \n \n \nScope and Purpose \n \nTo formally standardize the most common hand signals used during recreational scuba diving.    \n \nEffective underwater communication is necessary for the safe and efficient conduct of any \nrecreational or training-related scuba dive.  The most convenient and reliable method of \ncommunication between divers is through the use of simple hand signals.  \nWhere possible, hand signals should be derived from those with similar meanings on land, to \nreduce learning effort and time.  This also makes these signals easier to understand by divers \nwho have been trained by different organizations, speak different languages, or come from \ndifferent countries. \n \n \nEffective underwater communication is necessary for the safe and efficient conduct of any \nrecreational or training-related scuba dive. While many mechanical or electronic underwater \ncommunications devices are available, in the majority of situations, the most reliable method of \ncommunication between divers is through the use of simple hand signals.  \n \nDivers exchange hand signals to give each other instructions, provide information on the dive, \nand indicate their condition.  The signals employed by divers to increase the efficiency of their \ndives are natural signals, local signals and those created for special circumstances.  \n \nNatural signals are those whose meaning is obvious in any language, such as shrugging the \nshoulders for “I don’t know,” nodding the head for “Yes,” shaking the head for “no”  or pointing \nto a gauge to mean “What does it read?”  \n \nLocal signals are those applicable to a specific area, such as a cupped hand for “abalone” and \nthumb and first two fingers opening and closing for “moray eel.”   \n \nSpecial signals are those created for circumstances such as instruction, for example, two index \nfingers alongside each other for “get with your buddy,” or hand flat with palm down for “level \noff .” The signals found in this document fall under this category.\n\n## Page 4\n\n3 \nThe signals are hand motions instead of finger motions, making them easy to perform by divers \nboth wearing and not wearing mittens.  Where possible, the signals were derived from those with \nsimilar meanings on land, to reduce learning effort and time.  Signal systems using methods \nother than hand signals, were not included in this standard because of their limited use by sport \ndivers.  \n \nRegardless of the experience and knowledge of the divers involved, it is always prudent to \nreview hand signals and their meanings prior to each dive so that no confusion occurs during the \ndive.  \n \nMany commonly used signals pose a question such as “Are you OK?” and these require the other \ndiver to return the same signal to indicate an affirmative response or an alternate signal if a \nproblem exists.  When using hand signals, divers should employ deliberate, clear movements, \npausing if necessary between signals to ensure comprehension by their dive buddy.\n\n## Page 5\n\n4 \nCommon Diving Hand Signals \n \nStop \nRaise hand vertically, fingers together, \npalm facing the receiver.  \n \nMay be followed by another signal \nindicating reason for stopping. \n \nGo down or I’m going down. \nMake a fist with one hand, thumb \nextended downward.  \n \nDownward movement of the hand \nindicates direction of travel. \n \nGo up or I’m going up. \nMake a fist with one hand, thumb \nextended upward.  \n \nUpward movement of the hand indicates \ndirection of travel."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_d9da3b7508e9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_f2682ba3ccc5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_55b08961a55c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 6\n\n5 \nCommon Diving Hand Signals  \n \nAre you OK? or OK!  \nWith thumb and forefinger make a circle, \nextending three remaining fingers if \npossible. \n \n \nAre you OK? or OK! (wearing gloves or mittens). \nWith thumb and forefinger make a circle, \nextending the three remaining fingers if \npossible.  \n \nDivers wearing mittens or thick gloves may \nnot be able to extend the three remaining \nfingers. In these circumstances use \nmethod shown here. \n \n \nAre you OK? or OK! (on the surface at a distance) \nExtend both arms overhead with fingertips \ntouching above head to make a large “O” \nshape."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_f05b29eac520.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_b1f766edc8f9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_fbe941e645b3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\n6 \nCommon Diving Hand Signals  \n \nAre you OK? or OK! (on the surface, one hand occupied) \nExtend one arm overhead with fingertips \ntouching top of  head to make a large “O” \nshape.   \n \nThis method may be used if of one of the \ndiver’s hands is occupied. \n \nSomething is wrong. \nWith hand flat, palm down, fingers apart, \nthumb sticking out, rock hand back and \nforth on the axis of the forearm. \n \nMay be followed by another signal \nindicating source of problem. \n \nDistress or help me \nWave hand quickly from a horizontal \nposition to a position overhead.   \n \nWhen in the horizontal position, hand may \nstrike the water’s surface."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_1c7f6f7da162.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_012_7fdca8f98be0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_013_7b90307b5056.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 8\n\n7 \nCommon Diving Hand Signals  \n \nI’m low on air. \nMake a clenched fist with one hand and \nmove hand inward toward the chest. \n \nMotion may be repeated several times to \nindicate urgency. \n \nI’m out of air. \nWith hand flat, fingers together, palm \ndown, draw hand across the throat in a \ncutting motion. \n \nMotion may be repeated several times to \nindicate urgency. \n \nLet’s share air. \nUsing the fingers of the left hand, point \ntowards the regulator or remove the \nregulator and point to the mouth. \n \nMotion may be repeated several times to \nindicate urgency."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_014_a023c55cfdb3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_015_560720376afa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_016_3e8780504422.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 9\n\n8 \nCommon Diving Hand Signals \n \nDanger \nMake a clenched fist with one hand and \nextend arm in the direction of danger. \n \n \nDanger \nClench both fists and cross arms in front of \nthe body.  \n \nMay be followed by pointing at the source \nof danger.  \n \nCome here. \nSweep hand toward the body in a \nbeckoning motion."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_017_441bad479c19.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_018_8e30b42691fc.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_019_4a40895f7086.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 10\n\n9 \nCommon Diving Hand Signals \n \nWatch or look \nPlace the tips of the forefinger and middle \nfinger against the mask lens.  \n \nMay be followed by another signal \nindicating direction in which to look or the \nperson to watch.  \n \n \nMe or I \nPoint to yourself at chest height.  \n \nUnder, over or around \nWith palm down, use hand motion to \nindicate intended route to go under, over \nor around an underwater formation."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_020_cc301f99725b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_021_ffd80852f3d1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_022_b23de089a001.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 11\n\n10\nCommon Diving Hand Signals \n \nLevel off at this depth. \nWith hand flat, palm down, fingers apart \nand thumb sticking out, move hand slowly \nback and forth horizontally.  \n \nGo that way. \nMake a fist with one hand, thumb \nextended and pointing in the direction that \nyou wish to swim. \n \nTurn around. \nExtend the forefinger of one hand vertically \nand rotate the hand in a circular \nmovement."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_023_9b8b42f36df3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_024_39116df8e2d4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_025_4c78ad4d36ab.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 12\n\n11\nCommon Diving Hand Signals \n \nWhich direction? \nMake a fist with one hand, thumb \nextended, and rotate the hand through 180 \ndegrees several times to indicate \nconfusion regarding the intended direction \nof travel.  \n \n \n \nEar(s) not clearing \nPoint to one ear with forefinger.  \n \nI am cold. \nCross arms in front of chest, grab upper \narms with opposite hands to indicate \nchilling."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_026_402033832d09.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_027_5cdf6a5f5d07.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_028_31489ccff75e.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 13\n\n12\nCommon Diving Hand Signals  \n \nTake it easy or slow down. \nWith hand flat, palm down, slowly flex \nhand up and down repeatedly.  \n \nHold hands. \nClasp both hands together. \n \nGet with your buddy. \nMake fists with both hands, forefingers \nextended, and bring hands together."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_029_1281bb33dcd3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_030_45df74ab24d3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_031_71d20f24ee64.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 14\n\n13\nCommon Diving Hand Signals  \n \nWho will lead, who will follow. \nPoint at the diver who will lead and \nposition that hand in front of the body. \nPoint to the diver who will follow and then \nposition that hand behind the other, \nindicating direction with both forefingers. \n \nThink or remember \nTouch forehead with forefinger.  \n \nI don’t know. \nPosition hands out to each side of the \nbody with palms facing up and shrug \nshoulders to indicate confusion."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_032_0981657fa88f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_033_bd6f9437795c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_034_f300ae6daf27.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 15\n\n14\nCommon Diving Hand Signals \n \nBoat \nCup hands together.  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nFor more information, contact: \n \nRecreational Scuba Training Council, Inc  \nP.O. Box 11083 \nJacksonville, FL 32239 USA"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_035_8bd6b4898a8c.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 16\n\nAppendix A\nRSTC Members\nIDEA\nInternational Diving Educators Association\nP.O. Box 8427\nJacksonville, FL 32239 USA\n1-904-744-5554 Fax: 1-904-743-5425\nEmail: info@ideascuba.com\nPADI\nProfessional Association of Diving Instructors\n30151 Tomas Street\nRancho Santa Margarita, CA 92688-2125 USA\n1-949-858-7234 Fax: 1-949-267-1266\nEmail: Julie.taylor.sanders@padi.com or jeff.nadler@padi.com\nPDIC\nProfessional Diving Instructors Corporation\n1015 River Street\nScranton, PA 18505 USA\n1-570-342-9434 Fax: 1-570-342-6030\nEmail: info@pdic-intl.com\nSDI\nScuba Diving International\n18 Elm Street\nTopsham, ME 04086 USA\n1-207-729-4201 Fax: 1-207- 729-4453\nEmail: worldhq@tdisdi.com\nSSI\nScuba Schools International\n2619 Canton Court\nFt. Collins, CO 80525 USA\n1-970-482-0883 Fax: 1-970-482-6157\nEmail: wdevore@divessi.com\nFor more information, contact:\nRecreational Scuba Training Council, Inc.\nP.O. Box 11083\nJacksonville, FL 32239 USA\nEmail: info@wrstc.com\nIf someone only remembers that “waving a hand near the chest or throat means danger,” which two high-priority signals in the document are most likely to be confused into one meaning, even though they require very different responses? Please answer based on the document and ground your answer in the figures themselves. When evidence is needed, use the document’s original signal names and concrete visual/location cues, such as the movement direction and the body contact area shown in the figure, rather than giving only a general paraphrase."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "A trainee sees two divers making signals involving fists and arm movement, and incorrectly assumes both are warnings about a nearby external hazard. According to the document, how should the trainee distinguish an air-related personal condition from an external danger signal? Please answer based on the document, using the original signal names and the visual cues in the figures, including hand shape, movement direction, and where the signal is directed."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response must identify “I’m low on air.” as the air-related personal condition and at least one page 8 “Danger” signal as the external hazard signal.",
+      "2. The response must preserve the document’s original signal names exactly: “I’m low on air.” and “Danger”.",
+      "3. The response must describe the visual difference: “I’m low on air.” uses a clenched fist moved inward toward the chest, while one “Danger” signal uses a clenched fist with the arm extended in the direction of danger.",
+      "4. The response may also mention the second “Danger” signal from page 8, where both fists are clenched and arms are crossed in front of the body, but it must not treat this as the same as the chest-directed air signal.",
+      "5. The response must explain the semantic difference: “I’m low on air.” is about the diver’s own air supply, while “Danger” points to or marks an external source of danger.",
+      "6. The response must explicitly warn that confusing these signals could cause the team to search for an external hazard instead of responding to the diver’s air-supply problem.",
+      "7. The response must rely on the figure cues rather than only quoting or paraphrasing the signal titles."
+    ],
+    "metadata": {
+      "task_id": "MCL-0236_T2",
+      "context_id": "MCL-0236",
+      "turn_index": 2
+    }
+  }
+]

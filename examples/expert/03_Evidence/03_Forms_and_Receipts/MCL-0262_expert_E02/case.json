@@ -1,0 +1,115 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a puzzle-solving expert. Your task is to analyze an image of a scrambled puzzle, infer the correct position of each piece, and provide a sequence of adjacent swap operations to restore the puzzle to its original image. You must base your judgment solely on the visual information provided in the user's image, including colors, textures, edge continuity, object contours, and local structures; do not rely on common-sense guesses, external knowledge, or search results."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_e63ae8248a14.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This sample provides a 3×3 image puzzle. The original picture has been evenly divided into 9 square pieces and scrambled through a number of adjacent swaps (up, down, left, right). In the scrambled image, each piece has a yellow number label in its top-left corner, indicating the piece's current position number; the numbers go from 1 to 9 in left-to-right, top-to-bottom order. Red lines mark the boundaries between pieces. The model should observe the grapes, leaves, blurred background areas, and edge continuity to first recover the target position of each piece, and then output a valid sequence of adjacent swap steps to complete the restoration."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First, determine the target position of each of the 9 currently numbered pieces in the original image, and provide the complete mapping in the form \"current piece number -> target position number\", covering all pieces 1 through 9."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Does the answer provide a complete mapping from all 9 current piece numbers to target position numbers?",
+      "2. Are the target position numbers in the answer all valid numbers from 1 to 9 and not repeated?",
+      "3. Is the model's answer correct? (7->1, 5->2, 1->3, 2->4, 9->5, 6->6, 8->7, 4->8, 3->9)"
+    ],
+    "metadata": {
+      "task_id": "MCL-0262_T1",
+      "context_id": "MCL-0262",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a puzzle-solving expert. Your task is to analyze an image of a scrambled puzzle, infer the correct position of each piece, and provide a sequence of adjacent swap operations to restore the puzzle to its original image. You must base your judgment solely on the visual information provided in the user's image, including colors, textures, edge continuity, object contours, and local structures; do not rely on common-sense guesses, external knowledge, or search results."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_e63ae8248a14.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "This sample provides a 3×3 image puzzle. The original picture has been evenly divided into 9 square pieces and scrambled through a number of adjacent swaps (up, down, left, right). In the scrambled image, each piece has a yellow number label in its top-left corner, indicating the piece's current position number; the numbers go from 1 to 9 in left-to-right, top-to-bottom order. Red lines mark the boundaries between pieces. The model should observe the grapes, leaves, blurred background areas, and edge continuity to first recover the target position of each piece, and then output a valid sequence of adjacent swap steps to complete the restoration."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "First, determine the target position of each of the 9 currently numbered pieces in the original image, and provide the complete mapping in the form \"current piece number -> target position number\", covering all pieces 1 through 9."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "After completing the judgment of piece-to-target-position, output a sequence of adjacent swaps that can restore the original picture. The final answer must be placed strictly inside a single <answer> </answer> block at the end of the reply, with each line written as a,b, indicating swapping the pieces at position a and position b; a and b must be vertically or horizontally adjacent positions."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Does the answer contain only one <answer>...</answer> block at the end?",
+      "2. Does each line in the answer block follow the format a,b, with a and b being valid position numbers from 1 to 9?",
+      "3. Does each swap step in the answer satisfy being vertically or horizontally adjacent?",
+      "4. After executing all swaps in the given order, can the puzzle be restored to the target layout? That is, after swapping, the layout becomes (7->1, 5->2, 1->3, 2->4, 9->5, 6->6, 8->7, 4->8, 3->9)"
+    ],
+    "metadata": {
+      "task_id": "MCL-0262_T2",
+      "context_id": "MCL-0262",
+      "turn_index": 2
+    }
+  }
+]

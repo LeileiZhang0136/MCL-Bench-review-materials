@@ -1,0 +1,35 @@
+{
+  "case_id": "Synthetic_001",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Learn a case-local audit rule and apply it to linked visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:train:replace-me",
+    "dataset": "slidevqa",
+    "dataset_version": "REPLACE_WITH_COMMIT_OR_RELEASE",
+    "split": "train",
+    "sample_id": "replace-me",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "RECORD_UPSTREAM_STATUS",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "YYYY-MM-DD",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slidevqa/train/replace-me/source-image.png",
+        "sha256": "COMPUTED_BY_SCRIPT",
+        "media_type": "image/png",
+        "page_or_image_index": "1"
+      }
+    ],
+    "source_text_fields": {
+      "paired_text": "Replace with the exact source field used."
+    },
+    "traceability_notes": ""
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Do not expose the original source answer as the benchmark answer.",
+    "Require both a visual anchor and a case-local rule in every task."
+  ]
+}

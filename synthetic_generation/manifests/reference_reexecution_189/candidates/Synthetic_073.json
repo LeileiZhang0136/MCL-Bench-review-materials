@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_073",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:AMAZON_2017_10K",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "AMAZON_2017_10K",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page0.jpg",
+        "sha256": "c5a10e526b271e9d7f256dfc280e97dadd7e91720b23a7e8eb5746fb4aa3b8f5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page8.jpg",
+        "sha256": "fedd55fc32037117328ef9b41ecaa47e4556f8dada873e4e7ec038ca9aade969",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page15.jpg",
+        "sha256": "9471c8ce8e682bb5b88cc01241ce1eac457ee6ebd09e2f0f0cfe6d6240be68e4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page23.jpg",
+        "sha256": "0e298ad9961586d91303425b29d07324cca1a8e7e962ab39b2afd9acc996ae89",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page31.jpg",
+        "sha256": "ca969313e2a89136bad6c3f72d06e224449a719e3031e7aedc6bf74c9aef1ec7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page38.jpg",
+        "sha256": "df4ee05b97aa810ea6bec40f5d478e056ce3f73cc497ed04d91b87401118b582",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page46.jpg",
+        "sha256": "cd6122fbedcb123c54d2dbe28f8b66b542e530bb0e1993019bb126cbc495d0b2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page53.jpg",
+        "sha256": "de641c16e4c04f64817b6851726bda28ca4532983e6aa7b12ce4407aec182bd8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page61.jpg",
+        "sha256": "5025ec5ff48d6890934c2e89450d1f1194d0531c6cb22b303257dbd0695231c6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page69.jpg",
+        "sha256": "a91436eb7aec925731592678e54daf70a32a6e45e1740680eb9ec6b31779e8b4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page76.jpg",
+        "sha256": "1c5dd4ccad58f738d8d9fddf172e94059b013718ccc48584f119838ae91bf806",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/AMAZON_2017_10K/AMAZON_2017_10K_page84.jpg",
+        "sha256": "41c61eef122fe144ce6e638f247cbc3f3f4c9956c69e152142f96a8ee00fc3e9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

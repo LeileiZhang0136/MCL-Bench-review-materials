@@ -1,0 +1,7 @@
+{
+  "case_id": "MCL-0039",
+  "model": "GPT-5.2",
+  "analyzed_turn": 1,
+  "primary_label": "Global Schema Induction",
+  "brief_rationale": "The response derives an overall classification system and decision rule from multiple roadmap fragments, then uses that induced schema to organize merging, ordering, dependencies, and exceptions."
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_101",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:q1-2023-bilibili-inc-investor-presentation",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "q1-2023-bilibili-inc-investor-presentation",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page0.jpg",
+        "sha256": "b5c34c86316067a080fd1440874d4f9fb4717b76dbe3250d38113daeb1e134d1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page2.jpg",
+        "sha256": "5376ac77fc53e2ca2bfef8e91cb36008bb14a803197ea0adc66d4f11cd8bb8c7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page5.jpg",
+        "sha256": "3880db9590b456ada9377164c23db690cf86a8d0e946407deb74bc573548432e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page7.jpg",
+        "sha256": "c0744ed8c937d46798ad85ffd80c7368781f2e31fab18baf0c7b3f2a40e98ecf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page9.jpg",
+        "sha256": "0ec17a638dbcf0ecab57c631351bd42a7685070064c57300930e32486eae74da",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page12.jpg",
+        "sha256": "039438b6bc44f551a9e0910c4376fdb92356431071989f214658d1019675d529",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page14.jpg",
+        "sha256": "07c1be399aa391c632efd46f95b94d622ec0a94c3ca61266d30260406de8466c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page17.jpg",
+        "sha256": "69d4028041ecd02d07a3808cc41aca509eb5f836f17566f9348d5895dd291e93",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page19.jpg",
+        "sha256": "13f1604ace05e03e54457c34a9a69dad8e8b7cb25800ca30f1a7ef3bc1b16487",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page21.jpg",
+        "sha256": "c9be058f439e72bf13f53eea20adbde3169a52436a8af753f5cd74c2c8b3f04d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page24.jpg",
+        "sha256": "f9a7df4166e137f85d439e36cb98f34ac580f4e2423af7b8393cc260f0825dbd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/q1-2023-bilibili-inc-investor-presentation/q1-2023-bilibili-inc-investor-presentation_page26.jpg",
+        "sha256": "d48533cde7d0baf042b10bf8be01d35738ac5ef84bdb22e3abe2406181bfeb8b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

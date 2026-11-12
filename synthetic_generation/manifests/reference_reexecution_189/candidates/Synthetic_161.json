@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_161",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-1-1024.jpg",
+        "sha256": "5611500944abda3b02aa15e10f42a8b4a2447e948cb6ba014dad25d6f3c2eb0a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-3-1024.jpg",
+        "sha256": "462aa73d605e48eeb8bca90ec70a89999b307ee2c5869fa3e4dfaf31364772c2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-4-1024.jpg",
+        "sha256": "9894704e220cefd8e9d8cfad03b3de9f4ebba76a68ff49983a922ba13028b181",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-6-1024.jpg",
+        "sha256": "a8f52352b5a9b6395f3264bcf3e52d5301d667557fd1cf16adf6f320da2a8f1a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-8-1024.jpg",
+        "sha256": "18e8887af3f55b03d6f40f80bfc60c0c6d6c2018fd22beec06a2086c182718a4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-10-1024.jpg",
+        "sha256": "e43fc0d0334d11add917a584efca06277a5db1486d2896e11894721c636961c6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-11-1024.jpg",
+        "sha256": "923a817714177b1567bb1b91d5eb09d94e8f7f2c6ef5c304570ec5ec75941aaa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-13-1024.jpg",
+        "sha256": "e47834028a54ef3f0cab3a2c6c9624670c12d305d5d59cbff9e144b023dd468b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-15-1024.jpg",
+        "sha256": "61f162d76d7f1e00cf7bc1eaed5f3055c2a45271a2f509794c604d24b4bd849d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-17-1024.jpg",
+        "sha256": "6322d59ad3742a9ac32e0111a75c8e130283940a671ac8395c9b765c74e709bb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-18-1024.jpg",
+        "sha256": "bae050f35ced181de2a49265dcb5e343875d8022e8eebb1f3c461eed8f195ecb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/creatingeconomiesofnaturepptpresentation04-09-2010-100521023140-phpapp02_95/creating-economies-of-nature-20-1024.jpg",
+        "sha256": "a811c30c332badcadd26980e612bc053e8498a7c4bcc10f62872a12a22c09f70",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_123",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:PP_2019.01.17_Trump-economy_FINAL2",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "PP_2019.01.17_Trump-economy_FINAL2",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page0.jpg",
+        "sha256": "1b859a12959cb6ced7e409b62d676149253a881b815edda750acc205c23ceb1f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page2.jpg",
+        "sha256": "bac02dfcce4d8063599e87ec5d3f3bdad8ba624099e16b44a781516090350620",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page5.jpg",
+        "sha256": "2325cc2a4ab9809ad88b5d15250c0298c7e5184752d2fceedd439af508f1d4d4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page7.jpg",
+        "sha256": "d539b3921ce8f19544d63b7e3bdef9bcda1e0a788cbbed9885cd8e89c4d13e4e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page10.jpg",
+        "sha256": "6b926afde7d16570018c3bd4f3ea0b58e4ac5fabde7028629a45a370b95a9459",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page12.jpg",
+        "sha256": "92d2823e50932b4415bf8582fd283dea2ceae1e191075c548d6a92aca22fc7a0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page15.jpg",
+        "sha256": "a8eecf2321b6010635ac4018a52f4adf1b7ccec332da5730ccd343cfa0ec9899",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page17.jpg",
+        "sha256": "c6a8ac3ad27e57eb15942c101c67358f35e22b318620050ea3b7c9f5dc97afb5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page20.jpg",
+        "sha256": "f7eaab9adb67f9f7de17c1e6f9e8ec86b8334bae89238e632d8a7711bb260c16",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page22.jpg",
+        "sha256": "7a3ec55ff76796248867ad1a3d59286d920b1f6508ccc5a2aeb8e3e12a91e61d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page25.jpg",
+        "sha256": "c517d21fa6f203075d4155f553502c3df7102344fc84ca41f69615eb067f4df0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/PP_2019.01.17_Trump-economy_FINAL2/PP_2019.01.17_Trump-economy_FINAL2_page27.jpg",
+        "sha256": "eddccbdfeffcd81533116fe8f4b754e9f9e53acc8d4744c7860e7d40c49dd764",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

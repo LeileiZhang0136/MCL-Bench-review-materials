@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Expert Standards & Scenario Decision-Making",
+  "subcategory": "Exam Scoring",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0330",
+      "directory": "MCL-0330_expert_E02",
+      "task_count": "4",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0340",
+      "directory": "MCL-0340_expert_E12",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0341",
+      "directory": "MCL-0341_expert_E12",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

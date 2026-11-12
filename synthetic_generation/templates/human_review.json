@@ -1,0 +1,17 @@
+{
+  "case_id": "Case_001",
+  "reviewer_id": "anonymized-reviewer-1",
+  "blind_to_model_results": true,
+  "asset_complete": "pass",
+  "asset_readable": "pass",
+  "answerable": "pass",
+  "unique_answer": "pass",
+  "gold_correct": "pass",
+  "rubric_correct": "pass",
+  "rubric_complete": "pass",
+  "context_dependent": "pass",
+  "multimodal_necessary": "pass",
+  "no_shortcut": "pass",
+  "notes": "",
+  "decision": "pass"
+}

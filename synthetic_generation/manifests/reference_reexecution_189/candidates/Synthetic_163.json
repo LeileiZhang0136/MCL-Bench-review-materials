@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_163",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:spark-thenexttopcomputemodel-141007102906-conversion-gate02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "spark-thenexttopcomputemodel-141007102906-conversion-gate02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-1-1024.jpg",
+        "sha256": "e8d8b0615738f4ce0388060f1c39a76a29bc94b32f998fd15834036aed893fec",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-3-1024.jpg",
+        "sha256": "3d25e0bf3b32da3c096d6297100ac3650d94f566d56bfb8ce86604fac1183da2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-4-1024.jpg",
+        "sha256": "25dec73d9ec200c48a9b77e423ed5d9d8f9ce939d76b9b2f474f541069da84a6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-6-1024.jpg",
+        "sha256": "73ef4e92574919190ae608503d10688ff0fc445e5f51065248b45ee1cc72fa09",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-8-1024.jpg",
+        "sha256": "4ec1dcb69a97e65651a857f5e0f601792bf854dbdf4f7fd8a439ed6351ea01af",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-10-1024.jpg",
+        "sha256": "49da6856e51fc6e34b3e996ce52f5ff1cf5ae0e5b91c77918d762a4f4549c844",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-11-1024.jpg",
+        "sha256": "7b39511ea0856ac61307d79ebac820badb56f6feefa1d9873c55e8658e47c2e2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-13-1024.jpg",
+        "sha256": "a5373417ac332bac08447d4bc6bee0d1febe9c860f3664b3f54f8efb0696a9fd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-15-1024.jpg",
+        "sha256": "8347e5fecc188f32e591ab5b5c2bee4a44f9c7cd2ce4646da99fe2e7210957e7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-17-1024.jpg",
+        "sha256": "cb6f0a68ca82ef93a7358f64d88d080eacb52869b1f58e4747caab5181d3a84a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-18-1024.jpg",
+        "sha256": "cb4c7574cba0ed6b0c8d90983bd8be9ba5d20bd4c2dc03743bbfb0b5bda1aa7f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/spark-thenexttopcomputemodel-141007102906-conversion-gate02_95/why-spark-is-the-next-top-compute-model-20-1024.jpg",
+        "sha256": "ba9c25d0e23a2c977810b500e8b0a4e5d7d3761f744415f44744d3f6807347b2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

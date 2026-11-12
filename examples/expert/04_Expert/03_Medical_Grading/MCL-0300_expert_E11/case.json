@@ -1,0 +1,363 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "The following examples demonstrate in-context learning for fundus image classification. Each example includes a fundus image and a description of key features, along with the diagnosis. After the examples, a query is presented for you to answer based on the provided context."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Example 1 (Normal):"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_cdad2cf20e13.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The optic disc is sharp with a distinct margin, cup-to-disc ratio is normal (<0.5), retinal vessels have a healthy appearance, and the macula shows a normal foveal reflex. No hemorrhages, exudates, or drusen are present. Diagnosis: Normal.Example 2 (Diabetic Retinopathy):"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_cf6c2db90479.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Multiple microaneurysms and dot-blot hemorrhages are scattered throughout the retina. Hard exudates forming a circinate pattern near the macula are visible. There are also cotton-wool spots indicating nerve fiber layer infarcts. Diagnosis: Diabetic Retinopathy.Example 3 (Age-related Macular Degeneration):"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_e6abb05d3f9b.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Drusen (yellowish deposits) are present in the macular area, with some pigmentary changes. In the center, there is geographic atrophy with well-demarcated areas of retinal pigment epithelium loss. No neovascularization is observed. Diagnosis: Age-related Macular Degeneration.Example 4 (Glaucoma):"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_f6c6e117efa0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The optic disc shows significant cupping with a cup-to-disc ratio >0.8. The neuroretinal rim is thinned, especially inferiorly and superiorly. There is a bayoneting sign of blood vessels at the disc margin. The retinal nerve fiber layer is diffusely thinned. Diagnosis: Glaucoma."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "[Image_ID:0]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_595b38f45956.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:1]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_9b83c60ba411.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:2]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_d1068c0f31da.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:3]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_0afcee35347e.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:4]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_13c2c951159b.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:5]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_0fd3fb4abeef.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Based on the examples above, given a set of unknown fundus images, assign a disease type to each image (choose from: Normal, Diabetic Retinopathy, Age-related Macular Degeneration, Glaucoma). The corresponding relationship is: A-Age-related Macular Degeneration D-Diabetic Retinopathy G-Glaucoma N-Normal. Based on the provided image/material, output the final category using the exact label format shown in the source material. Do not output any other text."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "The ground truth is: G G A D N G.",
+      "1.The model should assign the correct label to all images, exactly matching the true labels.",
+      "2.The model should not produce any deviation in severity ordering relative to the ground truth, meaning every image’s predicted level must be strictly identical to the true level.",
+      "3.The model should avoid hallucinations such as outputting a severity label not present in the ground truth, omitting any image, or generating an overall classification that contains impossible or inconsistent severity transitions."
+    ],
+    "metadata": {
+      "task_id": "MCL-0300_T1",
+      "context_id": "MCL-0300",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "The following examples demonstrate in-context learning for fundus image classification. Each example includes a fundus image and a description of key features, along with the diagnosis. After the examples, a query is presented for you to answer based on the provided context."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Example 1 (Normal):"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_cdad2cf20e13.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The optic disc is sharp with a distinct margin, cup-to-disc ratio is normal (<0.5), retinal vessels have a healthy appearance, and the macula shows a normal foveal reflex. No hemorrhages, exudates, or drusen are present. Diagnosis: Normal.Example 2 (Diabetic Retinopathy):"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_cf6c2db90479.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Multiple microaneurysms and dot-blot hemorrhages are scattered throughout the retina. Hard exudates forming a circinate pattern near the macula are visible. There are also cotton-wool spots indicating nerve fiber layer infarcts. Diagnosis: Diabetic Retinopathy.Example 3 (Age-related Macular Degeneration):"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_e6abb05d3f9b.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Drusen (yellowish deposits) are present in the macular area, with some pigmentary changes. In the center, there is geographic atrophy with well-demarcated areas of retinal pigment epithelium loss. No neovascularization is observed. Diagnosis: Age-related Macular Degeneration.Example 4 (Glaucoma):"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_f6c6e117efa0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The optic disc shows significant cupping with a cup-to-disc ratio >0.8. The neuroretinal rim is thinned, especially inferiorly and superiorly. There is a bayoneting sign of blood vessels at the disc margin. The retinal nerve fiber layer is diffusely thinned. Diagnosis: Glaucoma."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "[Image_ID:0]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_595b38f45956.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:1]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_9b83c60ba411.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:2]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_d1068c0f31da.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:3]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_0afcee35347e.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:4]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_13c2c951159b.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:5]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_0fd3fb4abeef.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Based on the examples above, given a set of unknown fundus images, assign a disease type to each image (choose from: Normal, Diabetic Retinopathy, Age-related Macular Degeneration, Glaucoma). The corresponding relationship is: A-Age-related Macular Degeneration D-Diabetic Retinopathy G-Glaucoma N-Normal. Based on the provided image/material, output the final category using the exact label format shown in the source material. Do not output any other text."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "[Image_ID:0]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_104ca2a476f3.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:1]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_8786144744c8.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:2]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_acee30aea803.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:3]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_000f6422e3ca.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:4]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_c48165f99f24.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "[Image_ID:5]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_0466ff5a29e1.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "ased on the above example, for a set of fundus images that have been classified, determine whether the classification given for each image is correct. The given classifications are: Age-related Macular Degeneration, Normal, Glaucoma, Age-related Macular Degeneration, Glaucoma, Diabetic RetinopathyThe corresponding relationship is: A-Age-related Macular Degeneration D-Diabetic Retinopathy G-Glaucoma N-Normal. Based on the provided image/material, output the final category using the exact label format shown in the source material. Do not output any other text."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "The ground truth is: G N D A G G.1.The model should order all images completely in accordance with the actual severity levels, with no disorder in the order among different categories and no adjacent images being reversed or misaligned.",
+      "2.The model should have no more than 0 errors in the sorting.",
+      "3.The model should avoid hallucinations, including but not limited to: inventing a severity level not present in the ground truth, omitting any image, or producing an overall sequence that does not match the actual severity continuum."
+    ],
+    "metadata": {
+      "task_id": "MCL-0300_T2",
+      "context_id": "MCL-0300",
+      "turn_index": 2
+    }
+  }
+]

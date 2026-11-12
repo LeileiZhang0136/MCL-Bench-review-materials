@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_131",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:PH_2016.06.08_Economy-Final",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "PH_2016.06.08_Economy-Final",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page0.jpg",
+        "sha256": "76af26db4f74ea8600465967c5aaee9cadc8627ad69720f28e40721f0335365f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page2.jpg",
+        "sha256": "6a075117d110e29524e1b84c9699cbbfff7d4d314dfe3097c23f7c68c52d1125",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page4.jpg",
+        "sha256": "75ae684e7826374db627868bc631232dfd26dfb1b82f9b750bad6cc72d2a1a9a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page6.jpg",
+        "sha256": "cd36a1726f9c115711677336623fdef06c0f838e027e1a379e39de64f2471449",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page8.jpg",
+        "sha256": "416de9abadac4d79fcf8965f71d46f0a5636da7dc52bc6a12efae731a203d413",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page10.jpg",
+        "sha256": "8bab175067c6fa4b2f9057ef46b8d3a57ed7056ecb98616ba59879fb1fbfacfc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page12.jpg",
+        "sha256": "0172bb67617d1e6ab8570cba5f7eeb0fe3b0bd969969a8ae0e9cb6feff2dacc2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page14.jpg",
+        "sha256": "0475a3420ad2ce5f619b81cc5fe9a84f967b1f5395e91f14bd6f7af1ff251881",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page16.jpg",
+        "sha256": "c34a3ccbc94140ca8548ae9d19f1130d5e2b282ddc046a53575222f8c3ae6588",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page18.jpg",
+        "sha256": "bc2a121f77ebecf0ba2fea5cfe547e6aa0de75356591e22e14d60daf300bb693",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page20.jpg",
+        "sha256": "9557a83a77e3bdd739fc9fa6246bf8dbe60cddbd605474b0af1c6f9861907cf0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/PH_2016.06.08_Economy-Final/PH_2016.06.08_Economy-Final_page22.jpg",
+        "sha256": "c7a27a35e22b04a4256bc682c86dd72296fe9bafd8fb1f575d93ed6d9a5802a4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

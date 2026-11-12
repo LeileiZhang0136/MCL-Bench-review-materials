@@ -1,0 +1,22 @@
+{
+  "source_track": "expert",
+  "category": "Rule Learning & Complex Reasoning",
+  "subcategory": "Puzzle Games",
+  "count": 2,
+  "cases": [
+    {
+      "case_id": "MCL-0222",
+      "directory": "MCL-0222_expert_E08",
+      "task_count": "4",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0223",
+      "directory": "MCL-0223_expert_E08",
+      "task_count": "5",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

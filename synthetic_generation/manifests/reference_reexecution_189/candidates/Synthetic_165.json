@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_165",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:srdaslides-100709105957-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "srdaslides-100709105957-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-1-1024.jpg",
+        "sha256": "bebb8075df686e0fbd306d79b1635d62434ab639a8d495d82e798fe8015d549b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-3-1024.jpg",
+        "sha256": "700f48aa90ff313a8181478a52eecb926fe93755fadc402a773596a397eb3d82",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-4-1024.jpg",
+        "sha256": "c49f31395e520f6f1d5c1ec1a6e4256b350c62d744eb7720e30c082ad882e99a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-6-1024.jpg",
+        "sha256": "98da2a0213d6fc1e28a5af212ecf517f7340d481546f52cbd70dbb89a94d4cc8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-8-1024.jpg",
+        "sha256": "8686dc667081b906ada65e5cf1edc127d591f2f13cd0aa047daaafa9d74c5a41",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-10-1024.jpg",
+        "sha256": "34ea4cc0a21c328427fd991719cc09767e27bb30082332b35d00dbc3b04a06ae",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-11-1024.jpg",
+        "sha256": "b2187badcba52793a96f98cd71128f196a668c5d7171156da6ae92697137635a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-13-1024.jpg",
+        "sha256": "0ff95232c7a216653d45fbbae03d3a87999456675bf7e1bd42138c6aba2509f2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-15-1024.jpg",
+        "sha256": "0caee04fecd32b8e886769ed9da6d18d31286098b2fa6951ae970c24aaa5b26d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-17-1024.jpg",
+        "sha256": "f34737d3823c2ba92278ffbb13de769ae5fb6b6e6e211410bc506afccbec1e81",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-18-1024.jpg",
+        "sha256": "2b945850c2768d23e16021fd2a58c0ef3b3863e8e3694db0140b1ff300cee7a1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/srdaslides-100709105957-phpapp02_95/six-digital-trends-to-watch-by-steve-rubel-and-david-armano-20-1024.jpg",
+        "sha256": "2ecacd95f519d88444cc9dbf119597708b36b4ba18398fbaafa3e082634eb476",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,514 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the chief referee of the \"Wind Chime Park Badge Trial\". You need to write down the day's activities into a set of executable trial rules: which items are children's play, which are family logistics, which are official batting sports, and which are just a lively background at the edge of the field. You can create badge names, team names and promotion conditions, but each subsequent round must use the first established project division, promotion rules, violation conditions and circumstantial identities."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_844b99a83b9e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_5085fcadef48.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_1b743b07a2fa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_5c4a0a545b53.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_7d7cc21939b0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_0c996f676b70.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_f0013522ec29.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_b215b214f708.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_237d710ecde9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_c0c01defb575.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nWind Chime Park is going to hold a \"Ten Picture Badge Trial\". Please design 4 badge projects first. Each project must have a name, eligibility, completion conditions, usable images, and images that should not be mixed in. Events cannot be divided simply by \"whether there are people or not\" or \"whether it is outdoors\", but must be able to distinguish different physical rules: hanging and swinging, climbing and climbing obstacles, children's free activities, formal swings or hitting balls, and logistics or spectator areas.\n\nThen please write the 10 pictures into the trial register one by one:\n- Which badge it can strive for;\n- Is it a formal action, preparatory action, spectator/logistics, or violation substitution in this badge;\n- If you want to connect it to the previous picture, what characters, equipment or site conditions need to be met;\n- What is the maximum number of next items it can receive after that.\n\nFinally, please provide a \"Children's Main Route\" and an \"Adult/Formal Sports Branch\". The main route for children's play must involve at least two types of swinging, climbing or free activities; the formal sports branch must explain why baseball and golf cannot be considered the same event just because they are both swings. Choose another picture that is most likely to be misjudged as a member of the main route, and explain whether the misjudgement will first destroy the age, equipment, field boundaries, or referee rules.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should answers must cover all 10 pictures and be organized by Badge Trial rules rather than simply describing park activities.",
+      "2. The response should four event divisions must be established, and the division basis should include multiple items from body movements, equipment, age/participants, and venue rules.",
+      "3. The response should answers should identify:\nThe response should - Figure 02 and Figure 09 belong to the swing/swing system, but one is a high-amplitude swing and the other is a close-up swing of children;\nThe response should - Figure 06 shows tires climbing or overcoming obstacles;\nThe response should - Figure 10 is the horizontal bar/hanging action;\nThe response should - Figure 03 and Figure 05 are more like ordinary children's free activities or running in the square, and should not directly replace equipment items;\nThe response should - Figure 04 is an amusement ride or festival slide area with an adult/equipment boundary;\nThe response should - Figure 01 is the picnic or logistics area;\nThe response should - Figure 07 is a child’s baseball swing;\nThe response should - Figure 08 is an adult golf swing;",
+      "4. The response should each picture must indicate the ownership of the badge, the action role, the preceding conditions and the succeeding upper bound.",
+      "5. The response should the main route for children's play and the adult/formal sports branch must be given, and the common points and incombinable points between baseball and golf must be explained.",
+      "6. The response should an error-prone chart must be identified and stated where the breakpoint falls on age, equipment, court boundaries or referee rules.",
+      "7. The response should if the answer is to unconditionally merge Figure 07 and Figure 08 into the same project, or to regard Figure 01 as a formal trial action, it should be clear that this treatment cannot be established.\nThe response should additionally Mutual exclusion conditions must be set for the main groupings; footnotes must be written for side-by-side display; one conclusion must be downgraded and the upgrade conditions must be stated.",
+      "8. The response should also explain: If different groupings or main chains are used, the key boundaries among subjects, venues, actions, and time points must still be maintained, and at least one connection that must be supplemented must be clearly pointed out.",
+      "9. The response should answers should not be combined based only on similar appearance, adjacent order, or shared nouns, or the circumstantial evidence should be written directly as main evidence, and similar types should be written directly as the same process."
+    ],
+    "metadata": {
+      "task_id": "MCL-0088_T1",
+      "context_id": "MCL-0088",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the chief referee of the \"Wind Chime Park Badge Trial\". You need to write down the day's activities into a set of executable trial rules: which items are children's play, which are family logistics, which are official batting sports, and which are just a lively background at the edge of the field. You can create badge names, team names and promotion conditions, but each subsequent round must use the first established project division, promotion rules, violation conditions and circumstantial identities."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_844b99a83b9e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_5085fcadef48.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_1b743b07a2fa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_5c4a0a545b53.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_7d7cc21939b0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_0c996f676b70.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_f0013522ec29.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_b215b214f708.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_237d710ecde9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_c0c01defb575.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nWind Chime Park is going to hold a \"Ten Picture Badge Trial\". Please design 4 badge projects first. Each project must have a name, eligibility, completion conditions, usable images, and images that should not be mixed in. Events cannot be divided simply by \"whether there are people or not\" or \"whether it is outdoors\", but must be able to distinguish different physical rules: hanging and swinging, climbing and climbing obstacles, children's free activities, formal swings or hitting balls, and logistics or spectator areas.\n\nThen please write the 10 pictures into the trial register one by one:\n- Which badge it can strive for;\n- Is it a formal action, preparatory action, spectator/logistics, or violation substitution in this badge;\n- If you want to connect it to the previous picture, what characters, equipment or site conditions need to be met;\n- What is the maximum number of next items it can receive after that.\n\nFinally, please provide a \"Children's Main Route\" and an \"Adult/Formal Sports Branch\". The main route for children's play must involve at least two types of swinging, climbing or free activities; the formal sports branch must explain why baseball and golf cannot be considered the same event just because they are both swings. Choose another picture that is most likely to be misjudged as a member of the main route, and explain whether the misjudgement will first destroy the age, equipment, field boundaries, or referee rules.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the 4 badge items, trial register, and two routes from the previous round. Now the organizers want to change the rules to a \"promotion tree\": arrows are only allowed to be drawn if the previous action satisfies the qualification conditions of the later action.\n\nPlease output:\n1. Upgradable side: can move from low difficulty or preparation state to higher difficulty actions;\n2. Parallel display sides: items are similar but cannot be arranged in a unique order;\n3. Illegal substitute side: It seems that it can be substituted, but in fact it will change the age, equipment, venue or referee standards.\n\nAlso point out:\n- The most vulnerable promotion point in the children's game master route;\n- The two pictures in the official sports branch are most likely to be merged by mistake;\n- Should the logistics/spectator area be placed at the root, on a side branch or outside of the tree and give reasons why.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should answers must retain the project name, image role, and route from the first round and cannot be regrouped.",
+      "2. The response should the sides must be divided into promotion sides, parallel display sides, and illegal alternative sides.",
+      "3. The response should the children's play master's route should be able to discuss whether there is a difficulty progression between the equipment movements such as Figure 09, Figure 02, Figure 06, Figure 10, etc.; if the order is forced, it must explain how the body support method changes.",
+      "4. The response should the formal sports branch must deal with the similarities and differences between Figure 07 and Figure",
+      "08: they are both swinging/hitting actions, but the ball rules, age groups, venues and equipment are different.",
+      "5. The response should the logistics attributes of Figure 01 must be explained, and the picnic table and supplies area cannot be used as action promotion nodes.",
+      "6. The response should if the answer puts all children's activities into a single promotion line without checking the equipment and support methods, it should be judged as untenable.\nThe response should additionally The main role must be assigned to each piece of evidence; the alternate role needs switching conditions; a set of handover combinations that require a step must be specified.",
+      "7. The response should also explain: If different evidence supplement points, safe chains or log checking sequences are used, it must also be able to clearly explain which step is insufficient in advance and which step can only be compared side by side and not sequentially.",
+      "8. The response should distinguish the facts in the picture, relationship advancement and judgment to be supplemented, and \"similar types\" must not be directly written as \"same place/same process/same subject\"."
+    ],
+    "metadata": {
+      "task_id": "MCL-0088_T2",
+      "context_id": "MCL-0088",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the chief referee of the \"Wind Chime Park Badge Trial\". You need to write down the day's activities into a set of executable trial rules: which items are children's play, which are family logistics, which are official batting sports, and which are just a lively background at the edge of the field. You can create badge names, team names and promotion conditions, but each subsequent round must use the first established project division, promotion rules, violation conditions and circumstantial identities."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_844b99a83b9e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_5085fcadef48.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_1b743b07a2fa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_5c4a0a545b53.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_7d7cc21939b0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_0c996f676b70.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_f0013522ec29.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_b215b214f708.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_237d710ecde9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_c0c01defb575.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nWind Chime Park is going to hold a \"Ten Picture Badge Trial\". Please design 4 badge projects first. Each project must have a name, eligibility, completion conditions, usable images, and images that should not be mixed in. Events cannot be divided simply by \"whether there are people or not\" or \"whether it is outdoors\", but must be able to distinguish different physical rules: hanging and swinging, climbing and climbing obstacles, children's free activities, formal swings or hitting balls, and logistics or spectator areas.\n\nThen please write the 10 pictures into the trial register one by one:\n- Which badge it can strive for;\n- Is it a formal action, preparatory action, spectator/logistics, or violation substitution in this badge;\n- If you want to connect it to the previous picture, what characters, equipment or site conditions need to be met;\n- What is the maximum number of next items it can receive after that.\n\nFinally, please provide a \"Children's Main Route\" and an \"Adult/Formal Sports Branch\". The main route for children's play must involve at least two types of swinging, climbing or free activities; the formal sports branch must explain why baseball and golf cannot be considered the same event just because they are both swings. Choose another picture that is most likely to be misjudged as a member of the main route, and explain whether the misjudgement will first destroy the age, equipment, field boundaries, or referee rules.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the 4 badge items, trial register, and two routes from the previous round. Now the organizers want to change the rules to a \"promotion tree\": arrows are only allowed to be drawn if the previous action satisfies the qualification conditions of the later action.\n\nPlease output:\n1. Upgradable side: can move from low difficulty or preparation state to higher difficulty actions;\n2. Parallel display sides: items are similar but cannot be arranged in a unique order;\n3. Illegal substitute side: It seems that it can be substituted, but in fact it will change the age, equipment, venue or referee standards.\n\nAlso point out:\n- The most vulnerable promotion point in the children's game master route;\n- The two pictures in the official sports branch are most likely to be merged by mistake;\n- Should the logistics/spectator area be placed at the root, on a side branch or outside of the tree and give reasons why.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to do \"Referee Objection Handling\". The rules of the first two rounds still apply. There are now 5 appeals:\n\nA. Some people requested that Figure 08 be merged into the project of Figure 07 on the grounds that both are golf swings;\nB. Someone requested that Picture 04 be ranked after Picture 02 because they are all children on amusement facilities;\nC. Some people requested that Figure 03 be used as pre-training for Figure 06. The reason is that you can climb after running;\nD. Some people requested that Figure 01 be the official starting point for all projects, because the activities start at the picnic table;\nE. Someone requested that Figure 05 be attached to the back of Figure 10. The reason is that after the hanging is completed, it can be returned to the square to move around freely.\n\nPlease rule \"accept/change to side branch/reject\" item by item. Each item must state the basis for the decision, and include specific items related to eligibility, continuity of equipment, difficulty of movement, venue rules, or supervisory relationship. If you can keep it by changing only one condition, please write the minimum revised version.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should a-E must be dealt with on a case-by-case basis and a ruling given, passed, adjourned, or dismissed.",
+      "2. The response should each item must refer back to the badge item, promotion side or violation alternative side from the previous two rounds.",
+      "3. The response should item A should generally be dismissed or changed to a parallel spur because baseball has different rules than golf.",
+      "4. The response should if item B is retained, it can only mean that they belong to the same amusement facility atmosphere, and the slides/festival equipment cannot be regarded as the successor to the swing.",
+      "5. The response should item C can be used as a side branch of physical fitness, but it cannot automatically prove climbing qualifications; item D can only be used as a gathering background; if item E is accepted, it should be regarded as an activity after leaving the equipment, rather than continuing to advance.",
+      "6. The response should the minimum revision of each item must be given; if a single condition cannot be fixed, the reason must also be stated.\nThe response should additionally Mutual exclusion conditions must be set for the main groupings; footnotes must be written for side-by-side display; one conclusion must be downgraded and the upgrade conditions must be stated.",
+      "7. The response should also explain: If the specific pages of the anchor, supplement, counterexample, pending review, or cut identity are different, it can explain which conclusion collapses first after deletion and which boundary can still be barely maintained.",
+      "8. The response should answers must not be graded solely on the basis of the drama of the scene or the amount of information, without discounting the density of evidence, exclusionary effects, and risk of misleading."
+    ],
+    "metadata": {
+      "task_id": "MCL-0088_T3",
+      "context_id": "MCL-0088",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the chief referee of the \"Wind Chime Park Badge Trial\". You need to write down the day's activities into a set of executable trial rules: which items are children's play, which are family logistics, which are official batting sports, and which are just a lively background at the edge of the field. You can create badge names, team names and promotion conditions, but each subsequent round must use the first established project division, promotion rules, violation conditions and circumstantial identities."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_844b99a83b9e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_5085fcadef48.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_1b743b07a2fa.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_5c4a0a545b53.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_7d7cc21939b0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_0c996f676b70.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_f0013522ec29.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_b215b214f708.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_237d710ecde9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_c0c01defb575.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nWind Chime Park is going to hold a \"Ten Picture Badge Trial\". Please design 4 badge projects first. Each project must have a name, eligibility, completion conditions, usable images, and images that should not be mixed in. Events cannot be divided simply by \"whether there are people or not\" or \"whether it is outdoors\", but must be able to distinguish different physical rules: hanging and swinging, climbing and climbing obstacles, children's free activities, formal swings or hitting balls, and logistics or spectator areas.\n\nThen please write the 10 pictures into the trial register one by one:\n- Which badge it can strive for;\n- Is it a formal action, preparatory action, spectator/logistics, or violation substitution in this badge;\n- If you want to connect it to the previous picture, what characters, equipment or site conditions need to be met;\n- What is the maximum number of next items it can receive after that.\n\nFinally, please provide a \"Children's Main Route\" and an \"Adult/Formal Sports Branch\". The main route for children's play must involve at least two types of swinging, climbing or free activities; the formal sports branch must explain why baseball and golf cannot be considered the same event just because they are both swings. Choose another picture that is most likely to be misjudged as a member of the main route, and explain whether the misjudgement will first destroy the age, equipment, field boundaries, or referee rules.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Keep the 4 badge items, trial register, and two routes from the previous round. Now the organizers want to change the rules to a \"promotion tree\": arrows are only allowed to be drawn if the previous action satisfies the qualification conditions of the later action.\n\nPlease output:\n1. Upgradable side: can move from low difficulty or preparation state to higher difficulty actions;\n2. Parallel display sides: items are similar but cannot be arranged in a unique order;\n3. Illegal substitute side: It seems that it can be substituted, but in fact it will change the age, equipment, venue or referee standards.\n\nAlso point out:\n- The most vulnerable promotion point in the children's game master route;\n- The two pictures in the official sports branch are most likely to be merged by mistake;\n- Should the logistics/spectator area be placed at the root, on a side branch or outside of the tree and give reasons why.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to do \"Referee Objection Handling\". The rules of the first two rounds still apply. There are now 5 appeals:\n\nA. Some people requested that Figure 08 be merged into the project of Figure 07 on the grounds that both are golf swings;\nB. Someone requested that Picture 04 be ranked after Picture 02 because they are all children on amusement facilities;\nC. Some people requested that Figure 03 be used as pre-training for Figure 06. The reason is that you can climb after running;\nD. Some people requested that Figure 01 be the official starting point for all projects, because the activities start at the picnic table;\nE. Someone requested that Figure 05 be attached to the back of Figure 10. The reason is that after the hanging is completed, it can be returned to the square to move around freely.\n\nPlease rule \"accept/change to side branch/reject\" item by item. Each item must state the basis for the decision, and include specific items related to eligibility, continuity of equipment, difficulty of movement, venue rules, or supervisory relationship. If you can keep it by changing only one condition, please write the minimum revised version.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally, the \"Wind Chime Park Badge Trial Final List\" is output. The final column names must be retained as the existing 4 badge items; logistics, side branches and violation substitutions must also be retained.\n\nWrite clearly in each column: which pictures are included, what badges can be obtained, what conditions need to be filled, which items cannot be replaced, and which external pictures are most likely to be misjudged. Then a 6-step viewing sequence is given, which must explicitly reference a promotion vulnerability and a referee objection decision. Finally, write down a general rule: In this trial, when similar actions can be combined, when can they only be displayed in parallel.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nBefore the handover order is issued, a layer of rules must be added for the next person to use: the most likely to be overwritten in the \"Wind Chime Park Badge Trial Final List\", the most likely to be overwritten in the \"Character Transfer\", and the most likely to be overwritten in the \"Ten Picture Badge Trial\" may all be mistaken for the closed main line in the final version. Please add three short paragraphs in addition to the final table or final list: the first paragraph is for people who have not read the previous article, explaining which two objects, steps or conditions are easiest for him to combine into the same main line; the second paragraph is the minimum rollback path, pointing out which box, sentence or step should be withdrawn first if a certain key judgment cannot be sustained later, and what remaining content still holds; the third paragraph is the exception switch to clarify which types of materials meet what conditions before being allowed to upgrade from supplementary explanations, certificates to be supplemented, or later restrictions to the main line. If there is a statement in the final version that is most likely to be widely used by executors, it must be rewritten into a narrower version and the prerequisites for its broad use must be clearly stated. It is also necessary to list separately which materials can only be used as environment pages or circumstantial evidence, and which boundary will be destroyed first if they are mistakenly promoted to main evidence. A high-confidence conclusion must be added with an upper limit, and which boundary collapses first when an error is deleted or left in is also stated.The executor usually only turns the last page, so Figure 01 is shuffled into formal action nodes, and Figure 07 and Figure 08 cannot be unconditionally merged. Please add three short paragraphs after the final result: the first paragraph is for the person who takes over the work for the first time, explaining which two objects, steps, conditions or roles he is most likely to mistake as the same main line; the second paragraph is about the minimum recovery path, indicating which box, sentence or step should be withdrawn first if one of the key judgments later becomes untenable, and what content can still be retained; the third paragraph is about the exception switch, explaining which materials are only allowed to be upgraded from supplementary explanations, to be supplemented, later restrictions or side-by-side display to the main line when they meet certain conditions. If there is a sentence in the final table that is most likely to be widely used, it must be rewritten more narrowly and the premise of the wide use must be written out separately.\n\nThere is an empty line on the last page of the handover order, which is usually reserved for the formal action node shown in Figure 01. Figure 07 and Figure 08 cannot be unconditionally merged. Please add a paragraph of \"taking over the three-minute version\" after the current final draft: Assuming that the other party is only willing to spend three minutes to scan the entire page, you need to tell him which column to look at first, which column not to touch for the time being, and when he encounters a sentence that seems to have been closed, he must stop and look back at the previous text. In addition, add a minimum recycling rule: once a key judgment is rolled back, which box can still retain the original sentence, and which box must be lowered to a weaker position first.\n\nThere is a handover note pressed at the bottom of the box, reminding you that the easiest to write down is the unconditional merging of Figure 07 and Figure 08, the washing into formal action nodes shown in Figure 01, and the washing into formal action nodes in Figure 01. Please add a take-over explanation in addition to the existing answers: Divide the materials into first-read items, late items and dispute review items, and write clearly who appears first to be safe. Let’s also explain that if the receiver sees the conclusion first and then the basis, which part is most likely to be mistaken as closed; once this part becomes untenable, which box should be withdrawn first, which box should be retained, and which box can only be reduced to a note, and cannot be dragged away along with the entire table.\n\nThere is a handover note pressed at the bottom of the box, reminding that the easiest to write down is the unconditional merge of Figure 07 and Figure 08, the washed into formal action node shown in Figure 01, the unconditional merge of Figure 07 and Figure 08, and Figure 01. Please add a take-over explanation in addition to the existing answers: Divide the materials into first-read items, late items and dispute review items, and write clearly who appears first to be safe. Let’s also explain that if the receiver sees the conclusion first and then the basis, which part is most likely to be mistaken as closed; once this part becomes untenable, which box should be withdrawn first, which box should be retained, and which box can only be reduced to a note, and cannot be dragged away along with the entire table."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should output the final list, and keep the column names as existing badge items and cover all 10 pictures; each column must indicate the storage picture, badge meaning, supplementary conditions, irreplaceable items and dangerous misjudgment pictures.",
+      "2. The response should point out a set of materials like Figure 07 and Figure 08 that are most likely to be overestimated in the final table, and explain why it cannot directly replace the main line nodes, core fields or confirmed conclusions.",
+      "3. The response should write clearly the dependent positions of Figure 07 and Figure 08 in the final table or final line, and make it clear which ones can enter the high-confidence column, and which ones can only stay in the pending, late or review positions.",
+      "4. The response should the final answer must include a high-confidence conclusion, a conclusion that needs to be supplemented, and materials that cannot enter the main conclusion, and explain the respective upgrade or fallback conditions.",
+      "5. The response should high-confidence, pending certification, and review items in the final table or final line must be separated from each other, and a general category cannot be used to cover up dependency differences.",
+      "6. The response should point out at least one conclusion that is most likely to be read as a closed event by the receiver, and explain a more stable way of writing or limiting words."
+    ],
+    "metadata": {
+      "task_id": "MCL-0088_T4",
+      "context_id": "MCL-0088",
+      "turn_index": 4
+    }
+  }
+]

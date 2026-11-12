@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_021",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-1-1024.jpg",
+        "sha256": "18a8be59f2d289eb49a86e2d2a7f635dbe5b58b8fbc4235bea08e38a3c86c9c0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-3-1024.jpg",
+        "sha256": "9c4f412b06ebec390d2cddbea3732a23267811febf3679be3a66e7a2bd3aa26f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-4-1024.jpg",
+        "sha256": "5d3beaef460c4dd4e0c79e1cb1e5bf8685cd2144b10324b75f23e63f73227dcc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-6-1024.jpg",
+        "sha256": "04e8ea2f7d12d0a4d32ceecd411db4f582ce93221f37cd1a984ebd37344cb38e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-8-1024.jpg",
+        "sha256": "e9944324f158ed41733e142b4cbf15cdb7930c5df49aec9755f2d932ee6e4490",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-10-1024.jpg",
+        "sha256": "cc3359b4be1bbfe4e409ff554fba1d1ccb10b2c27250f3189483f92a1b515133",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-11-1024.jpg",
+        "sha256": "9dc3388dd2b21fa462ab528c0ca875459b1e03aeb8823431f8ff26711c738aad",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-13-1024.jpg",
+        "sha256": "517f8d58b8353a4e919f7d1cdd6172290d5bdd34637b9c9adaddd2c0f0fcec28",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-15-1024.jpg",
+        "sha256": "6d74ffd01daeaf3fea7be0a5c7238d31f4104d7ecc62ab17b9612d3805f4ac3c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-17-1024.jpg",
+        "sha256": "18d94367ceeeab45f375b165cbf87f3fdf12f68fd76fb29a958aae3ff25da67e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-18-1024.jpg",
+        "sha256": "2b75a6f6da11fb249ec5e3106c20fb058d8e70c8399c5890016fa7ce3d300bba",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/mobilityusagestatisticstrendsbyrapidvaluesolutions-140812074800-phpapp01_95/mobility-usage-statistics-trends-by-rapidvalue-solutions-20-1024.jpg",
+        "sha256": "eafecfc9dde95d9ef3eacb2ae810202830a8f25bc1d6a24a5131755e3b66b950",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_180",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "document-grounded local-standard decision",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:NIKE_2021_10K",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "NIKE_2021_10K",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page0.jpg",
+        "sha256": "18f9f1c8b55feb2ce52ebc8857c95a1b09fb2f169c8cbb1e8a4951cf5331db75",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page10.jpg",
+        "sha256": "0e45b382b3e775b3b23ee1438befdcbf380ea376353e494d0451806da0dce756",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page20.jpg",
+        "sha256": "9ab09df245904880ff7336a8c52092a275c110646fa744137dd71aa71f23737b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page29.jpg",
+        "sha256": "b0189751eaf92600b9adbfbf15827844f7805f384b6bab25df92806dc1bcdf09",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page39.jpg",
+        "sha256": "e50e9d18cdb7ac70ac43a6a96fd8ac7afda4cf7968447777190b0b03432cefa7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page49.jpg",
+        "sha256": "9249f8f3ec93f4f7971f1c1b78728f188a0cc5d65c8373352da24e104e4b2a8d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page59.jpg",
+        "sha256": "65191f77b5bba79f7f755b496f8e9176eafffdd513aba15630d92dca064e3c0a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page69.jpg",
+        "sha256": "11e7f3eca53f214377b803020fb79f961d16ef2a812162972ee21d57fe2999fd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page79.jpg",
+        "sha256": "7dc617c983baa84b3d66cdd4435f84bfcd3bd56e5af04bca55fda72fd70d706a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page88.jpg",
+        "sha256": "8c7d4597a8aae513f487d253794e515960d925547e16509fc609e23905c77eaf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page98.jpg",
+        "sha256": "78605edca5fc4a22b7fecbea70aee0f518351d8a23c4f1ccbf3a094416482af7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/NIKE_2021_10K/NIKE_2021_10K_page108.jpg",
+        "sha256": "ab9c99c1981a0f535e601b1243b1211d62abf5858d50359ae0d59f7f071d84ed",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

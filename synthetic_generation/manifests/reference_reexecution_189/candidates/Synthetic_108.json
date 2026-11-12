@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_108",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:Sinopolis-Chengdu",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "Sinopolis-Chengdu",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page0.jpg",
+        "sha256": "591cd6778c2c150bc9d81f77c0ae4900a41fd151dcf92dd1cb3537f626ff4b37",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page9.jpg",
+        "sha256": "c3c186e2eb9147f35ad1b848400b9a0dbded3343fdde1bb0ffacfde76bc7bd3f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page17.jpg",
+        "sha256": "64384533523cf74d1e45012aa79d5cb87c801e9426fcd815cbe58f755146d7ae",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page26.jpg",
+        "sha256": "f8907eb177071c6550d266077158f0fd5658ee74faba71b9472acb7e1badc8c3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page35.jpg",
+        "sha256": "3a1ffe5bb87d80409a90249813943fd4ff35d53885403d8201a1801a2a7788b4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page43.jpg",
+        "sha256": "8374eed6fd004ff6c6e08ea6175e676a51105660158157d5cf8967e41402197e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page52.jpg",
+        "sha256": "4dfe96e3f47b6c195cd56b37064ffeaf41c10e1e092e4fc8ab55e68b38355eb7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page60.jpg",
+        "sha256": "79cbdb379e2c07f68cdd5f72dbdca7182580946673befae0821614245df16457",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page69.jpg",
+        "sha256": "491b090164d719971dff1dfd873ce386ddb59ade70ab6d6c98c4849680fb976e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page78.jpg",
+        "sha256": "6009fc60fbcbbccfc98b91ec0302cbe64cff713cabcd7bca5397467a0950fb20",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page86.jpg",
+        "sha256": "dc70700fe013c2e42d6d3b56d485e52d6cb00ec65ae6c31549a471a956b0ef58",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/Sinopolis-Chengdu/Sinopolis-Chengdu_page95.jpg",
+        "sha256": "848ff2250a8b807c353f97eba3ea429b1818ba185759173a9158a5e7070d1178",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

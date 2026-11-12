@@ -1,0 +1,18 @@
+{
+  "protocol_version": "1.1.0",
+  "api": "responses",
+  "model": "gpt-5.5",
+  "artifact_role": "reference_implementation",
+  "reasoning_effort": "high",
+  "store": false,
+  "max_repair_iterations": 3,
+  "allowed_datasets": [
+    "slidevqa",
+    "mmlongbench-doc"
+  ],
+  "required_task_count_min": 3,
+  "required_task_count_max": 5,
+  "required_rubrics_per_task_min": 4,
+  "required_mutation_families_min": 2,
+  "release_requires_two_human_reviews": true
+}

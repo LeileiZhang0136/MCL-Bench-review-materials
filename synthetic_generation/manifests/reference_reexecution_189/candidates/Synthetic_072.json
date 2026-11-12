@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_072",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:test/dataviz-designskillshare-140925135007-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/dataviz-designskillshare-140925135007-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-1-1024.jpg",
+        "sha256": "03fadb8700e4aa0bc8fdfb4388b65b55d860a707a96d0b398229f62ce227f0ee",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-3-1024.jpg",
+        "sha256": "1f68aca4f383535e705bb27afeb3823a63e4fb1ce2f1ff5472428ce898c644ba",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-4-1024.jpg",
+        "sha256": "9126ee68c1540fbb4e52a5ec5716d43b594c372f9fdc0179da7c69fc30fc3158",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-6-1024.jpg",
+        "sha256": "92529fdec82622c5db14f51e5847c2f3a2b2296cfa20f6588c58979c4c6e4660",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-8-1024.jpg",
+        "sha256": "533d62834a51035897ce215d15c348dbe273efce45ad0bcb08d746dc2ecaed36",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-10-1024.jpg",
+        "sha256": "9239c70908e17ceb52a034a25702ec28fba59678026cf07235eb6093be26442b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-11-1024.jpg",
+        "sha256": "b9d16c64f41fb0df0ee68cd637fbdafa51a386f92c3a1a890d6aeb484ca347ea",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-13-1024.jpg",
+        "sha256": "3f67c3e1e2c595f325ba990b6460693b875cbae863f0ee53a6157cd1297d95fc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-15-1024.jpg",
+        "sha256": "ba1577b26a0b90905a3d5ead0930bc18dd9afe233a047e28c4e0deb2ab771542",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-17-1024.jpg",
+        "sha256": "b1bc034d564275502f16dfff67fe305aa46431afacd17f038799f5f859b1b000",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-18-1024.jpg",
+        "sha256": "ccb11f716f144052aaaa742235fa5f3764e22a8ce0b996d87eaaf2756058d284",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/dataviz-designskillshare-140925135007-phpapp01_95/data-visualization-design-with-school-of-data-20-1024.jpg",
+        "sha256": "2e2c592eee4108022576233308a5972a7862ebdae80200d10b87f634a10387fa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

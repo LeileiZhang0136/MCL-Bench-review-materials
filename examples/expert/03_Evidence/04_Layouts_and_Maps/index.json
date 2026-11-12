@@ -1,0 +1,22 @@
+{
+  "source_track": "expert",
+  "category": "Evidence Integration & Structured Auditing",
+  "subcategory": "Layouts & Maps",
+  "count": 2,
+  "cases": [
+    {
+      "case_id": "MCL-0268",
+      "directory": "MCL-0268_expert_E08",
+      "task_count": "3",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0267",
+      "directory": "MCL-0267_expert_E02",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

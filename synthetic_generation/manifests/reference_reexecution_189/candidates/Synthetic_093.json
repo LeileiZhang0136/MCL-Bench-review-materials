@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_093",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:f1f5242528411b262be447e61e2eb10f",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "f1f5242528411b262be447e61e2eb10f",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page0.jpg",
+        "sha256": "4e9846a3256f1a19138f3cd36f9cde1492c8160746d8c157eaed3e3ee1a46439",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page2.jpg",
+        "sha256": "2ab1780edbe9efe6cff5546e6038db8b04c99ae6932b8c982bf500a6b2a8f069",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page3.jpg",
+        "sha256": "f38d828459ecc6b4b1c1f42f39135cba9598aba484b3ad14d564e415e450006f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page5.jpg",
+        "sha256": "1fe85367176edb4f126e84de9bdea764d86ea7602ba82a664f54960187691a91",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page7.jpg",
+        "sha256": "97e95020991d57837e6c32f852eb5612a52862bfa52255859ac81359d2eb8c0e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page9.jpg",
+        "sha256": "34a2b2650135bc285c50eaf0c7c24657c3647ce7fb2a0d7c0e6e2154f7012b89",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page10.jpg",
+        "sha256": "ca4029c420a8b16c04eaf62113ceb4862a68f4e2f0a6223ea662dd81fb84198d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page12.jpg",
+        "sha256": "d454a45a7a37b450d7301f0cd086cb11159573a47a841dec53f175f08c452833",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page14.jpg",
+        "sha256": "6aeb4b6305e6b0dd5cb10f8720344233f3a5310c1e46717a2ed1590dcd830e05",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page16.jpg",
+        "sha256": "888a8c5c5305b55c35b1c2ebf344279e69a882db91b4b4044f27297e39fcb87a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page17.jpg",
+        "sha256": "b7b28a36b93551abb07861fb956be5a5ed9c22b6122ec20a37e68c8c87dd6d6b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/f1f5242528411b262be447e61e2eb10f/f1f5242528411b262be447e61e2eb10f_page19.jpg",
+        "sha256": "ed0d3b07895d9bcaf6d7a6df74abab2a0758da5701780814eb9024890825111a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

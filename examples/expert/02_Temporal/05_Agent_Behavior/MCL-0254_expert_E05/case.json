@@ -1,0 +1,607 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in ethology (specializing in canine cognition and social behavior), proficient in analyzing animals’ decision-making processes and learning abilities in complex environments.\nYou are required to conduct rigorous analysis based on the video, focusing on:\n1.Interactive relationships among multiple individuals (following, interference, competition, etc.)\n2.Individual path selection and decision-making changes\n3.Error behaviors, hesitation behaviors, and instances of missing the correct path\n4.Temporal order of behaviors (must distinguish “what occurred first” and “what occurred later”)\n5.Possible cognitive mechanisms underlying behaviors (e.g., trial-and-error, memory, imitation, etc.)\nRequirements:\nMust distinguish different individuals (do not generalize as “several dogs”)\nMust reason with specific behaviors (no vague summaries)\nMust reflect temporal sequence and causal relationships\nMust perform in-depth analysis instead of only superficial description\nProhibit fabricating information not shown in the video"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the first video"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Are there significant differences in the paths taken by the different dogs in the maze shown in the video? Reconstruct and compare at least three puppies: for each one, summarize the route in temporal order using concrete checkpoints (turns, dead ends, detours, pauses, reversals), then classify its strategy (direct pursuit, trial-and-error, following/interference-driven, etc.) and explain why the strategies differ."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should clearly distinguish at least three different puppies rather than only two.",
+      "2. The response should reconstruct each selected puppy's path in temporal order using specific route events such as turns, detours, dead ends, pauses, and reversals.",
+      "3. The response should compare the puppies' navigation strategies rather than merely listing separate descriptions.",
+      "4. The response should classify the strategies with behavior-based justification grounded in the video.",
+      "5. The response should remain consistent with the observed sequence of events and should not fabricate unseen path details."
+    ],
+    "metadata": {
+      "task_id": "MCL-0254_T1",
+      "context_id": "MCL-0254",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in ethology (specializing in canine cognition and social behavior), proficient in analyzing animals’ decision-making processes and learning abilities in complex environments.\nYou are required to conduct rigorous analysis based on the video, focusing on:\n1.Interactive relationships among multiple individuals (following, interference, competition, etc.)\n2.Individual path selection and decision-making changes\n3.Error behaviors, hesitation behaviors, and instances of missing the correct path\n4.Temporal order of behaviors (must distinguish “what occurred first” and “what occurred later”)\n5.Possible cognitive mechanisms underlying behaviors (e.g., trial-and-error, memory, imitation, etc.)\nRequirements:\nMust distinguish different individuals (do not generalize as “several dogs”)\nMust reason with specific behaviors (no vague summaries)\nMust reflect temporal sequence and causal relationships\nMust perform in-depth analysis instead of only superficial description\nProhibit fabricating information not shown in the video"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the first video"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Are there significant differences in the paths taken by the different dogs in the maze shown in the video? Reconstruct and compare at least three puppies: for each one, summarize the route in temporal order using concrete checkpoints (turns, dead ends, detours, pauses, reversals), then classify its strategy (direct pursuit, trial-and-error, following/interference-driven, etc.) and explain why the strategies differ."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze how other moving puppies affect the navigating puppy. Do not treat all nearby movement as interference by default. Identify at least two candidate interaction episodes and judge for each whether it causes a real route change, only a brief pause or hesitation, or no meaningful effect at all; then explain how these interactions do or do not alter the final navigation outcome."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should accurately distinguish the navigating puppy from the other active puppies in each interaction episode.",
+      "2. The response should identify at least two concrete candidate interaction episodes rather than speaking in generalities.",
+      "3. The response should judge separately whether each episode causes a real route change, a temporary pause or hesitation, or no meaningful behavioral effect.",
+      "4. The response should explain the causal impact of these interactions on the final navigation outcome without overstating coincidental co-presence.",
+      "5. The response should stay grounded in observable temporal order and specific behaviors from the video."
+    ],
+    "metadata": {
+      "task_id": "MCL-0254_T2",
+      "context_id": "MCL-0254",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in ethology (specializing in canine cognition and social behavior), proficient in analyzing animals’ decision-making processes and learning abilities in complex environments.\nYou are required to conduct rigorous analysis based on the video, focusing on:\n1.Interactive relationships among multiple individuals (following, interference, competition, etc.)\n2.Individual path selection and decision-making changes\n3.Error behaviors, hesitation behaviors, and instances of missing the correct path\n4.Temporal order of behaviors (must distinguish “what occurred first” and “what occurred later”)\n5.Possible cognitive mechanisms underlying behaviors (e.g., trial-and-error, memory, imitation, etc.)\nRequirements:\nMust distinguish different individuals (do not generalize as “several dogs”)\nMust reason with specific behaviors (no vague summaries)\nMust reflect temporal sequence and causal relationships\nMust perform in-depth analysis instead of only superficial description\nProhibit fabricating information not shown in the video"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the first video"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Are there significant differences in the paths taken by the different dogs in the maze shown in the video? Reconstruct and compare at least three puppies: for each one, summarize the route in temporal order using concrete checkpoints (turns, dead ends, detours, pauses, reversals), then classify its strategy (direct pursuit, trial-and-error, following/interference-driven, etc.) and explain why the strategies differ."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze how other moving puppies affect the navigating puppy. Do not treat all nearby movement as interference by default. Identify at least two candidate interaction episodes and judge for each whether it causes a real route change, only a brief pause or hesitation, or no meaningful effect at all; then explain how these interactions do or do not alter the final navigation outcome."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare all puppies and determine which one shows the most stable goal-directed behavior. First define an explicit stability criterion from the video (for example persistence toward food, recovery after obstacle blocking, low randomness, low backtracking), then rank the top two puppies under that criterion and explain how the best one continuously adjusts its direction toward the fixed food location despite wire mesh and wooden board obstacles."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should define an explicit video-grounded stability criterion before selecting the most stable puppy.",
+      "2. The response should compare all puppies under that criterion and rank at least the top two rather than naming a winner without comparison.",
+      "3. The response should accurately determine which puppy exhibits the most stable goal-directed behavior.",
+      "4. The response should clearly describe how the selected puppy continuously adjusts toward the food location when encountering wire mesh and wooden board obstacles.",
+      "5. The response should distinguish stable correction behavior from random wandering, ineffective turns, or uncontrolled backtracking.",
+      "6. The final stability judgment should be supported by continuous behavioral evidence across the video."
+    ],
+    "metadata": {
+      "task_id": "MCL-0254_T3",
+      "context_id": "MCL-0254",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in ethology (specializing in canine cognition and social behavior), proficient in analyzing animals’ decision-making processes and learning abilities in complex environments.\nYou are required to conduct rigorous analysis based on the video, focusing on:\n1.Interactive relationships among multiple individuals (following, interference, competition, etc.)\n2.Individual path selection and decision-making changes\n3.Error behaviors, hesitation behaviors, and instances of missing the correct path\n4.Temporal order of behaviors (must distinguish “what occurred first” and “what occurred later”)\n5.Possible cognitive mechanisms underlying behaviors (e.g., trial-and-error, memory, imitation, etc.)\nRequirements:\nMust distinguish different individuals (do not generalize as “several dogs”)\nMust reason with specific behaviors (no vague summaries)\nMust reflect temporal sequence and causal relationships\nMust perform in-depth analysis instead of only superficial description\nProhibit fabricating information not shown in the video"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the first video"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Are there significant differences in the paths taken by the different dogs in the maze shown in the video? Reconstruct and compare at least three puppies: for each one, summarize the route in temporal order using concrete checkpoints (turns, dead ends, detours, pauses, reversals), then classify its strategy (direct pursuit, trial-and-error, following/interference-driven, etc.) and explain why the strategies differ."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze how other moving puppies affect the navigating puppy. Do not treat all nearby movement as interference by default. Identify at least two candidate interaction episodes and judge for each whether it causes a real route change, only a brief pause or hesitation, or no meaningful effect at all; then explain how these interactions do or do not alter the final navigation outcome."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare all puppies and determine which one shows the most stable goal-directed behavior. First define an explicit stability criterion from the video (for example persistence toward food, recovery after obstacle blocking, low randomness, low backtracking), then rank the top two puppies under that criterion and explain how the best one continuously adjusts its direction toward the fixed food location despite wire mesh and wooden board obstacles."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare VD1 (original maze"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "+ first group of puppies) with VD2"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_4ebfdb81758b.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "(modified maze + a completely new group of puppies). Analyze the difference in navigation efficiency between the two groups in their respective mazes. Your answer must separately evaluate three factors: maze-structure changes, cohort or individual differences, and moment-to-moment interference among puppies. Then judge which factor contributes most to the efficiency gap, and explain how the new puppies adapt or fail to adapt to the modified maze."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should clearly distinguish the first group in VD1 from the new group in VD2 and should not blur individuals across videos.",
+      "2. The response should compare navigation efficiency with concrete evidence such as speed, detours, hesitation, and trial-and-error frequency.",
+      "3. The response should separately analyze maze redesign, cohort or individual differences, and moving-puppy interference instead of collapsing them into one cause.",
+      "4. The response should make a clear judgment about which factor contributes most to the efficiency difference and justify that judgment from the videos.",
+      "5. The response should specifically describe how the new puppies adapt or fail to adapt to the modified maze, without subjective speculation."
+    ],
+    "metadata": {
+      "task_id": "MCL-0254_T4",
+      "context_id": "MCL-0254",
+      "turn_index": 4
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in ethology (specializing in canine cognition and social behavior), proficient in analyzing animals’ decision-making processes and learning abilities in complex environments.\nYou are required to conduct rigorous analysis based on the video, focusing on:\n1.Interactive relationships among multiple individuals (following, interference, competition, etc.)\n2.Individual path selection and decision-making changes\n3.Error behaviors, hesitation behaviors, and instances of missing the correct path\n4.Temporal order of behaviors (must distinguish “what occurred first” and “what occurred later”)\n5.Possible cognitive mechanisms underlying behaviors (e.g., trial-and-error, memory, imitation, etc.)\nRequirements:\nMust distinguish different individuals (do not generalize as “several dogs”)\nMust reason with specific behaviors (no vague summaries)\nMust reflect temporal sequence and causal relationships\nMust perform in-depth analysis instead of only superficial description\nProhibit fabricating information not shown in the video"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the first video"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Are there significant differences in the paths taken by the different dogs in the maze shown in the video? Reconstruct and compare at least three puppies: for each one, summarize the route in temporal order using concrete checkpoints (turns, dead ends, detours, pauses, reversals), then classify its strategy (direct pursuit, trial-and-error, following/interference-driven, etc.) and explain why the strategies differ."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze how other moving puppies affect the navigating puppy. Do not treat all nearby movement as interference by default. Identify at least two candidate interaction episodes and judge for each whether it causes a real route change, only a brief pause or hesitation, or no meaningful effect at all; then explain how these interactions do or do not alter the final navigation outcome."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare all puppies and determine which one shows the most stable goal-directed behavior. First define an explicit stability criterion from the video (for example persistence toward food, recovery after obstacle blocking, low randomness, low backtracking), then rank the top two puppies under that criterion and explain how the best one continuously adjusts its direction toward the fixed food location despite wire mesh and wooden board obstacles."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare VD1 (original maze"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "+ first group of puppies) with VD2"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_4ebfdb81758b.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "(modified maze + a completely new group of puppies). Analyze the difference in navigation efficiency between the two groups in their respective mazes. Your answer must separately evaluate three factors: maze-structure changes, cohort or individual differences, and moment-to-moment interference among puppies. Then judge which factor contributes most to the efficiency gap, and explain how the new puppies adapt or fail to adapt to the modified maze."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Observe the navigation process of the completely new group of puppies in VD2. Identify which puppies are most prone to \"missing key intersections\" and which are most prone to \"path hesitation\". For each error-prone puppy, distinguish repeatable error patterns from one-off mistakes, and explain how those patterns arise from the interaction between individual temperament and the modified maze structure."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should accurately identify the puppies in VD2 that are most prone to missing key intersections and the puppies most prone to hesitation, with specific behavioral evidence.",
+      "2. The response should distinguish repeatable error patterns from isolated one-off mistakes for each discussed puppy.",
+      "3. The response should analyze how these errors relate both to maze structure (such as wire meshes and wooden board placement) and to individual behavioral differences.",
+      "4. The response should avoid vague personality labels unless they are tied to concrete navigation behaviors visible in the video.",
+      "5. The response should ground all causal claims in video details and should not fabricate unobserved motives or events."
+    ],
+    "metadata": {
+      "task_id": "MCL-0254_T5",
+      "context_id": "MCL-0254",
+      "turn_index": 5
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in ethology (specializing in canine cognition and social behavior), proficient in analyzing animals’ decision-making processes and learning abilities in complex environments.\nYou are required to conduct rigorous analysis based on the video, focusing on:\n1.Interactive relationships among multiple individuals (following, interference, competition, etc.)\n2.Individual path selection and decision-making changes\n3.Error behaviors, hesitation behaviors, and instances of missing the correct path\n4.Temporal order of behaviors (must distinguish “what occurred first” and “what occurred later”)\n5.Possible cognitive mechanisms underlying behaviors (e.g., trial-and-error, memory, imitation, etc.)\nRequirements:\nMust distinguish different individuals (do not generalize as “several dogs”)\nMust reason with specific behaviors (no vague summaries)\nMust reflect temporal sequence and causal relationships\nMust perform in-depth analysis instead of only superficial description\nProhibit fabricating information not shown in the video"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please watch the first video"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ". Are there significant differences in the paths taken by the different dogs in the maze shown in the video? Reconstruct and compare at least three puppies: for each one, summarize the route in temporal order using concrete checkpoints (turns, dead ends, detours, pauses, reversals), then classify its strategy (direct pursuit, trial-and-error, following/interference-driven, etc.) and explain why the strategies differ."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Analyze how other moving puppies affect the navigating puppy. Do not treat all nearby movement as interference by default. Identify at least two candidate interaction episodes and judge for each whether it causes a real route change, only a brief pause or hesitation, or no meaningful effect at all; then explain how these interactions do or do not alter the final navigation outcome."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare all puppies and determine which one shows the most stable goal-directed behavior. First define an explicit stability criterion from the video (for example persistence toward food, recovery after obstacle blocking, low randomness, low backtracking), then rank the top two puppies under that criterion and explain how the best one continuously adjusts its direction toward the fixed food location despite wire mesh and wooden board obstacles."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare VD1 (original maze"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_da2a79630930.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "+ first group of puppies) with VD2"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_4ebfdb81758b.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "(modified maze + a completely new group of puppies). Analyze the difference in navigation efficiency between the two groups in their respective mazes. Your answer must separately evaluate three factors: maze-structure changes, cohort or individual differences, and moment-to-moment interference among puppies. Then judge which factor contributes most to the efficiency gap, and explain how the new puppies adapt or fail to adapt to the modified maze."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Observe the navigation process of the completely new group of puppies in VD2. Identify which puppies are most prone to \"missing key intersections\" and which are most prone to \"path hesitation\". For each error-prone puppy, distinguish repeatable error patterns from one-off mistakes, and explain how those patterns arise from the interaction between individual temperament and the modified maze structure."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Compare VD2 and VD3"
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_003_42200a5e498d.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": ", and analyze whether the same group of puppies shows genuine experience transfer when moving from the modified maze to the more complex maze. For each major behavior change, distinguish among three possibilities: learned adaptation, obstacle-induced new failure, or random fluctuation. Then judge overall whether prior experience from VD2 materially improves performance in VD3, partially transfers, or largely fails to transfer."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should track the same group of puppies across VD2 and VD3 and record meaningful behavior changes rather than isolated moments.",
+      "2. The response should distinguish, for major behavior changes, whether they are better explained by learned adaptation, new obstacle-driven failure, or random fluctuation.",
+      "3. The response should compare navigation duration, trial-and-error patterns, and obstacle responses across the two videos to judge experience transfer.",
+      "4. The response should identify new errors in VD3 caused by increased maze complexity and separate them from reused successful strategies from VD2.",
+      "5. The response should give a clear overall judgment on whether prior experience materially improves performance, partially transfers, or largely fails to transfer, with evidence-based justification."
+    ],
+    "metadata": {
+      "task_id": "MCL-0254_T6",
+      "context_id": "MCL-0254",
+      "turn_index": 6
+    }
+  }
+]

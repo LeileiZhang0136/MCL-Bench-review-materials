@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_027",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:20121019efma40congress-121020120025-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "20121019efma40congress-121020120025-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-1-1024.jpg",
+        "sha256": "9ddda01ceaf532341ccd9ed4338931f1cdf68bc5c358f5ef51938ca13aa82d3a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-3-1024.jpg",
+        "sha256": "307ec31c036ea16c3a688c38acd58e2db86771ea93c433e1565c9997178273c1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-4-1024.jpg",
+        "sha256": "f58ea47af93bc5a5c09eec233121821898953176b94bb4fcc5b498a6e564b838",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-6-1024.jpg",
+        "sha256": "7d13d4a28717465822b02672bab4a671a65f892a0cd6f50da21803a12644ab88",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-8-1024.jpg",
+        "sha256": "9a01f344637043ed047304b0d6c91c4d814cb016f49f98e9f8ffb6ca5fea94ba",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-10-1024.jpg",
+        "sha256": "00ac7dd4fbd3a4b84bd0e2693e6362f629073694c38585da23f43e418be50d61",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-11-1024.jpg",
+        "sha256": "e0da2a0e451ab90002c74c56fda9e8075a45e6b9d64b979ab40ac62be52acb5a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-13-1024.jpg",
+        "sha256": "7441111f43954f0f03df85259a8cdd5d42b160505ceab82584010b2153c6b49c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-15-1024.jpg",
+        "sha256": "1aed1b76aa8e39edcf7b5d38051d70b6122bbd3e01a429c5ec92368997ff403f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-17-1024.jpg",
+        "sha256": "3a8fa4debd8336af0142201d825ae7336f0a980a5e97b40dbf127c481c3df12c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-18-1024.jpg",
+        "sha256": "c758a16b61204b74159c595e4640f144abff1b743882f9f555b3b50943917e0a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/20121019efma40congress-121020120025-phpapp01_95/designing-the-future-bank-for-the-digital-era-20-1024.jpg",
+        "sha256": "742ddc505b953b0dbd4d0ca9b628fe6566e79dc2d72e1a9f6c69836c3fee3879",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

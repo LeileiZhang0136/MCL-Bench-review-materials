@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_053",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-1-1024.jpg",
+        "sha256": "7d7c22a447e2af4a9d4dc28f080dfc686eff2e8ed648f1fd39199b7f0d537e12",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-3-1024.jpg",
+        "sha256": "759cc7b0b5bbf373b867d87e7232e387d5a1b3e4ee82cf9d11caa72cec2c92b8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-4-1024.jpg",
+        "sha256": "32226416cef6ee0d526ab0fa529d312619ba730535dcfb82f0ac785464d977ec",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-6-1024.jpg",
+        "sha256": "440060b1cfb9a31002824830558940fa97c91119bf55438aeffabc9ef1bfdc7c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-8-1024.jpg",
+        "sha256": "ba090c7e77c7152f56a8d19273c841cf35e0d509306dae1131503f3813910bc7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-10-1024.jpg",
+        "sha256": "a2c0a10fde8999211f453ef4c2aca3951b7bee90a7a29428a27c9e0e73c13692",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-11-1024.jpg",
+        "sha256": "3ae08d9701bbdfe1230653541eaf309ee27b1b0e88d12c39964c17fe8ca5d80f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-13-1024.jpg",
+        "sha256": "be2edcaaa2277be8b328edaa7b3d2e081c30ed06d095ad81e364711d00c7799d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-15-1024.jpg",
+        "sha256": "2a10909f7a1597a143ad59701db25072d76b90783234ae29ae0ca668a607ca95",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-17-1024.jpg",
+        "sha256": "ef36d3d05132e761042a9af7108ac30e1901ebbc82bdd8e813018b7051570374",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-18-1024.jpg",
+        "sha256": "76c2416b4befdfdf31b13b950503299400553331c978e1334c7875c0d3c3b5b7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/shrm-globoforce-employee-recognition-2015-150615144858-lva1-app6892_95/shrmgloboforce-employee-recognition-programs2015-20-1024.jpg",
+        "sha256": "4ffe6bdda8fe341d2d2a481dbced951e712e268c86bb371389a5c5857b3cf4e4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

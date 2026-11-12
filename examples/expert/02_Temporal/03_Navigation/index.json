@@ -1,0 +1,15 @@
+{
+  "source_track": "expert",
+  "category": "Temporal Dynamics & Environmental Interaction",
+  "subcategory": "Navigation",
+  "count": 1,
+  "cases": [
+    {
+      "case_id": "MCL-0243",
+      "directory": "MCL-0243_expert_E12",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

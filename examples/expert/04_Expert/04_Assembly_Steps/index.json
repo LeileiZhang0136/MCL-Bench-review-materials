@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Expert Standards & Scenario Decision-Making",
+  "subcategory": "Assembly Steps",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0317",
+      "directory": "MCL-0317_expert_E01",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0326",
+      "directory": "MCL-0326_expert_E14",
+      "task_count": "4",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0327",
+      "directory": "MCL-0327_expert_E08",
+      "task_count": "3",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

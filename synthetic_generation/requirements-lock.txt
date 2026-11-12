@@ -1,0 +1,4 @@
+openai==2.48.0
+pydantic==2.13.4
+openpyxl==3.1.5
+Pillow==12.2.0

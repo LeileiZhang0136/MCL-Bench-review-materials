@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_023",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-1-1024.jpg",
+        "sha256": "60a525befe96856e05f40216892abe5ca13427dc498ffc3d7e078f460353e695",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-3-1024.jpg",
+        "sha256": "0fa5ff9dfe0d66af59ac9399d3493a8af43a103f46e249e95e1bb0ce7d5d0978",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-4-1024.jpg",
+        "sha256": "95b2e6965e1e250ddeded80026c2bd11d03573bd85db858a31ce94260d7025d2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-6-1024.jpg",
+        "sha256": "831a782ec5579ffb17264a871c08fa7a3ecedbaacd47e39c1800e02c7f9b92ad",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-8-1024.jpg",
+        "sha256": "3dfbc927d05715055f82a6a97870ff2aad25b60e78c8a3e083bef85ba1bca8cd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-10-1024.jpg",
+        "sha256": "6f7a9811bd3d8f5520e0dd5d7166e65bf42ac8cc60f265f63507218a97a6c48f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-11-1024.jpg",
+        "sha256": "cf8c57203cbb21a368ce9c4d2e0e6dd24efd3531ceff132dbb2766b02f317029",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-13-1024.jpg",
+        "sha256": "7bb711ae6eda3a65f3148cd0c9c8a34156bb98bf25ea1312a3f8322c493e6711",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-15-1024.jpg",
+        "sha256": "272e82996a52172405ea08e296c1f7a439eaa67f96f596f014d35ec6f00c8196",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-17-1024.jpg",
+        "sha256": "e19953d7bdcb4333309ea05c4a6a89408e8a2c437ae950e625a751fe758eb416",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-18-1024.jpg",
+        "sha256": "1656a16c25db0cac280ef09ea4fd0f918a64d1e5154c07e0724164d4188c455b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/4bbj5u8sxsnv1uyyp8nr-signature-b4e62f633fe111691b4e4adcb6dd0828207a3945823985ac0fbf8e9e3e1f5fcf-poli-141001145044-phpapp02_95/sandia-2014-wind-turbine-blade-workshop-nolet-20-1024.jpg",
+        "sha256": "b1210e0d0d1d2734466fb9341b46ae682861875baaa36b5e0f8fe08a9cbd6eb8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

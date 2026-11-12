@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_085",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:earthlinkweb-150213112111-conversion-gate02_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "earthlinkweb-150213112111-conversion-gate02_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page0.jpg",
+        "sha256": "04ebedd41cf7e47017a874f7d36e588afa73ec27cfc101d02e2d20535e26b6a0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page4.jpg",
+        "sha256": "26cba791b6c0f136ad7ef104ad5f6b261343a18b4ac19c495396a1e7f94455d6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page8.jpg",
+        "sha256": "f8dfcc6f4dc45bca7a52b27903bbe3a175d3cc0aabcf7c6f99b1f2798f65e68d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page12.jpg",
+        "sha256": "17da3fb69711fbd8cd8891e669b45d54366580aaa6e6a2e4c6acfe8601e05d49",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page16.jpg",
+        "sha256": "a814c67726df68a964fea1f6f19e9f33ad607d09417927cc6e85c733f41e25c7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page20.jpg",
+        "sha256": "8fecd0272cb9c18b58fcefe29bd24e4bdae93a844fb14e70a0716032a9c8ecdd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page23.jpg",
+        "sha256": "d2ec03f72e0d2d79bb6672775b1e42a3a00e1ad94353773c23510a386a93254c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page27.jpg",
+        "sha256": "0d1cd3a399bdddd8624f9d9500c8aeef2510635a0cce06b26fbadd5159157268",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page31.jpg",
+        "sha256": "f67d843836001086d0841faa9c061920ff2da6f37ede0a8df864d77bdef23bde",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page35.jpg",
+        "sha256": "21aed32b6d095b4f4d5c259307701543048f19896a0daa4c850720149a7038a1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page39.jpg",
+        "sha256": "09a9dd49c450b4d5e88092ebdb47fe1400da7affa2686488fbf12d450f81575e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/earthlinkweb-150213112111-conversion-gate02_95/earthlinkweb-150213112111-conversion-gate02_95_page43.jpg",
+        "sha256": "ed248ecc2c85f973d4c3dd5927ce60f59ac014f3bd8615ce03fbae78d7b06332",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

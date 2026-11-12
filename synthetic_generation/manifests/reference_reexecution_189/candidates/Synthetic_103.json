@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_103",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:PG_20.07.30_U.S.-Views-China_final",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "PG_20.07.30_U.S.-Views-China_final",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page0.jpg",
+        "sha256": "1539fe69f57d823b0ce6f5f61952ac96cc2b32345c36511bd5e3ba81d1d5c29d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page2.jpg",
+        "sha256": "9cf76538287fc6d34d2b904f09eb80296489ae8a233c206d40404cd74248e9ec",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page4.jpg",
+        "sha256": "9306c79835ea881cbdf7eaddd02b828b61aaf3a06608292e2fe0b5db331635a2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page6.jpg",
+        "sha256": "c3008dc8ff05e1ab40026ea2154ba65ca8d97dc88d2dfb6da58e39334a1fa213",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page8.jpg",
+        "sha256": "bc4516c41ecd985f07e6c05bb8e51f275850be103450d57609f46ffd4f97479f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page10.jpg",
+        "sha256": "6e36fe28c7b4b307cc7f45952d108230b486ee30a83d0b36ce190c3da353cdb7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page11.jpg",
+        "sha256": "2769690db155d5ffa2f25718624be045057d03d4de34dc6113599c36ef3f6866",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page13.jpg",
+        "sha256": "c6146c2f9370c028020c4461d9c4bb71d9356a8784cca6a14f6445c41112c7ec",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page15.jpg",
+        "sha256": "891f1d7da2b4271a3f0b7c28cc225eaffb45884af04563fb43c6f3905ba0bf3e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page17.jpg",
+        "sha256": "3e60b33a7948fcddf9102df0fa6dd9817a15fff335cda854566b1080e04daf41",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page19.jpg",
+        "sha256": "86a3557f31f5a3d2ed79dbcb9c81217b960fa30723a63bd523ddcf6f6006a41a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/PG_20.07.30_U.S.-Views-China_final/PG_20.07.30_U.S.-Views-China_final_page21.jpg",
+        "sha256": "1744cf672a841cd4d3396d8e3f48eccba6768d1617639a0d549b29b24f2e7190",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

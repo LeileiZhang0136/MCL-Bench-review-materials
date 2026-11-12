@@ -1,0 +1,285 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "你是一名 复杂规则推理与认知干扰解析专家（Complex Rule Reasoning & Cognitive Interference Analysis Expert），长期研究 多层规则系统、逻辑递归结构、时间与编号映射关系以及叙事型干扰文本中的有效信息提取问题。\n你特别擅长在 大量噪声信息、叙事性干扰、模糊规则以及相互冲突的条件 中识别真正影响结果的关键变量，并通过 严格的逻辑推理、条件拆解和规则优先级分析 来计算最终结论。\n你的核心能力包括：\n1. 规则解析能力 能够从复杂叙事中提取正式规则，并区分：\n有效规则\n已废止规则\n误导性信息\n与最终问题无关的叙事干扰\n2. 逻辑优先级判断 在规则发生更新、废止或覆盖时，你能够准确识别：\n哪些规则仍然生效\n哪些规则被新通知完全替代\n哪些规则只是背景叙事\n3. 时间与编号计算能力 能够处理涉及：\n日期运算\n间隔天数计算\n奇偶系数转换\n编号映射关系\n4. 递归与歧义解析能力 在规则中出现模糊表达（例如“当前注视的柜门编号”）时，你能够根据上下文确定其唯一合理解释。\n5. 结构化结果表达能力 你的最终答案必须：\n给出清晰的逻辑推理步骤\n标明关键变量\n输出最终结果\n如果用户要求 图片形式的答案，你需要将推理结果整理为 结构化信息图（infographic style），图片中必须包含：\n关键规则\n变量定义\n计算公式\n推理步骤\n最终答案\n你的目标是： 在复杂叙事干扰中恢复清晰逻辑，并给出唯一合理结论。"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_5031210fdf47.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_5031210fdf47.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_5031210fdf47.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "阅读视频："
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_b719e890f62d.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "了解阶梯\n这是第一个台阶 我们可以看到 第一层 他的下面一层是平整的所以是平地 可以参考链接读取视频进一步了解阶梯。当前我站在所拍摄的位置 我的脚所在的位置是第0层。楼梯是由以一致方向排列的离散台阶组成的多层结构。\n[图层定义]\n1、每层由连接块（或像素）构成的水平段组成。\n2、分层垂直堆放，层层叠叠。\n[步骤关系规则]\n3、下一上层必须与上一层相邻，且方向一致。\n4、班次形成阶梯式，如：\n-右移（|）\n-左移（| _）\n5、每个新层从上一层结束的地方开始（边连接）。\n[形状约束]\n各层必须保持连续（不间断）结构。\n7、结构必须形成单调级数：\n-沿一个轴严格增加或减少\n[方向一致性]\n8、各层必须遵循相同的移位方向。\n-无交替方向\n-无随机偏移\n[高度和深度]\n有效楼梯必须至少有两层。\n10、层数决定楼梯高度。\n[无效案例]\n结构不是有效楼梯，如果：\n-层未连接\n-换档方向不一致\n-层不规则重叠\n-没有明确的步进 请学会他们的台阶表示层的规律。 下面添加物品：\n]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_0aa449056d0c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_d966b9b5bb3a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "我当前在第x层也就是你图片所看到的位置添加了一个眼药水，第4层添加了一个水杯，同时有人认为它应该属于第2层。在第5层添加了一本笔记本，同时有人说它其实更适合第1层。 在第6层添加了一个充电器，有人觉得它明显属于第7层。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_413198ac14eb.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "现在我肯定他一定在第二层。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_054d70c0a549.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "物品继续变换 此时我继续保证他在第1层"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_b9190bc49ad7.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "糟了物品继续变换此时我也忘记他在第几层了怎么办 先不管这个问题先看下面的图片吧自己推理吧，"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_569b0164b5a7.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "这个最后一种图片他在第x>=1层"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "最后一张图片在第几层？"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should explicitly state that the object in the final image is on Layer",
+      "1.",
+      "2. The response may express the result as “Layer 1” or the number “1”, but should be unambiguous.",
+      "3. The response should correctly interpret the staircase structure as a discrete, layered system starting from Layer 0 at the base.",
+      "4. The response should identify that each layer is defined by horizontal continuity and step-wise vertical progression.",
+      "5. The response should correctly count the number of visible steps/layers in the final image and map them to layer indices.",
+      "6. The response should recognize that the current reference position (standing point) is Layer",
+      "0.",
+      "7. The response should not be influenced by misleading statements about object reassignment (e.g., “someone thinks it belongs to another layer”).",
+      "8. The response should ignore narrative uncertainty (e.g., “I forgot which layer it is”).",
+      "9. The response should base its reasoning solely on the structural properties of the staircase in the final image.",
+      "10. The response should not invent additional layers or assume invalid structure.",
+      "11. The reasoning should be consistent with the monotonic, single-direction step constraint.",
+      "12. The final answer should be unique and logically derived."
+    ],
+    "metadata": {
+      "task_id": "MCL-0205_T1",
+      "context_id": "MCL-0205",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "你是一名 复杂规则推理与认知干扰解析专家（Complex Rule Reasoning & Cognitive Interference Analysis Expert），长期研究 多层规则系统、逻辑递归结构、时间与编号映射关系以及叙事型干扰文本中的有效信息提取问题。\n你特别擅长在 大量噪声信息、叙事性干扰、模糊规则以及相互冲突的条件 中识别真正影响结果的关键变量，并通过 严格的逻辑推理、条件拆解和规则优先级分析 来计算最终结论。\n你的核心能力包括：\n1. 规则解析能力 能够从复杂叙事中提取正式规则，并区分：\n有效规则\n已废止规则\n误导性信息\n与最终问题无关的叙事干扰\n2. 逻辑优先级判断 在规则发生更新、废止或覆盖时，你能够准确识别：\n哪些规则仍然生效\n哪些规则被新通知完全替代\n哪些规则只是背景叙事\n3. 时间与编号计算能力 能够处理涉及：\n日期运算\n间隔天数计算\n奇偶系数转换\n编号映射关系\n4. 递归与歧义解析能力 在规则中出现模糊表达（例如“当前注视的柜门编号”）时，你能够根据上下文确定其唯一合理解释。\n5. 结构化结果表达能力 你的最终答案必须：\n给出清晰的逻辑推理步骤\n标明关键变量\n输出最终结果\n如果用户要求 图片形式的答案，你需要将推理结果整理为 结构化信息图（infographic style），图片中必须包含：\n关键规则\n变量定义\n计算公式\n推理步骤\n最终答案\n你的目标是： 在复杂叙事干扰中恢复清晰逻辑，并给出唯一合理结论。"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_5031210fdf47.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_5031210fdf47.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_5031210fdf47.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "阅读视频："
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_b719e890f62d.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "了解阶梯\n这是第一个台阶 我们可以看到 第一层 他的下面一层是平整的所以是平地 可以参考链接读取视频进一步了解阶梯。当前我站在所拍摄的位置 我的脚所在的位置是第0层。楼梯是由以一致方向排列的离散台阶组成的多层结构。\n[图层定义]\n1、每层由连接块（或像素）构成的水平段组成。\n2、分层垂直堆放，层层叠叠。\n[步骤关系规则]\n3、下一上层必须与上一层相邻，且方向一致。\n4、班次形成阶梯式，如：\n-右移（|）\n-左移（| _）\n5、每个新层从上一层结束的地方开始（边连接）。\n[形状约束]\n各层必须保持连续（不间断）结构。\n7、结构必须形成单调级数：\n-沿一个轴严格增加或减少\n[方向一致性]\n8、各层必须遵循相同的移位方向。\n-无交替方向\n-无随机偏移\n[高度和深度]\n有效楼梯必须至少有两层。\n10、层数决定楼梯高度。\n[无效案例]\n结构不是有效楼梯，如果：\n-层未连接\n-换档方向不一致\n-层不规则重叠\n-没有明确的步进 请学会他们的台阶表示层的规律。 下面添加物品：\n]"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_0aa449056d0c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_d966b9b5bb3a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "我当前在第x层也就是你图片所看到的位置添加了一个眼药水，第4层添加了一个水杯，同时有人认为它应该属于第2层。在第5层添加了一本笔记本，同时有人说它其实更适合第1层。 在第6层添加了一个充电器，有人觉得它明显属于第7层。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_413198ac14eb.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "现在我肯定他一定在第二层。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_054d70c0a549.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "物品继续变换 此时我继续保证他在第1层"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_b9190bc49ad7.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "糟了物品继续变换此时我也忘记他在第几层了怎么办 先不管这个问题先看下面的图片吧自己推理吧，"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_569b0164b5a7.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "这个最后一种图片他在第x>=1层"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "最后一张图片在第几层？"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "物品出现在各层的次数分别是多少？"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should report the frequency of object appearances across layers, specifically including Layer 1 and Layer",
+      "2.",
+      "2. A fully correct answer should state that Layer 1 appears 4 times and Layer 2 appears 2 times.",
+      "3. A partially correct answer may state that Layer 1 appears 3 times and Layer 2 appears 2 times, provided the remaining instance is explicitly identified as uncertain or ambiguous.",
+      "4. The response should base its counting on the sequence of valid images and ignore contradictory or misleading reassignment statements.",
+      "5. The response should not include fabricated layer counts, such as layers that are not supported by the staircase structure.",
+      "6. The reasoning should be consistent with the staircase layer definition and should maintain a fixed reference frame where Layer 0 is treated as the ground and counting proceeds upward."
+    ],
+    "metadata": {
+      "task_id": "MCL-0205_T2",
+      "context_id": "MCL-0205",
+      "turn_index": 2
+    }
+  }
+]

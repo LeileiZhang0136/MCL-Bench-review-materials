@@ -1,0 +1,204 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a navigation rules training expert. Your task is to consult the given context and answer the user's question based on that context."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based on the quick-rule diagrams\n# context_id19\n\n## Page 1\n\nQUICK REFERENCE  \nAbbreviated Guide To Navigation Rules Of the Road \nBased on the Navigation Rules International – Inland (Commandant Instruction M16672.2D, 1999) \nDEFINITIONS (From Rule 3) \nVessel Engaged in Fishing – Any vessel fishing with nets, lines, trawls or other fishing apparatus that restricts \nmaneuverability, and excluding vessels fishing with trolling lines or other fishing apparatus that does not restrict \nmaneuverability \nVessel Not Under Command – A vessel unable to keep out of the way of other vessels because an exceptional \ncircumstance is hindering its maneuverability (steering failure, engine breakdown, etc.) \nVessel Restricted In Its Ability To Maneuver – A vessel unable to keep out of the way of other vessels because \nthe nature of its work is hindering its ability to maneuver (buoy tender picking up a buoy, vessel transferring persons, \nprovisions or cargo while underway, etc.) \nUnderway – A vessel not at anchor, aground or made fast to the shore \nGive-Way Vessel – A vessel that must change course or speed to avoid a collision with a stand-on vessel \nStand-On Vessel – A vessel that must maintain course and speed except to avoid collision with another vessel \nLOOKOUT (From Rule 5)  \nRESPONSIBILITIES BETWEEN VESSELS \n(From Rules 13, 18)\nEvery vessel shall at all times maintain a proper lookout. \nTo determine which vessel must give-way in an \nSAFE SPEED (From Rule 6) \nYou must go slow enough to \nprevent a collision no matter \nwhat the conditions. \napproach situation, it is essential to know the hierarchy\nAll vessels must \nestablished by the Rules:\nproceed at a safe speed at \n1st – Vessel not under command or vessel restricted in \nall times. \nits ability to maneuver \nDETERMINING RISK OF COLLISION (From Rule 7) \nEvery vessel must use all \navailable means appropriate, \nincluding lookout (eyes and \nears), radar and radio, to \nSteady bearing and \ndecreasing range indicate a \nrisk of collision. \ndetermine if a risk of collision exists. \nACTION TO AVOID COLLISION (From Rule 8) \nAction to avoid collision should be taken well in advance \nof any potential meeting. Any course or speed change \nshould be great enough to be obvious to any approaching \nvessel. Avoid a succession of small alterations of course. \nNARROW CHANNELS (From Rule 9) \nA vessel engaged in fishing shall not impede the \npassage of any vessel navigating in a narrow channel or \nfairway. \nTRAFFIC SEPARATION SCHEMES (From Rule 10) \nA vessel engaged in fishing shall not impede the \npassage of any vessel following a traffic lane. \nOVERTAKING ANOTHER VESSEL \n(From Rules 13 and 17) \nA vessel that is being \novertaken shall keep its \ncourse and speed. \n3rd – Any vessel being overtaken \n4th – Vessel engaged in fishing \n5th – Vessel under sail \n6th – Power-driven vessel \nMEETING ANOTHER VESSEL HEAD-ON \n(From Rules 14) \nWhen two power-driven vessels meet on reciprocal \n(head-on) or nearly reciprocal courses so as to involve the \nrisk of collision, both shall alter course to starboard so that \nthey pass port-to-port (except as provided by Rules 9, 10 \nand 18) \nCROSSING SITUATION (From Rules 15 and 17) \nWhen two power-driven vessels are crossing so as to \ninvolve the risk of collision, the vessel which has the other \non her own starboard side shall keep out of the way and \navoid crossing ahead of the other vessel. \nACTION BY THE GIVE-WAY VESSEL \n(From Rule 16) \nEvery vessel n sight of another and required to give way \nto another vessel shall, so far as posssible, take early and \nsubstantial action to give way. \nACTION BY THE STAND-ON VESSEL \n(From Rule 17) \nWhen one of two vessels is required to give way, the \nother vessel (the stand-on vessel) shall maintain its course \nand speed."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_8059fbc6b0f0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\nLights And Shapes  \nRules in this part shall be complied with in all \nweathers. Rules concerning lights apply from sunset \nto sunrise. During such times no other lights shall be \nexhibited, except lights that cannot be mistaken for and \nthat do not impair the visibility or distinctive character of \nthe lights specified in these Rules, or interfere with the \nkeeping of a proper lookout. \nThe lights specified in these Rules shall also be \nexhibited from sunrise to sunset in restricted visibility \nand may be exhibited in other circumstances when \ndeemed necessary. \nThe Rules concerning shapes shall be compiled with \nby day. \nAPPLICATION (From Rule 20) \nVessel engaged in \nfishing other than trawling – \nnot making way (Rule 26) \nVessel engaged in \nfishing other than trawling – \nmaking way (Rule 26) \nFor either of the above, where there \nis outlying gear extending more than 150 \nmeters horizontally from the vessel, display \nan all-round white light or a cone apex \nupward in the direction of the gear. \nVessel 164 feet (50 \nmeters) or more in length \nengaged in trawling – \nmaking way (Rule 26) \nVessel 164 feet (50 \nmeters) or more in length \nengaged in trawling – not \nmaking way (Rule 26) \nRight: \nVessel less \nthan 164 feet \n(50 meters \nin length \nengaged in \ntrawling – \nmaking way \nFar right: Vessel less than 164 feet (50 meters) in length \nengaged in trawling – not making way (Rule 26) \nPower-driven vessel \n164 feet (50 meters) or \nmore in length underway \n(Rule 23) \nPower-driven vessel \nless than 164 feet (50 \nmeters) in length underway \n(Rule 23) \nPower-driven vessel \ntowing astern - towing \nvessel less than 164 feet \n(50 meters) in length; \nlength of tow exceeds 656 \nfeet (200 meters) (Rule 24) \nPower-driven vessel \npushing ahead or towing \nalongside vessel less than \n164 feet (50 meters) in \nlength (International ONLY \n- Rule 24) \nVessel or object being \ntowed - length of tow \nexceeds 656 feet (200 \nmeters) (Rule 24) \nRules apply to both International and Inland waters \nunless otherwise noted \nAbove -\nLeft: Sailing vessel underway (Rule 25) \nMiddle: Sailing vessel underway (less than 65.6 feet) \n(Rule 25) \nRight: Vessel under oars (Rule 25)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_6a4491f4e9e0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_9fbc2cde9b35.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_affcfa31cc7e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_9666eb9d4814.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_4daee6c72d80.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_7e341fadad12.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_6e30ef294932.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_513f8ad9564d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_f149baf17d0a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_70625390e06c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_012_a21b4f5c0243.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_013_ddd3d42e8b4b.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\nLights And Shapes  \nVessel not under \nVessel engaged in \ncommand - making way \npilotage duty - underway \n(Rule 27) \n(Rule 29) \nVessel not under \nVessel less than 164 \ncommand - not making way \nfeet (50 meters) engaged \n(Rule 27) \nin pilotage duty - at anchor \n(Rules 29 and 30) \nVessel less than 164 \nVessel less than 164 \nfeet (50 meters) restricted \nfeet (50 meters) at anchor \nin ability to maneuver -\n(Rule 30) \nmaking way (Rule 27) \nVessel less than 164 \nVessel at anchor with \nfeet (50 meters) restricted \ndeck illumination - required \nin ability to maneuver - at \nfor vessels 328 feet (100 \nanchor (Rule 27) \nmeters) or more in length \n(Rule 30) \nVessel engaged in  \ndredging or underwater \noperations - restricted \nin ability to manuever \n- making way with an \nobstruction on the \nstarboard side - Rule 27) \nVessel 164 feet (50 \nmeters) or more in length -\naground (Rule 30) \nVessel engaged in  \ndredging or underwater \noperations - restricted \nin ability to manuever \n- not making way with \nan obstruction on the \nstarboard side - Rule 27) \nVessel constrained \nby its draft (International \nONLY - Rule 28) \nVessel less than 164 \nfeet (50 meters) in length -\naground (Rule 30) \nRules apply to both International and Inland waters \nunless otherwise noted"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_014_f826fb5e5d77.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_015_a5dc05f291fc.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_016_d0ac5f907f44.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_017_5c9ad39af98e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_018_98e6a0d2ac83.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_019_f6dc12ec404e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_020_d3618ac0c824.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_021_c645c68dea93.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_022_0d7b747fcdb7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_023_46ec49f5b93f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_024_0bb15552ca01.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_025_99773fa0c53b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_026_530bb355b64a.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\nQUICK REFERENCE  \nAbbreviated Guide To Navigation Rules Of the Road \nBased on the Navigation Rules International – Inland (Commandant Instruction M16672.2D, 1999) \nCONDUCT OF VESSELS IN RESTRICTED VISIBILITY (From Rule 19) \nIf you hear a fog signal forward of your beam, or if you detect by radar another vessel forward of your beam, take \navoiding action in ample time. Unless you are overtaking, avoid if at all possible altering your course to port; whenever \npossible alter course to starboard. Also, adjust to a safe speed for prevailing circumstances and conditions of visibility. \nThis includes, if necessary, taking all way off your vessel (see Rules 2, 6 and 19). \nSound Signals In Restricted  \nVisibility  \n(From Rule 35 – apply to both International and Inland  \nwaters) Signal intervals are  \nnot more than 2 minutes unless otherwise noted  \n– \nPower-driven making way \n– – \nPower-driven underway but \nstopped, making no way \n– •• \nVessel not under command, vessel \nrestricted in ability to maneuver, \nvessel constrained by draft, sailing \nvessel, vessel engaged in fishing, \nor vessel engaged in towing or \npushing \n– ••• \nVessel being towed or last vessel \nof tow, if manned \nRapid ringing \nAnchored \nof bell for 5 seconds \nevery minute \n• – • \nAnchored (optional signal) \nRapid \nAnchored over 100 meters \nringing of bell \nfor 5 seconds \nfollowed by sounding \nof gong every \nminute \nThree \nAground \nstrokes of \nbell immediately \nbefore and after \nan “Anchored”\n bell signal \n•••• \nPilot vessel engaged in pilotage \nduty \nNote: Dash “ – ” is a 4 - 6 second or prolonged blast. \nDot “ • ” is a 1 second or short blast. \nWarning and Maneuvering \nSignals \n(From Rule 34 – apply to International  \nand Inland waters with differences noted )  \nShort blast signals are only sounded in sight  \nof the other vessel, not in restricted visibility.  \n• \nInternational: I am altering course to \nstarboard \nInland: I intend to leave you on my port \nside \n•• \nInternational: I am altering course to port \nInland: I intend to leave you on my \nstarboard side \n••• \nI am operating astern propulsion \n••••• \nDanger signal \n– \nBend signal \nThis guide provides only an overview of \nnavigation rules of the road. In no instance \nin this publication has a complete rule from \nNavigation Rules International – Inland been \nreprinted. \nRule numbers cited refer to the rules from \nwhich information was extracted. This guide \nis not intended as a substitute for the actual \nNavigation Rules International – Inland \n(Commandant Instruction M16672.2D) \nThis publication was created by the Commercial \nFishing Vessel Industry Safety Advisory Committee \nwith the the cooperation of the U.S. Coast Guard, \nthe Alaska Marine Safety Education Association, the \nNorth Pacific Fishing Vessel Owners Association \nVessel Safety Program and Crawford Nautical \nSchool. \n© 2009\nfor head-on, crossing, and overtaking on page 1, together with the signals and maneuvering guidance for restricted visibility on page 4, consider this scenario: in fog, you detect another vessel on radar that remains forward of your beam, and you cannot clearly classify it as overtaking. In that case, which turning direction is least advisable? Why can this conclusion not be determined solely by applying the usual crossing give-way rule?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.The response should recognize that restricted visibility is an independent situation, rather than an ordinary visual encounter situation.",
+      "2.The response should point out the key meaning of 'forward of your beam'.",
+      "3.The response should clearly state that turning to port is not the preferred action.\",",
+      "4.The response should explain why the quick crossing judgment on page 1 cannot be directly applied.",
+      "5.The response should reason jointly from the content of both pages."
+    ],
+    "metadata": {
+      "task_id": "MCL-0341_T1",
+      "context_id": "MCL-0341",
+      "turn_index": 1
+    }
+  }
+]

@@ -1,0 +1,1323 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-world student-support referral evidence auditor. This case uses real local images from dataset=mmlongbench-doc, sample_id=StudentSupport_Guidebook, split=not provided in local metadata, source_url: not provided in local metadata, license: not provided in local metadata. The case contains 44 images, [IMG:1.jpg] through [IMG:44.jpg], in natural filename order from the source sample directory. Do not use internet access, outside domain knowledge, or facts not visible in these images.\nTask world: student support guide cross-page rule audit with service matching, referral steps, and held-out scenario routing. The required visual anchor focus is service labels, referral steps, forms, tables, icons, contact details, page numbers, and cross-page section dependencies. For every image, build a Visual Anchor Ledger with these fields: Image_ID, visible title/header, evidence family, key visible numbers or labels, table/chart/axis/legend evidence, arrow/process/page-order evidence, source/note/unit evidence, uncertainty flag, and local audit score.\nCase-local scoring rules: Numeric Evidence = 2 points when a visible number, percentage, count, time, threshold, or ratio is present. Structured Evidence = 2 points when a table, chart, axis, legend, grid, matrix, benchmark panel, or form-like block is present. Flow Evidence = 1 point when arrows, numbered steps, process nodes, page sequence, timeline, or cause-effect connectors are present. Trace Evidence = 1 point when a source note, unit, footnote, caption, title, page number, or section label is visible. Cross-Image Evidence = 1 point when the image clearly continues, contrasts with, or calibrates another image in this same case. Classify each image as Guide-Core when score >= 6, Guide-Support when score is 4 or 5, Guide-Review when score is 2 or 3, and Need Review when required anchors are unreadable. Final route codes must use the prefix `GUIDE`. Ties are resolved by higher Structured Evidence, then earlier Image_ID. All conclusions must cite image placeholders and the exact visible anchors used."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 1. Build the full Visual Anchor Ledger for all 44 images, [IMG:1.jpg] through [IMG:44.jpg]. For each image, extract the visible title/header, evidence family, at least one task-relevant visual anchor when present, uncertainty flag, score, and local class (Guide-Core, Guide-Support, Guide-Review, or Need Review). End with `Ledger_Status = complete/incomplete` and list any images that require review."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_8a4c937a6eed.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_dfaf0c042f06.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_505507bbed1a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_b97defcbc27e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_9a8f115206d0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_82584ad6106b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_22478eea7def.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_997d75f0cd37.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_6be403afc7b2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_13fc746a1dba.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_efa8af8f6268.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_05d233eeeb96.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_cf51df209154.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e9f9a80d984a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_42b16d69ebb4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_3e6bcfd58f97.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_6ba87e16e4c1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_a2cf8940b36c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_74311cdfde1d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_0c850ce0fff3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_81d49c1bd178.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_4dcf0da201b1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_366cf2e96b8d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_024_69a9d2457ce5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_025_6a7da45df107.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_026_36822f392d71.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_027_e7ece0834c2e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_028_7c87a8048d5f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_029_973b88a5eb52.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_030_66eae3b2caf6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_031_6996781b642d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_032_98a8fab81f4c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_033_142fb0eab6a9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_034_9f440a752171.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_035_758ed3924693.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_036_6ab812d42733.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_037_3d4cd4ba7f94.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_038_dd16ff3dbab0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_039_7f1d8d1af2f0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_040_e870767e87d7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_041_0c141d84ead1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_042_e16901e15474.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_043_aa3c8c5c24a8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_044_d73ebb482c27.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should include exactly 44 ledger rows, one for each image placeholder from [IMG:1.jpg] through [IMG:44.jpg].",
+      "2. The response should identify a visible title, header, section label, page number, or filename-derived placeholder for each image rather than leaving generic blanks.",
+      "3. The response should separate Numeric Evidence, Structured Evidence, Flow Evidence, Trace Evidence, and Cross-Image Evidence instead of merging them into one vague note.",
+      "4. The response should assign scores using only the point values defined in the system message.",
+      "5. The response should use only the allowed local classes Guide-Core, Guide-Support, Guide-Review, and Need Review.",
+      "6. The response should mark an image Need Review when the task-relevant visual anchors are unreadable or absent instead of inventing anchors.",
+      "7. The response should cite image placeholders in every ledger row.",
+      "8. The response should set `Ledger_Status = complete` only if every image has a row and a class.",
+      "9. The response should not use outside knowledge about the dataset topic, product, organization, technology, or public policy domain.",
+      "10. The response should preserve natural image order and not sort lexicographically by filenames such as placing 10 before",
+      "2."
+    ],
+    "metadata": {
+      "task_id": "MCL-0156_T1",
+      "context_id": "MCL-0156",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-world student-support referral evidence auditor. This case uses real local images from dataset=mmlongbench-doc, sample_id=StudentSupport_Guidebook, split=not provided in local metadata, source_url: not provided in local metadata, license: not provided in local metadata. The case contains 44 images, [IMG:1.jpg] through [IMG:44.jpg], in natural filename order from the source sample directory. Do not use internet access, outside domain knowledge, or facts not visible in these images.\nTask world: student support guide cross-page rule audit with service matching, referral steps, and held-out scenario routing. The required visual anchor focus is service labels, referral steps, forms, tables, icons, contact details, page numbers, and cross-page section dependencies. For every image, build a Visual Anchor Ledger with these fields: Image_ID, visible title/header, evidence family, key visible numbers or labels, table/chart/axis/legend evidence, arrow/process/page-order evidence, source/note/unit evidence, uncertainty flag, and local audit score.\nCase-local scoring rules: Numeric Evidence = 2 points when a visible number, percentage, count, time, threshold, or ratio is present. Structured Evidence = 2 points when a table, chart, axis, legend, grid, matrix, benchmark panel, or form-like block is present. Flow Evidence = 1 point when arrows, numbered steps, process nodes, page sequence, timeline, or cause-effect connectors are present. Trace Evidence = 1 point when a source note, unit, footnote, caption, title, page number, or section label is visible. Cross-Image Evidence = 1 point when the image clearly continues, contrasts with, or calibrates another image in this same case. Classify each image as Guide-Core when score >= 6, Guide-Support when score is 4 or 5, Guide-Review when score is 2 or 3, and Need Review when required anchors are unreadable. Final route codes must use the prefix `GUIDE`. Ties are resolved by higher Structured Evidence, then earlier Image_ID. All conclusions must cite image placeholders and the exact visible anchors used."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 1. Build the full Visual Anchor Ledger for all 44 images, [IMG:1.jpg] through [IMG:44.jpg]. For each image, extract the visible title/header, evidence family, at least one task-relevant visual anchor when present, uncertainty flag, score, and local class (Guide-Core, Guide-Support, Guide-Review, or Need Review). End with `Ledger_Status = complete/incomplete` and list any images that require review."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_8a4c937a6eed.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_dfaf0c042f06.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_505507bbed1a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_b97defcbc27e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_9a8f115206d0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_82584ad6106b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_22478eea7def.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_997d75f0cd37.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_6be403afc7b2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_13fc746a1dba.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_efa8af8f6268.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_05d233eeeb96.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_cf51df209154.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e9f9a80d984a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_42b16d69ebb4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_3e6bcfd58f97.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_6ba87e16e4c1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_a2cf8940b36c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_74311cdfde1d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_0c850ce0fff3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_81d49c1bd178.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_4dcf0da201b1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_366cf2e96b8d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_024_69a9d2457ce5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_025_6a7da45df107.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_026_36822f392d71.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_027_e7ece0834c2e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_028_7c87a8048d5f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_029_973b88a5eb52.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_030_66eae3b2caf6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_031_6996781b642d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_032_98a8fab81f4c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_033_142fb0eab6a9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_034_9f440a752171.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_035_758ed3924693.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_036_6ab812d42733.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_037_3d4cd4ba7f94.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_038_dd16ff3dbab0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_039_7f1d8d1af2f0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_040_e870767e87d7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_041_0c141d84ead1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_042_e16901e15474.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_043_aa3c8c5c24a8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_044_d73ebb482c27.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 2. Use the Round 1 ledger to select the strongest contiguous evidence window. A window must contain 4 consecutive images. Score each window by summing local audit scores, subtracting 2 for every Need Review image, and adding 1 if at least two images in the window are classified Guide-Core. Return the winning window, its total score, the route code `GUIDE-Window-Prime`, and the first runner-up."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should evaluate only contiguous 4-image windows.",
+      "2. The response should compute each considered window from Round 1 image scores and Need Review penalties.",
+      "3. The response should add the +1 bonus only when at least two images in that window are classified Guide-Core.",
+      "4. The response should apply the tie-breaker of higher Structured Evidence, then earlier Image_ID.",
+      "5. The response should return both the winning window and first runner-up.",
+      "6. The response should use the exact route code `GUIDE-Window-Prime` for the winning window.",
+      "7. The response should cite all four image placeholders in the winning window.",
+      "8. The response should not select a window solely because its topic sounds important without applying the score rules.",
+      "9. The response should explain any excluded high-looking image if it was outside the winning contiguous window.",
+      "10. The response should keep all calculations within the local scoring system."
+    ],
+    "metadata": {
+      "task_id": "MCL-0156_T2",
+      "context_id": "MCL-0156",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-world student-support referral evidence auditor. This case uses real local images from dataset=mmlongbench-doc, sample_id=StudentSupport_Guidebook, split=not provided in local metadata, source_url: not provided in local metadata, license: not provided in local metadata. The case contains 44 images, [IMG:1.jpg] through [IMG:44.jpg], in natural filename order from the source sample directory. Do not use internet access, outside domain knowledge, or facts not visible in these images.\nTask world: student support guide cross-page rule audit with service matching, referral steps, and held-out scenario routing. The required visual anchor focus is service labels, referral steps, forms, tables, icons, contact details, page numbers, and cross-page section dependencies. For every image, build a Visual Anchor Ledger with these fields: Image_ID, visible title/header, evidence family, key visible numbers or labels, table/chart/axis/legend evidence, arrow/process/page-order evidence, source/note/unit evidence, uncertainty flag, and local audit score.\nCase-local scoring rules: Numeric Evidence = 2 points when a visible number, percentage, count, time, threshold, or ratio is present. Structured Evidence = 2 points when a table, chart, axis, legend, grid, matrix, benchmark panel, or form-like block is present. Flow Evidence = 1 point when arrows, numbered steps, process nodes, page sequence, timeline, or cause-effect connectors are present. Trace Evidence = 1 point when a source note, unit, footnote, caption, title, page number, or section label is visible. Cross-Image Evidence = 1 point when the image clearly continues, contrasts with, or calibrates another image in this same case. Classify each image as Guide-Core when score >= 6, Guide-Support when score is 4 or 5, Guide-Review when score is 2 or 3, and Need Review when required anchors are unreadable. Final route codes must use the prefix `GUIDE`. Ties are resolved by higher Structured Evidence, then earlier Image_ID. All conclusions must cite image placeholders and the exact visible anchors used."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 1. Build the full Visual Anchor Ledger for all 44 images, [IMG:1.jpg] through [IMG:44.jpg]. For each image, extract the visible title/header, evidence family, at least one task-relevant visual anchor when present, uncertainty flag, score, and local class (Guide-Core, Guide-Support, Guide-Review, or Need Review). End with `Ledger_Status = complete/incomplete` and list any images that require review."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_8a4c937a6eed.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_dfaf0c042f06.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_505507bbed1a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_b97defcbc27e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_9a8f115206d0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_82584ad6106b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_22478eea7def.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_997d75f0cd37.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_6be403afc7b2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_13fc746a1dba.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_efa8af8f6268.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_05d233eeeb96.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_cf51df209154.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e9f9a80d984a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_42b16d69ebb4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_3e6bcfd58f97.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_6ba87e16e4c1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_a2cf8940b36c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_74311cdfde1d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_0c850ce0fff3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_81d49c1bd178.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_4dcf0da201b1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_366cf2e96b8d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_024_69a9d2457ce5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_025_6a7da45df107.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_026_36822f392d71.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_027_e7ece0834c2e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_028_7c87a8048d5f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_029_973b88a5eb52.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_030_66eae3b2caf6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_031_6996781b642d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_032_98a8fab81f4c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_033_142fb0eab6a9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_034_9f440a752171.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_035_758ed3924693.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_036_6ab812d42733.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_037_3d4cd4ba7f94.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_038_dd16ff3dbab0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_039_7f1d8d1af2f0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_040_e870767e87d7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_041_0c141d84ead1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_042_e16901e15474.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_043_aa3c8c5c24a8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_044_d73ebb482c27.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 2. Use the Round 1 ledger to select the strongest contiguous evidence window. A window must contain 4 consecutive images. Score each window by summing local audit scores, subtracting 2 for every Need Review image, and adding 1 if at least two images in the window are classified Guide-Core. Return the winning window, its total score, the route code `GUIDE-Window-Prime`, and the first runner-up."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 3. Audit this handoff comment: `The first page that mentions support should be accepted as the best referral evidence even if later pages contain clearer tables and steps.`. Decide whether the comment is Valid or Invalid. If invalid, identify every unsupported shortcut, name the corrected route or class using the Round 1 and Round 2 evidence, and state which local rule prevents accepting the handoff."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should state Valid or Invalid explicitly.",
+      "2. The response should reject any clause that relies on topic familiarity, filename wording, slide title impression, or external domain knowledge without visible anchors.",
+      "3. The response should check the handoff against the Round 1 ledger classes and Round 2 contiguous-window rule.",
+      "4. The response should identify at least one concrete image placeholder whose evidence supports the correction.",
+      "5. The response should identify at least one concrete image placeholder whose evidence disproves or weakens the handoff.",
+      "6. The response should use one of the local labels Guide-Core, Guide-Support, Guide-Review, Need Review, or `GUIDE-Window-Prime` in the corrected answer.",
+      "7. The response should quote or paraphrase the controlling local rule rather than giving a generic disagreement.",
+      "8. The response should not introduce new scoring weights or route labels.",
+      "9. The response should separate visual evidence from case-local rule application.",
+      "10. The response should avoid treating unreadable images as confirmed evidence."
+    ],
+    "metadata": {
+      "task_id": "MCL-0156_T3",
+      "context_id": "MCL-0156",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are a closed-world student-support referral evidence auditor. This case uses real local images from dataset=mmlongbench-doc, sample_id=StudentSupport_Guidebook, split=not provided in local metadata, source_url: not provided in local metadata, license: not provided in local metadata. The case contains 44 images, [IMG:1.jpg] through [IMG:44.jpg], in natural filename order from the source sample directory. Do not use internet access, outside domain knowledge, or facts not visible in these images.\nTask world: student support guide cross-page rule audit with service matching, referral steps, and held-out scenario routing. The required visual anchor focus is service labels, referral steps, forms, tables, icons, contact details, page numbers, and cross-page section dependencies. For every image, build a Visual Anchor Ledger with these fields: Image_ID, visible title/header, evidence family, key visible numbers or labels, table/chart/axis/legend evidence, arrow/process/page-order evidence, source/note/unit evidence, uncertainty flag, and local audit score.\nCase-local scoring rules: Numeric Evidence = 2 points when a visible number, percentage, count, time, threshold, or ratio is present. Structured Evidence = 2 points when a table, chart, axis, legend, grid, matrix, benchmark panel, or form-like block is present. Flow Evidence = 1 point when arrows, numbered steps, process nodes, page sequence, timeline, or cause-effect connectors are present. Trace Evidence = 1 point when a source note, unit, footnote, caption, title, page number, or section label is visible. Cross-Image Evidence = 1 point when the image clearly continues, contrasts with, or calibrates another image in this same case. Classify each image as Guide-Core when score >= 6, Guide-Support when score is 4 or 5, Guide-Review when score is 2 or 3, and Need Review when required anchors are unreadable. Final route codes must use the prefix `GUIDE`. Ties are resolved by higher Structured Evidence, then earlier Image_ID. All conclusions must cite image placeholders and the exact visible anchors used."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 1. Build the full Visual Anchor Ledger for all 44 images, [IMG:1.jpg] through [IMG:44.jpg]. For each image, extract the visible title/header, evidence family, at least one task-relevant visual anchor when present, uncertainty flag, score, and local class (Guide-Core, Guide-Support, Guide-Review, or Need Review). End with `Ledger_Status = complete/incomplete` and list any images that require review."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_8a4c937a6eed.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_dfaf0c042f06.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_505507bbed1a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_b97defcbc27e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_9a8f115206d0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_82584ad6106b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_22478eea7def.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_997d75f0cd37.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_6be403afc7b2.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_13fc746a1dba.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_efa8af8f6268.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_012_05d233eeeb96.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_013_cf51df209154.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_014_e9f9a80d984a.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_015_42b16d69ebb4.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_016_3e6bcfd58f97.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_017_6ba87e16e4c1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_018_a2cf8940b36c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_019_74311cdfde1d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_020_0c850ce0fff3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_021_81d49c1bd178.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_022_4dcf0da201b1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_023_366cf2e96b8d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_024_69a9d2457ce5.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_025_6a7da45df107.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_026_36822f392d71.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_027_e7ece0834c2e.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_028_7c87a8048d5f.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_029_973b88a5eb52.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_030_66eae3b2caf6.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_031_6996781b642d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_032_98a8fab81f4c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_033_142fb0eab6a9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_034_9f440a752171.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_035_758ed3924693.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_036_6ab812d42733.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_037_3d4cd4ba7f94.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_038_dd16ff3dbab0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_039_7f1d8d1af2f0.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_040_e870767e87d7.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_041_0c141d84ead1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_042_e16901e15474.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_043_aa3c8c5c24a8.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_044_d73ebb482c27.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 2. Use the Round 1 ledger to select the strongest contiguous evidence window. A window must contain 4 consecutive images. Score each window by summing local audit scores, subtracting 2 for every Need Review image, and adding 1 if at least two images in the window are classified Guide-Core. Return the winning window, its total score, the route code `GUIDE-Window-Prime`, and the first runner-up."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 3. Audit this handoff comment: `The first page that mentions support should be accepted as the best referral evidence even if later pages contain clearer tables and steps.`. Decide whether the comment is Valid or Invalid. If invalid, identify every unsupported shortcut, name the corrected route or class using the Round 1 and Round 2 evidence, and state which local rule prevents accepting the handoff."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Round 4. Run this counterfactual: Flow Evidence becomes mandatory for Guide-Core when the page is used for referral routing. Keep all visual anchors unchanged. Recompute affected image classes, the winning contiguous window, and any route code changes. Output exactly: `Changed_Images = ...; Stable_Images = ...; New_Window = ...; Reason = ...`."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should change only the local threshold or rule named in the counterfactual and keep visual anchors fixed.",
+      "2. The response should recompute the affected image classes before recomputing the winning window.",
+      "3. The response should identify Changed_Images separately from Stable_Images.",
+      "4. The response should state whether the winning contiguous window changes or remains the same.",
+      "5. The response should cite the image placeholders whose classification changes.",
+      "6. The response should cite the image placeholders in the final New_Window.",
+      "7. The response should explain the change using the local scoring thresholds rather than outside facts.",
+      "8. The response should use the exact output keys `Changed_Images`, `Stable_Images`, `New_Window`, and `Reason`.",
+      "9. The response should preserve Need Review handling for unreadable or missing anchors.",
+      "10. The response should not predict real-world operational, educational, technical, or policy outcomes."
+    ],
+    "metadata": {
+      "task_id": "MCL-0156_T4",
+      "context_id": "MCL-0156",
+      "turn_index": 4
+    }
+  }
+]

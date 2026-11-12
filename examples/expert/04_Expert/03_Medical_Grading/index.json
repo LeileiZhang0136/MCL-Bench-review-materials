@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Expert Standards & Scenario Decision-Making",
+  "subcategory": "Medical Grading",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0311",
+      "directory": "MCL-0311_expert_E09",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0312",
+      "directory": "MCL-0312_expert_E09",
+      "task_count": "3",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0300",
+      "directory": "MCL-0300_expert_E11",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

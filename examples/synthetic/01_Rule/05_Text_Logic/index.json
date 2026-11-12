@@ -1,0 +1,15 @@
+{
+  "source_track": "synthetic",
+  "category": "Rule Learning & Complex Reasoning",
+  "subcategory": "Text Logic",
+  "count": 1,
+  "cases": [
+    {
+      "case_id": "MCL-0044",
+      "directory": "MCL-0044_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

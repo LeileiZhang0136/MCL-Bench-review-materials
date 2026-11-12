@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_042",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/astudyoftelecom-1226322381341892-8_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/astudyoftelecom-1226322381341892-8_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-1-1024.jpg",
+        "sha256": "965d2962f5cc41499272fd954cf1bc6bf0a372d8a9396cd1b14b7c02948b51d8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-3-1024.jpg",
+        "sha256": "b7e1f4491569a587a5482966120ad76dad8ce98e1a10c3a16b5c2f3e5a85f95a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-4-1024.jpg",
+        "sha256": "a179b64cb58701f594dbcbee7d28eee140a5f93a6e128c7da69c6178603a35fc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-6-1024.jpg",
+        "sha256": "1814638c5e859e8bd1633b580983afe32f25e68c509b9ea8c7cc8ad9179264e0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-8-1024.jpg",
+        "sha256": "e523638f2c14a88f2b25d15da2a7c0b4862b1a848485ed28b318141679389a2c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-10-1024.jpg",
+        "sha256": "3527f6238295f86c26b91376666a18a9c425d952aa1f07be61251624fe0ca9bb",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-11-1024.jpg",
+        "sha256": "ca4844e8fae76a1bcbfda32077a0d0e267fde0c9fdfc815d74869c9399589174",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-13-1024.jpg",
+        "sha256": "b9ccf454abeb3786355aace77ff1746e0cdb0bc2cab147dcaa2b92e0f0b5a3a6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-15-1024.jpg",
+        "sha256": "9c3b1b6373f76f63a023a05a746ab576e8aa0f96bb3b61b482bef5a224ea9eb9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-17-1024.jpg",
+        "sha256": "e3f65561e3d34277128f5a0ad1705ba455aa069035d7d24b3a42e56a22649b08",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-18-1024.jpg",
+        "sha256": "cc3e6c58a020a6a0664d8da9fda4ea049638b168c49a2471727965e1d01b5584",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/astudyoftelecom-1226322381341892-8_95/a-study-of-telecom-20-1024.jpg",
+        "sha256": "43b55218e11989004498d4420f4236f82b30593a63af81a48fb4c310dcb7120b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

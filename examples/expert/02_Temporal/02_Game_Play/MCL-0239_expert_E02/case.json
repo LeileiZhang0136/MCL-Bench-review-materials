@@ -1,0 +1,238 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an urban rail route-planning assistant. The user will provide a set of fictional metro line diagrams and transfer-time charts. Answer every question strictly from the station order, segment times, and transfer times shown in those images. Do not rely on real-world metro knowledge or unstated assumptions."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_830457519902.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_a07632355f2e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_a7a32cd32e5b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_e39b0ca8ed83.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_44c2f619274e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_8f3e0d99d779.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_65a190b2fbfe.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_f2fbe566a66d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_59d768b0e007.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_e2231801ee97.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_27defedca744.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "All core knowledge is contained in Harborvale's 10 line diagrams and 1 transfer walking-time chart. The line diagrams provide station order, transfer markings, and adjacent-station segment times, and the lines vary in length from 16 to 20 stops with 3 to 5 transfer stops per line. Total travel time counts only in-train segment time and transfer walking time, not waiting or entry/exit time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ignoring waiting time and station entry/exit time, what is the shortest route from Amber Bay to Bamboo Market? Give the line sequence, all transfer stations, and the total travel time in minutes."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1.Does the answer state the shortest total time as 45 minutes?",
+      "2.Does the answer provide the correct line order: Amber Line -> Bamboo Line?",
+      "3.Does the answer list all transfer stations completely: Lakeside Cedar?",
+      "4.Does the answer explicitly state that the route requires 1 transfer?",
+      "5.Does the answer avoid extra incorrect lines or transfer stations while keeping the start and end stations correct?"
+    ],
+    "metadata": {
+      "task_id": "MCL-0239_T1",
+      "context_id": "MCL-0239",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an urban rail route-planning assistant. The user will provide a set of fictional metro line diagrams and transfer-time charts. Answer every question strictly from the station order, segment times, and transfer times shown in those images. Do not rely on real-world metro knowledge or unstated assumptions."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_830457519902.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_a07632355f2e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_a7a32cd32e5b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_e39b0ca8ed83.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_44c2f619274e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_8f3e0d99d779.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_65a190b2fbfe.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_f2fbe566a66d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_59d768b0e007.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_e2231801ee97.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_011_27defedca744.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "All core knowledge is contained in Harborvale's 10 line diagrams and 1 transfer walking-time chart. The line diagrams provide station order, transfer markings, and adjacent-station segment times, and the lines vary in length from 16 to 20 stops with 3 to 5 transfer stops per line. Total travel time counts only in-train segment time and transfer walking time, not waiting or entry/exit time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ignoring waiting time and station entry/exit time, what is the shortest route from Amber Bay to Bamboo Market? Give the line sequence, all transfer stations, and the total travel time in minutes."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Ignoring waiting time and station entry/exit time, what is the shortest route from Frost Gate to Sky Point? Give the line sequence, all transfer stations, and the total travel time in minutes."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Does the answer state the shortest total time as 75 minutes?",
+      "2. Does the answer provide the correct line order: Frost Line -> Tide Line -> Bamboo Line -> Sky Line?",
+      "3. Does the answer list all transfer stations completely: Cloud Arch, Mirror Lake, Northspire Park?",
+      "4. Does the answer explicitly state that the route requires 3 transfers?",
+      "5. Does the answer avoid extra incorrect lines or transfer stations while keeping the start and end stations correct?"
+    ],
+    "metadata": {
+      "task_id": "MCL-0239_T2",
+      "context_id": "MCL-0239",
+      "turn_index": 2
+    }
+  }
+]

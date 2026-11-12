@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_031",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-1-1024.jpg",
+        "sha256": "d8d8f6eabd3993e046a9c501fc4fe102f5576a966131622666b18924063b04f3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-3-1024.jpg",
+        "sha256": "d3f4b587e0a8e51aa845b084a1bbf19992f11e22efc4358183e62ea4cf20c3b9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-4-1024.jpg",
+        "sha256": "8e7d71c7899771295efcf3daac14e63fca6d646f6403fecd03bfe01114f134d2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-6-1024.jpg",
+        "sha256": "db06148a8fb7090ae1fac11009dca9ed35f584f2308538254e041a3ad66d2ab0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-8-1024.jpg",
+        "sha256": "72d2afcb52dd38f9402626cdf44e583d11f46225ed7bca2a2e34f06255a27061",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-10-1024.jpg",
+        "sha256": "5fb030e86f2720d7b8617a95aa30313300d2248ef88b09d50668b083fd5618ed",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-11-1024.jpg",
+        "sha256": "dbadebabeacfb8488fade637f3fb04c10e771153627873ac2ab90f3c74ea6013",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-13-1024.jpg",
+        "sha256": "2729103b5d61ceadacaa539a2b44bd0f23651b6ae16d89909e1c9a32e75657f9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-15-1024.jpg",
+        "sha256": "fce7e8f5f23654c250717874d79e7bdc18e0693f167f2ffb7ea2a90afa74e73e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-17-1024.jpg",
+        "sha256": "73e03c25b8436f2f052fcd0a906f2ba395708172532b23288a17278aa02d681d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-18-1024.jpg",
+        "sha256": "80df2336f06e5b6287829b31e81e7487485345e51115efcc4a3197481aecb739",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/typicaldisordersofperipheralbloodflow-131024050639-phpapp01_95/typical-disorders-of-peripheral-blood-flow-20-1024.jpg",
+        "sha256": "a3d6cff276d7cd58ace21a522f85726d5906964162e6f71e4777c913a23589be",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

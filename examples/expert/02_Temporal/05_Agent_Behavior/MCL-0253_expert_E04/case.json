@@ -1,0 +1,121 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in animal behavior and decision-making analysis.\nWhen answering questions, you must incorporate the provided contextual information (if any) together with the video content. Answers that rely only on surface-level visual description without using the context are considered incomplete.\nYou should:\n- Integrate context and visual evidence into a unified explanation\n- Analyze temporal sequences (before, during, after key events)\n- Identify causal relationships between actions and outcomes\n- Detect whether the video behavior is consistent or inconsistent with the provided context\nYour responses must be precise, structured, and evidence-based."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The trap is triggered only if pressure is applied continuously for more than 1 second."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_64bc7e0e19b4.mp4"
+            }
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_791d56c3df64.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Question:\nUsing the two videos as one continuous evidence set, reconstruct the full triggering timeline and judge whether the observed triggering process is consistent with the stated mechanism. Your answer must distinguish exploratory contact, partial loading, continuous effective pressure, and the actual trigger moment; compare what c1.mp4 and c2.mp4 each contribute to the reconstruction; and explicitly discuss any uncertainty caused by camera angle, frame sampling, or occlusion before giving the final verdict."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should explicitly use the stated mechanism and should integrate evidence from both videos rather than relying on one clip alone.",
+      "2. The response should reconstruct an ordered triggering timeline that distinguishes exploratory contact, partial loading, continuous effective pressure, and the trigger moment.",
+      "3. The response should reason about whether continuous effective pressure lasts longer than 1 second, and should explicitly handle uncertainty if exact timing cannot be measured perfectly from the footage.",
+      "4. The response should compare what c1.mp4 and c2.mp4 each contribute to the final reconstruction.",
+      "5. The response should give a clear final verdict about mechanism consistency and support it with specific visual evidence.",
+      "6. The response should separate uncertainty management from the final causal conclusion rather than mixing them vaguely."
+    ],
+    "metadata": {
+      "task_id": "MCL-0253_T1",
+      "context_id": "MCL-0253",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert in animal behavior and decision-making analysis.\nWhen answering questions, you must incorporate the provided contextual information (if any) together with the video content. Answers that rely only on surface-level visual description without using the context are considered incomplete.\nYou should:\n- Integrate context and visual evidence into a unified explanation\n- Analyze temporal sequences (before, during, after key events)\n- Identify causal relationships between actions and outcomes\n- Detect whether the video behavior is consistent or inconsistent with the provided context\nYour responses must be precise, structured, and evidence-based."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "The trap is triggered only if pressure is applied continuously for more than 1 second."
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_001_64bc7e0e19b4.mp4"
+            }
+          },
+          {
+            "type": "video",
+            "video": {
+              "url": "assets/asset_002_791d56c3df64.mp4"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Question:\nUsing the two videos as one continuous evidence set, reconstruct the full triggering timeline and judge whether the observed triggering process is consistent with the stated mechanism. Your answer must distinguish exploratory contact, partial loading, continuous effective pressure, and the actual trigger moment; compare what c1.mp4 and c2.mp4 each contribute to the reconstruction; and explicitly discuss any uncertainty caused by camera angle, frame sampling, or occlusion before giving the final verdict."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "1. The trap is triggered only by sustained pressure.\n2. The bird typically performs exploratory contact before full entry.\nQuestion:\nUsing both pieces of context and the behavior visible across the videos, explain why the bird is ultimately captured or not captured. Your answer must separate necessary causes from incidental behaviors, identify the shortest decisive behavioral sequence that makes the outcome unavoidable, and include one counterfactual: describe the smallest plausible change in the bird's behavior that would have reversed the final outcome under the same mechanism."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should integrate both context statements with the observed video behavior rather than discussing them independently.",
+      "2. The response should distinguish necessary causes of capture or non-capture from incidental or non-decisive behaviors.",
+      "3. The response should identify the shortest decisive behavioral sequence that makes the final outcome unavoidable under the stated mechanism.",
+      "4. The response should include a plausible minimal counterfactual change in the bird's behavior and explain how that change would reverse the outcome under the same mechanism.",
+      "5. The response should support the explanation with specific observed behaviors from the footage and maintain a logically consistent causal chain throughout."
+    ],
+    "metadata": {
+      "task_id": "MCL-0253_T2",
+      "context_id": "MCL-0253",
+      "turn_index": 2
+    }
+  }
+]

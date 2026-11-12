@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_030",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:unatamobileroicasestudy-140424143341-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "unatamobileroicasestudy-140424143341-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-1-1024.jpg",
+        "sha256": "39ba1df70623b6202e6cdad3d5d7a53423b6bd70bcae83d2eaa1e2fc2513da3e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-3-1024.jpg",
+        "sha256": "4a57f9be8cb9080d79de4b8b467cd67b37d740555d70629ca24eecc0ec716e2f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-4-1024.jpg",
+        "sha256": "ff5f6ea49e76e8821d5a4ceab738cbe3e8cf7a4725522d2853c0cdb06d320b36",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-6-1024.jpg",
+        "sha256": "6623c1f582182badf4c8f0ba5c2f93a684d0fcc347a22e4f1b41ba2f2f36a0c5",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-8-1024.jpg",
+        "sha256": "a800720897234204105bc497683933787a3cd5914a06f7a6a683010baeec7d8d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-10-1024.jpg",
+        "sha256": "e14f68fe7b55f6de4eb73ef68c6557c196fc7b7509d96663a236df8189dce5e0",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-11-1024.jpg",
+        "sha256": "ad499b0c5dd3e50565bc6461573ae470f2263ba7318ef3dc4918fb9bfe5a9044",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-13-1024.jpg",
+        "sha256": "100d31ab692eff980e98173b4bd3a3e08e4712cd1d8fadb07a2e7093214f6dae",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-15-1024.jpg",
+        "sha256": "bdeb70916c583a7f7dfbcec992785a2bacddc449566454a4b7b104d76aca4aa9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-17-1024.jpg",
+        "sha256": "25aca3fe0a0cf1679bcd67559f044554091fe5e47608b25c3ab6f449f54788ef",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-18-1024.jpg",
+        "sha256": "3f3efd9906a9134c2d30c34db3a023ba05a9520e36eb75ecf88fe4b258bcab3e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/unatamobileroicasestudy-140424143341-phpapp02_95/unata-mobile-roi-case-study-20-1024.jpg",
+        "sha256": "9f1a2d944f0dbdc1306dedb6efe2881ba3317f4f4c1c14e32e4bc82b813cc4e2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

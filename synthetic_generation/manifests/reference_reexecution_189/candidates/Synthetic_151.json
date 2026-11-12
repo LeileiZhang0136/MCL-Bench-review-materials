@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_151",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/renewableenergypresentation-150404092630-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/renewableenergypresentation-150404092630-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-1-1024.jpg",
+        "sha256": "1344e6933e8b47260b7565fa1ab0f705351d6600f9b74586ffdb05664d194b07",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-3-1024.jpg",
+        "sha256": "e27c88398a7dcfb21e5098f977da0db914daa05db9e0a6de65ee2e970f224881",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-4-1024.jpg",
+        "sha256": "03482433c8bd057dd8a45a8b0a901a070b5da053d48203c36af41a8a0fc262fa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-6-1024.jpg",
+        "sha256": "f2e46b6fff15d02d559debfa78e355c2da84dee706a57780a8bc326c0437d72d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-8-1024.jpg",
+        "sha256": "a2910ea5d7a65a5a00fde83acf89b3e039d8456b7b3a1d3e62d39587fcfa7567",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-10-1024.jpg",
+        "sha256": "fa80132286a38f92e1bdbbf3909a09dbfa75f4643368f8abdf785ba42497d1dc",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-11-1024.jpg",
+        "sha256": "ddac129a00101c78f7c7708d3db7c2cf13f54274f5d0c1a6a4ae947fba3dd060",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-13-1024.jpg",
+        "sha256": "986fe0f0bd5cd7775f4b6b30a683efb79c8e99208d325bb6fcc514cfc96b4025",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-15-1024.jpg",
+        "sha256": "9cd820de5fc8a5937f4c428d150b34d57996bc53b073ba6c362ac4db2477db3b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-17-1024.jpg",
+        "sha256": "43a6b79ce6ec196e5f6ee8777c2cc206d75b5d818e295b95a016be8a0b6a4f5b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-18-1024.jpg",
+        "sha256": "b085900758566ca5cd3d82f57b7d5ae54758e146cc8e221d7e98b5ac42873047",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/renewableenergypresentation-150404092630-conversion-gate01_95/renewable-energy-alternative-technologies-and-services-for-rural-india-20-1024.jpg",
+        "sha256": "9e6536660928a5fa1346240739c384313a202b83c6a675ca9c9edf3cc81bb8b2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

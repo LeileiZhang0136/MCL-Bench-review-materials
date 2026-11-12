@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_147",
+  "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+  "subtype": "case-local standard application",
+  "learning_target": "Apply an explicitly provided benchmark-local standard to visual evidence.",
+  "source_card": {
+    "source_id": "slidevqa:test/dfb-ydp-140711173913-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/dfb-ydp-140711173913-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-1-1024.jpg",
+        "sha256": "1fb50265e6adb85ed67a9ef5aa7c86185cd23e07c7469d528a49e33f09230d1e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-3-1024.jpg",
+        "sha256": "71674c192013de4e58fec96f7e89bcb97578e447c448f4453daae60e4ed7907d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-4-1024.jpg",
+        "sha256": "679e08e50541bcabf40f8b1d7929f60dbcdbf8c43e30714a3030d899f91dffbf",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-6-1024.jpg",
+        "sha256": "6d3d39ed16314632e27309aca44038a7ceb1e072bca314639ef50038876ac571",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-8-1024.jpg",
+        "sha256": "1434cbeb9b63afdf84d6c07f606001c052e9288a83056965c6eaca5d7d374279",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-10-1024.jpg",
+        "sha256": "5a661cea07425ffec5cbbb1d8ec4fff4f5bec99b06c39725b0b7f14136bf2a92",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-11-1024.jpg",
+        "sha256": "8b439b67f7713fa1f668bc080c34c990f452cea76790d9a7968fae6554d6d6cd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-13-1024.jpg",
+        "sha256": "f0de442dab2d6cfde98136f01c42a8b25ddce08cad4e85f74e8ffa80ff18a2bd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-15-1024.jpg",
+        "sha256": "ae7a79e66589f26b0f7d613fc4b821bb17a87cd5fa68bcbb354bf01bfb4232f4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-17-1024.jpg",
+        "sha256": "ee5376f9c211df558ae828a349f7a859baa1fac5ebadeaaefc533974706e1443",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-18-1024.jpg",
+        "sha256": "689a2c880a88d1e196c983d667857913c92ea6e4f38813f78a6ea8c8b0535b68",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/dfb-ydp-140711173913-phpapp02_95/dfb-youth-development-programme-20-1024.jpg",
+        "sha256": "d6584c7278b15a3ab8640d8170bb1f4ae8cde1c51d4a79364b9448ca9debc8ff",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

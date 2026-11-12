@@ -1,0 +1,506 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the licensing officer for the Festival Route in the City. You have to distinguish between the main parade, square gatherings, mobile stages, cheerleading queues, fringe carnivals and street spectators that have nothing to do with the main celebration. Each subsequent round must use the route area, participant identity and merging/non-merging rules established for the first time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_77c3f3ec8060.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_baea56a04759.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_e40dbaeb834c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_f54cddba58f9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_2cd298d3473b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_6ad60df36393.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_2549e2b6f483.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_8c0e6768de9d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_dd7c226f6358.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d770d73145e3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nPlease establish 4 \"festival route areas\" to distinguish the main marching line of the crowd, the square/sky gathering, the stage or float area, the performance queue, and the carnival side line. Write clearly in each area: who is moving, who is looking, whether they are in a team, whether they need to unify the theme, what the main evidence picture and the circumstantial evidence picture are, and which picture is most likely to be mistakenly merged.\n\nRegister 10 pictures one by one: is it a main team member, audience, fringe carnival, fixed stage, cheerleading team, stunt performance or ordinary street flow; what are the precursor and successor conditions; will misplacement destroy the queue structure, festival theme or route continuity first. Finally, a \"main celebration route\" and a \"lively but not queued fake route\" are given.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should 10 figures must be covered.",
+      "2. The response should it should be distinguished between the main festival team or performance queue in Figure 03/06/08, the gathering from a high-altitude perspective in Figure 05, the ordinary street flow of people in Figure 01/04, the dressers on the edge of Figure 04, the carnival sidelines in Figure 09, the stunt or stilt performance in Figure 09, and the venue-type activities in Figure",
+      "10.",
+      "3. The response should the four route areas must clearly describe the roles, main evidence, circumstantial evidence, misunderstandings and continuation conditions.",
+      "4. The response should the identity, predecessor, successor and misplaced breakpoints must be given diagram by diagram.",
+      "5. The response should the main celebration route and the false route must be given.\nThe response should additionally Mutual exclusion conditions must be set for the main groupings; footnotes must be written for side-by-side display; one conclusion must be downgraded and the upgrade conditions must be stated.",
+      "6. The response should also explain: If different groupings or main chains are used, the key boundaries among subjects, venues, actions, and time points must still be maintained, and at least one connection that must be supplemented must be clearly pointed out.",
+      "7. The response should answers should not be combined based only on similar appearance, adjacent order, or shared nouns, or the circumstantial evidence should be written directly as main evidence, and similar types should be written directly as the same process."
+    ],
+    "metadata": {
+      "task_id": "MCL-0067_T1",
+      "context_id": "MCL-0067",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the licensing officer for the Festival Route in the City. You have to distinguish between the main parade, square gatherings, mobile stages, cheerleading queues, fringe carnivals and street spectators that have nothing to do with the main celebration. Each subsequent round must use the route area, participant identity and merging/non-merging rules established for the first time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_77c3f3ec8060.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_baea56a04759.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_e40dbaeb834c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_f54cddba58f9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_2cd298d3473b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_6ad60df36393.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_2549e2b6f483.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_8c0e6768de9d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_dd7c226f6358.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d770d73145e3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nPlease establish 4 \"festival route areas\" to distinguish the main marching line of the crowd, the square/sky gathering, the stage or float area, the performance queue, and the carnival side line. Write clearly in each area: who is moving, who is looking, whether they are in a team, whether they need to unify the theme, what the main evidence picture and the circumstantial evidence picture are, and which picture is most likely to be mistakenly merged.\n\nRegister 10 pictures one by one: is it a main team member, audience, fringe carnival, fixed stage, cheerleading team, stunt performance or ordinary street flow; what are the precursor and successor conditions; will misplacement destroy the queue structure, festival theme or route continuity first. Finally, a \"main celebration route\" and a \"lively but not queued fake route\" are given.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Follow the route area and draw a \"merging diagram\": it can be divided into teams that can be combined, lines that can be combined but on different lines, and lines that must be removed. Point out which step is easiest to wash carnival sidelines into the home team, which step is easiest to misjudge ordinary street people into festive scenes.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAnother simplified table appeared on the follow-up transfer table: it would describe at least two of the steps in the \"Team Merger Diagram\" that are most easily rewritten, the step in \"Role Transfer\" that is most easily rewritten, and the step in \"Similar Types\" that are most easily rewritten as consecutive, in the same place, in the same role, or in the same completion stage. Please don't just check which sentence is valid, but also make a separate reconciliation table: the original statement, the new statement, the maximum number of screens or pages that can be supported, where it can only be temporarily suspended, and which two steps will continue to be contaminated if it is received by mistake. In addition, let’s pick a false positive and a false negative each: the former should not have been followed but could easily be written as established, and the latter could actually be retained as a more reliable judgment, but may be mistakenly deleted due to over-conservatism. Both examples illustrate the minimum corrective approach.\n\nAnother recorder added a series of instructions on the margin, writing the materials related to \"Team Merger Diagram\", \"Role Handover\", and \"Similar Types\" into the same sequential link. You can't just judge which sentence is true and which is false, but also break it down into a checklist: how to write the original record, how to write the subsequent dictation, how far the screen or page can support, what level it can only be retained at present, and which two steps will continue to be taken if it is mistakenly recorded. Add another paragraph to remind the reviewer: Which part is most likely to appear \"looks like a wrong merge, but may actually be mistakenly deleted\"? Why, if you can only save one side first, should you prevent accidental merges or deletions first?There is another handwritten check card in the review folder. On the card are written the materials corresponding to \"Team Merger Diagram\", \"Role Handover\", and \"Similar Types\". It looks like they are being pushed forward along the same line. In addition to the original verification, please add an explanation of \"If this card is written incorrectly, who will be misled first?\": Write down the risk of misidentifying the person first, writing the time and place in order, and raising the risk of materials that could only be placed aside as the main certificate. At the same time, add an operational reminder to the reviewer, explaining which step is least suitable to be directly rewritten into the final draft, but should be left in the checklist first.\n\nThere is a line of reminder on the side of the page that is only for the receiver to read, specifically covering the main character in Figure 10. Each has. Please attach a \"miswriting consequences table\" in addition to the conclusion: write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to over-conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should column names remain as existing route areas.",
+      "2. The response should point out a node that is most likely to be written as a continuous event, but may actually be discontinuous in objects, places, tools, responsibilities or time sequences, such as a group of materials that are most likely to be mistakenly merged, and explain the order of review and the minimum correction method.",
+      "3. The response should write down the upper limit of the relationship involved in Figure 10, and make it clear which ones are just facts on the scene, which ones are just circumstantial evidence of the same type, and which ones need to wait for supplementary evidence before entering into the advancing relationship. You cannot use the results to infer the premise.",
+      "4. The response should at least provide a safe short chain or local advancement relationship, and a position that must be returned to side-by-side observation; both must explain the upper limit and breakpoint of support.",
+      "5. The response should diaries, oral narratives, or parallel materials cannot be written directly as continuous events. All promotion relationships must clearly indicate the upper limit and breakpoint of support.",
+      "6. The response should the order of review needs to explain what to check first and what to check later, and why you cannot write the conclusion first and find the basis later."
+    ],
+    "metadata": {
+      "task_id": "MCL-0067_T2",
+      "context_id": "MCL-0067",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the licensing officer for the Festival Route in the City. You have to distinguish between the main parade, square gatherings, mobile stages, cheerleading queues, fringe carnivals and street spectators that have nothing to do with the main celebration. Each subsequent round must use the route area, participant identity and merging/non-merging rules established for the first time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_77c3f3ec8060.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_baea56a04759.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_e40dbaeb834c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_f54cddba58f9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_2cd298d3473b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_6ad60df36393.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_2549e2b6f483.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_8c0e6768de9d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_dd7c226f6358.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d770d73145e3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nPlease establish 4 \"festival route areas\" to distinguish the main marching line of the crowd, the square/sky gathering, the stage or float area, the performance queue, and the carnival side line. Write clearly in each area: who is moving, who is looking, whether they are in a team, whether they need to unify the theme, what the main evidence picture and the circumstantial evidence picture are, and which picture is most likely to be mistakenly merged.\n\nRegister 10 pictures one by one: is it a main team member, audience, fringe carnival, fixed stage, cheerleading team, stunt performance or ordinary street flow; what are the precursor and successor conditions; will misplacement destroy the queue structure, festival theme or route continuity first. Finally, a \"main celebration route\" and a \"lively but not queued fake route\" are given.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Follow the route area and draw a \"merging diagram\": it can be divided into teams that can be combined, lines that can be combined but on different lines, and lines that must be removed. Point out which step is easiest to wash carnival sidelines into the home team, which step is easiest to misjudge ordinary street people into festive scenes.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAnother simplified table appeared on the follow-up transfer table: it would describe at least two of the steps in the \"Team Merger Diagram\" that are most easily rewritten, the step in \"Role Transfer\" that is most easily rewritten, and the step in \"Similar Types\" that are most easily rewritten as consecutive, in the same place, in the same role, or in the same completion stage. Please don't just check which sentence is valid, but also make a separate reconciliation table: the original statement, the new statement, the maximum number of screens or pages that can be supported, where it can only be temporarily suspended, and which two steps will continue to be contaminated if it is received by mistake. In addition, let’s pick a false positive and a false negative each: the former should not have been followed but could easily be written as established, and the latter could actually be retained as a more reliable judgment, but may be mistakenly deleted due to over-conservatism. Both examples illustrate the minimum corrective approach.\n\nAnother recorder added a series of instructions on the margin, writing the materials related to \"Team Merger Diagram\", \"Role Handover\", and \"Similar Types\" into the same sequential link. You can't just judge which sentence is true and which is false, but also break it down into a checklist: how to write the original record, how to write the subsequent dictation, how far the screen or page can support, what level it can only be retained at present, and which two steps will continue to be taken if it is mistakenly recorded. Add another paragraph to remind the reviewer: Which part is most likely to appear \"looks like a wrong merge, but may actually be mistakenly deleted\"? Why, if you can only save one side first, should you prevent accidental merges or deletions first?There is another handwritten check card in the review folder. On the card are written the materials corresponding to \"Team Merger Diagram\", \"Role Handover\", and \"Similar Types\". It looks like they are being pushed forward along the same line. In addition to the original verification, please add an explanation of \"If this card is written incorrectly, who will be misled first?\": Write down the risk of misidentifying the person first, writing the time and place in order, and raising the risk of materials that could only be placed aside as the main certificate. At the same time, add an operational reminder to the reviewer, explaining which step is least suitable to be directly rewritten into the final draft, but should be left in the checklist first.\n\nThere is a line of reminder on the side of the page that is only for the receiver to read, specifically covering the main character in Figure 10. Each has. Please attach a \"miswriting consequences table\" in addition to the conclusion: write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to over-conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to review: A. Merge Figure 07 into the queue of Figure 08; B. Connect Figure 09 to Figure 06 and use it as a mobile stage stunt; C. Change Figure 01 to the opening street scene of the parade; D. Merge Figure 10 into the main venue of Figure 05; E. Write Figure 04 as a member of the same team as Figure 03. Judgment case by case and minimum revision.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should a-E must be dealt with item by item.",
+      "2. The response should each item needs to fall into thematic unity, queue structure, location or character identity.",
+      "3. The response should b/D may be discussed, A/C/E will most likely need to be downgraded or returned.\nThe response should additionally Mutual exclusion conditions must be set for the main groupings; footnotes must be written for side-by-side display; one conclusion must be downgraded and the upgrade conditions must be stated.",
+      "4. The response should also explain: If the specific pages of the anchor, supplement, counterexample, pending review, or cut identity are different, it can explain which conclusion collapses first after deletion and which boundary can still be barely maintained.",
+      "5. The response should answers must not be graded solely on the basis of the drama of the scene or the amount of information, without discounting the density of evidence, exclusionary effects, and risk of misleading."
+    ],
+    "metadata": {
+      "task_id": "MCL-0067_T3",
+      "context_id": "MCL-0067",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are the licensing officer for the Festival Route in the City. You have to distinguish between the main parade, square gatherings, mobile stages, cheerleading queues, fringe carnivals and street spectators that have nothing to do with the main celebration. Each subsequent round must use the route area, participant identity and merging/non-merging rules established for the first time."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please read these observation cards in order:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_77c3f3ec8060.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_baea56a04759.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_003_e40dbaeb834c.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_004_f54cddba58f9.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_005_2cd298d3473b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_006_6ad60df36393.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_007_2549e2b6f483.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_8c0e6768de9d.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_dd7c226f6358.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d770d73145e3.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": ".\n\nPlease establish 4 \"festival route areas\" to distinguish the main marching line of the crowd, the square/sky gathering, the stage or float area, the performance queue, and the carnival side line. Write clearly in each area: who is moving, who is looking, whether they are in a team, whether they need to unify the theme, what the main evidence picture and the circumstantial evidence picture are, and which picture is most likely to be mistakenly merged.\n\nRegister 10 pictures one by one: is it a main team member, audience, fringe carnival, fixed stage, cheerleading team, stunt performance or ordinary street flow; what are the precursor and successor conditions; will misplacement destroy the queue structure, festival theme or route continuity first. Finally, a \"main celebration route\" and a \"lively but not queued fake route\" are given.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Follow the route area and draw a \"merging diagram\": it can be divided into teams that can be combined, lines that can be combined but on different lines, and lines that must be removed. Point out which step is easiest to wash carnival sidelines into the home team, which step is easiest to misjudge ordinary street people into festive scenes.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAt the same time, follow the \"role handover\" rules: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nAnother simplified table appeared on the follow-up transfer table: it would describe at least two of the steps in the \"Team Merger Diagram\" that are most easily rewritten, the step in \"Role Transfer\" that is most easily rewritten, and the step in \"Similar Types\" that are most easily rewritten as consecutive, in the same place, in the same role, or in the same completion stage. Please don't just check which sentence is valid, but also make a separate reconciliation table: the original statement, the new statement, the maximum number of screens or pages that can be supported, where it can only be temporarily suspended, and which two steps will continue to be contaminated if it is received by mistake. In addition, let’s pick a false positive and a false negative each: the former should not have been followed but could easily be written as established, and the latter could actually be retained as a more reliable judgment, but may be mistakenly deleted due to over-conservatism. Both examples illustrate the minimum corrective approach.\n\nAnother recorder added a series of instructions on the margin, writing the materials related to \"Team Merger Diagram\", \"Role Handover\", and \"Similar Types\" into the same sequential link. You can't just judge which sentence is true and which is false, but also break it down into a checklist: how to write the original record, how to write the subsequent dictation, how far the screen or page can support, what level it can only be retained at present, and which two steps will continue to be taken if it is mistakenly recorded. Add another paragraph to remind the reviewer: Which part is most likely to appear \"looks like a wrong merge, but may actually be mistakenly deleted\"? Why, if you can only save one side first, should you prevent accidental merges or deletions first?There is another handwritten check card in the review folder. On the card are written the materials corresponding to \"Team Merger Diagram\", \"Role Handover\", and \"Similar Types\". It looks like they are being pushed forward along the same line. In addition to the original verification, please add an explanation of \"If this card is written incorrectly, who will be misled first?\": Write down the risk of misidentifying the person first, writing the time and place in order, and raising the risk of materials that could only be placed aside as the main certificate. At the same time, add an operational reminder to the reviewer, explaining which step is least suitable to be directly rewritten into the final draft, but should be left in the checklist first.\n\nThere is a line of reminder on the side of the page that is only for the receiver to read, specifically covering the main character in Figure 10. Each has. Please attach a \"miswriting consequences table\" in addition to the conclusion: write at least one example of writing the relationship in advance as established, which will continue to pollute the subsequent steps; write another example of a weak connection that was mistakenly deleted due to over-conservatism, and explain which level of judgment it can originally preserve. Finally, make up the order of review of the dispute, making it clear which item should be reviewed first and which item should be reviewed second, to avoid raising circumstantial evidence as primary evidence from the beginning."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Continue to review: A. Merge Figure 07 into the queue of Figure 08; B. Connect Figure 09 to Figure 06 and use it as a mobile stage stunt; C. Change Figure 01 to the opening street scene of the parade; D. Merge Figure 10 into the main venue of Figure 05; E. Write Figure 04 as a member of the same team as Figure 03. Judgment case by case and minimum revision.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded.\n\nAdd \"mutually exclusive tags\" in this round: write at least one condition for each major group that cannot be shared, such as different people, different sites, different tools, different process stages, different applicable objects or different risk levels. If two groups can be displayed side by side, a footnote must also be written to indicate whether they share only appearance, background, words, or a stronger task relationship. Finally, one conclusion was selected and downgraded to \"can only be retained for now\" to explain what kind of visual evidence is missing before it can be upgraded."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Finally, output \"Final List of Festivals in the City\". Column names follow the first round route area; write down the drawings, functions, missing evidence and dangerous miscombinations. Give another 6-step viewing sequence, cite a team breakpoint and a review conclusion. Finally, write a general rule: When is the excitement enough to indicate that you are in the same festival and on the same team, and when is it just a shared festive atmosphere?\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture.\n\nIn this round, a \"role handover\" rule is added: assign each picture or page segment to a temporary role, such as recorder, executor, bystander, reviewer or custodian. If the same figure swings between two roles, the primary and alternate roles must be written out, and an explanation of what additional evidence is needed to switch. Finally, select a group of combinations that seem to be connected continuously, but actually need to be supplemented. Write down that what is missing is not common sense, but objects, actions, places or conditions that do not appear in the picture."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should the final table must be exported and covered with 10 figures.",
+      "2. The response should a 6-step sequence, merging breakpoints, review conclusion, and overall plan must be given.",
+      "3. The response should in the end, ordinary people or carnival sidelines cannot be washed into the core of the home team.\nThe response should additionally The main role must be assigned to each piece of evidence; the alternate role needs switching conditions; a set of handover combinations that require a step must be specified.",
+      "4. The response should also explain: If different final rulings, four levels of conclusions, or minimum combinations are adopted, the restrictions, reasons for exclusion, and risks of misunderstanding must also be clearly stated, and no new assumptions must be sneaked in.",
+      "5. The response should answers must not put conclusions that require inference of the same person, the same place, or the same time into a high confidence level, or do not provide any downgrading conditions or exclusion boundaries."
+    ],
+    "metadata": {
+      "task_id": "MCL-0067_T4",
+      "context_id": "MCL-0067",
+      "turn_index": 4
+    }
+  }
+]

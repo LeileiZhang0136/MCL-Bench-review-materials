@@ -1,0 +1,1148 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert grading assistant with extensive experience in educational assessment. Your task is to evaluate student responses fairly, consistently, and constructively."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_777063fe837b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_6c984f6299ff.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the exam papers of one student. What are his answers to questions 1, 2 and 3?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Answer whether the student's answer to the first question is recognized as A.",
+      "2. Answer whether the student's answer to the second question is recognized as A.",
+      "3. Answer whether the student's answer to the third question is recognized as C."
+    ],
+    "metadata": {
+      "task_id": "MCL-0330_T1",
+      "context_id": "MCL-0330",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert grading assistant with extensive experience in educational assessment. Your task is to evaluate student responses fairly, consistently, and constructively."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_777063fe837b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_6c984f6299ff.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the exam papers of one student. What are his answers to questions 1, 2 and 3?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please grade the exam papers for this student.\n# exam paper\n\n## Page 1\n\n试卷第1 页，共8 页 \n高三年级化学试卷 \n考试时间：75 分钟    总分：100 分 \n可能用到的相对原子质量：H-1     C-12     O-16     Bi-209     Ni-59 \n一、选择题：本题共15 小题，每小题3 分，共45 分。每小题只有一个选项符合题目要求。 \n1. 人类社会的发展离不开化学，化学的发展离不开科学家的不断探索。下列科学家与主要成就不相符的是 \nA. 伏打发明了伏打电堆，并用它通过电解法发现了钾、钠等金属元素 \nB. 侯德榜将氨碱法制取碳酸钠和合成氨联合起来，提高了食盐的转化率 \nC. 伍德沃德与多位化学家合作，成功合成了奎宁、胆固醇、维生素B12 等一系列结构复杂的天然产物 \nD. 巴斯德从实验室合成的酒石酸盐中分离出两种不同光学活性的晶体 \n2. 下列性质或用途错误的是 \nA. 钠钾合金——具有良好的高温强度的耐高温合金 \nB. 聚甲基丙烯酸甲酯——可制成透明材料的有机玻璃 \nC. 杯酚——可分离C60 和C70 的有机物 \nD. 金刚砂——作为砂纸和砂轮的磨料 \n3. 下列离子反应表示正确的是 \nA. 向硫代硫酸钠溶液中滴加稀硝酸：S2O32－ + 2H+ \n SO2↑+ S↓+ H2O \nB. 用铁电极作阳极，电解饱和食盐水：2Cl\n－ + 2H2O \n Cl2↑+ H2↑+ 2OH\n－ \nC. IBr 与水反应：IBr + H2O\nHBr + HIO \nD. 用食醋和淀粉-KI 溶液检验食盐中的IO3-：IO3\n－+ 5I\n－ + 6H+ \n 3I2 + 3H2O \n4. 一种对称的阴离子[X6Y4ZM2W2]\n－(结构如图)由原子半径依次增大的X、Y、Z、M、W 五种短周期的p 区\n元素组成，基态原子中未成对电子数目Z>Y=M>X，Y 与W 为同主族元素。下列说法错误的是  \n  \nA. 该阴离子呈现锯齿状                       B. 该阴离子与季铵离子(R4N+)能形成离子液体 \nC. M 的氢化物的沸点不一定比Y 的氢化物低     D. 第一电离能大小：Y>Z>M>X \n5．用下列装置进行实验，能达到实验目的的是  \n \nA \nB \nC \nD \n实验装置 \n \n \n \n \n实验目的 \n蒸干AlCl3 溶液得\n到无水AlCl3 \n分离氢氧化铁胶\n体和氯化铁溶液 \n乙中先通NH3 再通\nCO2，制备NaHCO3 \n验证Na2O2 与水的反\n应放热"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_c487a9f3a45d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_f2063b0b5e63.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_c8e4327bf54d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_e013cbb2eda1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_b05bb673e6f9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_dc8e9f43ace6.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\n试卷第2 页，共8 页 \n6．设NA 为阿伏加德罗常数的值。下列说法错误的是 \nA．1 mol O3 分子的中心原子上的价层电子对数为3NA \nB．32 g 环状S8(\n)分子中含有的S—S 键数为NA \nC．平均聚合度为n 的聚乙烯中，碳碳双键的数目为nNA \nD．常温下，1 L 0.1 mol/L CH3COONH4 的溶液中，CH3COO\n－与\n+\n4\nNH 数目都小于0.1NA \n7. 席夫碱指含有亚胺或甲亚胺特性基团(\n)的一类有机化合物。下图是一种席夫碱合成及应用， \n下列说法错误的是 \n \nA. 步骤一先发生加成再发生消去反应得Y          B. M 中所有碳原子可能共平面 \nC.  NaOH 促进步骤二中反应物的转化             D. 可用新制氢氧化铜鉴别M 与W \n8. 下列事实与解释/原因之间的关系错误的是 \n \n事实 \n解释/原因 \nA \n将SO2 通入滴有酚酞的氨水中，溶液由红色变为无色 \nSO2 是酸性氧化物 \nB \nt ℃，测得0.1 mol/L 的NaHA 溶液的pH 约为6.5 \nt ℃，Ka1(H2A) ·Ka2(H2A ) > KW \nC \n顺丁烯二酸的一级电离常数比反丁烯二酸大 \n顺丁烯二酸形成了分子内氢键 \nD \n向I2 的CCl4 溶液中加入KI(aq)，振荡后褪色 \n发生了反应I2 + I- ⇌ I3- \n \n9. 葫芦[n]脲(n=5，6，7，8…)家族分子是一种具有空腔的桶状大杯、两端开口的超分子主体，可以很好地\n包结有机分子、阳离子和其他客体分子(如图甲所示)，在分子识别、药物载体等方面有广泛应用。葫芦[n]\n脲(结构如图乙)可由A(\n  )和B 在一定条件下合成， \n下列说法错误的是 \nA．B 物质可发生氧化反应、还原反应与加成反应        \nB．A 与B 合成葫芦脲的反应类型是缩聚反应 \nC．乙分子中存在2n 个手性碳原子 \nD. 葫芦[n]脲中空腔端口的羰基可通过静电作用结合客体分子上的阳离子位点"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_cd6cae29f483.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_319aae815248.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_596dbc1258e5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_012_2ef9d3d69adc.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_013_8b5da0836cec.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\n试卷第3 页，共8 页 \n10. 常温常压下，Li 和N2 反应生成红棕色、具有高度离子导电性的α-Li3N。α-Li3N 由a、b 两层构成，其\na、b 层及晶体结构如图。下列说法正确的是 \n \nA．α-Li3N 的晶体类型为共价晶体             B．相邻Li 与N 间的作用力：层间>层内 \nC．N 周围最近且等核间距的Li 数目为6 \nD．每生成1 mol α-Li3N，转移1 mol 电子  \n11．南开大学某团队开发了一种新型手性螺环二亚磷酸\n酯配体分子(简写为\n)，实现了铱(Ir)催化的α-烯烃\n(\n2\nR\nCH\nCH\n−\n=\n，R 为烷基）与丙烯酰胺的高度对映选择\n性氢烯基化反应，催化循环过程如图所示。 \n已知：烯烃可通过提供一对π 键电子对充当配体，每提\n供一对π 电子，中心原子的配位数+1。Ph-代表苯基；\nBu-代表\n。下列说法错误的是 \nA. 总反应为加成反应，原子利用率为100% \nB．III 中Ir 的配体数为4，配位数为6 \nC. \n的系统命名为：顺,顺-1,5-环辛二烯 \nD．III 到IV 中Ir 的化合价发生了变化 \n12. 环己烯(\n)为重要的化工原料，实验室常用环己醇(\n)制备，流程如下：步骤Ⅰ—用浓磷酸和环\n己醇制备环己烯混合加热，蒸馏得到对应馏分；步骤Ⅱ—用饱和Na2CO3 和饱和食盐水分批次洗涤、分液；\n步骤Ⅲ—用干燥的无水CaCl2 吸水，过滤后再蒸馏，得到产物；步骤Ⅳ—经波谱分析，测得产物的核磁共\n振氢谱图如图所示。 \n \n下列说法错误的是 \nA．若不用饱和食盐水洗涤，而用水，则环己烯的产率下降  B．由核磁共振氢谱可知产物中含有杂质 \nC．可能生成环己酮(\n)、磷酸酯等副产物     D．若不过滤CaCl2 直接蒸馏，则产物的纯度会下降"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_014_1a4bbb48d1a3.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_015_625af509ea5c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_016_3630d2914963.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_017_da553efad740.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_018_a9794222a501.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_019_10c2b59ddee8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_020_113199ba89cf.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_021_bc43c9f9ae89.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_022_57eb42d89c24.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\n试卷第4 页，共8 页 \n13. 我国科学家发现，利用如下装置可以将邻苯二醌类物\n质转化为邻苯二酚类物质，已知双极膜(膜a、膜b)中间层\n中的H2O 可解离为H+和OH\n－。下列说法正确的是 \nA. 电势：N < M            \nB. M 极电极反应式为 \nB2H6 + 14OH\n－ －12e\n－ = 2BO2\n－ + 10H2O   \nC. 制取1 mol 邻苯二酚类物质时，理论上有 \n2 mol OH\n－ 透过膜a \nD. 工作一段时间后，装置中只需要定期补充H2O \n14. 一种从铜阳极泥(含有Au、Ag2Se、Cu2Se 等)中分离回\n收Au 和Ag 的工艺流程如下： \n \n下列说法错误的是 \nA．“氧化酸浸”时加入适量NaCl 的目的是使银元素转化为AgCl 沉淀 \nB．“除金”时溶液中Cl\n－浓度越高越好 \nC．“电沉积”完成后阴极区溶液中可循环利用的物质为Na2S2O3 \nD．“还原”中生成的N2、Au 物质的量之比为3:4 \n15．柠檬酸是三元弱酸(简写为H3A)。常温下，向10 mL 0.1 mol·L-1 H3A 溶液中滴加V mL pH=13 的NaOH\n溶液，溶液的pH 与含A 粒子分布系数如图所示。下列叙述正确的是 \n已知：H3A 的分布系数表达式为(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n3\n3\n2\n3\n3\n2\nn H A\nH A\n100%\nn H A\nn H A\nn HA\nn A\n−\n−\n−\n\n=\n\n+\n+\n+\n。 \n \npH \nA．Na3A 在水中的第二步水解方程式为\n2\n2\n2\n3\nH A\nH O=H O\nHA\n−\n+\n−\n+\n+\n \nB．当V=20 时，溶液中：c(H+) < c(OH\n－) \nC．\n3\n2\n2\nA\nH A\n2HA\n−\n−\n−\n+\n\n的K1 小于\n2\n3\n2\nH A\nHA\n2H A\n−\n−\n+\n\n的K2 \nD．pH=4.77 时，溶液中：c(Na+) < c(OH\n－)＋3c(HA2－)＋3c(A3－)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_023_3d4d1d0154c9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_024_6631a14fecea.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_025_8c703f7ebf80.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 5\n\n试卷第5 页，共8 页 \n二、非选择题：本题共4 小题，共55 分 \n16．（14 分）一种制备具有优良光电性质的纳米材料Bi2S3 量子点的实验过程如下： \n \n已知：i．BiCl3 易水解； \nⅱ．BiCl3     Bi2S3 反应过程如下： \n， \n+ Bi2S3 ； \nⅲ．25℃ 时，Ksp(Bi2S3) = 1.6×10-20  \n回答下列问题： \n(1)“溶解”过程控制低浓度的Bi3+与S2-是制备Bi2S3 量子点的关键。 \n①CH3CSNH2 缓慢水解产生H2S 的化学方程式为       ；使用CH3CSNH2 替换H2S 的优点有       。 \n②加入乙酰丙酮的目的是                                      。 \n(2)离心机利用离心力分离密度不同的混合物。“离心分离”中，若沉淀悬浮在上层，可能的原因是      。\n（填标号） \na．离心转速不足          b．乙二醇二甲醚密度过低        c．未使用冰水浴冷却 \n(3)“常压蒸馏”过程，需用到的仪器有         、         （填仪器名称）。 \n \n \n \n \n \n(4)下列操作不会造成Bi2S3 量子点产率降低的有_________。（填标号） \nA．去除“乙酰丙酮”反应物                B．将表面活性剂HS(CH2)10COOH 替换为辛酸 \nC．“溶剂热反应”反应时间过长 \nD．将“常压蒸馏”改为“减压蒸馏” \n(5)测定Bi2S3 量子点中Bi3+含量：取a g Bi2S3 样品溶于FeCl3 和盐酸混合液，用维生素C 消除干扰离子\n后，定容至250 mL。移取25.00 mL 待测液，用0.0200 mol/L Na2H2Y 标准溶液滴定至终点，平均消耗\nNa2H2Y 标准溶液b mL。该过程涉及反应： \ni．Bi2S3 + 6Fe3+ = 2Bi3+ + 3S↓ + 6Fe2+；ⅱ．Bi3+ + H2Y2- = [BiY]- + 2H+。 \n①滴定过程溶液pH 需维持在1.0 ~ 1.7，其原因是                                            。 \n②该样品中Bi3+的质量分数为                  ×100%。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_026_d1fce06f1dd4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_027_2c90e549cfad.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_028_0c238ac974af.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_029_16964636751a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 6\n\n试卷第6 页，共8 页 \n17. （14 分）草酸镍NiC2O4 是一种不溶于水的浅绿色粉末，常用于制镍催化剂和镍粉等。以铜镍合金废\n料(主要成分为镍和铜，含有一定量的铁和硅)为原料生产草酸镍的工艺流程如图： \n \n已知：①pH 增大，Fe2+被氧化的速率加快； \n②草酸的Ka1 = 6.0 ×10-2 ,  Ka2 = 5.0 ×10-5 \n回答下列问题： \n(1)生产时为提高合金废料浸出率，常采取的措施有           (填字母)。 \na．适当延长浸出时间     b．高温浸出     c．分批加入混酸浸取并搅拌 \n(2)“萃取”步骤中萃取除去的主要金属阳离子是           。 \n(3)“氧化”过程中，控制70 ℃、pH 小于3 的条件下进行。 \n①“氧化”过程的离子方程式为                                                               。 \n②pH 为3～4 时，镍的回收率降低的原因是                                                   。 \n(4)“过滤”后的滤液中加入(NH4)2C2O4 溶液反应得到草酸镍，过滤得到的草酸镍需要用蒸馏水洗涤，检验晶\n体是否洗涤干净的方法是                                                                   。\n已知常温下Ksp(NiC2O4) = 1.70×10-17，当溶液pH=2 时，Ni2+沉淀完全( (\n)\n2\n5\n1\nc Ni\n1 10 mol L\n+\n−\n−\n\n\n时认为完全\n沉淀)，则此时溶液中草酸的浓度为                          。（结果保留3 位有效数字） \n(5)在空气中加热二水合草酸镍得到如下TG-DSC 热分解曲线如图所示，已知：TG 指的是在程序控制温度\n下测量待测样品的质量与温度变化关系，DSC 指通过单独的加热器补偿样品在加热过程中发生的热量变\n化，以保持样品和参比物的温差为零。这种补偿能量即样品吸收(峰向下)或放出(峰向上)的热量。则300 ℃\n时，反应的化学方程式为     。二水合草酸镍分解的整个反应是           (填“吸热”或“放热”)反应。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_030_6ab4a7d9877c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_031_844d7f9b66cc.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\n试卷第7 页，共8 页 \n18．（13 分）氢气是理想的清洁和高能燃料。乙醇和水重整制氢主要发生的反应如下： \n反应1：C2H5OH(g) + H2O(g) ⇌ 2CO(g)+4H2(g)  ΔH1 = +258.1 kJ/mol  ； \n反应2：CO(g) + H2O(g) ⇌ CO2(g) + H2(g)  ΔH2 = -41.6 kJ/mol \n回答下列问题： \n(1)基态O2-的轨道表示式为                                                               。 \n(2) 反应C2H5OH(g) + 3H2O(g) ⇌ 2CO2(g) + 6H2(g)  ΔH =        kJ/mol，该反应在               \n(填“较高温度”“较低温度”或“任意温度”)能自发进行。 \n(3)压强为100 kPa 时，H2 的平衡产率与温度、起始投料比\n(\n)\n(\n)\n2\n2\n5\nn H O\nη= n C H OH\n\n\n\n\n\n\n\n\n的关系如图所示(每条曲线上H2\n的平衡产率相等)。 \n \n①b、c 两点H2 的平衡产率相等的原因是                                 。 \n②C2H5OH 的转化率：a 点       (填“>”“<”或“=”)c 点。 \n③若初始b、c、d 浓度相等，则对应化学反应速率由小到大的顺序为        。 \n(4)T K 时，将3 mol H2O(g)和1 mol C2H5OH(g)的混合气体投入恒容密闭容器中发生反应，初始压强为 \n50 kPa，平衡时容器内压强为70 kPa，p(CO2) = 5 kPa，平衡时p(H2) =    kPa，反应2 的平衡常数KP =        \n(用最简分式表示，用平衡分压代替平衡浓度计算，分压=总压×物质的量分数)。 \n(5)乙醇和水蒸气在高温下重整得到CO、H2 和CO2 的混合气体，通过碱溶液吸收、干燥得到CO 和H2 体\n积比1:3 的混合气体，由该混合气体组成的碱性燃料电池如图所示。 \n \n放电过程中，b 极的电极反应式为                                                          。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_032_ceab26edad26.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_033_b4e8e780fcdd.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 8\n\n试卷第8 页，共8 页 \n19．（14 分）伊波加因是一种抗成瘾药物，合成其所需的中间体I 可由如下路线合成。 \n \n已知：①CbzCl 是\n的缩写； \n②三元环可与HBr 发生开环反应：\n； \n③\n \n回答下列问题： \n(1)G 中官能团的名称是               , 一个I 分子中含有手性碳原子的数目是                   。 \n(2)步骤⑤经历了两步反应实现转化，第一步得到的中间产物结构简式为                   ；第二步的\n化学反应类型为             。 \n(3)反应③属于Diels-Alder 反应，则该反应的化学方程式为                                      。 \n(4)CbzCl 的同分异构体中，同时满足下列条件的共有         种(不考虑立体异构)： \n①与FeCl3 溶液发生显色反应；②羰基与氯原子直接相连。 \n其中一种结构简式含有4 组不同化学环境的氢原子，其有机水解产物的系统命名为                 。 \n(5)研究者模仿I 的合成路线，设计了化合物J 的一种合成路线。该路线中M 和N 的结构简式分别为       \n和       。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_034_b7f89d775ead.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_035_382c89e02433.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_036_ddbcafb6384f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_037_5b7ec7c4bf7e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_038_dff8330e0c56.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "# answers\n\n## Page 1\n\n高三年级开学测试化学答案 \n1-15  AACDD  CBBCB  DCBBD \n16．（14 分）(1) ①CH3CSNH2 + H2O = (⇌)CH3CONH2 + H2S (↑) (2 分，可逆符号与气体符号不做要求)     \nCH3CSNH2 水解产生H2S 速率可控，将H2S 维持在稳定低浓度(1 分)；可减少H2S 溢出，提升实验安全性\n(1 分)      \n②形成配合物缓慢释放Bi3+(1 分)；产生H+抑制H2S 电离降低S2-浓度(1 分) \n(2)a (1 分) \n(3) 直形冷凝管；温度计(各1 分，共2 分) \n(4)D (1 分) \n(5) ①pH 过高，Bi3+会发生水解(1 分)；pH 过低，会影响Bi3+与H2Y2-反应程度(1 分) ② \n-2\n4.18b 10\na\n\n(2 分) \n17．（14 分）(1)ac (2 分)           (2)\n2\nCu  (1 分) \n(3) ①\n2\n2\n2\n2\n70\n2Fe\nH O\n2H O\n2FeOOH\n4H\n\n\n\n\n\n℃\n (2 分，条件写加热也给分) \n②pH 过高,Fe2+快速转化为大量Fe3+(1 分), Fe3+生成氢氧化铁胶体吸附大量Ni2+，导致镍回收率降低 (1 分) \n(4)取最后一次的洗涤液少许于试管中，先加盐酸酸化，再加氯化钡溶液，若无沉淀生成，则证明洗涤干净 \n(2 分， 若学生检验NH4+，且描述正确，给1 分)     5.67×10-11 mol/L (2 分) \n(5) \n2\n4\n2\n2\n2NiC O\nO\n2NiO\n4CO\n\n\n\n (2 分，条件为加热或者300 ℃ )   放热(1 分) \n18. （13 分）(1)\n (1 分) \n(2)   +174.9  (1 分)     较高温度(1 分) \n(3) c 点温度高于b 点，升高温度，反应1 平衡正向移动生成H2 的量等于反应2 平衡逆向移动消耗H2 的量  \n(2 分)           < (1 分)           b\nc\nd\n\n\n(1 分) \n(4)   25  (2 分)   10\n11 (2 分) \n(5)\n-\n-\n2-\n2\n3\n2\nCO+3H +10OH -8e =CO +8H O  (2 分) \n19．（14 分）(1) (酮)羰基，氨基（2 分）    4（1 分） \n(2)        \n      (2 分)         取代反应(1 分) \n(3)  \n                                                                  (2 分) \n \n(4)     13  (2 分)   4-羟基苯乙酸（2 分，习惯命名不给分） \n(5)     \n    (1 分)  \n (1 分)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_039_0f81fb4d8cea.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_040_b972eac7743b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_041_bfa6b7471320.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_042_847f489dd3bd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_043_21e04a9b193c.jpg"
+            }
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Answer whether it is indicated that the student's multiple-choice score is 36 points.",
+      "2. Answer whether it is indicated that the student scored 8 points on question 16 (with an allowable margin of error of 1 point).",
+      "3. Answer whether it is indicated that the student scored 3 points on question 17 (with an allowable margin of error of 1 point).",
+      "4. Answer whether it is indicated that the student scored 2 points on question 18 (with an allowable margin of error of 1 point).",
+      "5. Answer whether it is indicated that the student scored 8 points on question 19 (with an allowable margin of error of 1 point)."
+    ],
+    "metadata": {
+      "task_id": "MCL-0330_T2",
+      "context_id": "MCL-0330",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert grading assistant with extensive experience in educational assessment. Your task is to evaluate student responses fairly, consistently, and constructively."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_777063fe837b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_6c984f6299ff.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the exam papers of one student. What are his answers to questions 1, 2 and 3?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please grade the exam papers for this student.\n# exam paper\n\n## Page 1\n\n试卷第1 页，共8 页 \n高三年级化学试卷 \n考试时间：75 分钟    总分：100 分 \n可能用到的相对原子质量：H-1     C-12     O-16     Bi-209     Ni-59 \n一、选择题：本题共15 小题，每小题3 分，共45 分。每小题只有一个选项符合题目要求。 \n1. 人类社会的发展离不开化学，化学的发展离不开科学家的不断探索。下列科学家与主要成就不相符的是 \nA. 伏打发明了伏打电堆，并用它通过电解法发现了钾、钠等金属元素 \nB. 侯德榜将氨碱法制取碳酸钠和合成氨联合起来，提高了食盐的转化率 \nC. 伍德沃德与多位化学家合作，成功合成了奎宁、胆固醇、维生素B12 等一系列结构复杂的天然产物 \nD. 巴斯德从实验室合成的酒石酸盐中分离出两种不同光学活性的晶体 \n2. 下列性质或用途错误的是 \nA. 钠钾合金——具有良好的高温强度的耐高温合金 \nB. 聚甲基丙烯酸甲酯——可制成透明材料的有机玻璃 \nC. 杯酚——可分离C60 和C70 的有机物 \nD. 金刚砂——作为砂纸和砂轮的磨料 \n3. 下列离子反应表示正确的是 \nA. 向硫代硫酸钠溶液中滴加稀硝酸：S2O32－ + 2H+ \n SO2↑+ S↓+ H2O \nB. 用铁电极作阳极，电解饱和食盐水：2Cl\n－ + 2H2O \n Cl2↑+ H2↑+ 2OH\n－ \nC. IBr 与水反应：IBr + H2O\nHBr + HIO \nD. 用食醋和淀粉-KI 溶液检验食盐中的IO3-：IO3\n－+ 5I\n－ + 6H+ \n 3I2 + 3H2O \n4. 一种对称的阴离子[X6Y4ZM2W2]\n－(结构如图)由原子半径依次增大的X、Y、Z、M、W 五种短周期的p 区\n元素组成，基态原子中未成对电子数目Z>Y=M>X，Y 与W 为同主族元素。下列说法错误的是  \n  \nA. 该阴离子呈现锯齿状                       B. 该阴离子与季铵离子(R4N+)能形成离子液体 \nC. M 的氢化物的沸点不一定比Y 的氢化物低     D. 第一电离能大小：Y>Z>M>X \n5．用下列装置进行实验，能达到实验目的的是  \n \nA \nB \nC \nD \n实验装置 \n \n \n \n \n实验目的 \n蒸干AlCl3 溶液得\n到无水AlCl3 \n分离氢氧化铁胶\n体和氯化铁溶液 \n乙中先通NH3 再通\nCO2，制备NaHCO3 \n验证Na2O2 与水的反\n应放热"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_c487a9f3a45d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_f2063b0b5e63.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_c8e4327bf54d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_e013cbb2eda1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_b05bb673e6f9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_dc8e9f43ace6.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\n试卷第2 页，共8 页 \n6．设NA 为阿伏加德罗常数的值。下列说法错误的是 \nA．1 mol O3 分子的中心原子上的价层电子对数为3NA \nB．32 g 环状S8(\n)分子中含有的S—S 键数为NA \nC．平均聚合度为n 的聚乙烯中，碳碳双键的数目为nNA \nD．常温下，1 L 0.1 mol/L CH3COONH4 的溶液中，CH3COO\n－与\n+\n4\nNH 数目都小于0.1NA \n7. 席夫碱指含有亚胺或甲亚胺特性基团(\n)的一类有机化合物。下图是一种席夫碱合成及应用， \n下列说法错误的是 \n \nA. 步骤一先发生加成再发生消去反应得Y          B. M 中所有碳原子可能共平面 \nC.  NaOH 促进步骤二中反应物的转化             D. 可用新制氢氧化铜鉴别M 与W \n8. 下列事实与解释/原因之间的关系错误的是 \n \n事实 \n解释/原因 \nA \n将SO2 通入滴有酚酞的氨水中，溶液由红色变为无色 \nSO2 是酸性氧化物 \nB \nt ℃，测得0.1 mol/L 的NaHA 溶液的pH 约为6.5 \nt ℃，Ka1(H2A) ·Ka2(H2A ) > KW \nC \n顺丁烯二酸的一级电离常数比反丁烯二酸大 \n顺丁烯二酸形成了分子内氢键 \nD \n向I2 的CCl4 溶液中加入KI(aq)，振荡后褪色 \n发生了反应I2 + I- ⇌ I3- \n \n9. 葫芦[n]脲(n=5，6，7，8…)家族分子是一种具有空腔的桶状大杯、两端开口的超分子主体，可以很好地\n包结有机分子、阳离子和其他客体分子(如图甲所示)，在分子识别、药物载体等方面有广泛应用。葫芦[n]\n脲(结构如图乙)可由A(\n  )和B 在一定条件下合成， \n下列说法错误的是 \nA．B 物质可发生氧化反应、还原反应与加成反应        \nB．A 与B 合成葫芦脲的反应类型是缩聚反应 \nC．乙分子中存在2n 个手性碳原子 \nD. 葫芦[n]脲中空腔端口的羰基可通过静电作用结合客体分子上的阳离子位点"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_cd6cae29f483.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_319aae815248.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_596dbc1258e5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_012_2ef9d3d69adc.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_013_8b5da0836cec.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\n试卷第3 页，共8 页 \n10. 常温常压下，Li 和N2 反应生成红棕色、具有高度离子导电性的α-Li3N。α-Li3N 由a、b 两层构成，其\na、b 层及晶体结构如图。下列说法正确的是 \n \nA．α-Li3N 的晶体类型为共价晶体             B．相邻Li 与N 间的作用力：层间>层内 \nC．N 周围最近且等核间距的Li 数目为6 \nD．每生成1 mol α-Li3N，转移1 mol 电子  \n11．南开大学某团队开发了一种新型手性螺环二亚磷酸\n酯配体分子(简写为\n)，实现了铱(Ir)催化的α-烯烃\n(\n2\nR\nCH\nCH\n−\n=\n，R 为烷基）与丙烯酰胺的高度对映选择\n性氢烯基化反应，催化循环过程如图所示。 \n已知：烯烃可通过提供一对π 键电子对充当配体，每提\n供一对π 电子，中心原子的配位数+1。Ph-代表苯基；\nBu-代表\n。下列说法错误的是 \nA. 总反应为加成反应，原子利用率为100% \nB．III 中Ir 的配体数为4，配位数为6 \nC. \n的系统命名为：顺,顺-1,5-环辛二烯 \nD．III 到IV 中Ir 的化合价发生了变化 \n12. 环己烯(\n)为重要的化工原料，实验室常用环己醇(\n)制备，流程如下：步骤Ⅰ—用浓磷酸和环\n己醇制备环己烯混合加热，蒸馏得到对应馏分；步骤Ⅱ—用饱和Na2CO3 和饱和食盐水分批次洗涤、分液；\n步骤Ⅲ—用干燥的无水CaCl2 吸水，过滤后再蒸馏，得到产物；步骤Ⅳ—经波谱分析，测得产物的核磁共\n振氢谱图如图所示。 \n \n下列说法错误的是 \nA．若不用饱和食盐水洗涤，而用水，则环己烯的产率下降  B．由核磁共振氢谱可知产物中含有杂质 \nC．可能生成环己酮(\n)、磷酸酯等副产物     D．若不过滤CaCl2 直接蒸馏，则产物的纯度会下降"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_014_1a4bbb48d1a3.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_015_625af509ea5c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_016_3630d2914963.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_017_da553efad740.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_018_a9794222a501.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_019_10c2b59ddee8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_020_113199ba89cf.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_021_bc43c9f9ae89.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_022_57eb42d89c24.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\n试卷第4 页，共8 页 \n13. 我国科学家发现，利用如下装置可以将邻苯二醌类物\n质转化为邻苯二酚类物质，已知双极膜(膜a、膜b)中间层\n中的H2O 可解离为H+和OH\n－。下列说法正确的是 \nA. 电势：N < M            \nB. M 极电极反应式为 \nB2H6 + 14OH\n－ －12e\n－ = 2BO2\n－ + 10H2O   \nC. 制取1 mol 邻苯二酚类物质时，理论上有 \n2 mol OH\n－ 透过膜a \nD. 工作一段时间后，装置中只需要定期补充H2O \n14. 一种从铜阳极泥(含有Au、Ag2Se、Cu2Se 等)中分离回\n收Au 和Ag 的工艺流程如下： \n \n下列说法错误的是 \nA．“氧化酸浸”时加入适量NaCl 的目的是使银元素转化为AgCl 沉淀 \nB．“除金”时溶液中Cl\n－浓度越高越好 \nC．“电沉积”完成后阴极区溶液中可循环利用的物质为Na2S2O3 \nD．“还原”中生成的N2、Au 物质的量之比为3:4 \n15．柠檬酸是三元弱酸(简写为H3A)。常温下，向10 mL 0.1 mol·L-1 H3A 溶液中滴加V mL pH=13 的NaOH\n溶液，溶液的pH 与含A 粒子分布系数如图所示。下列叙述正确的是 \n已知：H3A 的分布系数表达式为(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n3\n3\n2\n3\n3\n2\nn H A\nH A\n100%\nn H A\nn H A\nn HA\nn A\n−\n−\n−\n\n=\n\n+\n+\n+\n。 \n \npH \nA．Na3A 在水中的第二步水解方程式为\n2\n2\n2\n3\nH A\nH O=H O\nHA\n−\n+\n−\n+\n+\n \nB．当V=20 时，溶液中：c(H+) < c(OH\n－) \nC．\n3\n2\n2\nA\nH A\n2HA\n−\n−\n−\n+\n\n的K1 小于\n2\n3\n2\nH A\nHA\n2H A\n−\n−\n+\n\n的K2 \nD．pH=4.77 时，溶液中：c(Na+) < c(OH\n－)＋3c(HA2－)＋3c(A3－)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_023_3d4d1d0154c9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_024_6631a14fecea.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_025_8c703f7ebf80.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 5\n\n试卷第5 页，共8 页 \n二、非选择题：本题共4 小题，共55 分 \n16．（14 分）一种制备具有优良光电性质的纳米材料Bi2S3 量子点的实验过程如下： \n \n已知：i．BiCl3 易水解； \nⅱ．BiCl3     Bi2S3 反应过程如下： \n， \n+ Bi2S3 ； \nⅲ．25℃ 时，Ksp(Bi2S3) = 1.6×10-20  \n回答下列问题： \n(1)“溶解”过程控制低浓度的Bi3+与S2-是制备Bi2S3 量子点的关键。 \n①CH3CSNH2 缓慢水解产生H2S 的化学方程式为       ；使用CH3CSNH2 替换H2S 的优点有       。 \n②加入乙酰丙酮的目的是                                      。 \n(2)离心机利用离心力分离密度不同的混合物。“离心分离”中，若沉淀悬浮在上层，可能的原因是      。\n（填标号） \na．离心转速不足          b．乙二醇二甲醚密度过低        c．未使用冰水浴冷却 \n(3)“常压蒸馏”过程，需用到的仪器有         、         （填仪器名称）。 \n \n \n \n \n \n(4)下列操作不会造成Bi2S3 量子点产率降低的有_________。（填标号） \nA．去除“乙酰丙酮”反应物                B．将表面活性剂HS(CH2)10COOH 替换为辛酸 \nC．“溶剂热反应”反应时间过长 \nD．将“常压蒸馏”改为“减压蒸馏” \n(5)测定Bi2S3 量子点中Bi3+含量：取a g Bi2S3 样品溶于FeCl3 和盐酸混合液，用维生素C 消除干扰离子\n后，定容至250 mL。移取25.00 mL 待测液，用0.0200 mol/L Na2H2Y 标准溶液滴定至终点，平均消耗\nNa2H2Y 标准溶液b mL。该过程涉及反应： \ni．Bi2S3 + 6Fe3+ = 2Bi3+ + 3S↓ + 6Fe2+；ⅱ．Bi3+ + H2Y2- = [BiY]- + 2H+。 \n①滴定过程溶液pH 需维持在1.0 ~ 1.7，其原因是                                            。 \n②该样品中Bi3+的质量分数为                  ×100%。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_026_d1fce06f1dd4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_027_2c90e549cfad.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_028_0c238ac974af.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_029_16964636751a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 6\n\n试卷第6 页，共8 页 \n17. （14 分）草酸镍NiC2O4 是一种不溶于水的浅绿色粉末，常用于制镍催化剂和镍粉等。以铜镍合金废\n料(主要成分为镍和铜，含有一定量的铁和硅)为原料生产草酸镍的工艺流程如图： \n \n已知：①pH 增大，Fe2+被氧化的速率加快； \n②草酸的Ka1 = 6.0 ×10-2 ,  Ka2 = 5.0 ×10-5 \n回答下列问题： \n(1)生产时为提高合金废料浸出率，常采取的措施有           (填字母)。 \na．适当延长浸出时间     b．高温浸出     c．分批加入混酸浸取并搅拌 \n(2)“萃取”步骤中萃取除去的主要金属阳离子是           。 \n(3)“氧化”过程中，控制70 ℃、pH 小于3 的条件下进行。 \n①“氧化”过程的离子方程式为                                                               。 \n②pH 为3～4 时，镍的回收率降低的原因是                                                   。 \n(4)“过滤”后的滤液中加入(NH4)2C2O4 溶液反应得到草酸镍，过滤得到的草酸镍需要用蒸馏水洗涤，检验晶\n体是否洗涤干净的方法是                                                                   。\n已知常温下Ksp(NiC2O4) = 1.70×10-17，当溶液pH=2 时，Ni2+沉淀完全( (\n)\n2\n5\n1\nc Ni\n1 10 mol L\n+\n−\n−\n\n\n时认为完全\n沉淀)，则此时溶液中草酸的浓度为                          。（结果保留3 位有效数字） \n(5)在空气中加热二水合草酸镍得到如下TG-DSC 热分解曲线如图所示，已知：TG 指的是在程序控制温度\n下测量待测样品的质量与温度变化关系，DSC 指通过单独的加热器补偿样品在加热过程中发生的热量变\n化，以保持样品和参比物的温差为零。这种补偿能量即样品吸收(峰向下)或放出(峰向上)的热量。则300 ℃\n时，反应的化学方程式为     。二水合草酸镍分解的整个反应是           (填“吸热”或“放热”)反应。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_030_6ab4a7d9877c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_031_844d7f9b66cc.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\n试卷第7 页，共8 页 \n18．（13 分）氢气是理想的清洁和高能燃料。乙醇和水重整制氢主要发生的反应如下： \n反应1：C2H5OH(g) + H2O(g) ⇌ 2CO(g)+4H2(g)  ΔH1 = +258.1 kJ/mol  ； \n反应2：CO(g) + H2O(g) ⇌ CO2(g) + H2(g)  ΔH2 = -41.6 kJ/mol \n回答下列问题： \n(1)基态O2-的轨道表示式为                                                               。 \n(2) 反应C2H5OH(g) + 3H2O(g) ⇌ 2CO2(g) + 6H2(g)  ΔH =        kJ/mol，该反应在               \n(填“较高温度”“较低温度”或“任意温度”)能自发进行。 \n(3)压强为100 kPa 时，H2 的平衡产率与温度、起始投料比\n(\n)\n(\n)\n2\n2\n5\nn H O\nη= n C H OH\n\n\n\n\n\n\n\n\n的关系如图所示(每条曲线上H2\n的平衡产率相等)。 \n \n①b、c 两点H2 的平衡产率相等的原因是                                 。 \n②C2H5OH 的转化率：a 点       (填“>”“<”或“=”)c 点。 \n③若初始b、c、d 浓度相等，则对应化学反应速率由小到大的顺序为        。 \n(4)T K 时，将3 mol H2O(g)和1 mol C2H5OH(g)的混合气体投入恒容密闭容器中发生反应，初始压强为 \n50 kPa，平衡时容器内压强为70 kPa，p(CO2) = 5 kPa，平衡时p(H2) =    kPa，反应2 的平衡常数KP =        \n(用最简分式表示，用平衡分压代替平衡浓度计算，分压=总压×物质的量分数)。 \n(5)乙醇和水蒸气在高温下重整得到CO、H2 和CO2 的混合气体，通过碱溶液吸收、干燥得到CO 和H2 体\n积比1:3 的混合气体，由该混合气体组成的碱性燃料电池如图所示。 \n \n放电过程中，b 极的电极反应式为                                                          。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_032_ceab26edad26.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_033_b4e8e780fcdd.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 8\n\n试卷第8 页，共8 页 \n19．（14 分）伊波加因是一种抗成瘾药物，合成其所需的中间体I 可由如下路线合成。 \n \n已知：①CbzCl 是\n的缩写； \n②三元环可与HBr 发生开环反应：\n； \n③\n \n回答下列问题： \n(1)G 中官能团的名称是               , 一个I 分子中含有手性碳原子的数目是                   。 \n(2)步骤⑤经历了两步反应实现转化，第一步得到的中间产物结构简式为                   ；第二步的\n化学反应类型为             。 \n(3)反应③属于Diels-Alder 反应，则该反应的化学方程式为                                      。 \n(4)CbzCl 的同分异构体中，同时满足下列条件的共有         种(不考虑立体异构)： \n①与FeCl3 溶液发生显色反应；②羰基与氯原子直接相连。 \n其中一种结构简式含有4 组不同化学环境的氢原子，其有机水解产物的系统命名为                 。 \n(5)研究者模仿I 的合成路线，设计了化合物J 的一种合成路线。该路线中M 和N 的结构简式分别为       \n和       。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_034_b7f89d775ead.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_035_382c89e02433.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_036_ddbcafb6384f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_037_5b7ec7c4bf7e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_038_dff8330e0c56.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "# answers\n\n## Page 1\n\n高三年级开学测试化学答案 \n1-15  AACDD  CBBCB  DCBBD \n16．（14 分）(1) ①CH3CSNH2 + H2O = (⇌)CH3CONH2 + H2S (↑) (2 分，可逆符号与气体符号不做要求)     \nCH3CSNH2 水解产生H2S 速率可控，将H2S 维持在稳定低浓度(1 分)；可减少H2S 溢出，提升实验安全性\n(1 分)      \n②形成配合物缓慢释放Bi3+(1 分)；产生H+抑制H2S 电离降低S2-浓度(1 分) \n(2)a (1 分) \n(3) 直形冷凝管；温度计(各1 分，共2 分) \n(4)D (1 分) \n(5) ①pH 过高，Bi3+会发生水解(1 分)；pH 过低，会影响Bi3+与H2Y2-反应程度(1 分) ② \n-2\n4.18b 10\na\n\n(2 分) \n17．（14 分）(1)ac (2 分)           (2)\n2\nCu  (1 分) \n(3) ①\n2\n2\n2\n2\n70\n2Fe\nH O\n2H O\n2FeOOH\n4H\n\n\n\n\n\n℃\n (2 分，条件写加热也给分) \n②pH 过高,Fe2+快速转化为大量Fe3+(1 分), Fe3+生成氢氧化铁胶体吸附大量Ni2+，导致镍回收率降低 (1 分) \n(4)取最后一次的洗涤液少许于试管中，先加盐酸酸化，再加氯化钡溶液，若无沉淀生成，则证明洗涤干净 \n(2 分， 若学生检验NH4+，且描述正确，给1 分)     5.67×10-11 mol/L (2 分) \n(5) \n2\n4\n2\n2\n2NiC O\nO\n2NiO\n4CO\n\n\n\n (2 分，条件为加热或者300 ℃ )   放热(1 分) \n18. （13 分）(1)\n (1 分) \n(2)   +174.9  (1 分)     较高温度(1 分) \n(3) c 点温度高于b 点，升高温度，反应1 平衡正向移动生成H2 的量等于反应2 平衡逆向移动消耗H2 的量  \n(2 分)           < (1 分)           b\nc\nd\n\n\n(1 分) \n(4)   25  (2 分)   10\n11 (2 分) \n(5)\n-\n-\n2-\n2\n3\n2\nCO+3H +10OH -8e =CO +8H O  (2 分) \n19．（14 分）(1) (酮)羰基，氨基（2 分）    4（1 分） \n(2)        \n      (2 分)         取代反应(1 分) \n(3)  \n                                                                  (2 分) \n \n(4)     13  (2 分)   4-羟基苯乙酸（2 分，习惯命名不给分） \n(5)     \n    (1 分)  \n (1 分)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_039_0f81fb4d8cea.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_040_b972eac7743b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_041_bfa6b7471320.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_042_847f489dd3bd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_043_21e04a9b193c.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_044_7931720abca3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_045_dd74731826e2.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the exam papers of another student. What are his answers to questions 11, 12 and 13?"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Answer whether the student's answer to the first question is recognized as D.",
+      "2. Answer whether the student's answer to the second question is recognized as C.",
+      "3. Answer whether the student's answer to the third question is recognized as B."
+    ],
+    "metadata": {
+      "task_id": "MCL-0330_T3",
+      "context_id": "MCL-0330",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert grading assistant with extensive experience in educational assessment. Your task is to evaluate student responses fairly, consistently, and constructively."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_001_777063fe837b.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_002_6c984f6299ff.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the exam papers of one student. What are his answers to questions 1, 2 and 3?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please grade the exam papers for this student.\n# exam paper\n\n## Page 1\n\n试卷第1 页，共8 页 \n高三年级化学试卷 \n考试时间：75 分钟    总分：100 分 \n可能用到的相对原子质量：H-1     C-12     O-16     Bi-209     Ni-59 \n一、选择题：本题共15 小题，每小题3 分，共45 分。每小题只有一个选项符合题目要求。 \n1. 人类社会的发展离不开化学，化学的发展离不开科学家的不断探索。下列科学家与主要成就不相符的是 \nA. 伏打发明了伏打电堆，并用它通过电解法发现了钾、钠等金属元素 \nB. 侯德榜将氨碱法制取碳酸钠和合成氨联合起来，提高了食盐的转化率 \nC. 伍德沃德与多位化学家合作，成功合成了奎宁、胆固醇、维生素B12 等一系列结构复杂的天然产物 \nD. 巴斯德从实验室合成的酒石酸盐中分离出两种不同光学活性的晶体 \n2. 下列性质或用途错误的是 \nA. 钠钾合金——具有良好的高温强度的耐高温合金 \nB. 聚甲基丙烯酸甲酯——可制成透明材料的有机玻璃 \nC. 杯酚——可分离C60 和C70 的有机物 \nD. 金刚砂——作为砂纸和砂轮的磨料 \n3. 下列离子反应表示正确的是 \nA. 向硫代硫酸钠溶液中滴加稀硝酸：S2O32－ + 2H+ \n SO2↑+ S↓+ H2O \nB. 用铁电极作阳极，电解饱和食盐水：2Cl\n－ + 2H2O \n Cl2↑+ H2↑+ 2OH\n－ \nC. IBr 与水反应：IBr + H2O\nHBr + HIO \nD. 用食醋和淀粉-KI 溶液检验食盐中的IO3-：IO3\n－+ 5I\n－ + 6H+ \n 3I2 + 3H2O \n4. 一种对称的阴离子[X6Y4ZM2W2]\n－(结构如图)由原子半径依次增大的X、Y、Z、M、W 五种短周期的p 区\n元素组成，基态原子中未成对电子数目Z>Y=M>X，Y 与W 为同主族元素。下列说法错误的是  \n  \nA. 该阴离子呈现锯齿状                       B. 该阴离子与季铵离子(R4N+)能形成离子液体 \nC. M 的氢化物的沸点不一定比Y 的氢化物低     D. 第一电离能大小：Y>Z>M>X \n5．用下列装置进行实验，能达到实验目的的是  \n \nA \nB \nC \nD \n实验装置 \n \n \n \n \n实验目的 \n蒸干AlCl3 溶液得\n到无水AlCl3 \n分离氢氧化铁胶\n体和氯化铁溶液 \n乙中先通NH3 再通\nCO2，制备NaHCO3 \n验证Na2O2 与水的反\n应放热"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_c487a9f3a45d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_f2063b0b5e63.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_c8e4327bf54d.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_e013cbb2eda1.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_b05bb673e6f9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_008_dc8e9f43ace6.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 2\n\n试卷第2 页，共8 页 \n6．设NA 为阿伏加德罗常数的值。下列说法错误的是 \nA．1 mol O3 分子的中心原子上的价层电子对数为3NA \nB．32 g 环状S8(\n)分子中含有的S—S 键数为NA \nC．平均聚合度为n 的聚乙烯中，碳碳双键的数目为nNA \nD．常温下，1 L 0.1 mol/L CH3COONH4 的溶液中，CH3COO\n－与\n+\n4\nNH 数目都小于0.1NA \n7. 席夫碱指含有亚胺或甲亚胺特性基团(\n)的一类有机化合物。下图是一种席夫碱合成及应用， \n下列说法错误的是 \n \nA. 步骤一先发生加成再发生消去反应得Y          B. M 中所有碳原子可能共平面 \nC.  NaOH 促进步骤二中反应物的转化             D. 可用新制氢氧化铜鉴别M 与W \n8. 下列事实与解释/原因之间的关系错误的是 \n \n事实 \n解释/原因 \nA \n将SO2 通入滴有酚酞的氨水中，溶液由红色变为无色 \nSO2 是酸性氧化物 \nB \nt ℃，测得0.1 mol/L 的NaHA 溶液的pH 约为6.5 \nt ℃，Ka1(H2A) ·Ka2(H2A ) > KW \nC \n顺丁烯二酸的一级电离常数比反丁烯二酸大 \n顺丁烯二酸形成了分子内氢键 \nD \n向I2 的CCl4 溶液中加入KI(aq)，振荡后褪色 \n发生了反应I2 + I- ⇌ I3- \n \n9. 葫芦[n]脲(n=5，6，7，8…)家族分子是一种具有空腔的桶状大杯、两端开口的超分子主体，可以很好地\n包结有机分子、阳离子和其他客体分子(如图甲所示)，在分子识别、药物载体等方面有广泛应用。葫芦[n]\n脲(结构如图乙)可由A(\n  )和B 在一定条件下合成， \n下列说法错误的是 \nA．B 物质可发生氧化反应、还原反应与加成反应        \nB．A 与B 合成葫芦脲的反应类型是缩聚反应 \nC．乙分子中存在2n 个手性碳原子 \nD. 葫芦[n]脲中空腔端口的羰基可通过静电作用结合客体分子上的阳离子位点"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_009_cd6cae29f483.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_010_319aae815248.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_011_596dbc1258e5.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_012_2ef9d3d69adc.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_013_8b5da0836cec.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 3\n\n试卷第3 页，共8 页 \n10. 常温常压下，Li 和N2 反应生成红棕色、具有高度离子导电性的α-Li3N。α-Li3N 由a、b 两层构成，其\na、b 层及晶体结构如图。下列说法正确的是 \n \nA．α-Li3N 的晶体类型为共价晶体             B．相邻Li 与N 间的作用力：层间>层内 \nC．N 周围最近且等核间距的Li 数目为6 \nD．每生成1 mol α-Li3N，转移1 mol 电子  \n11．南开大学某团队开发了一种新型手性螺环二亚磷酸\n酯配体分子(简写为\n)，实现了铱(Ir)催化的α-烯烃\n(\n2\nR\nCH\nCH\n−\n=\n，R 为烷基）与丙烯酰胺的高度对映选择\n性氢烯基化反应，催化循环过程如图所示。 \n已知：烯烃可通过提供一对π 键电子对充当配体，每提\n供一对π 电子，中心原子的配位数+1。Ph-代表苯基；\nBu-代表\n。下列说法错误的是 \nA. 总反应为加成反应，原子利用率为100% \nB．III 中Ir 的配体数为4，配位数为6 \nC. \n的系统命名为：顺,顺-1,5-环辛二烯 \nD．III 到IV 中Ir 的化合价发生了变化 \n12. 环己烯(\n)为重要的化工原料，实验室常用环己醇(\n)制备，流程如下：步骤Ⅰ—用浓磷酸和环\n己醇制备环己烯混合加热，蒸馏得到对应馏分；步骤Ⅱ—用饱和Na2CO3 和饱和食盐水分批次洗涤、分液；\n步骤Ⅲ—用干燥的无水CaCl2 吸水，过滤后再蒸馏，得到产物；步骤Ⅳ—经波谱分析，测得产物的核磁共\n振氢谱图如图所示。 \n \n下列说法错误的是 \nA．若不用饱和食盐水洗涤，而用水，则环己烯的产率下降  B．由核磁共振氢谱可知产物中含有杂质 \nC．可能生成环己酮(\n)、磷酸酯等副产物     D．若不过滤CaCl2 直接蒸馏，则产物的纯度会下降"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_014_1a4bbb48d1a3.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_015_625af509ea5c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_016_3630d2914963.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_017_da553efad740.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_018_a9794222a501.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_019_10c2b59ddee8.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_020_113199ba89cf.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_021_bc43c9f9ae89.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_022_57eb42d89c24.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 4\n\n试卷第4 页，共8 页 \n13. 我国科学家发现，利用如下装置可以将邻苯二醌类物\n质转化为邻苯二酚类物质，已知双极膜(膜a、膜b)中间层\n中的H2O 可解离为H+和OH\n－。下列说法正确的是 \nA. 电势：N < M            \nB. M 极电极反应式为 \nB2H6 + 14OH\n－ －12e\n－ = 2BO2\n－ + 10H2O   \nC. 制取1 mol 邻苯二酚类物质时，理论上有 \n2 mol OH\n－ 透过膜a \nD. 工作一段时间后，装置中只需要定期补充H2O \n14. 一种从铜阳极泥(含有Au、Ag2Se、Cu2Se 等)中分离回\n收Au 和Ag 的工艺流程如下： \n \n下列说法错误的是 \nA．“氧化酸浸”时加入适量NaCl 的目的是使银元素转化为AgCl 沉淀 \nB．“除金”时溶液中Cl\n－浓度越高越好 \nC．“电沉积”完成后阴极区溶液中可循环利用的物质为Na2S2O3 \nD．“还原”中生成的N2、Au 物质的量之比为3:4 \n15．柠檬酸是三元弱酸(简写为H3A)。常温下，向10 mL 0.1 mol·L-1 H3A 溶液中滴加V mL pH=13 的NaOH\n溶液，溶液的pH 与含A 粒子分布系数如图所示。下列叙述正确的是 \n已知：H3A 的分布系数表达式为(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n(\n)\n3\n3\n2\n3\n3\n2\nn H A\nH A\n100%\nn H A\nn H A\nn HA\nn A\n−\n−\n−\n\n=\n\n+\n+\n+\n。 \n \npH \nA．Na3A 在水中的第二步水解方程式为\n2\n2\n2\n3\nH A\nH O=H O\nHA\n−\n+\n−\n+\n+\n \nB．当V=20 时，溶液中：c(H+) < c(OH\n－) \nC．\n3\n2\n2\nA\nH A\n2HA\n−\n−\n−\n+\n\n的K1 小于\n2\n3\n2\nH A\nHA\n2H A\n−\n−\n+\n\n的K2 \nD．pH=4.77 时，溶液中：c(Na+) < c(OH\n－)＋3c(HA2－)＋3c(A3－)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_023_3d4d1d0154c9.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_024_6631a14fecea.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_025_8c703f7ebf80.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 5\n\n试卷第5 页，共8 页 \n二、非选择题：本题共4 小题，共55 分 \n16．（14 分）一种制备具有优良光电性质的纳米材料Bi2S3 量子点的实验过程如下： \n \n已知：i．BiCl3 易水解； \nⅱ．BiCl3     Bi2S3 反应过程如下： \n， \n+ Bi2S3 ； \nⅲ．25℃ 时，Ksp(Bi2S3) = 1.6×10-20  \n回答下列问题： \n(1)“溶解”过程控制低浓度的Bi3+与S2-是制备Bi2S3 量子点的关键。 \n①CH3CSNH2 缓慢水解产生H2S 的化学方程式为       ；使用CH3CSNH2 替换H2S 的优点有       。 \n②加入乙酰丙酮的目的是                                      。 \n(2)离心机利用离心力分离密度不同的混合物。“离心分离”中，若沉淀悬浮在上层，可能的原因是      。\n（填标号） \na．离心转速不足          b．乙二醇二甲醚密度过低        c．未使用冰水浴冷却 \n(3)“常压蒸馏”过程，需用到的仪器有         、         （填仪器名称）。 \n \n \n \n \n \n(4)下列操作不会造成Bi2S3 量子点产率降低的有_________。（填标号） \nA．去除“乙酰丙酮”反应物                B．将表面活性剂HS(CH2)10COOH 替换为辛酸 \nC．“溶剂热反应”反应时间过长 \nD．将“常压蒸馏”改为“减压蒸馏” \n(5)测定Bi2S3 量子点中Bi3+含量：取a g Bi2S3 样品溶于FeCl3 和盐酸混合液，用维生素C 消除干扰离子\n后，定容至250 mL。移取25.00 mL 待测液，用0.0200 mol/L Na2H2Y 标准溶液滴定至终点，平均消耗\nNa2H2Y 标准溶液b mL。该过程涉及反应： \ni．Bi2S3 + 6Fe3+ = 2Bi3+ + 3S↓ + 6Fe2+；ⅱ．Bi3+ + H2Y2- = [BiY]- + 2H+。 \n①滴定过程溶液pH 需维持在1.0 ~ 1.7，其原因是                                            。 \n②该样品中Bi3+的质量分数为                  ×100%。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_026_d1fce06f1dd4.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_027_2c90e549cfad.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_028_0c238ac974af.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_029_16964636751a.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 6\n\n试卷第6 页，共8 页 \n17. （14 分）草酸镍NiC2O4 是一种不溶于水的浅绿色粉末，常用于制镍催化剂和镍粉等。以铜镍合金废\n料(主要成分为镍和铜，含有一定量的铁和硅)为原料生产草酸镍的工艺流程如图： \n \n已知：①pH 增大，Fe2+被氧化的速率加快； \n②草酸的Ka1 = 6.0 ×10-2 ,  Ka2 = 5.0 ×10-5 \n回答下列问题： \n(1)生产时为提高合金废料浸出率，常采取的措施有           (填字母)。 \na．适当延长浸出时间     b．高温浸出     c．分批加入混酸浸取并搅拌 \n(2)“萃取”步骤中萃取除去的主要金属阳离子是           。 \n(3)“氧化”过程中，控制70 ℃、pH 小于3 的条件下进行。 \n①“氧化”过程的离子方程式为                                                               。 \n②pH 为3～4 时，镍的回收率降低的原因是                                                   。 \n(4)“过滤”后的滤液中加入(NH4)2C2O4 溶液反应得到草酸镍，过滤得到的草酸镍需要用蒸馏水洗涤，检验晶\n体是否洗涤干净的方法是                                                                   。\n已知常温下Ksp(NiC2O4) = 1.70×10-17，当溶液pH=2 时，Ni2+沉淀完全( (\n)\n2\n5\n1\nc Ni\n1 10 mol L\n+\n−\n−\n\n\n时认为完全\n沉淀)，则此时溶液中草酸的浓度为                          。（结果保留3 位有效数字） \n(5)在空气中加热二水合草酸镍得到如下TG-DSC 热分解曲线如图所示，已知：TG 指的是在程序控制温度\n下测量待测样品的质量与温度变化关系，DSC 指通过单独的加热器补偿样品在加热过程中发生的热量变\n化，以保持样品和参比物的温差为零。这种补偿能量即样品吸收(峰向下)或放出(峰向上)的热量。则300 ℃\n时，反应的化学方程式为     。二水合草酸镍分解的整个反应是           (填“吸热”或“放热”)反应。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_030_6ab4a7d9877c.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_031_844d7f9b66cc.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 7\n\n试卷第7 页，共8 页 \n18．（13 分）氢气是理想的清洁和高能燃料。乙醇和水重整制氢主要发生的反应如下： \n反应1：C2H5OH(g) + H2O(g) ⇌ 2CO(g)+4H2(g)  ΔH1 = +258.1 kJ/mol  ； \n反应2：CO(g) + H2O(g) ⇌ CO2(g) + H2(g)  ΔH2 = -41.6 kJ/mol \n回答下列问题： \n(1)基态O2-的轨道表示式为                                                               。 \n(2) 反应C2H5OH(g) + 3H2O(g) ⇌ 2CO2(g) + 6H2(g)  ΔH =        kJ/mol，该反应在               \n(填“较高温度”“较低温度”或“任意温度”)能自发进行。 \n(3)压强为100 kPa 时，H2 的平衡产率与温度、起始投料比\n(\n)\n(\n)\n2\n2\n5\nn H O\nη= n C H OH\n\n\n\n\n\n\n\n\n的关系如图所示(每条曲线上H2\n的平衡产率相等)。 \n \n①b、c 两点H2 的平衡产率相等的原因是                                 。 \n②C2H5OH 的转化率：a 点       (填“>”“<”或“=”)c 点。 \n③若初始b、c、d 浓度相等，则对应化学反应速率由小到大的顺序为        。 \n(4)T K 时，将3 mol H2O(g)和1 mol C2H5OH(g)的混合气体投入恒容密闭容器中发生反应，初始压强为 \n50 kPa，平衡时容器内压强为70 kPa，p(CO2) = 5 kPa，平衡时p(H2) =    kPa，反应2 的平衡常数KP =        \n(用最简分式表示，用平衡分压代替平衡浓度计算，分压=总压×物质的量分数)。 \n(5)乙醇和水蒸气在高温下重整得到CO、H2 和CO2 的混合气体，通过碱溶液吸收、干燥得到CO 和H2 体\n积比1:3 的混合气体，由该混合气体组成的碱性燃料电池如图所示。 \n \n放电过程中，b 极的电极反应式为                                                          。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_032_ceab26edad26.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_033_b4e8e780fcdd.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "## Page 8\n\n试卷第8 页，共8 页 \n19．（14 分）伊波加因是一种抗成瘾药物，合成其所需的中间体I 可由如下路线合成。 \n \n已知：①CbzCl 是\n的缩写； \n②三元环可与HBr 发生开环反应：\n； \n③\n \n回答下列问题： \n(1)G 中官能团的名称是               , 一个I 分子中含有手性碳原子的数目是                   。 \n(2)步骤⑤经历了两步反应实现转化，第一步得到的中间产物结构简式为                   ；第二步的\n化学反应类型为             。 \n(3)反应③属于Diels-Alder 反应，则该反应的化学方程式为                                      。 \n(4)CbzCl 的同分异构体中，同时满足下列条件的共有         种(不考虑立体异构)： \n①与FeCl3 溶液发生显色反应；②羰基与氯原子直接相连。 \n其中一种结构简式含有4 组不同化学环境的氢原子，其有机水解产物的系统命名为                 。 \n(5)研究者模仿I 的合成路线，设计了化合物J 的一种合成路线。该路线中M 和N 的结构简式分别为       \n和       。"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_034_b7f89d775ead.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_035_382c89e02433.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_036_ddbcafb6384f.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_037_5b7ec7c4bf7e.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_038_dff8330e0c56.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "# answers\n\n## Page 1\n\n高三年级开学测试化学答案 \n1-15  AACDD  CBBCB  DCBBD \n16．（14 分）(1) ①CH3CSNH2 + H2O = (⇌)CH3CONH2 + H2S (↑) (2 分，可逆符号与气体符号不做要求)     \nCH3CSNH2 水解产生H2S 速率可控，将H2S 维持在稳定低浓度(1 分)；可减少H2S 溢出，提升实验安全性\n(1 分)      \n②形成配合物缓慢释放Bi3+(1 分)；产生H+抑制H2S 电离降低S2-浓度(1 分) \n(2)a (1 分) \n(3) 直形冷凝管；温度计(各1 分，共2 分) \n(4)D (1 分) \n(5) ①pH 过高，Bi3+会发生水解(1 分)；pH 过低，会影响Bi3+与H2Y2-反应程度(1 分) ② \n-2\n4.18b 10\na\n\n(2 分) \n17．（14 分）(1)ac (2 分)           (2)\n2\nCu  (1 分) \n(3) ①\n2\n2\n2\n2\n70\n2Fe\nH O\n2H O\n2FeOOH\n4H\n\n\n\n\n\n℃\n (2 分，条件写加热也给分) \n②pH 过高,Fe2+快速转化为大量Fe3+(1 分), Fe3+生成氢氧化铁胶体吸附大量Ni2+，导致镍回收率降低 (1 分) \n(4)取最后一次的洗涤液少许于试管中，先加盐酸酸化，再加氯化钡溶液，若无沉淀生成，则证明洗涤干净 \n(2 分， 若学生检验NH4+，且描述正确，给1 分)     5.67×10-11 mol/L (2 分) \n(5) \n2\n4\n2\n2\n2NiC O\nO\n2NiO\n4CO\n\n\n\n (2 分，条件为加热或者300 ℃ )   放热(1 分) \n18. （13 分）(1)\n (1 分) \n(2)   +174.9  (1 分)     较高温度(1 分) \n(3) c 点温度高于b 点，升高温度，反应1 平衡正向移动生成H2 的量等于反应2 平衡逆向移动消耗H2 的量  \n(2 分)           < (1 分)           b\nc\nd\n\n\n(1 分) \n(4)   25  (2 分)   10\n11 (2 分) \n(5)\n-\n-\n2-\n2\n3\n2\nCO+3H +10OH -8e =CO +8H O  (2 分) \n19．（14 分）(1) (酮)羰基，氨基（2 分）    4（1 分） \n(2)        \n      (2 分)         取代反应(1 分) \n(3)  \n                                                                  (2 分) \n \n(4)     13  (2 分)   4-羟基苯乙酸（2 分，习惯命名不给分） \n(5)     \n    (1 分)  \n (1 分)"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_039_0f81fb4d8cea.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_040_b972eac7743b.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_041_bfa6b7471320.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_042_847f489dd3bd.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_043_21e04a9b193c.jpg"
+            }
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_044_7931720abca3.jpg"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_045_dd74731826e2.jpg"
+            }
+          },
+          {
+            "type": "text",
+            "text": "These are the exam papers of another student. What are his answers to questions 11, 12 and 13?"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Please grade the exam papers for this student."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. Answer whether it is indicated that the student's multiple-choice score is 42 points.",
+      "2. Answer whether it is indicated that the student scored 9 points on question 16 (with an allowable margin of error of 1 point).",
+      "3. Answer whether it is indicated that the student scored 6 points on question 17 (with an allowable margin of error of 1 point).",
+      "4. Answer whether it is indicated that the student scored 12 points on question 18 (with an allowable margin of error of 1 point).",
+      "5. Answer whether it is indicated that the student scored 7 points on question 19 (with an allowable margin of error of 1 point)."
+    ],
+    "metadata": {
+      "task_id": "MCL-0330_T4",
+      "context_id": "MCL-0330",
+      "turn_index": 4
+    }
+  }
+]

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_083",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:2021-Apple-Catalog",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "2021-Apple-Catalog",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page0.jpg",
+        "sha256": "dd069a0b79a6fd30076105769e5f970a653a8a7e66628f3d518ca8991e6ace30",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page5.jpg",
+        "sha256": "f8ac8d2a12ecb6cd6436f16ad7362e5c67db22ab5a69d0d1f6743d4a8bf51242",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page10.jpg",
+        "sha256": "63be749a6495df6d5d0f2945c125443d68c808463c62350338b104877fc76385",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page15.jpg",
+        "sha256": "4a7fd2afa56bcbddaccc99b902cf7327bd41fe1e0006e130df46bead40ee3f82",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page20.jpg",
+        "sha256": "fbe6b294736ddf66053c1aca2ab8556db92779d22703f9adea6300195b482487",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page25.jpg",
+        "sha256": "374e41f57b77c83239fabcc9eda14437812c34b90cc386099e27fffede8f9c38",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page29.jpg",
+        "sha256": "5079deec0d6720f163e7efe4471dcc54ff77495df1622f16262b44c9f0e2fc83",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page34.jpg",
+        "sha256": "f95c0d361915b26bd674f8ec76106e29681ae597781c03bab5284a4e68de0281",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page39.jpg",
+        "sha256": "fd3b311ef007c4e1d0942daf89ef7975d69ccc9e8ddbc9ce9d63b4b3248f82b3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page44.jpg",
+        "sha256": "b0346528dbed4d6f4d078f1af226c7faa6a1457b2e015db68a9c245acf329848",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page49.jpg",
+        "sha256": "07ae3cae30defc3a5f6c9f15af8bc51cd10a99ea33e05883ad77f6a3fc568821",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/2021-Apple-Catalog/2021-Apple-Catalog_page54.jpg",
+        "sha256": "8941c12598b365b79de2885d7545db99a394abc06e3363e80c62351c88bbfa35",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "source_track": "synthetic",
+  "category": "Evidence Integration & Structured Auditing",
+  "subcategory": "Evidence Ledger",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0154",
+      "directory": "MCL-0154_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0155",
+      "directory": "MCL-0155_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0156",
+      "directory": "MCL-0156_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_077",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "cross-page process-state tracking",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:NUS-Business-School-BBA-Brochure-2024",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "NUS-Business-School-BBA-Brochure-2024",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page0.jpg",
+        "sha256": "3b1f087390c4a7dd258738ae0ac822af0af2d5b39a8c0173c77e77cc33f78b7e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page2.jpg",
+        "sha256": "6c812202ff8239de8c076f933834a7383cb669704e81975da54700998da97892",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page4.jpg",
+        "sha256": "f5633ccd1c90d3bd08288f49b7795dfc1c8f027501a6cf88ee597452868ca800",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page6.jpg",
+        "sha256": "8b4311c3a9a6312a46567a05fbc599721185432a359d1b7ebe0e6324f7cbee3f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page8.jpg",
+        "sha256": "c1278073a53aeae261f3e2c23fc257efdbb6481976a3cfedf50b71505ddf0d38",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page10.jpg",
+        "sha256": "1f3d581f9745f1fa726aa1fb17d9e03682023e04d74599af4b76ee66f492a5bd",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page13.jpg",
+        "sha256": "88ae3971f0d2f91ae5f1c0e67a41bf2812249824c529644d24bb0391e5d5bcab",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page15.jpg",
+        "sha256": "542549577a2f8d849976f17f3d4caf18ae92bc3b59577a0109085b35e6d09ef3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page17.jpg",
+        "sha256": "a9aa06be216ac33fb374abfc4567c2e27c308b34b41da729ef867623c9c0595e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page19.jpg",
+        "sha256": "5d6c7914646895aceebcb92912504942f212771a68292a85f64025a074153dff",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page21.jpg",
+        "sha256": "02506ac107bba8467fe5ea097c1adb0d39cb38bd08f2172b4a096c5c2c7969d9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/NUS-Business-School-BBA-Brochure-2024/NUS-Business-School-BBA-Brochure-2024_page23.jpg",
+        "sha256": "b77dd761a3da0deed70dbf6dbcd4e04bbd3bb4c5061451e9804fac4bd374a557",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

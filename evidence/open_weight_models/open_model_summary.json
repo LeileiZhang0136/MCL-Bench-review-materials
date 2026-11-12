@@ -1,0 +1,155 @@
+{
+  "benchmark": {
+    "cases": 344,
+    "tasks": 1080,
+    "score_unit": "task",
+    "score_rule": "all task-level rubrics must be satisfied"
+  },
+  "model_results": {
+    "Kimi K2.6": {
+      "successes": 139,
+      "failures": 941,
+      "tasks": 1080,
+      "cases": 344,
+      "success_rate": 0.1287037037037037,
+      "wilson_95": [
+        0.11004004333682832,
+        0.14999933468010057
+      ]
+    },
+    "Kimi K3": {
+      "successes": 241,
+      "failures": 839,
+      "tasks": 1080,
+      "cases": 344,
+      "success_rate": 0.22314814814814815,
+      "wilson_95": [
+        0.19932258062364333,
+        0.2489362074737675
+      ]
+    }
+  },
+  "paired_comparison": {
+    "both_pass": 103,
+    "kimi_k2_6_only": 36,
+    "kimi_k3_only": 138,
+    "both_fail": 803,
+    "difference_k3_minus_k2_6": 0.09444444444444444,
+    "case_cluster_bootstrap_95": [
+      0.06899565469587099,
+      0.11898326663784348
+    ],
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 23049,
+    "mcnemar_exact_two_sided_p": 2.802942608077485e-15
+  },
+  "source_track_results": {
+    "synthetic": {
+      "case_count": 189,
+      "task_count": 755,
+      "kimi_k2_6": {
+        "successes": 55,
+        "rate": 0.0728476821192053
+      },
+      "kimi_k3": {
+        "successes": 133,
+        "rate": 0.176158940397351
+      },
+      "difference_k3_minus_k2_6": 0.10331125827814569
+    },
+    "expert": {
+      "case_count": 155,
+      "task_count": 325,
+      "kimi_k2_6": {
+        "successes": 84,
+        "rate": 0.25846153846153846
+      },
+      "kimi_k3": {
+        "successes": 108,
+        "rate": 0.3323076923076923
+      },
+      "difference_k3_minus_k2_6": 0.07384615384615385
+    }
+  },
+  "turn_results": {
+    "1": {
+      "case_count": 344,
+      "task_count": 344,
+      "kimi_k2_6": {
+        "successes": 47,
+        "rate": 0.13662790697674418
+      },
+      "kimi_k3": {
+        "successes": 77,
+        "rate": 0.2238372093023256
+      },
+      "difference_k3_minus_k2_6": 0.0872093023255814
+    },
+    "2": {
+      "case_count": 285,
+      "task_count": 285,
+      "kimi_k2_6": {
+        "successes": 49,
+        "rate": 0.17192982456140352
+      },
+      "kimi_k3": {
+        "successes": 62,
+        "rate": 0.21754385964912282
+      },
+      "difference_k3_minus_k2_6": 0.0456140350877193
+    },
+    "3": {
+      "case_count": 233,
+      "task_count": 233,
+      "kimi_k2_6": {
+        "successes": 23,
+        "rate": 0.09871244635193133
+      },
+      "kimi_k3": {
+        "successes": 67,
+        "rate": 0.2875536480686695
+      },
+      "difference_k3_minus_k2_6": 0.1888412017167382
+    },
+    "4": {
+      "case_count": 210,
+      "task_count": 210,
+      "kimi_k2_6": {
+        "successes": 17,
+        "rate": 0.08095238095238096
+      },
+      "kimi_k3": {
+        "successes": 31,
+        "rate": 0.14761904761904762
+      },
+      "difference_k3_minus_k2_6": 0.06666666666666667
+    },
+    "5": {
+      "case_count": 7,
+      "task_count": 7,
+      "kimi_k2_6": {
+        "successes": 3,
+        "rate": 0.42857142857142855
+      },
+      "kimi_k3": {
+        "successes": 3,
+        "rate": 0.42857142857142855
+      },
+      "difference_k3_minus_k2_6": 0.0
+    },
+    "6": {
+      "case_count": 1,
+      "task_count": 1,
+      "kimi_k2_6": {
+        "successes": 0,
+        "rate": 0.0
+      },
+      "kimi_k3": {
+        "successes": 1,
+        "rate": 1.0
+      },
+      "difference_k3_minus_k2_6": 1.0
+    }
+  },
+  "interpretation": "The paired gain supports benchmark sensitivity to capability differences and argues against a uniform floor effect. It is not a causal estimate of the effect of general intelligence."
+}

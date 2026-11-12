@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_019",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/climatechange2009perceptions-091204092626-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/climatechange2009perceptions-091204092626-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-1-1024.jpg",
+        "sha256": "6aee9a75919c41bf54e35879143198d02b8978b4ff35a4ed49495ad2c626b6c7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-3-1024.jpg",
+        "sha256": "ce1591b48747048a0ab446429733982145c7df45d46d1009d1140f9930b48ad2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-4-1024.jpg",
+        "sha256": "6b3232c00a429138991d15762fdef5114ffe4b7a6bf9a7dc06ce3ac1f5a064d3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-6-1024.jpg",
+        "sha256": "e6d0b983bfc64be327d4fe65a3259e29598cf569bafca91085f018a0f8e30184",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-8-1024.jpg",
+        "sha256": "8aecbee92294fb6f4b59e1b0a5230af28edd5b114482c88e712ec3940aa69d38",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-10-1024.jpg",
+        "sha256": "7f6c70a6a44470a83436959f747d91e6446ee631a53f7f59b99140949ea33cc4",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-11-1024.jpg",
+        "sha256": "091bb4d1f0121bd476342bf40bb2188f61a6c9f1d1215be80c63ca862ab32835",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-13-1024.jpg",
+        "sha256": "4347dc89be9e21507f8fdab2b0757e9fdbc4fbd4913ea2d75f893f9794598d98",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-15-1024.jpg",
+        "sha256": "46fc9d4f2d95a3e46e3161c290e6631f1796baadb482046430d4d89441c63631",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-17-1024.jpg",
+        "sha256": "76b9887c39653da8d0c8b7968f95bcb10f66d4d82d8e2ab8f8940eef02cee89c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-18-1024.jpg",
+        "sha256": "fbdbfa073a0d595440d89c3804fad6c80ed36e297521a71769a7b93fb4117cef",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/climatechange2009perceptions-091204092626-phpapp02_95/climate-change-2009-perceptions-20-1024.jpg",
+        "sha256": "d93d42fafc8fe6d83ad1dc5ad80defc2011db50af2aefaf8186fa200d189fb1b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

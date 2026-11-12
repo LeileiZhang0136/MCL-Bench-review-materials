@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_110",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:efis-140411041451-phpapp01_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "efis-140411041451-phpapp01_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page0.jpg",
+        "sha256": "ac4eae34f80e4f861e1db7555a8be6cad73a75f567ce541ec66d8e597558a0da",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page3.jpg",
+        "sha256": "2a2c0827a7d2805be21bd9c8ed1f08a90667ae211e247154a4b5426b3a0d9de3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page6.jpg",
+        "sha256": "894924a5e880be6c0cc14bb51438cc2c24a778e9109dfe7a93f19860a7d20d11",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page8.jpg",
+        "sha256": "761c93e389e2dfd9b2c55e895c665c0372848d42645ed9e914ded16ca9bb8b2f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page11.jpg",
+        "sha256": "d48152ffa6233d05c1131eb612fda008032815b0d0646e1a70db3a191dcec17e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page14.jpg",
+        "sha256": "87187103f79a3e66a6069f5fba82c53b7820b9604d9ffabbcbfc115ebd4eeac7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page17.jpg",
+        "sha256": "6ef6ff9a9a2a21986bce28d6a8126882dc57a2ce8360a96ca37a62be00d67eb2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page20.jpg",
+        "sha256": "7f1954f74e1c896e687e52230786479967a5cb0625e07306f4908a89f3b8483b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page23.jpg",
+        "sha256": "4cbe6a9f5cb1f9f908670d659a97d8e7bdac8ac95d0a1c582ee341e2daa5e5ed",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page25.jpg",
+        "sha256": "dec7a99b57cf8dde30ffbee34eb76df412714f1d7bac24b59f743472025891b7",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page28.jpg",
+        "sha256": "95f713ee676319f68c8a68fd99f1d207c25782db666ee5064eb3e3ce3345c4aa",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/efis-140411041451-phpapp01_95/efis-140411041451-phpapp01_95_page31.jpg",
+        "sha256": "b76e5ae11481a8692aae9d5f3f9497b56dd2fafd2c6917f614df0275f7ca097d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

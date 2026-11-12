@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_007",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-1-1024.jpg",
+        "sha256": "8b4b80aa9e425d8fb1ea1a38f49d2510b9e26b893944f6a5ed0a235df349f1c9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-3-1024.jpg",
+        "sha256": "58eb668c53ec9fc41d8329b3a6b89174dd1bc7ed43d4cae8d2332be6eeb62637",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-4-1024.jpg",
+        "sha256": "06d52c3d505d5fe021cb1f78609bba7b4ed8c5e20bbb61ee93e24b8ca5183a1a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-6-1024.jpg",
+        "sha256": "783e28dffaf8264db7443809dd5bec7d3a6b519bb5383a2fbbff1229693fec3a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-8-1024.jpg",
+        "sha256": "f7f700309d4161902d00c796cee6da9ae287b5dc5e9b182ef01567050ea54358",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-10-1024.jpg",
+        "sha256": "f8507bba5d336851c6870e10c9d8a65bb3930eb1c9237e1830c1f354c1580c67",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-11-1024.jpg",
+        "sha256": "da21ac455899c9fad329c6b492c17ed31cbbdd7422c3493a78460d8bcfd5fa5c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-13-1024.jpg",
+        "sha256": "1229ba62bc50ca8d8f1d174d1d23ebd9d834182d9c60ee0bf60cd97795f3b657",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-15-1024.jpg",
+        "sha256": "6a9460fa13f24d14dbe41277e194933029f86def40a23d6bb702073b6c41a3da",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-17-1024.jpg",
+        "sha256": "e821526201d0c1e5c749aff82177964037c4dc27691640d8ee874fcb7859a93b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-18-1024.jpg",
+        "sha256": "19f1553fc0592e4a062f268bd2114d634f7e81564845b045523d89fb4aaa854d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/sca-capital-market-day-2011-presentation-110920022831-phpapp02_95/sca-capital-market-day-2011-20-1024.jpg",
+        "sha256": "bfb986fc060728c06292f99bbfe3406478ea89fc55b173d29a39596d636f669f",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

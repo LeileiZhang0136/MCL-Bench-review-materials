@@ -1,0 +1,623 @@
+[
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert puzzle-solving AI and level structure analyst designed specifically for *Patrick's Parabox*. You possess exceptional capabilities in spatial reasoning, recursive logic processing, and state machine tracking. Your mission is to ingest and parse the game rules and demos provided by the user, accurately identifying all spatial layouts, nested structures, and game elements. Execution Protocol: Based on the context of the current level, the user will present you with specific, targeted tasks. You must adhere with absolute strictness to the output format specified at the conclusion of each specific task when formulating your response.\nIf the provided rule context and visual evidence are insufficient to support a ruling, state so immediately. If you are unable to reason through a case confidently, also say so directly—do not continue speculating indefinitely."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# PATRICK’S PARABOX RULEBOOK\n\n# 1. Basic Movement & Physics\n\nPlayer-Controlled Avatar Movement: The player controls a squareavatar that can move in four orthogonal directions (Up, Down, Left,Right).\n\nPushing, Not Pulling: The player can push movable blocks by movinginto them. The player cannot pull blocks.\n\nCollision: The player cannot walk through walls or push a block into awall. If two blocks are lined up, the player can push both simultaneously,provided there is empty space behind the second block.\n\n# 2. The \"Parabox\" Mechanic (Entering & Exiting)\n\nOpenings: Some blocks (and the outer boundary of the level itself) haveopenings on one or more sides.\n\nEntering a Block: A player or a block can only \"enter\" the opening of atarget block if the target block is pressed against an immovable obstacle(such as a wall, or another block whose path is blocked). If there isempty space behind the target block, the player will simply push it. But ifthe block cannot be pushed further, continuing to push against itsopening will cause the player (or the pushed block) to shrink and enterits internal grid.\n\nForce Transmission & Prioritization: When a push chain involvesmultiple blocks pressed against an immovable obstacle, the \"Entering\"resolution priority propagates in reverse—from the immovable obstaclebackwards to the player.\n\nResolution Sequence: The block immediately adjacent to the immovableobstacle (Target Block) is evaluated first. If the Target Block has anaccessible opening facing the direction of the push, the adjacent pushedblock (Entering Block) will be the entity that shrinks and enters.\n\nExiting a Block: If the player is inside a block and walks out through itsboundary opening, they will grow and exit into the parent level,appearing adjacent to the block they just left.\n\nAuto-Centering: When a player or block enters the internal grid ofanother block, its final position is automatically centered along the axisperpendicular to the direction of entry. In other words, the entity will\n\nappear in the row or column immediately adjacent to the entrance, whilebeing precisely centered in the other dimension.\n\n# 3. Recursion & Paradoxes\n\nSelf-Containment (Infinity): A level can contain a copy instance of itself.Entering this copy means entering an infinite loop of recursive space.The state of entity coordinates displayed inside the block remainsabsolutely synchronized with the macro level at all times.\n\nSynchronization: The level itself and its internal copy are different scalemappings of the same entity. Structurally, they share the exact sameunderlying grid data and coordinate space. Any modification to theentities within this shared grid is simultaneously rendered across allvisual instances (macro level and internal copies).\n\nTriggering a Paradox:\n\nPhenomenon: A paradox occurs when you attempt to push an \"internalcopy\" out of the boundary of its \"outer container.\"\n\nLogic: Because the \"inside\" and the \"outside\" are the same whole, thisaction is equivalent to attempting to make an object jump out of itself.\n\nResult: At this point, spatial logic fails, and the system will prevent theaction (the block becomes an immovable rigid body) to prevent the levelstructure from collapsing."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_81d40e073820.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Pay attention to the red arrow's instruction: When a copy of the level itself is pushed out of the level, a paradox will be triggered, resulting in level failure."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_a37ef9a5e9ba.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "# 4. Win Conditions\n\nGoal Squares: The level grid contains specific tiles marked with specialpatterns (such as white hollow squares), which serve as target locations.\n\nEntity Matching (Non-Avatar Block Targets): Require any non-avatarblock (including regular pushable blocks, Paraboxes, Clones, or Nestedsub-levels) to be pushed onto these locations.\n\nEntity Matching (Avatar Targets): Require the player-controlled avatarto rest on these locations.Resolution Criteria: The level is consideredcomplete if and only if all goal squares are correctly occupiedsimultaneously.\n\nNote: If a player pushes a block through a goal square, even if the block momentarilyoverlaps it, the level will not end as long as the player is still in motion or if other goalsquares remain unoccupied.\n\nNested Level Completion: In certain complex recursive levels, you may need to fulfillgoals within a \"sub-space,\" or push an entire \"sub-space block\" onto a goal square inthe \"parent space.\"\n\n# 5. Visual Identification & Coordinate Mapping\n\nTo ensure accurate understanding of level objectives, this manualprovides the following visual references:\n\nIn the accompanying illustrations, the red and white arrows are used forannotative purposes only and are not native elements of the game's interface."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_e4ff9664a6fb.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_9c0f715c9b37.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "• Red Arrows (Non-Avatar Block Targets): Represented as a hollowsquare pattern on the tile. These squares require that any non-avatar block must rest on top of them.\n\nWhite Arrows (Avatar Targets): Represented as dots or specificsymbols on the tile. These squares require that the player-controlled avatar itself rests on top of them.\n\n# Coordinate Convention:\n\nRectangular Baseline: All levels are considered a rectangular grid,regardless of their actual shape. When generating this grid andcalculating coordinates, ignore the outermost enclosing walls,which serve strictly as visual boundaries. The grid is defined bythe minimum bounding rectangle (MBR) of the internal playablearea (including any internal irregular walls or dead zones). Thecoordinate origin (0, 0) is fixed at the top-left corner of thisbounding rectangle.\n\nIrregular Boundary Handling: Any coordinate points locatedoutside the \"irregular outer walls\" or belonging to the \"wallstructure\" are uniformly treated as impassable obstacles (Wall).\n\nOut-of-Bounds Determination: Any movement command thatexceeds the [??????_??????, ??????_??????] range or points to a coordinatewith a Wall attribute is considered an illegal operation.\n\nInternal Consistency: Blocks that are entered (Parabox) followexactly the same coordinate system logic as the main level.Regardless of the grid size or outer wall shape inside the block, itsinternal space is considered an independent rectangular matrix,uniformly using its top-left corner as the(0, 0) origin.\n\n• Example: Level Coordinate Mapping & Entity Initialization"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_f917cb4bbede.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The following table provides a structuralbreakdown of the level illustrated in Figure 1. Itdemonstrates how the rectangular grid system(0, 0) is applied to a layout with irregularboundaries, defining the initial coordinates andproperties of the player, goal targets, andnested Parabox entities.\n\n<table><tr><td>Element/ Location</td><td>Coordinate (x,y)</td><td>Terrain Attribute</td><td>Description</td></tr><tr><td>Coordinate Origin</td><td>(0,0)</td><td>Wall</td><td>Top-left corner of the rectangular grid, impassable</td></tr><tr><td>Avatar (Purplish-red square with eyes, initial position)</td><td>(3,0)</td><td>Floor</td><td>Initial position of the player in the parent level</td></tr><tr><td>Player Goal Square</td><td>(1,0)</td><td>Floor</td><td>Completion requirement: The player must eventually rest here</td></tr><tr><td>Yellow Block</td><td>(3,2)</td><td>Floor</td><td>A regular pushable block</td></tr><tr><td>Block Goal Square</td><td>(1,4)</td><td>Floor</td><td>Completion requirement: A non-player block must be placed here</td></tr><tr><td>Right Nested Sub-level (Small blue box)</td><td>(5,2)</td><td>Floor</td><td>Enterable Parabox, is a self-copy of the level</td></tr><tr><td>Left Level Opening</td><td>Left side of (0,2)</td><td>Portal</td><td>Connects to the left entrance/exit of the self-copy of the level located at (5, 2)</td></tr></table>\n\n# 6. Clone Mechanic Rules\n\n• Visual Distinction: The level contains a \"Main\" Parabox and a(or Copy)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_a9e846da5ce0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Two examples (top and right): The dark greenbox (indicated by the red arrow) is the originalparabox, while the light green one (indicated bythe white arrow) is a clone of that parabox."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_190ba75b12eb.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "• One-Way Entry: Entering the Clone transports the player or anobject directly into the interior of the Main Parabox.\n\nAsymmetrical Connection: This entry mechanism is notreciprocal. Entering the Main Parabox directly will not transportyou to the Clone.\n\nTeleportation Function: This mechanic essentially acts as a spatialteleportation system. The Clone serves as a remote portal,allowing the player to bypass physical obstacles and relocate tothe Main Parabox's position."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Set image:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_953465c78bb0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "as the initial state of the level. Please complete the identification of the level's space and elements according to the coordinate system specifications given in the rulebook and the formatting standards. The output format is as follows: Output a JSON object containing the following two fields:\nmap_grid: A two-dimensional string array reconstructing the level's spatial layout from top to bottom (rows) and left to right (columns). Coordinate system: Use the top-left corner of the level's Minimum Bounding Rectangle (MBR) as the origin (0,0), with the x-axis increasing to the right and the y-axis increasing downwards. map_grid[y][x] corresponds to coordinate (x,y). Base grid values: \"W\" — Wall/Impassable area; \"F\" — Floor/Empty space. Fill special entities into corresponding cells using custom IDs (naming rules below). Portals  must not appear in the map_grid; their cells should be filled with \"F\".\nentities: An attribute dictionary for all special entities, with entity IDs as keys. Each record contains: coordinate: [x, y]; description: Description of appearance and function; Portals must specify which side of the cell they are located on. Parabox types additionally include internal_structure: map_grid: Internal grid array, using the top-left corner of the internal area as (0,0); if the internal playable area is irregular, use the MBR and fill dead zones with \"W\". entities: Internal entity dictionary, formatted identically to the outer layer, with coordinates calculated independently.\nEntity ID Naming Rules:\nPrefix types: A for Avatar, B for pushable Block, P for enterable Parabox, N for internal self-copy, C for Clone, G_A for Avatar Target, G_B for Block Target (occupied by any pushable entity including Paraboxes).\nFormat: [Prefix][Color or characteristic, not needed for A, C, or N]. When multiple entities of the same type and color exist, append a sequence number: [Prefix][Color]1, [Prefix][Color]_2.\nWhen multiple entities of the same type exist, name them according to coordinate sorting: prioritize x-coordinate; if x-coordinates are identical, compare y-coordinates, numbering from smallest to largest.\nPortal Naming:\nOuter level Portals: Portal_1, Portal_2...\nPortals inside a Parabox: {Parabox_ID}_Portal_1, {Parabox_ID}_Portal_2..."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should be an output of a valid JSON object according to formatting specifications, containing both map_grid and entities fields.",
+      "2. The response should be an accurate presentation of the map_grid field's 2D array content, with specific values and arrangement perfectly matching: [[\"W\", \"W\", \"G_B_1\", \"F\", \"F\", \"F\", \"F\",\"W\"], [\"W\", \"W\", \"W\", \"F\", \"F\", \"F\", \"G_B_2\",\"W\"], [\"W\", \"W\", \"W\", \"F\", \"W\", \"W\", \"W\",\"W\"], [\"F\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\",\"G_A\"], [\"W\", \"F\", \"F\", \"N\", \"F\", \"B_Green\", \"F\",\"F\"], [\"W\", \"F\", \"F\", \"F\", \"A\", \"F\", \"F\",\"F\"], [\"W\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\",\"F\"], [\"W\", \"W\", \"W\", \"W\",\"F\", \"W\", \"W\", \"W\"]].",
+      "3. The response should be a confirmation that the entities field, excluding Portals, contains only six types of entities: A, B_Green, N, G_A, G_B_1, and G_B_2; color characteristics (e.g., Green) in entity IDs may use semantically similar terms.",
+      "4. The response should be an assurance that the correspondence between each entity and its coordinate within entities is entirely correct, namely: A at [4, 5], B_Green at [5, 4], N at [3, 4], G_A at [7, 3], G_B_1 at [2, 0], and G_B_2 at [6, 1].",
+      "5. The response should be an adherence to the principle of numbering from smallest to largest by comparing the x-coordinate first and then the y-coordinate when multiple entities of the same type exist, ensuring the sequence allocation for G_B_1 and G_B_2 matches the coordinate sorting.",
+      "6. The response should be a description included within the content of entity N, which must possess a target_node field with the value \"Root\".",
+      "7. The response should be a definition of Portal_1 within entities, with coordinates [0, 3] and a description specifying that the Portal is on the left side of that cell.",
+      "8. The response should be a definition of Portal_2 within entities, with coordinates [4, 7] and a description specifying that the Portal is on the bottom side of that cell."
+    ],
+    "metadata": {
+      "task_id": "MCL-0222_T1",
+      "context_id": "MCL-0222",
+      "turn_index": 1
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert puzzle-solving AI and level structure analyst designed specifically for *Patrick's Parabox*. You possess exceptional capabilities in spatial reasoning, recursive logic processing, and state machine tracking. Your mission is to ingest and parse the game rules and demos provided by the user, accurately identifying all spatial layouts, nested structures, and game elements. Execution Protocol: Based on the context of the current level, the user will present you with specific, targeted tasks. You must adhere with absolute strictness to the output format specified at the conclusion of each specific task when formulating your response.\nIf the provided rule context and visual evidence are insufficient to support a ruling, state so immediately. If you are unable to reason through a case confidently, also say so directly—do not continue speculating indefinitely."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# PATRICK’S PARABOX RULEBOOK\n\n# 1. Basic Movement & Physics\n\nPlayer-Controlled Avatar Movement: The player controls a squareavatar that can move in four orthogonal directions (Up, Down, Left,Right).\n\nPushing, Not Pulling: The player can push movable blocks by movinginto them. The player cannot pull blocks.\n\nCollision: The player cannot walk through walls or push a block into awall. If two blocks are lined up, the player can push both simultaneously,provided there is empty space behind the second block.\n\n# 2. The \"Parabox\" Mechanic (Entering & Exiting)\n\nOpenings: Some blocks (and the outer boundary of the level itself) haveopenings on one or more sides.\n\nEntering a Block: A player or a block can only \"enter\" the opening of atarget block if the target block is pressed against an immovable obstacle(such as a wall, or another block whose path is blocked). If there isempty space behind the target block, the player will simply push it. But ifthe block cannot be pushed further, continuing to push against itsopening will cause the player (or the pushed block) to shrink and enterits internal grid.\n\nForce Transmission & Prioritization: When a push chain involvesmultiple blocks pressed against an immovable obstacle, the \"Entering\"resolution priority propagates in reverse—from the immovable obstaclebackwards to the player.\n\nResolution Sequence: The block immediately adjacent to the immovableobstacle (Target Block) is evaluated first. If the Target Block has anaccessible opening facing the direction of the push, the adjacent pushedblock (Entering Block) will be the entity that shrinks and enters.\n\nExiting a Block: If the player is inside a block and walks out through itsboundary opening, they will grow and exit into the parent level,appearing adjacent to the block they just left.\n\nAuto-Centering: When a player or block enters the internal grid ofanother block, its final position is automatically centered along the axisperpendicular to the direction of entry. In other words, the entity will\n\nappear in the row or column immediately adjacent to the entrance, whilebeing precisely centered in the other dimension.\n\n# 3. Recursion & Paradoxes\n\nSelf-Containment (Infinity): A level can contain a copy instance of itself.Entering this copy means entering an infinite loop of recursive space.The state of entity coordinates displayed inside the block remainsabsolutely synchronized with the macro level at all times.\n\nSynchronization: The level itself and its internal copy are different scalemappings of the same entity. Structurally, they share the exact sameunderlying grid data and coordinate space. Any modification to theentities within this shared grid is simultaneously rendered across allvisual instances (macro level and internal copies).\n\nTriggering a Paradox:\n\nPhenomenon: A paradox occurs when you attempt to push an \"internalcopy\" out of the boundary of its \"outer container.\"\n\nLogic: Because the \"inside\" and the \"outside\" are the same whole, thisaction is equivalent to attempting to make an object jump out of itself.\n\nResult: At this point, spatial logic fails, and the system will prevent theaction (the block becomes an immovable rigid body) to prevent the levelstructure from collapsing."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_81d40e073820.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Pay attention to the red arrow's instruction: When a copy of the level itself is pushed out of the level, a paradox will be triggered, resulting in level failure."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_a37ef9a5e9ba.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "# 4. Win Conditions\n\nGoal Squares: The level grid contains specific tiles marked with specialpatterns (such as white hollow squares), which serve as target locations.\n\nEntity Matching (Non-Avatar Block Targets): Require any non-avatarblock (including regular pushable blocks, Paraboxes, Clones, or Nestedsub-levels) to be pushed onto these locations.\n\nEntity Matching (Avatar Targets): Require the player-controlled avatarto rest on these locations.Resolution Criteria: The level is consideredcomplete if and only if all goal squares are correctly occupiedsimultaneously.\n\nNote: If a player pushes a block through a goal square, even if the block momentarilyoverlaps it, the level will not end as long as the player is still in motion or if other goalsquares remain unoccupied.\n\nNested Level Completion: In certain complex recursive levels, you may need to fulfillgoals within a \"sub-space,\" or push an entire \"sub-space block\" onto a goal square inthe \"parent space.\"\n\n# 5. Visual Identification & Coordinate Mapping\n\nTo ensure accurate understanding of level objectives, this manualprovides the following visual references:\n\nIn the accompanying illustrations, the red and white arrows are used forannotative purposes only and are not native elements of the game's interface."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_e4ff9664a6fb.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_9c0f715c9b37.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "• Red Arrows (Non-Avatar Block Targets): Represented as a hollowsquare pattern on the tile. These squares require that any non-avatar block must rest on top of them.\n\nWhite Arrows (Avatar Targets): Represented as dots or specificsymbols on the tile. These squares require that the player-controlled avatar itself rests on top of them.\n\n# Coordinate Convention:\n\nRectangular Baseline: All levels are considered a rectangular grid,regardless of their actual shape. When generating this grid andcalculating coordinates, ignore the outermost enclosing walls,which serve strictly as visual boundaries. The grid is defined bythe minimum bounding rectangle (MBR) of the internal playablearea (including any internal irregular walls or dead zones). Thecoordinate origin (0, 0) is fixed at the top-left corner of thisbounding rectangle.\n\nIrregular Boundary Handling: Any coordinate points locatedoutside the \"irregular outer walls\" or belonging to the \"wallstructure\" are uniformly treated as impassable obstacles (Wall).\n\nOut-of-Bounds Determination: Any movement command thatexceeds the [??????_??????, ??????_??????] range or points to a coordinatewith a Wall attribute is considered an illegal operation.\n\nInternal Consistency: Blocks that are entered (Parabox) followexactly the same coordinate system logic as the main level.Regardless of the grid size or outer wall shape inside the block, itsinternal space is considered an independent rectangular matrix,uniformly using its top-left corner as the(0, 0) origin.\n\n• Example: Level Coordinate Mapping & Entity Initialization"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_f917cb4bbede.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The following table provides a structuralbreakdown of the level illustrated in Figure 1. Itdemonstrates how the rectangular grid system(0, 0) is applied to a layout with irregularboundaries, defining the initial coordinates andproperties of the player, goal targets, andnested Parabox entities.\n\n<table><tr><td>Element/ Location</td><td>Coordinate (x,y)</td><td>Terrain Attribute</td><td>Description</td></tr><tr><td>Coordinate Origin</td><td>(0,0)</td><td>Wall</td><td>Top-left corner of the rectangular grid, impassable</td></tr><tr><td>Avatar (Purplish-red square with eyes, initial position)</td><td>(3,0)</td><td>Floor</td><td>Initial position of the player in the parent level</td></tr><tr><td>Player Goal Square</td><td>(1,0)</td><td>Floor</td><td>Completion requirement: The player must eventually rest here</td></tr><tr><td>Yellow Block</td><td>(3,2)</td><td>Floor</td><td>A regular pushable block</td></tr><tr><td>Block Goal Square</td><td>(1,4)</td><td>Floor</td><td>Completion requirement: A non-player block must be placed here</td></tr><tr><td>Right Nested Sub-level (Small blue box)</td><td>(5,2)</td><td>Floor</td><td>Enterable Parabox, is a self-copy of the level</td></tr><tr><td>Left Level Opening</td><td>Left side of (0,2)</td><td>Portal</td><td>Connects to the left entrance/exit of the self-copy of the level located at (5, 2)</td></tr></table>\n\n# 6. Clone Mechanic Rules\n\n• Visual Distinction: The level contains a \"Main\" Parabox and a(or Copy)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_a9e846da5ce0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Two examples (top and right): The dark greenbox (indicated by the red arrow) is the originalparabox, while the light green one (indicated bythe white arrow) is a clone of that parabox."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_190ba75b12eb.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "• One-Way Entry: Entering the Clone transports the player or anobject directly into the interior of the Main Parabox.\n\nAsymmetrical Connection: This entry mechanism is notreciprocal. Entering the Main Parabox directly will not transportyou to the Clone.\n\nTeleportation Function: This mechanic essentially acts as a spatialteleportation system. The Clone serves as a remote portal,allowing the player to bypass physical obstacles and relocate tothe Main Parabox's position."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Set image:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_953465c78bb0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "as the initial state of the level. Please complete the identification of the level's space and elements according to the coordinate system specifications given in the rulebook and the formatting standards. The output format is as follows: Output a JSON object containing the following two fields:\nmap_grid: A two-dimensional string array reconstructing the level's spatial layout from top to bottom (rows) and left to right (columns). Coordinate system: Use the top-left corner of the level's Minimum Bounding Rectangle (MBR) as the origin (0,0), with the x-axis increasing to the right and the y-axis increasing downwards. map_grid[y][x] corresponds to coordinate (x,y). Base grid values: \"W\" — Wall/Impassable area; \"F\" — Floor/Empty space. Fill special entities into corresponding cells using custom IDs (naming rules below). Portals  must not appear in the map_grid; their cells should be filled with \"F\".\nentities: An attribute dictionary for all special entities, with entity IDs as keys. Each record contains: coordinate: [x, y]; description: Description of appearance and function; Portals must specify which side of the cell they are located on. Parabox types additionally include internal_structure: map_grid: Internal grid array, using the top-left corner of the internal area as (0,0); if the internal playable area is irregular, use the MBR and fill dead zones with \"W\". entities: Internal entity dictionary, formatted identically to the outer layer, with coordinates calculated independently.\nEntity ID Naming Rules:\nPrefix types: A for Avatar, B for pushable Block, P for enterable Parabox, N for internal self-copy, C for Clone, G_A for Avatar Target, G_B for Block Target (occupied by any pushable entity including Paraboxes).\nFormat: [Prefix][Color or characteristic, not needed for A, C, or N]. When multiple entities of the same type and color exist, append a sequence number: [Prefix][Color]1, [Prefix][Color]_2.\nWhen multiple entities of the same type exist, name them according to coordinate sorting: prioritize x-coordinate; if x-coordinates are identical, compare y-coordinates, numbering from smallest to largest.\nPortal Naming:\nOuter level Portals: Portal_1, Portal_2...\nPortals inside a Parabox: {Parabox_ID}_Portal_1, {Parabox_ID}_Portal_2..."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based on the initial state identified in Task 1, strictly follow their respective output specifications to complete the following two sub-tasks:\n(a) Describe the level's nested hierarchy structure: which boxes contain other boxes or the Avatar, and what the hierarchical relationships are. Output format refers to T2a specifications: Output a JSON object containing a single field level_structure, describing the nested level hierarchy in a recursive tree structure. Each node contains: node_id: Unique identifier (Outer level is fixed as \"Root\", others reuse T1 entity IDs); entity_type: one of \"root\" / \"parabox\" / \"internal_copy\" / \"clone\"; description: Brief appearance description; children: List of child nodes directly contained within that entity (fill with [] if no children; internal_copy and clone do not include this field); target_node: Used only for internal_copy and clone, the value must precisely match its referenced node's node_id. Circular Reference Handling: If a node's target_node has already appeared in its ancestral chain, do not expand its children, only keep the target_node field.\n(b) Operation sequence analysis: Starting from the initial state, the Avatar performs the following operation sequence: [1_w1][2_a1][3_s1][4_a1][5_w3] (The number before the letter represents step x, a/w/s/d represent movement directions, and the number after the letter represents the number of consecutive steps). Please point out: The Avatar's final coordinate (intermediate coordinates not required). Any step number that triggers a special mechanism during the journey, what mechanism was triggered, and the state change; when triggering an \"Entering\" mechanism, the new coordinates and current level must be specified. If no mechanism is triggered throughout, note \"No special mechanism triggered throughout.\" Output format as follows:\nFinal Coordinates: (x, y)[Step]: [Change Description][Step]: [Change Description]"
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should be a valid JSON object provided specifically for sub-task (a), containing only the single field level_structure.",
+      "2. The response should be a root node in level_structure with node_id set to \"Root\" and entity_type set to \"root\", whose children list should contain only one node \"N\".",
+      "3. The response should be an assurance that node \"N\" has an entity_type of \"internal_copy\", possesses a target_node field with the value \"Root\", and does not contain a children field.",
+      "4. The response should be an accurate labeling of the final coordinates as (4, 6) on the first line of sub-task (b), followed by a detailed list of special mechanisms triggered during the journey using numerical indices.",
+      "5. The response should be an accurate identification of the only mechanism trigger point throughout as step [5_w2], describing its mechanism of triggering entry into N (Root copy), and noting the new coordinates change to (4, 7) while the hierarchy level remains Root.",
+      "6. The response should be an assurance that no other redundant mechanism trigger descriptions or numbered entries are included besides the [5_w2] entry mechanism into N."
+    ],
+    "metadata": {
+      "task_id": "MCL-0222_T2",
+      "context_id": "MCL-0222",
+      "turn_index": 2
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert puzzle-solving AI and level structure analyst designed specifically for *Patrick's Parabox*. You possess exceptional capabilities in spatial reasoning, recursive logic processing, and state machine tracking. Your mission is to ingest and parse the game rules and demos provided by the user, accurately identifying all spatial layouts, nested structures, and game elements. Execution Protocol: Based on the context of the current level, the user will present you with specific, targeted tasks. You must adhere with absolute strictness to the output format specified at the conclusion of each specific task when formulating your response.\nIf the provided rule context and visual evidence are insufficient to support a ruling, state so immediately. If you are unable to reason through a case confidently, also say so directly—do not continue speculating indefinitely."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# PATRICK’S PARABOX RULEBOOK\n\n# 1. Basic Movement & Physics\n\nPlayer-Controlled Avatar Movement: The player controls a squareavatar that can move in four orthogonal directions (Up, Down, Left,Right).\n\nPushing, Not Pulling: The player can push movable blocks by movinginto them. The player cannot pull blocks.\n\nCollision: The player cannot walk through walls or push a block into awall. If two blocks are lined up, the player can push both simultaneously,provided there is empty space behind the second block.\n\n# 2. The \"Parabox\" Mechanic (Entering & Exiting)\n\nOpenings: Some blocks (and the outer boundary of the level itself) haveopenings on one or more sides.\n\nEntering a Block: A player or a block can only \"enter\" the opening of atarget block if the target block is pressed against an immovable obstacle(such as a wall, or another block whose path is blocked). If there isempty space behind the target block, the player will simply push it. But ifthe block cannot be pushed further, continuing to push against itsopening will cause the player (or the pushed block) to shrink and enterits internal grid.\n\nForce Transmission & Prioritization: When a push chain involvesmultiple blocks pressed against an immovable obstacle, the \"Entering\"resolution priority propagates in reverse—from the immovable obstaclebackwards to the player.\n\nResolution Sequence: The block immediately adjacent to the immovableobstacle (Target Block) is evaluated first. If the Target Block has anaccessible opening facing the direction of the push, the adjacent pushedblock (Entering Block) will be the entity that shrinks and enters.\n\nExiting a Block: If the player is inside a block and walks out through itsboundary opening, they will grow and exit into the parent level,appearing adjacent to the block they just left.\n\nAuto-Centering: When a player or block enters the internal grid ofanother block, its final position is automatically centered along the axisperpendicular to the direction of entry. In other words, the entity will\n\nappear in the row or column immediately adjacent to the entrance, whilebeing precisely centered in the other dimension.\n\n# 3. Recursion & Paradoxes\n\nSelf-Containment (Infinity): A level can contain a copy instance of itself.Entering this copy means entering an infinite loop of recursive space.The state of entity coordinates displayed inside the block remainsabsolutely synchronized with the macro level at all times.\n\nSynchronization: The level itself and its internal copy are different scalemappings of the same entity. Structurally, they share the exact sameunderlying grid data and coordinate space. Any modification to theentities within this shared grid is simultaneously rendered across allvisual instances (macro level and internal copies).\n\nTriggering a Paradox:\n\nPhenomenon: A paradox occurs when you attempt to push an \"internalcopy\" out of the boundary of its \"outer container.\"\n\nLogic: Because the \"inside\" and the \"outside\" are the same whole, thisaction is equivalent to attempting to make an object jump out of itself.\n\nResult: At this point, spatial logic fails, and the system will prevent theaction (the block becomes an immovable rigid body) to prevent the levelstructure from collapsing."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_81d40e073820.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Pay attention to the red arrow's instruction: When a copy of the level itself is pushed out of the level, a paradox will be triggered, resulting in level failure."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_a37ef9a5e9ba.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "# 4. Win Conditions\n\nGoal Squares: The level grid contains specific tiles marked with specialpatterns (such as white hollow squares), which serve as target locations.\n\nEntity Matching (Non-Avatar Block Targets): Require any non-avatarblock (including regular pushable blocks, Paraboxes, Clones, or Nestedsub-levels) to be pushed onto these locations.\n\nEntity Matching (Avatar Targets): Require the player-controlled avatarto rest on these locations.Resolution Criteria: The level is consideredcomplete if and only if all goal squares are correctly occupiedsimultaneously.\n\nNote: If a player pushes a block through a goal square, even if the block momentarilyoverlaps it, the level will not end as long as the player is still in motion or if other goalsquares remain unoccupied.\n\nNested Level Completion: In certain complex recursive levels, you may need to fulfillgoals within a \"sub-space,\" or push an entire \"sub-space block\" onto a goal square inthe \"parent space.\"\n\n# 5. Visual Identification & Coordinate Mapping\n\nTo ensure accurate understanding of level objectives, this manualprovides the following visual references:\n\nIn the accompanying illustrations, the red and white arrows are used forannotative purposes only and are not native elements of the game's interface."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_e4ff9664a6fb.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_9c0f715c9b37.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "• Red Arrows (Non-Avatar Block Targets): Represented as a hollowsquare pattern on the tile. These squares require that any non-avatar block must rest on top of them.\n\nWhite Arrows (Avatar Targets): Represented as dots or specificsymbols on the tile. These squares require that the player-controlled avatar itself rests on top of them.\n\n# Coordinate Convention:\n\nRectangular Baseline: All levels are considered a rectangular grid,regardless of their actual shape. When generating this grid andcalculating coordinates, ignore the outermost enclosing walls,which serve strictly as visual boundaries. The grid is defined bythe minimum bounding rectangle (MBR) of the internal playablearea (including any internal irregular walls or dead zones). Thecoordinate origin (0, 0) is fixed at the top-left corner of thisbounding rectangle.\n\nIrregular Boundary Handling: Any coordinate points locatedoutside the \"irregular outer walls\" or belonging to the \"wallstructure\" are uniformly treated as impassable obstacles (Wall).\n\nOut-of-Bounds Determination: Any movement command thatexceeds the [??????_??????, ??????_??????] range or points to a coordinatewith a Wall attribute is considered an illegal operation.\n\nInternal Consistency: Blocks that are entered (Parabox) followexactly the same coordinate system logic as the main level.Regardless of the grid size or outer wall shape inside the block, itsinternal space is considered an independent rectangular matrix,uniformly using its top-left corner as the(0, 0) origin.\n\n• Example: Level Coordinate Mapping & Entity Initialization"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_f917cb4bbede.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The following table provides a structuralbreakdown of the level illustrated in Figure 1. Itdemonstrates how the rectangular grid system(0, 0) is applied to a layout with irregularboundaries, defining the initial coordinates andproperties of the player, goal targets, andnested Parabox entities.\n\n<table><tr><td>Element/ Location</td><td>Coordinate (x,y)</td><td>Terrain Attribute</td><td>Description</td></tr><tr><td>Coordinate Origin</td><td>(0,0)</td><td>Wall</td><td>Top-left corner of the rectangular grid, impassable</td></tr><tr><td>Avatar (Purplish-red square with eyes, initial position)</td><td>(3,0)</td><td>Floor</td><td>Initial position of the player in the parent level</td></tr><tr><td>Player Goal Square</td><td>(1,0)</td><td>Floor</td><td>Completion requirement: The player must eventually rest here</td></tr><tr><td>Yellow Block</td><td>(3,2)</td><td>Floor</td><td>A regular pushable block</td></tr><tr><td>Block Goal Square</td><td>(1,4)</td><td>Floor</td><td>Completion requirement: A non-player block must be placed here</td></tr><tr><td>Right Nested Sub-level (Small blue box)</td><td>(5,2)</td><td>Floor</td><td>Enterable Parabox, is a self-copy of the level</td></tr><tr><td>Left Level Opening</td><td>Left side of (0,2)</td><td>Portal</td><td>Connects to the left entrance/exit of the self-copy of the level located at (5, 2)</td></tr></table>\n\n# 6. Clone Mechanic Rules\n\n• Visual Distinction: The level contains a \"Main\" Parabox and a(or Copy)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_a9e846da5ce0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Two examples (top and right): The dark greenbox (indicated by the red arrow) is the originalparabox, while the light green one (indicated bythe white arrow) is a clone of that parabox."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_190ba75b12eb.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "• One-Way Entry: Entering the Clone transports the player or anobject directly into the interior of the Main Parabox.\n\nAsymmetrical Connection: This entry mechanism is notreciprocal. Entering the Main Parabox directly will not transportyou to the Clone.\n\nTeleportation Function: This mechanic essentially acts as a spatialteleportation system. The Clone serves as a remote portal,allowing the player to bypass physical obstacles and relocate tothe Main Parabox's position."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Set image:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_953465c78bb0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "as the initial state of the level. Please complete the identification of the level's space and elements according to the coordinate system specifications given in the rulebook and the formatting standards. The output format is as follows: Output a JSON object containing the following two fields:\nmap_grid: A two-dimensional string array reconstructing the level's spatial layout from top to bottom (rows) and left to right (columns). Coordinate system: Use the top-left corner of the level's Minimum Bounding Rectangle (MBR) as the origin (0,0), with the x-axis increasing to the right and the y-axis increasing downwards. map_grid[y][x] corresponds to coordinate (x,y). Base grid values: \"W\" — Wall/Impassable area; \"F\" — Floor/Empty space. Fill special entities into corresponding cells using custom IDs (naming rules below). Portals  must not appear in the map_grid; their cells should be filled with \"F\".\nentities: An attribute dictionary for all special entities, with entity IDs as keys. Each record contains: coordinate: [x, y]; description: Description of appearance and function; Portals must specify which side of the cell they are located on. Parabox types additionally include internal_structure: map_grid: Internal grid array, using the top-left corner of the internal area as (0,0); if the internal playable area is irregular, use the MBR and fill dead zones with \"W\". entities: Internal entity dictionary, formatted identically to the outer layer, with coordinates calculated independently.\nEntity ID Naming Rules:\nPrefix types: A for Avatar, B for pushable Block, P for enterable Parabox, N for internal self-copy, C for Clone, G_A for Avatar Target, G_B for Block Target (occupied by any pushable entity including Paraboxes).\nFormat: [Prefix][Color or characteristic, not needed for A, C, or N]. When multiple entities of the same type and color exist, append a sequence number: [Prefix][Color]1, [Prefix][Color]_2.\nWhen multiple entities of the same type exist, name them according to coordinate sorting: prioritize x-coordinate; if x-coordinates are identical, compare y-coordinates, numbering from smallest to largest.\nPortal Naming:\nOuter level Portals: Portal_1, Portal_2...\nPortals inside a Parabox: {Parabox_ID}_Portal_1, {Parabox_ID}_Portal_2..."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based on the initial state identified in Task 1, strictly follow their respective output specifications to complete the following two sub-tasks:\n(a) Describe the level's nested hierarchy structure: which boxes contain other boxes or the Avatar, and what the hierarchical relationships are. Output format refers to T2a specifications: Output a JSON object containing a single field level_structure, describing the nested level hierarchy in a recursive tree structure. Each node contains: node_id: Unique identifier (Outer level is fixed as \"Root\", others reuse T1 entity IDs); entity_type: one of \"root\" / \"parabox\" / \"internal_copy\" / \"clone\"; description: Brief appearance description; children: List of child nodes directly contained within that entity (fill with [] if no children; internal_copy and clone do not include this field); target_node: Used only for internal_copy and clone, the value must precisely match its referenced node's node_id. Circular Reference Handling: If a node's target_node has already appeared in its ancestral chain, do not expand its children, only keep the target_node field.\n(b) Operation sequence analysis: Starting from the initial state, the Avatar performs the following operation sequence: [1_w1][2_a1][3_s1][4_a1][5_w3] (The number before the letter represents step x, a/w/s/d represent movement directions, and the number after the letter represents the number of consecutive steps). Please point out: The Avatar's final coordinate (intermediate coordinates not required). Any step number that triggers a special mechanism during the journey, what mechanism was triggered, and the state change; when triggering an \"Entering\" mechanism, the new coordinates and current level must be specified. If no mechanism is triggered throughout, note \"No special mechanism triggered throughout.\" Output format as follows:\nFinal Coordinates: (x, y)[Step]: [Change Description][Step]: [Change Description]"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Given a screenshot of a new level"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_9b57778e4b82.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d318d29c3342.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "and its corresponding level identification and nested hierarchy description: \n{\n  \"map_grid\": [\n    [\"F\", \"F\", \"F\", \"A\", \"F\", \"F\"],\n    [\"F\", \"B_Blue_1\", \"F\", \"B_Blue_2\", \"F\", \"F\"],\n    [\"F\", \"F\", \"F\", \"F\", \"F\", \"C\"],\n    [\"F\", \"F\", \"F\", \"P_Green\", \"F\", \"W\"],\n    [\"F\", \"F\", \"F\", \"F\", \"F\", \"W\"]\n  ],\n  \"entities\": {\n    \"A\": {\n      \"coordinate\": [3, 0],\n      \"description\": \"Purplish-red player-controlled avatar.\"\n    },\n    \"B_Blue_1\": {\n      \"coordinate\": [1, 1],\n      \"description\": \"Blue pushable block 1.\"\n    },\n    \"B_Blue_2\": {\n      \"coordinate\": [3, 1],\n      \"description\": \"Blue pushable block 2.\"\n    },\n    \"C\": {\n      \"coordinate\": [5, 2],\n      \"description\": \"Light green Clone of P_Green, synchronously displaying its internal state.\",\n      \"target_node\": \"P_Green\"\n    },\n    \"P_Green\": {\n      \"coordinate\": [3, 3],\n      \"description\": \"Green Parabox with complex internal wall structures.\",\n      \"internal_structure\": {\n        \"map_grid\": [\n          [\"W\", \"W\", \"W\", \"W\", \"F\", \"W\", \"W\", \"W\"],\n          [\"W\", \"W\", \"F\", \"F\", \"F\", \"W\", \"W\", \"W\"],\n          [\"W\", \"W\", \"F\", \"F\", \"W\", \"W\", \"G_A\", \"W\"],\n          [\"W\", \"W\", \"F\", \"F\", \"F\", \"F\", \"G_B\", \"F\"],\n          [\"F\", \"F\", \"F\", \"W\", \"F\", \"F\", \"F\", \"F\"],\n          [\"W\", \"W\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\"],\n          [\"W\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\"],\n          [\"W\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\"]\n        ],\n        \"entities\": {\n          \"G_A\": {\n            \"coordinate\": [6, 2],\n            \"description\": \"Avatar Target square for the player-controlled avatar.\"\n          },\n          \"G_B\": {\n            \"coordinate\": [6, 3],\n            \"description\": \"Non-Avatar Block Target square for any non-avatar block.\"\n          },\n          \"P_Green_Portal_1\": {\n            \"coordinate\": [0, 4],\n            \"description\": \"Portal on the left side of (0, 4).\"\n          },\n          \"P_Green_Portal_2\": {\n            \"coordinate\": [4, 0],\n            \"description\": \"Portal on the top side of (4, 0).\"\n          }\n        }\n      }\n    }\n  }\n}\n{\n  \"level_structure\": {\n    \"node_id\": \"Root\",\n    \"entity_type\": \"root\",\n    \"description\": \"The outermost parent level space.\",\n    \"children\": [\n      {\n        \"node_id\": \"P_Green\",\n        \"entity_type\": \"parabox\",\n        \"description\": \"Dark green Main Parabox with complex internal wall structures and recursive copies.\",\n        \"children\": []\n      },\n      {\n        \"node_id\": \"C_Green\",\n        \"entity_type\": \"clone\",\n        \"description\": \"Light green Clone in the parent space, synchronously displaying the state of P_Green.\",\n        \"target_node\": \"P_Green\"\n      }\n    ]\n  }\n}\nBelow is an operation log for this level (Avatar coordinates and mechanism details are noted when a mechanism is triggered):[1_s1][2_a1][3_s1][4_d3_Push B_Blue_2 into P_Green via C][5_d1_Avatar enters P_Green via C, new coordinate is (0,4)][6_a2_Avatar exits P_Green, returns to root, coordinate is (2,3)][7_s1][8_d1][9_w1][10_a1][11_w1][12_d2_Push P_Green into P_Green via C, creating a self-recursive situation, the pushed P_Green becomes N][13_d1_Avatar enters P_Green, new coordinate is (0,4)][14_d1_Paradox triggered, unable to move further, log ends] \nThere are several errors in this log. Please find them one by one and state:\n1. Which step the error occurs in.\n2. Error Type: Illegal Movement: The movement command failed to change the coordinates as expected due to hitting a wall, going out of bounds, or being blocked; Mechanism Misreport: The log claims a mechanism (Entering, Exiting, Paradox, etc.) was triggered, but the actual trigger conditions were not met, or a different mechanism was actually triggered. Please prioritize categorizing errors under these defined types; if other errors are found, name them and answer accordingly.\n3. Specific Error Content.\nOutput format example: 1. [21_a3_Push B_Yellow to wall]: Illegal movement; at a2, B_Yellow already hit the wall, coordinates will not move further. 2. [Error Step]: Error Type, Error Content."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should be a strict adherence to the output format, ensuring every error record includes the step number, error type (Mechanism Misreport), and specific error reason description.",
+      "2. The response should be a correct identification of step [4_d3] as a Mechanism Misreport, pointing out that by the second sub-step (d2) of [4_d3], block B_Blue had already been pushed into C, and by the third sub-step (d3), the Avatar itself had entered C, causing the new coordinates to change to (0, 4).",
+      "3. The response should be a further identification of [5_d1] as a Mechanism Misreport based on the correct logic of the previous identification, explaining that the Avatar is already inside P_Green at this point, and this step is merely a normal movement rather than a trigger point for an entry mechanism.",
+      "4. The response should be a correct identification of step [14_d1] as a Mechanism Misreport, clearly pointing out that the core reason this step cannot move is that the Avatar is physically blocked (stuck) by N, B_Blue, and the wall, rather than triggering a Paradox mechanism.",
+      "5. The response should be an assurance that all error type determinations are uniformly categorized as \"Mechanism Misreport,\" and the descriptive content must not contain narratives that conflict with the aforementioned physical logic."
+    ],
+    "metadata": {
+      "task_id": "MCL-0222_T3",
+      "context_id": "MCL-0222",
+      "turn_index": 3
+    }
+  },
+  {
+    "messages": [
+      {
+        "role": "system",
+        "content": [
+          {
+            "type": "text",
+            "text": "You are an expert puzzle-solving AI and level structure analyst designed specifically for *Patrick's Parabox*. You possess exceptional capabilities in spatial reasoning, recursive logic processing, and state machine tracking. Your mission is to ingest and parse the game rules and demos provided by the user, accurately identifying all spatial layouts, nested structures, and game elements. Execution Protocol: Based on the context of the current level, the user will present you with specific, targeted tasks. You must adhere with absolute strictness to the output format specified at the conclusion of each specific task when formulating your response.\nIf the provided rule context and visual evidence are insufficient to support a ruling, state so immediately. If you are unable to reason through a case confidently, also say so directly—do not continue speculating indefinitely."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "# PATRICK’S PARABOX RULEBOOK\n\n# 1. Basic Movement & Physics\n\nPlayer-Controlled Avatar Movement: The player controls a squareavatar that can move in four orthogonal directions (Up, Down, Left,Right).\n\nPushing, Not Pulling: The player can push movable blocks by movinginto them. The player cannot pull blocks.\n\nCollision: The player cannot walk through walls or push a block into awall. If two blocks are lined up, the player can push both simultaneously,provided there is empty space behind the second block.\n\n# 2. The \"Parabox\" Mechanic (Entering & Exiting)\n\nOpenings: Some blocks (and the outer boundary of the level itself) haveopenings on one or more sides.\n\nEntering a Block: A player or a block can only \"enter\" the opening of atarget block if the target block is pressed against an immovable obstacle(such as a wall, or another block whose path is blocked). If there isempty space behind the target block, the player will simply push it. But ifthe block cannot be pushed further, continuing to push against itsopening will cause the player (or the pushed block) to shrink and enterits internal grid.\n\nForce Transmission & Prioritization: When a push chain involvesmultiple blocks pressed against an immovable obstacle, the \"Entering\"resolution priority propagates in reverse—from the immovable obstaclebackwards to the player.\n\nResolution Sequence: The block immediately adjacent to the immovableobstacle (Target Block) is evaluated first. If the Target Block has anaccessible opening facing the direction of the push, the adjacent pushedblock (Entering Block) will be the entity that shrinks and enters.\n\nExiting a Block: If the player is inside a block and walks out through itsboundary opening, they will grow and exit into the parent level,appearing adjacent to the block they just left.\n\nAuto-Centering: When a player or block enters the internal grid ofanother block, its final position is automatically centered along the axisperpendicular to the direction of entry. In other words, the entity will\n\nappear in the row or column immediately adjacent to the entrance, whilebeing precisely centered in the other dimension.\n\n# 3. Recursion & Paradoxes\n\nSelf-Containment (Infinity): A level can contain a copy instance of itself.Entering this copy means entering an infinite loop of recursive space.The state of entity coordinates displayed inside the block remainsabsolutely synchronized with the macro level at all times.\n\nSynchronization: The level itself and its internal copy are different scalemappings of the same entity. Structurally, they share the exact sameunderlying grid data and coordinate space. Any modification to theentities within this shared grid is simultaneously rendered across allvisual instances (macro level and internal copies).\n\nTriggering a Paradox:\n\nPhenomenon: A paradox occurs when you attempt to push an \"internalcopy\" out of the boundary of its \"outer container.\"\n\nLogic: Because the \"inside\" and the \"outside\" are the same whole, thisaction is equivalent to attempting to make an object jump out of itself.\n\nResult: At this point, spatial logic fails, and the system will prevent theaction (the block becomes an immovable rigid body) to prevent the levelstructure from collapsing."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_001_81d40e073820.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Pay attention to the red arrow's instruction: When a copy of the level itself is pushed out of the level, a paradox will be triggered, resulting in level failure."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_002_a37ef9a5e9ba.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "# 4. Win Conditions\n\nGoal Squares: The level grid contains specific tiles marked with specialpatterns (such as white hollow squares), which serve as target locations.\n\nEntity Matching (Non-Avatar Block Targets): Require any non-avatarblock (including regular pushable blocks, Paraboxes, Clones, or Nestedsub-levels) to be pushed onto these locations.\n\nEntity Matching (Avatar Targets): Require the player-controlled avatarto rest on these locations.Resolution Criteria: The level is consideredcomplete if and only if all goal squares are correctly occupiedsimultaneously.\n\nNote: If a player pushes a block through a goal square, even if the block momentarilyoverlaps it, the level will not end as long as the player is still in motion or if other goalsquares remain unoccupied.\n\nNested Level Completion: In certain complex recursive levels, you may need to fulfillgoals within a \"sub-space,\" or push an entire \"sub-space block\" onto a goal square inthe \"parent space.\"\n\n# 5. Visual Identification & Coordinate Mapping\n\nTo ensure accurate understanding of level objectives, this manualprovides the following visual references:\n\nIn the accompanying illustrations, the red and white arrows are used forannotative purposes only and are not native elements of the game's interface."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_003_e4ff9664a6fb.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_004_9c0f715c9b37.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "• Red Arrows (Non-Avatar Block Targets): Represented as a hollowsquare pattern on the tile. These squares require that any non-avatar block must rest on top of them.\n\nWhite Arrows (Avatar Targets): Represented as dots or specificsymbols on the tile. These squares require that the player-controlled avatar itself rests on top of them.\n\n# Coordinate Convention:\n\nRectangular Baseline: All levels are considered a rectangular grid,regardless of their actual shape. When generating this grid andcalculating coordinates, ignore the outermost enclosing walls,which serve strictly as visual boundaries. The grid is defined bythe minimum bounding rectangle (MBR) of the internal playablearea (including any internal irregular walls or dead zones). Thecoordinate origin (0, 0) is fixed at the top-left corner of thisbounding rectangle.\n\nIrregular Boundary Handling: Any coordinate points locatedoutside the \"irregular outer walls\" or belonging to the \"wallstructure\" are uniformly treated as impassable obstacles (Wall).\n\nOut-of-Bounds Determination: Any movement command thatexceeds the [??????_??????, ??????_??????] range or points to a coordinatewith a Wall attribute is considered an illegal operation.\n\nInternal Consistency: Blocks that are entered (Parabox) followexactly the same coordinate system logic as the main level.Regardless of the grid size or outer wall shape inside the block, itsinternal space is considered an independent rectangular matrix,uniformly using its top-left corner as the(0, 0) origin.\n\n• Example: Level Coordinate Mapping & Entity Initialization"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_005_f917cb4bbede.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "The following table provides a structuralbreakdown of the level illustrated in Figure 1. Itdemonstrates how the rectangular grid system(0, 0) is applied to a layout with irregularboundaries, defining the initial coordinates andproperties of the player, goal targets, andnested Parabox entities.\n\n<table><tr><td>Element/ Location</td><td>Coordinate (x,y)</td><td>Terrain Attribute</td><td>Description</td></tr><tr><td>Coordinate Origin</td><td>(0,0)</td><td>Wall</td><td>Top-left corner of the rectangular grid, impassable</td></tr><tr><td>Avatar (Purplish-red square with eyes, initial position)</td><td>(3,0)</td><td>Floor</td><td>Initial position of the player in the parent level</td></tr><tr><td>Player Goal Square</td><td>(1,0)</td><td>Floor</td><td>Completion requirement: The player must eventually rest here</td></tr><tr><td>Yellow Block</td><td>(3,2)</td><td>Floor</td><td>A regular pushable block</td></tr><tr><td>Block Goal Square</td><td>(1,4)</td><td>Floor</td><td>Completion requirement: A non-player block must be placed here</td></tr><tr><td>Right Nested Sub-level (Small blue box)</td><td>(5,2)</td><td>Floor</td><td>Enterable Parabox, is a self-copy of the level</td></tr><tr><td>Left Level Opening</td><td>Left side of (0,2)</td><td>Portal</td><td>Connects to the left entrance/exit of the self-copy of the level located at (5, 2)</td></tr></table>\n\n# 6. Clone Mechanic Rules\n\n• Visual Distinction: The level contains a \"Main\" Parabox and a(or Copy)."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_006_a9e846da5ce0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "Two examples (top and right): The dark greenbox (indicated by the red arrow) is the originalparabox, while the light green one (indicated bythe white arrow) is a clone of that parabox."
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/embedded_007_190ba75b12eb.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "• One-Way Entry: Entering the Clone transports the player or anobject directly into the interior of the Main Parabox.\n\nAsymmetrical Connection: This entry mechanism is notreciprocal. Entering the Main Parabox directly will not transportyou to the Clone.\n\nTeleportation Function: This mechanic essentially acts as a spatialteleportation system. The Clone serves as a remote portal,allowing the player to bypass physical obstacles and relocate tothe Main Parabox's position."
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Set image:"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_008_953465c78bb0.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "as the initial state of the level. Please complete the identification of the level's space and elements according to the coordinate system specifications given in the rulebook and the formatting standards. The output format is as follows: Output a JSON object containing the following two fields:\nmap_grid: A two-dimensional string array reconstructing the level's spatial layout from top to bottom (rows) and left to right (columns). Coordinate system: Use the top-left corner of the level's Minimum Bounding Rectangle (MBR) as the origin (0,0), with the x-axis increasing to the right and the y-axis increasing downwards. map_grid[y][x] corresponds to coordinate (x,y). Base grid values: \"W\" — Wall/Impassable area; \"F\" — Floor/Empty space. Fill special entities into corresponding cells using custom IDs (naming rules below). Portals  must not appear in the map_grid; their cells should be filled with \"F\".\nentities: An attribute dictionary for all special entities, with entity IDs as keys. Each record contains: coordinate: [x, y]; description: Description of appearance and function; Portals must specify which side of the cell they are located on. Parabox types additionally include internal_structure: map_grid: Internal grid array, using the top-left corner of the internal area as (0,0); if the internal playable area is irregular, use the MBR and fill dead zones with \"W\". entities: Internal entity dictionary, formatted identically to the outer layer, with coordinates calculated independently.\nEntity ID Naming Rules:\nPrefix types: A for Avatar, B for pushable Block, P for enterable Parabox, N for internal self-copy, C for Clone, G_A for Avatar Target, G_B for Block Target (occupied by any pushable entity including Paraboxes).\nFormat: [Prefix][Color or characteristic, not needed for A, C, or N]. When multiple entities of the same type and color exist, append a sequence number: [Prefix][Color]1, [Prefix][Color]_2.\nWhen multiple entities of the same type exist, name them according to coordinate sorting: prioritize x-coordinate; if x-coordinates are identical, compare y-coordinates, numbering from smallest to largest.\nPortal Naming:\nOuter level Portals: Portal_1, Portal_2...\nPortals inside a Parabox: {Parabox_ID}_Portal_1, {Parabox_ID}_Portal_2..."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based on the initial state identified in Task 1, strictly follow their respective output specifications to complete the following two sub-tasks:\n(a) Describe the level's nested hierarchy structure: which boxes contain other boxes or the Avatar, and what the hierarchical relationships are. Output format refers to T2a specifications: Output a JSON object containing a single field level_structure, describing the nested level hierarchy in a recursive tree structure. Each node contains: node_id: Unique identifier (Outer level is fixed as \"Root\", others reuse T1 entity IDs); entity_type: one of \"root\" / \"parabox\" / \"internal_copy\" / \"clone\"; description: Brief appearance description; children: List of child nodes directly contained within that entity (fill with [] if no children; internal_copy and clone do not include this field); target_node: Used only for internal_copy and clone, the value must precisely match its referenced node's node_id. Circular Reference Handling: If a node's target_node has already appeared in its ancestral chain, do not expand its children, only keep the target_node field.\n(b) Operation sequence analysis: Starting from the initial state, the Avatar performs the following operation sequence: [1_w1][2_a1][3_s1][4_a1][5_w3] (The number before the letter represents step x, a/w/s/d represent movement directions, and the number after the letter represents the number of consecutive steps). Please point out: The Avatar's final coordinate (intermediate coordinates not required). Any step number that triggers a special mechanism during the journey, what mechanism was triggered, and the state change; when triggering an \"Entering\" mechanism, the new coordinates and current level must be specified. If no mechanism is triggered throughout, note \"No special mechanism triggered throughout.\" Output format as follows:\nFinal Coordinates: (x, y)[Step]: [Change Description][Step]: [Change Description]"
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Given a screenshot of a new level"
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_009_9b57778e4b82.png"
+            }
+          },
+          {
+            "type": "image_url",
+            "image_url": {
+              "url": "assets/asset_010_d318d29c3342.png"
+            }
+          },
+          {
+            "type": "text",
+            "text": "and its corresponding level identification and nested hierarchy description: \n{\n  \"map_grid\": [\n    [\"F\", \"F\", \"F\", \"A\", \"F\", \"F\"],\n    [\"F\", \"B_Blue_1\", \"F\", \"B_Blue_2\", \"F\", \"F\"],\n    [\"F\", \"F\", \"F\", \"F\", \"F\", \"C\"],\n    [\"F\", \"F\", \"F\", \"P_Green\", \"F\", \"W\"],\n    [\"F\", \"F\", \"F\", \"F\", \"F\", \"W\"]\n  ],\n  \"entities\": {\n    \"A\": {\n      \"coordinate\": [3, 0],\n      \"description\": \"Purplish-red player-controlled avatar.\"\n    },\n    \"B_Blue_1\": {\n      \"coordinate\": [1, 1],\n      \"description\": \"Blue pushable block 1.\"\n    },\n    \"B_Blue_2\": {\n      \"coordinate\": [3, 1],\n      \"description\": \"Blue pushable block 2.\"\n    },\n    \"C\": {\n      \"coordinate\": [5, 2],\n      \"description\": \"Light green Clone of P_Green, synchronously displaying its internal state.\",\n      \"target_node\": \"P_Green\"\n    },\n    \"P_Green\": {\n      \"coordinate\": [3, 3],\n      \"description\": \"Green Parabox with complex internal wall structures.\",\n      \"internal_structure\": {\n        \"map_grid\": [\n          [\"W\", \"W\", \"W\", \"W\", \"F\", \"W\", \"W\", \"W\"],\n          [\"W\", \"W\", \"F\", \"F\", \"F\", \"W\", \"W\", \"W\"],\n          [\"W\", \"W\", \"F\", \"F\", \"W\", \"W\", \"G_A\", \"W\"],\n          [\"W\", \"W\", \"F\", \"F\", \"F\", \"F\", \"G_B\", \"F\"],\n          [\"F\", \"F\", \"F\", \"W\", \"F\", \"F\", \"F\", \"F\"],\n          [\"W\", \"W\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\"],\n          [\"W\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\"],\n          [\"W\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\", \"F\"]\n        ],\n        \"entities\": {\n          \"G_A\": {\n            \"coordinate\": [6, 2],\n            \"description\": \"Avatar Target square for the player-controlled avatar.\"\n          },\n          \"G_B\": {\n            \"coordinate\": [6, 3],\n            \"description\": \"Non-Avatar Block Target square for any non-avatar block.\"\n          },\n          \"P_Green_Portal_1\": {\n            \"coordinate\": [0, 4],\n            \"description\": \"Portal on the left side of (0, 4).\"\n          },\n          \"P_Green_Portal_2\": {\n            \"coordinate\": [4, 0],\n            \"description\": \"Portal on the top side of (4, 0).\"\n          }\n        }\n      }\n    }\n  }\n}\n{\n  \"level_structure\": {\n    \"node_id\": \"Root\",\n    \"entity_type\": \"root\",\n    \"description\": \"The outermost parent level space.\",\n    \"children\": [\n      {\n        \"node_id\": \"P_Green\",\n        \"entity_type\": \"parabox\",\n        \"description\": \"Dark green Main Parabox with complex internal wall structures and recursive copies.\",\n        \"children\": []\n      },\n      {\n        \"node_id\": \"C_Green\",\n        \"entity_type\": \"clone\",\n        \"description\": \"Light green Clone in the parent space, synchronously displaying the state of P_Green.\",\n        \"target_node\": \"P_Green\"\n      }\n    ]\n  }\n}\nBelow is an operation log for this level (Avatar coordinates and mechanism details are noted when a mechanism is triggered):[1_s1][2_a1][3_s1][4_d3_Push B_Blue_2 into P_Green via C][5_d1_Avatar enters P_Green via C, new coordinate is (0,4)][6_a2_Avatar exits P_Green, returns to root, coordinate is (2,3)][7_s1][8_d1][9_w1][10_a1][11_w1][12_d2_Push P_Green into P_Green via C, creating a self-recursive situation, the pushed P_Green becomes N][13_d1_Avatar enters P_Green, new coordinate is (0,4)][14_d1_Paradox triggered, unable to move further, log ends] \nThere are several errors in this log. Please find them one by one and state:\n1. Which step the error occurs in.\n2. Error Type: Illegal Movement: The movement command failed to change the coordinates as expected due to hitting a wall, going out of bounds, or being blocked; Mechanism Misreport: The log claims a mechanism (Entering, Exiting, Paradox, etc.) was triggered, but the actual trigger conditions were not met, or a different mechanism was actually triggered. Please prioritize categorizing errors under these defined types; if other errors are found, name them and answer accordingly.\n3. Specific Error Content.\nOutput format example: 1. [21_a3_Push B_Yellow to wall]: Illegal movement; at a2, B_Yellow already hit the wall, coordinates will not move further. 2. [Error Step]: Error Type, Error Content."
+          }
+        ]
+      },
+      {
+        "role": "assistant",
+        "content": [
+          {
+            "type": "text",
+            "text": "[WAITING_FOR_FILL]"
+          }
+        ]
+      },
+      {
+        "role": "user",
+        "content": [
+          {
+            "type": "text",
+            "text": "Based on the level screenshot in Task 3, provide the complete optimal operation path from the initial state to level completion.\nRequirements:\nContinuous movement in the same direction is recorded as one step; a new step must be started when changing directions.\nIf a mechanism is triggered during continuous movement, the step must be truncated at the trigger point; the steps before the trigger and the trigger point itself are recorded as two separate steps, e.g., [2_a1_Trigger Mechanism][1_a2].\nWhen a mechanism is triggered, the trigger content must be noted in that step; the Avatar's new coordinates and current level are only noted when the Avatar's level hierarchy changes.\nWhen any target square (G_A or G_B) is occupied, the note \"[Entity] occupies [Goal Square ID]\" must be added to that step.\nFor example: When the Avatar's level hierarchy changes, it must be noted in the format: Avatar new coordinate (x,y)@Level node_id.\nPath Output Format: Each step is based on [n_DirectionStepCount], with all required notes appended sequentially separated by underscores \"_\". There is no fixed upper limit on the number of fields.\nExample: [1_a1_Push B_1 into C][2_a2][3_s3_Avatar occupies G_A][4_d1_Push P to G_B_P_Green occupies G_B]\nAfter completing the path, please separately note the sum of all step counts at the end in the format: \"Total movement steps: XX steps\"."
+          }
+        ]
+      }
+    ],
+    "rubrics": [
+      "1. The response should be a strict adherence to the format where each step is based on [n_DirectionStepCount] and additional content is appended with underscore \"_\" separators.",
+      "2. The response should be an assurance that the sum of all movement steps in the path (i.e., the numbers following the direction letters) does not exceed 60 steps.",
+      "3. The response should be an inclusion within the path of the operation description for pushing P_Green through C's Portal into P_Green to form N.",
+      "4. The response should be an accurate labeling of state changes when the Avatar enters P_Green, and the content must precisely include the string \"Avatar new coordinate (4,0)@P_Green\".",
+      "5. The response should be an inclusion of the step pushing entity N onto G_B, with a clear note of \"G_B occupied\" in that step.",
+      "6. The response should be an inclusion of the Avatar's state of leaving N and entering P_Green before the path ends, which must completely include the two annotations \"Avatar new coordinate (6,2)@P_Green\" and \"Avatar occupies G_A\"."
+    ],
+    "metadata": {
+      "task_id": "MCL-0222_T4",
+      "context_id": "MCL-0222",
+      "turn_index": 4
+    }
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "random_seed": 23049,
+  "artifact_role": "reference_execution_plan",
+  "formal_candidates_sha256": "183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+  "source_versions_file": "source_versions.json",
+  "source_versions_sha256": "1e64f5414ab2f795140783ee7857c95d575a8c6f5abb94e4b25af6534ea03f8f",
+  "source_root_not_embedded": true,
+  "case_count": 189,
+  "dataset_counts": {
+    "mmlongbench-doc": 94,
+    "slidevqa": 95
+  },
+  "taxonomy_counts": {
+    "Rule Learning & Complex Reasoning": 48,
+    "Temporal Dynamics & Environmental Interaction": 47,
+    "Evidence Integration & Structured Auditing": 47,
+    "Expert Standards & Scenario Decision-Making": 47
+  }
+}

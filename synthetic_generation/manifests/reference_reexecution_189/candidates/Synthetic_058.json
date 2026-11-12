@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_058",
+  "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+  "subtype": "ordered slide-state transition",
+  "learning_target": "Maintain and update a case-local state across ordered visual steps.",
+  "source_card": {
+    "source_id": "slidevqa:strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-1-1024.jpg",
+        "sha256": "080be7e29b2fdae4af70de415e958c51c538a5852ba0622cb9d15118d57e8377",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-3-1024.jpg",
+        "sha256": "3e5a051b666fbcebe83a199a290b60135c9d7a41af7336872963b6c4fb3a5d0c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-4-1024.jpg",
+        "sha256": "2c295377678d9617fac6f64245465244686a443e080a7d6277e6548ece18109d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-6-1024.jpg",
+        "sha256": "075fec8c4a1fd6004636b01384b508724e45330e1923f93cb17a221a9f3245f1",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-8-1024.jpg",
+        "sha256": "ab683b13e17e028873786a3a6ee06336c2a1f1b69861cb0d7618389b664fd4ba",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-10-1024.jpg",
+        "sha256": "27bf239973f93b69544075b771f57d44d4c3bf99a9573b1150c3e78c05cce078",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-11-1024.jpg",
+        "sha256": "fb63a4bcf6ca2f01da11345a8155be62f071b0f46464453bdae666ee47eef94d",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-13-1024.jpg",
+        "sha256": "b43618369dd295120cbf2c862fba8a3b0de7510b8a72c3ec62d0c1339cefb707",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-15-1024.jpg",
+        "sha256": "4438fd2a7f6e54ba456c90eb35b7da816b61839996eea4d09f1b341e534f68d3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-17-1024.jpg",
+        "sha256": "c9d3e98c19e552796185ac91116e5005087b3f021aebed2a3e19483883472282",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-18-1024.jpg",
+        "sha256": "68f4759020ad9452dde0dab7482f8f42a7d4cecd548d52d645890a35a0247ad2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/strategiesforjointbusinessplanningsessions-141203092622-conversion-gate01_95/strategies-for-joint-business-planning-sessions-20-1024.jpg",
+        "sha256": "d62424964c27b743ed134f827443b6a940fe12d0dcf9e85f3a9934892235a443",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

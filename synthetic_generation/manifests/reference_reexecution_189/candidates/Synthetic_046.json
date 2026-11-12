@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_046",
+  "taxonomy_category": "Rule Learning & Complex Reasoning",
+  "subtype": "cross-slide local-rule induction",
+  "learning_target": "Infer and execute case-local rules grounded in linked visual examples.",
+  "source_card": {
+    "source_id": "slidevqa:test/europeactive-140730052811-phpapp02_95",
+    "dataset": "slidevqa",
+    "dataset_version": "reference-reexecution:0d4168a935d60b0b218097205a02fb1133c8bead;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "test/europeactive-140730052811-phpapp02_95",
+    "upstream_url": "https://github.com/nttmdlab-nlp/SlideVQA",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-1-1024.jpg",
+        "sha256": "0cb42517578c10b5862e95b913d5092dae8fbdb96a2177c9436206126814548b",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-3-1024.jpg",
+        "sha256": "0dade2bcb89d421aed912f044538309aba04a61bb6ff40c8746801f0bf2b900c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-4-1024.jpg",
+        "sha256": "5497b1fcc8dae27c9ac302dafc653ec1426bfa0b4c837cdca03a7d416ec0843a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-6-1024.jpg",
+        "sha256": "8d045df6652d1fbc36431a7561d3c7360643398b012625644488914d6646a3c8",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-8-1024.jpg",
+        "sha256": "01bd54d41df806b08c439cbfd9c6911512e6d2de7b4bd1ff597f20711842caca",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-10-1024.jpg",
+        "sha256": "ef9e970704ec837ed48c45a14d3c0c0c5a91da8a21ec271117e21505c5c227d3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-11-1024.jpg",
+        "sha256": "ea4cb670135a23e9449c691ed27bb57b481d253121b0874d859c9427d915912c",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-13-1024.jpg",
+        "sha256": "f5439b9b7019a0063f80531cf911d3893af8edecf4f27e16d12758462e3ac307",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-15-1024.jpg",
+        "sha256": "1af0578a83366a59f09d0f72d3a60bbd3037894c98a771bd63414c8e1a1b2271",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-17-1024.jpg",
+        "sha256": "32c03bc5c442220baa21402098dd729ee651883463b2fc3fa22d5698543df281",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-18-1024.jpg",
+        "sha256": "b4606fd991dda588b0921258ae57a2f4751c1d600dbf818268457effac3d9163",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "slideVQA/test/europeactive-140730052811-phpapp02_95/future-of-the-fitness-industry-20-1024.jpg",
+        "sha256": "e74bb51e8c65a2b3682961e2f0c0dfdf619479df0ac87460a986ad21af003fd9",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}

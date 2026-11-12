@@ -1,0 +1,29 @@
+{
+  "source_track": "synthetic",
+  "category": "Evidence Integration & Structured Auditing",
+  "subcategory": "Charts & Numbers",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0112",
+      "directory": "MCL-0112_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0113",
+      "directory": "MCL-0113_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0114",
+      "directory": "MCL-0114_synthetic",
+      "task_count": "4",
+      "source_track": "synthetic",
+      "release_status": "ready"
+    }
+  ]
+}

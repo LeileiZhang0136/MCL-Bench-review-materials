@@ -1,0 +1,44 @@
+{
+  "random_seed": 23049,
+  "max_assets_per_case": 12,
+  "total_cases": 189,
+  "allocation": [
+    {
+      "taxonomy_category": "Rule Learning & Complex Reasoning",
+      "dataset": "slidevqa",
+      "count": 48,
+      "subtype": "cross-slide local-rule induction"
+    },
+    {
+      "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+      "dataset": "slidevqa",
+      "count": 24,
+      "subtype": "ordered slide-state transition"
+    },
+    {
+      "taxonomy_category": "Temporal Dynamics & Environmental Interaction",
+      "dataset": "mmlongbench-doc",
+      "count": 23,
+      "subtype": "cross-page process-state tracking"
+    },
+    {
+      "taxonomy_category": "Evidence Integration & Structured Auditing",
+      "dataset": "mmlongbench-doc",
+      "count": 47,
+      "subtype": "cross-page evidence ledger"
+    },
+    {
+      "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+      "dataset": "slidevqa",
+      "count": 23,
+      "subtype": "case-local standard application"
+    },
+    {
+      "taxonomy_category": "Expert Standards & Scenario Decision-Making",
+      "dataset": "mmlongbench-doc",
+      "count": 24,
+      "subtype": "document-grounded local-standard decision"
+    }
+  ]
+}
+

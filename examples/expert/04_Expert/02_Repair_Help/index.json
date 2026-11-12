@@ -1,0 +1,29 @@
+{
+  "source_track": "expert",
+  "category": "Expert Standards & Scenario Decision-Making",
+  "subcategory": "Repair Help",
+  "count": 3,
+  "cases": [
+    {
+      "case_id": "MCL-0294",
+      "directory": "MCL-0294_expert_E07",
+      "task_count": "1",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0287",
+      "directory": "MCL-0287_expert_E10",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    },
+    {
+      "case_id": "MCL-0288",
+      "directory": "MCL-0288_expert_E10",
+      "task_count": "2",
+      "source_track": "expert",
+      "release_status": "ready"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-07-29",
+  "python_version": "3.12.13",
+  "openai_version": "2.48.0",
+  "configured_model": "gpt-5.5",
+  "responses_parse_required_parameters": [
+    "input",
+    "model",
+    "reasoning",
+    "store",
+    "text_format"
+  ],
+  "missing_parameters": [],
+  "status": "pass",
+  "live_api_call_performed": false
+}

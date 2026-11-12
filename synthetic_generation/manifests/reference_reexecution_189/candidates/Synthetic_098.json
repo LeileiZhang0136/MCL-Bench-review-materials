@@ -1,0 +1,116 @@
+{
+  "case_id": "Synthetic_098",
+  "taxonomy_category": "Evidence Integration & Structured Auditing",
+  "subtype": "cross-page evidence ledger",
+  "learning_target": "Build a reusable evidence ledger and apply local audit rules.",
+  "source_card": {
+    "source_id": "mmlongbench-doc:catvsdogdlpycon15se-150512122612-lva1-app6891_95",
+    "dataset": "mmlongbench-doc",
+    "dataset_version": "reference-reexecution:d73f0dc0be7e0a2ff6a403d5fe65fcd96461f384;formal-candidates-sha256:183e1e292c766e89f6c81820d212d37a007879c5e151330cff527b1a7e614901",
+    "split": "unspecified_in_local_source_snapshot",
+    "sample_id": "catvsdogdlpycon15se-150512122612-lva1-app6891_95",
+    "upstream_url": "https://github.com/mayubo2333/MMLongBench-Doc",
+    "license_or_access": "See upstream dataset and underlying-asset terms.",
+    "redistribution_status": "review_required",
+    "source_snapshot_date": "2026-07-29",
+    "selected_assets": [
+      {
+        "asset_id": "asset-01",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page0.jpg",
+        "sha256": "cfd68171b9176f90e4101486f4a46a55ebbefbf63db2d631433f81755bb1a45a",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "1"
+      },
+      {
+        "asset_id": "asset-02",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page6.jpg",
+        "sha256": "833b8306bb342362bac75ec6175788b6182f4d812864add3bd49917cafb48bce",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "2"
+      },
+      {
+        "asset_id": "asset-03",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page12.jpg",
+        "sha256": "46d88e43a6228aef247ca3f0b80c6659c9a913da3444ea7673e828d99888efd2",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "3"
+      },
+      {
+        "asset_id": "asset-04",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page18.jpg",
+        "sha256": "275ed41d0f3b07b7380a299ae16f12caf13380e2d964cf3a5317597f6a50f420",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "4"
+      },
+      {
+        "asset_id": "asset-05",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page24.jpg",
+        "sha256": "3d987e2223e8421265f5938a2449ffa29d8264ecd20829d69b0b4efc3acb7f6e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "5"
+      },
+      {
+        "asset_id": "asset-06",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page30.jpg",
+        "sha256": "cb2faea6ab249c753ae805f2b3c6e054672a9bb0fe07fb1807185ba1c51cc1a3",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "6"
+      },
+      {
+        "asset_id": "asset-07",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page37.jpg",
+        "sha256": "0747678d1ce74a77f581ddaac4528b3152e77b23ac4208996852489b80b16283",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "7"
+      },
+      {
+        "asset_id": "asset-08",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page43.jpg",
+        "sha256": "fd8a5a46698b68bf85e1128c892f333ee30dfcd247f839ab9c0a2e672b44506e",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "8"
+      },
+      {
+        "asset_id": "asset-09",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page49.jpg",
+        "sha256": "2cfc69b9a70218820356d77727fd0c34cb53d33fb92cbab62c56348a53bf0b64",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "9"
+      },
+      {
+        "asset_id": "asset-10",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page55.jpg",
+        "sha256": "88cec5cc43ffc4e51407a6563e37a398d986a8fc66e411568b85c7e6fa7cf910",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "10"
+      },
+      {
+        "asset_id": "asset-11",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page61.jpg",
+        "sha256": "2a05ef161ab0ed36083fec212eb2a517641c06a5c05f1794708ad56064399fac",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "11"
+      },
+      {
+        "asset_id": "asset-12",
+        "path": "mmlongbench-doc/catvsdogdlpycon15se-150512122612-lva1-app6891_95/catvsdogdlpycon15se-150512122612-lva1-app6891_95_page67.jpg",
+        "sha256": "fdafdb7fab3a628f65adc3bcd0984a297b37be6cedd28f5ff275a31f0d28e4e6",
+        "media_type": "image/jpeg",
+        "page_or_image_index": "12"
+      }
+    ],
+    "source_text_fields": {
+      "candidate_level": "formal",
+      "text_support_status": "embedded_text_likely",
+      "filter_reasons": "[\"meets_formal_thresholds\"]"
+    },
+    "traceability_notes": "Prepared deterministically from formal_candidates.jsonl; selected pages/images are evenly spaced when the source contains more than the configured asset cap."
+  },
+  "construction_constraints": [
+    "Use three to five dependent tasks.",
+    "Require visual evidence and a case-local textual rule in every task.",
+    "Do not reuse an upstream QA answer as the benchmark answer.",
+    "Include at least two controlled challenge mutations.",
+    "Keep every final claim traceable to evidence and local rules."
+  ]
+}
