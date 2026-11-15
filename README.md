@@ -6,6 +6,12 @@ records, reproduction code, prompts, statistical evidence, and the executable
 synthetic-case construction framework. Start with the offline command below;
 it does not call any model API.
 
+## Manuscript revision guide
+
+For a concise map of the blue-highlighted manuscript changes, including
+section, figure/table, page references and supporting records, see the
+[revision guide](REVISION_GUIDE.md).
+
 ## What is a paper result and what is supplementary?
 
 | Scope | Cases | Tasks | Role in this artifact |
